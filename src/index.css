@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Prevent overscroll bounce on iOS so the swiper feels native */
+html, body {
+  overscroll-behavior: none;
+  height: 100%;
+}
+
+#root {
+  height: 100%;
+}
+
+/* Swiper dot indicators — override default Swiper pagination colors */
+.swiper-pagination-bullet {
+  background: #9ca3af !important;
+  opacity: 1 !important;
+}
+.swiper-pagination-bullet-active {
+  background: #82284A !important; /* LUC maroon */
+}
