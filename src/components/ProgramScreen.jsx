@@ -9,49 +9,40 @@ import CourseList from './CourseList';
 import Roadmap from './Roadmap';
 import Checklist from './Checklist';
 import Audit from './Audit';
+import Footer from './Footer';
 
 const TABS = ['Courses', 'Roadmap', 'Checklist', 'Audit'];
 
 /**
- * ProgramScreen — the detail view for one degree program.
- * Contains three horizontally-swipeable panels:
- *   0. Required Courses
- *   1. Four-Year Roadmap
- *   2. Transfer / AP Checklist
- *
- * The tab bar at the top is clickable and stays in sync with the active
- * Swiper slide — tapping a tab jumps to that panel instantly.
+ * ProgramScreen — four horizontally-swipeable panels for one degree program.
  *
  * Props:
- *   program     — full program data object
- *   completed   — Set of completed IDs
- *   toggle      — function(id) to mark/unmark
- *   hasConsent  — localStorage consent flag
- *   grantConsent, exportJSON, importJSON — from useProgress
- *   onBack      — callback to return to HomeScreen
+ *   program   — full program data object
+ *   completed — Set of completed IDs
+ *   toggle    — function(id) to mark/unmark
+ *   onBack    — callback to return to HomeScreen
  */
-export default function ProgramScreen({
-  program, completed, toggle,
-  hasConsent, grantConsent, exportJSON, importJSON,
-  onBack,
-}) {
-  // Track the active slide index so the tab bar highlights correctly
+export default function ProgramScreen({ program, completed, toggle, onBack }) {
   const [activeIndex, setActiveIndex] = useState(0);
-
-  // Hold a reference to the Swiper instance so tabs can call slideTo()
-  const swiperRef = useRef(null);
+  const [copied, setCopied]           = useState(false);
+  const swiperRef                     = useRef(null);
 
   const GRADUATION_CREDITS = 120;
-
-  // Sum credits for every checked-off course and core requirement
   const doneCredits =
     program.courses.filter(c => completed.has(c.id)).reduce((s, c) => s + c.credits, 0) +
     program.coreRequirements.filter(r => completed.has(r.id)).reduce((s, r) => s + r.credits, 0);
-
   const pct = Math.min(100, Math.round((doneCredits / GRADUATION_CREDITS) * 100));
 
   function goToTab(index) {
     swiperRef.current?.slideTo(index);
+  }
+
+  // Copy the current URL (which is already kept in sync by App.jsx) to clipboard
+  function copyLink() {
+    navigator.clipboard.writeText(window.location.href).then(() => {
+      setCopied(true);
+      setTimeout(() => setCopied(false), 2000);
+    });
   }
 
   return (
@@ -69,13 +60,25 @@ export default function ProgramScreen({
           <h1 className="text-base font-bold text-gray-900 truncate">{program.name}</h1>
           <p className="text-xs text-gray-400">{program.degree} · {program.totalCredits} credits</p>
         </div>
+
+        {/* Share link button */}
+        <button
+          onClick={copyLink}
+          className={`flex-shrink-0 text-xs font-semibold px-2 py-1 rounded-full transition-colors
+            ${copied ? 'bg-maroon-500 text-white' : 'bg-maroon-50 text-maroon-600 active:bg-maroon-100'}`}
+          title="Copy shareable link"
+        >
+          {copied ? 'Copied!' : '🔗 Share'}
+        </button>
+
+        {/* Credit progress pill */}
         <div className="flex-shrink-0 bg-maroon-50 text-maroon-600 text-xs font-semibold px-2 py-1 rounded-full text-center leading-tight">
           <div>{doneCredits} / {GRADUATION_CREDITS} cr</div>
           <div className="text-maroon-400 font-normal">{pct}%</div>
         </div>
       </div>
 
-      {/* Clickable tab bar — highlights the active panel */}
+      {/* Clickable tab bar */}
       <div className="flex bg-white border-b border-gray-200">
         {TABS.map((label, i) => (
           <button
@@ -105,26 +108,22 @@ export default function ProgramScreen({
         >
           <SwiperSlide style={{ overflowY: 'auto' }}>
             <CourseList program={program} completed={completed} toggle={toggle} />
+            <Footer />
           </SwiperSlide>
 
           <SwiperSlide style={{ overflowY: 'auto' }}>
             <Roadmap program={program} completed={completed} toggle={toggle} />
+            <Footer />
           </SwiperSlide>
 
           <SwiperSlide style={{ overflowY: 'auto' }}>
-            <Checklist
-              program={program}
-              completed={completed}
-              toggle={toggle}
-              hasConsent={hasConsent}
-              grantConsent={grantConsent}
-              exportJSON={exportJSON}
-              importJSON={importJSON}
-            />
+            <Checklist program={program} completed={completed} toggle={toggle} />
+            <Footer />
           </SwiperSlide>
 
           <SwiperSlide style={{ overflowY: 'auto' }}>
             <Audit program={program} completed={completed} toggle={toggle} />
+            <Footer />
           </SwiperSlide>
         </Swiper>
       </div>

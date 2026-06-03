@@ -1,3 +1,5 @@
+import Footer from './Footer';
+
 /**
  * HomeScreen — the landing page showing one card per degree program.
  * Tapping a card navigates into that program's detail view.
@@ -26,7 +28,7 @@ const PROGRAM_ICONS = {
 
 export default function HomeScreen({ programs, onSelect }) {
   return (
-    <div className="flex flex-col h-full bg-gray-50">
+    <div className="flex flex-col h-full bg-gray-50 overflow-y-auto">
       {/* Header — LUC maroon bar */}
       <div className="px-6 pt-12 pb-6 bg-maroon-500">
         <h1 className="text-2xl font-bold text-white">LUC Computer Science Advising</h1>
@@ -55,6 +57,7 @@ export default function HomeScreen({ programs, onSelect }) {
           </button>
         ))}
       </div>
+      <Footer />
     </div>
   );
 }

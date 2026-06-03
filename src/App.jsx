@@ -1,43 +1,39 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { useProgress } from './hooks/useProgress';
 import HomeScreen from './components/HomeScreen';
 import ProgramScreen from './components/ProgramScreen';
 
-// Program data files — add more here as they are built out
-import csData           from './data/cs.json';
-import seData           from './data/se.json';
-import itData           from './data/it.json';
+import csData            from './data/cs.json';
+import seData            from './data/se.json';
+import itData            from './data/it.json';
 import cybersecurityData from './data/cybersecurity.json';
-import datascienceData  from './data/datascience.json';
+import datascienceData   from './data/datascience.json';
 
 const PROGRAMS = [csData, seData, itData, cybersecurityData, datascienceData];
 
 export default function App() {
-  // null = home screen; a program object = program detail screen
-  const [activeProgram, setActiveProgram] = useState(null);
+  // Restore active program from URL param on first load
+  const [activeProgram, setActiveProgram] = useState(() => {
+    const params = new URLSearchParams(window.location.search);
+    const progId = params.get('p');
+    return PROGRAMS.find(p => p.id === progId) ?? null;
+  });
 
-  const {
-    completed, toggle,
-    hasConsent, grantConsent,
-    exportJSON, importJSON,
-  } = useProgress();
+  const { completed, toggle } = useProgress();
 
-  // Stub programs have no courses array — show a placeholder until data is added
-  if (activeProgram && !activeProgram.courses) {
-    return (
-      <div className="flex flex-col h-full bg-gray-50">
-        <div className="flex items-center gap-3 px-4 pt-10 pb-3 bg-white border-b border-gray-100">
-          <button onClick={() => setActiveProgram(null)} className="p-2 -ml-1 rounded-xl text-gray-500 text-lg">
-            ←
-          </button>
-          <h1 className="text-base font-bold text-gray-900">{activeProgram.name}</h1>
-        </div>
-        <div className="flex-1 flex items-center justify-center text-gray-400 text-sm">
-          Curriculum data coming soon.
-        </div>
-      </div>
-    );
-  }
+  // Keep the URL in sync with current program + completed state so the
+  // page is always shareable without any manual action by the student.
+  useEffect(() => {
+    const params = new URLSearchParams();
+    if (activeProgram) {
+      params.set('p', activeProgram.id);
+      if (completed.size > 0) params.set('d', [...completed].join(','));
+      history.replaceState(null, '', `?${params}`);
+    } else {
+      // Back on home — clear params but keep the path
+      history.replaceState(null, '', window.location.pathname);
+    }
+  }, [activeProgram, completed]);
 
   return (
     <div className="h-full">
@@ -46,10 +42,6 @@ export default function App() {
           program={activeProgram}
           completed={completed}
           toggle={toggle}
-          hasConsent={hasConsent}
-          grantConsent={grantConsent}
-          exportJSON={exportJSON}
-          importJSON={importJSON}
           onBack={() => setActiveProgram(null)}
         />
       ) : (
