@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import optionalData from '../data/optional.json';
 
 const GRADUATION_CREDITS = 120;
