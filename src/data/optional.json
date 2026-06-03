@@ -1,0 +1,19 @@
+{
+  "writingIntensive": {
+    "label": "Writing Intensive Options",
+    "note": "These CS courses satisfy the university's Writing Intensive requirement. Not required for the degree but count toward your WI obligation.",
+    "courses": [
+      { "id": "OPT_COMP111", "code": "COMP 111", "title": "History of Computing",                          "credits": 3 },
+      { "id": "OPT_COMP250", "code": "COMP 250", "title": "Research Writing: Open Source Tools and Techniques", "credits": 3 }
+    ]
+  },
+  "coreEligible": {
+    "label": "Core Curriculum Eligible",
+    "note": "These CS courses can satisfy University Core requirements. Not required for your degree — students may also fulfill core requirements through other departments.",
+    "courses": [
+      { "id": "OPT_COMP122", "code": "COMP 122", "title": "Introduction to Digital Music",  "credits": 3 },
+      { "id": "OPT_COMP125", "code": "COMP 125", "title": "Visual Information Processing",  "credits": 3 },
+      { "id": "OPT_COMP150", "code": "COMP 150", "title": "Introduction to Computing",       "credits": 3 }
+    ]
+  }
+}

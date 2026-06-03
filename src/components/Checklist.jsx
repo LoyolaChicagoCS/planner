@@ -1,3 +1,5 @@
+import optionalData from '../data/optional.json';
+
 /**
  * Checklist — three sections:
  *   1. Semester estimate (full-time / part-time based on remaining credits)
@@ -78,6 +80,9 @@ export default function Checklist({ program, completed, toggle, hasConsent, gran
       {/* AP and transfer credits */}
       <ChecklistSection title="AP Exam Credits"              items={apItems}       completed={completed} toggle={toggle} />
       <ChecklistSection title="Transfer & Placement Credits" items={transferItems} completed={completed} toggle={toggle} />
+
+      {/* Optional CS courses that satisfy university requirements */}
+      <OptionalCourses completed={completed} toggle={toggle} />
 
       {/* Export / Import */}
       <div>
@@ -242,6 +247,56 @@ function ChecklistSection({ title, items, completed, toggle }) {
           <ChecklistItem key={item.id} item={item} completed={completed} toggle={toggle} />
         ))}
       </div>
+    </div>
+  );
+}
+
+/**
+ * Optional CS courses that can satisfy Writing Intensive or Core requirements.
+ * These appear in all programs — they are never required for any degree.
+ */
+function OptionalCourses({ completed, toggle }) {
+  const groups = [optionalData.writingIntensive, optionalData.coreEligible];
+
+  return (
+    <div className="flex flex-col gap-4">
+      {groups.map(group => (
+        <div key={group.label}>
+          <h2 className="text-xs font-semibold uppercase tracking-widest text-gray-400 mb-1">
+            {group.label}
+            <span className="ml-2 normal-case font-normal text-gold-500">Optional</span>
+          </h2>
+          <p className="text-xs text-gray-400 mb-2">{group.note}</p>
+          <div className="flex flex-col gap-2">
+            {group.courses.map(course => {
+              const done = completed.has(course.id);
+              return (
+                <button
+                  key={course.id}
+                  onClick={() => toggle(course.id)}
+                  className={`
+                    flex items-center gap-3 p-3 rounded-xl text-left w-full shadow-sm transition-colors
+                    ${done ? 'bg-gold-50 border border-gold-200' : 'bg-white border border-gray-100'}
+                  `}
+                >
+                  <div className={`
+                    flex-shrink-0 w-5 h-5 rounded-full border-2 flex items-center justify-center
+                    ${done ? 'bg-gold-400 border-gold-400' : 'border-gray-300 border-dashed'}
+                  `}>
+                    {done && <span className="text-white text-xs">✓</span>}
+                  </div>
+                  <div className="flex-1 min-w-0">
+                    <div className={`text-sm font-medium leading-snug ${done ? 'text-gold-700' : 'text-gray-800'}`}>
+                      {course.code} — {course.title}
+                    </div>
+                  </div>
+                  <div className="text-xs text-gray-400 flex-shrink-0">{course.credits} cr</div>
+                </button>
+              );
+            })}
+          </div>
+        </div>
+      ))}
     </div>
   );
 }
