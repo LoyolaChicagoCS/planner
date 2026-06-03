@@ -8,8 +8,9 @@ import 'swiper/css/pagination';
 import CourseList from './CourseList';
 import Roadmap from './Roadmap';
 import Checklist from './Checklist';
+import Audit from './Audit';
 
-const TABS = ['Courses', 'Roadmap', 'Checklist'];
+const TABS = ['Courses', 'Roadmap', 'Checklist', 'Audit'];
 
 /**
  * ProgramScreen — the detail view for one degree program.
@@ -120,6 +121,10 @@ export default function ProgramScreen({
               exportJSON={exportJSON}
               importJSON={importJSON}
             />
+          </SwiperSlide>
+
+          <SwiperSlide style={{ overflowY: 'auto' }}>
+            <Audit program={program} completed={completed} toggle={toggle} />
           </SwiperSlide>
         </Swiper>
       </div>
