@@ -4,21 +4,13 @@ import HomeScreen from './components/HomeScreen';
 import ProgramScreen from './components/ProgramScreen';
 
 // Program data files — add more here as they are built out
-import csData from './data/cs.json';
+import csData           from './data/cs.json';
+import seData           from './data/se.json';
+import itData           from './data/it.json';
+import cybersecurityData from './data/cybersecurity.json';
+import datascienceData  from './data/datascience.json';
 
-/**
- * Available degree programs. Each entry needs at minimum:
- *   id, name, degree, totalCredits
- * The rest of the data lives in the imported JSON.
- */
-const PROGRAMS = [
-  csData,
-  // Placeholder stubs — will be replaced with real JSON files
-  { id: 'se',            name: 'Software Engineering',  degree: 'BS', totalCredits: 120 },
-  { id: 'it',            name: 'Information Technology', degree: 'BS', totalCredits: 120 },
-  { id: 'cybersecurity', name: 'Cybersecurity',          degree: 'BS', totalCredits: 120 },
-  { id: 'datascience',   name: 'Data Science',           degree: 'BS', totalCredits: 120 },
-];
+const PROGRAMS = [csData, seData, itData, cybersecurityData, datascienceData];
 
 export default function App() {
   // null = home screen; a program object = program detail screen
