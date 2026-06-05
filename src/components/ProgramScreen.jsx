@@ -10,6 +10,7 @@ import Roadmap from './Roadmap';
 import Checklist from './Checklist';
 import Audit from './Audit';
 import Footer from './Footer';
+import { calcDistinctDoneCredits, createProgressHelpers } from '../utils/progress';
 
 const TABS = ['Courses', 'Roadmap', 'Checklist', 'Audit'];
 
@@ -28,9 +29,9 @@ export default function ProgramScreen({ program, completed, toggle, onBack }) {
   const swiperRef                     = useRef(null);
 
   const GRADUATION_CREDITS = 120;
-  const doneCredits =
-    program.courses.filter(c => completed.has(c.id)).reduce((s, c) => s + c.credits, 0) +
-    program.coreRequirements.filter(r => completed.has(r.id)).reduce((s, r) => s + r.credits, 0);
+  const { isCompleted, isRequirementSatisfied, getRequirementStatus, toggleItem } =
+    createProgressHelpers(program, completed, toggle);
+  const doneCredits = calcDistinctDoneCredits(program, completed);
   const pct = Math.min(100, Math.round((doneCredits / GRADUATION_CREDITS) * 100));
 
   function goToTab(index) {
@@ -107,22 +108,47 @@ export default function ProgramScreen({ program, completed, toggle, onBack }) {
           onSlideChange={swiper => setActiveIndex(swiper.activeIndex)}
         >
           <SwiperSlide style={{ overflowY: 'auto' }}>
-            <CourseList program={program} completed={completed} toggle={toggle} />
+            <CourseList
+              program={program}
+              isCompleted={isCompleted}
+              getRequirementStatus={getRequirementStatus}
+              toggleItem={toggleItem}
+            />
             <Footer />
           </SwiperSlide>
 
           <SwiperSlide style={{ overflowY: 'auto' }}>
-            <Roadmap program={program} completed={completed} toggle={toggle} />
+            <Roadmap
+              program={program}
+              getRequirementStatus={getRequirementStatus}
+              toggleItem={toggleItem}
+            />
             <Footer />
           </SwiperSlide>
 
           <SwiperSlide style={{ overflowY: 'auto' }}>
-            <Checklist program={program} completed={completed} toggle={toggle} />
+            <Checklist
+              program={program}
+              completed={completed}
+              toggle={toggle}
+              isCompleted={isCompleted}
+              isRequirementSatisfied={isRequirementSatisfied}
+              getRequirementStatus={getRequirementStatus}
+              toggleItem={toggleItem}
+            />
             <Footer />
           </SwiperSlide>
 
           <SwiperSlide style={{ overflowY: 'auto' }}>
-            <Audit program={program} completed={completed} toggle={toggle} />
+            <Audit
+              program={program}
+              completed={completed}
+              toggle={toggle}
+              isCompleted={isCompleted}
+              isRequirementSatisfied={isRequirementSatisfied}
+              getRequirementStatus={getRequirementStatus}
+              toggleItem={toggleItem}
+            />
             <Footer />
           </SwiperSlide>
         </Swiper>

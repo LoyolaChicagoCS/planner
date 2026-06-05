@@ -1,24 +1,7 @@
 import optionalData from '../data/optional.json';
+import { calcDistinctDoneCredits } from '../utils/progress';
 
 const GRADUATION_CREDITS = 120;
-
-/** Sum all credits currently marked complete across courses, core, and electives */
-function calcDoneCredits(program, completed) {
-  const fromCourses = program.courses
-    .filter(c => completed.has(c.id))
-    .reduce((s, c) => s + c.credits, 0);
-
-  const fromCore = program.coreRequirements
-    .filter(r => completed.has(r.id))
-    .reduce((s, r) => s + r.credits, 0);
-
-  const fromElectives = Object.values(program.electiveOptions)
-    .flatMap(g => g.courses ?? [])
-    .filter(c => completed.has(c.id))
-    .reduce((s, c) => s + c.credits, 0);
-
-  return fromCourses + fromCore + fromElectives;
-}
 
 /**
  * Checklist — four sections:
@@ -35,19 +18,19 @@ function calcDoneCredits(program, completed) {
  *   completed — Set of completed IDs
  *   toggle    — function(id) to mark/unmark
  */
-export default function Checklist({ program, completed, toggle }) {
+export default function Checklist({ program, completed, toggle, isCompleted, isRequirementSatisfied, toggleItem }) {
   const apItems       = program.checklist.filter(i => i.category === 'ap');
   const transferItems = program.checklist.filter(i => i.category === 'transfer');
 
-  const doneCredits      = calcDoneCredits(program, completed);
+  const doneCredits      = calcDistinctDoneCredits(program, completed);
   const remainingCredits = Math.max(0, GRADUATION_CREDITS - doneCredits);
 
   return (
     <div className="flex flex-col gap-6 px-4 py-6 pb-6">
       <SemesterEstimate doneCredits={doneCredits} remainingCredits={remainingCredits} />
-      <RemainingCourses program={program} completed={completed} toggle={toggle} />
-      <ChecklistSection title="AP Exam Credits"              items={apItems}       completed={completed} toggle={toggle} />
-      <ChecklistSection title="Transfer & Placement Credits" items={transferItems} completed={completed} toggle={toggle} />
+      <RemainingCourses program={program} isRequirementSatisfied={isRequirementSatisfied} toggleItem={toggleItem} />
+      <ChecklistSection title="AP Exam Credits"              items={apItems}       completed={completed} toggle={toggle} isCompleted={isCompleted} toggleItem={toggleItem} />
+      <ChecklistSection title="Transfer & Placement Credits" items={transferItems} completed={completed} toggle={toggle} isCompleted={isCompleted} toggleItem={toggleItem} />
       <OptionalCourses completed={completed} toggle={toggle} />
     </div>
   );
@@ -113,8 +96,8 @@ function EnrollmentRow({ label, sublabel, semesters, icon }) {
   );
 }
 
-function RemainingCourses({ program, completed, toggle }) {
-  const remaining = program.courses.filter(c => !completed.has(c.id));
+function RemainingCourses({ program, isRequirementSatisfied, toggleItem }) {
+  const remaining = program.courses.filter(c => !isRequirementSatisfied(c));
   if (remaining.length === 0) {
     return (
       <div>
@@ -135,7 +118,7 @@ function RemainingCourses({ program, completed, toggle }) {
         {remaining.map(course => (
           <button
             key={course.id}
-            onClick={() => toggle(course.id)}
+            onClick={() => toggleItem(course)}
             className="flex items-center gap-3 p-3 rounded-xl text-left w-full bg-white border border-gray-100 shadow-sm active:bg-gray-50"
           >
             <div className="flex-shrink-0 w-5 h-5 rounded-full border-2 border-gray-300" />
@@ -155,27 +138,27 @@ function RemainingCourses({ program, completed, toggle }) {
   );
 }
 
-function ChecklistSection({ title, items, completed, toggle }) {
+function ChecklistSection({ title, items, completed, toggle, isCompleted, toggleItem }) {
   if (!items.length) return null;
   return (
     <div>
       <h2 className="text-xs font-semibold uppercase tracking-widest text-gray-400 mb-3">{title}</h2>
       <div className="flex flex-col gap-2">
         {items.map(item => (
-          <ChecklistItem key={item.id} item={item} completed={completed} toggle={toggle} />
+          <ChecklistItem key={item.id} item={item} completed={completed} toggle={toggle} isCompleted={isCompleted} toggleItem={toggleItem} />
         ))}
       </div>
     </div>
   );
 }
 
-function ChecklistItem({ item, completed, toggle }) {
-  const done = completed.has(item.id) || (item.courseRef && completed.has(item.courseRef));
+function ChecklistItem({ item, completed, toggle, isCompleted, toggleItem }) {
+  const done = completed.has(item.id) || (item.courseRef && isCompleted(item.courseRef));
 
   function handleToggle() {
     toggle(item.id);
-    if (item.courseRef)     toggle(item.courseRef);
-    if (item.alsoCourseRef) toggle(item.alsoCourseRef);
+    if (item.courseRef)     toggleItem(item.courseRef);
+    if (item.alsoCourseRef) toggleItem(item.alsoCourseRef);
   }
 
   return (

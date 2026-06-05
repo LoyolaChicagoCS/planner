@@ -24,8 +24,12 @@
     { "id": "COMP349",  "code": "COMP 349",  "title": "Wireless Networking and Security",              "credits": 3, "category": "major" },
     { "id": "COMP352",  "code": "COMP 352",  "title": "Computer Vulnerabilities",                      "credits": 3, "category": "major" },
     { "id": "MATH131",  "code": "MATH 131",  "title": "Applied Calculus I",                            "credits": 3, "category": "major",
-      "alternateNote": "or MATH 161 (Calculus I)",
-      "apCredit": { "exam": "AP Calculus AB or BC", "minScore": 4 } }
+      "requirementGroup": "cybersecurity-calculus-i",
+      "choiceNote": "Choose MATH 131 or MATH 161",
+      "apCredit": { "exam": "AP Calculus AB or BC", "minScore": 4 } },
+    { "id": "MATH161",  "code": "MATH 161",  "title": "Calculus I",                                    "credits": 3, "category": "major",
+      "requirementGroup": "cybersecurity-calculus-i",
+      "choiceNote": "Choose MATH 131 or MATH 161" }
   ],
 
   "electiveOptions": {

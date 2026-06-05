@@ -10,7 +10,7 @@
  *   completed — Set of completed course/item IDs
  *   toggle    — function(id) to mark/unmark a course
  */
-export default function Roadmap({ program, completed, toggle }) {
+export default function Roadmap({ program, getRequirementStatus, toggleItem }) {
   // Build a lookup map: courseId -> course object, for resolving roadmap refs
   const courseMap = Object.fromEntries(program.courses.map(c => [c.id, c]));
   const coreMap   = Object.fromEntries(program.coreRequirements.map(r => [r.id, r]));
@@ -23,8 +23,8 @@ export default function Roadmap({ program, completed, toggle }) {
           semester={sem}
           courseMap={courseMap}
           coreMap={coreMap}
-          completed={completed}
-          toggle={toggle}
+          getRequirementStatus={getRequirementStatus}
+          toggleItem={toggleItem}
         />
       ))}
     </div>
@@ -32,7 +32,7 @@ export default function Roadmap({ program, completed, toggle }) {
 }
 
 /** A card for one semester showing all its courses */
-function SemesterCard({ semester, courseMap, coreMap, completed, toggle }) {
+function SemesterCard({ semester, courseMap, coreMap, getRequirementStatus, toggleItem }) {
   // Resolve each roadmap item to a displayable object with an id and label
   const items = semester.items.map((item, i) => {
     if (item.isElective) {
@@ -50,7 +50,12 @@ function SemesterCard({ semester, courseMap, coreMap, completed, toggle }) {
   });
 
   const totalCredits = items.reduce((sum, it) => sum + (it.credits ?? 0), 0);
-  const doneCredits  = items.filter(it => completed.has(it.id)).reduce((sum, it) => sum + (it.credits ?? 0), 0);
+  const doneCredits  = items
+    .filter(it => {
+      const status = getRequirementStatus(it);
+      return status.completed || status.satisfiedByAlternate;
+    })
+    .reduce((sum, it) => sum + (it.credits ?? 0), 0);
   const pct = totalCredits > 0 ? Math.round((doneCredits / totalCredits) * 100) : 0;
   const allDone = pct === 100;
 
@@ -84,8 +89,8 @@ function SemesterCard({ semester, courseMap, coreMap, completed, toggle }) {
           <RoadmapItem
             key={item.id}
             item={item}
-            done={completed.has(item.id)}
-            toggle={toggle}
+            status={getRequirementStatus(item)}
+            toggleItem={toggleItem}
           />
         ))}
       </div>
@@ -94,25 +99,29 @@ function SemesterCard({ semester, courseMap, coreMap, completed, toggle }) {
 }
 
 /** A single course row within a semester card */
-function RoadmapItem({ item, done, toggle }) {
+function RoadmapItem({ item, status, toggleItem }) {
+  const { completed, satisfiedByAlternate } = status;
   return (
     <button
-      onClick={() => toggle(item.id)}
+      onClick={() => toggleItem(item)}
       className="flex items-center gap-3 px-4 py-3 w-full text-left active:bg-gray-50 transition-colors"
     >
       {/* Completion circle */}
       <div className={`
         flex-shrink-0 w-5 h-5 rounded-full border-2 flex items-center justify-center
-        ${done ? 'bg-maroon-500 border-maroon-500' : 'border-gray-300'}
+        ${completed ? 'bg-maroon-500 border-maroon-500' : satisfiedByAlternate ? 'bg-gold-400 border-gold-400' : 'border-gray-300'}
         ${item.isElective ? 'border-dashed' : ''}
       `}>
-        {done && <span className="text-white text-xs">✓</span>}
+        {(completed || satisfiedByAlternate) && <span className="text-white text-xs">✓</span>}
       </div>
 
       <div className="flex-1 min-w-0">
-        <div className={`text-sm leading-snug truncate ${done ? 'text-gray-400 line-through' : 'text-gray-800'}`}>
+        <div className={`text-sm leading-snug truncate ${completed ? 'text-gray-400 line-through' : satisfiedByAlternate ? 'text-gold-800' : 'text-gray-800'}`}>
           {item.label}
         </div>
+        {satisfiedByAlternate && (
+          <div className="text-xs text-gold-500 mt-0.5">Requirement satisfied by alternate</div>
+        )}
         {item.isElective && (
           <div className="text-xs text-gold-500 mt-0.5">Elective — choose from list</div>
         )}

@@ -10,32 +10,32 @@
  *   completed — Set of completed course/item IDs
  *   toggle    — function(id) to mark/unmark a course
  */
-export default function CourseList({ program, completed, toggle }) {
+export default function CourseList({ program, isCompleted, getRequirementStatus, toggleItem }) {
   const majorCourses = program.courses.filter(c => c.category === 'major');
   const electiveCourses = program.courses.filter(c => c.category === 'elective');
 
   return (
     <div className="flex flex-col gap-6 px-4 py-6 pb-24">
-      <Section title="Major Requirements" courses={majorCourses} completed={completed} toggle={toggle} />
-      <Section title="Electives & Capstone" courses={electiveCourses} completed={completed} toggle={toggle} />
+      <Section title="Major Requirements" courses={majorCourses} getRequirementStatus={getRequirementStatus} toggleItem={toggleItem} />
+      <Section title="Electives & Capstone" courses={electiveCourses} getRequirementStatus={getRequirementStatus} toggleItem={toggleItem} />
       <div>
         <h2 className="text-xs font-semibold uppercase tracking-widest text-gray-400 mb-3">Elective Requirements</h2>
-        <ElectiveInfo program={program} completed={completed} toggle={toggle} />
+        <ElectiveInfo program={program} isCompleted={isCompleted} toggleItem={toggleItem} />
       </div>
-      <CoreInfo program={program} completed={completed} toggle={toggle} />
+      <CoreInfo program={program} isCompleted={isCompleted} toggleItem={toggleItem} />
     </div>
   );
 }
 
 /** A labeled group of course rows */
-function Section({ title, courses, completed, toggle }) {
+function Section({ title, courses, getRequirementStatus, toggleItem }) {
   if (!courses.length) return null;
   return (
     <div>
       <h2 className="text-xs font-semibold uppercase tracking-widest text-gray-400 mb-3">{title}</h2>
       <div className="flex flex-col gap-2">
         {courses.map(course => (
-          <CourseRow key={course.id} course={course} completed={completed} toggle={toggle} />
+          <CourseRow key={course.id} course={course} getRequirementStatus={getRequirementStatus} toggleItem={toggleItem} />
         ))}
       </div>
     </div>
@@ -43,34 +43,36 @@ function Section({ title, courses, completed, toggle }) {
 }
 
 /** A single tappable course row with completion checkbox */
-function CourseRow({ course, completed, toggle }) {
-  const done = completed.has(course.id);
+function CourseRow({ course, getRequirementStatus, toggleItem }) {
+  const { completed, satisfiedByAlternate } = getRequirementStatus(course);
   return (
     <button
-      onClick={() => toggle(course.id)}
+      onClick={() => toggleItem(course)}
       className={`
         flex items-start gap-3 p-3 rounded-xl text-left w-full
         transition-colors
-        ${done ? 'bg-maroon-50' : 'bg-white'}
-        border ${done ? 'border-maroon-200' : 'border-gray-100'}
+        ${completed ? 'bg-maroon-50' : satisfiedByAlternate ? 'bg-gold-50' : 'bg-white'}
+        border ${completed ? 'border-maroon-200' : satisfiedByAlternate ? 'border-gold-200' : 'border-gray-100'}
         shadow-sm
       `}
     >
       {/* Checkbox circle */}
       <div className={`
         mt-0.5 flex-shrink-0 w-5 h-5 rounded-full border-2 flex items-center justify-center
-        ${done ? 'bg-maroon-500 border-maroon-500' : 'border-gray-300'}
+        ${completed ? 'bg-maroon-500 border-maroon-500' : satisfiedByAlternate ? 'bg-gold-400 border-gold-400' : 'border-gray-300'}
       `}>
-        {done && <span className="text-white text-xs">✓</span>}
+        {(completed || satisfiedByAlternate) && <span className="text-white text-xs">✓</span>}
       </div>
 
       {/* Course info */}
       <div className="flex-1 min-w-0">
-        <div className={`text-sm font-medium leading-snug ${done ? 'text-maroon-700 line-through' : 'text-gray-800'}`}>
+        <div className={`text-sm font-medium leading-snug ${completed ? 'text-maroon-700 line-through' : satisfiedByAlternate ? 'text-gold-800' : 'text-gray-800'}`}>
           {course.code} — {course.title}
         </div>
         <div className="text-xs text-gray-400 mt-0.5">
           {course.credits} cr
+          {course.choiceNote && <span className="ml-1">· {course.choiceNote}</span>}
+          {satisfiedByAlternate && <span className="ml-1 text-gold-600">· requirement satisfied by alternate</span>}
           {course.alternateNote && <span className="ml-1">· {course.alternateNote}</span>}
           {course.apCredit && (
             <span className="ml-1 text-maroon-400">
@@ -87,24 +89,24 @@ function CourseRow({ course, completed, toggle }) {
  * Renders each elective group (restricted, practicum, free) as a collapsible
  * section with checkable course rows and a live credit progress bar.
  */
-function ElectiveInfo({ program, completed, toggle }) {
+function ElectiveInfo({ program, isCompleted, toggleItem }) {
   const { restricted, practicum, free } = program.electiveOptions;
   return (
     <div className="flex flex-col gap-4">
       {[restricted, practicum, free].map(group => (
-        <ElectiveGroup key={group.label} group={group} completed={completed} toggle={toggle} />
+        <ElectiveGroup key={group.label} group={group} isCompleted={isCompleted} toggleItem={toggleItem} />
       ))}
     </div>
   );
 }
 
 /** One elective group with a header, credit progress, and checkable course rows */
-function ElectiveGroup({ group, completed, toggle }) {
+function ElectiveGroup({ group, isCompleted, toggleItem }) {
   const courses = group.courses ?? [];
 
   // Count credits completed within this group
   const doneCredits = courses
-    .filter(c => completed.has(c.id))
+    .filter(c => isCompleted(c))
     .reduce((sum, c) => sum + c.credits, 0);
   const pct = Math.min(100, Math.round((doneCredits / group.creditsRequired) * 100));
   const met = doneCredits >= group.creditsRequired;
@@ -135,7 +137,7 @@ function ElectiveGroup({ group, completed, toggle }) {
       {courses.length > 0 && (
         <div className="bg-white divide-y divide-gray-50">
           {courses.map(course => (
-            <ElectiveCourseRow key={course.id} course={course} completed={completed} toggle={toggle} />
+            <ElectiveCourseRow key={course.id} course={course} isCompleted={isCompleted} toggleItem={toggleItem} />
           ))}
         </div>
       )}
@@ -144,11 +146,11 @@ function ElectiveGroup({ group, completed, toggle }) {
 }
 
 /** A single selectable row inside an elective group */
-function ElectiveCourseRow({ course, completed, toggle }) {
-  const done = completed.has(course.id);
+function ElectiveCourseRow({ course, isCompleted, toggleItem }) {
+  const done = isCompleted(course);
   return (
     <button
-      onClick={() => toggle(course.id)}
+      onClick={() => toggleItem(course)}
       className="flex items-center gap-3 px-3 py-2.5 w-full text-left active:bg-gray-50 transition-colors"
     >
       <div className={`
@@ -168,17 +170,17 @@ function ElectiveCourseRow({ course, completed, toggle }) {
 }
 
 /** Core curriculum items with checkboxes */
-function CoreInfo({ program, completed, toggle }) {
+function CoreInfo({ program, isCompleted, toggleItem }) {
   return (
     <div>
       <h2 className="text-xs font-semibold uppercase tracking-widest text-gray-400 mb-3">University Core</h2>
       <div className="flex flex-col gap-2">
         {program.coreRequirements.map(req => {
-          const done = completed.has(req.id);
+          const done = isCompleted(req);
           return (
             <button
               key={req.id}
-              onClick={() => toggle(req.id)}
+              onClick={() => toggleItem(req)}
               className={`
                 flex items-center gap-3 p-3 rounded-xl text-left w-full
                 transition-colors shadow-sm

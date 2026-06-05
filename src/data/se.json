@@ -19,8 +19,12 @@
     { "id": "COMP317",  "code": "COMP 317", "title": "Social, Legal, and Ethical Issues in Computing", "credits": 3, "category": "major" },
     { "id": "COMP330",  "code": "COMP 330", "title": "Software Engineering", "credits": 3, "category": "major" },
     { "id": "MATH131",  "code": "MATH 131", "title": "Applied Calculus I", "credits": 3, "category": "major",
-      "alternateNote": "or MATH 161 (Calculus I)",
+      "requirementGroup": "se-calculus-i",
+      "choiceNote": "Choose MATH 131 or MATH 161",
       "apCredit": { "exam": "AP Calculus AB or BC", "minScore": 4 } },
+    { "id": "MATH161",  "code": "MATH 161", "title": "Calculus I", "credits": 3, "category": "major",
+      "requirementGroup": "se-calculus-i",
+      "choiceNote": "Choose MATH 131 or MATH 161" },
     { "id": "STAT103",  "code": "STAT 103", "title": "Fundamentals of Statistics", "credits": 3, "category": "major",
       "alternateNote": "or STAT 203, ISSCM 241, or PSYC 304" }
   ],

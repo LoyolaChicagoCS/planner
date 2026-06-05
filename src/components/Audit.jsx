@@ -1,4 +1,9 @@
 import optionalData from '../data/optional.json';
+import {
+  calcDistinctDoneCredits,
+  calcRequiredCredits,
+  calcSatisfiedRequirementCredits,
+} from '../utils/progress';
 
 const GRADUATION_CREDITS = 120;
 
@@ -17,8 +22,8 @@ const GRADUATION_CREDITS = 120;
  *   completed — Set of completed IDs
  *   toggle    — function(id) to mark/unmark
  */
-export default function Audit({ program, completed, toggle }) {
-  const totalDone     = calcTotalDone(program, completed);
+export default function Audit({ program, completed, toggle, isCompleted, isRequirementSatisfied, getRequirementStatus, toggleItem }) {
+  const totalDone     = calcDistinctDoneCredits(program, completed);
   const totalRequired = GRADUATION_CREDITS;
   const remaining     = Math.max(0, totalRequired - totalDone);
   const pct           = Math.min(100, Math.round((totalDone / totalRequired) * 100));
@@ -33,13 +38,16 @@ export default function Audit({ program, completed, toggle }) {
       <AuditCategory
         title="Major Required Courses"
         items={program.courses.map(c => ({
+          ...c,
           id: c.id,
           label: c.code ? `${c.code} — ${c.title}` : c.title,
           credits: c.credits,
         }))}
-        creditsRequired={program.courses.reduce((s, c) => s + c.credits, 0)}
-        completed={completed}
-        toggle={toggle}
+        creditsRequired={calcRequiredCredits(program.courses)}
+        isCompleted={isCompleted}
+        isRequirementSatisfied={isRequirementSatisfied}
+        getRequirementStatus={getRequirementStatus}
+        toggleItem={toggleItem}
       />
 
       {/* Elective groups */}
@@ -49,13 +57,16 @@ export default function Audit({ program, completed, toggle }) {
           title={group.label}
           note={group.note}
           items={(group.courses ?? []).map(c => ({
+            ...c,
             id: c.id,
             label: `${c.code} — ${c.title}`,
             credits: c.credits,
           }))}
           creditsRequired={group.creditsRequired}
-          completed={completed}
-          toggle={toggle}
+          isCompleted={isCompleted}
+          isRequirementSatisfied={isRequirementSatisfied}
+          getRequirementStatus={getRequirementStatus}
+          toggleItem={toggleItem}
         />
       ))}
 
@@ -63,13 +74,16 @@ export default function Audit({ program, completed, toggle }) {
       <AuditCategory
         title="University Core Curriculum"
         items={program.coreRequirements.map(r => ({
+          ...r,
           id: r.id,
           label: r.label,
           credits: r.credits,
         }))}
-        creditsRequired={program.coreRequirements.reduce((s, r) => s + r.credits, 0)}
-        completed={completed}
-        toggle={toggle}
+        creditsRequired={calcRequiredCredits(program.coreRequirements)}
+        isCompleted={isCompleted}
+        isRequirementSatisfied={isRequirementSatisfied}
+        getRequirementStatus={getRequirementStatus}
+        toggleItem={toggleItem}
       />
 
       {/* Optional CS courses — shown for awareness, not counted toward 120 */}
@@ -77,17 +91,6 @@ export default function Audit({ program, completed, toggle }) {
 
     </div>
   );
-}
-
-/** Sums all completed credits across courses, core, and elective options */
-function calcTotalDone(program, completed) {
-  const courses   = program.courses.filter(c => completed.has(c.id)).reduce((s, c) => s + c.credits, 0);
-  const core      = program.coreRequirements.filter(r => completed.has(r.id)).reduce((s, r) => s + r.credits, 0);
-  const electives = Object.values(program.electiveOptions)
-    .flatMap(g => g.courses ?? [])
-    .filter(c => completed.has(c.id))
-    .reduce((s, c) => s + c.credits, 0);
-  return courses + core + electives;
 }
 
 /** Top-level credit summary card */
@@ -118,10 +121,11 @@ function CreditSummary({ done, required, remaining, pct }) {
  *   - Completed items (indented, struck-through)
  *   - Remaining items (normal weight)
  */
-function AuditCategory({ title, note, items, creditsRequired, completed, toggle }) {
-  const doneItems      = items.filter(i => completed.has(i.id));
-  const remainingItems = items.filter(i => !completed.has(i.id));
-  const doneCredits    = doneItems.reduce((s, i) => s + (i.credits ?? 0), 0);
+function AuditCategory({ title, note, items, creditsRequired, isCompleted, isRequirementSatisfied, getRequirementStatus, toggleItem }) {
+  const doneItems      = items.filter(i => isCompleted(i));
+  const waivedItems    = items.filter(i => getRequirementStatus(i).satisfiedByAlternate);
+  const remainingItems = items.filter(i => !isRequirementSatisfied(i));
+  const doneCredits    = calcSatisfiedRequirementCredits(items, isRequirementSatisfied);
   const met            = doneCredits >= creditsRequired;
 
   return (
@@ -149,12 +153,16 @@ function AuditCategory({ title, note, items, creditsRequired, completed, toggle 
       <div className="bg-white divide-y divide-gray-50">
         {/* Completed items */}
         {doneItems.map(item => (
-          <AuditRow key={item.id} item={item} done={true} toggle={toggle} />
+          <AuditRow key={item.id} item={item} done={true} toggleItem={toggleItem} />
+        ))}
+
+        {waivedItems.map(item => (
+          <AuditRow key={item.id} item={item} done={false} satisfiedByAlternate={true} toggleItem={toggleItem} />
         ))}
 
         {/* Remaining items */}
         {remainingItems.map(item => (
-          <AuditRow key={item.id} item={item} done={false} toggle={toggle} />
+          <AuditRow key={item.id} item={item} done={false} toggleItem={toggleItem} />
         ))}
 
         {/* Empty state */}
@@ -169,22 +177,25 @@ function AuditCategory({ title, note, items, creditsRequired, completed, toggle 
 }
 
 /** A single course row in the audit — tappable to toggle completion */
-function AuditRow({ item, done, toggle }) {
+function AuditRow({ item, done, satisfiedByAlternate = false, toggleItem }) {
   return (
     <button
-      onClick={() => toggle(item.id)}
+      onClick={() => toggleItem(item)}
       className="flex items-center gap-3 px-4 py-2.5 w-full text-left active:bg-gray-50 transition-colors"
     >
       <div className={`
         flex-shrink-0 w-4 h-4 rounded-full border-2 flex items-center justify-center
-        ${done ? 'bg-maroon-500 border-maroon-500' : 'border-gray-300'}
+        ${done ? 'bg-maroon-500 border-maroon-500' : satisfiedByAlternate ? 'bg-gold-400 border-gold-400' : 'border-gray-300'}
       `}>
-        {done && <span className="text-white text-[9px] leading-none">✓</span>}
+        {(done || satisfiedByAlternate) && <span className="text-white text-[9px] leading-none">✓</span>}
       </div>
       <div className="flex-1 min-w-0">
-        <span className={`text-sm leading-snug ${done ? 'text-gray-400 line-through' : 'text-gray-700'}`}>
+        <span className={`text-sm leading-snug ${done ? 'text-gray-400 line-through' : satisfiedByAlternate ? 'text-gold-800' : 'text-gray-700'}`}>
           {item.label}
         </span>
+        {satisfiedByAlternate && (
+          <div className="text-xs text-gold-500 mt-0.5">Requirement satisfied by alternate</div>
+        )}
       </div>
       <span className="text-xs text-gray-400 flex-shrink-0">{item.credits} cr</span>
     </button>
