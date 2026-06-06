@@ -31,9 +31,17 @@ export default function HomeScreen({ programs, onSelect }) {
     <div className="flex flex-col h-full bg-gray-50 overflow-y-auto">
       {/* Header — LUC maroon bar */}
       <div className="px-6 pt-12 pb-6 bg-maroon-500">
-        <h1 className="text-2xl font-bold text-white">LUC Computer Science Advising</h1>
-        <p className="text-maroon-200 mt-1 text-sm">
-          Tap a program to explore requirements and your four-year plan.
+        <div className="flex items-start justify-between gap-3">
+          <h1 className="text-2xl font-bold text-white leading-tight">Loyola CS Advising Checklist</h1>
+          <span className="flex-shrink-0 rounded-full bg-gold-400 px-2.5 py-1 text-[11px] font-bold uppercase tracking-wide text-maroon-900 shadow-sm">
+            Beta
+          </span>
+        </div>
+        <p className="text-maroon-100 mt-2 text-sm leading-relaxed">
+          Track progress toward Loyola CS degree requirements and bring your checklist to advising conversations.
+        </p>
+        <p className="text-maroon-200 mt-2 text-xs leading-relaxed">
+          Built to support planning with your human advisor, not replace them.
         </p>
       </div>
 
