@@ -4,12 +4,13 @@ import { encodeCompletedIds, getValidProgressIds, validateProgressIds } from './
 import HomeScreen from './components/HomeScreen';
 import ProgramScreen from './components/ProgramScreen';
 import { PROGRAMS } from './data/programs';
+import type { Program } from './types';
 
 validateProgressIds(getValidProgressIds(PROGRAMS));
 
 export default function App() {
   // Restore active program from URL param on first load
-  const [activeProgram, setActiveProgram] = useState(() => {
+  const [activeProgram, setActiveProgram] = useState<Program | null>(() => {
     const params = new URLSearchParams(window.location.search);
     const progId = params.get('p');
     return PROGRAMS.find(p => p.id === progId) ?? null;
@@ -24,7 +25,7 @@ export default function App() {
     if (activeProgram) {
       params.set('p', activeProgram.id);
       const validIds = getValidProgressIds(PROGRAMS, activeProgram.id);
-      const shareIds = new Set([...completed].filter(id => validIds.has(id)));
+      const shareIds = new Set<string>([...completed].filter(id => validIds.has(id)));
       if (shareIds.size > 0) params.set('d', encodeCompletedIds(shareIds));
       history.replaceState(null, '', `?${params}`);
     } else {

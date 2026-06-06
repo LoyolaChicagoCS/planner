@@ -1,6 +1,8 @@
 import { useState, useRef } from 'react';
+import type { ComponentType } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination, Keyboard } from 'swiper/modules';
+import type { Swiper as SwiperInstance } from 'swiper';
 
 import 'swiper/css';
 import 'swiper/css/pagination';
@@ -13,6 +15,36 @@ import Audit from './Audit';
 import Footer from './Footer';
 import { calcDistinctDoneCredits, createProgressHelpers } from '../utils/progress';
 import { getValidProgressIds } from '../utils/shareLink';
+import type { CompletedSet, Program, ProgressItem } from '../types';
+import type { RequirementStatus } from '../utils/progress';
+
+interface CoreFocusTarget {
+  requirementId: string;
+  requestId: number;
+}
+
+interface ProgramScreenProps {
+  program: Program;
+  completed: CompletedSet;
+  toggle: (id: string) => void;
+  clear: (idsToClear: Iterable<string>) => void;
+  onBack: () => void;
+}
+
+interface AuditScreenProps {
+  program: Program;
+  completed: CompletedSet;
+  toggle: (id: string) => void;
+  isCompleted: (itemOrId: ProgressItem | string) => boolean;
+  isRequirementSatisfied: (itemOrId: ProgressItem | string) => boolean;
+  getRequirementStatus: (itemOrId: ProgressItem | string) => RequirementStatus;
+  toggleItem: (itemOrId: ProgressItem | string) => void;
+}
+
+type ChecklistScreenProps = AuditScreenProps;
+
+const AuditScreen = Audit as ComponentType<AuditScreenProps>;
+const ChecklistScreen = Checklist as ComponentType<ChecklistScreenProps>;
 
 /**
  * ProgramScreen — four horizontally-swipeable panels for one degree program.
@@ -24,11 +56,11 @@ import { getValidProgressIds } from '../utils/shareLink';
  *   clear     — function(ids) to remove completed IDs
  *   onBack    — callback to return to HomeScreen
  */
-export default function ProgramScreen({ program, completed, toggle, clear, onBack }) {
+export default function ProgramScreen({ program, completed, toggle, clear, onBack }: ProgramScreenProps) {
   const [activeIndex, setActiveIndex] = useState(0);
   const [copied, setCopied]           = useState(false);
-  const [coreFocusTarget, setCoreFocusTarget] = useState(null);
-  const swiperRef                     = useRef(null);
+  const [coreFocusTarget, setCoreFocusTarget] = useState<CoreFocusTarget | null>(null);
+  const swiperRef                     = useRef<SwiperInstance | null>(null);
 
   const hasCoreTab = (program.coreRequirements ?? []).length > 0;
   const tabs = hasCoreTab ? ['Courses', 'Core', 'Roadmap', 'Checklist', 'Audit'] : ['Courses', 'Roadmap', 'Checklist', 'Audit'];
@@ -42,11 +74,11 @@ export default function ProgramScreen({ program, completed, toggle, clear, onBac
   const doneCredits = calcDistinctDoneCredits(program, completed);
   const pct = Math.min(100, Math.round((doneCredits / creditGoal) * 100));
 
-  function goToTab(index) {
+  function goToTab(index: number): void {
     swiperRef.current?.slideTo(index);
   }
 
-  function openCoreRequirement(requirementId) {
+  function openCoreRequirement(requirementId: string): void {
     setCoreFocusTarget(previous => ({
       requirementId,
       requestId: (previous?.requestId ?? 0) + 1,
@@ -54,15 +86,15 @@ export default function ProgramScreen({ program, completed, toggle, clear, onBac
     if (coreTabIndex >= 0) goToTab(coreTabIndex);
   }
 
-  // Copy the current URL (which is already kept in sync by App.jsx) to clipboard
-  function copyLink() {
+  // Copy the current URL (which is already kept in sync by App) to clipboard
+  function copyLink(): void {
     navigator.clipboard.writeText(window.location.href).then(() => {
       setCopied(true);
       setTimeout(() => setCopied(false), 2000);
     });
   }
 
-  function clearProgramProgress() {
+  function clearProgramProgress(): void {
     if (doneCredits === 0) return;
     const ok = window.confirm(`Clear all selected courses for ${program.name}?`);
     if (!ok) return;
@@ -182,7 +214,7 @@ export default function ProgramScreen({ program, completed, toggle, clear, onBac
           </SwiperSlide>
 
           <SwiperSlide style={{ overflowY: 'auto' }}>
-            <Checklist
+            <ChecklistScreen
               program={program}
               completed={completed}
               toggle={toggle}
@@ -195,7 +227,7 @@ export default function ProgramScreen({ program, completed, toggle, clear, onBac
           </SwiperSlide>
 
           <SwiperSlide style={{ overflowY: 'auto' }}>
-            <Audit
+            <AuditScreen
               program={program}
               completed={completed}
               toggle={toggle}

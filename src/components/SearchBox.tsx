@@ -1,4 +1,10 @@
-export default function SearchBox({ value, onChange, placeholder = 'Search' }) {
+interface SearchBoxProps {
+  value: string;
+  onChange: (value: string) => void;
+  placeholder?: string;
+}
+
+export default function SearchBox({ value, onChange, placeholder = 'Search' }: SearchBoxProps) {
   return (
     <div className="rounded-2xl border border-gray-100 bg-white p-3 shadow-sm">
       <input

@@ -1,4 +1,5 @@
 import Footer from './Footer';
+import type { Program } from '../types';
 
 /**
  * HomeScreen — the landing page showing one card per degree program.
@@ -32,7 +33,19 @@ const PROGRAM_ICONS = {
   'business-ai-minor': '💼',
 };
 
-export default function HomeScreen({ programs, onSelect }) {
+interface HomeScreenProps {
+  programs: Program[];
+  onSelect: (program: Program) => void;
+}
+
+interface ProgramGroupProps extends HomeScreenProps {
+  title: string;
+}
+
+const PROGRAM_COLOR_BY_ID: Record<string, string> = PROGRAM_COLORS;
+const PROGRAM_ICON_BY_ID: Record<string, string> = PROGRAM_ICONS;
+
+export default function HomeScreen({ programs, onSelect }: HomeScreenProps) {
   const degreePrograms = programs.filter(program => program.kind !== 'minor');
   const minors = programs.filter(program => program.kind === 'minor');
 
@@ -61,7 +74,7 @@ export default function HomeScreen({ programs, onSelect }) {
   );
 }
 
-function ProgramGroup({ title, programs, onSelect }) {
+function ProgramGroup({ title, programs, onSelect }: ProgramGroupProps) {
   if (!programs.length) return null;
 
   return (
@@ -73,14 +86,14 @@ function ProgramGroup({ title, programs, onSelect }) {
           onClick={() => onSelect(program)}
           className={`
             w-full text-left rounded-2xl shadow-md
-            bg-gradient-to-br ${PROGRAM_COLORS[program.id] ?? 'from-maroon-500 to-maroon-700'}
+            bg-gradient-to-br ${PROGRAM_COLOR_BY_ID[program.id] ?? 'from-maroon-500 to-maroon-700'}
             text-white active:scale-95 transition-transform
             ${program.kind === 'minor' ? 'p-5' : 'p-4'}
           `}
         >
           <div className={`flex items-center gap-3 ${program.kind === 'minor' ? 'mb-2' : ''}`}>
             <div className={`${program.kind === 'minor' ? 'text-3xl' : 'text-2xl'} flex-shrink-0`}>
-              {PROGRAM_ICONS[program.id] ?? '🎓'}
+              {PROGRAM_ICON_BY_ID[program.id] ?? '🎓'}
             </div>
             <div className={`${program.kind === 'minor' ? 'text-lg' : 'text-xl'} font-bold leading-tight`}>
               {program.name}
