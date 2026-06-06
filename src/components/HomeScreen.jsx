@@ -49,9 +49,6 @@ export default function HomeScreen({ programs, onSelect }) {
         <p className="text-maroon-100 mt-2 text-sm leading-relaxed">
           Track progress toward Loyola CS degree and minor requirements and bring your checklist to advising conversations.
         </p>
-        <p className="text-maroon-200 mt-2 text-xs leading-relaxed">
-          Built to support planning with your human advisor, not replace them.
-        </p>
       </div>
 
       {/* Program cards */}
@@ -75,13 +72,20 @@ function ProgramGroup({ title, programs, onSelect }) {
           key={program.id}
           onClick={() => onSelect(program)}
           className={`
-            w-full text-left rounded-2xl p-5 shadow-md
+            w-full text-left rounded-2xl shadow-md
             bg-gradient-to-br ${PROGRAM_COLORS[program.id] ?? 'from-maroon-500 to-maroon-700'}
             text-white active:scale-95 transition-transform
+            ${program.kind === 'minor' ? 'p-5' : 'p-4'}
           `}
         >
-          <div className="text-3xl mb-2">{PROGRAM_ICONS[program.id] ?? '🎓'}</div>
-          <div className="text-lg font-semibold leading-tight">{program.name}</div>
+          <div className={`flex items-center gap-3 ${program.kind === 'minor' ? 'mb-2' : ''}`}>
+            <div className={`${program.kind === 'minor' ? 'text-3xl' : 'text-2xl'} flex-shrink-0`}>
+              {PROGRAM_ICONS[program.id] ?? '🎓'}
+            </div>
+            <div className={`${program.kind === 'minor' ? 'text-lg' : 'text-xl'} font-bold leading-tight`}>
+              {program.name}
+            </div>
+          </div>
           <div className="text-sm opacity-80 mt-1">
             {program.degree} &middot; {program.kind === 'minor'
               ? `${program.minorCredits ?? program.totalCredits} minor credits`
