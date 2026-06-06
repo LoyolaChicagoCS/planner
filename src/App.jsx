@@ -3,26 +3,8 @@ import { useProgress } from './hooks/useProgress';
 import { encodeCompletedIds, getValidProgressIds, validateProgressIds } from './utils/shareLink';
 import HomeScreen from './components/HomeScreen';
 import ProgramScreen from './components/ProgramScreen';
+import { PROGRAMS } from './data/programs';
 
-import csData            from './data/cs.json';
-import seData            from './data/se.json';
-import itData            from './data/it.json';
-import cybersecurityData from './data/cybersecurity.json';
-import datascienceData   from './data/datascience.json';
-import aiMinorData from './data/ai-minor.json';
-import aiHumanFlourishingMinorData from './data/ai-human-flourishing-minor.json';
-import businessAiMinorData from './data/business-ai-minor.json';
-
-const PROGRAMS = [
-  csData,
-  seData,
-  itData,
-  cybersecurityData,
-  datascienceData,
-  aiMinorData,
-  aiHumanFlourishingMinorData,
-  businessAiMinorData,
-];
 validateProgressIds(getValidProgressIds(PROGRAMS));
 
 export default function App() {

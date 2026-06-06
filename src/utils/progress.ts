@@ -1,6 +1,22 @@
 import { coreRequirementGroup, getCoreCatalogItemsForProgram } from './coreCatalog';
+import type { CompletedSet, Program, ProgressItem } from '../types';
 
-function itemKey(item) {
+export interface RequirementStatus {
+  completed: boolean;
+  satisfiedByAlternate: boolean;
+  actuallyCompleted: boolean;
+}
+
+export interface ProgressHelpers {
+  isCompleted: (itemOrId: ProgressItem | string) => boolean;
+  isRequirementSatisfied: (itemOrId: ProgressItem | string) => boolean;
+  getRequirementStatus: (itemOrId: ProgressItem | string) => RequirementStatus;
+  toggleItem: (itemOrId: ProgressItem | string) => void;
+}
+
+type ToggleProgress = (id: string) => void;
+
+function itemKey(item: ProgressItem | undefined): string {
   if (item?.uniqueProgress) {
     return `id:${item.id}`;
   }
@@ -10,11 +26,11 @@ function itemKey(item) {
   return `id:${item?.id}`;
 }
 
-function requirementKey(item) {
+function requirementKey(item: ProgressItem | undefined): string {
   return item?.requirementGroup ? `group:${item.requirementGroup}` : itemKey(item);
 }
 
-function requirementItems(program) {
+function requirementItems(program: Program): ProgressItem[] {
   const coreRequirements = (program.coreRequirements ?? []).map(item => ({
     ...item,
     requirementGroup: coreRequirementGroup(item.id),
@@ -28,11 +44,11 @@ function requirementItems(program) {
   ];
 }
 
-export function createProgressHelpers(program, completed, toggle) {
-  const idsByKey = new Map();
-  const keyById = new Map();
-  const idsByRequirement = new Map();
-  const requirementById = new Map();
+export function createProgressHelpers(program: Program, completed: CompletedSet, toggle: ToggleProgress): ProgressHelpers {
+  const idsByKey = new Map<string, Set<string>>();
+  const keyById = new Map<string, string>();
+  const idsByRequirement = new Map<string, Set<string>>();
+  const requirementById = new Map<string, string>();
 
   for (const item of requirementItems(program)) {
     const key = itemKey(item);
@@ -40,12 +56,12 @@ export function createProgressHelpers(program, completed, toggle) {
     keyById.set(item.id, key);
     requirementById.set(item.id, reqKey);
     if (!idsByKey.has(key)) idsByKey.set(key, new Set());
-    idsByKey.get(key).add(item.id);
+    idsByKey.get(key)?.add(item.id);
     if (!idsByRequirement.has(reqKey)) idsByRequirement.set(reqKey, new Set());
-    idsByRequirement.get(reqKey).add(item.id);
+    idsByRequirement.get(reqKey)?.add(item.id);
   }
 
-  function idsFor(itemOrId) {
+  function idsFor(itemOrId: ProgressItem | string): string[] {
     const id = typeof itemOrId === 'string' ? itemOrId : itemOrId.id;
     const key = typeof itemOrId === 'string'
       ? keyById.get(id)
@@ -53,11 +69,11 @@ export function createProgressHelpers(program, completed, toggle) {
     return key ? [...(idsByKey.get(key) ?? [id])] : [id];
   }
 
-  function isCompleted(itemOrId) {
+  function isCompleted(itemOrId: ProgressItem | string): boolean {
     return idsFor(itemOrId).some(id => completed.has(id));
   }
 
-  function requirementIdsFor(itemOrId) {
+  function requirementIdsFor(itemOrId: ProgressItem | string): string[] {
     const id = typeof itemOrId === 'string' ? itemOrId : itemOrId.id;
     const key = typeof itemOrId === 'string'
       ? requirementById.get(id)
@@ -65,11 +81,11 @@ export function createProgressHelpers(program, completed, toggle) {
     return key ? [...(idsByRequirement.get(key) ?? [id])] : [id];
   }
 
-  function isRequirementSatisfied(itemOrId) {
+  function isRequirementSatisfied(itemOrId: ProgressItem | string): boolean {
     return requirementIdsFor(itemOrId).some(id => completed.has(id));
   }
 
-  function getRequirementStatus(itemOrId) {
+  function getRequirementStatus(itemOrId: ProgressItem | string): RequirementStatus {
     const itemIds = idsFor(itemOrId);
     const doneIds = requirementIdsFor(itemOrId).filter(id => completed.has(id));
     const itemDone = itemIds.some(id => completed.has(id));
@@ -81,7 +97,7 @@ export function createProgressHelpers(program, completed, toggle) {
     };
   }
 
-  function toggleItem(itemOrId) {
+  function toggleItem(itemOrId: ProgressItem | string): void {
     const ids = idsFor(itemOrId);
     const nextDone = !ids.some(id => completed.has(id));
 
@@ -93,9 +109,9 @@ export function createProgressHelpers(program, completed, toggle) {
   return { isCompleted, isRequirementSatisfied, getRequirementStatus, toggleItem };
 }
 
-export function calcDistinctDoneCredits(program, completed) {
-  const creditsByKey = new Map();
-  const doneKeys = new Set();
+export function calcDistinctDoneCredits(program: Program, completed: CompletedSet): number {
+  const creditsByKey = new Map<string, number>();
+  const doneKeys = new Set<string>();
 
   for (const item of requirementItems(program)) {
     const key = requirementKey(item);
@@ -103,11 +119,14 @@ export function calcDistinctDoneCredits(program, completed) {
     if (completed.has(item.id)) doneKeys.add(key);
   }
 
-  return [...doneKeys].reduce((sum, key) => sum + (creditsByKey.get(key) ?? 0), 0);
+  return [...doneKeys].reduce<number>((sum, key) => sum + (creditsByKey.get(key) ?? 0), 0);
 }
 
-export function calcDistinctItemCredits(items, isCompleted) {
-  const seen = new Set();
+export function calcDistinctItemCredits(
+  items: ProgressItem[],
+  isCompleted: (item: ProgressItem) => boolean,
+): number {
+  const seen = new Set<string>();
   let total = 0;
 
   for (const item of items) {
@@ -120,8 +139,8 @@ export function calcDistinctItemCredits(items, isCompleted) {
   return total;
 }
 
-export function calcRequiredCredits(items) {
-  const creditsByRequirement = new Map();
+export function calcRequiredCredits(items: ProgressItem[]): number {
+  const creditsByRequirement = new Map<string, number>();
 
   for (const item of items) {
     const key = requirementKey(item);
@@ -131,9 +150,12 @@ export function calcRequiredCredits(items) {
   return [...creditsByRequirement.values()].reduce((sum, credits) => sum + credits, 0);
 }
 
-export function calcSatisfiedRequirementCredits(items, isRequirementSatisfied) {
-  const creditsByRequirement = new Map();
-  const satisfied = new Set();
+export function calcSatisfiedRequirementCredits(
+  items: ProgressItem[],
+  isRequirementSatisfied: (item: ProgressItem) => boolean,
+): number {
+  const creditsByRequirement = new Map<string, number>();
+  const satisfied = new Set<string>();
 
   for (const item of items) {
     const key = requirementKey(item);
@@ -141,5 +163,5 @@ export function calcSatisfiedRequirementCredits(items, isRequirementSatisfied) {
     if (isRequirementSatisfied(item)) satisfied.add(key);
   }
 
-  return [...satisfied].reduce((sum, key) => sum + (creditsByRequirement.get(key) ?? 0), 0);
+  return [...satisfied].reduce<number>((sum, key) => sum + (creditsByRequirement.get(key) ?? 0), 0);
 }

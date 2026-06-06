@@ -1,18 +1,30 @@
 import optionalData from '../data/optional.json';
 import { getAllCoreCatalogCourseIds } from './coreCatalog';
+import type { Course, Program, ProgressItem } from '../types';
 
 const DELIMITER = '.';
 
-function addId(ids, id) {
+interface OptionalCourseGroup {
+  courses?: Course[];
+}
+
+interface OptionalData {
+  writingIntensive?: OptionalCourseGroup;
+  coreEligible?: OptionalCourseGroup;
+}
+
+const typedOptionalData = optionalData as OptionalData;
+
+function addId(ids: Set<string>, id?: string): void {
   if (id) ids.add(id);
 }
 
-function addCourseIds(ids, courses = []) {
+function addCourseIds(ids: Set<string>, courses: ProgressItem[] = []): void {
   for (const course of courses) addId(ids, course.id);
 }
 
-export function getValidProgressIds(programs, programId) {
-  const ids = new Set();
+export function getValidProgressIds(programs: Program[], programId?: string): Set<string> {
+  const ids = new Set<string>();
   const selectedPrograms = programId
     ? programs.filter(program => program.id === programId)
     : programs;
@@ -36,27 +48,27 @@ export function getValidProgressIds(programs, programId) {
     }
   }
 
-  addCourseIds(ids, optionalData.writingIntensive?.courses);
-  addCourseIds(ids, optionalData.coreEligible?.courses);
+  addCourseIds(ids, typedOptionalData.writingIntensive?.courses);
+  addCourseIds(ids, typedOptionalData.coreEligible?.courses);
   for (const id of getAllCoreCatalogCourseIds()) addId(ids, id);
 
   return ids;
 }
 
-export function validateProgressIds(ids) {
+export function validateProgressIds(ids: Iterable<string>): void {
   const invalid = [...ids].filter(id => id.includes(DELIMITER) || /\s/.test(id));
   if (invalid.length > 0) {
     throw new Error(`Progress IDs cannot contain dots or whitespace: ${invalid.join(', ')}`);
   }
 }
 
-export function encodeCompletedIds(completed) {
+export function encodeCompletedIds(completed: Iterable<string>): string {
   const ids = [...completed].sort();
   validateProgressIds(ids);
   return ids.join(DELIMITER);
 }
 
-export function decodeCompletedIds(value, validIds) {
+export function decodeCompletedIds(value: string | null, validIds?: ReadonlySet<string>): string[] {
   if (!value) return [];
 
   const delimiter = value.includes(',') ? ',' : DELIMITER;

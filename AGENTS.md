@@ -12,6 +12,7 @@ Students select a BS program or minor and then use swipeable tabs to review cour
 
 - React 19
 - Vite 8
+- TypeScript for shared model and utility contracts
 - Tailwind CSS 3
 - Swiper for the program detail tabs
 - ESLint for linting
@@ -24,12 +25,16 @@ Use `npm ci` to install dependencies from `package-lock.json`.
 npm run dev
 npm run build
 npm run lint
+npm run typecheck
+npm test
 npm run preview
 ```
 
 Before committing code changes, run:
 
 ```bash
+npm run typecheck
+npm test
 npm run lint
 npm run build
 ```
@@ -47,9 +52,11 @@ npm run build
 - `src/components/Checklist.jsx` shows remaining requirements, AP/transfer items, and optional courses.
 - `src/components/Audit.jsx` shows category-level credit progress.
 - `src/components/Footer.jsx` contains the privacy disclosure.
-- `src/utils/progress.js` centralizes equivalent-course completion and distinct-credit calculations.
-- `src/utils/coreCatalog.js` maps cached Core catalog courses to general Core requirement IDs.
-- `src/utils/search.js` contains shared search matching helpers.
+- `src/types.ts` defines shared program, course, Core, roadmap, and progress types.
+- `src/utils/progress.ts` centralizes equivalent-course completion and distinct-credit calculations.
+- `src/utils/coreCatalog.ts` maps cached Core catalog courses to general Core requirement IDs.
+- `src/utils/search.ts` contains shared search matching helpers.
+- `src/utils/*.test.ts` contains model-level tests for progress, Core catalog, and share-link behavior.
 - `src/data/*.json` contains program, minor, Core inventory, and optional-course data.
 
 ## Data Model Notes
@@ -74,11 +81,11 @@ Program data lives in `src/data/*.json`. Each program object should keep this sh
 
 IDs are the app's stable persistence contract. Completion state is stored as a set of IDs, so changing IDs can break saved progress and shared URLs.
 
-Progress IDs must not contain dots or whitespace. Share links use a dot-delimited `?d=` value, and `src/utils/shareLink.js` validates this rule. Keep IDs URL-friendly, preferably letters, numbers, `_`, and `-`. Old comma-delimited links are still decoded for backward compatibility.
+Progress IDs must not contain dots or whitespace. Share links use a dot-delimited `?d=` value, and `src/utils/shareLink.ts` validates this rule. Keep IDs URL-friendly, preferably letters, numbers, `_`, and `-`. Old comma-delimited links are still decoded for backward compatibility.
 
 For BS programs, Loyola requires 120 credits to graduate, but catalog roadmaps may total 120 or 122 credits. Keep `totalCredits` aligned with the catalog roadmap/sample-plan total and use `majorCredits` for the major-only requirement total. For minors, `totalCredits` and `minorCredits` should reflect the credits required to complete the minor.
 
-Some concrete courses appear in multiple requirement sections. Shared completion should be based on course identity (`code` + `title`) through `src/utils/progress.js`, while total audit/checklist/header credits should count each distinct completed course only once.
+Some concrete courses appear in multiple requirement sections. Shared completion should be based on course identity (`code` + `title`) through `src/utils/progress.ts`, while total audit/checklist/header credits should count each distinct completed course only once.
 
 When one requirement can be satisfied by any one of several courses, give each course a shared `requirementGroup`. The UI should show all concrete course choices separately. The counted course in the group gets the normal completed state, while unchosen siblings or checked non-counting siblings show the yellow alternate-satisfied state. Required-category progress and overall degree-credit totals should count a `requirementGroup` once.
 
@@ -132,6 +139,6 @@ Do not change Vite `base` back to `/planner/` unless the app is moved off the cu
 
 ## Known Cleanup Opportunities
 
-- Add model-level tests for `src/utils/progress.js`, `src/utils/shareLink.js`, and `src/utils/coreCatalog.js`.
+- Add model-level tests for `src/utils/progress.ts`, `src/utils/shareLink.ts`, and `src/utils/coreCatalog.ts`.
 - `src/App.css` appears to be leftover template CSS and is not imported by `src/main.jsx`.
 - Continue consolidating credit-counting behavior into shared utilities when changing progress calculations.

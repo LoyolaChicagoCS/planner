@@ -139,6 +139,8 @@ The Core changes infrequently, so the catalog-derived results are intentionally 
 ```bash
 node scripts/fetch-core-courses.mjs
 python3 scripts/write-core-analysis.py
+npm run typecheck
+npm test
 npm run lint
 npm run build
 ```
@@ -171,6 +173,7 @@ Search is intentionally available on every program tab. Each tab owns its own se
 
 - React
 - Vite
+- TypeScript for shared model and utility contracts
 - Tailwind CSS
 - Swiper
 - ESLint
@@ -192,6 +195,8 @@ npm run dev
 Validate before committing:
 
 ```bash
+npm run typecheck
+npm test
 npm run lint
 npm run build
 ```
