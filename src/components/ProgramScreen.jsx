@@ -12,6 +12,7 @@ import Checklist from './Checklist';
 import Audit from './Audit';
 import Footer from './Footer';
 import { calcDistinctDoneCredits, createProgressHelpers } from '../utils/progress';
+import { getValidProgressIds } from '../utils/shareLink';
 
 /**
  * ProgramScreen — four horizontally-swipeable panels for one degree program.
@@ -20,9 +21,10 @@ import { calcDistinctDoneCredits, createProgressHelpers } from '../utils/progres
  *   program   — full program data object
  *   completed — Set of completed IDs
  *   toggle    — function(id) to mark/unmark
+ *   clear     — function(ids) to remove completed IDs
  *   onBack    — callback to return to HomeScreen
  */
-export default function ProgramScreen({ program, completed, toggle, onBack }) {
+export default function ProgramScreen({ program, completed, toggle, clear, onBack }) {
   const [activeIndex, setActiveIndex] = useState(0);
   const [copied, setCopied]           = useState(false);
   const [coreFocusTarget, setCoreFocusTarget] = useState(null);
@@ -32,6 +34,9 @@ export default function ProgramScreen({ program, completed, toggle, onBack }) {
   const tabs = hasCoreTab ? ['Courses', 'Core', 'Roadmap', 'Checklist', 'Audit'] : ['Courses', 'Roadmap', 'Checklist', 'Audit'];
   const coreTabIndex = hasCoreTab ? 1 : -1;
   const creditGoal = program.kind === 'minor' ? program.totalCredits : 120;
+  const requirementCreditLabel = program.kind === 'minor'
+    ? `${program.minorCredits ?? program.totalCredits} minor credits`
+    : `${program.totalCredits} roadmap credits`;
   const { isCompleted, isRequirementSatisfied, getRequirementStatus, toggleItem } =
     createProgressHelpers(program, completed, toggle);
   const doneCredits = calcDistinctDoneCredits(program, completed);
@@ -57,6 +62,13 @@ export default function ProgramScreen({ program, completed, toggle, onBack }) {
     });
   }
 
+  function clearProgramProgress() {
+    if (doneCredits === 0) return;
+    const ok = window.confirm(`Clear all selected courses for ${program.name}?`);
+    if (!ok) return;
+    clear(getValidProgressIds([program], program.id));
+  }
+
   return (
     <div className="flex flex-col h-full bg-gray-50">
       {/* Top bar */}
@@ -70,7 +82,10 @@ export default function ProgramScreen({ program, completed, toggle, onBack }) {
         </button>
         <div className="flex-1 min-w-0">
           <h1 className="text-base font-bold text-gray-900 truncate">{program.name}</h1>
-          <p className="text-xs text-gray-400">{program.degree} · {program.totalCredits} credits</p>
+          <p className="text-xs text-gray-400">
+            {program.degree} · {requirementCreditLabel}
+            {program.majorCredits && <span> · {program.majorCredits} major credits</span>}
+          </p>
         </div>
 
         {/* Share link button */}
@@ -81,6 +96,18 @@ export default function ProgramScreen({ program, completed, toggle, onBack }) {
           title="Copy shareable link"
         >
           {copied ? 'Copied!' : '🔗 Share'}
+        </button>
+
+        <button
+          onClick={clearProgramProgress}
+          disabled={doneCredits === 0}
+          className={`flex-shrink-0 text-xs font-semibold px-2 py-1 rounded-full transition-colors
+            ${doneCredits === 0
+              ? 'bg-gray-100 text-gray-300'
+              : 'bg-gray-100 text-gray-500 active:bg-gray-200'}`}
+          title="Clear selected courses"
+        >
+          Clear
         </button>
 
         {/* Credit progress pill */}

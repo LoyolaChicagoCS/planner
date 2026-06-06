@@ -33,7 +33,7 @@ export default function App() {
     return PROGRAMS.find(p => p.id === progId) ?? null;
   });
 
-  const { completed, toggle } = useProgress(PROGRAMS);
+  const { completed, toggle, clear } = useProgress(PROGRAMS);
 
   // Keep the URL in sync with current program + completed state so the
   // page is always shareable without any manual action by the student.
@@ -58,6 +58,7 @@ export default function App() {
           program={activeProgram}
           completed={completed}
           toggle={toggle}
+          clear={clear}
           onBack={() => setActiveProgram(null)}
         />
       ) : (

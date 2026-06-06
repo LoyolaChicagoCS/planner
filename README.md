@@ -88,7 +88,9 @@ Each program currently includes:
 - `name`
 - `degree`
 - `school`
-- `totalCredits`
+- `totalCredits` for the catalog roadmap/sample plan total
+- `majorCredits` for BS major requirement totals where applicable
+- `minorCredits` for minor completion totals where applicable
 - `kind` where needed, such as `minor`
 - `hasCompletionEstimate` where needed
 - `catalogUrl` where useful for traceability
@@ -99,6 +101,8 @@ Each program currently includes:
 - `checklist`
 
 Some courses appear in more than one place. For example, a concrete course may appear both in a suggested course list and in an elective option list. Completion for repeated concrete courses is matched by course identity, not just by JSON location.
+
+For BS programs, Loyola requires 120 credits to graduate, but catalog roadmaps may total 120 or 122 credits. Keep `totalCredits` aligned with the catalog roadmap total and use `majorCredits` for the major-only requirement total. This makes it easier for students to compare switching between CS-administered majors. For minors, `totalCredits` and `minorCredits` should reflect the credits required to complete the minor.
 
 Some requirements can be satisfied by one of several courses. These use a shared `requirementGroup`. The UI shows all concrete choices separately:
 

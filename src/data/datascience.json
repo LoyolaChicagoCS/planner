@@ -4,6 +4,7 @@
   "degree": "BS",
   "school": "Loyola University Chicago",
   "totalCredits": 120,
+  "majorCredits": 59,
   "note": "Partnership program between Computer Science, Mathematics & Statistics, and the broader College of Arts & Sciences.",
 
   "courses": [

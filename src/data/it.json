@@ -4,6 +4,7 @@
   "degree": "BS",
   "school": "Loyola University Chicago",
   "totalCredits": 122,
+  "majorCredits": 49,
 
   "courses": [
     { "id": "UNIV101",       "code": "UNIV 101",      "title": "First Year Seminar",                            "credits": 1, "category": "core" },

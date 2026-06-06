@@ -83,8 +83,15 @@ function ProgramGroup({ title, programs, onSelect }) {
           <div className="text-3xl mb-2">{PROGRAM_ICONS[program.id] ?? '🎓'}</div>
           <div className="text-lg font-semibold leading-tight">{program.name}</div>
           <div className="text-sm opacity-80 mt-1">
-            {program.degree} &middot; {program.totalCredits} credits
+            {program.degree} &middot; {program.kind === 'minor'
+              ? `${program.minorCredits ?? program.totalCredits} minor credits`
+              : `${program.totalCredits} roadmap credits`}
           </div>
+          {program.majorCredits && (
+            <div className="text-xs opacity-75 mt-0.5">
+              {program.majorCredits} major credits
+            </div>
+          )}
         </button>
       ))}
     </section>

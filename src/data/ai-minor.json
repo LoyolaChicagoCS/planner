@@ -5,6 +5,7 @@
   "school": "Loyola University Chicago",
   "kind": "minor",
   "totalCredits": 27,
+  "minorCredits": 27,
   "hasCompletionEstimate": false,
   "catalogUrl": "https://catalog.luc.edu/undergraduate/arts-sciences/computer-science/artificial-intelligence-minor/",
 

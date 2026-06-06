@@ -5,6 +5,7 @@
   "school": "Loyola University Chicago",
   "kind": "minor",
   "totalCredits": 18,
+  "minorCredits": 18,
   "hasCompletionEstimate": false,
   "catalogUrl": "https://catalog.luc.edu/undergraduate/arts-sciences/philosophy/artificial-intelligence-human-flourishing-interdisciplinary-minor/",
 

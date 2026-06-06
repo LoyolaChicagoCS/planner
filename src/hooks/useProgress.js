@@ -40,5 +40,13 @@ export function useProgress(programs) {
     });
   }
 
-  return { completed, toggle };
+  function clear(idsToClear) {
+    setCompleted(prev => {
+      const next = new Set(prev);
+      for (const id of idsToClear) next.delete(id);
+      return next;
+    });
+  }
+
+  return { completed, toggle, clear };
 }

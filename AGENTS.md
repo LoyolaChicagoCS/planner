@@ -2,11 +2,11 @@
 
 ## Project Overview
 
-This repository is a Vite + React app for Loyola University Chicago Computer Science advising. It is a mobile-first degree planning tool hosted at:
+This repository is a Vite + React app for Loyola University Chicago Computer Science advising. It is a mobile-first degree and minor planning tool hosted at:
 
 https://advising.cs.luc.edu/
 
-Students select a BS program and then use swipeable tabs to review courses, a four-year roadmap, checklist items, and a degree-audit style credit summary. The app is intentionally client-only: it has no backend, no user accounts, and no analytics or personal-data collection.
+Students select a BS program or minor and then use swipeable tabs to review courses, roadmaps, checklist items, Core courses where applicable, and an audit-style credit summary. The app is intentionally client-only: it has no backend, no user accounts, and no analytics or personal-data collection.
 
 ## Tech Stack
 
@@ -39,14 +39,18 @@ npm run build
 - `src/App.jsx` imports all degree program JSON files, manages the selected program, and keeps the URL in sync.
 - `src/hooks/useProgress.js` stores completion state in `localStorage` and restores shared progress from the `?d=` URL parameter.
 - `src/components/HomeScreen.jsx` renders the program picker.
-- `src/components/ProgramScreen.jsx` renders the swipeable tabs: Courses, Roadmap, Checklist, and Audit.
-- `src/components/CourseList.jsx` shows major, elective, and core requirements.
+- `src/components/ProgramScreen.jsx` renders the swipeable tabs: Courses, Core when applicable, Roadmap, Checklist, and Audit.
+- `src/components/CourseList.jsx` shows major/minor, elective/selection, and core requirements.
+- `src/components/CorePlanner.jsx` shows catalog-derived University Core course choices for programs with Core requirements.
+- `src/components/SearchBox.jsx` provides the shared per-tab search input.
 - `src/components/Roadmap.jsx` shows the semester-by-semester plan.
 - `src/components/Checklist.jsx` shows remaining requirements, AP/transfer items, and optional courses.
 - `src/components/Audit.jsx` shows category-level credit progress.
 - `src/components/Footer.jsx` contains the privacy disclosure.
 - `src/utils/progress.js` centralizes equivalent-course completion and distinct-credit calculations.
-- `src/data/*.json` contains program and optional-course data.
+- `src/utils/coreCatalog.js` maps cached Core catalog courses to general Core requirement IDs.
+- `src/utils/search.js` contains shared search matching helpers.
+- `src/data/*.json` contains program, minor, Core inventory, and optional-course data.
 
 ## Data Model Notes
 
@@ -57,6 +61,11 @@ Program data lives in `src/data/*.json`. Each program object should keep this sh
 - `degree`
 - `school`
 - `totalCredits`
+- `majorCredits` for BS major requirement totals where applicable
+- `minorCredits` for minor completion totals where applicable
+- `kind` where needed, such as `minor`
+- `hasCompletionEstimate` where needed
+- `catalogUrl` where useful for traceability
 - `courses`
 - `electiveOptions`
 - `coreRequirements`
@@ -65,7 +74,9 @@ Program data lives in `src/data/*.json`. Each program object should keep this sh
 
 IDs are the app's stable persistence contract. Completion state is stored as a set of IDs, so changing IDs can break saved progress and shared URLs.
 
-Progress IDs must not contain dots or whitespace. Share links use a dot-delimited `?d=` value, and `src/utils/shareLink.js` validates this rule. Keep IDs URL-friendly, preferably letters, numbers, `_`, and `-`.
+Progress IDs must not contain dots or whitespace. Share links use a dot-delimited `?d=` value, and `src/utils/shareLink.js` validates this rule. Keep IDs URL-friendly, preferably letters, numbers, `_`, and `-`. Old comma-delimited links are still decoded for backward compatibility.
+
+For BS programs, Loyola requires 120 credits to graduate, but catalog roadmaps may total 120 or 122 credits. Keep `totalCredits` aligned with the catalog roadmap/sample-plan total and use `majorCredits` for the major-only requirement total. For minors, `totalCredits` and `minorCredits` should reflect the credits required to complete the minor.
 
 Some concrete courses appear in multiple requirement sections. Shared completion should be based on course identity (`code` + `title`) through `src/utils/progress.js`, while total audit/checklist/header credits should count each distinct completed course only once.
 
@@ -74,6 +85,12 @@ When one requirement can be satisfied by any one of several courses, give each c
 Roadmap items normally refer to course or core IDs through `ref`. Elective roadmap placeholders may use labels and `isElective: true`. Be careful not to conflate fixed course IDs with elective option IDs; some course-like options intentionally have separate IDs.
 
 Optional CS courses are shared from `src/data/optional.json` and are shown for awareness, Writing Intensive, or Core eligibility. They are not counted toward the 120-credit graduation total in the audit.
+
+University Core course inventory is cached in `src/data/coreCourses.json` and is generated by `node scripts/fetch-core-courses.mjs`. Core analysis artifacts are generated by `python3 scripts/write-core-analysis.py`, which writes `CORE-ANALYSIS.md`, `CORE-ANALYSIS.html`, and cached SVG/PNG charts in `docs/core-charts/`. Do not fetch Core catalog data at runtime.
+
+The Core tab maps concrete catalog courses to general Core requirement IDs. Selecting a specific Core course should satisfy the matching general requirement, such as `CORE_HIST1`, while audit and total-credit calculations count each general Core requirement only once. General Core checks from Courses/Roadmap should remain valid and may offer a path to choose the specific Core course later.
+
+Search is intentionally available on every program tab. Each tab owns its own search query and filters only visible rows in that tab.
 
 ## Privacy And Persistence
 
@@ -88,7 +105,7 @@ The current persistence behavior is:
 
 - `localStorage` key: `advising_progress`
 - URL parameter for selected program: `?p=<program-id>`
-- URL parameter for completed items: `?d=<comma-separated-ids>`
+- URL parameter for completed items: `?d=<dot-delimited-ids>`
 
 ## Styling
 
@@ -115,6 +132,6 @@ Do not change Vite `base` back to `/planner/` unless the app is moved off the cu
 
 ## Known Cleanup Opportunities
 
-- `README.md` is still the default Vite template and should be replaced with project-specific documentation.
+- Add model-level tests for `src/utils/progress.js`, `src/utils/shareLink.js`, and `src/utils/coreCatalog.js`.
 - `src/App.css` appears to be leftover template CSS and is not imported by `src/main.jsx`.
-- Credit-counting logic appears in multiple components. Keep behavior consistent if changing degree-progress calculations.
+- Continue consolidating credit-counting behavior into shared utilities when changing progress calculations.

@@ -4,6 +4,7 @@
   "degree": "BS",
   "school": "Loyola University Chicago",
   "totalCredits": 122,
+  "majorCredits": 61,
 
   "courses": [
     {
