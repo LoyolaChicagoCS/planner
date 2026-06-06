@@ -1,11 +1,12 @@
+import { useState } from 'react';
+import SearchBox from './SearchBox';
 import optionalData from '../data/optional.json';
 import {
   calcDistinctDoneCredits,
   calcRequiredCredits,
   calcSatisfiedRequirementCredits,
 } from '../utils/progress';
-
-const GRADUATION_CREDITS = 120;
+import { matchesSearch, normalizeSearch } from '../utils/search';
 
 /**
  * Audit — a full degree audit view showing every requirement category,
@@ -23,26 +24,30 @@ const GRADUATION_CREDITS = 120;
  *   toggle    — function(id) to mark/unmark
  */
 export default function Audit({ program, completed, toggle, isCompleted, isRequirementSatisfied, getRequirementStatus, toggleItem }) {
+  const [query, setQuery] = useState('');
+  const search = normalizeSearch(query);
   const totalDone     = calcDistinctDoneCredits(program, completed);
-  const totalRequired = GRADUATION_CREDITS;
+  const totalRequired = program.kind === 'minor' ? program.totalCredits : 120;
   const remaining     = Math.max(0, totalRequired - totalDone);
   const pct           = Math.min(100, Math.round((totalDone / totalRequired) * 100));
 
   return (
     <div className="flex flex-col gap-5 px-4 py-6 pb-24">
+      <SearchBox value={query} onChange={setQuery} placeholder="Search audit" />
 
       {/* Overall credit summary */}
       <CreditSummary done={totalDone} required={totalRequired} remaining={remaining} pct={pct} />
 
       {/* Major required courses */}
       <AuditCategory
-        title="Major Required Courses"
+        title={program.kind === 'minor' ? 'Minor Requirements' : 'Major Required Courses'}
         items={program.courses.map(c => ({
           ...c,
           id: c.id,
           label: c.code ? `${c.code} — ${c.title}` : c.title,
           credits: c.credits,
         }))}
+        search={search}
         creditsRequired={calcRequiredCredits(program.courses)}
         isCompleted={isCompleted}
         isRequirementSatisfied={isRequirementSatisfied}
@@ -51,7 +56,9 @@ export default function Audit({ program, completed, toggle, isCompleted, isRequi
       />
 
       {/* Elective groups */}
-      {Object.values(program.electiveOptions).map(group => (
+      {Object.values(program.electiveOptions)
+        .filter(group => (group.courses ?? []).length > 0 || group.creditsRequired > 0)
+        .map(group => (
         <AuditCategory
           key={group.label}
           title={group.label}
@@ -62,6 +69,7 @@ export default function Audit({ program, completed, toggle, isCompleted, isRequi
             label: `${c.code} — ${c.title}`,
             credits: c.credits,
           }))}
+          search={search}
           creditsRequired={group.creditsRequired}
           isCompleted={isCompleted}
           isRequirementSatisfied={isRequirementSatisfied}
@@ -79,6 +87,7 @@ export default function Audit({ program, completed, toggle, isCompleted, isRequi
           label: r.label,
           credits: r.credits,
         }))}
+        search={search}
         creditsRequired={calcRequiredCredits(program.coreRequirements)}
         isCompleted={isCompleted}
         isRequirementSatisfied={isRequirementSatisfied}
@@ -87,7 +96,7 @@ export default function Audit({ program, completed, toggle, isCompleted, isRequi
       />
 
       {/* Optional CS courses — shown for awareness, not counted toward 120 */}
-      <OptionalAuditSection completed={completed} toggle={toggle} />
+      <OptionalAuditSection search={search} completed={completed} toggle={toggle} />
 
     </div>
   );
@@ -121,10 +130,13 @@ function CreditSummary({ done, required, remaining, pct }) {
  *   - Completed items (indented, struck-through)
  *   - Remaining items (normal weight)
  */
-function AuditCategory({ title, note, items, creditsRequired, isCompleted, isRequirementSatisfied, getRequirementStatus, toggleItem }) {
-  const doneItems      = items.filter(i => isCompleted(i));
-  const waivedItems    = items.filter(i => getRequirementStatus(i).satisfiedByAlternate);
-  const remainingItems = items.filter(i => !isRequirementSatisfied(i));
+function AuditCategory({ title, note, items, search, creditsRequired, isCompleted, isRequirementSatisfied, getRequirementStatus, toggleItem }) {
+  if (items.length === 0 && creditsRequired === 0) return null;
+
+  const visibleItems = items.filter(item => matchesSearch([title, note, item.id, item.code, item.title, item.label], search));
+  const doneItems      = visibleItems.filter(i => isCompleted(i));
+  const waivedItems    = visibleItems.filter(i => getRequirementStatus(i).satisfiedByAlternate);
+  const remainingItems = visibleItems.filter(i => !isRequirementSatisfied(i));
   const doneCredits    = calcSatisfiedRequirementCredits(items, isRequirementSatisfied);
   const met            = doneCredits >= creditsRequired;
 
@@ -166,7 +178,7 @@ function AuditCategory({ title, note, items, creditsRequired, isCompleted, isReq
         ))}
 
         {/* Empty state */}
-        {items.length === 0 && (
+        {visibleItems.length === 0 && (
           <div className="px-4 py-3 text-xs text-gray-400 italic">
             Choose courses from the elective list above.
           </div>
@@ -206,8 +218,11 @@ function AuditRow({ item, done, satisfiedByAlternate = false, toggleItem }) {
  * Optional CS courses — writing intensive and core eligible.
  * Shown for awareness only; not counted toward the 120-credit total.
  */
-function OptionalAuditSection({ completed, toggle }) {
+function OptionalAuditSection({ search, completed, toggle }) {
   const groups = [optionalData.writingIntensive, optionalData.coreEligible];
+  const courses = groups
+    .flatMap(g => g.courses.map(course => ({ ...course, groupLabel: g.label, groupNote: g.note })))
+    .filter(course => matchesSearch([course.groupLabel, course.groupNote, course.code, course.title], search));
 
   return (
     <div className="rounded-xl overflow-hidden border border-gold-100 shadow-sm">
@@ -219,7 +234,7 @@ function OptionalAuditSection({ completed, toggle }) {
       </div>
 
       <div className="bg-white divide-y divide-gray-50">
-        {groups.flatMap(g => g.courses).map(course => {
+        {courses.map(course => {
           const done = completed.has(course.id);
           return (
             <button

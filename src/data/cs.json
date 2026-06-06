@@ -217,6 +217,7 @@
     { "id": "CORE_HIST1",   "label": "Historical Knowledge Tier 1", "credits": 3 },
     { "id": "CORE_HIST2",   "label": "Historical Knowledge Tier 2", "credits": 3 },
     { "id": "CORE_ETHICS",  "label": "Ethics", "credits": 3 },
+    { "id": "CORE_QUANT",   "label": "Quantitative Knowledge and Inquiry", "credits": 3 },
     { "id": "CORE_SCI1",    "label": "Scientific Knowledge Tier 1", "credits": 3 },
     { "id": "CORE_SCI2",    "label": "Scientific Knowledge Tier 2", "credits": 3 },
     { "id": "CORE_SOC1",    "label": "Societal & Cultural Knowledge Tier 1", "credits": 3 },

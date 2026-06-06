@@ -1,0 +1,106 @@
+{
+  "id": "ai-human-flourishing-minor",
+  "name": "Artificial Intelligence and Human Flourishing",
+  "degree": "Interdisciplinary Minor",
+  "school": "Loyola University Chicago",
+  "kind": "minor",
+  "totalCredits": 18,
+  "hasCompletionEstimate": false,
+  "catalogUrl": "https://catalog.luc.edu/undergraduate/arts-sciences/philosophy/artificial-intelligence-human-flourishing-interdisciplinary-minor/",
+
+  "courses": [],
+
+  "electiveOptions": {
+    "restricted": {
+      "creditsRequired": 6,
+      "label": "Technological Foundations",
+      "note": "Choose at least two courses. At least one Technological Foundations course must be a Computer Science course.",
+      "courses": [
+        { "id": "AIH_TECH_COMP111", "code": "COMP 111", "title": "History of Computing", "credits": 3, "uniqueProgress": true },
+        { "id": "AIH_TECH_COMP150", "code": "COMP 150", "title": "Introduction to Computing", "credits": 3, "uniqueProgress": true },
+        { "id": "AIH_TECH_COMP170", "code": "COMP 170", "title": "Introduction to Object-Oriented Programming", "credits": 3, "uniqueProgress": true },
+        { "id": "AIH_TECH_COMP180", "code": "COMP 180", "title": "Computing and Data Analysis for the Sciences", "credits": 3, "uniqueProgress": true },
+        { "id": "AIH_TECH_COMP215", "code": "COMP 215", "title": "Object Oriented Programming with Mathematics", "credits": 3, "uniqueProgress": true },
+        { "id": "AIH_TECH_COMP379", "code": "COMP 379", "title": "Machine Learning", "credits": 3, "uniqueProgress": true },
+        { "id": "AIH_TECH_COMP388", "code": "COMP 388", "title": "Topics in Computer Science", "credits": 3, "uniqueProgress": true, "note": "With director approval of topic" },
+        { "id": "AIH_TECH_PHIL302", "code": "PHIL 302", "title": "Topics in Formal Logic", "credits": 3, "uniqueProgress": true, "note": "With director approval of topic" }
+      ]
+    },
+    "practicum": {
+      "creditsRequired": 6,
+      "label": "Ethical Foundations",
+      "note": "Choose at least two courses. At least one Ethical Foundations course must be a Philosophy course.",
+      "courses": [
+        { "id": "AIH_ETH_COMM360", "code": "COMM 360", "title": "Digital Media Ethics", "credits": 3, "uniqueProgress": true },
+        { "id": "AIH_ETH_COMP111", "code": "COMP 111", "title": "History of Computing", "credits": 3, "uniqueProgress": true },
+        { "id": "AIH_ETH_COMP317", "code": "COMP 317", "title": "Social, Legal, and Ethical Issues in Computing", "credits": 3, "uniqueProgress": true },
+        { "id": "AIH_ETH_PHIL276", "code": "PHIL 276", "title": "Philosophy of Mind", "credits": 3, "uniqueProgress": true },
+        { "id": "AIH_ETH_PHIL310", "code": "PHIL 310", "title": "Issues in Philosophy of Human Nature", "credits": 3, "uniqueProgress": true, "note": "With director approval of topic" },
+        { "id": "AIH_ETH_PHIL311", "code": "PHIL 311", "title": "Issues in Metaphysics", "credits": 3, "uniqueProgress": true, "note": "With director approval of topic" },
+        { "id": "AIH_ETH_PHIL324", "code": "PHIL 324", "title": "Topics in Ethics", "credits": 3, "uniqueProgress": true, "note": "With director approval of topic" },
+        { "id": "AIH_ETH_PHIL331", "code": "PHIL 331", "title": "Philosophy of Technology", "credits": 3, "uniqueProgress": true },
+        { "id": "AIH_ETH_PHIL387", "code": "PHIL 387", "title": "Topics in Philosophy of Mind", "credits": 3, "uniqueProgress": true }
+      ]
+    },
+    "free": {
+      "creditsRequired": 6,
+      "label": "Philosophy/Humanities Foundations and Elective",
+      "note": "Choose one Philosophy and Humanities Foundations course plus one additional course from any foundation list. Courses may appear in multiple lists but should be used for only one requirement.",
+      "courses": [
+        { "id": "AIH_HUM_COMP111", "code": "COMP 111", "title": "History of Computing", "credits": 3, "uniqueProgress": true },
+        { "id": "AIH_HUM_PHIL276", "code": "PHIL 276", "title": "Philosophy of Mind", "credits": 3, "uniqueProgress": true },
+        { "id": "AIH_HUM_PHIL301", "code": "PHIL 301", "title": "Symbolic Logic", "credits": 3, "uniqueProgress": true },
+        { "id": "AIH_HUM_PHIL302", "code": "PHIL 302", "title": "Topics in Formal Logic", "credits": 3, "uniqueProgress": true, "note": "With director approval of topic" },
+        { "id": "AIH_HUM_PHIL310", "code": "PHIL 310", "title": "Issues in Philosophy of Human Nature", "credits": 3, "uniqueProgress": true, "note": "With director approval of topic" },
+        { "id": "AIH_HUM_PHIL311", "code": "PHIL 311", "title": "Issues in Metaphysics", "credits": 3, "uniqueProgress": true, "note": "With director approval of topic" },
+        { "id": "AIH_HUM_PHIL330", "code": "PHIL 330", "title": "Theory of Knowledge", "credits": 3, "uniqueProgress": true },
+        { "id": "AIH_HUM_PHIL331", "code": "PHIL 331", "title": "Philosophy of Technology", "credits": 3, "uniqueProgress": true },
+        { "id": "AIH_HUM_PHIL387", "code": "PHIL 387", "title": "Topics in Philosophy of Mind", "credits": 3, "uniqueProgress": true },
+        { "id": "AIH_ANY_FOUNDATION", "code": "Foundation Elective", "title": "Additional course from any foundation list", "credits": 3, "uniqueProgress": true }
+      ]
+    }
+  },
+
+  "coreRequirements": [],
+
+  "roadmap": [
+    {
+      "year": 1,
+      "semester": "Fall",
+      "credits": 3,
+      "items": [{ "label": "Technological Foundations Course", "credits": 3, "isElective": true }]
+    },
+    {
+      "year": 1,
+      "semester": "Spring",
+      "credits": 3,
+      "items": [{ "label": "Ethical Foundations Course", "credits": 3, "isElective": true }]
+    },
+    {
+      "year": 2,
+      "semester": "Fall",
+      "credits": 3,
+      "items": [{ "label": "Philosophy and Humanities Foundations Course", "credits": 3, "isElective": true }]
+    },
+    {
+      "year": 2,
+      "semester": "Spring",
+      "credits": 3,
+      "items": [{ "label": "Technological Foundations Course", "credits": 3, "isElective": true }]
+    },
+    {
+      "year": 3,
+      "semester": "Fall",
+      "credits": 3,
+      "items": [{ "label": "Ethical Foundations Course", "credits": 3, "isElective": true }]
+    },
+    {
+      "year": 3,
+      "semester": "Spring",
+      "credits": 3,
+      "items": [{ "label": "Elective Course", "credits": 3, "isElective": true }]
+    }
+  ],
+
+  "checklist": []
+}

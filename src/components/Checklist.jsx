@@ -1,7 +1,8 @@
+import { useState } from 'react';
+import SearchBox from './SearchBox';
 import optionalData from '../data/optional.json';
 import { calcDistinctDoneCredits } from '../utils/progress';
-
-const GRADUATION_CREDITS = 120;
+import { matchesSearch, normalizeSearch } from '../utils/search';
 
 /**
  * Checklist — four sections:
@@ -19,19 +20,26 @@ const GRADUATION_CREDITS = 120;
  *   toggle    — function(id) to mark/unmark
  */
 export default function Checklist({ program, completed, toggle, isCompleted, isRequirementSatisfied, toggleItem }) {
+  const [query, setQuery] = useState('');
+  const search = normalizeSearch(query);
   const apItems       = program.checklist.filter(i => i.category === 'ap');
   const transferItems = program.checklist.filter(i => i.category === 'transfer');
 
   const doneCredits      = calcDistinctDoneCredits(program, completed);
-  const remainingCredits = Math.max(0, GRADUATION_CREDITS - doneCredits);
+  const creditGoal       = program.kind === 'minor' ? program.totalCredits : 120;
+  const remainingCredits = Math.max(0, creditGoal - doneCredits);
+  const showEstimate     = program.hasCompletionEstimate !== false;
 
   return (
     <div className="flex flex-col gap-6 px-4 py-6 pb-6">
-      <SemesterEstimate doneCredits={doneCredits} remainingCredits={remainingCredits} />
-      <RemainingCourses program={program} isRequirementSatisfied={isRequirementSatisfied} toggleItem={toggleItem} />
-      <ChecklistSection title="AP Exam Credits"              items={apItems}       completed={completed} toggle={toggle} isCompleted={isCompleted} toggleItem={toggleItem} />
-      <ChecklistSection title="Transfer & Placement Credits" items={transferItems} completed={completed} toggle={toggle} isCompleted={isCompleted} toggleItem={toggleItem} />
-      <OptionalCourses completed={completed} toggle={toggle} />
+      <SearchBox value={query} onChange={setQuery} placeholder="Search checklist" />
+      {showEstimate && (
+        <SemesterEstimate doneCredits={doneCredits} creditGoal={creditGoal} remainingCredits={remainingCredits} />
+      )}
+      <RemainingCourses program={program} search={search} isRequirementSatisfied={isRequirementSatisfied} toggleItem={toggleItem} />
+      <ChecklistSection title="AP Exam Credits"              items={apItems}       search={search} completed={completed} toggle={toggle} isCompleted={isCompleted} toggleItem={toggleItem} />
+      <ChecklistSection title="Transfer & Placement Credits" items={transferItems} search={search} completed={completed} toggle={toggle} isCompleted={isCompleted} toggleItem={toggleItem} />
+      <OptionalCourses search={search} completed={completed} toggle={toggle} />
     </div>
   );
 }
@@ -39,17 +47,17 @@ export default function Checklist({ program, completed, toggle, isCompleted, isR
 /**
  * Shows estimated semesters remaining for full-time (12 cr) and part-time (6 cr).
  */
-function SemesterEstimate({ doneCredits, remainingCredits }) {
+function SemesterEstimate({ doneCredits, creditGoal, remainingCredits }) {
   const fullTime = remainingCredits > 0 ? Math.ceil(remainingCredits / 12) : 0;
   const partTime = remainingCredits > 0 ? Math.ceil(remainingCredits /  6) : 0;
-  const pct      = Math.min(100, Math.round((doneCredits / GRADUATION_CREDITS) * 100));
+  const pct      = Math.min(100, Math.round((doneCredits / creditGoal) * 100));
 
   return (
     <div>
       <h2 className="text-xs font-semibold uppercase tracking-widest text-gray-400 mb-3">Estimated Time to Graduate</h2>
       <div className="rounded-2xl overflow-hidden border border-maroon-100 shadow-sm">
         <div className="bg-maroon-500 px-4 py-3 flex items-center justify-between">
-          <span className="text-white text-sm font-semibold">{doneCredits} / {GRADUATION_CREDITS} credits complete</span>
+          <span className="text-white text-sm font-semibold">{doneCredits} / {creditGoal} credits complete</span>
           <span className="text-maroon-200 text-xs">{pct}%</span>
         </div>
         <div className="h-1.5 bg-maroon-100">
@@ -96,14 +104,16 @@ function EnrollmentRow({ label, sublabel, semesters, icon }) {
   );
 }
 
-function RemainingCourses({ program, isRequirementSatisfied, toggleItem }) {
-  const remaining = program.courses.filter(c => !isRequirementSatisfied(c));
+function RemainingCourses({ program, search, isRequirementSatisfied, toggleItem }) {
+  const remaining = program.courses.filter(c =>
+    !isRequirementSatisfied(c) && matchesSearch([c.code, c.title, c.label, c.note, c.choiceNote], search)
+  );
   if (remaining.length === 0) {
     return (
       <div>
         <h2 className="text-xs font-semibold uppercase tracking-widest text-gray-400 mb-3">Remaining Required Courses</h2>
         <div className="bg-maroon-50 border border-maroon-100 rounded-xl p-4 text-sm text-maroon-700 text-center font-medium">
-          All required courses complete ✓
+          {search ? 'No matching remaining courses' : 'All required courses complete ✓'}
         </div>
       </div>
     );
@@ -138,13 +148,14 @@ function RemainingCourses({ program, isRequirementSatisfied, toggleItem }) {
   );
 }
 
-function ChecklistSection({ title, items, completed, toggle, isCompleted, toggleItem }) {
-  if (!items.length) return null;
+function ChecklistSection({ title, items, search, completed, toggle, isCompleted, toggleItem }) {
+  const visibleItems = items.filter(item => matchesSearch([item.label, item.grants, item.id], search));
+  if (!visibleItems.length) return null;
   return (
     <div>
       <h2 className="text-xs font-semibold uppercase tracking-widest text-gray-400 mb-3">{title}</h2>
       <div className="flex flex-col gap-2">
-        {items.map(item => (
+        {visibleItems.map(item => (
           <ChecklistItem key={item.id} item={item} completed={completed} toggle={toggle} isCompleted={isCompleted} toggleItem={toggleItem} />
         ))}
       </div>
@@ -185,7 +196,7 @@ function ChecklistItem({ item, completed, toggle, isCompleted, toggleItem }) {
   );
 }
 
-function OptionalCourses({ completed, toggle }) {
+function OptionalCourses({ search, completed, toggle }) {
   const groups = [optionalData.writingIntensive, optionalData.coreEligible];
   return (
     <div className="flex flex-col gap-4">
@@ -197,7 +208,9 @@ function OptionalCourses({ completed, toggle }) {
           </h2>
           <p className="text-xs text-gray-400 mb-2">{group.note}</p>
           <div className="flex flex-col gap-2">
-            {group.courses.map(course => {
+            {group.courses
+              .filter(course => matchesSearch([group.label, group.note, course.code, course.title], search))
+              .map(course => {
               const done = completed.has(course.id);
               return (
                 <button

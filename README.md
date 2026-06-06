@@ -1,6 +1,6 @@
 # Loyola CS Advising Checklist
 
-Mobile-first advising checklist for Loyola University Chicago Computer Science undergraduate degree planning.
+Mobile-first advising checklist for Loyola University Chicago Computer Science undergraduate degree and minor planning.
 
 The app is live at:
 
@@ -8,7 +8,7 @@ https://advising.cs.luc.edu/
 
 ## Purpose
 
-This project helps students understand and track progress toward undergraduate degree requirements in Loyola University Chicago's Computer Science programs, using requirements modeled from the university catalog at `catalog.luc.edu`.
+This project helps students understand and track progress toward undergraduate degree and minor requirements in Loyola University Chicago's Computer Science programs, using requirements modeled from the university catalog at `catalog.luc.edu`.
 
 The app is meant to support advising conversations, not replace them. Students can use it to explore degree requirements, check off completed courses, estimate remaining progress, and bring a clearer checklist to meetings with a human advisor.
 
@@ -22,19 +22,25 @@ The current version targets these undergraduate BS programs:
 - Cybersecurity
 - Data Science
 
+It also includes these undergraduate minors:
+
+- Artificial Intelligence
+- Artificial Intelligence and Human Flourishing
+- Business of Applied Artificial Intelligence
+
 Graduate programs are not modeled yet. Expected future scope includes graduate programs, 4+1 programs, and the PhD program.
 
 ## Student-Facing Requirements
 
 The app should let a student:
 
-- Select one of the supported degree programs.
+- Select one of the supported degree or minor programs.
 - Review required major courses.
 - Review elective, practicum, capstone, and free-elective options.
 - Review University Core and CAS-related requirements used in the degree plans.
 - Follow a suggested semester-by-semester roadmap.
 - Check off completed courses or satisfied requirements.
-- See remaining courses and estimated time to completion.
+- See remaining courses. Degree programs also show estimated time to completion; minors intentionally do not.
 - See an audit-style summary of completed and remaining credits by category.
 - Copy a shareable URL that restores the selected program and checklist state.
 - Return later on the same device and keep local progress.
@@ -83,6 +89,9 @@ Each program currently includes:
 - `degree`
 - `school`
 - `totalCredits`
+- `kind` where needed, such as `minor`
+- `hasCompletionEstimate` where needed
+- `catalogUrl` where useful for traceability
 - `courses`
 - `electiveOptions`
 - `coreRequirements`
@@ -105,14 +114,54 @@ Examples currently modeled include:
 - CS: `MATH 132` or `MATH 162`
 - SE and Cybersecurity: `MATH 131` or `MATH 161`
 
+University Core course inventory lives in `src/data/coreCourses.json`. It is generated from the official catalog Core Area pages by:
+
+```bash
+node scripts/fetch-core-courses.mjs
+```
+
+The Core analysis document and department-code histogram charts are regenerated from that JSON by:
+
+```bash
+python3 scripts/write-core-analysis.py
+```
+
+That script writes `CORE-ANALYSIS.md`, a local-viewable `CORE-ANALYSIS.html`, plus cached SVG and PNG charts in `docs/core-charts/`. PNG rendering uses the first available local renderer from `rsvg-convert`, ImageMagick's `magick`, or macOS `sips`.
+
+The inventory is grouped by Core Area and by catalog section, such as Foundational/Tier I and Tier II. Many catalog tables list requirement hours on the group row rather than explicit hours on each course row. For this application inventory, blank course-level hours default to 3 credits; explicit catalog row values, such as UCWR 109 at 6 credits, are preserved.
+
+The Core changes infrequently, so the catalog-derived results are intentionally cached in the repository. Do not fetch the catalog at runtime in the app. When the Core catalog changes, refresh the cache with:
+
+```bash
+node scripts/fetch-core-courses.mjs
+python3 scripts/write-core-analysis.py
+npm run lint
+npm run build
+```
+
+Then review and commit the generated changes together:
+
+- `src/data/coreCourses.json`
+- `CORE-ANALYSIS.md`
+- `CORE-ANALYSIS.html`
+- `docs/core-charts/*.svg`
+- `docs/core-charts/*.png`
+
+If Loyola changes Core Area names, requirement structure, catalog URLs, or required credit counts, update the area metadata in `scripts/fetch-core-courses.mjs` before regenerating the cache.
+
 ## Main Views
 
-Each selected program has four swipeable tabs:
+Each selected program has five swipeable tabs:
 
 - `Courses`: required courses, elective requirements, and core requirements.
+- `Core`: catalog-derived University Core courses, including Tier I/Tier II sections where applicable.
 - `Roadmap`: suggested semester-by-semester plan.
 - `Checklist`: remaining courses, AP/transfer items, optional courses, and time-to-completion estimate.
 - `Audit`: audit-style progress by requirement category.
+
+The `Core` tab lets students check the specific Core course they completed while satisfying the program's general Core requirement IDs. For example, checking a catalog course under Historical Tier I satisfies `CORE_HIST1` everywhere else in the app. Include Core categories even when a requirement may commonly be fulfilled by CS, math, statistics, or other program coursework; students still need to see that the Core requirement exists. Students may also quick-check a general Core item from `Courses` or `Roadmap`; that counts immediately, and the row then offers a `Choose specific Core course` action so they can jump to the Core tab and record the actual course later. Students may select more than one course in the same Core area or tier for tracking, but audit and total-credit calculations count each general Core requirement only once.
+
+Search is intentionally available on every program tab. Each tab owns its own search query and filters only the visible rows in that tab; search does not change saved progress or affect other tabs.
 
 ## Tech Stack
 

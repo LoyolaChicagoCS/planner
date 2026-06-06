@@ -1,3 +1,8 @@
+import { useState } from 'react';
+import SearchBox from './SearchBox';
+import { hasConcreteCoreSelection } from '../utils/coreCatalog';
+import { matchesSearch, normalizeSearch } from '../utils/search';
+
 /**
  * Roadmap — shows the suggested 4-year, semester-by-semester plan.
  *
@@ -10,21 +15,28 @@
  *   completed — Set of completed course/item IDs
  *   toggle    — function(id) to mark/unmark a course
  */
-export default function Roadmap({ program, getRequirementStatus, toggleItem }) {
+export default function Roadmap({ program, completed, getRequirementStatus, toggleItem, onOpenCoreRequirement }) {
+  const [query, setQuery] = useState('');
+  const search = normalizeSearch(query);
   // Build a lookup map: courseId -> course object, for resolving roadmap refs
   const courseMap = Object.fromEntries(program.courses.map(c => [c.id, c]));
   const coreMap   = Object.fromEntries(program.coreRequirements.map(r => [r.id, r]));
 
   return (
     <div className="flex flex-col gap-4 px-4 py-6 pb-24">
+      <SearchBox value={query} onChange={setQuery} placeholder="Search roadmap" />
       {program.roadmap.map((sem, idx) => (
         <SemesterCard
           key={idx}
           semester={sem}
           courseMap={courseMap}
           coreMap={coreMap}
+          completed={completed}
+          program={program}
+          search={search}
           getRequirementStatus={getRequirementStatus}
           toggleItem={toggleItem}
+          onOpenCoreRequirement={onOpenCoreRequirement}
         />
       ))}
     </div>
@@ -32,7 +44,7 @@ export default function Roadmap({ program, getRequirementStatus, toggleItem }) {
 }
 
 /** A card for one semester showing all its courses */
-function SemesterCard({ semester, courseMap, coreMap, getRequirementStatus, toggleItem }) {
+function SemesterCard({ semester, courseMap, coreMap, completed, program, search, getRequirementStatus, toggleItem, onOpenCoreRequirement }) {
   // Resolve each roadmap item to a displayable object with an id and label
   const items = semester.items.map((item, i) => {
     if (item.isElective) {
@@ -48,9 +60,13 @@ function SemesterCard({ semester, courseMap, coreMap, getRequirementStatus, togg
     }
     return { id: `unknown-${i}`, label: item.label ?? '?', credits: item.credits ?? 0 };
   });
+  const visibleItems = items.filter(item =>
+    matchesSearch([item.id, item.label, semester.year, semester.semester], search)
+  );
+  if (search && visibleItems.length === 0) return null;
 
-  const totalCredits = items.reduce((sum, it) => sum + (it.credits ?? 0), 0);
-  const doneCredits  = items
+  const totalCredits = visibleItems.reduce((sum, it) => sum + (it.credits ?? 0), 0);
+  const doneCredits  = visibleItems
     .filter(it => {
       const status = getRequirementStatus(it);
       return status.completed || status.satisfiedByAlternate;
@@ -85,12 +101,15 @@ function SemesterCard({ semester, courseMap, coreMap, getRequirementStatus, togg
 
       {/* Course rows */}
       <div className="bg-white divide-y divide-gray-50">
-        {items.map(item => (
+        {visibleItems.map(item => (
           <RoadmapItem
             key={item.id}
             item={item}
             status={getRequirementStatus(item)}
+            completed={completed}
+            program={program}
             toggleItem={toggleItem}
+            onOpenCoreRequirement={onOpenCoreRequirement}
           />
         ))}
       </div>
@@ -99,35 +118,49 @@ function SemesterCard({ semester, courseMap, coreMap, getRequirementStatus, togg
 }
 
 /** A single course row within a semester card */
-function RoadmapItem({ item, status, toggleItem }) {
-  const { completed, satisfiedByAlternate } = status;
+function RoadmapItem({ item, status, completed, program, toggleItem, onOpenCoreRequirement }) {
+  const { completed: generalCompleted, satisfiedByAlternate } = status;
+  const needsSpecificCore = generalCompleted
+    && item.id.startsWith('CORE_')
+    && !hasConcreteCoreSelection(program, completed, item.id);
+
   return (
-    <button
-      onClick={() => toggleItem(item)}
-      className="flex items-center gap-3 px-4 py-3 w-full text-left active:bg-gray-50 transition-colors"
-    >
-      {/* Completion circle */}
-      <div className={`
-        flex-shrink-0 w-5 h-5 rounded-full border-2 flex items-center justify-center
-        ${completed ? 'bg-maroon-500 border-maroon-500' : satisfiedByAlternate ? 'bg-gold-400 border-gold-400' : 'border-gray-300'}
-        ${item.isElective ? 'border-dashed' : ''}
-      `}>
-        {(completed || satisfiedByAlternate) && <span className="text-white text-xs">✓</span>}
-      </div>
-
-      <div className="flex-1 min-w-0">
-        <div className={`text-sm leading-snug truncate ${completed ? 'text-gray-400 line-through' : satisfiedByAlternate ? 'text-gold-800' : 'text-gray-800'}`}>
-          {item.label}
+    <div>
+      <button
+        onClick={() => toggleItem(item)}
+        className="flex items-center gap-3 px-4 py-3 w-full text-left active:bg-gray-50 transition-colors"
+      >
+        {/* Completion circle */}
+        <div className={`
+          flex-shrink-0 w-5 h-5 rounded-full border-2 flex items-center justify-center
+          ${generalCompleted ? 'bg-maroon-500 border-maroon-500' : satisfiedByAlternate ? 'bg-gold-400 border-gold-400' : 'border-gray-300'}
+          ${item.isElective ? 'border-dashed' : ''}
+        `}>
+          {(generalCompleted || satisfiedByAlternate) && <span className="text-white text-xs">✓</span>}
         </div>
-        {satisfiedByAlternate && (
-          <div className="text-xs text-gold-500 mt-0.5">Requirement satisfied by alternate</div>
-        )}
-        {item.isElective && (
-          <div className="text-xs text-gold-500 mt-0.5">Elective — choose from list</div>
-        )}
-      </div>
 
-      <div className="text-xs text-gray-400 flex-shrink-0">{item.credits} cr</div>
-    </button>
+        <div className="flex-1 min-w-0">
+          <div className={`text-sm leading-snug truncate ${generalCompleted ? 'text-gray-400 line-through' : satisfiedByAlternate ? 'text-gold-800' : 'text-gray-800'}`}>
+            {item.label}
+          </div>
+          {satisfiedByAlternate && (
+            <div className="text-xs text-gold-500 mt-0.5">Requirement satisfied by selected Core course</div>
+          )}
+          {item.isElective && (
+            <div className="text-xs text-gold-500 mt-0.5">Elective — choose from list</div>
+          )}
+        </div>
+
+        <div className="text-xs text-gray-400 flex-shrink-0">{item.credits} cr</div>
+      </button>
+      {needsSpecificCore && (
+        <button
+          onClick={() => onOpenCoreRequirement?.(item.id)}
+          className="w-full border-t border-gray-100 px-4 py-2 text-left text-xs font-semibold text-maroon-600 active:bg-maroon-50"
+        >
+          Choose specific Core course
+        </button>
+      )}
+    </div>
   );
 }

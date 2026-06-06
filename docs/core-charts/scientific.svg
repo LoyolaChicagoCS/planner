@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="234" viewBox="0 0 920 234" role="img" aria-labelledby="title desc">
+<title id="title">Scientific Knowledge and Inquiry department histogram</title>
+<desc id="desc">Courses by department code (stacked by catalog section)</desc>
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="92" y="28" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#2c0c19">Scientific Knowledge and Inquiry</text>
+<text x="92" y="50" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">Courses by department code (stacked by catalog section)</text>
+<rect x="92" y="57" width="10" height="10" rx="2" fill="#82284A"/>
+<text x="106" y="66" font-family="Arial, sans-serif" font-size="11" fill="#374151">Foundational/Tier I</text>
+<rect x="224" y="57" width="10" height="10" rx="2" fill="#C8A951"/>
+<text x="238" y="66" font-family="Arial, sans-serif" font-size="11" fill="#374151">Tier II</text>
+<text x="80" y="91" text-anchor="end" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#374151">ENVS</text>
+<line x1="92" y1="86" x2="888" y2="86" stroke="#f3f4f6" stroke-width="1"/>
+<rect x="92" y="78" width="88.44" height="16" rx="3" fill="#82284A"/>
+<text x="136.22" y="90" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#ffffff">1</text>
+<rect x="180.44444444444446" y="78" width="707.56" height="16" rx="3" fill="#C8A951"/>
+<text x="534.22" y="90" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#ffffff">8</text>
+<text x="896" y="91" font-family="Arial, sans-serif" font-size="12" fill="#374151">9</text>
+<text x="80" y="119" text-anchor="end" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#374151">ANTH</text>
+<line x1="92" y1="114" x2="888" y2="114" stroke="#f3f4f6" stroke-width="1"/>
+<rect x="92" y="106" width="442.22" height="16" rx="3" fill="#C8A951"/>
+<text x="313.11" y="118" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#ffffff">5</text>
+<text x="896" y="119" font-family="Arial, sans-serif" font-size="12" fill="#374151">5</text>
+<text x="80" y="147" text-anchor="end" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#374151">PHYS</text>
+<line x1="92" y1="142" x2="888" y2="142" stroke="#f3f4f6" stroke-width="1"/>
+<rect x="92" y="134" width="265.33" height="16" rx="3" fill="#C8A951"/>
+<text x="224.67" y="146" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#ffffff">3</text>
+<text x="896" y="147" font-family="Arial, sans-serif" font-size="12" fill="#374151">3</text>
+<text x="80" y="175" text-anchor="end" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#374151">BIOL</text>
+<line x1="92" y1="170" x2="888" y2="170" stroke="#f3f4f6" stroke-width="1"/>
+<rect x="92" y="162" width="88.44" height="16" rx="3" fill="#C8A951"/>
+<text x="136.22" y="174" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#ffffff">1</text>
+<text x="896" y="175" font-family="Arial, sans-serif" font-size="12" fill="#374151">1</text>
+<text x="92" y="220" font-family="Arial, sans-serif" font-size="11" fill="#6b7280">Total courses: 18</text>
+</svg>

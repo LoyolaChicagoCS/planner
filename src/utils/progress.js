@@ -1,4 +1,9 @@
+import { coreRequirementGroup, getCoreCatalogItemsForProgram } from './coreCatalog';
+
 function itemKey(item) {
+  if (item?.uniqueProgress) {
+    return `id:${item.id}`;
+  }
   if (item?.code && item?.title) {
     return `course:${item.code.trim().toUpperCase()}|${item.title.trim().toUpperCase()}`;
   }
@@ -10,10 +15,16 @@ function requirementKey(item) {
 }
 
 function requirementItems(program) {
+  const coreRequirements = (program.coreRequirements ?? []).map(item => ({
+    ...item,
+    requirementGroup: coreRequirementGroup(item.id),
+  }));
+
   return [
     ...(program.courses ?? []),
-    ...(program.coreRequirements ?? []),
+    ...coreRequirements,
     ...Object.values(program.electiveOptions ?? {}).flatMap(group => group.courses ?? []),
+    ...getCoreCatalogItemsForProgram(program),
   ];
 }
 

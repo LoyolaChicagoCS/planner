@@ -1,0 +1,87 @@
+{
+  "id": "business-ai-minor",
+  "name": "Business of Applied Artificial Intelligence",
+  "degree": "Minor",
+  "school": "Loyola University Chicago",
+  "kind": "minor",
+  "totalCredits": 18,
+  "hasCompletionEstimate": false,
+  "catalogUrl": "https://catalog.luc.edu/undergraduate/business/business-applied-artificial-intelligence-minor/",
+
+  "courses": [
+    { "id": "BAIMIN_ACCT331", "code": "ACCT 331", "title": "Introduction to the Business of Applied Artificial Intelligence", "credits": 3, "category": "major" },
+    { "id": "BAIMIN_COMP150", "code": "COMP 150", "title": "Introduction to Computing", "credits": 3, "category": "major" },
+    { "id": "BAIMIN_ETHC341", "code": "ETHC 341", "title": "Ethics in Business", "credits": 3, "category": "major", "note": "Satisfies BBA Core and University Core requirements" },
+    { "id": "BAIMIN_INFS343", "code": "INFS 343", "title": "Business Analytics", "credits": 3, "category": "major", "note": "Satisfies BBA Core requirement" },
+    {
+      "id": "BAIMIN_ISSCM241",
+      "code": "ISSCM 241",
+      "title": "Business Statistics",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "business-ai-statistics",
+      "choiceNote": "Choose ISSCM 241 or STAT 103",
+      "note": "Satisfies BBA Core and University Core requirements"
+    },
+    {
+      "id": "BAIMIN_STAT103",
+      "code": "STAT 103",
+      "title": "Fundamentals of Statistics",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "business-ai-statistics",
+      "choiceNote": "Choose ISSCM 241 or STAT 103",
+      "note": "Satisfies University Core requirements"
+    },
+    { "id": "BAIMIN_QUIN390", "code": "QUIN 390", "title": "Capstone in Business of Applied Artificial Intelligence", "credits": 3, "category": "major" }
+  ],
+
+  "electiveOptions": {
+    "restricted": { "creditsRequired": 0, "label": "Minor Electives", "courses": [] },
+    "practicum": { "creditsRequired": 0, "label": "Practicum", "courses": [] },
+    "free": { "creditsRequired": 0, "label": "Free Electives", "courses": [] }
+  },
+
+  "coreRequirements": [],
+
+  "roadmap": [
+    {
+      "year": 1,
+      "semester": "Freshman Spring",
+      "credits": 3,
+      "items": [{ "ref": "BAIMIN_ISSCM241" }]
+    },
+    {
+      "year": 2,
+      "semester": "Sophomore Fall",
+      "credits": 3,
+      "items": [{ "ref": "BAIMIN_COMP150" }]
+    },
+    {
+      "year": 2,
+      "semester": "Sophomore Spring",
+      "credits": 3,
+      "items": [{ "ref": "BAIMIN_ACCT331" }]
+    },
+    {
+      "year": 3,
+      "semester": "Junior Fall",
+      "credits": 3,
+      "items": [{ "ref": "BAIMIN_ETHC341" }]
+    },
+    {
+      "year": 3,
+      "semester": "Junior Spring",
+      "credits": 3,
+      "items": [{ "ref": "BAIMIN_INFS343" }]
+    },
+    {
+      "year": 4,
+      "semester": "Senior Fall",
+      "credits": 3,
+      "items": [{ "ref": "BAIMIN_QUIN390" }]
+    }
+  ],
+
+  "checklist": []
+}

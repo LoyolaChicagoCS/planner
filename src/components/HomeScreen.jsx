@@ -16,6 +16,9 @@ const PROGRAM_COLORS = {
   it:            'from-gold-400 to-gold-600',
   cybersecurity: 'from-maroon-600 to-maroon-800',
   datascience:   'from-gold-500 to-maroon-600',
+  'ai-minor': 'from-maroon-500 to-gold-600',
+  'ai-human-flourishing-minor': 'from-maroon-600 to-gray-800',
+  'business-ai-minor': 'from-gold-500 to-gray-800',
 };
 
 const PROGRAM_ICONS = {
@@ -24,9 +27,15 @@ const PROGRAM_ICONS = {
   it:            '🌐',
   cybersecurity: '🔒',
   datascience:   '📊',
+  'ai-minor': '🤖',
+  'ai-human-flourishing-minor': '🧠',
+  'business-ai-minor': '💼',
 };
 
 export default function HomeScreen({ programs, onSelect }) {
+  const degreePrograms = programs.filter(program => program.kind !== 'minor');
+  const minors = programs.filter(program => program.kind === 'minor');
+
   return (
     <div className="flex flex-col h-full bg-gray-50 overflow-y-auto">
       {/* Header — LUC maroon bar */}
@@ -38,7 +47,7 @@ export default function HomeScreen({ programs, onSelect }) {
           </span>
         </div>
         <p className="text-maroon-100 mt-2 text-sm leading-relaxed">
-          Track progress toward Loyola CS degree requirements and bring your checklist to advising conversations.
+          Track progress toward Loyola CS degree and minor requirements and bring your checklist to advising conversations.
         </p>
         <p className="text-maroon-200 mt-2 text-xs leading-relaxed">
           Built to support planning with your human advisor, not replace them.
@@ -47,25 +56,37 @@ export default function HomeScreen({ programs, onSelect }) {
 
       {/* Program cards */}
       <div className="flex-1 overflow-y-auto px-4 pt-5 pb-8 space-y-4">
-        {programs.map(program => (
-          <button
-            key={program.id}
-            onClick={() => onSelect(program)}
-            className={`
-              w-full text-left rounded-2xl p-5 shadow-md
-              bg-gradient-to-br ${PROGRAM_COLORS[program.id] ?? 'from-maroon-500 to-maroon-700'}
-              text-white active:scale-95 transition-transform
-            `}
-          >
-            <div className="text-3xl mb-2">{PROGRAM_ICONS[program.id] ?? '🎓'}</div>
-            <div className="text-lg font-semibold leading-tight">{program.name}</div>
-            <div className="text-sm opacity-80 mt-1">
-              {program.degree} &middot; {program.totalCredits} credits
-            </div>
-          </button>
-        ))}
+        <ProgramGroup title="Degree Programs" programs={degreePrograms} onSelect={onSelect} />
+        <ProgramGroup title="Minors" programs={minors} onSelect={onSelect} />
       </div>
       <Footer />
     </div>
+  );
+}
+
+function ProgramGroup({ title, programs, onSelect }) {
+  if (!programs.length) return null;
+
+  return (
+    <section className="space-y-3">
+      <h2 className="px-1 text-xs font-semibold uppercase tracking-widest text-gray-400">{title}</h2>
+      {programs.map(program => (
+        <button
+          key={program.id}
+          onClick={() => onSelect(program)}
+          className={`
+            w-full text-left rounded-2xl p-5 shadow-md
+            bg-gradient-to-br ${PROGRAM_COLORS[program.id] ?? 'from-maroon-500 to-maroon-700'}
+            text-white active:scale-95 transition-transform
+          `}
+        >
+          <div className="text-3xl mb-2">{PROGRAM_ICONS[program.id] ?? '🎓'}</div>
+          <div className="text-lg font-semibold leading-tight">{program.name}</div>
+          <div className="text-sm opacity-80 mt-1">
+            {program.degree} &middot; {program.totalCredits} credits
+          </div>
+        </button>
+      ))}
+    </section>
   );
 }

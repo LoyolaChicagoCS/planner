@@ -1,3 +1,8 @@
+import { useState } from 'react';
+import SearchBox from './SearchBox';
+import { hasConcreteCoreSelection } from '../utils/coreCatalog';
+import { matchesSearch, normalizeSearch } from '../utils/search';
+
 /**
  * CourseList — displays all required courses for a program, grouped
  * by category (major requirements, core curriculum, electives).
@@ -10,21 +15,35 @@
  *   completed — Set of completed course/item IDs
  *   toggle    — function(id) to mark/unmark a course
  */
-export default function CourseList({ program, isCompleted, getRequirementStatus, toggleItem }) {
-  const majorCourses = program.courses.filter(c => c.category === 'major');
-  const electiveCourses = program.courses.filter(c => c.category === 'elective');
+export default function CourseList({ program, completed, isCompleted, getRequirementStatus, toggleItem, onOpenCoreRequirement }) {
+  const [query, setQuery] = useState('');
+  const search = normalizeSearch(query);
+  const isMinor = program.kind === 'minor';
+  const majorCourses = program.courses.filter(c => c.category === 'major' && courseMatches(c, search));
+  const electiveCourses = program.courses.filter(c => c.category === 'elective' && courseMatches(c, search));
 
   return (
     <div className="flex flex-col gap-6 px-4 py-6 pb-24">
-      <Section title="Major Requirements" courses={majorCourses} getRequirementStatus={getRequirementStatus} toggleItem={toggleItem} />
-      <Section title="Electives & Capstone" courses={electiveCourses} getRequirementStatus={getRequirementStatus} toggleItem={toggleItem} />
-      <div>
-        <h2 className="text-xs font-semibold uppercase tracking-widest text-gray-400 mb-3">Elective Requirements</h2>
-        <ElectiveInfo program={program} isCompleted={isCompleted} toggleItem={toggleItem} />
-      </div>
-      <CoreInfo program={program} isCompleted={isCompleted} toggleItem={toggleItem} />
+      <SearchBox value={query} onChange={setQuery} placeholder="Search courses and requirements" />
+      <Section title={isMinor ? 'Minor Requirements' : 'Major Requirements'} courses={majorCourses} getRequirementStatus={getRequirementStatus} toggleItem={toggleItem} />
+      <Section title={isMinor ? 'Minor Options' : 'Electives & Capstone'} courses={electiveCourses} getRequirementStatus={getRequirementStatus} toggleItem={toggleItem} />
+      <ElectiveInfo program={program} search={search} isCompleted={isCompleted} toggleItem={toggleItem} />
+      {!isMinor && (
+        <CoreInfo
+          program={program}
+          completed={completed}
+          search={search}
+          getRequirementStatus={getRequirementStatus}
+          toggleItem={toggleItem}
+          onOpenCoreRequirement={onOpenCoreRequirement}
+        />
+      )}
     </div>
   );
+}
+
+function courseMatches(course, query) {
+  return matchesSearch([course.code, course.title, course.label, course.note, course.choiceNote], query);
 }
 
 /** A labeled group of course rows */
@@ -89,23 +108,37 @@ function CourseRow({ course, getRequirementStatus, toggleItem }) {
  * Renders each elective group (restricted, practicum, free) as a collapsible
  * section with checkable course rows and a live credit progress bar.
  */
-function ElectiveInfo({ program, isCompleted, toggleItem }) {
+function ElectiveInfo({ program, search, isCompleted, toggleItem }) {
   const { restricted, practicum, free } = program.electiveOptions;
+  const isMinor = program.kind === 'minor';
+  const groups = [restricted, practicum, free].filter(group =>
+    group && ((group.courses ?? []).length > 0 || group.creditsRequired > 0)
+  );
+  if (!groups.length) return null;
+
   return (
-    <div className="flex flex-col gap-4">
-      {[restricted, practicum, free].map(group => (
-        <ElectiveGroup key={group.label} group={group} isCompleted={isCompleted} toggleItem={toggleItem} />
-      ))}
+    <div>
+      <h2 className="text-xs font-semibold uppercase tracking-widest text-gray-400 mb-3">
+        {isMinor ? 'Minor Course Selections' : 'Elective Requirements'}
+      </h2>
+      <div className="flex flex-col gap-4">
+        {groups.map(group => (
+          <ElectiveGroup key={group.label} group={group} search={search} isCompleted={isCompleted} toggleItem={toggleItem} />
+        ))}
+      </div>
     </div>
   );
 }
 
 /** One elective group with a header, credit progress, and checkable course rows */
-function ElectiveGroup({ group, isCompleted, toggleItem }) {
-  const courses = group.courses ?? [];
+function ElectiveGroup({ group, search, isCompleted, toggleItem }) {
+  const allCourses = group.courses ?? [];
+  const courses = allCourses.filter(course =>
+    matchesSearch([group.label, group.note, course.code, course.title], search)
+  );
 
   // Count credits completed within this group
-  const doneCredits = courses
+  const doneCredits = allCourses
     .filter(c => isCompleted(c))
     .reduce((sum, c) => sum + c.credits, 0);
   const pct = Math.min(100, Math.round((doneCredits / group.creditsRequired) * 100));
@@ -170,36 +203,54 @@ function ElectiveCourseRow({ course, isCompleted, toggleItem }) {
 }
 
 /** Core curriculum items with checkboxes */
-function CoreInfo({ program, isCompleted, toggleItem }) {
+function CoreInfo({ program, completed, search, getRequirementStatus, toggleItem, onOpenCoreRequirement }) {
+  const requirements = program.coreRequirements.filter(req => matchesSearch([req.id, req.label], search));
+  if (!requirements.length) return null;
+
   return (
     <div>
       <h2 className="text-xs font-semibold uppercase tracking-widest text-gray-400 mb-3">University Core</h2>
       <div className="flex flex-col gap-2">
-        {program.coreRequirements.map(req => {
-          const done = isCompleted(req);
+        {requirements.map(req => {
+          const { completed: generalCompleted, satisfiedByAlternate } = getRequirementStatus(req);
+          const needsSpecificCore = generalCompleted && req.id.startsWith('CORE_') && !hasConcreteCoreSelection(program, completed, req.id);
           return (
-            <button
+            <div
               key={req.id}
-              onClick={() => toggleItem(req)}
               className={`
-                flex items-center gap-3 p-3 rounded-xl text-left w-full
-                transition-colors shadow-sm
-                ${done ? 'bg-maroon-50 border border-maroon-200' : 'bg-white border border-gray-100'}
+                rounded-xl transition-colors shadow-sm overflow-hidden
+                ${generalCompleted ? 'bg-maroon-50 border border-maroon-200' : satisfiedByAlternate ? 'bg-gold-50 border border-gold-200' : 'bg-white border border-gray-100'}
               `}
             >
-              <div className={`
-                flex-shrink-0 w-5 h-5 rounded-full border-2 flex items-center justify-center
-                ${done ? 'bg-maroon-500 border-maroon-500' : 'border-gray-300'}
-              `}>
-                {done && <span className="text-white text-xs">✓</span>}
-              </div>
-              <div className="flex-1">
-                <div className={`text-sm font-medium ${done ? 'text-maroon-700 line-through' : 'text-gray-800'}`}>
-                  {req.label}
+              <button
+                onClick={() => toggleItem(req)}
+                className="flex items-center gap-3 p-3 text-left w-full active:bg-gray-50 transition-colors"
+              >
+                <div className={`
+                  flex-shrink-0 w-5 h-5 rounded-full border-2 flex items-center justify-center
+                  ${generalCompleted ? 'bg-maroon-500 border-maroon-500' : satisfiedByAlternate ? 'bg-gold-400 border-gold-400' : 'border-gray-300'}
+                `}>
+                  {(generalCompleted || satisfiedByAlternate) && <span className="text-white text-xs">✓</span>}
                 </div>
-                <div className="text-xs text-gray-400">{req.credits} cr</div>
-              </div>
-            </button>
+                <div className="flex-1">
+                  <div className={`text-sm font-medium ${generalCompleted ? 'text-maroon-700 line-through' : satisfiedByAlternate ? 'text-gold-800' : 'text-gray-800'}`}>
+                    {req.label}
+                  </div>
+                  <div className="text-xs text-gray-400">
+                    {req.credits} cr
+                    {satisfiedByAlternate && <span className="ml-1 text-gold-600">· satisfied by selected Core course</span>}
+                  </div>
+                </div>
+              </button>
+              {needsSpecificCore && (
+                <button
+                  onClick={() => onOpenCoreRequirement?.(req.id)}
+                  className="w-full border-t border-maroon-100 px-3 py-2 text-left text-xs font-semibold text-maroon-600 active:bg-maroon-100"
+                >
+                  Choose specific Core course
+                </button>
+              )}
+            </div>
           );
         })}
       </div>

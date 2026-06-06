@@ -1,4 +1,5 @@
 import optionalData from '../data/optional.json';
+import { getAllCoreCatalogCourseIds } from './coreCatalog';
 
 const DELIMITER = '.';
 
@@ -37,6 +38,7 @@ export function getValidProgressIds(programs, programId) {
 
   addCourseIds(ids, optionalData.writingIntensive?.courses);
   addCourseIds(ids, optionalData.coreEligible?.courses);
+  for (const id of getAllCoreCatalogCourseIds()) addId(ids, id);
 
   return ids;
 }

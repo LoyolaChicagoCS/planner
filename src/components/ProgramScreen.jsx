@@ -6,13 +6,12 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 
 import CourseList from './CourseList';
+import CorePlanner from './CorePlanner';
 import Roadmap from './Roadmap';
 import Checklist from './Checklist';
 import Audit from './Audit';
 import Footer from './Footer';
 import { calcDistinctDoneCredits, createProgressHelpers } from '../utils/progress';
-
-const TABS = ['Courses', 'Roadmap', 'Checklist', 'Audit'];
 
 /**
  * ProgramScreen — four horizontally-swipeable panels for one degree program.
@@ -26,16 +25,28 @@ const TABS = ['Courses', 'Roadmap', 'Checklist', 'Audit'];
 export default function ProgramScreen({ program, completed, toggle, onBack }) {
   const [activeIndex, setActiveIndex] = useState(0);
   const [copied, setCopied]           = useState(false);
+  const [coreFocusTarget, setCoreFocusTarget] = useState(null);
   const swiperRef                     = useRef(null);
 
-  const GRADUATION_CREDITS = 120;
+  const hasCoreTab = (program.coreRequirements ?? []).length > 0;
+  const tabs = hasCoreTab ? ['Courses', 'Core', 'Roadmap', 'Checklist', 'Audit'] : ['Courses', 'Roadmap', 'Checklist', 'Audit'];
+  const coreTabIndex = hasCoreTab ? 1 : -1;
+  const creditGoal = program.kind === 'minor' ? program.totalCredits : 120;
   const { isCompleted, isRequirementSatisfied, getRequirementStatus, toggleItem } =
     createProgressHelpers(program, completed, toggle);
   const doneCredits = calcDistinctDoneCredits(program, completed);
-  const pct = Math.min(100, Math.round((doneCredits / GRADUATION_CREDITS) * 100));
+  const pct = Math.min(100, Math.round((doneCredits / creditGoal) * 100));
 
   function goToTab(index) {
     swiperRef.current?.slideTo(index);
+  }
+
+  function openCoreRequirement(requirementId) {
+    setCoreFocusTarget(previous => ({
+      requirementId,
+      requestId: (previous?.requestId ?? 0) + 1,
+    }));
+    if (coreTabIndex >= 0) goToTab(coreTabIndex);
   }
 
   // Copy the current URL (which is already kept in sync by App.jsx) to clipboard
@@ -74,14 +85,14 @@ export default function ProgramScreen({ program, completed, toggle, onBack }) {
 
         {/* Credit progress pill */}
         <div className="flex-shrink-0 bg-maroon-50 text-maroon-600 text-xs font-semibold px-2 py-1 rounded-full text-center leading-tight">
-          <div>{doneCredits} / {GRADUATION_CREDITS} cr</div>
+          <div>{doneCredits} / {creditGoal} cr</div>
           <div className="text-maroon-400 font-normal">{pct}%</div>
         </div>
       </div>
 
       {/* Clickable tab bar */}
       <div className="flex bg-white border-b border-gray-200">
-        {TABS.map((label, i) => (
+        {tabs.map((label, i) => (
           <button
             key={i}
             onClick={() => goToTab(i)}
@@ -110,18 +121,35 @@ export default function ProgramScreen({ program, completed, toggle, onBack }) {
           <SwiperSlide style={{ overflowY: 'auto' }}>
             <CourseList
               program={program}
+              completed={completed}
               isCompleted={isCompleted}
               getRequirementStatus={getRequirementStatus}
               toggleItem={toggleItem}
+              onOpenCoreRequirement={openCoreRequirement}
             />
             <Footer />
           </SwiperSlide>
 
+          {hasCoreTab && (
+            <SwiperSlide style={{ overflowY: 'auto' }}>
+              <CorePlanner
+                program={program}
+                completed={completed}
+                toggle={toggle}
+                getRequirementStatus={getRequirementStatus}
+                focusTarget={coreFocusTarget}
+              />
+              <Footer />
+            </SwiperSlide>
+          )}
+
           <SwiperSlide style={{ overflowY: 'auto' }}>
             <Roadmap
               program={program}
+              completed={completed}
               getRequirementStatus={getRequirementStatus}
               toggleItem={toggleItem}
+              onOpenCoreRequirement={openCoreRequirement}
             />
             <Footer />
           </SwiperSlide>

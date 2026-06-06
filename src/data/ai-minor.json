@@ -1,0 +1,89 @@
+{
+  "id": "ai-minor",
+  "name": "Artificial Intelligence",
+  "degree": "Minor",
+  "school": "Loyola University Chicago",
+  "kind": "minor",
+  "totalCredits": 27,
+  "hasCompletionEstimate": false,
+  "catalogUrl": "https://catalog.luc.edu/undergraduate/arts-sciences/computer-science/artificial-intelligence-minor/",
+
+  "courses": [
+    { "id": "AIMIN_COMP163", "code": "COMP 163", "title": "Discrete Structures", "credits": 3, "category": "major" },
+    { "id": "AIMIN_COMP170", "code": "COMP 170", "title": "Introduction to Object-Oriented Programming", "credits": 3, "category": "major" },
+    { "id": "AIMIN_COMP271", "code": "COMP 271", "title": "Data Structures I", "credits": 3, "category": "major" },
+    { "id": "AIMIN_COMP317", "code": "COMP 317", "title": "Social, Legal, and Ethical Issues in Computing", "credits": 3, "category": "major" },
+    { "id": "AIMIN_COMP329", "code": "COMP 329", "title": "Natural Language Processing", "credits": 3, "category": "major" },
+    { "id": "AIMIN_COMP378", "code": "COMP 378", "title": "Artificial Intelligence", "credits": 3, "category": "major" },
+    { "id": "AIMIN_COMP379", "code": "COMP 379", "title": "Machine Learning", "credits": 3, "category": "major" },
+    { "id": "AIMIN_COMP387", "code": "COMP 387", "title": "Deep Learning", "credits": 3, "category": "major" },
+    {
+      "id": "AIMIN_MATH131",
+      "code": "MATH 131",
+      "title": "Applied Calculus I",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "ai-minor-calculus",
+      "choiceNote": "Choose MATH 131 or MATH 161"
+    },
+    {
+      "id": "AIMIN_MATH161",
+      "code": "MATH 161",
+      "title": "Calculus I",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "ai-minor-calculus",
+      "choiceNote": "Choose MATH 131 or MATH 161"
+    }
+  ],
+
+  "electiveOptions": {
+    "restricted": { "creditsRequired": 0, "label": "Minor Electives", "courses": [] },
+    "practicum": { "creditsRequired": 0, "label": "Practicum", "courses": [] },
+    "free": { "creditsRequired": 0, "label": "Free Electives", "courses": [] }
+  },
+
+  "coreRequirements": [],
+
+  "roadmap": [
+    {
+      "year": 1,
+      "semester": "Semester I",
+      "credits": 9,
+      "items": [
+        { "ref": "AIMIN_COMP163" },
+        { "ref": "AIMIN_COMP170" },
+        { "ref": "AIMIN_MATH131" }
+      ]
+    },
+    {
+      "year": 1,
+      "semester": "Semester II",
+      "credits": 6,
+      "items": [
+        { "ref": "AIMIN_COMP271" },
+        { "ref": "AIMIN_COMP317" }
+      ]
+    },
+    {
+      "year": 2,
+      "semester": "Semester III",
+      "credits": 6,
+      "items": [
+        { "ref": "AIMIN_COMP378" },
+        { "ref": "AIMIN_COMP379" }
+      ]
+    },
+    {
+      "year": 2,
+      "semester": "Semester IV",
+      "credits": 6,
+      "items": [
+        { "ref": "AIMIN_COMP329" },
+        { "ref": "AIMIN_COMP387" }
+      ]
+    }
+  ],
+
+  "checklist": []
+}

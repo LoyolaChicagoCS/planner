@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="150" viewBox="0 0 920 150" role="img" aria-labelledby="title desc">
+<title id="title">Theological and Religious Knowledge and Inquiry department histogram</title>
+<desc id="desc">Courses by department code (stacked by catalog section)</desc>
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="92" y="28" font-family="Arial, sans-serif" font-size="20" font-weight="700" fill="#2c0c19">Theological and Religious Knowledge and Inquiry</text>
+<text x="92" y="50" font-family="Arial, sans-serif" font-size="12" fill="#6b7280">Courses by department code (stacked by catalog section)</text>
+<rect x="92" y="57" width="10" height="10" rx="2" fill="#82284A"/>
+<text x="106" y="66" font-family="Arial, sans-serif" font-size="11" fill="#374151">Foundational/Tier I</text>
+<rect x="224" y="57" width="10" height="10" rx="2" fill="#C8A951"/>
+<text x="238" y="66" font-family="Arial, sans-serif" font-size="11" fill="#374151">Tier II</text>
+<text x="80" y="91" text-anchor="end" font-family="Arial, sans-serif" font-size="12" font-weight="700" fill="#374151">THEO</text>
+<line x1="92" y1="86" x2="888" y2="86" stroke="#f3f4f6" stroke-width="1"/>
+<rect x="92" y="78" width="75.81" height="16" rx="3" fill="#82284A"/>
+<text x="129.90" y="90" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#ffffff">2</text>
+<rect x="167.8095238095238" y="78" width="720.19" height="16" rx="3" fill="#C8A951"/>
+<text x="527.90" y="90" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#ffffff">19</text>
+<text x="896" y="91" font-family="Arial, sans-serif" font-size="12" fill="#374151">21</text>
+<text x="92" y="136" font-family="Arial, sans-serif" font-size="11" fill="#6b7280">Total courses: 21</text>
+</svg>
