@@ -86,7 +86,7 @@ export default function HomeScreen({ programs, onSelect }: HomeScreenProps) {
               </svg>
             </a>
             <span className="rounded-full bg-gold-400 px-2.5 py-1 text-[11px] font-bold uppercase tracking-wide text-maroon-900 shadow-sm">
-              Beta
+              {import.meta.env.VITE_APP_VERSION}
             </span>
           </div>
         </div>

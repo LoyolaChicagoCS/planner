@@ -214,6 +214,23 @@ Preview a production build:
 npm run preview
 ```
 
+## Versioning
+
+The visible version pill is injected at build time from the latest Git tag:
+
+```bash
+git describe --tags --abbrev=0
+```
+
+If no tag exists in a local checkout, Vite falls back to the version in `package.json` and displays it in compact form, such as `v0.9` for package version `0.9.0`.
+
+For releases, keep `package.json` and `package-lock.json` on semver, then create and push a matching Git tag, for example:
+
+```bash
+git tag v0.9
+git push origin v0.9
+```
+
 ## Deployment
 
 The app deploys to GitHub Pages through `.github/workflows/deploy.yml` on pushes to `main`.

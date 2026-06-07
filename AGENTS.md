@@ -39,6 +39,10 @@ npm run lint
 npm run build
 ```
 
+## Versioning
+
+The home-screen version pill is injected by `vite.config.js` from the latest Git tag using `git describe --tags --abbrev=0`. If no tag exists, the build falls back to `package.json` and displays a compact `v<major>.<minor>` style when the patch version is `.0`. Keep `package.json`/`package-lock.json` on valid semver, and create/push a matching Git tag for releases.
+
 ## App Structure
 
 - `src/App.tsx` manages the selected program and keeps the URL in sync.
