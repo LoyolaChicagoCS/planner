@@ -2,6 +2,26 @@ import { useState } from 'react';
 import SearchBox from './SearchBox';
 import { hasConcreteCoreSelection } from '../utils/coreCatalog';
 import { matchesSearch, normalizeSearch } from '../utils/search';
+import type { CompletedSet, CoreRequirement, Course, Program, ProgressItem, RoadmapSemester } from '../types';
+import type { RequirementStatus } from '../utils/progress';
+
+type GetRequirementStatus = (itemOrId: ProgressItem | string) => RequirementStatus;
+type ToggleItem = (itemOrId: ProgressItem | string) => void;
+
+interface RoadmapProps {
+  program: Program;
+  completed: CompletedSet;
+  getRequirementStatus: GetRequirementStatus;
+  toggleItem: ToggleItem;
+  onOpenCoreRequirement: (requirementId: string) => void;
+}
+
+interface ResolvedRoadmapItem extends ProgressItem {
+  id: string;
+  label: string;
+  credits: number;
+  isElective?: boolean;
+}
 
 /**
  * Roadmap — shows the suggested 4-year, semester-by-semester plan.
@@ -15,17 +35,17 @@ import { matchesSearch, normalizeSearch } from '../utils/search';
  *   completed — Set of completed course/item IDs
  *   toggle    — function(id) to mark/unmark a course
  */
-export default function Roadmap({ program, completed, getRequirementStatus, toggleItem, onOpenCoreRequirement }) {
+export default function Roadmap({ program, completed, getRequirementStatus, toggleItem, onOpenCoreRequirement }: RoadmapProps) {
   const [query, setQuery] = useState('');
   const search = normalizeSearch(query);
   // Build a lookup map: courseId -> course object, for resolving roadmap refs
-  const courseMap = Object.fromEntries(program.courses.map(c => [c.id, c]));
-  const coreMap   = Object.fromEntries(program.coreRequirements.map(r => [r.id, r]));
+  const courseMap = Object.fromEntries((program.courses ?? []).map(c => [c.id, c]));
+  const coreMap   = Object.fromEntries((program.coreRequirements ?? []).map(r => [r.id, r]));
 
   return (
     <div className="flex flex-col gap-4 px-4 py-6 pb-24">
       <SearchBox value={query} onChange={setQuery} placeholder="Search roadmap" />
-      {program.roadmap.map((sem, idx) => (
+      {(program.roadmap ?? []).map((sem, idx) => (
         <SemesterCard
           key={idx}
           semester={sem}
@@ -44,18 +64,28 @@ export default function Roadmap({ program, completed, getRequirementStatus, togg
 }
 
 /** A card for one semester showing all its courses */
-function SemesterCard({ semester, courseMap, coreMap, completed, program, search, getRequirementStatus, toggleItem, onOpenCoreRequirement }) {
+function SemesterCard({ semester, courseMap, coreMap, completed, program, search, getRequirementStatus, toggleItem, onOpenCoreRequirement }: {
+  semester: RoadmapSemester;
+  courseMap: Record<string, Course>;
+  coreMap: Record<string, CoreRequirement>;
+  completed: CompletedSet;
+  program: Program;
+  search: string;
+  getRequirementStatus: GetRequirementStatus;
+  toggleItem: ToggleItem;
+  onOpenCoreRequirement: (requirementId: string) => void;
+}) {
   // Resolve each roadmap item to a displayable object with an id and label
-  const items = semester.items.map((item, i) => {
+  const items: ResolvedRoadmapItem[] = (semester.items ?? []).map((item, i) => {
     if (item.isElective) {
       // Elective slots don't have a fixed ID; use a stable per-semester key
-      return { id: `elective-${semester.year}-${semester.semester}-${i}`, label: item.label, credits: item.credits, isElective: true };
+      return { id: `elective-${semester.year}-${semester.semester}-${i}`, label: item.label ?? 'Elective', credits: item.credits ?? 0, isElective: true };
     }
     if (item.ref) {
       // Look up in courses or core requirements
       const course = courseMap[item.ref] ?? coreMap[item.ref];
       if (course) {
-        return { id: item.ref, label: course.code ? `${course.code} — ${course.title}` : course.label, credits: course.credits };
+        return { id: item.ref, label: course.code ? `${course.code} — ${course.title}` : course.label ?? item.ref, credits: course.credits };
       }
     }
     return { id: `unknown-${i}`, label: item.label ?? '?', credits: item.credits ?? 0 };
@@ -118,7 +148,14 @@ function SemesterCard({ semester, courseMap, coreMap, completed, program, search
 }
 
 /** A single course row within a semester card */
-function RoadmapItem({ item, status, completed, program, toggleItem, onOpenCoreRequirement }) {
+function RoadmapItem({ item, status, completed, program, toggleItem, onOpenCoreRequirement }: {
+  item: ResolvedRoadmapItem;
+  status: RequirementStatus;
+  completed: CompletedSet;
+  program: Program;
+  toggleItem: ToggleItem;
+  onOpenCoreRequirement: (requirementId: string) => void;
+}) {
   const { completed: generalCompleted, satisfiedByAlternate } = status;
   const needsSpecificCore = generalCompleted
     && item.id.startsWith('CORE_')

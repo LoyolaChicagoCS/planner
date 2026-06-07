@@ -42,15 +42,16 @@ npm run build
 ## App Structure
 
 - `src/App.tsx` manages the selected program and keeps the URL in sync.
+- `src/main.tsx` mounts the React app.
 - `src/hooks/useProgress.ts` stores completion state in `localStorage` and restores shared progress from the `?d=` URL parameter.
 - `src/components/HomeScreen.tsx` renders the program picker.
 - `src/components/ProgramScreen.tsx` renders the swipeable tabs: Courses, Core when applicable, Roadmap, Checklist, and Audit.
-- `src/components/CourseList.jsx` shows major/minor, elective/selection, and core requirements.
-- `src/components/CorePlanner.jsx` shows catalog-derived University Core course choices for programs with Core requirements.
+- `src/components/CourseList.tsx` shows major/minor, elective/selection, and core requirements.
+- `src/components/CorePlanner.tsx` shows catalog-derived University Core course choices for programs with Core requirements.
 - `src/components/SearchBox.tsx` provides the shared per-tab search input.
-- `src/components/Roadmap.jsx` shows the semester-by-semester plan.
-- `src/components/Checklist.jsx` shows remaining requirements, AP/transfer items, and optional courses.
-- `src/components/Audit.jsx` shows category-level credit progress.
+- `src/components/Roadmap.tsx` shows the semester-by-semester plan.
+- `src/components/Checklist.tsx` shows remaining requirements, AP/transfer items, and optional courses.
+- `src/components/Audit.tsx` shows category-level credit progress.
 - `src/components/Footer.tsx` contains the privacy disclosure.
 - `src/types.ts` defines shared program, course, Core, roadmap, and progress types.
 - `src/utils/progress.ts` centralizes equivalent-course completion and distinct-credit calculations.
@@ -140,5 +141,5 @@ Do not change Vite `base` back to `/planner/` unless the app is moved off the cu
 ## Known Cleanup Opportunities
 
 - Add model-level tests for `src/utils/progress.ts`, `src/utils/shareLink.ts`, and `src/utils/coreCatalog.ts`.
-- `src/App.css` appears to be leftover template CSS and is not imported by `src/main.jsx`.
+- `src/App.css` appears to be leftover template CSS and is not imported by `src/main.tsx`.
 - Continue consolidating credit-counting behavior into shared utilities when changing progress calculations.

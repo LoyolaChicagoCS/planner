@@ -3,6 +3,34 @@ import SearchBox from './SearchBox';
 import optionalData from '../data/optional.json';
 import { calcDistinctDoneCredits } from '../utils/progress';
 import { matchesSearch, normalizeSearch } from '../utils/search';
+import type { ChecklistItem as ChecklistModel, CompletedSet, Course, Program, ProgressItem } from '../types';
+
+type IsCompleted = (itemOrId: ProgressItem | string) => boolean;
+type IsRequirementSatisfied = (itemOrId: ProgressItem | string) => boolean;
+type Toggle = (id: string) => void;
+type ToggleItem = (itemOrId: ProgressItem | string) => void;
+
+interface OptionalCourseGroup {
+  label: string;
+  note: string;
+  courses: Course[];
+}
+
+interface OptionalData {
+  writingIntensive: OptionalCourseGroup;
+  coreEligible: OptionalCourseGroup;
+}
+
+const typedOptionalData = optionalData as OptionalData;
+
+interface ChecklistProps {
+  program: Program;
+  completed: CompletedSet;
+  toggle: Toggle;
+  isCompleted: IsCompleted;
+  isRequirementSatisfied: IsRequirementSatisfied;
+  toggleItem: ToggleItem;
+}
 
 /**
  * Checklist — four sections:
@@ -19,11 +47,12 @@ import { matchesSearch, normalizeSearch } from '../utils/search';
  *   completed — Set of completed IDs
  *   toggle    — function(id) to mark/unmark
  */
-export default function Checklist({ program, completed, toggle, isCompleted, isRequirementSatisfied, toggleItem }) {
+export default function Checklist({ program, completed, toggle, isCompleted, isRequirementSatisfied, toggleItem }: ChecklistProps) {
   const [query, setQuery] = useState('');
   const search = normalizeSearch(query);
-  const apItems       = program.checklist.filter(i => i.category === 'ap');
-  const transferItems = program.checklist.filter(i => i.category === 'transfer');
+  const checklistItems = program.checklist ?? [];
+  const apItems       = checklistItems.filter(i => i.category === 'ap');
+  const transferItems = checklistItems.filter(i => i.category === 'transfer');
 
   const doneCredits      = calcDistinctDoneCredits(program, completed);
   const creditGoal       = program.kind === 'minor' ? program.totalCredits : 120;
@@ -47,7 +76,7 @@ export default function Checklist({ program, completed, toggle, isCompleted, isR
 /**
  * Shows estimated semesters remaining for full-time (12 cr) and part-time (6 cr).
  */
-function SemesterEstimate({ doneCredits, creditGoal, remainingCredits }) {
+function SemesterEstimate({ doneCredits, creditGoal, remainingCredits }: { doneCredits: number; creditGoal: number; remainingCredits: number }) {
   const fullTime = remainingCredits > 0 ? Math.ceil(remainingCredits / 12) : 0;
   const partTime = remainingCredits > 0 ? Math.ceil(remainingCredits /  6) : 0;
   const pct      = Math.min(100, Math.round((doneCredits / creditGoal) * 100));
@@ -80,7 +109,7 @@ function SemesterEstimate({ doneCredits, creditGoal, remainingCredits }) {
   );
 }
 
-function EnrollmentRow({ label, sublabel, semesters, icon }) {
+function EnrollmentRow({ label, sublabel, semesters, icon }: { label: string; sublabel: string; semesters: number; icon: string }) {
   const years    = Math.floor(semesters / 2);
   const extraSem = semesters % 2;
   const timeLabel = semesters === 0
@@ -104,8 +133,13 @@ function EnrollmentRow({ label, sublabel, semesters, icon }) {
   );
 }
 
-function RemainingCourses({ program, search, isRequirementSatisfied, toggleItem }) {
-  const remaining = program.courses.filter(c =>
+function RemainingCourses({ program, search, isRequirementSatisfied, toggleItem }: {
+  program: Program;
+  search: string;
+  isRequirementSatisfied: IsRequirementSatisfied;
+  toggleItem: ToggleItem;
+}) {
+  const remaining = (program.courses ?? []).filter(c =>
     !isRequirementSatisfied(c) && matchesSearch([c.code, c.title, c.label, c.note, c.choiceNote], search)
   );
   if (remaining.length === 0) {
@@ -148,7 +182,15 @@ function RemainingCourses({ program, search, isRequirementSatisfied, toggleItem 
   );
 }
 
-function ChecklistSection({ title, items, search, completed, toggle, isCompleted, toggleItem }) {
+function ChecklistSection({ title, items, search, completed, toggle, isCompleted, toggleItem }: {
+  title: string;
+  items: ChecklistModel[];
+  search: string;
+  completed: CompletedSet;
+  toggle: Toggle;
+  isCompleted: IsCompleted;
+  toggleItem: ToggleItem;
+}) {
   const visibleItems = items.filter(item => matchesSearch([item.label, item.grants, item.id], search));
   if (!visibleItems.length) return null;
   return (
@@ -163,10 +205,16 @@ function ChecklistSection({ title, items, search, completed, toggle, isCompleted
   );
 }
 
-function ChecklistItem({ item, completed, toggle, isCompleted, toggleItem }) {
+function ChecklistItem({ item, completed, toggle, isCompleted, toggleItem }: {
+  item: ChecklistModel;
+  completed: CompletedSet;
+  toggle: Toggle;
+  isCompleted: IsCompleted;
+  toggleItem: ToggleItem;
+}) {
   const done = completed.has(item.id) || (item.courseRef && isCompleted(item.courseRef));
 
-  function handleToggle() {
+  function handleToggle(): void {
     toggle(item.id);
     if (item.courseRef)     toggleItem(item.courseRef);
     if (item.alsoCourseRef) toggleItem(item.alsoCourseRef);
@@ -196,8 +244,8 @@ function ChecklistItem({ item, completed, toggle, isCompleted, toggleItem }) {
   );
 }
 
-function OptionalCourses({ search, completed, toggle }) {
-  const groups = [optionalData.writingIntensive, optionalData.coreEligible];
+function OptionalCourses({ search, completed, toggle }: { search: string; completed: CompletedSet; toggle: Toggle }) {
+  const groups = [typedOptionalData.writingIntensive, typedOptionalData.coreEligible];
   return (
     <div className="flex flex-col gap-4">
       {groups.map(group => (

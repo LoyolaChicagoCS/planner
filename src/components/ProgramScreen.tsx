@@ -1,5 +1,4 @@
 import { useState, useRef } from 'react';
-import type { ComponentType } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination, Keyboard } from 'swiper/modules';
 import type { Swiper as SwiperInstance } from 'swiper';
@@ -15,8 +14,7 @@ import Audit from './Audit';
 import Footer from './Footer';
 import { calcDistinctDoneCredits, createProgressHelpers } from '../utils/progress';
 import { getValidProgressIds } from '../utils/shareLink';
-import type { CompletedSet, Program, ProgressItem } from '../types';
-import type { RequirementStatus } from '../utils/progress';
+import type { CompletedSet, Program } from '../types';
 
 interface CoreFocusTarget {
   requirementId: string;
@@ -30,21 +28,6 @@ interface ProgramScreenProps {
   clear: (idsToClear: Iterable<string>) => void;
   onBack: () => void;
 }
-
-interface AuditScreenProps {
-  program: Program;
-  completed: CompletedSet;
-  toggle: (id: string) => void;
-  isCompleted: (itemOrId: ProgressItem | string) => boolean;
-  isRequirementSatisfied: (itemOrId: ProgressItem | string) => boolean;
-  getRequirementStatus: (itemOrId: ProgressItem | string) => RequirementStatus;
-  toggleItem: (itemOrId: ProgressItem | string) => void;
-}
-
-type ChecklistScreenProps = AuditScreenProps;
-
-const AuditScreen = Audit as ComponentType<AuditScreenProps>;
-const ChecklistScreen = Checklist as ComponentType<ChecklistScreenProps>;
 
 /**
  * ProgramScreen — four horizontally-swipeable panels for one degree program.
@@ -214,20 +197,19 @@ export default function ProgramScreen({ program, completed, toggle, clear, onBac
           </SwiperSlide>
 
           <SwiperSlide style={{ overflowY: 'auto' }}>
-            <ChecklistScreen
+            <Checklist
               program={program}
               completed={completed}
               toggle={toggle}
               isCompleted={isCompleted}
               isRequirementSatisfied={isRequirementSatisfied}
-              getRequirementStatus={getRequirementStatus}
               toggleItem={toggleItem}
             />
             <Footer />
           </SwiperSlide>
 
           <SwiperSlide style={{ overflowY: 'auto' }}>
-            <AuditScreen
+            <Audit
               program={program}
               completed={completed}
               toggle={toggle}

@@ -7,6 +7,47 @@ import {
   calcSatisfiedRequirementCredits,
 } from '../utils/progress';
 import { matchesSearch, normalizeSearch } from '../utils/search';
+import type { CompletedSet, CoreRequirement, Course, Program, ProgressItem } from '../types';
+import type { RequirementStatus } from '../utils/progress';
+
+type IsCompleted = (itemOrId: ProgressItem | string) => boolean;
+type IsRequirementSatisfied = (itemOrId: ProgressItem | string) => boolean;
+type GetRequirementStatus = (itemOrId: ProgressItem | string) => RequirementStatus;
+type Toggle = (id: string) => void;
+type ToggleItem = (itemOrId: ProgressItem | string) => void;
+
+interface OptionalCourseGroup {
+  label: string;
+  note: string;
+  courses: Course[];
+}
+
+interface OptionalData {
+  writingIntensive: OptionalCourseGroup;
+  coreEligible: OptionalCourseGroup;
+}
+
+interface AuditItem extends ProgressItem {
+  label: string;
+  credits: number;
+}
+
+interface OptionalAuditCourse extends Course {
+  groupLabel: string;
+  groupNote: string;
+}
+
+const typedOptionalData = optionalData as OptionalData;
+
+interface AuditProps {
+  program: Program;
+  completed: CompletedSet;
+  toggle: Toggle;
+  isCompleted: IsCompleted;
+  isRequirementSatisfied: IsRequirementSatisfied;
+  getRequirementStatus: GetRequirementStatus;
+  toggleItem: ToggleItem;
+}
 
 /**
  * Audit — a full degree audit view showing every requirement category,
@@ -23,7 +64,7 @@ import { matchesSearch, normalizeSearch } from '../utils/search';
  *   completed — Set of completed IDs
  *   toggle    — function(id) to mark/unmark
  */
-export default function Audit({ program, completed, toggle, isCompleted, isRequirementSatisfied, getRequirementStatus, toggleItem }) {
+export default function Audit({ program, completed, toggle, isCompleted, isRequirementSatisfied, getRequirementStatus, toggleItem }: AuditProps) {
   const [query, setQuery] = useState('');
   const search = normalizeSearch(query);
   const totalDone     = calcDistinctDoneCredits(program, completed);
@@ -41,14 +82,14 @@ export default function Audit({ program, completed, toggle, isCompleted, isRequi
       {/* Major required courses */}
       <AuditCategory
         title={program.kind === 'minor' ? 'Minor Requirements' : 'Major Required Courses'}
-        items={program.courses.map(c => ({
+        items={(program.courses ?? []).map(c => ({
           ...c,
           id: c.id,
           label: c.code ? `${c.code} — ${c.title}` : c.title,
           credits: c.credits,
         }))}
         search={search}
-        creditsRequired={calcRequiredCredits(program.courses)}
+        creditsRequired={calcRequiredCredits(program.courses ?? [])}
         isCompleted={isCompleted}
         isRequirementSatisfied={isRequirementSatisfied}
         getRequirementStatus={getRequirementStatus}
@@ -56,7 +97,7 @@ export default function Audit({ program, completed, toggle, isCompleted, isRequi
       />
 
       {/* Elective groups */}
-      {Object.values(program.electiveOptions)
+      {Object.values(program.electiveOptions ?? {})
         .filter(group => (group.courses ?? []).length > 0 || group.creditsRequired > 0)
         .map(group => (
         <AuditCategory
@@ -81,14 +122,14 @@ export default function Audit({ program, completed, toggle, isCompleted, isRequi
       {/* University Core */}
       <AuditCategory
         title="University Core Curriculum"
-        items={program.coreRequirements.map(r => ({
+        items={(program.coreRequirements ?? []).map((r: CoreRequirement) => ({
           ...r,
           id: r.id,
           label: r.label,
           credits: r.credits,
         }))}
         search={search}
-        creditsRequired={calcRequiredCredits(program.coreRequirements)}
+        creditsRequired={calcRequiredCredits(program.coreRequirements ?? [])}
         isCompleted={isCompleted}
         isRequirementSatisfied={isRequirementSatisfied}
         getRequirementStatus={getRequirementStatus}
@@ -103,7 +144,7 @@ export default function Audit({ program, completed, toggle, isCompleted, isRequi
 }
 
 /** Top-level credit summary card */
-function CreditSummary({ done, required, remaining, pct }) {
+function CreditSummary({ done, required, remaining, pct }: { done: number; required: number; remaining: number; pct: number }) {
   return (
     <div className="rounded-2xl overflow-hidden border border-maroon-200 shadow-sm">
       <div className="bg-maroon-500 px-4 py-4">
@@ -130,7 +171,17 @@ function CreditSummary({ done, required, remaining, pct }) {
  *   - Completed items (indented, struck-through)
  *   - Remaining items (normal weight)
  */
-function AuditCategory({ title, note, items, search, creditsRequired, isCompleted, isRequirementSatisfied, getRequirementStatus, toggleItem }) {
+function AuditCategory({ title, note, items, search, creditsRequired, isCompleted, isRequirementSatisfied, getRequirementStatus, toggleItem }: {
+  title: string;
+  note?: string;
+  items: AuditItem[];
+  search: string;
+  creditsRequired: number;
+  isCompleted: IsCompleted;
+  isRequirementSatisfied: IsRequirementSatisfied;
+  getRequirementStatus: GetRequirementStatus;
+  toggleItem: ToggleItem;
+}) {
   if (items.length === 0 && creditsRequired === 0) return null;
 
   const visibleItems = items.filter(item => matchesSearch([title, note, item.id, item.code, item.title, item.label], search));
@@ -189,7 +240,12 @@ function AuditCategory({ title, note, items, search, creditsRequired, isComplete
 }
 
 /** A single course row in the audit — tappable to toggle completion */
-function AuditRow({ item, done, satisfiedByAlternate = false, toggleItem }) {
+function AuditRow({ item, done, satisfiedByAlternate = false, toggleItem }: {
+  item: AuditItem;
+  done: boolean;
+  satisfiedByAlternate?: boolean;
+  toggleItem: ToggleItem;
+}) {
   return (
     <button
       onClick={() => toggleItem(item)}
@@ -218,9 +274,9 @@ function AuditRow({ item, done, satisfiedByAlternate = false, toggleItem }) {
  * Optional CS courses — writing intensive and core eligible.
  * Shown for awareness only; not counted toward the 120-credit total.
  */
-function OptionalAuditSection({ search, completed, toggle }) {
-  const groups = [optionalData.writingIntensive, optionalData.coreEligible];
-  const courses = groups
+function OptionalAuditSection({ search, completed, toggle }: { search: string; completed: CompletedSet; toggle: Toggle }) {
+  const groups = [typedOptionalData.writingIntensive, typedOptionalData.coreEligible];
+  const courses: OptionalAuditCourse[] = groups
     .flatMap(g => g.courses.map(course => ({ ...course, groupLabel: g.label, groupNote: g.note })))
     .filter(course => matchesSearch([course.groupLabel, course.groupNote, course.code, course.title], search));
 

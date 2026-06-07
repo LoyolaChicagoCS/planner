@@ -2,6 +2,21 @@ import { useState } from 'react';
 import SearchBox from './SearchBox';
 import { hasConcreteCoreSelection } from '../utils/coreCatalog';
 import { matchesSearch, normalizeSearch } from '../utils/search';
+import type { CompletedSet, CoreRequirement, Course, ElectiveGroup as ElectiveGroupModel, Program, ProgressItem } from '../types';
+import type { RequirementStatus } from '../utils/progress';
+
+type IsCompleted = (itemOrId: ProgressItem | string) => boolean;
+type GetRequirementStatus = (itemOrId: ProgressItem | string) => RequirementStatus;
+type ToggleItem = (itemOrId: ProgressItem | string) => void;
+
+interface CourseListProps {
+  program: Program;
+  completed: CompletedSet;
+  isCompleted: IsCompleted;
+  getRequirementStatus: GetRequirementStatus;
+  toggleItem: ToggleItem;
+  onOpenCoreRequirement: (requirementId: string) => void;
+}
 
 /**
  * CourseList — displays all required courses for a program, grouped
@@ -15,12 +30,13 @@ import { matchesSearch, normalizeSearch } from '../utils/search';
  *   completed — Set of completed course/item IDs
  *   toggle    — function(id) to mark/unmark a course
  */
-export default function CourseList({ program, completed, isCompleted, getRequirementStatus, toggleItem, onOpenCoreRequirement }) {
+export default function CourseList({ program, completed, isCompleted, getRequirementStatus, toggleItem, onOpenCoreRequirement }: CourseListProps) {
   const [query, setQuery] = useState('');
   const search = normalizeSearch(query);
   const isMinor = program.kind === 'minor';
-  const majorCourses = program.courses.filter(c => c.category === 'major' && courseMatches(c, search));
-  const electiveCourses = program.courses.filter(c => c.category === 'elective' && courseMatches(c, search));
+  const programCourses = program.courses ?? [];
+  const majorCourses = programCourses.filter(c => c.category === 'major' && courseMatches(c, search));
+  const electiveCourses = programCourses.filter(c => c.category === 'elective' && courseMatches(c, search));
 
   return (
     <div className="flex flex-col gap-6 px-4 py-6 pb-24">
@@ -42,12 +58,19 @@ export default function CourseList({ program, completed, isCompleted, getRequire
   );
 }
 
-function courseMatches(course, query) {
+function courseMatches(course: ProgressItem, query: string): boolean {
   return matchesSearch([course.code, course.title, course.label, course.note, course.choiceNote], query);
 }
 
+interface SectionProps {
+  title: string;
+  courses: Course[];
+  getRequirementStatus: GetRequirementStatus;
+  toggleItem: ToggleItem;
+}
+
 /** A labeled group of course rows */
-function Section({ title, courses, getRequirementStatus, toggleItem }) {
+function Section({ title, courses, getRequirementStatus, toggleItem }: SectionProps) {
   if (!courses.length) return null;
   return (
     <div>
@@ -62,7 +85,7 @@ function Section({ title, courses, getRequirementStatus, toggleItem }) {
 }
 
 /** A single tappable course row with completion checkbox */
-function CourseRow({ course, getRequirementStatus, toggleItem }) {
+function CourseRow({ course, getRequirementStatus, toggleItem }: { course: Course; getRequirementStatus: GetRequirementStatus; toggleItem: ToggleItem }) {
   const { completed, satisfiedByAlternate } = getRequirementStatus(course);
   return (
     <button
@@ -108,8 +131,8 @@ function CourseRow({ course, getRequirementStatus, toggleItem }) {
  * Renders each elective group (restricted, practicum, free) as a collapsible
  * section with checkable course rows and a live credit progress bar.
  */
-function ElectiveInfo({ program, search, isCompleted, toggleItem }) {
-  const { restricted, practicum, free } = program.electiveOptions;
+function ElectiveInfo({ program, search, isCompleted, toggleItem }: { program: Program; search: string; isCompleted: IsCompleted; toggleItem: ToggleItem }) {
+  const { restricted, practicum, free } = program.electiveOptions ?? {};
   const isMinor = program.kind === 'minor';
   const groups = [restricted, practicum, free].filter(group =>
     group && ((group.courses ?? []).length > 0 || group.creditsRequired > 0)
@@ -131,7 +154,7 @@ function ElectiveInfo({ program, search, isCompleted, toggleItem }) {
 }
 
 /** One elective group with a header, credit progress, and checkable course rows */
-function ElectiveGroup({ group, search, isCompleted, toggleItem }) {
+function ElectiveGroup({ group, search, isCompleted, toggleItem }: { group: ElectiveGroupModel; search: string; isCompleted: IsCompleted; toggleItem: ToggleItem }) {
   const allCourses = group.courses ?? [];
   const courses = allCourses.filter(course =>
     matchesSearch([group.label, group.note, course.code, course.title], search)
@@ -179,7 +202,7 @@ function ElectiveGroup({ group, search, isCompleted, toggleItem }) {
 }
 
 /** A single selectable row inside an elective group */
-function ElectiveCourseRow({ course, isCompleted, toggleItem }) {
+function ElectiveCourseRow({ course, isCompleted, toggleItem }: { course: Course; isCompleted: IsCompleted; toggleItem: ToggleItem }) {
   const done = isCompleted(course);
   return (
     <button
@@ -203,15 +226,22 @@ function ElectiveCourseRow({ course, isCompleted, toggleItem }) {
 }
 
 /** Core curriculum items with checkboxes */
-function CoreInfo({ program, completed, search, getRequirementStatus, toggleItem, onOpenCoreRequirement }) {
-  const requirements = program.coreRequirements.filter(req => matchesSearch([req.id, req.label], search));
+function CoreInfo({ program, completed, search, getRequirementStatus, toggleItem, onOpenCoreRequirement }: {
+  program: Program;
+  completed: CompletedSet;
+  search: string;
+  getRequirementStatus: GetRequirementStatus;
+  toggleItem: ToggleItem;
+  onOpenCoreRequirement: (requirementId: string) => void;
+}) {
+  const requirements = (program.coreRequirements ?? []).filter(req => matchesSearch([req.id, req.label], search));
   if (!requirements.length) return null;
 
   return (
     <div>
       <h2 className="text-xs font-semibold uppercase tracking-widest text-gray-400 mb-3">University Core</h2>
       <div className="flex flex-col gap-2">
-        {requirements.map(req => {
+        {requirements.map((req: CoreRequirement) => {
           const { completed: generalCompleted, satisfiedByAlternate } = getRequirementStatus(req);
           const needsSpecificCore = generalCompleted && req.id.startsWith('CORE_') && !hasConcreteCoreSelection(program, completed, req.id);
           return (

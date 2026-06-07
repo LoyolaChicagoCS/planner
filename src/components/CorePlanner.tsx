@@ -2,12 +2,30 @@ import { useEffect, useMemo, useState } from 'react';
 import SearchBox from './SearchBox';
 import { coreRequirementElementId, getCoreCatalogAreasForProgram } from '../utils/coreCatalog';
 import { matchesSearch, normalizeSearch } from '../utils/search';
+import type { CompletedSet, CoreCatalogArea, CoreCatalogCourse, CoreCatalogGroup, Program, ProgressItem } from '../types';
+import type { RequirementStatus } from '../utils/progress';
 
-function courseMatches(course, query) {
+type GetRequirementStatus = (itemOrId: ProgressItem | string) => RequirementStatus;
+type Toggle = (id: string) => void;
+
+interface CoreFocusTarget {
+  requirementId: string;
+  requestId: number;
+}
+
+interface CorePlannerProps {
+  program: Program;
+  completed: CompletedSet;
+  toggle: Toggle;
+  getRequirementStatus: GetRequirementStatus;
+  focusTarget: CoreFocusTarget | null;
+}
+
+function courseMatches(course: CoreCatalogCourse, query: string): boolean {
   return matchesSearch([course.code, course.title], query);
 }
 
-export default function CorePlanner({ program, completed, toggle, getRequirementStatus, focusTarget }) {
+export default function CorePlanner({ program, completed, toggle, getRequirementStatus, focusTarget }: CorePlannerProps) {
   const [query, setQuery] = useState('');
   const areas = useMemo(() => getCoreCatalogAreasForProgram(program), [program]);
   const requirementLabels = useMemo(
@@ -67,7 +85,15 @@ export default function CorePlanner({ program, completed, toggle, getRequirement
   );
 }
 
-function CoreAreaCard({ area, completed, requirementLabels, search, toggle, getRequirementStatus, focusedRequirementId }) {
+function CoreAreaCard({ area, completed, requirementLabels, search, toggle, getRequirementStatus, focusedRequirementId }: {
+  area: CoreCatalogArea;
+  completed: CompletedSet;
+  requirementLabels: Record<string, string>;
+  search: string;
+  toggle: Toggle;
+  getRequirementStatus: GetRequirementStatus;
+  focusedRequirementId?: string;
+}) {
   const doneGroups = area.groups.filter(group => isGroupSatisfied(group, completed)).length;
   const met = doneGroups >= area.groups.length;
 
@@ -104,7 +130,15 @@ function CoreAreaCard({ area, completed, requirementLabels, search, toggle, getR
   );
 }
 
-function CoreGroup({ group, completed, requirementLabel, search, toggle, getRequirementStatus, focused }) {
+function CoreGroup({ group, completed, requirementLabel, search, toggle, getRequirementStatus, focused }: {
+  group: CoreCatalogGroup;
+  completed: CompletedSet;
+  requirementLabel: string;
+  search: string;
+  toggle: Toggle;
+  getRequirementStatus: GetRequirementStatus;
+  focused: boolean;
+}) {
   const visibleCourses = group.courses.filter(course => courseMatches(course, search));
   const concreteDone = group.courses.filter(course => completed.has(course.id));
   const generalStatus = getRequirementStatus(group.requirementId);
@@ -158,7 +192,7 @@ function CoreGroup({ group, completed, requirementLabel, search, toggle, getRequ
   );
 }
 
-function CoreCourseRow({ course, done, toggle }) {
+function CoreCourseRow({ course, done, toggle }: { course: CoreCatalogCourse; done: boolean; toggle: Toggle }) {
   return (
     <button
       onClick={() => toggle(course.id)}
@@ -183,6 +217,6 @@ function CoreCourseRow({ course, done, toggle }) {
   );
 }
 
-function isGroupSatisfied(group, completed) {
+function isGroupSatisfied(group: CoreCatalogGroup, completed: CompletedSet): boolean {
   return completed.has(group.requirementId) || group.courses.some(course => completed.has(course.id));
 }

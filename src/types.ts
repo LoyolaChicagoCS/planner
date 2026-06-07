@@ -17,6 +17,7 @@ export interface ProgressItem {
   note?: string;
   requirementGroup?: string;
   choiceNote?: string;
+  alternateNote?: string;
   uniqueProgress?: boolean;
   apCredit?: ApCredit;
   grants?: string;
@@ -86,12 +87,13 @@ export interface CoreCatalogCourse extends Course {
   coreAreaName?: string;
   coreRequirementId?: string;
   requirementGroup?: string;
+  diversity?: boolean;
 }
 
 export interface CoreCatalogGroup {
   label: string;
-  requirementId?: string;
-  requirementGroup?: string;
+  requirementId: string;
+  requirementGroup: string;
   courses: CoreCatalogCourse[];
 }
 
