@@ -33,6 +33,8 @@ const PROGRAM_ICONS = {
   'business-ai-minor': '💼',
 };
 
+const REPOSITORY_URL = 'https://github.com/LoyolaChicagoCS/planner';
+
 interface HomeScreenProps {
   programs: Program[];
   onSelect: (program: Program) => void;
@@ -55,9 +57,23 @@ export default function HomeScreen({ programs, onSelect }: HomeScreenProps) {
       <div className="px-6 pt-12 pb-6 bg-maroon-500">
         <div className="flex items-start justify-between gap-3">
           <h1 className="text-2xl font-bold text-white leading-tight">Loyola CS Advising Checklist</h1>
-          <span className="flex-shrink-0 rounded-full bg-gold-400 px-2.5 py-1 text-[11px] font-bold uppercase tracking-wide text-maroon-900 shadow-sm">
-            Beta
-          </span>
+          <div className="flex flex-shrink-0 items-center gap-2">
+            <a
+              href={REPOSITORY_URL}
+              target="_blank"
+              rel="noreferrer"
+              aria-label="View source code on GitHub"
+              title="View source code on GitHub"
+              className="flex h-8 w-8 items-center justify-center rounded-full bg-white/15 text-white shadow-sm transition-colors active:bg-white/25"
+            >
+              <svg viewBox="0 0 16 16" aria-hidden="true" className="h-4 w-4 fill-current">
+                <path d="M8 0C3.58 0 0 3.67 0 8.2c0 3.62 2.29 6.69 5.47 7.77.4.08.55-.18.55-.4v-1.4c-2.23.5-2.7-1.1-2.7-1.1-.36-.95-.89-1.2-.89-1.2-.73-.51.05-.5.05-.5.81.06 1.24.85 1.24.85.72 1.26 1.89.9 2.35.69.07-.53.28-.9.51-1.1-1.78-.21-3.64-.91-3.64-4.04 0-.89.31-1.62.82-2.19-.08-.21-.36-1.04.08-2.16 0 0 .67-.22 2.2.84A7.38 7.38 0 0 1 8 3.58c.68 0 1.36.09 2 .27 1.52-1.06 2.19-.84 2.19-.84.44 1.12.16 1.95.08 2.16.51.57.82 1.3.82 2.19 0 3.14-1.87 3.83-3.65 4.03.29.26.54.76.54 1.53v2.65c0 .22.14.48.55.4A8.12 8.12 0 0 0 16 8.2C16 3.67 12.42 0 8 0Z" />
+              </svg>
+            </a>
+            <span className="rounded-full bg-gold-400 px-2.5 py-1 text-[11px] font-bold uppercase tracking-wide text-maroon-900 shadow-sm">
+              Beta
+            </span>
+          </div>
         </div>
         <p className="text-maroon-100 mt-2 text-sm leading-relaxed">
           Track progress toward Loyola CS degree and minor requirements and bring your checklist to advising conversations.
