@@ -13,7 +13,7 @@ import Checklist from './Checklist';
 import Audit from './Audit';
 import Footer from './Footer';
 import { calcDistinctDoneCredits, createProgressHelpers } from '../utils/progress';
-import { getValidProgressIds } from '../utils/shareLink';
+import { encodeCompletedIds, getValidProgressIds } from '../utils/shareLink';
 import type { CompletedSet, Program } from '../types';
 
 interface CoreFocusTarget {
@@ -69,12 +69,37 @@ export default function ProgramScreen({ program, completed, toggle, clear, onBac
     if (coreTabIndex >= 0) goToTab(coreTabIndex);
   }
 
-  // Copy the current URL (which is already kept in sync by App) to clipboard
+  function getShareUrl(): string {
+    const params = new URLSearchParams();
+    const validIds = getValidProgressIds([program], program.id);
+    const shareIds = new Set<string>([...completed].filter(id => validIds.has(id)));
+
+    params.set('p', program.id);
+    if (shareIds.size > 0) params.set('d', encodeCompletedIds(shareIds));
+
+    return `${window.location.origin}${window.location.pathname}?${params}`;
+  }
+
+  // Copy a URL that restores the current program and selected checklist state.
   function copyLink(): void {
-    navigator.clipboard.writeText(window.location.href).then(() => {
+    navigator.clipboard.writeText(getShareUrl()).then(() => {
       setCopied(true);
       setTimeout(() => setCopied(false), 2000);
     });
+  }
+
+  function emailProgress(): void {
+    const subject = `Loyola CS advising checklist: ${program.name}`;
+    const body = [
+      'Hello,',
+      '',
+      `I am sharing my ${program.name} advising checklist progress:`,
+      getShareUrl(),
+      '',
+      'This link contains only my checklist selections encoded in the URL.',
+    ].join('\n');
+
+    window.location.href = `mailto:?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
   }
 
   function clearProgramProgress(): void {
@@ -111,6 +136,14 @@ export default function ProgramScreen({ program, completed, toggle, clear, onBac
           title="Copy shareable link"
         >
           {copied ? 'Copied!' : '🔗 Share'}
+        </button>
+
+        <button
+          onClick={emailProgress}
+          className="flex-shrink-0 text-xs font-semibold px-2 py-1 rounded-full bg-gold-50 text-gold-800 active:bg-gold-100 transition-colors"
+          title="Email checklist progress"
+        >
+          ✉ Email
         </button>
 
         <button

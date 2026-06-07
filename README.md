@@ -14,12 +14,16 @@ The app is meant to support advising conversations, not replace them. Students c
 
 ## Current Scope
 
-The current version targets these undergraduate BS programs:
+The current version targets these undergraduate BS programs administered by the department:
 
 - Computer Science
 - Software Engineering
 - Information Technology
 - Cybersecurity
+
+It also includes these interdisciplinary undergraduate BS programs:
+
+- Bioinformatics
 - Data Science
 
 It also includes these undergraduate minors:
@@ -27,6 +31,9 @@ It also includes these undergraduate minors:
 - Artificial Intelligence
 - Artificial Intelligence and Human Flourishing
 - Business of Applied Artificial Intelligence
+- Computer Crime and Forensics
+- Computer Science
+- Information Technology
 
 Graduate programs are not modeled yet. Expected future scope includes graduate programs, 4+1 programs, and the PhD program.
 
@@ -42,7 +49,7 @@ The app should let a student:
 - Check off completed courses or satisfied requirements.
 - See remaining courses. Degree programs also show estimated time to completion; minors intentionally do not.
 - See an audit-style summary of completed and remaining credits by category.
-- Copy a shareable URL that restores the selected program and checklist state.
+- Copy a shareable URL or open a prefilled advisor email that restores the selected program and checklist state.
 - Return later on the same device and keep local progress.
 
 ## Advising And Privacy Principles
@@ -56,7 +63,7 @@ The app should remain privacy-preserving:
 - No analytics or tracking.
 - No collection of names, student IDs, IP addresses, or usage data.
 - Progress is saved in the browser only.
-- Share links encode progress in the URL.
+- Share links and advisor emails encode progress in the URL.
 
 ## Progress And Share Links
 

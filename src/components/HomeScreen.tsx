@@ -17,6 +17,10 @@ const PROGRAM_COLORS = {
   it:            'from-gold-400 to-gold-600',
   cybersecurity: 'from-maroon-600 to-maroon-800',
   datascience:   'from-gold-500 to-maroon-600',
+  bioinformatics: 'from-maroon-500 to-gold-700',
+  'cs-minor': 'from-maroon-500 to-gray-800',
+  'it-minor': 'from-gold-400 to-gray-800',
+  'computer-crime-forensics-minor': 'from-maroon-600 to-gold-600',
   'ai-minor': 'from-maroon-500 to-gold-600',
   'ai-human-flourishing-minor': 'from-maroon-600 to-gray-800',
   'business-ai-minor': 'from-gold-500 to-gray-800',
@@ -28,6 +32,10 @@ const PROGRAM_ICONS = {
   it:            '🌐',
   cybersecurity: '🔒',
   datascience:   '📊',
+  bioinformatics: '🧬',
+  'cs-minor': '💻',
+  'it-minor': '🌐',
+  'computer-crime-forensics-minor': '🔎',
   'ai-minor': '🤖',
   'ai-human-flourishing-minor': '🧠',
   'business-ai-minor': '💼',
@@ -46,10 +54,17 @@ interface ProgramGroupProps extends HomeScreenProps {
 
 const PROGRAM_COLOR_BY_ID: Record<string, string> = PROGRAM_COLORS;
 const PROGRAM_ICON_BY_ID: Record<string, string> = PROGRAM_ICONS;
+const sortByProgramName = (programs: Program[]) =>
+  [...programs].sort((first, second) => first.name.localeCompare(second.name));
 
 export default function HomeScreen({ programs, onSelect }: HomeScreenProps) {
-  const degreePrograms = programs.filter(program => program.kind !== 'minor');
-  const minors = programs.filter(program => program.kind === 'minor');
+  const departmentalDegrees = sortByProgramName(
+    programs.filter(program => ['cs', 'se', 'it', 'cybersecurity'].includes(program.id))
+  );
+  const interdisciplinaryMajors = sortByProgramName(
+    programs.filter(program => program.kind === 'interdisciplinary')
+  );
+  const minors = sortByProgramName(programs.filter(program => program.kind === 'minor'));
 
   return (
     <div className="flex flex-col h-full bg-gray-50 overflow-y-auto">
@@ -76,13 +91,14 @@ export default function HomeScreen({ programs, onSelect }: HomeScreenProps) {
           </div>
         </div>
         <p className="text-maroon-100 mt-2 text-sm leading-relaxed">
-          Track progress toward Loyola CS degree and minor requirements and bring your checklist to advising conversations.
+          Track progress toward Loyola CS degrees, interdisciplinary majors, and minors, then bring your checklist to advising conversations.
         </p>
       </div>
 
       {/* Program cards */}
       <div className="flex-1 overflow-y-auto px-4 pt-5 pb-8 space-y-4">
-        <ProgramGroup title="Degree Programs" programs={degreePrograms} onSelect={onSelect} />
+        <ProgramGroup title="Departmental Degree Programs" programs={departmentalDegrees} onSelect={onSelect} />
+        <ProgramGroup title="Interdisciplinary Majors" programs={interdisciplinaryMajors} onSelect={onSelect} />
         <ProgramGroup title="Minors" programs={minors} onSelect={onSelect} />
       </div>
       <Footer />

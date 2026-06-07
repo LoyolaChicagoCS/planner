@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import SearchBox from './SearchBox';
 import { hasConcreteCoreSelection } from '../utils/coreCatalog';
+import { electivePlaceholderId } from '../utils/shareLink';
 import { matchesSearch, normalizeSearch } from '../utils/search';
 import type { CompletedSet, CoreRequirement, Course, Program, ProgressItem, RoadmapSemester } from '../types';
 import type { RequirementStatus } from '../utils/progress';
@@ -79,7 +80,7 @@ function SemesterCard({ semester, courseMap, coreMap, completed, program, search
   const items: ResolvedRoadmapItem[] = (semester.items ?? []).map((item, i) => {
     if (item.isElective) {
       // Elective slots don't have a fixed ID; use a stable per-semester key
-      return { id: `elective-${semester.year}-${semester.semester}-${i}`, label: item.label ?? 'Elective', credits: item.credits ?? 0, isElective: true };
+      return { id: electivePlaceholderId(semester.year, semester.semester, i), label: item.label ?? 'Elective', credits: item.credits ?? 0, isElective: true };
     }
     if (item.ref) {
       // Look up in courses or core requirements

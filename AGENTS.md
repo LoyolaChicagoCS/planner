@@ -45,7 +45,7 @@ npm run build
 - `src/main.tsx` mounts the React app.
 - `src/hooks/useProgress.ts` stores completion state in `localStorage` and restores shared progress from the `?d=` URL parameter.
 - `src/components/HomeScreen.tsx` renders the program picker.
-- `src/components/ProgramScreen.tsx` renders the swipeable tabs: Courses, Core when applicable, Roadmap, Checklist, and Audit.
+- `src/components/ProgramScreen.tsx` renders the swipeable tabs, program-level controls, and share actions: Courses, Core when applicable, Roadmap, Checklist, and Audit.
 - `src/components/CourseList.tsx` shows major/minor, elective/selection, and core requirements.
 - `src/components/CorePlanner.tsx` shows catalog-derived University Core course choices for programs with Core requirements.
 - `src/components/SearchBox.tsx` provides the shared per-tab search input.
@@ -108,6 +108,7 @@ Preserve the privacy model:
 - Do not add analytics or tracking without an explicit product decision.
 - Do not collect names, student IDs, IP addresses, or usage data.
 - Progress should remain local to the browser and shareable through URL parameters.
+- Advisor email sharing should use the same URL-encoded progress model and must not send progress to a server.
 
 The current persistence behavior is:
 

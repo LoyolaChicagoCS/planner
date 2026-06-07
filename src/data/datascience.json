@@ -2,6 +2,7 @@
   "id": "datascience",
   "name": "Data Science",
   "degree": "BS",
+  "kind": "interdisciplinary",
   "school": "Loyola University Chicago",
   "totalCredits": 120,
   "majorCredits": 59,

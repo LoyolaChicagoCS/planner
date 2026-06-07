@@ -1,6 +1,7 @@
 import { describe, expect, it } from 'vitest';
 import {
   decodeCompletedIds,
+  electivePlaceholderId,
   encodeCompletedIds,
   getValidProgressIds,
   validateProgressIds,
@@ -79,7 +80,11 @@ describe('shareLink', () => {
       'TRANSFER_CALC',
       'MATH161',
       'MATH162',
-      'elective-2-Fall-1',
+      'elective-2-fall-1',
     ]));
+  });
+
+  it('generates URL-safe elective placeholder IDs from display labels', () => {
+    expect(electivePlaceholderId(2, 'Semester III', 0)).toBe('elective-2-semester-iii-0');
   });
 });
