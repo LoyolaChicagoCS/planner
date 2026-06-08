@@ -15,18 +15,18 @@ import loyolaLogo from '../assets/loyola-ramblers-logo.svg';
 
 // Each program gets a distinct gradient, all anchored in LUC maroon/gold tones
 const PROGRAM_COLORS = {
-  cs:            'from-maroon-500 to-maroon-700',
-  se:            'from-maroon-400 to-maroon-600',
-  it:            'from-gold-400 to-gold-600',
+  cs:            'from-maroon-600 to-maroon-800',
+  se:            'from-gold-500 to-maroon-600',
+  it:            'from-gold-400 to-maroon-500',
   cybersecurity: 'from-maroon-600 to-maroon-800',
-  datascience:   'from-gold-500 to-maroon-600',
-  bioinformatics: 'from-maroon-500 to-gold-700',
-  'cs-minor': 'from-maroon-500 to-gray-800',
-  'it-minor': 'from-gold-400 to-gray-800',
-  'computer-crime-forensics-minor': 'from-maroon-600 to-gold-600',
-  'ai-minor': 'from-maroon-500 to-gold-600',
-  'ai-human-flourishing-minor': 'from-maroon-600 to-gray-800',
-  'business-ai-minor': 'from-gold-500 to-gray-800',
+  datascience:   'from-gold-400 to-maroon-500',
+  bioinformatics: 'from-gold-500 to-maroon-600',
+  'cs-minor': 'from-maroon-500 to-gold-700',
+  'it-minor': 'from-gold-400 to-maroon-500',
+  'computer-crime-forensics-minor': 'from-gold-500 to-maroon-700',
+  'ai-minor': 'from-maroon-600 to-maroon-800',
+  'ai-human-flourishing-minor': 'from-maroon-600 to-maroon-800',
+  'business-ai-minor': 'from-maroon-500 to-gold-700',
 };
 
 const PROGRAM_ICONS = {
