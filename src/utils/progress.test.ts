@@ -2,6 +2,8 @@ import { describe, expect, it } from 'vitest';
 import {
   calcDistinctDoneCredits,
   calcDistinctItemCredits,
+  calcProgramRequirementCreditGoal,
+  calcProgramRequirementDoneCredits,
   calcRequiredCredits,
   calcSatisfiedRequirementCredits,
   createProgressHelpers,
@@ -61,6 +63,30 @@ const eitherOrProgram: Program = {
   checklist: [],
 };
 
+const electiveCapProgram: Program = {
+  id: 'elective-cap',
+  name: 'Elective Cap Program',
+  degree: 'BS',
+  school: 'Loyola University Chicago',
+  totalCredits: 120,
+  courses: [
+    { id: 'COMP170', code: 'COMP 170', title: 'Introduction to Object-Oriented Programming', credits: 3 },
+  ],
+  electiveOptions: {
+    restricted: {
+      label: 'Restricted Electives',
+      creditsRequired: 3,
+      courses: [
+        { id: 'COMP313', code: 'COMP 313', title: 'Object-Oriented Design', credits: 3 },
+        { id: 'COMP330', code: 'COMP 330', title: 'Introduction to Algorithms', credits: 3 },
+      ],
+    },
+  },
+  coreRequirements: [],
+  roadmap: [],
+  checklist: [],
+};
+
 describe('progress helpers', () => {
   it('shares completion across duplicate concrete courses by course identity', () => {
     const completed = new Set(['COMP313']);
@@ -108,6 +134,24 @@ describe('progress helpers', () => {
     ];
 
     expect(calcDistinctItemCredits(items, () => true)).toBe(3);
+  });
+
+  it('counts program requirement progress separately from total degree credits', () => {
+    const completed = new Set(['COMP313', 'ELEC_COMP313']);
+    const helpers = createProgressHelpers(duplicateCourseProgram, completed, () => undefined);
+
+    expect(calcProgramRequirementCreditGoal(duplicateCourseProgram)).toBe(6);
+    expect(calcProgramRequirementDoneCredits(duplicateCourseProgram, helpers.isRequirementSatisfied)).toBe(3);
+    expect(calcDistinctDoneCredits(duplicateCourseProgram, completed)).toBe(3);
+  });
+
+  it('caps selected elective credits at the requirement amount for program progress', () => {
+    const completed = new Set(['COMP170', 'COMP313', 'COMP330']);
+    const helpers = createProgressHelpers(electiveCapProgram, completed, () => undefined);
+
+    expect(calcProgramRequirementCreditGoal(electiveCapProgram)).toBe(6);
+    expect(calcProgramRequirementDoneCredits(electiveCapProgram, helpers.isRequirementSatisfied)).toBe(6);
+    expect(calcDistinctDoneCredits(electiveCapProgram, completed)).toBe(9);
   });
 });
 

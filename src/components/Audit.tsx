@@ -3,9 +3,12 @@ import SearchBox from './SearchBox';
 import optionalData from '../data/optional.json';
 import {
   calcDistinctDoneCredits,
+  calcProgramRequirementCreditGoal,
+  calcProgramRequirementDoneCredits,
   calcRequiredCredits,
   calcSatisfiedRequirementCredits,
 } from '../utils/progress';
+import { progressBackgroundColor, progressBarStyle, progressColor } from '../utils/progressColor';
 import { matchesSearch, normalizeSearch } from '../utils/search';
 import type { CompletedSet, CoreRequirement, Course, Program, ProgressItem } from '../types';
 import type { RequirementStatus } from '../utils/progress';
@@ -71,13 +74,37 @@ export default function Audit({ program, completed, toggle, isCompleted, isRequi
   const totalRequired = program.kind === 'minor' ? program.totalCredits : 120;
   const remaining     = Math.max(0, totalRequired - totalDone);
   const pct           = Math.min(100, Math.round((totalDone / totalRequired) * 100));
+  const requirementDone = calcProgramRequirementDoneCredits(program, isRequirementSatisfied);
+  const requirementRequired = calcProgramRequirementCreditGoal(program);
+  const requirementRemaining = Math.max(0, requirementRequired - requirementDone);
+  const requirementPct = requirementRequired > 0
+    ? Math.min(100, Math.round((requirementDone / requirementRequired) * 100))
+    : 0;
+  const requirementLabel = program.kind === 'minor' ? 'Minor Credits' : 'Major Credits';
 
   return (
     <div className="flex flex-col gap-5 px-4 py-6 pb-24">
       <SearchBox value={query} onChange={setQuery} placeholder="Search audit" />
 
       {/* Overall credit summary */}
-      <CreditSummary done={totalDone} required={totalRequired} remaining={remaining} pct={pct} />
+      <div className="grid gap-3">
+        <CreditSummary
+          title="Total Credits"
+          done={totalDone}
+          required={totalRequired}
+          remaining={remaining}
+          remainingLabel="credits remaining to graduate"
+          pct={pct}
+        />
+        <CreditSummary
+          title={requirementLabel}
+          done={requirementDone}
+          required={requirementRequired}
+          remaining={requirementRemaining}
+          remainingLabel={program.kind === 'minor' ? 'minor credits remaining' : 'major credits remaining'}
+          pct={requirementPct}
+        />
+      </div>
 
       {/* Major required courses */}
       <AuditCategory
@@ -144,17 +171,31 @@ export default function Audit({ program, completed, toggle, isCompleted, isRequi
 }
 
 /** Top-level credit summary card */
-function CreditSummary({ done, required, remaining, pct }: { done: number; required: number; remaining: number; pct: number }) {
+function CreditSummary({
+  title,
+  done,
+  required,
+  remaining,
+  remainingLabel,
+  pct,
+}: {
+  title: string;
+  done: number;
+  required: number;
+  remaining: number;
+  remainingLabel: string;
+  pct: number;
+}) {
   return (
-    <div className="rounded-2xl overflow-hidden border border-maroon-200 shadow-sm">
-      <div className="bg-maroon-500 px-4 py-4">
-        <div className="text-white text-lg font-bold">{done} / {required} Credits Complete</div>
-        <div className="text-maroon-200 text-sm mt-0.5">{remaining} credits remaining to graduate</div>
+    <div className="rounded-2xl overflow-hidden border border-gray-100 shadow-sm">
+      <div className="px-4 py-4" style={{ backgroundColor: progressColor(pct) }}>
+        <div className="text-white text-lg font-bold">{done} / {required} {title} Complete</div>
+        <div className="text-white/80 text-sm mt-0.5">{remaining} {remainingLabel}</div>
       </div>
-      <div className="h-2 bg-maroon-100">
+      <div className="h-2" style={{ backgroundColor: progressBackgroundColor(pct) }}>
         <div
-          className="h-full bg-maroon-400 transition-all duration-500"
-          style={{ width: `${pct}%` }}
+          className="h-full transition-all duration-500"
+          style={progressBarStyle(pct)}
         />
       </div>
       <div className="bg-white px-4 py-3 flex justify-between text-xs text-gray-500">

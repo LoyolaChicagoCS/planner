@@ -12,7 +12,13 @@ import Roadmap from './Roadmap';
 import Checklist from './Checklist';
 import Audit from './Audit';
 import Footer from './Footer';
-import { calcDistinctDoneCredits, createProgressHelpers } from '../utils/progress';
+import {
+  calcDistinctDoneCredits,
+  calcProgramRequirementCreditGoal,
+  calcProgramRequirementDoneCredits,
+  createProgressHelpers,
+} from '../utils/progress';
+import { progressBackgroundColor, progressColor } from '../utils/progressColor';
 import { encodeCompletedIds, getValidProgressIds } from '../utils/shareLink';
 import type { CompletedSet, Program } from '../types';
 import loyolaLogo from '../assets/loyola-ramblers-logo.svg';
@@ -56,7 +62,11 @@ export default function ProgramScreen({ program, completed, toggle, clear, onBac
   const { isCompleted, isRequirementSatisfied, getRequirementStatus, toggleItem } =
     createProgressHelpers(program, completed, toggle);
   const doneCredits = calcDistinctDoneCredits(program, completed);
-  const pct = Math.min(100, Math.round((doneCredits / creditGoal) * 100));
+  const pct = percentComplete(doneCredits, creditGoal);
+  const requirementCreditGoal = calcProgramRequirementCreditGoal(program);
+  const requirementDoneCredits = calcProgramRequirementDoneCredits(program, isRequirementSatisfied);
+  const requirementPct = percentComplete(requirementDoneCredits, requirementCreditGoal);
+  const requirementProgressLabel = program.kind === 'minor' ? 'Minor' : 'Major';
 
   function goToTab(index: number): void {
     swiperRef.current?.slideTo(index);
@@ -166,11 +176,8 @@ export default function ProgramScreen({ program, completed, toggle, clear, onBac
             Clear
           </button>
 
-          {/* Credit progress pill */}
-          <div className="flex-shrink-0 bg-maroon-50 text-maroon-600 text-xs font-semibold px-2 py-1 rounded-full text-center leading-tight">
-            <div>{doneCredits} / {creditGoal} cr</div>
-            <div className="text-maroon-400 font-normal">{pct}%</div>
-          </div>
+          <ProgressPill label="Total" done={doneCredits} goal={creditGoal} pct={pct} />
+          <ProgressPill label={requirementProgressLabel} done={requirementDoneCredits} goal={requirementCreditGoal} pct={requirementPct} />
         </div>
 
         <div className="mt-1 pl-10 pr-1">
@@ -271,6 +278,25 @@ export default function ProgramScreen({ program, completed, toggle, clear, onBac
           </SwiperSlide>
         </Swiper>
       </div>
+    </div>
+  );
+}
+
+function percentComplete(done: number, goal: number): number {
+  return goal > 0 ? Math.min(100, Math.round((done / goal) * 100)) : 0;
+}
+
+function ProgressPill({ label, done, goal, pct }: { label: string; done: number; goal: number; pct: number }) {
+  return (
+    <div
+      className="flex-shrink-0 rounded-full px-2 py-1 text-center text-xs font-semibold leading-tight"
+      style={{
+        backgroundColor: progressBackgroundColor(pct),
+        color: progressColor(pct, 30),
+      }}
+    >
+      <div>{label} {done} / {goal} cr</div>
+      <div className="font-normal opacity-80">{pct}%</div>
     </div>
   );
 }

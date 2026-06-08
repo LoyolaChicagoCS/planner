@@ -3,6 +3,7 @@ import SearchBox from './SearchBox';
 import optionalData from '../data/optional.json';
 import { calcDistinctDoneCredits } from '../utils/progress';
 import { matchesSearch, normalizeSearch } from '../utils/search';
+import { progressBackgroundColor, progressBarStyle, progressColor } from '../utils/progressColor';
 import type { ChecklistItem as ChecklistModel, CompletedSet, Course, Program, ProgressItem } from '../types';
 
 type IsCompleted = (itemOrId: ProgressItem | string) => boolean;
@@ -85,12 +86,12 @@ function SemesterEstimate({ doneCredits, creditGoal, remainingCredits }: { doneC
     <div>
       <h2 className="text-xs font-semibold uppercase tracking-widest text-gray-400 mb-3">Estimated Time to Graduate</h2>
       <div className="rounded-2xl overflow-hidden border border-maroon-100 shadow-sm">
-        <div className="bg-maroon-500 px-4 py-3 flex items-center justify-between">
+        <div className="px-4 py-3 flex items-center justify-between" style={{ backgroundColor: progressColor(pct) }}>
           <span className="text-white text-sm font-semibold">{doneCredits} / {creditGoal} credits complete</span>
-          <span className="text-maroon-200 text-xs">{pct}%</span>
+          <span className="text-white/80 text-xs">{pct}%</span>
         </div>
-        <div className="h-1.5 bg-maroon-100">
-          <div className="h-full bg-maroon-400 transition-all duration-300" style={{ width: `${pct}%` }} />
+        <div className="h-1.5" style={{ backgroundColor: progressBackgroundColor(pct) }}>
+          <div className="h-full transition-all duration-300" style={progressBarStyle(pct)} />
         </div>
         <div className="bg-white divide-y divide-gray-50">
           <EnrollmentRow label="Full-time"  sublabel="≥ 12 credits / semester" semesters={fullTime} icon="📚" />

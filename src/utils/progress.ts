@@ -165,3 +165,61 @@ export function calcSatisfiedRequirementCredits(
 
   return [...satisfied].reduce<number>((sum, key) => sum + (creditsByRequirement.get(key) ?? 0), 0);
 }
+
+export function calcProgramRequirementDoneCredits(
+  program: Program,
+  isRequirementSatisfied: (item: ProgressItem) => boolean,
+): number {
+  const countedCourseKeys = new Set<string>();
+  const requiredCourseCredits = calcSatisfiedDistinctProgramCredits(
+    program.courses ?? [],
+    isRequirementSatisfied,
+    countedCourseKeys,
+  );
+  const electiveCredits = Object.values(program.electiveOptions ?? {}).reduce((sum, group) => {
+    const done = calcSatisfiedDistinctProgramCredits(group.courses ?? [], isRequirementSatisfied, countedCourseKeys);
+    return sum + Math.min(done, group.creditsRequired);
+  }, 0);
+
+  return requiredCourseCredits + electiveCredits;
+}
+
+export function calcProgramRequirementCreditGoal(program: Program): number {
+  if (program.kind === 'minor') return program.minorCredits ?? program.totalCredits;
+  if (program.majorCredits) return program.majorCredits;
+
+  const requiredCourseCredits = calcRequiredCredits(program.courses ?? []);
+  const electiveCredits = Object.values(program.electiveOptions ?? {}).reduce(
+    (sum, group) => sum + group.creditsRequired,
+    0,
+  );
+
+  return requiredCourseCredits + electiveCredits;
+}
+
+function calcSatisfiedDistinctProgramCredits(
+  items: ProgressItem[],
+  isRequirementSatisfied: (item: ProgressItem) => boolean,
+  countedCourseKeys: Set<string>,
+): number {
+  const creditsByRequirement = new Map<string, number>();
+  const courseKeyByRequirement = new Map<string, string>();
+  const satisfied = new Set<string>();
+
+  for (const item of items) {
+    const reqKey = requirementKey(item);
+    if (!creditsByRequirement.has(reqKey)) creditsByRequirement.set(reqKey, item.credits ?? 0);
+    if (!courseKeyByRequirement.has(reqKey)) courseKeyByRequirement.set(reqKey, itemKey(item));
+    if (isRequirementSatisfied(item)) satisfied.add(reqKey);
+  }
+
+  let total = 0;
+  for (const reqKey of satisfied) {
+    const courseKey = courseKeyByRequirement.get(reqKey);
+    if (!courseKey || countedCourseKeys.has(courseKey)) continue;
+    countedCourseKeys.add(courseKey);
+    total += creditsByRequirement.get(reqKey) ?? 0;
+  }
+
+  return total;
+}
