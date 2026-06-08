@@ -164,6 +164,8 @@ If Loyola changes Core Area names, requirement structure, catalog URLs, or requi
 
 ## Main Views
 
+The landing page groups supported programs into Departmental Degree Programs, Interdisciplinary Majors, and Minors. Programs are alphabetized within each group. The landing header includes the Loyola Ramblers SVG mark, the GitHub source link, and the build-time version pill. To preserve vertical space on mobile, the landing header collapses after the program list is scrolled and reappears when the list returns to the top.
+
 Each selected program has five swipeable tabs:
 
 - `Courses`: required courses, elective requirements, and core requirements.
@@ -171,6 +173,8 @@ Each selected program has five swipeable tabs:
 - `Roadmap`: suggested semester-by-semester plan.
 - `Checklist`: remaining courses, AP/transfer items, optional courses, and time-to-completion estimate.
 - `Audit`: audit-style progress by requirement category.
+
+Program pages use a compact top bar with the Loyola SVG mark next to the program name. Program actions stay on the first row: copy share link, open prefilled advisor email, clear selected progress, and the credit-progress pill. Degree/roadmap/major-credit metadata is intentionally rendered on a second row so long labels do not collide with the action controls on mobile.
 
 The `Core` tab lets students check the specific Core course they completed while satisfying the program's general Core requirement IDs. For example, checking a catalog course under Historical Tier I satisfies `CORE_HIST1` everywhere else in the app. Include Core categories even when a requirement may commonly be fulfilled by CS, math, statistics, or other program coursework; students still need to see that the Core requirement exists. Students may also quick-check a general Core item from `Courses` or `Roadmap`; that counts immediately, and the row then offers a `Choose specific Core course` action so they can jump to the Core tab and record the actual course later. Students may select more than one course in the same Core area or tier for tracking, but audit and total-credit calculations count each general Core requirement only once.
 
@@ -184,6 +188,8 @@ Search is intentionally available on every program tab. Each tab owns its own se
 - Tailwind CSS
 - Swiper
 - ESLint
+
+The Loyola brand mark is stored as a vector asset at `src/assets/loyola-ramblers-logo.svg`. It is imported by React components through Vite's asset pipeline and should remain SVG rather than rasterized so it scales cleanly in small header badges.
 
 ## Local Development
 

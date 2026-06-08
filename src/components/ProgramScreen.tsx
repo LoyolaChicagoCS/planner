@@ -15,6 +15,7 @@ import Footer from './Footer';
 import { calcDistinctDoneCredits, createProgressHelpers } from '../utils/progress';
 import { encodeCompletedIds, getValidProgressIds } from '../utils/shareLink';
 import type { CompletedSet, Program } from '../types';
+import loyolaLogo from '../assets/loyola-ramblers-logo.svg';
 
 interface CoreFocusTarget {
   requirementId: string;
@@ -112,56 +113,71 @@ export default function ProgramScreen({ program, completed, toggle, clear, onBac
   return (
     <div className="flex flex-col h-full bg-gray-50">
       {/* Top bar */}
-      <div className="flex items-center gap-3 px-4 pt-10 pb-3 bg-white border-b border-gray-100 shadow-sm">
-        <button
-          onClick={onBack}
-          className="p-2 -ml-1 rounded-xl text-gray-500 active:bg-gray-100"
-          aria-label="Back"
-        >
-          ←
-        </button>
-        <div className="flex-1 min-w-0">
-          <h1 className="text-base font-bold text-gray-900 truncate">{program.name}</h1>
-          <p className="text-xs text-gray-400">
+      <div className="px-4 pt-10 pb-3 bg-white border-b border-gray-100 shadow-sm">
+        <div className="flex items-center gap-3">
+          <button
+            onClick={onBack}
+            className="p-2 -ml-1 flex-shrink-0 rounded-xl text-gray-500 active:bg-gray-100"
+            aria-label="Back"
+          >
+            ←
+          </button>
+          <div className="flex min-w-0 flex-1 items-center gap-2">
+            <div className="flex h-8 w-8 flex-shrink-0 items-center justify-center rounded-lg bg-white p-1 shadow-sm ring-1 ring-gray-100">
+              <img
+                src={loyolaLogo}
+                alt=""
+                aria-hidden="true"
+                className="h-full w-full object-contain"
+              />
+            </div>
+            <h1 className="text-base font-bold text-gray-900 truncate">{program.name}</h1>
+          </div>
+
+          <div className="flex flex-shrink-0 items-center gap-1.5">
+            {/* Share link button */}
+            <button
+              onClick={copyLink}
+              className={`flex-shrink-0 text-xs font-semibold px-2 py-1 rounded-full transition-colors
+                ${copied ? 'bg-maroon-500 text-white' : 'bg-maroon-50 text-maroon-600 active:bg-maroon-100'}`}
+              title="Copy shareable link"
+            >
+              {copied ? 'Copied!' : '🔗 Share'}
+            </button>
+
+            <button
+              onClick={emailProgress}
+              className="flex-shrink-0 text-xs font-semibold px-2 py-1 rounded-full bg-gold-50 text-gold-800 active:bg-gold-100 transition-colors"
+              title="Email checklist progress"
+            >
+              ✉ Email
+            </button>
+
+            <button
+              onClick={clearProgramProgress}
+              disabled={doneCredits === 0}
+              className={`flex-shrink-0 text-xs font-semibold px-2 py-1 rounded-full transition-colors
+                ${doneCredits === 0
+                  ? 'bg-gray-100 text-gray-300'
+                  : 'bg-gray-100 text-gray-500 active:bg-gray-200'}`}
+              title="Clear selected courses"
+            >
+              Clear
+            </button>
+
+            {/* Credit progress pill */}
+            <div className="flex-shrink-0 bg-maroon-50 text-maroon-600 text-xs font-semibold px-2 py-1 rounded-full text-center leading-tight">
+              <div>{doneCredits} / {creditGoal} cr</div>
+              <div className="text-maroon-400 font-normal">{pct}%</div>
+            </div>
+          </div>
+        </div>
+
+        <div className="mt-1 pl-10 pr-1">
+          <p className="text-xs leading-snug text-gray-400">
             {program.degree} · {requirementCreditLabel}
             {program.majorCredits && <span> · {program.majorCredits} major credits</span>}
           </p>
-        </div>
-
-        {/* Share link button */}
-        <button
-          onClick={copyLink}
-          className={`flex-shrink-0 text-xs font-semibold px-2 py-1 rounded-full transition-colors
-            ${copied ? 'bg-maroon-500 text-white' : 'bg-maroon-50 text-maroon-600 active:bg-maroon-100'}`}
-          title="Copy shareable link"
-        >
-          {copied ? 'Copied!' : '🔗 Share'}
-        </button>
-
-        <button
-          onClick={emailProgress}
-          className="flex-shrink-0 text-xs font-semibold px-2 py-1 rounded-full bg-gold-50 text-gold-800 active:bg-gold-100 transition-colors"
-          title="Email checklist progress"
-        >
-          ✉ Email
-        </button>
-
-        <button
-          onClick={clearProgramProgress}
-          disabled={doneCredits === 0}
-          className={`flex-shrink-0 text-xs font-semibold px-2 py-1 rounded-full transition-colors
-            ${doneCredits === 0
-              ? 'bg-gray-100 text-gray-300'
-              : 'bg-gray-100 text-gray-500 active:bg-gray-200'}`}
-          title="Clear selected courses"
-        >
-          Clear
-        </button>
-
-        {/* Credit progress pill */}
-        <div className="flex-shrink-0 bg-maroon-50 text-maroon-600 text-xs font-semibold px-2 py-1 rounded-full text-center leading-tight">
-          <div>{doneCredits} / {creditGoal} cr</div>
-          <div className="text-maroon-400 font-normal">{pct}%</div>
         </div>
       </div>
 

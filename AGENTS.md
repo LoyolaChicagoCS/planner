@@ -48,8 +48,8 @@ The home-screen version pill is injected by `vite.config.js` from the latest Git
 - `src/App.tsx` manages the selected program and keeps the URL in sync.
 - `src/main.tsx` mounts the React app.
 - `src/hooks/useProgress.ts` stores completion state in `localStorage` and restores shared progress from the `?d=` URL parameter.
-- `src/components/HomeScreen.tsx` renders the program picker.
-- `src/components/ProgramScreen.tsx` renders the swipeable tabs, program-level controls, and share actions: Courses, Core when applicable, Roadmap, Checklist, and Audit.
+- `src/components/HomeScreen.tsx` renders the grouped, alphabetized program picker with the collapsible landing header.
+- `src/components/ProgramScreen.tsx` renders the swipeable tabs, compact two-row program header, program-level controls, and share actions: Courses, Core when applicable, Roadmap, Checklist, and Audit.
 - `src/components/CourseList.tsx` shows major/minor, elective/selection, and core requirements.
 - `src/components/CorePlanner.tsx` shows catalog-derived University Core course choices for programs with Core requirements.
 - `src/components/SearchBox.tsx` provides the shared per-tab search input.
@@ -62,6 +62,7 @@ The home-screen version pill is injected by `vite.config.js` from the latest Git
 - `src/utils/coreCatalog.ts` maps cached Core catalog courses to general Core requirement IDs.
 - `src/utils/search.ts` contains shared search matching helpers.
 - `src/utils/*.test.ts` contains model-level tests for progress, Core catalog, and share-link behavior.
+- `src/assets/loyola-ramblers-logo.svg` contains the Loyola SVG mark used in landing and program headers.
 - `src/data/*.json` contains program, minor, Core inventory, and optional-course data.
 
 ## Data Model Notes
@@ -129,6 +130,10 @@ Use Tailwind utility classes and the custom LUC colors defined in `tailwind.conf
 
 The interface is intentionally mobile-first, dense, and utilitarian. Keep controls tappable, readable, and consistent with the existing rounded card/list-row style.
 
+The landing header may collapse when the program list scrolls to preserve space on mobile. Keep the header reappearing when the list returns to the top. Program pages use a compact top bar where the title and actions stay on the first row, while degree/roadmap/major-credit metadata lives on a second row to avoid collisions with Share, Email, Clear, and the progress pill.
+
+Use `src/assets/loyola-ramblers-logo.svg` as the Loyola mark in small header badges. Keep it as an SVG asset through Vite rather than replacing it with a raster image.
+
 ## Deployment
 
 The app deploys to GitHub Pages through `.github/workflows/deploy.yml` on pushes to `main`.
@@ -145,6 +150,5 @@ Do not change Vite `base` back to `/planner/` unless the app is moved off the cu
 
 ## Known Cleanup Opportunities
 
-- Add model-level tests for `src/utils/progress.ts`, `src/utils/shareLink.ts`, and `src/utils/coreCatalog.ts`.
 - `src/App.css` appears to be leftover template CSS and is not imported by `src/main.tsx`.
 - Continue consolidating credit-counting behavior into shared utilities when changing progress calculations.
