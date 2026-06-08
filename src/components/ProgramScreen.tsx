@@ -133,43 +133,43 @@ export default function ProgramScreen({ program, completed, toggle, clear, onBac
             </div>
             <h1 className="text-base font-bold text-gray-900 truncate">{program.name}</h1>
           </div>
+        </div>
 
-          <div className="flex flex-shrink-0 items-center gap-1.5">
-            {/* Share link button */}
-            <button
-              onClick={copyLink}
-              className={`flex-shrink-0 text-xs font-semibold px-2 py-1 rounded-full transition-colors
-                ${copied ? 'bg-maroon-500 text-white' : 'bg-maroon-50 text-maroon-600 active:bg-maroon-100'}`}
-              title="Copy shareable link"
-            >
-              {copied ? 'Copied!' : '🔗 Share'}
-            </button>
+        <div className="mt-2 flex items-center gap-1.5 overflow-x-auto pl-10 pr-1 pb-0.5">
+          {/* Share link button */}
+          <button
+            onClick={copyLink}
+            className={`flex-shrink-0 text-xs font-semibold px-2 py-1 rounded-full transition-colors
+              ${copied ? 'bg-maroon-500 text-white' : 'bg-maroon-50 text-maroon-600 active:bg-maroon-100'}`}
+            title="Copy shareable link"
+          >
+            {copied ? 'Copied!' : '🔗 Share'}
+          </button>
 
-            <button
-              onClick={emailProgress}
-              className="flex-shrink-0 text-xs font-semibold px-2 py-1 rounded-full bg-gold-50 text-gold-800 active:bg-gold-100 transition-colors"
-              title="Email checklist progress"
-            >
-              ✉ Email
-            </button>
+          <button
+            onClick={emailProgress}
+            className="flex-shrink-0 text-xs font-semibold px-2 py-1 rounded-full bg-gold-50 text-gold-800 active:bg-gold-100 transition-colors"
+            title="Email checklist progress"
+          >
+            ✉ Email
+          </button>
 
-            <button
-              onClick={clearProgramProgress}
-              disabled={doneCredits === 0}
-              className={`flex-shrink-0 text-xs font-semibold px-2 py-1 rounded-full transition-colors
-                ${doneCredits === 0
-                  ? 'bg-gray-100 text-gray-300'
-                  : 'bg-gray-100 text-gray-500 active:bg-gray-200'}`}
-              title="Clear selected courses"
-            >
-              Clear
-            </button>
+          <button
+            onClick={clearProgramProgress}
+            disabled={doneCredits === 0}
+            className={`flex-shrink-0 text-xs font-semibold px-2 py-1 rounded-full transition-colors
+              ${doneCredits === 0
+                ? 'bg-gray-100 text-gray-300'
+                : 'bg-gray-100 text-gray-500 active:bg-gray-200'}`}
+            title="Clear selected courses"
+          >
+            Clear
+          </button>
 
-            {/* Credit progress pill */}
-            <div className="flex-shrink-0 bg-maroon-50 text-maroon-600 text-xs font-semibold px-2 py-1 rounded-full text-center leading-tight">
-              <div>{doneCredits} / {creditGoal} cr</div>
-              <div className="text-maroon-400 font-normal">{pct}%</div>
-            </div>
+          {/* Credit progress pill */}
+          <div className="flex-shrink-0 bg-maroon-50 text-maroon-600 text-xs font-semibold px-2 py-1 rounded-full text-center leading-tight">
+            <div>{doneCredits} / {creditGoal} cr</div>
+            <div className="text-maroon-400 font-normal">{pct}%</div>
           </div>
         </div>
 
