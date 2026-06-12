@@ -81,7 +81,8 @@ export default function HomeScreen({ programs, onSelect }: HomeScreenProps) {
     programs.filter(program => program.kind === 'interdisciplinary')
   );
   const minors = sortByProgramName(programs.filter(program => program.kind === 'minor'));
-  const graduatePrograms = sortByProgramName(programs.filter(program => program.kind === 'masters' || program.kind === 'phd'));
+  const mastersPrograms = sortByProgramName(programs.filter(program => program.kind === 'masters'));
+  const doctoralPrograms = sortByProgramName(programs.filter(program => program.kind === 'phd'));
   const handleProgramListScroll = (scrollTop: number) => {
     const shouldHideHeader = scrollTop > 0;
     setIsHeaderHidden(previous => previous === shouldHideHeader ? previous : shouldHideHeader);
@@ -138,7 +139,8 @@ export default function HomeScreen({ programs, onSelect }: HomeScreenProps) {
         <ProgramGroup title="Departmental Degree Programs" programs={departmentalDegrees} onSelect={onSelect} />
         <ProgramGroup title="Interdisciplinary Majors" programs={interdisciplinaryMajors} onSelect={onSelect} />
         <ProgramGroup title="Minors" programs={minors} onSelect={onSelect} />
-        <ProgramGroup title="Graduate Programs" programs={graduatePrograms} onSelect={onSelect} />
+        <ProgramGroup title="Doctoral Program" programs={doctoralPrograms} onSelect={onSelect} />
+        <ProgramGroup title="Master's Programs" programs={mastersPrograms} onSelect={onSelect} />
       </div>
       <Footer />
     </div>
