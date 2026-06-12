@@ -101,8 +101,16 @@ export default function HomeScreen({ programs, onSelect }: HomeScreenProps) {
   };
 
   const handleProgramListScroll = (scrollTop: number) => {
-    const shouldHideHeader = scrollTop > 0;
-    setIsHeaderHidden(previous => previous === shouldHideHeader ? previous : shouldHideHeader);
+    // Use a small hysteresis band to avoid the header toggling in a loop:
+    // hide once the user scrolls down ≥ 30 px, but only re-show when they
+    // return all the way to the top (scrollTop === 0).  This prevents the
+    // header collapse/expand from changing the container height and immediately
+    // resetting scrollTop, which would cause the header to flicker back open.
+    setIsHeaderHidden(previous => {
+      if (!previous && scrollTop >= 30) return true;   // hide
+      if (previous && scrollTop === 0) return false;   // show
+      return previous;                                  // no change
+    });
   };
 
   // Reset scroll-to-top and show header when switching tabs
@@ -119,8 +127,8 @@ export default function HomeScreen({ programs, onSelect }: HomeScreenProps) {
           ${isHeaderHidden ? 'max-h-0 opacity-0' : 'max-h-56 opacity-100'}`}
       >
         <div className="px-6 pt-12 pb-6">
-          <div className="flex items-start justify-between gap-3">
-            <div className="flex min-w-0 items-center gap-3">
+          <div className="flex flex-wrap items-center gap-x-3 gap-y-2">
+            <div className="flex min-w-0 flex-1 items-center gap-3">
               <div className="flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-xl bg-white p-1.5 shadow-sm">
                 <img
                   src={loyolaLogo}
@@ -149,7 +157,7 @@ export default function HomeScreen({ programs, onSelect }: HomeScreenProps) {
             </div>
           </div>
           <p className="text-maroon-100 mt-2 text-sm leading-relaxed">
-            Track progress toward Loyola CS degrees, interdisciplinary majors, minors, and graduate programs, then bring your checklist to advising conversations.
+            Track progress toward Loyola CS degrees, interdisciplinary majors, minors, and graduate programs.
           </p>
         </div>
       </div>
