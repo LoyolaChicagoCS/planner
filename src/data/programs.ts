@@ -12,6 +12,12 @@ import businessAiMinorData from './business-ai-minor.json';
 import csMinorData from './cs-minor.json';
 import itMinorData from './it-minor.json';
 import computerCrimeForensicsMinorData from './computer-crime-forensics-minor.json';
+import msCsData from './ms-cs.json';
+import msItData from './ms-it.json';
+import msCybersecurityData from './ms-cybersecurity.json';
+import msSeData from './ms-se.json';
+import msDsData from './ms-ds.json';
+import phdCsData from './phd-cs.json';
 
 export const PROGRAMS: Program[] = [
   csData,
@@ -26,4 +32,10 @@ export const PROGRAMS: Program[] = [
   aiMinorData,
   aiHumanFlourishingMinorData,
   businessAiMinorData,
+  msCsData,
+  msItData,
+  msCybersecurityData,
+  msSeData,
+  msDsData,
+  phdCsData,
 ];

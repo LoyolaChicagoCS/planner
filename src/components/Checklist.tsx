@@ -51,12 +51,13 @@ interface ChecklistProps {
 export default function Checklist({ program, completed, toggle, isCompleted, isRequirementSatisfied, toggleItem }: ChecklistProps) {
   const [query, setQuery] = useState('');
   const search = normalizeSearch(query);
-  const checklistItems = program.checklist ?? [];
-  const apItems       = checklistItems.filter(i => i.category === 'ap');
-  const transferItems = checklistItems.filter(i => i.category === 'transfer');
+  const checklistItems  = program.checklist ?? [];
+  const apItems         = checklistItems.filter(i => i.category === 'ap');
+  const transferItems   = checklistItems.filter(i => i.category === 'transfer');
+  const milestoneItems  = checklistItems.filter(i => i.category === 'milestone');
 
   const doneCredits      = calcDistinctDoneCredits(program, completed);
-  const creditGoal       = program.kind === 'minor' ? program.totalCredits : 120;
+  const creditGoal       = program.kind === 'minor' || program.kind === 'masters' || program.kind === 'phd' ? program.totalCredits : 120;
   const remainingCredits = Math.max(0, creditGoal - doneCredits);
   const showEstimate     = program.hasCompletionEstimate !== false;
 
@@ -64,12 +65,13 @@ export default function Checklist({ program, completed, toggle, isCompleted, isR
     <div className="flex flex-col gap-6 px-4 py-6 pb-6">
       <SearchBox value={query} onChange={setQuery} placeholder="Search checklist" />
       {showEstimate && (
-        <SemesterEstimate doneCredits={doneCredits} creditGoal={creditGoal} remainingCredits={remainingCredits} />
+        <SemesterEstimate doneCredits={doneCredits} creditGoal={creditGoal} remainingCredits={remainingCredits} isGraduate={program.kind === 'masters' || program.kind === 'phd'} />
       )}
+      {program.kind === 'phd' && <ChecklistSection title="Doctoral Milestones" items={milestoneItems} search={search} completed={completed} toggle={toggle} isCompleted={isCompleted} toggleItem={toggleItem} />}
       <RemainingCourses program={program} search={search} isRequirementSatisfied={isRequirementSatisfied} toggleItem={toggleItem} />
       <ChecklistSection title="AP Exam Credits"              items={apItems}       search={search} completed={completed} toggle={toggle} isCompleted={isCompleted} toggleItem={toggleItem} />
       <ChecklistSection title="Transfer & Placement Credits" items={transferItems} search={search} completed={completed} toggle={toggle} isCompleted={isCompleted} toggleItem={toggleItem} />
-      <OptionalCourses search={search} completed={completed} toggle={toggle} />
+      {program.kind !== 'masters' && program.kind !== 'phd' && <OptionalCourses search={search} completed={completed} toggle={toggle} />}
     </div>
   );
 }
@@ -77,9 +79,11 @@ export default function Checklist({ program, completed, toggle, isCompleted, isR
 /**
  * Shows estimated semesters remaining for full-time (12 cr) and part-time (6 cr).
  */
-function SemesterEstimate({ doneCredits, creditGoal, remainingCredits }: { doneCredits: number; creditGoal: number; remainingCredits: number }) {
-  const fullTime = remainingCredits > 0 ? Math.ceil(remainingCredits / 12) : 0;
-  const partTime = remainingCredits > 0 ? Math.ceil(remainingCredits /  6) : 0;
+function SemesterEstimate({ doneCredits, creditGoal, remainingCredits, isGraduate }: { doneCredits: number; creditGoal: number; remainingCredits: number; isGraduate?: boolean }) {
+  const fullTimeLoad = isGraduate ? 9 : 12;
+  const partTimeLoad = 6;
+  const fullTime = remainingCredits > 0 ? Math.ceil(remainingCredits / fullTimeLoad) : 0;
+  const partTime = remainingCredits > 0 ? Math.ceil(remainingCredits / partTimeLoad) : 0;
   const pct      = Math.min(100, Math.round((doneCredits / creditGoal) * 100));
 
   return (
@@ -94,7 +98,7 @@ function SemesterEstimate({ doneCredits, creditGoal, remainingCredits }: { doneC
           <div className="h-full transition-all duration-300" style={progressBarStyle(pct)} />
         </div>
         <div className="bg-white divide-y divide-gray-50">
-          <EnrollmentRow label="Full-time"  sublabel="≥ 12 credits / semester" semesters={fullTime} icon="📚" />
+          <EnrollmentRow label="Full-time"  sublabel={`≥ ${fullTimeLoad} credits / semester`} semesters={fullTime} icon="📚" />
           <EnrollmentRow label="Part-time"  sublabel="≥ 6 credits / semester"  semesters={partTime} icon="🕐" />
         </div>
         {remainingCredits === 0 && (

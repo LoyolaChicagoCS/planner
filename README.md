@@ -1,6 +1,6 @@
 # Loyola CS Advising Checklist
 
-Mobile-first advising checklist for Loyola University Chicago Computer Science undergraduate degree and minor planning.
+Mobile-first advising checklist for Loyola University Chicago Computer Science degree and minor planning — undergraduate, graduate, and doctoral.
 
 The app is live at:
 
@@ -8,7 +8,7 @@ https://advising.cs.luc.edu/
 
 ## Purpose
 
-This project helps students understand and track progress toward undergraduate degree and minor requirements in Loyola University Chicago's Computer Science programs, using requirements modeled from the university catalog at `catalog.luc.edu`.
+This project helps students understand and track progress toward degree and minor requirements in Loyola University Chicago's Computer Science programs, using requirements modeled from the university catalog at `catalog.luc.edu`.
 
 The app is meant to support advising conversations, not replace them. Students can use it to explore degree requirements, check off completed courses, estimate remaining progress, and bring a clearer checklist to meetings with a human advisor.
 
@@ -35,7 +35,17 @@ It also includes these undergraduate minors:
 - Computer Science
 - Information Technology
 
-Graduate programs are not modeled yet. Expected future scope includes graduate programs, 4+1 programs, and the PhD program.
+It also includes these graduate MS programs:
+
+- Computer Science (MS)
+- Cybersecurity (MS)
+- Information Technology (MS)
+- Software Engineering (MS)
+- Data Science (MS)
+
+It also includes the doctoral program:
+
+- Computer Science (PhD)
 
 ## Student-Facing Requirements
 
@@ -98,7 +108,9 @@ Each program currently includes:
 - `totalCredits` for the catalog roadmap/sample plan total
 - `majorCredits` for BS major requirement totals where applicable
 - `minorCredits` for minor completion totals where applicable
-- `kind` where needed, such as `minor`
+- `mastersCredits` for MS required-coursework totals where applicable
+- `phdCredits` for PhD required-coursework totals (excluding dissertation credits) where applicable
+- `kind` where needed, such as `minor`, `masters`, or `phd`
 - `hasCompletionEstimate` where needed
 - `catalogUrl` where useful for traceability
 - `courses`
@@ -109,7 +121,7 @@ Each program currently includes:
 
 Some courses appear in more than one place. For example, a concrete course may appear both in a suggested course list and in an elective option list. Completion for repeated concrete courses is matched by course identity, not just by JSON location.
 
-For BS programs, Loyola requires 120 credits to graduate, but catalog roadmaps may total 120 or 122 credits. Keep `totalCredits` aligned with the catalog roadmap total and use `majorCredits` for the major-only requirement total. This makes it easier for students to compare switching between CS-administered majors. For minors, `totalCredits` and `minorCredits` should reflect the credits required to complete the minor.
+For BS programs, Loyola requires 120 credits to graduate, but catalog roadmaps may total 120 or 122 credits. Keep `totalCredits` aligned with the catalog roadmap total and use `majorCredits` for the major-only requirement total. This makes it easier for students to compare switching between CS-administered majors. For minors, `totalCredits` and `minorCredits` should reflect the credits required to complete the minor. For MS programs, `totalCredits` is the full program credit count (including any foundation courses) and `mastersCredits` is the required-coursework subset used for the Graduate Credits progress bar. For the PhD program, `totalCredits` is 60 (the full doctoral credit requirement including dissertation) and `phdCredits` is 39 (the coursework-only goal shown in the Doctoral Credits progress bar).
 
 Some requirements can be satisfied by one of several courses. These use a shared `requirementGroup`. The UI shows all concrete choices separately:
 
@@ -164,14 +176,14 @@ If Loyola changes Core Area names, requirement structure, catalog URLs, or requi
 
 ## Main Views
 
-The landing page groups supported programs into Departmental Degree Programs, Interdisciplinary Majors, and Minors. Programs are alphabetized within each group. The landing header includes the Loyola Ramblers SVG mark, the GitHub source link, and the build-time version pill. To preserve vertical space on mobile, the landing header collapses after the program list is scrolled and reappears when the list returns to the top.
+The landing page groups supported programs into Departmental Degree Programs, Interdisciplinary Majors, Minors, and Graduate Programs. Programs are alphabetized within each group. The landing header includes the Loyola Ramblers SVG mark, the GitHub source link, and the build-time version pill. To preserve vertical space on mobile, the landing header collapses after the program list is scrolled and reappears when the list returns to the top.
 
-Each selected program has five swipeable tabs:
+Each selected program has up to five swipeable tabs:
 
 - `Courses`: required courses, elective requirements, and core requirements.
-- `Core`: catalog-derived University Core courses, including Tier I/Tier II sections where applicable.
+- `Core`: catalog-derived University Core courses, including Tier I/Tier II sections where applicable. Not shown for graduate or doctoral programs.
 - `Roadmap`: suggested semester-by-semester plan.
-- `Checklist`: remaining courses, AP/transfer items, optional courses, and time-to-completion estimate.
+- `Checklist`: remaining courses, AP/transfer items, optional courses, and time-to-completion estimate. Graduate programs use a 9-credit full-time load assumption. The PhD program suppresses the time estimate entirely and shows a Doctoral Milestones section instead (qualifying exam, candidacy, prospectus, defense).
 - `Audit`: audit-style progress by requirement category.
 
 Program pages use a compact top bar with the Loyola SVG mark next to the program name. Program actions stay on the first row: copy share link, open prefilled advisor email, clear selected progress, and the credit-progress pill. Degree/roadmap/major-credit metadata is intentionally rendered on a second row so long labels do not collide with the action controls on mobile.
@@ -254,4 +266,4 @@ Deployment details:
 - Keep checking current curriculum data against `catalog.luc.edu`.
 - Add remaining structured alternates where the data still uses plain text notes.
 - Replace leftover starter-template files if they are unused.
-- Add graduate, 4+1, and PhD program data when ready.
+- Add 4+1 program data when ready.

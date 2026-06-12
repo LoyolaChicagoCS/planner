@@ -6,7 +6,7 @@ This repository is a Vite + React app for Loyola University Chicago Computer Sci
 
 https://advising.cs.luc.edu/
 
-Students select a BS program or minor and then use swipeable tabs to review courses, roadmaps, checklist items, Core courses where applicable, and an audit-style credit summary. The app is intentionally client-only: it has no backend, no user accounts, and no analytics or personal-data collection.
+Students select a BS, MS, or PhD program (or minor) and then use swipeable tabs to review courses, roadmaps, checklist items, Core courses where applicable, and an audit-style credit summary. The app is intentionally client-only: it has no backend, no user accounts, and no analytics or personal-data collection.
 
 ## Tech Stack
 
@@ -54,7 +54,7 @@ The home-screen version pill is injected by `vite.config.js` from the latest Git
 - `src/components/CorePlanner.tsx` shows catalog-derived University Core course choices for programs with Core requirements.
 - `src/components/SearchBox.tsx` provides the shared per-tab search input.
 - `src/components/Roadmap.tsx` shows the semester-by-semester plan.
-- `src/components/Checklist.tsx` shows remaining requirements, AP/transfer items, and optional courses.
+- `src/components/Checklist.tsx` shows remaining requirements, AP/transfer items, optional courses, and doctoral milestones for PhD programs.
 - `src/components/Audit.tsx` shows category-level credit progress.
 - `src/components/Footer.tsx` contains the privacy disclosure.
 - `src/types.ts` defines shared program, course, Core, roadmap, and progress types.
@@ -76,7 +76,9 @@ Program data lives in `src/data/*.json`. Each program object should keep this sh
 - `totalCredits`
 - `majorCredits` for BS major requirement totals where applicable
 - `minorCredits` for minor completion totals where applicable
-- `kind` where needed, such as `minor`
+- `mastersCredits` for MS required-coursework totals (excluding foundation credits that may be waived)
+- `phdCredits` for PhD required-coursework totals (excluding dissertation credits)
+- `kind` where needed, such as `minor`, `masters`, or `phd`
 - `hasCompletionEstimate` where needed
 - `catalogUrl` where useful for traceability
 - `courses`
@@ -89,7 +91,7 @@ IDs are the app's stable persistence contract. Completion state is stored as a s
 
 Progress IDs must not contain dots or whitespace. Share links use a dot-delimited `?d=` value, and `src/utils/shareLink.ts` validates this rule. Keep IDs URL-friendly, preferably letters, numbers, `_`, and `-`. Old comma-delimited links are still decoded for backward compatibility.
 
-For BS programs, Loyola requires 120 credits to graduate, but catalog roadmaps may total 120 or 122 credits. Keep `totalCredits` aligned with the catalog roadmap/sample-plan total and use `majorCredits` for the major-only requirement total. For minors, `totalCredits` and `minorCredits` should reflect the credits required to complete the minor.
+For BS programs, Loyola requires 120 credits to graduate, but catalog roadmaps may total 120 or 122 credits. Keep `totalCredits` aligned with the catalog roadmap/sample-plan total and use `majorCredits` for the major-only requirement total. For minors, `totalCredits` and `minorCredits` should reflect the credits required to complete the minor. For MS programs, `totalCredits` is the full program credit count (including any foundation courses) and `mastersCredits` is the required-coursework subset used for the Graduate Credits progress bar. For the PhD program, `totalCredits` is 60 and `phdCredits` is 39 (coursework only, excluding 21 dissertation credits); set `hasCompletionEstimate: false` since doctoral timelines are not estimable by credit count.
 
 Some concrete courses appear in multiple requirement sections. Shared completion should be based on course identity (`code` + `title`) through `src/utils/progress.ts`, while total audit/checklist/header credits should count each distinct completed course only once.
 
@@ -97,7 +99,9 @@ When one requirement can be satisfied by any one of several courses, give each c
 
 Roadmap items normally refer to course or core IDs through `ref`. Elective roadmap placeholders may use labels and `isElective: true`. Be careful not to conflate fixed course IDs with elective option IDs; some course-like options intentionally have separate IDs.
 
-Optional CS courses are shared from `src/data/optional.json` and are shown for awareness, Writing Intensive, or Core eligibility. They are not counted toward the 120-credit graduation total in the audit.
+Doctoral milestone checklist items use `category: 'milestone'` and `credits: 0`. They are rendered as a separate "Doctoral Milestones" section in the Checklist tab and are tracked by ID in the shared progress set like any other item. They are only shown when `program.kind === 'phd'`.
+
+Optional CS courses are shared from `src/data/optional.json` and are shown for awareness, Writing Intensive, or Core eligibility. They are not counted toward the 120-credit graduation total in the audit. Optional courses are suppressed for `kind === 'masters'` and `kind === 'phd'` programs.
 
 University Core course inventory is cached in `src/data/coreCourses.json` and is generated by `node scripts/fetch-core-courses.mjs`. Core analysis artifacts are generated by `python3 scripts/write-core-analysis.py`, which writes `CORE-ANALYSIS.md`, `CORE-ANALYSIS.html`, and cached SVG/PNG charts in `docs/core-charts/`. Do not fetch Core catalog data at runtime.
 
@@ -152,3 +156,4 @@ Do not change Vite `base` back to `/planner/` unless the app is moved off the cu
 
 - `src/App.css` appears to be leftover template CSS and is not imported by `src/main.tsx`.
 - Continue consolidating credit-counting behavior into shared utilities when changing progress calculations.
+- The `kind` field in `types.ts` is typed as `string` (open union). Consider tightening to a literal union (`'minor' | 'masters' | 'phd' | 'interdisciplinary'`) once all program kinds are stable.

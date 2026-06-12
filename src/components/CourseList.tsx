@@ -41,7 +41,7 @@ export default function CourseList({ program, completed, isCompleted, getRequire
   return (
     <div className="flex flex-col gap-6 px-4 py-6 pb-24">
       <SearchBox value={query} onChange={setQuery} placeholder="Search courses and requirements" />
-      <Section title={isMinor ? 'Minor Requirements' : 'Major Requirements'} courses={majorCourses} getRequirementStatus={getRequirementStatus} toggleItem={toggleItem} />
+      <Section title={isMinor ? 'Minor Requirements' : program.kind === 'masters' ? 'Foundational Requirements' : program.kind === 'phd' ? 'Doctoral Required Courses' : 'Major Requirements'} courses={majorCourses} getRequirementStatus={getRequirementStatus} toggleItem={toggleItem} />
       <Section title={isMinor ? 'Minor Options' : 'Electives & Capstone'} courses={electiveCourses} getRequirementStatus={getRequirementStatus} toggleItem={toggleItem} />
       <ElectiveInfo program={program} search={search} isCompleted={isCompleted} toggleItem={toggleItem} />
       {!isMinor && (
@@ -132,17 +132,18 @@ function CourseRow({ course, getRequirementStatus, toggleItem }: { course: Cours
  * section with checkable course rows and a live credit progress bar.
  */
 function ElectiveInfo({ program, search, isCompleted, toggleItem }: { program: Program; search: string; isCompleted: IsCompleted; toggleItem: ToggleItem }) {
-  const { restricted, practicum, free } = program.electiveOptions ?? {};
   const isMinor = program.kind === 'minor';
-  const groups = [restricted, practicum, free].filter(group =>
-    group && ((group.courses ?? []).length > 0 || group.creditsRequired > 0)
+  const isMasters = program.kind === 'masters';
+  const isPhd = program.kind === 'phd';
+  const groups = Object.values(program.electiveOptions ?? {}).filter(group =>
+    (group.courses ?? []).length > 0 || group.creditsRequired > 0
   );
   if (!groups.length) return null;
 
   return (
     <div>
       <h2 className="text-xs font-semibold uppercase tracking-widest text-gray-400 mb-3">
-        {isMinor ? 'Minor Course Selections' : 'Elective Requirements'}
+        {isMinor ? 'Minor Course Selections' : isMasters ? 'Concentrations & Electives' : isPhd ? 'Qualifying & Dissertation Research' : 'Elective Requirements'}
       </h2>
       <div className="flex flex-col gap-4">
         {groups.map(group => (

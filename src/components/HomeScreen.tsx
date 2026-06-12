@@ -27,6 +27,12 @@ const PROGRAM_COLORS = {
   'ai-minor': 'from-maroon-600 to-maroon-800',
   'ai-human-flourishing-minor': 'from-maroon-600 to-maroon-800',
   'business-ai-minor': 'from-maroon-500 to-gold-700',
+  'ms-cs':            'from-maroon-700 to-maroon-900',
+  'ms-it':            'from-gold-500 to-maroon-700',
+  'ms-cybersecurity': 'from-maroon-600 to-maroon-900',
+  'ms-se':            'from-gold-400 to-maroon-600',
+  'ms-ds':            'from-maroon-500 to-gold-700',
+  'phd-cs':           'from-maroon-900 to-gray-900',
 };
 
 const PROGRAM_ICONS = {
@@ -42,6 +48,12 @@ const PROGRAM_ICONS = {
   'ai-minor': '🤖',
   'ai-human-flourishing-minor': '🧠',
   'business-ai-minor': '💼',
+  'ms-cs':            '🎓',
+  'ms-it':            '🌐',
+  'ms-cybersecurity': '🔒',
+  'ms-se':            '🛠️',
+  'ms-ds':            '📊',
+  'phd-cs':           '🔬',
 };
 
 const REPOSITORY_URL = 'https://github.com/LoyolaChicagoCS/planner';
@@ -69,6 +81,7 @@ export default function HomeScreen({ programs, onSelect }: HomeScreenProps) {
     programs.filter(program => program.kind === 'interdisciplinary')
   );
   const minors = sortByProgramName(programs.filter(program => program.kind === 'minor'));
+  const graduatePrograms = sortByProgramName(programs.filter(program => program.kind === 'masters' || program.kind === 'phd'));
   const handleProgramListScroll = (scrollTop: number) => {
     const shouldHideHeader = scrollTop > 0;
     setIsHeaderHidden(previous => previous === shouldHideHeader ? previous : shouldHideHeader);
@@ -112,7 +125,7 @@ export default function HomeScreen({ programs, onSelect }: HomeScreenProps) {
             </div>
           </div>
           <p className="text-maroon-100 mt-2 text-sm leading-relaxed">
-            Track progress toward Loyola CS degrees, interdisciplinary majors, and minors, then bring your checklist to advising conversations.
+            Track progress toward Loyola CS degrees, interdisciplinary majors, minors, and graduate programs, then bring your checklist to advising conversations.
           </p>
         </div>
       </div>
@@ -125,6 +138,7 @@ export default function HomeScreen({ programs, onSelect }: HomeScreenProps) {
         <ProgramGroup title="Departmental Degree Programs" programs={departmentalDegrees} onSelect={onSelect} />
         <ProgramGroup title="Interdisciplinary Majors" programs={interdisciplinaryMajors} onSelect={onSelect} />
         <ProgramGroup title="Minors" programs={minors} onSelect={onSelect} />
+        <ProgramGroup title="Graduate Programs" programs={graduatePrograms} onSelect={onSelect} />
       </div>
       <Footer />
     </div>
@@ -159,11 +173,18 @@ function ProgramGroup({ title, programs, onSelect }: ProgramGroupProps) {
           <div className="text-sm opacity-80 mt-1">
             {program.degree} &middot; {program.kind === 'minor'
               ? `${program.minorCredits ?? program.totalCredits} minor credits`
+              : program.kind === 'masters'
+              ? `30–${program.totalCredits} program credits`
               : `${program.totalCredits} roadmap credits`}
           </div>
-          {program.majorCredits && (
+          {program.majorCredits && program.kind !== 'masters' && (
             <div className="text-xs opacity-75 mt-0.5">
               {program.majorCredits} major credits
+            </div>
+          )}
+          {program.mastersCredits && program.kind === 'masters' && (
+            <div className="text-xs opacity-75 mt-0.5">
+              {program.mastersCredits} required credits
             </div>
           )}
         </button>

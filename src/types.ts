@@ -73,6 +73,8 @@ export interface Program {
   totalCredits: number;
   majorCredits?: number;
   minorCredits?: number;
+  mastersCredits?: number;
+  phdCredits?: number;
   hasCompletionEstimate?: boolean;
   catalogUrl?: string;
   courses?: Course[];

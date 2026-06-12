@@ -186,6 +186,8 @@ export function calcProgramRequirementDoneCredits(
 
 export function calcProgramRequirementCreditGoal(program: Program): number {
   if (program.kind === 'minor') return program.minorCredits ?? program.totalCredits;
+  if (program.kind === 'masters') return program.mastersCredits ?? program.totalCredits;
+  if (program.kind === 'phd') return program.phdCredits ?? program.totalCredits;
   if (program.majorCredits) return program.majorCredits;
 
   const requiredCourseCredits = calcRequiredCredits(program.courses ?? []);

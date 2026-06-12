@@ -71,7 +71,7 @@ export default function Audit({ program, completed, toggle, isCompleted, isRequi
   const [query, setQuery] = useState('');
   const search = normalizeSearch(query);
   const totalDone     = calcDistinctDoneCredits(program, completed);
-  const totalRequired = program.kind === 'minor' ? program.totalCredits : 120;
+  const totalRequired = program.kind === 'minor' || program.kind === 'masters' || program.kind === 'phd' ? program.totalCredits : 120;
   const remaining     = Math.max(0, totalRequired - totalDone);
   const pct           = Math.min(100, Math.round((totalDone / totalRequired) * 100));
   const requirementDone = calcProgramRequirementDoneCredits(program, isRequirementSatisfied);
@@ -80,7 +80,7 @@ export default function Audit({ program, completed, toggle, isCompleted, isRequi
   const requirementPct = requirementRequired > 0
     ? Math.min(100, Math.round((requirementDone / requirementRequired) * 100))
     : 0;
-  const requirementLabel = program.kind === 'minor' ? 'Minor Credits' : 'Major Credits';
+  const requirementLabel = program.kind === 'minor' ? 'Minor Credits' : program.kind === 'masters' ? 'Graduate Credits' : program.kind === 'phd' ? 'Doctoral Credits' : 'Major Credits';
 
   return (
     <div className="flex flex-col gap-5 px-4 py-6 pb-24">
@@ -101,14 +101,14 @@ export default function Audit({ program, completed, toggle, isCompleted, isRequi
           done={requirementDone}
           required={requirementRequired}
           remaining={requirementRemaining}
-          remainingLabel={program.kind === 'minor' ? 'minor credits remaining' : 'major credits remaining'}
+          remainingLabel={program.kind === 'minor' ? 'minor credits remaining' : program.kind === 'masters' ? 'graduate credits remaining' : program.kind === 'phd' ? 'doctoral credits remaining' : 'major credits remaining'}
           pct={requirementPct}
         />
       </div>
 
       {/* Major required courses */}
       <AuditCategory
-        title={program.kind === 'minor' ? 'Minor Requirements' : 'Major Required Courses'}
+        title={program.kind === 'minor' ? 'Minor Requirements' : program.kind === 'masters' ? 'Foundation & Required Courses' : program.kind === 'phd' ? 'Doctoral Required Courses' : 'Major Required Courses'}
         items={(program.courses ?? []).map(c => ({
           ...c,
           id: c.id,
@@ -163,8 +163,8 @@ export default function Audit({ program, completed, toggle, isCompleted, isRequi
         toggleItem={toggleItem}
       />
 
-      {/* Optional CS courses — shown for awareness, not counted toward 120 */}
-      <OptionalAuditSection search={search} completed={completed} toggle={toggle} />
+      {/* Optional CS courses — shown for awareness, not counted toward 120; not relevant for graduate programs */}
+      {program.kind !== 'masters' && program.kind !== 'phd' && <OptionalAuditSection search={search} completed={completed} toggle={toggle} />}
 
     </div>
   );

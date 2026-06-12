@@ -55,9 +55,13 @@ export default function ProgramScreen({ program, completed, toggle, clear, onBac
   const hasCoreTab = (program.coreRequirements ?? []).length > 0;
   const tabs = hasCoreTab ? ['Courses', 'Core', 'Roadmap', 'Checklist', 'Audit'] : ['Courses', 'Roadmap', 'Checklist', 'Audit'];
   const coreTabIndex = hasCoreTab ? 1 : -1;
-  const creditGoal = program.kind === 'minor' ? program.totalCredits : 120;
+  const creditGoal = program.kind === 'minor' || program.kind === 'masters' || program.kind === 'phd' ? program.totalCredits : 120;
   const requirementCreditLabel = program.kind === 'minor'
     ? `${program.minorCredits ?? program.totalCredits} minor credits`
+    : program.kind === 'masters'
+    ? `${program.totalCredits} program credits`
+    : program.kind === 'phd'
+    ? `${program.totalCredits} program credits`
     : `${program.totalCredits} roadmap credits`;
   const { isCompleted, isRequirementSatisfied, getRequirementStatus, toggleItem } =
     createProgressHelpers(program, completed, toggle);
@@ -66,7 +70,7 @@ export default function ProgramScreen({ program, completed, toggle, clear, onBac
   const requirementCreditGoal = calcProgramRequirementCreditGoal(program);
   const requirementDoneCredits = calcProgramRequirementDoneCredits(program, isRequirementSatisfied);
   const requirementPct = percentComplete(requirementDoneCredits, requirementCreditGoal);
-  const requirementProgressLabel = program.kind === 'minor' ? 'Minor' : 'Major';
+  const requirementProgressLabel = program.kind === 'minor' ? 'Minor' : program.kind === 'masters' ? 'Graduate' : program.kind === 'phd' ? 'Doctoral' : 'Major';
 
   function goToTab(index: number): void {
     swiperRef.current?.slideTo(index);
@@ -183,7 +187,9 @@ export default function ProgramScreen({ program, completed, toggle, clear, onBac
         <div className="mt-1 pl-10 pr-1">
           <p className="text-xs leading-snug text-gray-400">
             {program.degree} · {requirementCreditLabel}
-            {program.majorCredits && <span> · {program.majorCredits} major credits</span>}
+            {program.majorCredits && program.kind !== 'masters' && program.kind !== 'phd' && <span> · {program.majorCredits} major credits</span>}
+            {program.mastersCredits && program.kind === 'masters' && <span> · {program.mastersCredits} required credits</span>}
+            {program.phdCredits && program.kind === 'phd' && <span> · {program.phdCredits} required credits</span>}
           </p>
         </div>
       </div>
