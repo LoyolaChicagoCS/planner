@@ -136,9 +136,9 @@ export default function HomeScreen({ programs, onSelect }: HomeScreenProps) {
         onScroll={event => handleProgramListScroll(event.currentTarget.scrollTop)}
         className="flex-1 overflow-y-auto px-4 pt-5 pb-8 space-y-4"
       >
-        <ProgramGroup title="Departmental Degree Programs" programs={departmentalDegrees} onSelect={onSelect} />
+        <ProgramGroup title="Undergraduate Degree Programs" programs={departmentalDegrees} onSelect={onSelect} />
         <ProgramGroup title="Interdisciplinary Majors" programs={interdisciplinaryMajors} onSelect={onSelect} />
-        <ProgramGroup title="Minors" programs={minors} onSelect={onSelect} />
+        <ProgramGroup title="Undergraduate Minors" programs={minors} onSelect={onSelect} />
         <ProgramGroup title="Doctoral Program" programs={doctoralPrograms} onSelect={onSelect} />
         <ProgramGroup title="Master's Programs" programs={mastersPrograms} onSelect={onSelect} />
       </div>
