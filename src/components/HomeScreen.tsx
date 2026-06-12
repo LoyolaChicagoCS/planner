@@ -79,7 +79,6 @@ const sortByProgramName = (programs: Program[]) =>
   [...programs].sort((first, second) => first.name.localeCompare(second.name));
 
 export default function HomeScreen({ programs, onSelect }: HomeScreenProps) {
-  const [isHeaderHidden, setIsHeaderHidden] = useState(false);
   const [activeTab, setActiveTab] = useState<TabKey>('majors');
 
   const departmentalDegrees = sortByProgramName(
@@ -100,32 +99,10 @@ export default function HomeScreen({ programs, onSelect }: HomeScreenProps) {
     doctoral:         doctoralPrograms,
   };
 
-  const handleProgramListScroll = (scrollTop: number) => {
-    // Use a small hysteresis band to avoid the header toggling in a loop:
-    // hide once the user scrolls down ≥ 30 px, but only re-show when they
-    // return all the way to the top (scrollTop === 0).  This prevents the
-    // header collapse/expand from changing the container height and immediately
-    // resetting scrollTop, which would cause the header to flicker back open.
-    setIsHeaderHidden(previous => {
-      if (!previous && scrollTop >= 30) return true;   // hide
-      if (previous && scrollTop === 0) return false;   // show
-      return previous;                                  // no change
-    });
-  };
-
-  // Reset scroll-to-top and show header when switching tabs
-  function handleTabChange(key: TabKey) {
-    setActiveTab(key);
-    setIsHeaderHidden(false);
-  }
-
   return (
     <div className="flex flex-col h-full bg-gray-50">
       {/* Header — LUC maroon bar */}
-      <div
-        className={`overflow-hidden bg-maroon-500 transition-all duration-300 ease-out flex-shrink-0
-          ${isHeaderHidden ? 'max-h-0 opacity-0' : 'max-h-56 opacity-100'}`}
-      >
+      <div className="bg-maroon-500 flex-shrink-0">
         <div className="px-6 pt-12 pb-6">
           <div className="flex flex-wrap items-center gap-x-3 gap-y-2">
             <div className="flex min-w-0 flex-1 items-center gap-3">
@@ -167,7 +144,7 @@ export default function HomeScreen({ programs, onSelect }: HomeScreenProps) {
         {TABS.map(tab => (
           <button
             key={tab.key}
-            onClick={() => handleTabChange(tab.key)}
+            onClick={() => setActiveTab(tab.key)}
             className={`
               flex-1 py-2.5 text-xs font-semibold transition-colors
               ${activeTab === tab.key
@@ -183,7 +160,6 @@ export default function HomeScreen({ programs, onSelect }: HomeScreenProps) {
       {/* Program cards */}
       <div
         key={activeTab}
-        onScroll={event => handleProgramListScroll(event.currentTarget.scrollTop)}
         className="flex-1 overflow-y-auto px-4 pt-5 pb-8 space-y-3"
       >
         {tabPrograms[activeTab].map(program => (
