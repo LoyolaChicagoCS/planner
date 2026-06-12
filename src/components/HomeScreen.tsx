@@ -58,13 +58,19 @@ const PROGRAM_ICONS = {
 
 const REPOSITORY_URL = 'https://github.com/LoyolaChicagoCS/planner';
 
+type TabKey = 'majors' | 'interdisciplinary' | 'minors' | 'masters' | 'doctoral';
+
+const TABS: { key: TabKey; label: string }[] = [
+  { key: 'majors',           label: 'Majors' },
+  { key: 'interdisciplinary', label: 'Interdisciplinary' },
+  { key: 'minors',           label: 'Minors' },
+  { key: 'masters',          label: 'Masters' },
+  { key: 'doctoral',         label: 'Doctoral' },
+];
+
 interface HomeScreenProps {
   programs: Program[];
   onSelect: (program: Program) => void;
-}
-
-interface ProgramGroupProps extends HomeScreenProps {
-  title: string;
 }
 
 const PROGRAM_COLOR_BY_ID: Record<string, string> = PROGRAM_COLORS;
@@ -74,6 +80,8 @@ const sortByProgramName = (programs: Program[]) =>
 
 export default function HomeScreen({ programs, onSelect }: HomeScreenProps) {
   const [isHeaderHidden, setIsHeaderHidden] = useState(false);
+  const [activeTab, setActiveTab] = useState<TabKey>('majors');
+
   const departmentalDegrees = sortByProgramName(
     programs.filter(program => ['cs', 'se', 'it', 'cybersecurity'].includes(program.id))
   );
@@ -83,16 +91,31 @@ export default function HomeScreen({ programs, onSelect }: HomeScreenProps) {
   const minors = sortByProgramName(programs.filter(program => program.kind === 'minor'));
   const mastersPrograms = sortByProgramName(programs.filter(program => program.kind === 'masters'));
   const doctoralPrograms = sortByProgramName(programs.filter(program => program.kind === 'phd'));
+
+  const tabPrograms: Record<TabKey, Program[]> = {
+    majors:           departmentalDegrees,
+    interdisciplinary: interdisciplinaryMajors,
+    minors:           minors,
+    masters:          mastersPrograms,
+    doctoral:         doctoralPrograms,
+  };
+
   const handleProgramListScroll = (scrollTop: number) => {
     const shouldHideHeader = scrollTop > 0;
     setIsHeaderHidden(previous => previous === shouldHideHeader ? previous : shouldHideHeader);
   };
 
+  // Reset scroll-to-top and show header when switching tabs
+  function handleTabChange(key: TabKey) {
+    setActiveTab(key);
+    setIsHeaderHidden(false);
+  }
+
   return (
-    <div className="flex flex-col h-full bg-gray-50 overflow-y-auto">
+    <div className="flex flex-col h-full bg-gray-50">
       {/* Header — LUC maroon bar */}
       <div
-        className={`overflow-hidden bg-maroon-500 transition-all duration-300 ease-out
+        className={`overflow-hidden bg-maroon-500 transition-all duration-300 ease-out flex-shrink-0
           ${isHeaderHidden ? 'max-h-0 opacity-0' : 'max-h-56 opacity-100'}`}
       >
         <div className="px-6 pt-12 pb-6">
@@ -131,66 +154,75 @@ export default function HomeScreen({ programs, onSelect }: HomeScreenProps) {
         </div>
       </div>
 
+      {/* Tab bar */}
+      <div className="flex bg-white border-b border-gray-200 flex-shrink-0">
+        {TABS.map(tab => (
+          <button
+            key={tab.key}
+            onClick={() => handleTabChange(tab.key)}
+            className={`
+              flex-1 py-2.5 text-xs font-semibold transition-colors
+              ${activeTab === tab.key
+                ? 'text-maroon-600 border-b-2 border-maroon-600'
+                : 'text-gray-400 border-b-2 border-transparent'}
+            `}
+          >
+            {tab.label}
+          </button>
+        ))}
+      </div>
+
       {/* Program cards */}
       <div
+        key={activeTab}
         onScroll={event => handleProgramListScroll(event.currentTarget.scrollTop)}
-        className="flex-1 overflow-y-auto px-4 pt-5 pb-8 space-y-4"
+        className="flex-1 overflow-y-auto px-4 pt-5 pb-8 space-y-3"
       >
-        <ProgramGroup title="Undergraduate Degree Programs" programs={departmentalDegrees} onSelect={onSelect} />
-        <ProgramGroup title="Undergraduate Interdisciplinary Majors" programs={interdisciplinaryMajors} onSelect={onSelect} />
-        <ProgramGroup title="Undergraduate Minors" programs={minors} onSelect={onSelect} />
-        <ProgramGroup title="Doctoral Program" programs={doctoralPrograms} onSelect={onSelect} />
-        <ProgramGroup title="Master's Programs" programs={mastersPrograms} onSelect={onSelect} />
+        {tabPrograms[activeTab].map(program => (
+          <ProgramCard key={program.id} program={program} onSelect={onSelect} />
+        ))}
       </div>
       <Footer />
     </div>
   );
 }
 
-function ProgramGroup({ title, programs, onSelect }: ProgramGroupProps) {
-  if (!programs.length) return null;
-
+function ProgramCard({ program, onSelect }: { program: Program; onSelect: (p: Program) => void }) {
   return (
-    <section className="space-y-3">
-      <h2 className="px-1 text-xs font-semibold uppercase tracking-widest text-gray-400">{title}</h2>
-      {programs.map(program => (
-        <button
-          key={program.id}
-          onClick={() => onSelect(program)}
-          className={`
-            w-full text-left rounded-2xl shadow-md
-            bg-gradient-to-br ${PROGRAM_COLOR_BY_ID[program.id] ?? 'from-maroon-500 to-maroon-700'}
-            text-white active:scale-95 transition-transform
-            ${program.kind === 'minor' ? 'p-5' : 'p-4'}
-          `}
-        >
-          <div className={`flex items-center gap-3 ${program.kind === 'minor' ? 'mb-2' : ''}`}>
-            <div className={`${program.kind === 'minor' ? 'text-3xl' : 'text-2xl'} flex-shrink-0`}>
-              {PROGRAM_ICON_BY_ID[program.id] ?? '🎓'}
-            </div>
-            <div className={`${program.kind === 'minor' ? 'text-lg' : 'text-xl'} font-bold leading-tight`}>
-              {program.name}
-            </div>
-          </div>
-          <div className="text-sm opacity-80 mt-1">
-            {program.degree} &middot; {program.kind === 'minor'
-              ? `${program.minorCredits ?? program.totalCredits} minor credits`
-              : program.kind === 'masters'
-              ? `30–${program.totalCredits} program credits`
-              : `${program.totalCredits} roadmap credits`}
-          </div>
-          {program.majorCredits && program.kind !== 'masters' && (
-            <div className="text-xs opacity-75 mt-0.5">
-              {program.majorCredits} major credits
-            </div>
-          )}
-          {program.mastersCredits && program.kind === 'masters' && (
-            <div className="text-xs opacity-75 mt-0.5">
-              {program.mastersCredits} required credits
-            </div>
-          )}
-        </button>
-      ))}
-    </section>
+    <button
+      onClick={() => onSelect(program)}
+      className={`
+        w-full text-left rounded-2xl shadow-md
+        bg-gradient-to-br ${PROGRAM_COLOR_BY_ID[program.id] ?? 'from-maroon-500 to-maroon-700'}
+        text-white active:scale-95 transition-transform
+        ${program.kind === 'minor' ? 'p-5' : 'p-4'}
+      `}
+    >
+      <div className={`flex items-center gap-3 ${program.kind === 'minor' ? 'mb-2' : ''}`}>
+        <div className={`${program.kind === 'minor' ? 'text-3xl' : 'text-2xl'} flex-shrink-0`}>
+          {PROGRAM_ICON_BY_ID[program.id] ?? '🎓'}
+        </div>
+        <div className={`${program.kind === 'minor' ? 'text-lg' : 'text-xl'} font-bold leading-tight`}>
+          {program.name}
+        </div>
+      </div>
+      <div className="text-sm opacity-80 mt-1">
+        {program.degree} &middot; {program.kind === 'minor'
+          ? `${program.minorCredits ?? program.totalCredits} minor credits`
+          : program.kind === 'masters'
+          ? `30–${program.totalCredits} program credits`
+          : `${program.totalCredits} roadmap credits`}
+      </div>
+      {program.majorCredits && program.kind !== 'masters' && (
+        <div className="text-xs opacity-75 mt-0.5">
+          {program.majorCredits} major credits
+        </div>
+      )}
+      {program.mastersCredits && program.kind === 'masters' && (
+        <div className="text-xs opacity-75 mt-0.5">
+          {program.mastersCredits} required credits
+        </div>
+      )}
+    </button>
   );
 }
