@@ -1,4 +1,4 @@
-# Loyola CS Advising Checklist
+# Loyola CS Academic Checklist
 
 Mobile-first advising checklist for Loyola University Chicago Computer Science degree and minor planning — undergraduate, graduate, and doctoral.
 
@@ -176,7 +176,7 @@ If Loyola changes Core Area names, requirement structure, catalog URLs, or requi
 
 ## Main Views
 
-The landing page groups supported programs into Departmental Degree Programs, Interdisciplinary Majors, Minors, and Graduate Programs. Programs are alphabetized within each group. The landing header includes the Loyola Ramblers SVG mark, the GitHub source link, and the build-time version pill. To preserve vertical space on mobile, the landing header collapses after the program list is scrolled and reappears when the list returns to the top.
+The landing page shows a fixed header ("Academic Checklist") with the Loyola Ramblers SVG mark and a build-time version pill. Below the header a tab bar organizes programs into five categories: Majors, Interdisciplinary, Minors, Masters, and Doctoral. Selecting a tab shows only the cards for that category; programs within a tab are alphabetized.
 
 Each selected program has up to five swipeable tabs:
 
@@ -245,8 +245,8 @@ If no tag exists in a local checkout, Vite falls back to the version in `package
 For releases, keep `package.json` and `package-lock.json` on semver, then create and push a matching Git tag, for example:
 
 ```bash
-git tag v0.9
-git push origin v0.9
+git tag v1.0
+git push origin v1.0
 ```
 
 ## Deployment
