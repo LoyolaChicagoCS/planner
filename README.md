@@ -242,12 +242,25 @@ git describe --tags --abbrev=0
 
 If no tag exists in a local checkout, Vite falls back to the version in `package.json` and displays it in compact form, such as `v0.9` for package version `0.9.0`.
 
-For releases, keep `package.json` and `package-lock.json` on semver, then create and push a matching Git tag, for example:
+For releases, keep `package.json` and `package-lock.json` on semver, then follow this order exactly — the tag must exist on the remote before the deploy build runs:
 
 ```bash
-git tag v1.0
-git push origin v1.0
+# 1. Bump the version
+npm version 1.1.0 --no-git-tag-version
+
+# 2. Commit the version bump
+git add package.json package-lock.json
+git commit -m "Release v1.1.0"
+
+# 3. Tag and push the tag first
+git tag v1.1
+git push origin v1.1
+
+# 4. Push main — this triggers the deploy, which reads the tag
+git push
 ```
+
+The Actions workflow only triggers on pushes to `main`, not on tag pushes. The tag is read by `git describe --tags --abbrev=0` at build time to populate the version pill. If you push to `main` before pushing the tag, the previous tag will appear in the pill. Push the tag first to avoid a retrigger commit.
 
 ## Deployment
 
