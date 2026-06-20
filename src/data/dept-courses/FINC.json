@@ -1,0 +1,297 @@
+{
+  "catalog": "2026-2027",
+  "code": "FINC",
+  "name": "Finance",
+  "sourceUrl": "https://catalog.luc.edu/course-descriptions/finc/",
+  "fetchedAt": "2026-06-20",
+  "courses": [
+    {
+      "id": "FINC215",
+      "code": "FINC 215",
+      "title": "Personal Finance",
+      "credits": 3
+    },
+    {
+      "id": "FINC301",
+      "code": "FINC 301",
+      "title": "Introductory Business Finance",
+      "credits": 3
+    },
+    {
+      "id": "FINC334",
+      "code": "FINC 334",
+      "title": "Principles of Corporate Finance",
+      "credits": 3
+    },
+    {
+      "id": "FINC334H",
+      "code": "FINC 334H",
+      "title": "Principles of Corporate Finance- Honors",
+      "credits": 3
+    },
+    {
+      "id": "FINC335",
+      "code": "FINC 335",
+      "title": "Investments",
+      "credits": 3
+    },
+    {
+      "id": "FINC336",
+      "code": "FINC 336",
+      "title": "Introduction to Derivatives",
+      "credits": 3
+    },
+    {
+      "id": "FINC337",
+      "code": "FINC 337",
+      "title": "Banking, Money & Capital Markets",
+      "credits": 3
+    },
+    {
+      "id": "FINC338",
+      "code": "FINC 338",
+      "title": "Risk Management and Insurance",
+      "credits": 3
+    },
+    {
+      "id": "FINC342",
+      "code": "FINC 342",
+      "title": "Advanced Business Finance",
+      "credits": 3
+    },
+    {
+      "id": "FINC345",
+      "code": "FINC 345",
+      "title": "Portfolio Management",
+      "credits": 3
+    },
+    {
+      "id": "FINC346",
+      "code": "FINC 346",
+      "title": "Introduction to Options",
+      "credits": 3
+    },
+    {
+      "id": "FINC347",
+      "code": "FINC 347",
+      "title": "Financial Institutions",
+      "credits": 3
+    },
+    {
+      "id": "FINC349",
+      "code": "FINC 349",
+      "title": "Real Estate Finance & Investments",
+      "credits": 3
+    },
+    {
+      "id": "FINC355",
+      "code": "FINC 355",
+      "title": "International Finance Management",
+      "credits": 3
+    },
+    {
+      "id": "FINC356",
+      "code": "FINC 356",
+      "title": "Advanced Topics in Investment Banking and Asset Management",
+      "credits": 3
+    },
+    {
+      "id": "FINC357",
+      "code": "FINC 357",
+      "title": "Cases in Corporate Finance",
+      "credits": 3
+    },
+    {
+      "id": "FINC358",
+      "code": "FINC 358",
+      "title": "Financial Analytics",
+      "credits": 3
+    },
+    {
+      "id": "FINC359",
+      "code": "FINC 359",
+      "title": "Introduction to Fintech",
+      "credits": 3
+    },
+    {
+      "id": "FINC365",
+      "code": "FINC 365",
+      "title": "Advanced International Financial Management",
+      "credits": 3
+    },
+    {
+      "id": "FINC395",
+      "code": "FINC 395",
+      "title": "Independent Study in Finance",
+      "credits": 1
+    },
+    {
+      "id": "FINC396",
+      "code": "FINC 396",
+      "title": "Speaker Series: Risk Management and Insurance",
+      "credits": 0
+    },
+    {
+      "id": "FINC399",
+      "code": "FINC 399",
+      "title": "Special Topics in Finance",
+      "credits": 1
+    },
+    {
+      "id": "FINC450",
+      "code": "FINC 450",
+      "title": "Financial Management",
+      "credits": 3
+    },
+    {
+      "id": "FINC450B",
+      "code": "FINC 450B",
+      "title": "Finance for a Sustainable World",
+      "credits": 3
+    },
+    {
+      "id": "FINC450C",
+      "code": "FINC 450C",
+      "title": "Financial Management",
+      "credits": 3
+    },
+    {
+      "id": "FINC450E",
+      "code": "FINC 450E",
+      "title": "Financial Management",
+      "credits": 3
+    },
+    {
+      "id": "FINC451",
+      "code": "FINC 451",
+      "title": "Financial Markets & Institutions",
+      "credits": 3
+    },
+    {
+      "id": "FINC452",
+      "code": "FINC 452",
+      "title": "Investment Management",
+      "credits": 3
+    },
+    {
+      "id": "FINC453",
+      "code": "FINC 453",
+      "title": "Topics in Advanced Financial Management",
+      "credits": 3
+    },
+    {
+      "id": "FINC455",
+      "code": "FINC 455",
+      "title": "International Financial Management",
+      "credits": 3
+    },
+    {
+      "id": "FINC455E",
+      "code": "FINC 455E",
+      "title": "International Financial Management",
+      "credits": 5
+    },
+    {
+      "id": "FINC456",
+      "code": "FINC 456",
+      "title": "Management of Financial Institutions",
+      "credits": 3
+    },
+    {
+      "id": "FINC459",
+      "code": "FINC 459",
+      "title": "Independent Study-Finance Management",
+      "credits": 3
+    },
+    {
+      "id": "FINC470N",
+      "code": "FINC 470N",
+      "title": "Business Finance",
+      "credits": 3
+    },
+    {
+      "id": "FINC552",
+      "code": "FINC 552",
+      "title": "Emerging Markets",
+      "credits": 3
+    },
+    {
+      "id": "FINC553",
+      "code": "FINC 553",
+      "title": "Applied Portfolio Management",
+      "credits": 3
+    },
+    {
+      "id": "FINC554",
+      "code": "FINC 554",
+      "title": "Fixed Income",
+      "credits": 3
+    },
+    {
+      "id": "FINC556",
+      "code": "FINC 556",
+      "title": "Investment Banking",
+      "credits": 3
+    },
+    {
+      "id": "FINC599",
+      "code": "FINC 599",
+      "title": "Special Topics",
+      "credits": 3
+    },
+    {
+      "id": "FINC602E",
+      "code": "FINC 602E",
+      "title": "International Financial Management",
+      "credits": 5
+    },
+    {
+      "id": "FINC620",
+      "code": "FINC 620",
+      "title": "Financial Mathematics and Modeling I",
+      "credits": 3
+    },
+    {
+      "id": "FINC621",
+      "code": "FINC 621",
+      "title": "Financial Mathematics and Modeling II",
+      "credits": 3
+    },
+    {
+      "id": "FINC622",
+      "code": "FINC 622",
+      "title": "Derivative Securities",
+      "credits": 3
+    },
+    {
+      "id": "FINC624",
+      "code": "FINC 624",
+      "title": "Interest Rate Risk Management",
+      "credits": 3
+    },
+    {
+      "id": "FINC625",
+      "code": "FINC 625",
+      "title": "Applied Econometrics",
+      "credits": 3
+    },
+    {
+      "id": "FINC626",
+      "code": "FINC 626",
+      "title": "Credit Risk Management and Structured Finance",
+      "credits": 3
+    },
+    {
+      "id": "FINC628",
+      "code": "FINC 628",
+      "title": "Valuation",
+      "credits": 3
+    },
+    {
+      "id": "FINC630",
+      "code": "FINC 630",
+      "title": "Capstone Master of Science Finance",
+      "credits": 3
+    }
+  ]
+}

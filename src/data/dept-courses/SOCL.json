@@ -1,0 +1,675 @@
+{
+  "catalog": "2026-2027",
+  "code": "SOCL",
+  "name": "Sociology",
+  "sourceUrl": "https://catalog.luc.edu/course-descriptions/socl/",
+  "fetchedAt": "2026-06-20",
+  "courses": [
+    {
+      "id": "SOCL101",
+      "code": "SOCL 101",
+      "title": "Society in a Global Age",
+      "credits": 3
+    },
+    {
+      "id": "SOCL121",
+      "code": "SOCL 121",
+      "title": "Social Problems",
+      "credits": 3
+    },
+    {
+      "id": "SOCL122",
+      "code": "SOCL 122",
+      "title": "Race and Ethnic Relations",
+      "credits": 3
+    },
+    {
+      "id": "SOCL123",
+      "code": "SOCL 123",
+      "title": "Mass Media and Popular Culture",
+      "credits": 3
+    },
+    {
+      "id": "SOCL125",
+      "code": "SOCL 125",
+      "title": "Chicago: Urban Metropolis",
+      "credits": 3
+    },
+    {
+      "id": "SOCL127",
+      "code": "SOCL 127",
+      "title": "Social Analysis and Social Action",
+      "credits": 3
+    },
+    {
+      "id": "SOCL145",
+      "code": "SOCL 145",
+      "title": "Religion & Society",
+      "credits": 3
+    },
+    {
+      "id": "SOCL171",
+      "code": "SOCL 171",
+      "title": "Sociology of Sex and Gender",
+      "credits": 3
+    },
+    {
+      "id": "SOCL205",
+      "code": "SOCL 205",
+      "title": "Sociological Thought",
+      "credits": 3
+    },
+    {
+      "id": "SOCL206",
+      "code": "SOCL 206",
+      "title": "Principles of Social Research",
+      "credits": 3
+    },
+    {
+      "id": "SOCL210",
+      "code": "SOCL 210",
+      "title": "Gender and Work",
+      "credits": 3
+    },
+    {
+      "id": "SOCL215",
+      "code": "SOCL 215",
+      "title": "Law & Society",
+      "credits": 3
+    },
+    {
+      "id": "SOCL216",
+      "code": "SOCL 216",
+      "title": "The Sociology of Violence",
+      "credits": 3
+    },
+    {
+      "id": "SOCL221",
+      "code": "SOCL 221",
+      "title": "Sociology and Culture of the Life Course",
+      "credits": 3
+    },
+    {
+      "id": "SOCL222",
+      "code": "SOCL 222",
+      "title": "Poverty & Welfare in America",
+      "credits": 3
+    },
+    {
+      "id": "SOCL225",
+      "code": "SOCL 225",
+      "title": "Sociology of Health Care",
+      "credits": 3
+    },
+    {
+      "id": "SOCL226",
+      "code": "SOCL 226",
+      "title": "Science, Technology, & Society",
+      "credits": 3
+    },
+    {
+      "id": "SOCL228",
+      "code": "SOCL 228",
+      "title": "Sociology of the African American Experience",
+      "credits": 3
+    },
+    {
+      "id": "SOCL230",
+      "code": "SOCL 230",
+      "title": "Self & Society",
+      "credits": 3
+    },
+    {
+      "id": "SOCL231",
+      "code": "SOCL 231",
+      "title": "Childhood and Society",
+      "credits": 3
+    },
+    {
+      "id": "SOCL234",
+      "code": "SOCL 234",
+      "title": "City, Suburbs & Beyond",
+      "credits": 3
+    },
+    {
+      "id": "SOCL235",
+      "code": "SOCL 235",
+      "title": "Communities in a Global Age",
+      "credits": 3
+    },
+    {
+      "id": "SOCL236",
+      "code": "SOCL 236",
+      "title": "Population Studies",
+      "credits": 3
+    },
+    {
+      "id": "SOCL237",
+      "code": "SOCL 237",
+      "title": "Professions and Society",
+      "credits": 3
+    },
+    {
+      "id": "SOCL239",
+      "code": "SOCL 239",
+      "title": "Understanding Bias and Inclusivity",
+      "credits": 3
+    },
+    {
+      "id": "SOCL240",
+      "code": "SOCL 240",
+      "title": "Families",
+      "credits": 3
+    },
+    {
+      "id": "SOCL245",
+      "code": "SOCL 245",
+      "title": "Sociology of Education",
+      "credits": 3
+    },
+    {
+      "id": "SOCL247",
+      "code": "SOCL 247",
+      "title": "Sociology of Culture",
+      "credits": 3
+    },
+    {
+      "id": "SOCL250",
+      "code": "SOCL 250",
+      "title": "Inequality in Society",
+      "credits": 3
+    },
+    {
+      "id": "SOCL252",
+      "code": "SOCL 252",
+      "title": "Global Inequalities",
+      "credits": 3
+    },
+    {
+      "id": "SOCL254",
+      "code": "SOCL 254",
+      "title": "Sociology of Migration",
+      "credits": 3
+    },
+    {
+      "id": "SOCL255",
+      "code": "SOCL 255",
+      "title": "Deviance and Social Control",
+      "credits": 3
+    },
+    {
+      "id": "SOCL258",
+      "code": "SOCL 258",
+      "title": "Confronting Homelessness: Local to Global",
+      "credits": 3
+    },
+    {
+      "id": "SOCL260",
+      "code": "SOCL 260",
+      "title": "Power in Society",
+      "credits": 3
+    },
+    {
+      "id": "SOCL261",
+      "code": "SOCL 261",
+      "title": "Social Movements & Social Change",
+      "credits": 3
+    },
+    {
+      "id": "SOCL265",
+      "code": "SOCL 265",
+      "title": "Globalization & Society",
+      "credits": 3
+    },
+    {
+      "id": "SOCL267",
+      "code": "SOCL 267",
+      "title": "Italy Today",
+      "credits": 3
+    },
+    {
+      "id": "SOCL272",
+      "code": "SOCL 272",
+      "title": "Environmental Sociology",
+      "credits": 3
+    },
+    {
+      "id": "SOCL276",
+      "code": "SOCL 276",
+      "title": "The Sociology and Politics of Food",
+      "credits": 3
+    },
+    {
+      "id": "SOCL278",
+      "code": "SOCL 278",
+      "title": "Global Health",
+      "credits": 3
+    },
+    {
+      "id": "SOCL280",
+      "code": "SOCL 280",
+      "title": "Topics in Contemporary Sociology",
+      "credits": 3
+    },
+    {
+      "id": "SOCL281",
+      "code": "SOCL 281",
+      "title": "Current Issues in Medical Education",
+      "credits": 1
+    },
+    {
+      "id": "SOCL301",
+      "code": "SOCL 301",
+      "title": "Statistics for Social Research",
+      "credits": 4
+    },
+    {
+      "id": "SOCL302",
+      "code": "SOCL 302",
+      "title": "Qualitative Research",
+      "credits": 3
+    },
+    {
+      "id": "SOCL304",
+      "code": "SOCL 304",
+      "title": "Global Civil Society and Social Movements",
+      "credits": 3
+    },
+    {
+      "id": "SOCL306",
+      "code": "SOCL 306",
+      "title": "International Development",
+      "credits": 3
+    },
+    {
+      "id": "SOCL311",
+      "code": "SOCL 311",
+      "title": "Social Science Research Practicum: Cook County Community Survey",
+      "credits": 3
+    },
+    {
+      "id": "SOCL334",
+      "code": "SOCL 334",
+      "title": "Latinas/os/xs in Space",
+      "credits": 3
+    },
+    {
+      "id": "SOCL335",
+      "code": "SOCL 335",
+      "title": "Urban Semester Seminar",
+      "credits": 3
+    },
+    {
+      "id": "SOCL365",
+      "code": "SOCL 365",
+      "title": "Social Theory & Social Research",
+      "credits": 3
+    },
+    {
+      "id": "SOCL370",
+      "code": "SOCL 370",
+      "title": "Undergrad Seminar-Special Topics",
+      "credits": 3
+    },
+    {
+      "id": "SOCL372",
+      "code": "SOCL 372",
+      "title": "Directed Readings",
+      "credits": 3
+    },
+    {
+      "id": "SOCL380",
+      "code": "SOCL 380",
+      "title": "Internship",
+      "credits": 3
+    },
+    {
+      "id": "SOCL397",
+      "code": "SOCL 397",
+      "title": "Independent Study Projects",
+      "credits": 3
+    },
+    {
+      "id": "SOCL398",
+      "code": "SOCL 398",
+      "title": "Independent Study Projects",
+      "credits": 1
+    },
+    {
+      "id": "SOCL399",
+      "code": "SOCL 399",
+      "title": "Independent Study Projects",
+      "credits": 3
+    },
+    {
+      "id": "SOCL403",
+      "code": "SOCL 403",
+      "title": "Sociological Perspectives I",
+      "credits": 3
+    },
+    {
+      "id": "SOCL404",
+      "code": "SOCL 404",
+      "title": "Sociological Perspectives II",
+      "credits": 3
+    },
+    {
+      "id": "SOCL405",
+      "code": "SOCL 405",
+      "title": "History Sociological Thought",
+      "credits": 3
+    },
+    {
+      "id": "SOCL406",
+      "code": "SOCL 406",
+      "title": "Modern Sociological Theory",
+      "credits": 3
+    },
+    {
+      "id": "SOCL410",
+      "code": "SOCL 410",
+      "title": "Logic of Sociological Inquiry",
+      "credits": 3
+    },
+    {
+      "id": "SOCL412",
+      "code": "SOCL 412",
+      "title": "Qualitative Methods in Social Research",
+      "credits": 3
+    },
+    {
+      "id": "SOCL413",
+      "code": "SOCL 413",
+      "title": "Sociological Practicum",
+      "credits": 3
+    },
+    {
+      "id": "SOCL414",
+      "code": "SOCL 414",
+      "title": "Statistical Methods Analysis I",
+      "credits": 3
+    },
+    {
+      "id": "SOCL415",
+      "code": "SOCL 415",
+      "title": "Statistical Methods of Analysis II",
+      "credits": 3
+    },
+    {
+      "id": "SOCL418",
+      "code": "SOCL 418",
+      "title": "Demography",
+      "credits": 3
+    },
+    {
+      "id": "SOCL421",
+      "code": "SOCL 421",
+      "title": "Theories Social Change",
+      "credits": 3
+    },
+    {
+      "id": "SOCL423",
+      "code": "SOCL 423",
+      "title": "Social Movements",
+      "credits": 3
+    },
+    {
+      "id": "SOCL425",
+      "code": "SOCL 425",
+      "title": "Inequality and Society",
+      "credits": 3
+    },
+    {
+      "id": "SOCL426",
+      "code": "SOCL 426",
+      "title": "Sociology of Gender",
+      "credits": 3
+    },
+    {
+      "id": "SOCL427",
+      "code": "SOCL 427",
+      "title": "Political Sociology",
+      "credits": 3
+    },
+    {
+      "id": "SOCL428",
+      "code": "SOCL 428",
+      "title": "Poverty and Social Welfare",
+      "credits": 3
+    },
+    {
+      "id": "SOCL431",
+      "code": "SOCL 431",
+      "title": "Social Structure and Personality",
+      "credits": 3
+    },
+    {
+      "id": "SOCL432",
+      "code": "SOCL 432",
+      "title": "Socialization Thru Life Cycle",
+      "credits": 3
+    },
+    {
+      "id": "SOCL435",
+      "code": "SOCL 435",
+      "title": "Adult Development and Aging",
+      "credits": 3
+    },
+    {
+      "id": "SOCL438",
+      "code": "SOCL 438",
+      "title": "The Family",
+      "credits": 3
+    },
+    {
+      "id": "SOCL439",
+      "code": "SOCL 439",
+      "title": "Community Change",
+      "credits": 3
+    },
+    {
+      "id": "SOCL440",
+      "code": "SOCL 440",
+      "title": "Organizations & Organizational Change",
+      "credits": 3
+    },
+    {
+      "id": "SOCL441",
+      "code": "SOCL 441",
+      "title": "Sociology of Religion",
+      "credits": 3
+    },
+    {
+      "id": "SOCL442",
+      "code": "SOCL 442",
+      "title": "Religious Conflict & Change",
+      "credits": 3
+    },
+    {
+      "id": "SOCL446",
+      "code": "SOCL 446",
+      "title": "Knowledge, Power & Expertise",
+      "credits": 3
+    },
+    {
+      "id": "SOCL447",
+      "code": "SOCL 447",
+      "title": "Sociology of Culture",
+      "credits": 3
+    },
+    {
+      "id": "SOCL448",
+      "code": "SOCL 448",
+      "title": "Technology & Material Culture",
+      "credits": 3
+    },
+    {
+      "id": "SOCL452",
+      "code": "SOCL 452",
+      "title": "Complex Organizations",
+      "credits": 3
+    },
+    {
+      "id": "SOCL453",
+      "code": "SOCL 453",
+      "title": "Occupations and Professions",
+      "credits": 3
+    },
+    {
+      "id": "SOCL461",
+      "code": "SOCL 461",
+      "title": "Race & Ethnicity",
+      "credits": 3
+    },
+    {
+      "id": "SOCL462",
+      "code": "SOCL 462",
+      "title": "The Urban Metropolis",
+      "credits": 3
+    },
+    {
+      "id": "SOCL463",
+      "code": "SOCL 463",
+      "title": "Sociology & Natural Environment",
+      "credits": 3
+    },
+    {
+      "id": "SOCL471",
+      "code": "SOCL 471",
+      "title": "Sociology of Deviance & Control",
+      "credits": 3
+    },
+    {
+      "id": "SOCL473",
+      "code": "SOCL 473",
+      "title": "Criminology",
+      "credits": 3
+    },
+    {
+      "id": "SOCL481",
+      "code": "SOCL 481",
+      "title": "Medical Sociology",
+      "credits": 3
+    },
+    {
+      "id": "SOCL482",
+      "code": "SOCL 482",
+      "title": "Education in Society",
+      "credits": 3
+    },
+    {
+      "id": "SOCL483",
+      "code": "SOCL 483",
+      "title": "Teaching Sociology",
+      "credits": 3
+    },
+    {
+      "id": "SOCL490",
+      "code": "SOCL 490",
+      "title": "Workshop: Applied Sociology",
+      "credits": 1
+    },
+    {
+      "id": "SOCL491",
+      "code": "SOCL 491",
+      "title": "Sociological Discourse",
+      "credits": 3
+    },
+    {
+      "id": "SOCL494",
+      "code": "SOCL 494",
+      "title": "Internship",
+      "credits": 3
+    },
+    {
+      "id": "SOCL497",
+      "code": "SOCL 497",
+      "title": "Independent Research",
+      "credits": 3
+    },
+    {
+      "id": "SOCL498",
+      "code": "SOCL 498",
+      "title": "Independent Research",
+      "credits": 1
+    },
+    {
+      "id": "SOCL499",
+      "code": "SOCL 499",
+      "title": "Directed Study",
+      "credits": 3
+    },
+    {
+      "id": "SOCL500",
+      "code": "SOCL 500",
+      "title": "Seminar-Applied Sociology & Social Policy",
+      "credits": 3
+    },
+    {
+      "id": "SOCL505",
+      "code": "SOCL 505",
+      "title": "Controversery Current Social Thought",
+      "credits": 3
+    },
+    {
+      "id": "SOCL510",
+      "code": "SOCL 510",
+      "title": "Research Special Areas",
+      "credits": 3
+    },
+    {
+      "id": "SOCL520",
+      "code": "SOCL 520",
+      "title": "Topics in Contemporary Society",
+      "credits": 3
+    },
+    {
+      "id": "SOCL525",
+      "code": "SOCL 525",
+      "title": "Seminar in Comparative Studies",
+      "credits": 3
+    },
+    {
+      "id": "SOCL540",
+      "code": "SOCL 540",
+      "title": "Issues: Sociology of Religion",
+      "credits": 3
+    },
+    {
+      "id": "SOCL560",
+      "code": "SOCL 560",
+      "title": "Seminar-Issues in Communities & Urban Sociology",
+      "credits": 3
+    },
+    {
+      "id": "SOCL580",
+      "code": "SOCL 580",
+      "title": "Seminar: Issues in Medical Sociology",
+      "credits": 3
+    },
+    {
+      "id": "SOCL595",
+      "code": "SOCL 595",
+      "title": "Thesis Supervision",
+      "credits": 0
+    },
+    {
+      "id": "SOCL600",
+      "code": "SOCL 600",
+      "title": "Dissertation Supervision",
+      "credits": 0
+    },
+    {
+      "id": "SOCL605",
+      "code": "SOCL 605",
+      "title": "Master's Study",
+      "credits": 0
+    },
+    {
+      "id": "SOCL610",
+      "code": "SOCL 610",
+      "title": "Doctoral Study",
+      "credits": 0
+    }
+  ]
+}

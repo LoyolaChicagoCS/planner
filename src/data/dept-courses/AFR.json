@@ -1,0 +1,27 @@
+{
+  "catalog": "2026-2027",
+  "code": "AFR",
+  "name": "African Studies",
+  "sourceUrl": "https://catalog.luc.edu/course-descriptions/afr/",
+  "fetchedAt": "2026-06-20",
+  "courses": [
+    {
+      "id": "AFR201",
+      "code": "AFR 201",
+      "title": "African Studies and the African Diaspora",
+      "credits": 3
+    },
+    {
+      "id": "AFR295",
+      "code": "AFR 295",
+      "title": "Directed Readings in Black World Studies",
+      "credits": 3
+    },
+    {
+      "id": "AFR397",
+      "code": "AFR 397",
+      "title": "Capstone/Internship",
+      "credits": 3
+    }
+  ]
+}

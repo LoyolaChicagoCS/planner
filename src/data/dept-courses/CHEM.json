@@ -1,0 +1,603 @@
+{
+  "catalog": "2026-2027",
+  "code": "CHEM",
+  "name": "Chemistry",
+  "sourceUrl": "https://catalog.luc.edu/course-descriptions/chem/",
+  "fetchedAt": "2026-06-20",
+  "courses": [
+    {
+      "id": "CHEM101",
+      "code": "CHEM 101",
+      "title": "General Chemistry A Lecture/Discussion",
+      "credits": 3
+    },
+    {
+      "id": "CHEM102",
+      "code": "CHEM 102",
+      "title": "General Chemistry B Lecture/Discussion",
+      "credits": 3
+    },
+    {
+      "id": "CHEM102D",
+      "code": "CHEM 102D",
+      "title": "General Chemistry B Discussion",
+      "credits": 0
+    },
+    {
+      "id": "CHEM105",
+      "code": "CHEM 105",
+      "title": "Chemical Principles",
+      "credits": 4
+    },
+    {
+      "id": "CHEM106",
+      "code": "CHEM 106",
+      "title": "Basic Inorganic Chemistry",
+      "credits": 4
+    },
+    {
+      "id": "CHEM111",
+      "code": "CHEM 111",
+      "title": "General Chemistry Lab A",
+      "credits": 1
+    },
+    {
+      "id": "CHEM112",
+      "code": "CHEM 112",
+      "title": "General Chemistry Lab B",
+      "credits": 1
+    },
+    {
+      "id": "CHEM160",
+      "code": "CHEM 160",
+      "title": "Chemical Structure and Properties",
+      "credits": 3
+    },
+    {
+      "id": "CHEM161",
+      "code": "CHEM 161",
+      "title": "Chemical Structure and Properties Laboratory",
+      "credits": 1
+    },
+    {
+      "id": "CHEM171",
+      "code": "CHEM 171",
+      "title": "General Chemistry for Engineering Science Majors",
+      "credits": 3
+    },
+    {
+      "id": "CHEM173",
+      "code": "CHEM 173",
+      "title": "General Chemistry Lab for Engineering Science Majors",
+      "credits": 1
+    },
+    {
+      "id": "CHEM180",
+      "code": "CHEM 180",
+      "title": "Chemical Reactivity I",
+      "credits": 3
+    },
+    {
+      "id": "CHEM181",
+      "code": "CHEM 181",
+      "title": "Chemical Reactivity I Lab",
+      "credits": 1
+    },
+    {
+      "id": "CHEM186",
+      "code": "CHEM 186",
+      "title": "Science and Culture of Food",
+      "credits": 3
+    },
+    {
+      "id": "CHEM195",
+      "code": "CHEM 195",
+      "title": "Foundational Concepts in Chemistry",
+      "credits": 1
+    },
+    {
+      "id": "CHEM212",
+      "code": "CHEM 212",
+      "title": "Quantitative Analysis Lecture",
+      "credits": 3
+    },
+    {
+      "id": "CHEM214",
+      "code": "CHEM 214",
+      "title": "Quantitative Analysis Laboratory",
+      "credits": 1
+    },
+    {
+      "id": "CHEM221",
+      "code": "CHEM 221",
+      "title": "Organic Chemistry I Lec/Disc",
+      "credits": 4
+    },
+    {
+      "id": "CHEM222",
+      "code": "CHEM 222",
+      "title": "Organic Chemistry II Lec/Disc",
+      "credits": 4
+    },
+    {
+      "id": "CHEM223",
+      "code": "CHEM 223",
+      "title": "Organic Chemistry A Lec/Disc",
+      "credits": 3
+    },
+    {
+      "id": "CHEM224",
+      "code": "CHEM 224",
+      "title": "Organic Chemistry B Lec/Disc",
+      "credits": 3
+    },
+    {
+      "id": "CHEM225",
+      "code": "CHEM 225",
+      "title": "Organic Chemistry Lab A",
+      "credits": 1
+    },
+    {
+      "id": "CHEM226",
+      "code": "CHEM 226",
+      "title": "Organic Chemistry Lab B",
+      "credits": 1
+    },
+    {
+      "id": "CHEM240",
+      "code": "CHEM 240",
+      "title": "Chemical Reactivity II",
+      "credits": 3
+    },
+    {
+      "id": "CHEM241",
+      "code": "CHEM 241",
+      "title": "Chemical Reactivity II Laboratory",
+      "credits": 1
+    },
+    {
+      "id": "CHEM242",
+      "code": "CHEM 242",
+      "title": "Chemical Synthesis Laboratory",
+      "credits": 2
+    },
+    {
+      "id": "CHEM260",
+      "code": "CHEM 260",
+      "title": "Quantitative Methods in Chemistry",
+      "credits": 3
+    },
+    {
+      "id": "CHEM261",
+      "code": "CHEM 261",
+      "title": "Quantitative Methods in Chemistry Laboratory",
+      "credits": 1
+    },
+    {
+      "id": "CHEM272",
+      "code": "CHEM 272",
+      "title": "Analytical Chemistry Laboratory",
+      "credits": 2
+    },
+    {
+      "id": "CHEM280",
+      "code": "CHEM 280",
+      "title": "Environmental & Chemical Analysis",
+      "credits": 3
+    },
+    {
+      "id": "CHEM300",
+      "code": "CHEM 300",
+      "title": "Undergraduate Research",
+      "credits": 1
+    },
+    {
+      "id": "CHEM300P",
+      "code": "CHEM 300P",
+      "title": "Introduction to Chemistry Research",
+      "credits": 1
+    },
+    {
+      "id": "CHEM301",
+      "code": "CHEM 301",
+      "title": "Physical Chemistry I",
+      "credits": 3
+    },
+    {
+      "id": "CHEM302",
+      "code": "CHEM 302",
+      "title": "Physical Chemistry II",
+      "credits": 3
+    },
+    {
+      "id": "CHEM303",
+      "code": "CHEM 303",
+      "title": "Physical Chemistry Lab I",
+      "credits": 2
+    },
+    {
+      "id": "CHEM305",
+      "code": "CHEM 305",
+      "title": "Physical Biochemistry for the Biological Sciences",
+      "credits": 3
+    },
+    {
+      "id": "CHEM306",
+      "code": "CHEM 306",
+      "title": "Physical Biochemistry Lab",
+      "credits": 1
+    },
+    {
+      "id": "CHEM307",
+      "code": "CHEM 307",
+      "title": "Inorganic Chemistry",
+      "credits": 3
+    },
+    {
+      "id": "CHEM314",
+      "code": "CHEM 314",
+      "title": "Instrumental Analysis",
+      "credits": 4
+    },
+    {
+      "id": "CHEM323",
+      "code": "CHEM 323",
+      "title": "Medicinal Chemistry",
+      "credits": 3
+    },
+    {
+      "id": "CHEM340",
+      "code": "CHEM 340",
+      "title": "Advanced Inorganic Chemistry",
+      "credits": 3
+    },
+    {
+      "id": "CHEM341",
+      "code": "CHEM 341",
+      "title": "Advanced Inorganic Laboratory",
+      "credits": 1
+    },
+    {
+      "id": "CHEM361",
+      "code": "CHEM 361",
+      "title": "Principles of Biochemistry",
+      "credits": 3
+    },
+    {
+      "id": "CHEM365",
+      "code": "CHEM 365",
+      "title": "Proteomics",
+      "credits": 3
+    },
+    {
+      "id": "CHEM370",
+      "code": "CHEM 370",
+      "title": "Biochemistry I",
+      "credits": 3
+    },
+    {
+      "id": "CHEM371",
+      "code": "CHEM 371",
+      "title": "Biochemistry II",
+      "credits": 3
+    },
+    {
+      "id": "CHEM372",
+      "code": "CHEM 372",
+      "title": "Biochemistry Laboratory I",
+      "credits": 2
+    },
+    {
+      "id": "CHEM373",
+      "code": "CHEM 373",
+      "title": "Biochemistry Laboratory II",
+      "credits": 2
+    },
+    {
+      "id": "CHEM380",
+      "code": "CHEM 380",
+      "title": "Chemistry Seminar",
+      "credits": 1
+    },
+    {
+      "id": "CHEM385",
+      "code": "CHEM 385",
+      "title": "Advanced Enzyme Kinetics and Mechanisms",
+      "credits": 3
+    },
+    {
+      "id": "CHEM386",
+      "code": "CHEM 386",
+      "title": "The Chemistry of Enzymes",
+      "credits": 3
+    },
+    {
+      "id": "CHEM387",
+      "code": "CHEM 387",
+      "title": "Plant Biochemistry",
+      "credits": 3
+    },
+    {
+      "id": "CHEM388",
+      "code": "CHEM 388",
+      "title": "Biophysical Chemistry",
+      "credits": 3
+    },
+    {
+      "id": "CHEM395",
+      "code": "CHEM 395",
+      "title": "Special Topics in Chemistry",
+      "credits": 0
+    },
+    {
+      "id": "CHEM395B",
+      "code": "CHEM 395B",
+      "title": "Bioethics Minor Capstone: Chemical Topics",
+      "credits": 3
+    },
+    {
+      "id": "CHEM396",
+      "code": "CHEM 396",
+      "title": "Special Topics in Biochemistry",
+      "credits": 1
+    },
+    {
+      "id": "CHEM399",
+      "code": "CHEM 399",
+      "title": "Internship in Biochemistry or Chemistry",
+      "credits": 2
+    },
+    {
+      "id": "CHEM400",
+      "code": "CHEM 400",
+      "title": "Chemistry Seminar",
+      "credits": 1
+    },
+    {
+      "id": "CHEM401",
+      "code": "CHEM 401",
+      "title": "Chemistry Methodology and Communication",
+      "credits": 3
+    },
+    {
+      "id": "CHEM415",
+      "code": "CHEM 415",
+      "title": "Special Topics in Chemistry",
+      "credits": 3
+    },
+    {
+      "id": "CHEM420",
+      "code": "CHEM 420",
+      "title": "Advanced Organic Chemistry I: Struct-Stereo",
+      "credits": 3
+    },
+    {
+      "id": "CHEM422",
+      "code": "CHEM 422",
+      "title": "Advanced Organic Chemistry III: Mechanism",
+      "credits": 3
+    },
+    {
+      "id": "CHEM423",
+      "code": "CHEM 423",
+      "title": "Medicinal Chemistry",
+      "credits": 3
+    },
+    {
+      "id": "CHEM424",
+      "code": "CHEM 424",
+      "title": "Molecular Characterization Part A",
+      "credits": 3
+    },
+    {
+      "id": "CHEM425",
+      "code": "CHEM 425",
+      "title": "Special Topics in Organic Chemistry",
+      "credits": 3
+    },
+    {
+      "id": "CHEM429",
+      "code": "CHEM 429",
+      "title": "Research in Organic Chemistry",
+      "credits": 1
+    },
+    {
+      "id": "CHEM430",
+      "code": "CHEM 430",
+      "title": "Physical Chemical Survey",
+      "credits": 3
+    },
+    {
+      "id": "CHEM431",
+      "code": "CHEM 431",
+      "title": "Chemical Thermodynamics",
+      "credits": 3
+    },
+    {
+      "id": "CHEM433",
+      "code": "CHEM 433",
+      "title": "Chemical Kinetics",
+      "credits": 3
+    },
+    {
+      "id": "CHEM435",
+      "code": "CHEM 435",
+      "title": "Special Topics in Physical Chemistry",
+      "credits": 3
+    },
+    {
+      "id": "CHEM436",
+      "code": "CHEM 436",
+      "title": "Statistical Thermo Dynamics",
+      "credits": 3
+    },
+    {
+      "id": "CHEM437",
+      "code": "CHEM 437",
+      "title": "Quantum Mechanics I",
+      "credits": 3
+    },
+    {
+      "id": "CHEM438",
+      "code": "CHEM 438",
+      "title": "Quantum Mechanics II",
+      "credits": 3
+    },
+    {
+      "id": "CHEM439",
+      "code": "CHEM 439",
+      "title": "Research in Physical Chemistry",
+      "credits": 1
+    },
+    {
+      "id": "CHEM441",
+      "code": "CHEM 441",
+      "title": "Advanced Inorganic Chemistry",
+      "credits": 3
+    },
+    {
+      "id": "CHEM445",
+      "code": "CHEM 445",
+      "title": "Special Topics in Inorganic Chemistry",
+      "credits": 3
+    },
+    {
+      "id": "CHEM449",
+      "code": "CHEM 449",
+      "title": "Research in Inorganic Chemistry",
+      "credits": 1
+    },
+    {
+      "id": "CHEM451",
+      "code": "CHEM 451",
+      "title": "Chemical Methods of Analysis",
+      "credits": 3
+    },
+    {
+      "id": "CHEM452",
+      "code": "CHEM 452",
+      "title": "Electrochemistry",
+      "credits": 3
+    },
+    {
+      "id": "CHEM454",
+      "code": "CHEM 454",
+      "title": "Analytical Separations",
+      "credits": 3
+    },
+    {
+      "id": "CHEM455",
+      "code": "CHEM 455",
+      "title": "Special Topics in Analytical Chemistry",
+      "credits": 3
+    },
+    {
+      "id": "CHEM456",
+      "code": "CHEM 456",
+      "title": "Analytical Spectroscopy",
+      "credits": 3
+    },
+    {
+      "id": "CHEM459",
+      "code": "CHEM 459",
+      "title": "Research in Analytical Chemistry",
+      "credits": 1
+    },
+    {
+      "id": "CHEM460",
+      "code": "CHEM 460",
+      "title": "Biophysical Chemistry",
+      "credits": 3
+    },
+    {
+      "id": "CHEM461",
+      "code": "CHEM 461",
+      "title": "Biochemistry",
+      "credits": 3
+    },
+    {
+      "id": "CHEM465",
+      "code": "CHEM 465",
+      "title": "Special Topics in Biochemistry",
+      "credits": 3
+    },
+    {
+      "id": "CHEM469",
+      "code": "CHEM 469",
+      "title": "Research in Biochemistry",
+      "credits": 1
+    },
+    {
+      "id": "CHEM470",
+      "code": "CHEM 470",
+      "title": "Biochemistry I",
+      "credits": 3
+    },
+    {
+      "id": "CHEM479",
+      "code": "CHEM 479",
+      "title": "Research in Chemical Education",
+      "credits": 1
+    },
+    {
+      "id": "CHEM480",
+      "code": "CHEM 480",
+      "title": "Chemistry for Teachers I",
+      "credits": 3
+    },
+    {
+      "id": "CHEM491",
+      "code": "CHEM 491",
+      "title": "Laboratory Investigations in Chemistry C",
+      "credits": 1
+    },
+    {
+      "id": "CHEM497",
+      "code": "CHEM 497",
+      "title": "Organic and Bio Chemistry for Teachers",
+      "credits": 3
+    },
+    {
+      "id": "CHEM500",
+      "code": "CHEM 500",
+      "title": "Graduate Student Seminar",
+      "credits": 1
+    },
+    {
+      "id": "CHEM501",
+      "code": "CHEM 501",
+      "title": "Directed Study",
+      "credits": 1
+    },
+    {
+      "id": "CHEM509",
+      "code": "CHEM 509",
+      "title": "Doctoral Research",
+      "credits": 0
+    },
+    {
+      "id": "CHEM595",
+      "code": "CHEM 595",
+      "title": "Thesis Supervision",
+      "credits": 0
+    },
+    {
+      "id": "CHEM600",
+      "code": "CHEM 600",
+      "title": "Dissertation Supervision",
+      "credits": 0
+    },
+    {
+      "id": "CHEM605",
+      "code": "CHEM 605",
+      "title": "Master's Study",
+      "credits": 0
+    },
+    {
+      "id": "CHEM610",
+      "code": "CHEM 610",
+      "title": "Doctoral Study",
+      "credits": 0
+    }
+  ]
+}

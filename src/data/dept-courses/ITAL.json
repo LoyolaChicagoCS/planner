@@ -1,0 +1,195 @@
+{
+  "catalog": "2026-2027",
+  "code": "ITAL",
+  "name": "Italian",
+  "sourceUrl": "https://catalog.luc.edu/course-descriptions/ital/",
+  "fetchedAt": "2026-06-20",
+  "courses": [
+    {
+      "id": "ITAL101",
+      "code": "ITAL 101",
+      "title": "Italian I",
+      "credits": 3
+    },
+    {
+      "id": "ITAL102",
+      "code": "ITAL 102",
+      "title": "Italian II",
+      "credits": 3
+    },
+    {
+      "id": "ITAL103",
+      "code": "ITAL 103",
+      "title": "Italian III",
+      "credits": 3
+    },
+    {
+      "id": "ITAL104",
+      "code": "ITAL 104",
+      "title": "Italian IV",
+      "credits": 3
+    },
+    {
+      "id": "ITAL250",
+      "code": "ITAL 250",
+      "title": "Composition & Conversation I",
+      "credits": 3
+    },
+    {
+      "id": "ITAL251",
+      "code": "ITAL 251",
+      "title": "Composition & Conversation II",
+      "credits": 3
+    },
+    {
+      "id": "ITAL270",
+      "code": "ITAL 270",
+      "title": "Main Currents of Italian Literature I",
+      "credits": 3
+    },
+    {
+      "id": "ITAL271",
+      "code": "ITAL 271",
+      "title": "Main Currents of Italian Literature II",
+      "credits": 3
+    },
+    {
+      "id": "ITAL280",
+      "code": "ITAL 280",
+      "title": "Masterpieces of Italian Literature",
+      "credits": 3
+    },
+    {
+      "id": "ITAL282",
+      "code": "ITAL 282",
+      "title": "Studies in a Theme",
+      "credits": 3
+    },
+    {
+      "id": "ITAL283",
+      "code": "ITAL 283",
+      "title": "Studies in Italian Authors",
+      "credits": 3
+    },
+    {
+      "id": "ITAL284",
+      "code": "ITAL 284",
+      "title": "Studies in Italian Film",
+      "credits": 3
+    },
+    {
+      "id": "ITAL290",
+      "code": "ITAL 290",
+      "title": "The Italians",
+      "credits": 3
+    },
+    {
+      "id": "ITAL300",
+      "code": "ITAL 300",
+      "title": "Tutorial for Credit",
+      "credits": 1
+    },
+    {
+      "id": "ITAL301",
+      "code": "ITAL 301",
+      "title": "Stylistics",
+      "credits": 3
+    },
+    {
+      "id": "ITAL305",
+      "code": "ITAL 305",
+      "title": "Advanced Grammar",
+      "credits": 3
+    },
+    {
+      "id": "ITAL308",
+      "code": "ITAL 308",
+      "title": "Literary Criticism",
+      "credits": 3
+    },
+    {
+      "id": "ITAL312",
+      "code": "ITAL 312",
+      "title": "Dante-The Divine Comedy",
+      "credits": 3
+    },
+    {
+      "id": "ITAL314",
+      "code": "ITAL 314",
+      "title": "Survey 13th & 14th Century Literature",
+      "credits": 3
+    },
+    {
+      "id": "ITAL315",
+      "code": "ITAL 315",
+      "title": "Italian Renaissance Literature",
+      "credits": 3
+    },
+    {
+      "id": "ITAL316",
+      "code": "ITAL 316",
+      "title": "Renaissance Chivalric Poems",
+      "credits": 3
+    },
+    {
+      "id": "ITAL317",
+      "code": "ITAL 317",
+      "title": "Survey Early 19th Century Literature",
+      "credits": 3
+    },
+    {
+      "id": "ITAL318",
+      "code": "ITAL 318",
+      "title": "Survey Late 19th Cent Lit",
+      "credits": 3
+    },
+    {
+      "id": "ITAL319",
+      "code": "ITAL 319",
+      "title": "Survey of 20th Century Prose",
+      "credits": 3
+    },
+    {
+      "id": "ITAL320",
+      "code": "ITAL 320",
+      "title": "Survey of 20th Century Poetry",
+      "credits": 3
+    },
+    {
+      "id": "ITAL331",
+      "code": "ITAL 331",
+      "title": "Survey of Italian Theater",
+      "credits": 3
+    },
+    {
+      "id": "ITAL340",
+      "code": "ITAL 340",
+      "title": "Italian Short Story",
+      "credits": 3
+    },
+    {
+      "id": "ITAL390",
+      "code": "ITAL 390",
+      "title": "Culture & Civilization",
+      "credits": 3
+    },
+    {
+      "id": "ITAL395",
+      "code": "ITAL 395",
+      "title": "Internship",
+      "credits": 3
+    },
+    {
+      "id": "ITAL397",
+      "code": "ITAL 397",
+      "title": "Topics in Italian Literature",
+      "credits": 3
+    },
+    {
+      "id": "ITAL399",
+      "code": "ITAL 399",
+      "title": "Italian Honors Tutorial",
+      "credits": 3
+    }
+  ]
+}

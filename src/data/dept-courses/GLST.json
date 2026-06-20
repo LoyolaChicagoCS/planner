@@ -1,0 +1,69 @@
+{
+  "catalog": "2026-2027",
+  "code": "GLST",
+  "name": "Global Studies",
+  "sourceUrl": "https://catalog.luc.edu/course-descriptions/glst/",
+  "fetchedAt": "2026-06-20",
+  "courses": [
+    {
+      "id": "GLST101",
+      "code": "GLST 101",
+      "title": "Introduction to Global Studies",
+      "credits": 3
+    },
+    {
+      "id": "GLST301",
+      "code": "GLST 301",
+      "title": "Directed Readings in Global Studies",
+      "credits": 3
+    },
+    {
+      "id": "GLST302",
+      "code": "GLST 302",
+      "title": "States and Firms",
+      "credits": 3
+    },
+    {
+      "id": "GLST303",
+      "code": "GLST 303",
+      "title": "Technological Change and Society",
+      "credits": 3
+    },
+    {
+      "id": "GLST304",
+      "code": "GLST 304",
+      "title": "Global Civil Society and Social Movements",
+      "credits": 3
+    },
+    {
+      "id": "GLST305",
+      "code": "GLST 305",
+      "title": "Globalization and Environmental Sustainability",
+      "credits": 3
+    },
+    {
+      "id": "GLST306",
+      "code": "GLST 306",
+      "title": "International Development",
+      "credits": 3
+    },
+    {
+      "id": "GLST309",
+      "code": "GLST 309",
+      "title": "The Global Economy",
+      "credits": 3
+    },
+    {
+      "id": "GLST370",
+      "code": "GLST 370",
+      "title": "Internship in Global Studies",
+      "credits": 3
+    },
+    {
+      "id": "GLST398",
+      "code": "GLST 398",
+      "title": "Topics in Global Studies",
+      "credits": 3
+    }
+  ]
+}

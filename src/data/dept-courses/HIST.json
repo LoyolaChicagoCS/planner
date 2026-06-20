@@ -1,0 +1,1155 @@
+{
+  "catalog": "2026-2027",
+  "code": "HIST",
+  "name": "History",
+  "sourceUrl": "https://catalog.luc.edu/course-descriptions/hist/",
+  "fetchedAt": "2026-06-20",
+  "courses": [
+    {
+      "id": "HIST101",
+      "code": "HIST 101",
+      "title": "Culture, Power and Identity: Western Ideas & Institutions to 17th Century",
+      "credits": 3
+    },
+    {
+      "id": "HIST102",
+      "code": "HIST 102",
+      "title": "Culture, Power and Identity: Western Ideas & Institutions from 17th Century",
+      "credits": 3
+    },
+    {
+      "id": "HIST103",
+      "code": "HIST 103",
+      "title": "American Pluralism",
+      "credits": 3
+    },
+    {
+      "id": "HIST104",
+      "code": "HIST 104",
+      "title": "Global History Since 1500",
+      "credits": 3
+    },
+    {
+      "id": "HIST205",
+      "code": "HIST 205",
+      "title": "Modern Western Civilization: Social Sciences in Context",
+      "credits": 3
+    },
+    {
+      "id": "HIST208",
+      "code": "HIST 208",
+      "title": "East Asian History: Themes & Issues",
+      "credits": 3
+    },
+    {
+      "id": "HIST208X",
+      "code": "HIST 208X",
+      "title": "Pre-Modern Chinese History",
+      "credits": 3
+    },
+    {
+      "id": "HIST208Z",
+      "code": "HIST 208Z",
+      "title": "Modern Chinese History",
+      "credits": 3
+    },
+    {
+      "id": "HIST209",
+      "code": "HIST 209",
+      "title": "Islamic History: Themes & Issues",
+      "credits": 3
+    },
+    {
+      "id": "HIST210",
+      "code": "HIST 210",
+      "title": "Latin American History: Themes & Issues",
+      "credits": 3
+    },
+    {
+      "id": "HIST211",
+      "code": "HIST 211",
+      "title": "US History to 1865: Themes & Issues",
+      "credits": 3
+    },
+    {
+      "id": "HIST212",
+      "code": "HIST 212",
+      "title": "US History since 1865: Themes & Issues",
+      "credits": 3
+    },
+    {
+      "id": "HIST213",
+      "code": "HIST 213",
+      "title": "African History: Themes & Issues",
+      "credits": 3
+    },
+    {
+      "id": "HIST253A",
+      "code": "HIST 253A",
+      "title": "Barbarians and the Fall of the Roman Empire",
+      "credits": 3
+    },
+    {
+      "id": "HIST254A",
+      "code": "HIST 254A",
+      "title": "The Vikings",
+      "credits": 3
+    },
+    {
+      "id": "HIST257A",
+      "code": "HIST 257A",
+      "title": "Witchcraft and Science in Pre-Modern Europe",
+      "credits": 3
+    },
+    {
+      "id": "HIST258A",
+      "code": "HIST 258A",
+      "title": "Blood, Heresy, and Treason: The Tudors and Stuarts",
+      "credits": 3
+    },
+    {
+      "id": "HIST265A",
+      "code": "HIST 265A",
+      "title": "The First World War",
+      "credits": 3
+    },
+    {
+      "id": "HIST267A",
+      "code": "HIST 267A",
+      "title": "Modern German Culture and Ideas I",
+      "credits": 3
+    },
+    {
+      "id": "HIST267B",
+      "code": "HIST 267B",
+      "title": "Modern German Culture and Ideas II",
+      "credits": 3
+    },
+    {
+      "id": "HIST275A",
+      "code": "HIST 275A",
+      "title": "The Silk Roads: Global Trade, Culture, & Politics",
+      "credits": 3
+    },
+    {
+      "id": "HIST279C",
+      "code": "HIST 279C",
+      "title": "History of Computing",
+      "credits": 3
+    },
+    {
+      "id": "HIST279E",
+      "code": "HIST 279E",
+      "title": "Climate and History",
+      "credits": 3
+    },
+    {
+      "id": "HIST280A",
+      "code": "HIST 280A",
+      "title": "Pirates and Sailors in the Revolutionary Atlantic",
+      "credits": 3
+    },
+    {
+      "id": "HIST290A",
+      "code": "HIST 290A",
+      "title": "History of Sexuality in the United States",
+      "credits": 3
+    },
+    {
+      "id": "HIST291A",
+      "code": "HIST 291A",
+      "title": "American Icons: Heroes, Images, Ideas",
+      "credits": 3
+    },
+    {
+      "id": "HIST297E",
+      "code": "HIST 297E",
+      "title": "North American Environmental History",
+      "credits": 3
+    },
+    {
+      "id": "HIST298A",
+      "code": "HIST 298A",
+      "title": "History and the Public: Intro to Public History",
+      "credits": 3
+    },
+    {
+      "id": "HIST299",
+      "code": "HIST 299",
+      "title": "Historical Methods",
+      "credits": 3
+    },
+    {
+      "id": "HIST300",
+      "code": "HIST 300",
+      "title": "Topics in History",
+      "credits": 3
+    },
+    {
+      "id": "HIST300A",
+      "code": "HIST 300A",
+      "title": "Topics",
+      "credits": 3
+    },
+    {
+      "id": "HIST300B",
+      "code": "HIST 300B",
+      "title": "Topics in Premodern History",
+      "credits": 3
+    },
+    {
+      "id": "HIST300C",
+      "code": "HIST 300C",
+      "title": "Topics in European History (Post-1700)",
+      "credits": 3
+    },
+    {
+      "id": "HIST300D",
+      "code": "HIST 300D",
+      "title": "Topics in U.S. History",
+      "credits": 3
+    },
+    {
+      "id": "HIST300E",
+      "code": "HIST 300E",
+      "title": "Topics in World History",
+      "credits": 3
+    },
+    {
+      "id": "HIST301",
+      "code": "HIST 301",
+      "title": "Plagues: The Black Death and Other Pandemics",
+      "credits": 3
+    },
+    {
+      "id": "HIST302",
+      "code": "HIST 302",
+      "title": "History of Western Education",
+      "credits": 3
+    },
+    {
+      "id": "HIST303",
+      "code": "HIST 303",
+      "title": "Pre-Industrial City in Europe",
+      "credits": 3
+    },
+    {
+      "id": "HIST307",
+      "code": "HIST 307",
+      "title": "Greece to Alexander the Great",
+      "credits": 3
+    },
+    {
+      "id": "HIST308A",
+      "code": "HIST 308A",
+      "title": "History of Rome to Constantine",
+      "credits": 3
+    },
+    {
+      "id": "HIST308B",
+      "code": "HIST 308B",
+      "title": "Pompeii and Herculaneum",
+      "credits": 3
+    },
+    {
+      "id": "HIST308C",
+      "code": "HIST 308C",
+      "title": "History of Early Christianity",
+      "credits": 3
+    },
+    {
+      "id": "HIST308D",
+      "code": "HIST 308D",
+      "title": "Transformations of Rome in Late Antiquity",
+      "credits": 3
+    },
+    {
+      "id": "HIST309",
+      "code": "HIST 309",
+      "title": "Shipwreck Archaeology",
+      "credits": 3
+    },
+    {
+      "id": "HIST310",
+      "code": "HIST 310",
+      "title": "The Middle Ages",
+      "credits": 3
+    },
+    {
+      "id": "HIST310A",
+      "code": "HIST 310A",
+      "title": "Medieval World 1100-1500",
+      "credits": 3
+    },
+    {
+      "id": "HIST310B",
+      "code": "HIST 310B",
+      "title": "Medieval Culture",
+      "credits": 3
+    },
+    {
+      "id": "HIST310C",
+      "code": "HIST 310C",
+      "title": "Medieval Women",
+      "credits": 3
+    },
+    {
+      "id": "HIST310D",
+      "code": "HIST 310D",
+      "title": "Medieval Popular Religion",
+      "credits": 3
+    },
+    {
+      "id": "HIST310F",
+      "code": "HIST 310F",
+      "title": "Medieval Inquisitions and Heresy",
+      "credits": 3
+    },
+    {
+      "id": "HIST310G",
+      "code": "HIST 310G",
+      "title": "Supernatural in the Middle Ages",
+      "credits": 3
+    },
+    {
+      "id": "HIST310L",
+      "code": "HIST 310L",
+      "title": "Love and Violence in Medieval Culture and Society",
+      "credits": 3
+    },
+    {
+      "id": "HIST311B",
+      "code": "HIST 311B",
+      "title": "The Crusades: Christianity and Islam",
+      "credits": 3
+    },
+    {
+      "id": "HIST312",
+      "code": "HIST 312",
+      "title": "England to 1485",
+      "credits": 3
+    },
+    {
+      "id": "HIST314",
+      "code": "HIST 314",
+      "title": "Renaissance",
+      "credits": 3
+    },
+    {
+      "id": "HIST314A",
+      "code": "HIST 314A",
+      "title": "The Jesuits: Life and History",
+      "credits": 3
+    },
+    {
+      "id": "HIST315",
+      "code": "HIST 315",
+      "title": "The Reformation",
+      "credits": 3
+    },
+    {
+      "id": "HIST316",
+      "code": "HIST 316",
+      "title": "History of Poland",
+      "credits": 3
+    },
+    {
+      "id": "HIST317",
+      "code": "HIST 317",
+      "title": "Age of Absolutism & the Enlightenment",
+      "credits": 3
+    },
+    {
+      "id": "HIST318A",
+      "code": "HIST 318A",
+      "title": "Early Modern England 1485-1760",
+      "credits": 3
+    },
+    {
+      "id": "HIST318B",
+      "code": "HIST 318B",
+      "title": "English Social History 1450-1750",
+      "credits": 3
+    },
+    {
+      "id": "HIST318C",
+      "code": "HIST 318C",
+      "title": "London 1550 - 1715",
+      "credits": 3
+    },
+    {
+      "id": "HIST320",
+      "code": "HIST 320",
+      "title": "Era French Revolution & Napoleon",
+      "credits": 3
+    },
+    {
+      "id": "HIST321",
+      "code": "HIST 321",
+      "title": "19th Century European Culture and Ideas",
+      "credits": 3
+    },
+    {
+      "id": "HIST322",
+      "code": "HIST 322",
+      "title": "Modern France: From Empire to Postcolonial Nation",
+      "credits": 3
+    },
+    {
+      "id": "HIST324",
+      "code": "HIST 324",
+      "title": "Italy 19th & 20th Centuries",
+      "credits": 3
+    },
+    {
+      "id": "HIST325",
+      "code": "HIST 325",
+      "title": "Modern Britain: Empire, Industry, Democracy",
+      "credits": 3
+    },
+    {
+      "id": "HIST325A",
+      "code": "HIST 325A",
+      "title": "The British Empire: From Barbados to Brexit",
+      "credits": 3
+    },
+    {
+      "id": "HIST326",
+      "code": "HIST 326",
+      "title": "Ireland: Colony to Nation State",
+      "credits": 3
+    },
+    {
+      "id": "HIST327A",
+      "code": "HIST 327A",
+      "title": "The Balkans: History, Fiction, Film",
+      "credits": 3
+    },
+    {
+      "id": "HIST328",
+      "code": "HIST 328",
+      "title": "Russia Pre-1917: Empire Building",
+      "credits": 3
+    },
+    {
+      "id": "HIST328A",
+      "code": "HIST 328A",
+      "title": "Russian Empire and Literature",
+      "credits": 3
+    },
+    {
+      "id": "HIST329",
+      "code": "HIST 329",
+      "title": "Women's Sphere in Past Society",
+      "credits": 3
+    },
+    {
+      "id": "HIST329C",
+      "code": "HIST 329C",
+      "title": "Empire, Sex, Violence: European Colonial History",
+      "credits": 3
+    },
+    {
+      "id": "HIST329N",
+      "code": "HIST 329N",
+      "title": "Modern European Nationalism: Myth and Reality",
+      "credits": 3
+    },
+    {
+      "id": "HIST330",
+      "code": "HIST 330",
+      "title": "Europe in the Age of Catastrophe, 1900-1945",
+      "credits": 3
+    },
+    {
+      "id": "HIST330F",
+      "code": "HIST 330F",
+      "title": "Fascinating Fascism: 1919 to the Present",
+      "credits": 3
+    },
+    {
+      "id": "HIST331A",
+      "code": "HIST 331A",
+      "title": "Food, Hunger, and Power in the Modern World",
+      "credits": 3
+    },
+    {
+      "id": "HIST334A",
+      "code": "HIST 334A",
+      "title": "The Nazi Revolution",
+      "credits": 3
+    },
+    {
+      "id": "HIST334B",
+      "code": "HIST 334B",
+      "title": "The Holocaust: History and Memory",
+      "credits": 3
+    },
+    {
+      "id": "HIST335",
+      "code": "HIST 335",
+      "title": "The Second World War",
+      "credits": 3
+    },
+    {
+      "id": "HIST336",
+      "code": "HIST 336",
+      "title": "Contemporary Europe 1945 to Present",
+      "credits": 3
+    },
+    {
+      "id": "HIST337",
+      "code": "HIST 337",
+      "title": "Rise & Fall of Soviet Union",
+      "credits": 3
+    },
+    {
+      "id": "HIST337A",
+      "code": "HIST 337A",
+      "title": "Women in Russia and Eurasia, 1860-Present",
+      "credits": 3
+    },
+    {
+      "id": "HIST338A",
+      "code": "HIST 338A",
+      "title": "History of European Communism",
+      "credits": 3
+    },
+    {
+      "id": "HIST338B",
+      "code": "HIST 338B",
+      "title": "Eastern Europe in the 20th Century",
+      "credits": 3
+    },
+    {
+      "id": "HIST339C",
+      "code": "HIST 339C",
+      "title": "Modern Europe and the Arts",
+      "credits": 3
+    },
+    {
+      "id": "HIST339F",
+      "code": "HIST 339F",
+      "title": "History of Feminist Thought and Social Action",
+      "credits": 3
+    },
+    {
+      "id": "HIST340B",
+      "code": "HIST 340B",
+      "title": "Introduction to Islamic History",
+      "credits": 3
+    },
+    {
+      "id": "HIST341",
+      "code": "HIST 341",
+      "title": "Modern Middle East",
+      "credits": 3
+    },
+    {
+      "id": "HIST341B",
+      "code": "HIST 341B",
+      "title": "Arab-Israeli Conflict",
+      "credits": 3
+    },
+    {
+      "id": "HIST341C",
+      "code": "HIST 341C",
+      "title": "Tunisia On-Site: Arab Spring, Democratic Change, Islam",
+      "credits": 3
+    },
+    {
+      "id": "HIST342A",
+      "code": "HIST 342A",
+      "title": "African History to 1600",
+      "credits": 3
+    },
+    {
+      "id": "HIST342B",
+      "code": "HIST 342B",
+      "title": "African History Post-1600",
+      "credits": 3
+    },
+    {
+      "id": "HIST342C",
+      "code": "HIST 342C",
+      "title": "The History of Islam in Africa",
+      "credits": 3
+    },
+    {
+      "id": "HIST342D",
+      "code": "HIST 342D",
+      "title": "African Diaspora in the Middle East and South Asia",
+      "credits": 3
+    },
+    {
+      "id": "HIST342M",
+      "code": "HIST 342M",
+      "title": "African Music's Influence on American Music",
+      "credits": 3
+    },
+    {
+      "id": "HIST343",
+      "code": "HIST 343",
+      "title": "Modern South Asia",
+      "credits": 3
+    },
+    {
+      "id": "HIST345A",
+      "code": "HIST 345A",
+      "title": "Traditional China from Antiquity to 1550",
+      "credits": 3
+    },
+    {
+      "id": "HIST346A",
+      "code": "HIST 346A",
+      "title": "Early Modern China: 1550-1800",
+      "credits": 3
+    },
+    {
+      "id": "HIST346B",
+      "code": "HIST 346B",
+      "title": "Reform & Revolution in China, 1800-1949",
+      "credits": 3
+    },
+    {
+      "id": "HIST346C",
+      "code": "HIST 346C",
+      "title": "History of Christianity in China",
+      "credits": 3
+    },
+    {
+      "id": "HIST347A",
+      "code": "HIST 347A",
+      "title": "China Since 1949: The People's Republic",
+      "credits": 3
+    },
+    {
+      "id": "HIST347C",
+      "code": "HIST 347C",
+      "title": "Cultural Revolution-China",
+      "credits": 3
+    },
+    {
+      "id": "HIST347D",
+      "code": "HIST 347D",
+      "title": "Modern Chinese History through Film",
+      "credits": 3
+    },
+    {
+      "id": "HIST349",
+      "code": "HIST 349",
+      "title": "Contemporary Global Issues: Historical Perspectives",
+      "credits": 3
+    },
+    {
+      "id": "HIST349A",
+      "code": "HIST 349A",
+      "title": "Women in East Asia",
+      "credits": 3
+    },
+    {
+      "id": "HIST350",
+      "code": "HIST 350",
+      "title": "Colonial Latin America",
+      "credits": 3
+    },
+    {
+      "id": "HIST351",
+      "code": "HIST 351",
+      "title": "Latin American Independence, 1750-1830",
+      "credits": 3
+    },
+    {
+      "id": "HIST352",
+      "code": "HIST 352",
+      "title": "Latin America in the 19th Century",
+      "credits": 3
+    },
+    {
+      "id": "HIST353",
+      "code": "HIST 353",
+      "title": "Latin America in Recent Times",
+      "credits": 3
+    },
+    {
+      "id": "HIST355",
+      "code": "HIST 355",
+      "title": "The Caribbean & Central America in Colonial/Modern Times",
+      "credits": 3
+    },
+    {
+      "id": "HIST356",
+      "code": "HIST 356",
+      "title": "Mexican History-Ancient to Modern Times",
+      "credits": 3
+    },
+    {
+      "id": "HIST357",
+      "code": "HIST 357",
+      "title": "The Mexican Revolution in Popular Imagination",
+      "credits": 3
+    },
+    {
+      "id": "HIST358",
+      "code": "HIST 358",
+      "title": "Women in Latin American History",
+      "credits": 3
+    },
+    {
+      "id": "HIST359",
+      "code": "HIST 359",
+      "title": "Teaching World History",
+      "credits": 3
+    },
+    {
+      "id": "HIST359D",
+      "code": "HIST 359D",
+      "title": "The Ottoman Empire: A Global Perspective",
+      "credits": 3
+    },
+    {
+      "id": "HIST359E",
+      "code": "HIST 359E",
+      "title": "Concentration Camps: A Global History",
+      "credits": 3
+    },
+    {
+      "id": "HIST359F",
+      "code": "HIST 359F",
+      "title": "Genocides in the Modern World",
+      "credits": 3
+    },
+    {
+      "id": "HIST359H",
+      "code": "HIST 359H",
+      "title": "Anti-Colonial Resistance in the Twentieth Century",
+      "credits": 3
+    },
+    {
+      "id": "HIST360",
+      "code": "HIST 360",
+      "title": "Community and Culture in Colonial America",
+      "credits": 3
+    },
+    {
+      "id": "HIST360A",
+      "code": "HIST 360A",
+      "title": "Slavery and Abolition: Then & Now",
+      "credits": 3
+    },
+    {
+      "id": "HIST361",
+      "code": "HIST 361",
+      "title": "The American Revolution, 1763-1815",
+      "credits": 3
+    },
+    {
+      "id": "HIST362",
+      "code": "HIST 362",
+      "title": "America in the Age of Slavery and Capitalism",
+      "credits": 3
+    },
+    {
+      "id": "HIST363",
+      "code": "HIST 363",
+      "title": "Civil War & Reconstruction 1850-1877",
+      "credits": 3
+    },
+    {
+      "id": "HIST366A",
+      "code": "HIST 366A",
+      "title": "World War I and American Culture",
+      "credits": 3
+    },
+    {
+      "id": "HIST367",
+      "code": "HIST 367",
+      "title": "United States from Great Depression to Recession",
+      "credits": 3
+    },
+    {
+      "id": "HIST369",
+      "code": "HIST 369",
+      "title": "20th Century Popular Culture",
+      "credits": 3
+    },
+    {
+      "id": "HIST370",
+      "code": "HIST 370",
+      "title": "American Business, Wealth, and Inequality",
+      "credits": 3
+    },
+    {
+      "id": "HIST372",
+      "code": "HIST 372",
+      "title": "American Constitutional & Legal History to 1865",
+      "credits": 3
+    },
+    {
+      "id": "HIST373",
+      "code": "HIST 373",
+      "title": "US Law & Public Policy",
+      "credits": 3
+    },
+    {
+      "id": "HIST373A",
+      "code": "HIST 373A",
+      "title": "Crime and Punishment",
+      "credits": 3
+    },
+    {
+      "id": "HIST374",
+      "code": "HIST 374",
+      "title": "Black Politics",
+      "credits": 3
+    },
+    {
+      "id": "HIST375",
+      "code": "HIST 375",
+      "title": "Digital History",
+      "credits": 3
+    },
+    {
+      "id": "HIST376",
+      "code": "HIST 376",
+      "title": "History of the American Frontier Movement",
+      "credits": 3
+    },
+    {
+      "id": "HIST376A",
+      "code": "HIST 376A",
+      "title": "History of the American Indian",
+      "credits": 3
+    },
+    {
+      "id": "HIST377",
+      "code": "HIST 377",
+      "title": "African American Women's History",
+      "credits": 3
+    },
+    {
+      "id": "HIST378",
+      "code": "HIST 378",
+      "title": "Latina/o History",
+      "credits": 3
+    },
+    {
+      "id": "HIST379B",
+      "code": "HIST 379B",
+      "title": "History of Italians in Chicago",
+      "credits": 3
+    },
+    {
+      "id": "HIST380",
+      "code": "HIST 380",
+      "title": "Introduction to African-American History",
+      "credits": 3
+    },
+    {
+      "id": "HIST380A",
+      "code": "HIST 380A",
+      "title": "Islam in the African-American Experience",
+      "credits": 3
+    },
+    {
+      "id": "HIST381",
+      "code": "HIST 381",
+      "title": "Rebels & Reformers in U.S. History",
+      "credits": 3
+    },
+    {
+      "id": "HIST382",
+      "code": "HIST 382",
+      "title": "Teaching Race, Class, and Gender",
+      "credits": 3
+    },
+    {
+      "id": "HIST384",
+      "code": "HIST 384",
+      "title": "Irish Diaspora in America",
+      "credits": 3
+    },
+    {
+      "id": "HIST385",
+      "code": "HIST 385",
+      "title": "Chicago in America",
+      "credits": 3
+    },
+    {
+      "id": "HIST386",
+      "code": "HIST 386",
+      "title": "Creation the American Metropolis",
+      "credits": 3
+    },
+    {
+      "id": "HIST388",
+      "code": "HIST 388",
+      "title": "U.S. Wars",
+      "credits": 3
+    },
+    {
+      "id": "HIST388A",
+      "code": "HIST 388A",
+      "title": "Vietnam War",
+      "credits": 3
+    },
+    {
+      "id": "HIST389B",
+      "code": "HIST 389B",
+      "title": "Topic: Gender, Race, & Class in US History",
+      "credits": 3
+    },
+    {
+      "id": "HIST389C",
+      "code": "HIST 389C",
+      "title": "Gender Benders",
+      "credits": 3
+    },
+    {
+      "id": "HIST389F",
+      "code": "HIST 389F",
+      "title": "The Sixties",
+      "credits": 3
+    },
+    {
+      "id": "HIST389K",
+      "code": "HIST 389K",
+      "title": "Autobiography and Memoir in Recent US History",
+      "credits": 3
+    },
+    {
+      "id": "HIST389N",
+      "code": "HIST 389N",
+      "title": "Anti-Immigrant Politics in U.S. History",
+      "credits": 3
+    },
+    {
+      "id": "HIST389W",
+      "code": "HIST 389W",
+      "title": "Races to the White House: Presidential History",
+      "credits": 3
+    },
+    {
+      "id": "HIST390",
+      "code": "HIST 390",
+      "title": "Senior Capstone",
+      "credits": 3
+    },
+    {
+      "id": "HIST397",
+      "code": "HIST 397",
+      "title": "History Honors Tutorial",
+      "credits": 3
+    },
+    {
+      "id": "HIST398",
+      "code": "HIST 398",
+      "title": "History Internship",
+      "credits": 3
+    },
+    {
+      "id": "HIST399",
+      "code": "HIST 399",
+      "title": "Directed Study",
+      "credits": 1
+    },
+    {
+      "id": "HIST400",
+      "code": "HIST 400",
+      "title": "Contemporary Approaches to History",
+      "credits": 3
+    },
+    {
+      "id": "HIST403",
+      "code": "HIST 403",
+      "title": "Professional Lives of Historians",
+      "credits": 3
+    },
+    {
+      "id": "HIST410",
+      "code": "HIST 410",
+      "title": "Topics",
+      "credits": 3
+    },
+    {
+      "id": "HIST441",
+      "code": "HIST 441",
+      "title": "Women's & Gender History: Europe",
+      "credits": 3
+    },
+    {
+      "id": "HIST442",
+      "code": "HIST 442",
+      "title": "Women's & Gender History: U.S.A.",
+      "credits": 3
+    },
+    {
+      "id": "HIST450",
+      "code": "HIST 450",
+      "title": "Nineteenth Century America",
+      "credits": 3
+    },
+    {
+      "id": "HIST459",
+      "code": "HIST 459",
+      "title": "Environmental History",
+      "credits": 3
+    },
+    {
+      "id": "HIST460",
+      "code": "HIST 460",
+      "title": "Urban America",
+      "credits": 3
+    },
+    {
+      "id": "HIST461",
+      "code": "HIST 461",
+      "title": "Twentieth Century America",
+      "credits": 3
+    },
+    {
+      "id": "HIST464",
+      "code": "HIST 464",
+      "title": "Transnational Urban History",
+      "credits": 3
+    },
+    {
+      "id": "HIST479",
+      "code": "HIST 479",
+      "title": "Public History Media",
+      "credits": 3
+    },
+    {
+      "id": "HIST480",
+      "code": "HIST 480",
+      "title": "Public History: Method & Theory",
+      "credits": 3
+    },
+    {
+      "id": "HIST481",
+      "code": "HIST 481",
+      "title": "Management of Historic Resources",
+      "credits": 3
+    },
+    {
+      "id": "HIST482",
+      "code": "HIST 482",
+      "title": "Archives and Record Management",
+      "credits": 3
+    },
+    {
+      "id": "HIST483",
+      "code": "HIST 483",
+      "title": "Oral History: Method and Practice",
+      "credits": 3
+    },
+    {
+      "id": "HIST484",
+      "code": "HIST 484",
+      "title": "Material Culture",
+      "credits": 3
+    },
+    {
+      "id": "HIST487",
+      "code": "HIST 487",
+      "title": "Public History: Museums",
+      "credits": 3
+    },
+    {
+      "id": "HIST496",
+      "code": "HIST 496",
+      "title": "Race, Violence & Memory",
+      "credits": 3
+    },
+    {
+      "id": "HIST498",
+      "code": "HIST 498",
+      "title": "Dissertation Research",
+      "credits": 3
+    },
+    {
+      "id": "HIST499",
+      "code": "HIST 499",
+      "title": "Directed Study",
+      "credits": 3
+    },
+    {
+      "id": "HIST510",
+      "code": "HIST 510",
+      "title": "Research Seminar - Special Topics",
+      "credits": 3
+    },
+    {
+      "id": "HIST555",
+      "code": "HIST 555",
+      "title": "US Social & Intellectual History",
+      "credits": 3
+    },
+    {
+      "id": "HIST558",
+      "code": "HIST 558",
+      "title": "Studies in American Cultural History",
+      "credits": 3
+    },
+    {
+      "id": "HIST561",
+      "code": "HIST 561",
+      "title": "Seminar-Gender & Women's History",
+      "credits": 3
+    },
+    {
+      "id": "HIST581",
+      "code": "HIST 581",
+      "title": "Practicum in Public History",
+      "credits": 3
+    },
+    {
+      "id": "HIST582",
+      "code": "HIST 582",
+      "title": "Public History Internship",
+      "credits": 1
+    },
+    {
+      "id": "HIST584",
+      "code": "HIST 584",
+      "title": "U.S. Local History",
+      "credits": 3
+    },
+    {
+      "id": "HIST585",
+      "code": "HIST 585",
+      "title": "Career Diversity Internship",
+      "credits": 3
+    },
+    {
+      "id": "HIST598",
+      "code": "HIST 598",
+      "title": "Dissertation Proposal Seminar",
+      "credits": 3
+    },
+    {
+      "id": "HIST599",
+      "code": "HIST 599",
+      "title": "Directed Primary Research",
+      "credits": 3
+    },
+    {
+      "id": "HIST600",
+      "code": "HIST 600",
+      "title": "Dissertation Supervision",
+      "credits": 0
+    },
+    {
+      "id": "HIST605",
+      "code": "HIST 605",
+      "title": "Master's Study",
+      "credits": 0
+    },
+    {
+      "id": "HIST610",
+      "code": "HIST 610",
+      "title": "Doctoral Study",
+      "credits": 0
+    }
+  ]
+}

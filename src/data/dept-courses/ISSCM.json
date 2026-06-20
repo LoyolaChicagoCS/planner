@@ -1,0 +1,69 @@
+{
+  "catalog": "2026-2027",
+  "code": "ISSCM",
+  "name": "Information Systems / Supply Chain Management",
+  "sourceUrl": "https://catalog.luc.edu/course-descriptions/isscm/",
+  "fetchedAt": "2026-06-20",
+  "courses": [
+    {
+      "id": "ISSCM241",
+      "code": "ISSCM 241",
+      "title": "Business Statistics",
+      "credits": 3
+    },
+    {
+      "id": "ISSCM241H",
+      "code": "ISSCM 241H",
+      "title": "Business Statistics - Honors",
+      "credits": 3
+    },
+    {
+      "id": "ISSCM349",
+      "code": "ISSCM 349",
+      "title": "Project Management",
+      "credits": 3
+    },
+    {
+      "id": "ISSCM393",
+      "code": "ISSCM 393",
+      "title": "Requirements Analysis and Communication",
+      "credits": 3
+    },
+    {
+      "id": "ISSCM395",
+      "code": "ISSCM 395",
+      "title": "Independent Study in ISSCM",
+      "credits": 1
+    },
+    {
+      "id": "ISSCM399",
+      "code": "ISSCM 399",
+      "title": "Special Topics in ISSCM",
+      "credits": 1
+    },
+    {
+      "id": "ISSCM486E",
+      "code": "ISSCM 486E",
+      "title": "Global Supply Chain Management",
+      "credits": 5
+    },
+    {
+      "id": "ISSCM491E",
+      "code": "ISSCM 491E",
+      "title": "Data Analysis for Managers",
+      "credits": 3
+    },
+    {
+      "id": "ISSCM595",
+      "code": "ISSCM 595",
+      "title": "Decision Analysis",
+      "credits": 3
+    },
+    {
+      "id": "ISSCM799",
+      "code": "ISSCM 799",
+      "title": "Special Topics- Information Systems & Supply Chain Management",
+      "credits": 3
+    }
+  ]
+}

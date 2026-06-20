@@ -1,0 +1,501 @@
+{
+  "catalog": "2026-2027",
+  "code": "SPAN",
+  "name": "Spanish",
+  "sourceUrl": "https://catalog.luc.edu/course-descriptions/span/",
+  "fetchedAt": "2026-06-20",
+  "courses": [
+    {
+      "id": "SPAN101",
+      "code": "SPAN 101",
+      "title": "Spanish I",
+      "credits": 3
+    },
+    {
+      "id": "SPAN102",
+      "code": "SPAN 102",
+      "title": "Spanish II",
+      "credits": 3
+    },
+    {
+      "id": "SPAN103",
+      "code": "SPAN 103",
+      "title": "Spanish III",
+      "credits": 3
+    },
+    {
+      "id": "SPAN104",
+      "code": "SPAN 104",
+      "title": "Spanish IV",
+      "credits": 3
+    },
+    {
+      "id": "SPAN190",
+      "code": "SPAN 190",
+      "title": "Spanish for Medical Professionals I",
+      "credits": 3
+    },
+    {
+      "id": "SPAN195",
+      "code": "SPAN 195",
+      "title": "Spanish for Medical Interpretation",
+      "credits": 3
+    },
+    {
+      "id": "SPAN250",
+      "code": "SPAN 250",
+      "title": "Composition & Conversation I",
+      "credits": 3
+    },
+    {
+      "id": "SPAN251",
+      "code": "SPAN 251",
+      "title": "Composition & Conversation II",
+      "credits": 3
+    },
+    {
+      "id": "SPAN252",
+      "code": "SPAN 252",
+      "title": "Composition & Conversation: Native Speakers",
+      "credits": 3
+    },
+    {
+      "id": "SPAN253",
+      "code": "SPAN 253",
+      "title": "Advanced Composition & Conversation: Native Speakers",
+      "credits": 3
+    },
+    {
+      "id": "SPAN270",
+      "code": "SPAN 270",
+      "title": "Introduction to Critical Analysis in Spanish",
+      "credits": 3
+    },
+    {
+      "id": "SPAN271",
+      "code": "SPAN 271",
+      "title": "Introduction to Iberian Literature and Culture",
+      "credits": 3
+    },
+    {
+      "id": "SPAN272",
+      "code": "SPAN 272",
+      "title": "Introduction to Spanish American Literature and Culture",
+      "credits": 3
+    },
+    {
+      "id": "SPAN282",
+      "code": "SPAN 282",
+      "title": "Studies in a Theme",
+      "credits": 3
+    },
+    {
+      "id": "SPAN300",
+      "code": "SPAN 300",
+      "title": "Tutorial for Credit",
+      "credits": 1
+    },
+    {
+      "id": "SPAN302",
+      "code": "SPAN 302",
+      "title": "Business Spanish",
+      "credits": 3
+    },
+    {
+      "id": "SPAN305",
+      "code": "SPAN 305",
+      "title": "Advanced Spanish Grammar",
+      "credits": 3
+    },
+    {
+      "id": "SPAN308",
+      "code": "SPAN 308",
+      "title": "Literary Criticism",
+      "credits": 3
+    },
+    {
+      "id": "SPAN311",
+      "code": "SPAN 311",
+      "title": "Generation of 1898",
+      "credits": 3
+    },
+    {
+      "id": "SPAN314",
+      "code": "SPAN 314",
+      "title": "Survey of Medieval Literature",
+      "credits": 3
+    },
+    {
+      "id": "SPAN319",
+      "code": "SPAN 319",
+      "title": "Romanticism",
+      "credits": 3
+    },
+    {
+      "id": "SPAN321",
+      "code": "SPAN 321",
+      "title": "20th Century Theatre",
+      "credits": 3
+    },
+    {
+      "id": "SPAN326",
+      "code": "SPAN 326",
+      "title": "Theater of The Golden Age",
+      "credits": 3
+    },
+    {
+      "id": "SPAN330",
+      "code": "SPAN 330",
+      "title": "Survey-Poetry Theory & Practice",
+      "credits": 3
+    },
+    {
+      "id": "SPAN331",
+      "code": "SPAN 331",
+      "title": "20th Century Poetry",
+      "credits": 3
+    },
+    {
+      "id": "SPAN336",
+      "code": "SPAN 336",
+      "title": "Poetry of The Golden Age",
+      "credits": 3
+    },
+    {
+      "id": "SPAN339",
+      "code": "SPAN 339",
+      "title": "19th Century Poetry",
+      "credits": 3
+    },
+    {
+      "id": "SPAN340",
+      "code": "SPAN 340",
+      "title": "Survey Prose-Fictional & Nonfiction",
+      "credits": 3
+    },
+    {
+      "id": "SPAN341",
+      "code": "SPAN 341",
+      "title": "20th Century Spanish Literature",
+      "credits": 3
+    },
+    {
+      "id": "SPAN346",
+      "code": "SPAN 346",
+      "title": "Prose of The Golden Age",
+      "credits": 3
+    },
+    {
+      "id": "SPAN347",
+      "code": "SPAN 347",
+      "title": "Cervantes Don Quijote",
+      "credits": 3
+    },
+    {
+      "id": "SPAN349",
+      "code": "SPAN 349",
+      "title": "Realism and Naturalism",
+      "credits": 3
+    },
+    {
+      "id": "SPAN352",
+      "code": "SPAN 352",
+      "title": "Masterpieces of Latin American Literature",
+      "credits": 3
+    },
+    {
+      "id": "SPAN353",
+      "code": "SPAN 353",
+      "title": "Literary Masterpieces of Spain",
+      "credits": 3
+    },
+    {
+      "id": "SPAN360",
+      "code": "SPAN 360",
+      "title": "Intro to Hispanic Linguistics",
+      "credits": 3
+    },
+    {
+      "id": "SPAN361",
+      "code": "SPAN 361",
+      "title": "Hispanic Women Writers",
+      "credits": 3
+    },
+    {
+      "id": "SPAN362",
+      "code": "SPAN 362",
+      "title": "History of Hispanic Feminism",
+      "credits": 3
+    },
+    {
+      "id": "SPAN363",
+      "code": "SPAN 363",
+      "title": "Borges",
+      "credits": 3
+    },
+    {
+      "id": "SPAN364",
+      "code": "SPAN 364",
+      "title": "Advanced Spanish Oral Expression",
+      "credits": 3
+    },
+    {
+      "id": "SPAN365",
+      "code": "SPAN 365",
+      "title": "Latin American Cinema",
+      "credits": 3
+    },
+    {
+      "id": "SPAN366",
+      "code": "SPAN 366",
+      "title": "Spanish Cinema",
+      "credits": 3
+    },
+    {
+      "id": "SPAN367",
+      "code": "SPAN 367",
+      "title": "Spanish Sociolinguistics",
+      "credits": 3
+    },
+    {
+      "id": "SPAN368",
+      "code": "SPAN 368",
+      "title": "Baroque and Neobaroque",
+      "credits": 3
+    },
+    {
+      "id": "SPAN370",
+      "code": "SPAN 370",
+      "title": "Latin American Poetry",
+      "credits": 3
+    },
+    {
+      "id": "SPAN371",
+      "code": "SPAN 371",
+      "title": "Latin-American Poetesses",
+      "credits": 3
+    },
+    {
+      "id": "SPAN380",
+      "code": "SPAN 380",
+      "title": "Latin American Prose Fiction",
+      "credits": 3
+    },
+    {
+      "id": "SPAN381",
+      "code": "SPAN 381",
+      "title": "Contemporary Spanish-American Novel",
+      "credits": 3
+    },
+    {
+      "id": "SPAN382",
+      "code": "SPAN 382",
+      "title": "Latin American Theatre",
+      "credits": 3
+    },
+    {
+      "id": "SPAN385",
+      "code": "SPAN 385",
+      "title": "Caribbean Literature",
+      "credits": 3
+    },
+    {
+      "id": "SPAN389",
+      "code": "SPAN 389",
+      "title": "Latin American Short Story",
+      "credits": 3
+    },
+    {
+      "id": "SPAN390",
+      "code": "SPAN 390",
+      "title": "Latin American Culture and Civilization",
+      "credits": 3
+    },
+    {
+      "id": "SPAN391",
+      "code": "SPAN 391",
+      "title": "Spanish Culture and Civilization",
+      "credits": 3
+    },
+    {
+      "id": "SPAN395",
+      "code": "SPAN 395",
+      "title": "Internship",
+      "credits": 3
+    },
+    {
+      "id": "SPAN396",
+      "code": "SPAN 396",
+      "title": "Saints and Sinners of Spain",
+      "credits": 3
+    },
+    {
+      "id": "SPAN397",
+      "code": "SPAN 397",
+      "title": "Topics in Hispanic Literature",
+      "credits": 3
+    },
+    {
+      "id": "SPAN402",
+      "code": "SPAN 402",
+      "title": "Methods of Teaching Spanish",
+      "credits": 3
+    },
+    {
+      "id": "SPAN403",
+      "code": "SPAN 403",
+      "title": "Structure of Modern Spanish",
+      "credits": 3
+    },
+    {
+      "id": "SPAN405",
+      "code": "SPAN 405",
+      "title": "Critical Methods",
+      "credits": 3
+    },
+    {
+      "id": "SPAN410",
+      "code": "SPAN 410",
+      "title": "General Linguistics & Romance Languages",
+      "credits": 3
+    },
+    {
+      "id": "SPAN415",
+      "code": "SPAN 415",
+      "title": "Medieval Spanish Literature",
+      "credits": 3
+    },
+    {
+      "id": "SPAN416",
+      "code": "SPAN 416",
+      "title": "Golden Age of Spanish Literature",
+      "credits": 3
+    },
+    {
+      "id": "SPAN419",
+      "code": "SPAN 419",
+      "title": "Romanticism in Spanish Literature",
+      "credits": 3
+    },
+    {
+      "id": "SPAN420",
+      "code": "SPAN 420",
+      "title": "Realism & Naturalism",
+      "credits": 3
+    },
+    {
+      "id": "SPAN421",
+      "code": "SPAN 421",
+      "title": "Theatre of Twentieth Century",
+      "credits": 3
+    },
+    {
+      "id": "SPAN426",
+      "code": "SPAN 426",
+      "title": "Theater of The Golden Age",
+      "credits": 3
+    },
+    {
+      "id": "SPAN431",
+      "code": "SPAN 431",
+      "title": "Poetry of The 20th Century",
+      "credits": 3
+    },
+    {
+      "id": "SPAN436",
+      "code": "SPAN 436",
+      "title": "Poetry of The Golden Age",
+      "credits": 3
+    },
+    {
+      "id": "SPAN437",
+      "code": "SPAN 437",
+      "title": "Golden Age-Spanish Mysticism",
+      "credits": 3
+    },
+    {
+      "id": "SPAN441",
+      "code": "SPAN 441",
+      "title": "Prose of The 20th Century",
+      "credits": 3
+    },
+    {
+      "id": "SPAN446",
+      "code": "SPAN 446",
+      "title": "Prose of The Golden Age",
+      "credits": 3
+    },
+    {
+      "id": "SPAN447",
+      "code": "SPAN 447",
+      "title": "Don Quijote",
+      "credits": 3
+    },
+    {
+      "id": "SPAN470",
+      "code": "SPAN 470",
+      "title": "Hispanic-American Poetry",
+      "credits": 3
+    },
+    {
+      "id": "SPAN480",
+      "code": "SPAN 480",
+      "title": "Hispanic-American Novel",
+      "credits": 3
+    },
+    {
+      "id": "SPAN487",
+      "code": "SPAN 487",
+      "title": "La Novela De La Revolucion Mexico",
+      "credits": 3
+    },
+    {
+      "id": "SPAN489",
+      "code": "SPAN 489",
+      "title": "Cuento Hispano-Americano",
+      "credits": 3
+    },
+    {
+      "id": "SPAN490",
+      "code": "SPAN 490",
+      "title": "Hispanic Culture & Civilization",
+      "credits": 3
+    },
+    {
+      "id": "SPAN499",
+      "code": "SPAN 499",
+      "title": "Graduate Internship",
+      "credits": 1
+    },
+    {
+      "id": "SPAN500",
+      "code": "SPAN 500",
+      "title": "Directed Readings",
+      "credits": 3
+    },
+    {
+      "id": "SPAN501",
+      "code": "SPAN 501",
+      "title": "Thesis Research",
+      "credits": 3
+    },
+    {
+      "id": "SPAN595",
+      "code": "SPAN 595",
+      "title": "Thesis Supervision",
+      "credits": 0
+    },
+    {
+      "id": "SPAN599",
+      "code": "SPAN 599",
+      "title": "Directed Primary Research",
+      "credits": 3
+    },
+    {
+      "id": "SPAN605",
+      "code": "SPAN 605",
+      "title": "Master's Study",
+      "credits": 0
+    }
+  ]
+}

@@ -1,0 +1,315 @@
+{
+  "catalog": "2026-2027",
+  "code": "STAT",
+  "name": "Statistics",
+  "sourceUrl": "https://catalog.luc.edu/course-descriptions/stat/",
+  "fetchedAt": "2026-06-20",
+  "courses": [
+    {
+      "id": "STAT103",
+      "code": "STAT 103",
+      "title": "Fundamentals of Statistics",
+      "credits": 3
+    },
+    {
+      "id": "STAT203",
+      "code": "STAT 203",
+      "title": "Introduction to Probability & Statistics",
+      "credits": 3
+    },
+    {
+      "id": "STAT303",
+      "code": "STAT 303",
+      "title": "SAS Programming and Applied Statistics",
+      "credits": 3
+    },
+    {
+      "id": "STAT304",
+      "code": "STAT 304",
+      "title": "Introduction to Probability",
+      "credits": 3
+    },
+    {
+      "id": "STAT305",
+      "code": "STAT 305",
+      "title": "Introduction to Mathematical Statistics",
+      "credits": 3
+    },
+    {
+      "id": "STAT306",
+      "code": "STAT 306",
+      "title": "Introduction to Stochastic Processes",
+      "credits": 3
+    },
+    {
+      "id": "STAT307",
+      "code": "STAT 307",
+      "title": "Statistical Design & Analysis of Experiments",
+      "credits": 3
+    },
+    {
+      "id": "STAT308",
+      "code": "STAT 308",
+      "title": "Applied Regression Analysis",
+      "credits": 3
+    },
+    {
+      "id": "STAT310",
+      "code": "STAT 310",
+      "title": "Categorical Data Analysis",
+      "credits": 3
+    },
+    {
+      "id": "STAT311",
+      "code": "STAT 311",
+      "title": "Applied Survival Analysis",
+      "credits": 3
+    },
+    {
+      "id": "STAT321",
+      "code": "STAT 321",
+      "title": "Computational Aspects of Modeling and Simulation",
+      "credits": 3
+    },
+    {
+      "id": "STAT335",
+      "code": "STAT 335",
+      "title": "Introduction to Biostatistics",
+      "credits": 3
+    },
+    {
+      "id": "STAT336",
+      "code": "STAT 336",
+      "title": "Advanced Biostatistics",
+      "credits": 3
+    },
+    {
+      "id": "STAT337",
+      "code": "STAT 337",
+      "title": "Quantitative Methods in Bioinformatics",
+      "credits": 3
+    },
+    {
+      "id": "STAT338",
+      "code": "STAT 338",
+      "title": "Predictive Analytics",
+      "credits": 3
+    },
+    {
+      "id": "STAT344",
+      "code": "STAT 344",
+      "title": "Longitudinal Data Analysis and Mixed Modelling",
+      "credits": 3
+    },
+    {
+      "id": "STAT351",
+      "code": "STAT 351",
+      "title": "Nonparametric Statistical Methods",
+      "credits": 3
+    },
+    {
+      "id": "STAT360",
+      "code": "STAT 360",
+      "title": "Introduction to Bayesian Statistics",
+      "credits": 3
+    },
+    {
+      "id": "STAT364",
+      "code": "STAT 364",
+      "title": "Introduction to Multivariate Statistics",
+      "credits": 3
+    },
+    {
+      "id": "STAT370",
+      "code": "STAT 370",
+      "title": "Data Science Consulting",
+      "credits": 3
+    },
+    {
+      "id": "STAT388",
+      "code": "STAT 388",
+      "title": "Topics",
+      "credits": 1
+    },
+    {
+      "id": "STAT390",
+      "code": "STAT 390",
+      "title": "Undergraduate Seminar",
+      "credits": 1
+    },
+    {
+      "id": "STAT391",
+      "code": "STAT 391",
+      "title": "Internship in Actuarial Science",
+      "credits": 1
+    },
+    {
+      "id": "STAT396",
+      "code": "STAT 396",
+      "title": "Actuarial Seminar I",
+      "credits": 1
+    },
+    {
+      "id": "STAT397",
+      "code": "STAT 397",
+      "title": "Actuarial Seminar II",
+      "credits": 1
+    },
+    {
+      "id": "STAT398",
+      "code": "STAT 398",
+      "title": "Independent Study",
+      "credits": 1
+    },
+    {
+      "id": "STAT399H",
+      "code": "STAT 399H",
+      "title": "Honors Tutorial",
+      "credits": 1
+    },
+    {
+      "id": "STAT401",
+      "code": "STAT 401",
+      "title": "Introduction to Applied Statistics Using R",
+      "credits": 1
+    },
+    {
+      "id": "STAT403",
+      "code": "STAT 403",
+      "title": "SAS Program & Applied Statistics",
+      "credits": 3
+    },
+    {
+      "id": "STAT404",
+      "code": "STAT 404",
+      "title": "Probability & Statistics I",
+      "credits": 3
+    },
+    {
+      "id": "STAT405",
+      "code": "STAT 405",
+      "title": "Probability & Statistics II",
+      "credits": 3
+    },
+    {
+      "id": "STAT406",
+      "code": "STAT 406",
+      "title": "Stochastic Processes",
+      "credits": 3
+    },
+    {
+      "id": "STAT407",
+      "code": "STAT 407",
+      "title": "Statistical Design",
+      "credits": 3
+    },
+    {
+      "id": "STAT408",
+      "code": "STAT 408",
+      "title": "Applied Regression Analysis",
+      "credits": 3
+    },
+    {
+      "id": "STAT410",
+      "code": "STAT 410",
+      "title": "Categorical Data Analysis",
+      "credits": 3
+    },
+    {
+      "id": "STAT411",
+      "code": "STAT 411",
+      "title": "Applied Survival Analysis",
+      "credits": 3
+    },
+    {
+      "id": "STAT421",
+      "code": "STAT 421",
+      "title": "Math Modeling & Simulation",
+      "credits": 3
+    },
+    {
+      "id": "STAT426",
+      "code": "STAT 426",
+      "title": "Advanced Statistical Inference",
+      "credits": 3
+    },
+    {
+      "id": "STAT436",
+      "code": "STAT 436",
+      "title": "Topics in Biostatistics",
+      "credits": 3
+    },
+    {
+      "id": "STAT437",
+      "code": "STAT 437",
+      "title": "Quantitative Bioinformatics",
+      "credits": 3
+    },
+    {
+      "id": "STAT438",
+      "code": "STAT 438",
+      "title": "Introduction to Predictive Analytics",
+      "credits": 3
+    },
+    {
+      "id": "STAT444",
+      "code": "STAT 444",
+      "title": "Longitudinal Data Analysis and Mixed Modeling",
+      "credits": 3
+    },
+    {
+      "id": "STAT451",
+      "code": "STAT 451",
+      "title": "Applied Nonparametric Methods",
+      "credits": 3
+    },
+    {
+      "id": "STAT460",
+      "code": "STAT 460",
+      "title": "Bayesian Statistical Methods",
+      "credits": 3
+    },
+    {
+      "id": "STAT464",
+      "code": "STAT 464",
+      "title": "Multivariate Statistical Methods",
+      "credits": 3
+    },
+    {
+      "id": "STAT465",
+      "code": "STAT 465",
+      "title": "Actuarial Theory I",
+      "credits": 0
+    },
+    {
+      "id": "STAT466",
+      "code": "STAT 466",
+      "title": "Actuarial Theory II",
+      "credits": 0
+    },
+    {
+      "id": "STAT468",
+      "code": "STAT 468",
+      "title": "Risk Theory",
+      "credits": 0
+    },
+    {
+      "id": "STAT488",
+      "code": "STAT 488",
+      "title": "Topics in Statistics",
+      "credits": 1
+    },
+    {
+      "id": "STAT495",
+      "code": "STAT 495",
+      "title": "Statistical Consulting Capstone",
+      "credits": 2
+    },
+    {
+      "id": "STAT498",
+      "code": "STAT 498",
+      "title": "Independent Study Statistics",
+      "credits": 1
+    }
+  ]
+}

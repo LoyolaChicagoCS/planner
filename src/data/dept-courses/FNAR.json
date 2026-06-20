@@ -1,0 +1,477 @@
+{
+  "catalog": "2026-2027",
+  "code": "FNAR",
+  "name": "Fine and Performing Arts",
+  "sourceUrl": "https://catalog.luc.edu/course-descriptions/fnar/",
+  "fetchedAt": "2026-06-20",
+  "courses": [
+    {
+      "id": "FNAR110",
+      "code": "FNAR 110",
+      "title": "Foundations of Visual Art",
+      "credits": 3
+    },
+    {
+      "id": "FNAR112",
+      "code": "FNAR 112",
+      "title": "Two-Dimensional Design",
+      "credits": 3
+    },
+    {
+      "id": "FNAR113",
+      "code": "FNAR 113",
+      "title": "Drawing I",
+      "credits": 3
+    },
+    {
+      "id": "FNAR114",
+      "code": "FNAR 114",
+      "title": "Painting I",
+      "credits": 3
+    },
+    {
+      "id": "FNAR115",
+      "code": "FNAR 115",
+      "title": "Foundations of Photography",
+      "credits": 3
+    },
+    {
+      "id": "FNAR118",
+      "code": "FNAR 118",
+      "title": "Printmaking I",
+      "credits": 3
+    },
+    {
+      "id": "FNAR120",
+      "code": "FNAR 120",
+      "title": "Ceramics: Handbuilding",
+      "credits": 3
+    },
+    {
+      "id": "FNAR121",
+      "code": "FNAR 121",
+      "title": "Ceramics: Wheelthrowing",
+      "credits": 3
+    },
+    {
+      "id": "FNAR123",
+      "code": "FNAR 123",
+      "title": "Metalwork and Jewelry I",
+      "credits": 3
+    },
+    {
+      "id": "FNAR124",
+      "code": "FNAR 124",
+      "title": "Sculpture Foundations",
+      "credits": 3
+    },
+    {
+      "id": "FNAR132",
+      "code": "FNAR 132",
+      "title": "Visual Communication I",
+      "credits": 3
+    },
+    {
+      "id": "FNAR160",
+      "code": "FNAR 160",
+      "title": "The Crafts of China",
+      "credits": 3
+    },
+    {
+      "id": "FNAR190",
+      "code": "FNAR 190",
+      "title": "Color Theory",
+      "credits": 3
+    },
+    {
+      "id": "FNAR195",
+      "code": "FNAR 195",
+      "title": "Topics in Fine Arts Pre-Collegiate",
+      "credits": 3
+    },
+    {
+      "id": "FNAR199",
+      "code": "FNAR 199",
+      "title": "Art and Visual Culture",
+      "credits": 3
+    },
+    {
+      "id": "FNAR200",
+      "code": "FNAR 200",
+      "title": "Global Art History: Prehistoric to 600 CE",
+      "credits": 3
+    },
+    {
+      "id": "FNAR200R",
+      "code": "FNAR 200R",
+      "title": "Art History: Pre-History to Renaissance in Rome",
+      "credits": 3
+    },
+    {
+      "id": "FNAR201",
+      "code": "FNAR 201",
+      "title": "Global Art History: 600-1800CE",
+      "credits": 3
+    },
+    {
+      "id": "FNAR202",
+      "code": "FNAR 202",
+      "title": "Global Art History: Modern Art",
+      "credits": 3
+    },
+    {
+      "id": "FNAR203",
+      "code": "FNAR 203",
+      "title": "Chicago: Face of a City",
+      "credits": 3
+    },
+    {
+      "id": "FNAR207",
+      "code": "FNAR 207",
+      "title": "Women, Art, and Society",
+      "credits": 3
+    },
+    {
+      "id": "FNAR213",
+      "code": "FNAR 213",
+      "title": "Drawing II",
+      "credits": 3
+    },
+    {
+      "id": "FNAR214",
+      "code": "FNAR 214",
+      "title": "Painting II",
+      "credits": 3
+    },
+    {
+      "id": "FNAR216",
+      "code": "FNAR 216",
+      "title": "Lighting Techniques for Photography and Video Art",
+      "credits": 3
+    },
+    {
+      "id": "FNAR218",
+      "code": "FNAR 218",
+      "title": "Printmaking II",
+      "credits": 3
+    },
+    {
+      "id": "FNAR219",
+      "code": "FNAR 219",
+      "title": "Photography: Digital Imaging",
+      "credits": 3
+    },
+    {
+      "id": "FNAR222",
+      "code": "FNAR 222",
+      "title": "Sculpture/Ceramics: Intermediate Studio",
+      "credits": 3
+    },
+    {
+      "id": "FNAR232",
+      "code": "FNAR 232",
+      "title": "Visual Communication II",
+      "credits": 3
+    },
+    {
+      "id": "FNAR233",
+      "code": "FNAR 233",
+      "title": "Digital Media Design",
+      "credits": 3
+    },
+    {
+      "id": "FNAR234",
+      "code": "FNAR 234",
+      "title": "Digital Media: Vector",
+      "credits": 3
+    },
+    {
+      "id": "FNAR251",
+      "code": "FNAR 251",
+      "title": "African-American Art",
+      "credits": 3
+    },
+    {
+      "id": "FNAR260",
+      "code": "FNAR 260",
+      "title": "The Art of Bookbinding",
+      "credits": 3
+    },
+    {
+      "id": "FNAR303",
+      "code": "FNAR 303",
+      "title": "Visual Arts Pedagogy",
+      "credits": 3
+    },
+    {
+      "id": "FNAR304",
+      "code": "FNAR 304",
+      "title": "Paris in the Nineteenth Century",
+      "credits": 3
+    },
+    {
+      "id": "FNAR305",
+      "code": "FNAR 305",
+      "title": "American Art to 1945",
+      "credits": 3
+    },
+    {
+      "id": "FNAR306",
+      "code": "FNAR 306",
+      "title": "Contemporary Art 1945-Present",
+      "credits": 3
+    },
+    {
+      "id": "FNAR311",
+      "code": "FNAR 311",
+      "title": "Advanced Studio",
+      "credits": 3
+    },
+    {
+      "id": "FNAR314",
+      "code": "FNAR 314",
+      "title": "Painting III",
+      "credits": 3
+    },
+    {
+      "id": "FNAR315",
+      "code": "FNAR 315",
+      "title": "Photography: Films and Cameras",
+      "credits": 3
+    },
+    {
+      "id": "FNAR318",
+      "code": "FNAR 318",
+      "title": "Printmaking III",
+      "credits": 3
+    },
+    {
+      "id": "FNAR320",
+      "code": "FNAR 320",
+      "title": "Video Art",
+      "credits": 3
+    },
+    {
+      "id": "FNAR322",
+      "code": "FNAR 322",
+      "title": "Sculpture & Ceramics: Advanced Studio",
+      "credits": 3
+    },
+    {
+      "id": "FNAR332",
+      "code": "FNAR 332",
+      "title": "Visual Communication III",
+      "credits": 3
+    },
+    {
+      "id": "FNAR333",
+      "code": "FNAR 333",
+      "title": "Explorations in Typography",
+      "credits": 3
+    },
+    {
+      "id": "FNAR334",
+      "code": "FNAR 334",
+      "title": "Motion Design",
+      "credits": 3
+    },
+    {
+      "id": "FNAR338",
+      "code": "FNAR 338",
+      "title": "Medieval Art",
+      "credits": 3
+    },
+    {
+      "id": "FNAR341",
+      "code": "FNAR 341",
+      "title": "Renaissance Art - Painting",
+      "credits": 3
+    },
+    {
+      "id": "FNAR342",
+      "code": "FNAR 342",
+      "title": "Art in Rome",
+      "credits": 3
+    },
+    {
+      "id": "FNAR343",
+      "code": "FNAR 343",
+      "title": "Baroque Art",
+      "credits": 3
+    },
+    {
+      "id": "FNAR344",
+      "code": "FNAR 344",
+      "title": "Early Italian Renaissance Art",
+      "credits": 3
+    },
+    {
+      "id": "FNAR345",
+      "code": "FNAR 345",
+      "title": "Italian High Renaissance and Mannerist Art",
+      "credits": 3
+    },
+    {
+      "id": "FNAR349",
+      "code": "FNAR 349",
+      "title": "Art and the Catholic Tradition",
+      "credits": 3
+    },
+    {
+      "id": "FNAR351",
+      "code": "FNAR 351",
+      "title": "Latin American Art I: Ancient to 19th Century",
+      "credits": 3
+    },
+    {
+      "id": "FNAR352",
+      "code": "FNAR 352",
+      "title": "Islam and Visual Culture",
+      "credits": 3
+    },
+    {
+      "id": "FNAR353",
+      "code": "FNAR 353",
+      "title": "Latin American Art II: Modern to Contemporary",
+      "credits": 3
+    },
+    {
+      "id": "FNAR355",
+      "code": "FNAR 355",
+      "title": "Art of Africa",
+      "credits": 3
+    },
+    {
+      "id": "FNAR356",
+      "code": "FNAR 356",
+      "title": "India, Women and Visual Culture",
+      "credits": 3
+    },
+    {
+      "id": "FNAR357",
+      "code": "FNAR 357",
+      "title": "South Asian Visual Culture",
+      "credits": 3
+    },
+    {
+      "id": "FNAR358",
+      "code": "FNAR 358",
+      "title": "Chinese Art and Culture",
+      "credits": 3
+    },
+    {
+      "id": "FNAR359",
+      "code": "FNAR 359",
+      "title": "Japanese Art and Culture",
+      "credits": 3
+    },
+    {
+      "id": "FNAR360",
+      "code": "FNAR 360",
+      "title": "Picturing Women in Renaissance and Baroque Art",
+      "credits": 3
+    },
+    {
+      "id": "FNAR364",
+      "code": "FNAR 364",
+      "title": "History of Graphic Design",
+      "credits": 3
+    },
+    {
+      "id": "FNAR365",
+      "code": "FNAR 365",
+      "title": "History of Photography",
+      "credits": 3
+    },
+    {
+      "id": "FNAR367",
+      "code": "FNAR 367",
+      "title": "History of Architecture",
+      "credits": 3
+    },
+    {
+      "id": "FNAR367R",
+      "code": "FNAR 367R",
+      "title": "Architecture in Rome",
+      "credits": 3
+    },
+    {
+      "id": "FNAR368",
+      "code": "FNAR 368",
+      "title": "Fine Arts Internship",
+      "credits": 1
+    },
+    {
+      "id": "FNAR380",
+      "code": "FNAR 380",
+      "title": "Internship I",
+      "credits": 1
+    },
+    {
+      "id": "FNAR381",
+      "code": "FNAR 381",
+      "title": "Internship II",
+      "credits": 1
+    },
+    {
+      "id": "FNAR382",
+      "code": "FNAR 382",
+      "title": "Visual Communication IV",
+      "credits": 3
+    },
+    {
+      "id": "FNAR383",
+      "code": "FNAR 383",
+      "title": "Interactive Design",
+      "credits": 3
+    },
+    {
+      "id": "FNAR388",
+      "code": "FNAR 388",
+      "title": "Critical Approaches to Visual Art",
+      "credits": 3
+    },
+    {
+      "id": "FNAR390",
+      "code": "FNAR 390",
+      "title": "Art History: Methods and Research",
+      "credits": 3
+    },
+    {
+      "id": "FNAR391",
+      "code": "FNAR 391",
+      "title": "Senior Thesis in Art History",
+      "credits": 3
+    },
+    {
+      "id": "FNAR392",
+      "code": "FNAR 392",
+      "title": "Senior Thesis II: FNAR Art History Capstone",
+      "credits": 3
+    },
+    {
+      "id": "FNAR393",
+      "code": "FNAR 393",
+      "title": "Topics in Studio Art",
+      "credits": 3
+    },
+    {
+      "id": "FNAR394",
+      "code": "FNAR 394",
+      "title": "Topics in Art History",
+      "credits": 1
+    },
+    {
+      "id": "FNAR398",
+      "code": "FNAR 398",
+      "title": "Fine Arts Capstone",
+      "credits": 3
+    },
+    {
+      "id": "FNAR399",
+      "code": "FNAR 399",
+      "title": "Independent Study",
+      "credits": 1
+    }
+  ]
+}

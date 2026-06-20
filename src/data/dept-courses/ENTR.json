@@ -1,0 +1,87 @@
+{
+  "catalog": "2026-2027",
+  "code": "ENTR",
+  "name": "Entrepreneurship",
+  "sourceUrl": "https://catalog.luc.edu/course-descriptions/entr/",
+  "fetchedAt": "2026-06-20",
+  "courses": [
+    {
+      "id": "ENTR201",
+      "code": "ENTR 201",
+      "title": "Essentials of Entrepreneurship",
+      "credits": 3
+    },
+    {
+      "id": "ENTR311",
+      "code": "ENTR 311",
+      "title": "Social Entrepreneurship",
+      "credits": 3
+    },
+    {
+      "id": "ENTR313",
+      "code": "ENTR 313",
+      "title": "Entrepreneurship - Global Opportunity Scan",
+      "credits": 3
+    },
+    {
+      "id": "ENTR345",
+      "code": "ENTR 345",
+      "title": "Entrepreneurial Marketing",
+      "credits": 3
+    },
+    {
+      "id": "ENTR390",
+      "code": "ENTR 390",
+      "title": "Entrepreneurship Strategies - Capstone",
+      "credits": 3
+    },
+    {
+      "id": "ENTR391",
+      "code": "ENTR 391",
+      "title": "New Venture Lab",
+      "credits": 3
+    },
+    {
+      "id": "ENTR395",
+      "code": "ENTR 395",
+      "title": "Independent Study",
+      "credits": 1
+    },
+    {
+      "id": "ENTR399",
+      "code": "ENTR 399",
+      "title": "Selected Topics in Entrepreneurship",
+      "credits": 3
+    },
+    {
+      "id": "ENTR480",
+      "code": "ENTR 480",
+      "title": "Recognizing Entrepreneurial Opportunities",
+      "credits": 3
+    },
+    {
+      "id": "ENTR481",
+      "code": "ENTR 481",
+      "title": "Entrepreneurship",
+      "credits": 3
+    },
+    {
+      "id": "ENTR482",
+      "code": "ENTR 482",
+      "title": "Entrepreneurial Marketing",
+      "credits": 3
+    },
+    {
+      "id": "ENTR483",
+      "code": "ENTR 483",
+      "title": "Strategic Entrepreneurship and Innovation Management",
+      "credits": 3
+    },
+    {
+      "id": "ENTR499",
+      "code": "ENTR 499",
+      "title": "Special Topics in Entrepreneurship",
+      "credits": 3
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "catalog": "2026-2027",
+  "code": "NEUR",
+  "name": "Neuroscience",
+  "sourceUrl": "https://catalog.luc.edu/course-descriptions/neur/",
+  "fetchedAt": "2026-06-20",
+  "courses": [
+    {
+      "id": "NEUR101",
+      "code": "NEUR 101",
+      "title": "Introduction to Neuroscience",
+      "credits": 3
+    },
+    {
+      "id": "NEUR300",
+      "code": "NEUR 300",
+      "title": "Seminar in Neuroscience",
+      "credits": 1
+    }
+  ]
+}

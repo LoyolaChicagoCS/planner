@@ -1,0 +1,195 @@
+{
+  "catalog": "2026-2027",
+  "code": "SCMG",
+  "name": "Supply Chain Management",
+  "sourceUrl": "https://catalog.luc.edu/course-descriptions/scmg/",
+  "fetchedAt": "2026-06-20",
+  "courses": [
+    {
+      "id": "SCMG232",
+      "code": "SCMG 232",
+      "title": "Introduction to Supply Chain Management",
+      "credits": 3
+    },
+    {
+      "id": "SCMG232H",
+      "code": "SCMG 232H",
+      "title": "Introduction to Supply Chain Management-Honors",
+      "credits": 3
+    },
+    {
+      "id": "SCMG332",
+      "code": "SCMG 332",
+      "title": "Operations Management",
+      "credits": 3
+    },
+    {
+      "id": "SCMG332H",
+      "code": "SCMG 332H",
+      "title": "Operations Management - Honors",
+      "credits": 3
+    },
+    {
+      "id": "SCMG337",
+      "code": "SCMG 337",
+      "title": "Inventory and Warehouse Management",
+      "credits": 3
+    },
+    {
+      "id": "SCMG338",
+      "code": "SCMG 338",
+      "title": "Global Transportation",
+      "credits": 3
+    },
+    {
+      "id": "SCMG340",
+      "code": "SCMG 340",
+      "title": "Global Procurement",
+      "credits": 3
+    },
+    {
+      "id": "SCMG341",
+      "code": "SCMG 341",
+      "title": "Supply Chain Analytics",
+      "credits": 3
+    },
+    {
+      "id": "SCMG342",
+      "code": "SCMG 342",
+      "title": "Supply Chain Optimization",
+      "credits": 3
+    },
+    {
+      "id": "SCMG346",
+      "code": "SCMG 346",
+      "title": "Analytics for Social Good",
+      "credits": 3
+    },
+    {
+      "id": "SCMG383",
+      "code": "SCMG 383",
+      "title": "Service and Operations Management",
+      "credits": 3
+    },
+    {
+      "id": "SCMG395",
+      "code": "SCMG 395",
+      "title": "Independent Study in Operations Management",
+      "credits": 1
+    },
+    {
+      "id": "SCMG396",
+      "code": "SCMG 396",
+      "title": "Supply Chain Seminar",
+      "credits": 0
+    },
+    {
+      "id": "SCMG399",
+      "code": "SCMG 399",
+      "title": "Special Topics in Operations Management",
+      "credits": 1
+    },
+    {
+      "id": "SCMG480",
+      "code": "SCMG 480",
+      "title": "Intro to Operations Management",
+      "credits": 3
+    },
+    {
+      "id": "SCMG480B",
+      "code": "SCMG 480B",
+      "title": "Operations Management",
+      "credits": 3
+    },
+    {
+      "id": "SCMG480C",
+      "code": "SCMG 480C",
+      "title": "Intro to Operations Management",
+      "credits": 3
+    },
+    {
+      "id": "SCMG481",
+      "code": "SCMG 481",
+      "title": "Performance Improvement in Business Processes",
+      "credits": 3
+    },
+    {
+      "id": "SCMG481E",
+      "code": "SCMG 481E",
+      "title": "Performance Improvement in Business Processes",
+      "credits": 5
+    },
+    {
+      "id": "SCMG482",
+      "code": "SCMG 482",
+      "title": "Lean Production Concepts and Practices",
+      "credits": 3
+    },
+    {
+      "id": "SCMG483",
+      "code": "SCMG 483",
+      "title": "Management of Service Operations",
+      "credits": 3
+    },
+    {
+      "id": "SCMG486",
+      "code": "SCMG 486",
+      "title": "Global Logistics",
+      "credits": 3
+    },
+    {
+      "id": "SCMG486E",
+      "code": "SCMG 486E",
+      "title": "Global Supply Chain Management",
+      "credits": 5
+    },
+    {
+      "id": "SCMG487",
+      "code": "SCMG 487",
+      "title": "Purchasing Management",
+      "credits": 3
+    },
+    {
+      "id": "SCMG488",
+      "code": "SCMG 488",
+      "title": "Inventory Management",
+      "credits": 3
+    },
+    {
+      "id": "SCMG489",
+      "code": "SCMG 489",
+      "title": "Supply Chain Analytics",
+      "credits": 3
+    },
+    {
+      "id": "SCMG499",
+      "code": "SCMG 499",
+      "title": "Independent Study-Production & Operations Management",
+      "credits": 3
+    },
+    {
+      "id": "SCMG589",
+      "code": "SCMG 589",
+      "title": "Supply Chain Management Consulting",
+      "credits": 3
+    },
+    {
+      "id": "SCMG595",
+      "code": "SCMG 595",
+      "title": "Risk Analysis for Business and Supply Chain Strategy",
+      "credits": 3
+    },
+    {
+      "id": "SCMG603E",
+      "code": "SCMG 603E",
+      "title": "Performance Improvement in Business Processes",
+      "credits": 5
+    },
+    {
+      "id": "SCMG799",
+      "code": "SCMG 799",
+      "title": "Special Topics in Supply Chain Management",
+      "credits": 3
+    }
+  ]
+}

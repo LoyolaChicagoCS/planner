@@ -1,0 +1,303 @@
+{
+  "catalog": "2026-2027",
+  "code": "MGMT",
+  "name": "Management",
+  "sourceUrl": "https://catalog.luc.edu/course-descriptions/mgmt/",
+  "fetchedAt": "2026-06-20",
+  "courses": [
+    {
+      "id": "MGMT201",
+      "code": "MGMT 201",
+      "title": "Managing People and Organizations",
+      "credits": 3
+    },
+    {
+      "id": "MGMT201H",
+      "code": "MGMT 201H",
+      "title": "Managing People and Organizations - Honors",
+      "credits": 3
+    },
+    {
+      "id": "MGMT304",
+      "code": "MGMT 304",
+      "title": "Strategic Management",
+      "credits": 3
+    },
+    {
+      "id": "MGMT304H",
+      "code": "MGMT 304H",
+      "title": "Strategic Management - Honors",
+      "credits": 3
+    },
+    {
+      "id": "MGMT318",
+      "code": "MGMT 318",
+      "title": "Organizational Development and Change",
+      "credits": 3
+    },
+    {
+      "id": "MGMT320",
+      "code": "MGMT 320",
+      "title": "Leading and Managing Teams",
+      "credits": 3
+    },
+    {
+      "id": "MGMT331",
+      "code": "MGMT 331",
+      "title": "Managing Nonprofit Organizations",
+      "credits": 3
+    },
+    {
+      "id": "MGMT335",
+      "code": "MGMT 335",
+      "title": "Micro-Enterprise Consulting",
+      "credits": 3
+    },
+    {
+      "id": "MGMT345",
+      "code": "MGMT 345",
+      "title": "Ethics, Economics & Entrepreneurship",
+      "credits": 3
+    },
+    {
+      "id": "MGMT360",
+      "code": "MGMT 360",
+      "title": "Values-Based Leadership",
+      "credits": 3
+    },
+    {
+      "id": "MGMT363",
+      "code": "MGMT 363",
+      "title": "Sustainable Business Management",
+      "credits": 3
+    },
+    {
+      "id": "MGMT377",
+      "code": "MGMT 377",
+      "title": "Family Business Management",
+      "credits": 3
+    },
+    {
+      "id": "MGMT395",
+      "code": "MGMT 395",
+      "title": "Independent Study in Management",
+      "credits": 1
+    },
+    {
+      "id": "MGMT399",
+      "code": "MGMT 399",
+      "title": "Special Topics in Management",
+      "credits": 1
+    },
+    {
+      "id": "MGMT400B",
+      "code": "MGMT 400B",
+      "title": "Values-Based Leadership",
+      "credits": 5
+    },
+    {
+      "id": "MGMT401B",
+      "code": "MGMT 401B",
+      "title": "Innovative Corporate Social Responsibility",
+      "credits": 5
+    },
+    {
+      "id": "MGMT402B",
+      "code": "MGMT 402B",
+      "title": "Social Enterprise",
+      "credits": 5
+    },
+    {
+      "id": "MGMT403B",
+      "code": "MGMT 403B",
+      "title": "Creating Ethical Work Environments",
+      "credits": 5
+    },
+    {
+      "id": "MGMT404B",
+      "code": "MGMT 404B",
+      "title": "ESG Investing",
+      "credits": 5
+    },
+    {
+      "id": "MGMT405B",
+      "code": "MGMT 405B",
+      "title": "Sustainable Business Management",
+      "credits": 5
+    },
+    {
+      "id": "MGMT406B",
+      "code": "MGMT 406B",
+      "title": "Influential Leadership",
+      "credits": 5
+    },
+    {
+      "id": "MGMT407B",
+      "code": "MGMT 407B",
+      "title": "Impact Investing",
+      "credits": 3
+    },
+    {
+      "id": "MGMT426N",
+      "code": "MGMT 426N",
+      "title": "Leadership Development",
+      "credits": 5
+    },
+    {
+      "id": "MGMT430B",
+      "code": "MGMT 430B",
+      "title": "Strategy and Leadership",
+      "credits": 3
+    },
+    {
+      "id": "MGMT430E",
+      "code": "MGMT 430E",
+      "title": "Capstone",
+      "credits": 5
+    },
+    {
+      "id": "MGMT430N",
+      "code": "MGMT 430N",
+      "title": "Strategy and Leadership",
+      "credits": 3
+    },
+    {
+      "id": "MGMT431N",
+      "code": "MGMT 431N",
+      "title": "Business Consulting Course",
+      "credits": 3
+    },
+    {
+      "id": "MGMT444",
+      "code": "MGMT 444",
+      "title": "Introduction to ESG - Expectations & Opportunities",
+      "credits": 3
+    },
+    {
+      "id": "MGMT445",
+      "code": "MGMT 445",
+      "title": "ESG in Practice-Business Leadership in Times of Change",
+      "credits": 3
+    },
+    {
+      "id": "MGMT460B",
+      "code": "MGMT 460B",
+      "title": "Marketing Management",
+      "credits": 3
+    },
+    {
+      "id": "MGMT460E",
+      "code": "MGMT 460E",
+      "title": "Values Based Leadership",
+      "credits": 5
+    },
+    {
+      "id": "MGMT472",
+      "code": "MGMT 472",
+      "title": "Leading Change in Organizations",
+      "credits": 3
+    },
+    {
+      "id": "MGMT472E",
+      "code": "MGMT 472E",
+      "title": "Organizational Change and Development",
+      "credits": 5
+    },
+    {
+      "id": "MGMT474E",
+      "code": "MGMT 474E",
+      "title": "Strategic Management",
+      "credits": 5
+    },
+    {
+      "id": "MGMT475",
+      "code": "MGMT 475",
+      "title": "Cross-Cultural Dimensions of International Management & Marketing",
+      "credits": 3
+    },
+    {
+      "id": "MGMT477",
+      "code": "MGMT 477",
+      "title": "Family Business",
+      "credits": 3
+    },
+    {
+      "id": "MGMT479",
+      "code": "MGMT 479",
+      "title": "Independent Study in Management",
+      "credits": 3
+    },
+    {
+      "id": "MGMT481E",
+      "code": "MGMT 481E",
+      "title": "Innovation and the Entrepreneurial Mindset",
+      "credits": 5
+    },
+    {
+      "id": "MGMT482",
+      "code": "MGMT 482",
+      "title": "Entrepreneurial Marketing",
+      "credits": 3
+    },
+    {
+      "id": "MGMT483",
+      "code": "MGMT 483",
+      "title": "Strategic Entrepreneurship and Innovation Management",
+      "credits": 3
+    },
+    {
+      "id": "MGMT485",
+      "code": "MGMT 485",
+      "title": "Social Enterprise",
+      "credits": 3
+    },
+    {
+      "id": "MGMT499",
+      "code": "MGMT 499",
+      "title": "Special Topics in Management",
+      "credits": 3
+    },
+    {
+      "id": "MGMT573",
+      "code": "MGMT 573",
+      "title": "Business Strategy",
+      "credits": 3
+    },
+    {
+      "id": "MGMT574",
+      "code": "MGMT 574",
+      "title": "Corporate Strategy",
+      "credits": 3
+    },
+    {
+      "id": "MGMT602E",
+      "code": "MGMT 602E",
+      "title": "Organizational Change & Development",
+      "credits": 5
+    },
+    {
+      "id": "MGMT605E",
+      "code": "MGMT 605E",
+      "title": "Conflict Management & Negotiation",
+      "credits": 5
+    },
+    {
+      "id": "MGMT606E",
+      "code": "MGMT 606E",
+      "title": "International Immersion",
+      "credits": 3
+    },
+    {
+      "id": "MGMT607E",
+      "code": "MGMT 607E",
+      "title": "Entrepreneurship",
+      "credits": 5
+    },
+    {
+      "id": "MGMT610E",
+      "code": "MGMT 610E",
+      "title": "Capstone",
+      "credits": 5
+    }
+  ]
+}

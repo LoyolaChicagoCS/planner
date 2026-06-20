@@ -1,0 +1,369 @@
+{
+  "catalog": "2026-2027",
+  "code": "CJC",
+  "name": "Criminal Justice and Criminology",
+  "sourceUrl": "https://catalog.luc.edu/course-descriptions/cjc/",
+  "fetchedAt": "2026-06-20",
+  "courses": [
+    {
+      "id": "CJC101",
+      "code": "CJC 101",
+      "title": "Criminal Justice in a Global Context",
+      "credits": 3
+    },
+    {
+      "id": "CJC201",
+      "code": "CJC 201",
+      "title": "Theories of Criminal Behavior",
+      "credits": 3
+    },
+    {
+      "id": "CJC202",
+      "code": "CJC 202",
+      "title": "Criminal Courts",
+      "credits": 3
+    },
+    {
+      "id": "CJC203",
+      "code": "CJC 203",
+      "title": "Policing",
+      "credits": 3
+    },
+    {
+      "id": "CJC204",
+      "code": "CJC 204",
+      "title": "Corrections",
+      "credits": 3
+    },
+    {
+      "id": "CJC205",
+      "code": "CJC 205",
+      "title": "Research Methods",
+      "credits": 3
+    },
+    {
+      "id": "CJC206",
+      "code": "CJC 206",
+      "title": "Statistics",
+      "credits": 3
+    },
+    {
+      "id": "CJC302",
+      "code": "CJC 302",
+      "title": "Juvenile Justice System",
+      "credits": 3
+    },
+    {
+      "id": "CJC310",
+      "code": "CJC 310",
+      "title": "Contemporary Police Issues",
+      "credits": 3
+    },
+    {
+      "id": "CJC312",
+      "code": "CJC 312",
+      "title": "Popular Culture and the Criminal Justice System",
+      "credits": 3
+    },
+    {
+      "id": "CJC322",
+      "code": "CJC 322",
+      "title": "Criminal Law",
+      "credits": 3
+    },
+    {
+      "id": "CJC323",
+      "code": "CJC 323",
+      "title": "Criminal Procedure",
+      "credits": 3
+    },
+    {
+      "id": "CJC336",
+      "code": "CJC 336",
+      "title": "Political Violence and Crime",
+      "credits": 3
+    },
+    {
+      "id": "CJC337",
+      "code": "CJC 337",
+      "title": "Terrorism",
+      "credits": 3
+    },
+    {
+      "id": "CJC338",
+      "code": "CJC 338",
+      "title": "Community-Based Corrections",
+      "credits": 3
+    },
+    {
+      "id": "CJC345",
+      "code": "CJC 345",
+      "title": "Social Justice and Crime",
+      "credits": 3
+    },
+    {
+      "id": "CJC346",
+      "code": "CJC 346",
+      "title": "Mental Illness and Crime",
+      "credits": 3
+    },
+    {
+      "id": "CJC351",
+      "code": "CJC 351",
+      "title": "Organized Crime",
+      "credits": 3
+    },
+    {
+      "id": "CJC352",
+      "code": "CJC 352",
+      "title": "Gangs",
+      "credits": 3
+    },
+    {
+      "id": "CJC353",
+      "code": "CJC 353",
+      "title": "White Collar Crime",
+      "credits": 3
+    },
+    {
+      "id": "CJC354",
+      "code": "CJC 354",
+      "title": "Cybercrime",
+      "credits": 3
+    },
+    {
+      "id": "CJC360",
+      "code": "CJC 360",
+      "title": "Substance Use and Crime",
+      "credits": 3
+    },
+    {
+      "id": "CJC365",
+      "code": "CJC 365",
+      "title": "Firearm Violence",
+      "credits": 3
+    },
+    {
+      "id": "CJC366",
+      "code": "CJC 366",
+      "title": "Crime Prevention",
+      "credits": 3
+    },
+    {
+      "id": "CJC370",
+      "code": "CJC 370",
+      "title": "Women in The Criminal Justice System",
+      "credits": 3
+    },
+    {
+      "id": "CJC371",
+      "code": "CJC 371",
+      "title": "Victimology",
+      "credits": 3
+    },
+    {
+      "id": "CJC372",
+      "code": "CJC 372",
+      "title": "Race, Ethnicity, and Criminal Justice",
+      "credits": 3
+    },
+    {
+      "id": "CJC373",
+      "code": "CJC 373",
+      "title": "Intimate Partner Violence",
+      "credits": 3
+    },
+    {
+      "id": "CJC374",
+      "code": "CJC 374",
+      "title": "Miscarriages of Justice",
+      "credits": 3
+    },
+    {
+      "id": "CJC375",
+      "code": "CJC 375",
+      "title": "Punishment and Society",
+      "credits": 3
+    },
+    {
+      "id": "CJC376",
+      "code": "CJC 376",
+      "title": "Childhood Exposure to Violence",
+      "credits": 3
+    },
+    {
+      "id": "CJC377",
+      "code": "CJC 377",
+      "title": "Psychology and Law",
+      "credits": 3
+    },
+    {
+      "id": "CJC378",
+      "code": "CJC 378",
+      "title": "International Criminal Justice",
+      "credits": 3
+    },
+    {
+      "id": "CJC379",
+      "code": "CJC 379",
+      "title": "Leaving Crime Behind",
+      "credits": 3
+    },
+    {
+      "id": "CJC380",
+      "code": "CJC 380",
+      "title": "Introduction to Forensic Science",
+      "credits": 3
+    },
+    {
+      "id": "CJC390",
+      "code": "CJC 390",
+      "title": "Capstone Experience Internship",
+      "credits": 1
+    },
+    {
+      "id": "CJC391",
+      "code": "CJC 391",
+      "title": "Capstone Experience Research",
+      "credits": 3
+    },
+    {
+      "id": "CJC395",
+      "code": "CJC 395",
+      "title": "Special Topics",
+      "credits": 3
+    },
+    {
+      "id": "CJC396",
+      "code": "CJC 396",
+      "title": "Independent Study",
+      "credits": 1
+    },
+    {
+      "id": "CJC399",
+      "code": "CJC 399",
+      "title": "Senior Capstone",
+      "credits": 3
+    },
+    {
+      "id": "CJC401",
+      "code": "CJC 401",
+      "title": "Politics and Policies in the Criminal Justice System",
+      "credits": 3
+    },
+    {
+      "id": "CJC402",
+      "code": "CJC 402",
+      "title": "Theories of Criminal Behavior",
+      "credits": 3
+    },
+    {
+      "id": "CJC403",
+      "code": "CJC 403",
+      "title": "Research Methods and Program Evaluation",
+      "credits": 3
+    },
+    {
+      "id": "CJC404",
+      "code": "CJC 404",
+      "title": "Applied Data Analysis and Interpretation",
+      "credits": 4
+    },
+    {
+      "id": "CJC408",
+      "code": "CJC 408",
+      "title": "Applied Research in Criminal Justice & Criminology",
+      "credits": 2
+    },
+    {
+      "id": "CJC410",
+      "code": "CJC 410",
+      "title": "Advanced Topics in Criminology",
+      "credits": 3
+    },
+    {
+      "id": "CJC411",
+      "code": "CJC 411",
+      "title": "Advanced Topics in Policing",
+      "credits": 3
+    },
+    {
+      "id": "CJC412",
+      "code": "CJC 412",
+      "title": "Advanced Topics in Courts",
+      "credits": 3
+    },
+    {
+      "id": "CJC413",
+      "code": "CJC 413",
+      "title": "Advanced Topics in Corrections",
+      "credits": 3
+    },
+    {
+      "id": "CJC414",
+      "code": "CJC 414",
+      "title": "General Special Topics",
+      "credits": 3
+    },
+    {
+      "id": "CJC415",
+      "code": "CJC 415",
+      "title": "Mental Illness and Crime",
+      "credits": 3
+    },
+    {
+      "id": "CJC416",
+      "code": "CJC 416",
+      "title": "International Criminal Justice",
+      "credits": 3
+    },
+    {
+      "id": "CJC431",
+      "code": "CJC 431",
+      "title": "Criminal Victimization",
+      "credits": 3
+    },
+    {
+      "id": "CJC432",
+      "code": "CJC 432",
+      "title": "Firearm Violence",
+      "credits": 3
+    },
+    {
+      "id": "CJC433",
+      "code": "CJC 433",
+      "title": "Wrongful Convictions and the Law",
+      "credits": 3
+    },
+    {
+      "id": "CJC499",
+      "code": "CJC 499",
+      "title": "Independent Study",
+      "credits": 1
+    },
+    {
+      "id": "CJC501",
+      "code": "CJC 501",
+      "title": "Thesis Research",
+      "credits": 2
+    },
+    {
+      "id": "CJC502",
+      "code": "CJC 502",
+      "title": "Practicum in Criminal Justice",
+      "credits": 3
+    },
+    {
+      "id": "CJC595",
+      "code": "CJC 595",
+      "title": "Thesis Supervision",
+      "credits": 0
+    },
+    {
+      "id": "CJC605",
+      "code": "CJC 605",
+      "title": "Master's Study",
+      "credits": 0
+    }
+  ]
+}

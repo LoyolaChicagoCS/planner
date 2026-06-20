@@ -1,0 +1,735 @@
+{
+  "catalog": "2026-2027",
+  "code": "PSYC",
+  "name": "Psychology",
+  "sourceUrl": "https://catalog.luc.edu/course-descriptions/psyc/",
+  "fetchedAt": "2026-06-20",
+  "courses": [
+    {
+      "id": "PSYC100",
+      "code": "PSYC 100",
+      "title": "Psychological Perspectives on the Experience of Globalization",
+      "credits": 3
+    },
+    {
+      "id": "PSYC101",
+      "code": "PSYC 101",
+      "title": "General Psychology",
+      "credits": 3
+    },
+    {
+      "id": "PSYC201",
+      "code": "PSYC 201",
+      "title": "Psychology Advising and Career Development",
+      "credits": 1
+    },
+    {
+      "id": "PSYC225",
+      "code": "PSYC 225",
+      "title": "Psychology of Peace",
+      "credits": 3
+    },
+    {
+      "id": "PSYC235",
+      "code": "PSYC 235",
+      "title": "Psychology of Human Sexuality",
+      "credits": 3
+    },
+    {
+      "id": "PSYC237",
+      "code": "PSYC 237",
+      "title": "Cross-Cultural Psychology",
+      "credits": 3
+    },
+    {
+      "id": "PSYC238",
+      "code": "PSYC 238",
+      "title": "Psychology of Gender",
+      "credits": 3
+    },
+    {
+      "id": "PSYC239",
+      "code": "PSYC 239",
+      "title": "Understanding Bias and Inclusivity",
+      "credits": 3
+    },
+    {
+      "id": "PSYC240",
+      "code": "PSYC 240",
+      "title": "Psychology-Biology of Perception",
+      "credits": 3
+    },
+    {
+      "id": "PSYC250",
+      "code": "PSYC 250",
+      "title": "Cognitive Psychology",
+      "credits": 3
+    },
+    {
+      "id": "PSYC251",
+      "code": "PSYC 251",
+      "title": "Learning and Memory",
+      "credits": 3
+    },
+    {
+      "id": "PSYC273",
+      "code": "PSYC 273",
+      "title": "Developmental Psychology",
+      "credits": 3
+    },
+    {
+      "id": "PSYC274",
+      "code": "PSYC 274",
+      "title": "Lifespan Development",
+      "credits": 3
+    },
+    {
+      "id": "PSYC275",
+      "code": "PSYC 275",
+      "title": "Social Psychology",
+      "credits": 3
+    },
+    {
+      "id": "PSYC276",
+      "code": "PSYC 276",
+      "title": "Philosophy of Mind",
+      "credits": 3
+    },
+    {
+      "id": "PSYC277",
+      "code": "PSYC 277",
+      "title": "Environmental Psychology",
+      "credits": 3
+    },
+    {
+      "id": "PSYC280",
+      "code": "PSYC 280",
+      "title": "Psychology of Judgment and Decision-Making",
+      "credits": 3
+    },
+    {
+      "id": "PSYC302",
+      "code": "PSYC 302",
+      "title": "History & Systems in Psychology",
+      "credits": 3
+    },
+    {
+      "id": "PSYC304",
+      "code": "PSYC 304",
+      "title": "Statistics",
+      "credits": 3
+    },
+    {
+      "id": "PSYC306",
+      "code": "PSYC 306",
+      "title": "Research Methods in Psychology",
+      "credits": 3
+    },
+    {
+      "id": "PSYC307",
+      "code": "PSYC 307",
+      "title": "Psychology of Language",
+      "credits": 3
+    },
+    {
+      "id": "PSYC310",
+      "code": "PSYC 310",
+      "title": "Lab in Program Evaluation",
+      "credits": 3
+    },
+    {
+      "id": "PSYC311",
+      "code": "PSYC 311",
+      "title": "Lab in Psychobiology",
+      "credits": 3
+    },
+    {
+      "id": "PSYC312",
+      "code": "PSYC 312",
+      "title": "Lab in Cognitive Neuroscience",
+      "credits": 3
+    },
+    {
+      "id": "PSYC313",
+      "code": "PSYC 313",
+      "title": "Lab in Behavioral Neuroscience",
+      "credits": 3
+    },
+    {
+      "id": "PSYC314",
+      "code": "PSYC 314",
+      "title": "Lab in Experimental Psychology: Cognition",
+      "credits": 3
+    },
+    {
+      "id": "PSYC315",
+      "code": "PSYC 315",
+      "title": "Lab in Tests & Measurements",
+      "credits": 3
+    },
+    {
+      "id": "PSYC316",
+      "code": "PSYC 316",
+      "title": "Lab in Experimental Psychology: Sense & Perception",
+      "credits": 3
+    },
+    {
+      "id": "PSYC318",
+      "code": "PSYC 318",
+      "title": "Lab in Developmental Psychology",
+      "credits": 3
+    },
+    {
+      "id": "PSYC321",
+      "code": "PSYC 321",
+      "title": "Laboratory-Social Psychology",
+      "credits": 3
+    },
+    {
+      "id": "PSYC327",
+      "code": "PSYC 327",
+      "title": "Lab on Body Image",
+      "credits": 3
+    },
+    {
+      "id": "PSYC331",
+      "code": "PSYC 331",
+      "title": "Psychopathology",
+      "credits": 3
+    },
+    {
+      "id": "PSYC332",
+      "code": "PSYC 332",
+      "title": "Affective Neuroscience",
+      "credits": 3
+    },
+    {
+      "id": "PSYC338",
+      "code": "PSYC 338",
+      "title": "Psychology of Personality",
+      "credits": 3
+    },
+    {
+      "id": "PSYC340",
+      "code": "PSYC 340",
+      "title": "Psychology of Women",
+      "credits": 3
+    },
+    {
+      "id": "PSYC346",
+      "code": "PSYC 346",
+      "title": "Psychopathology of Childhood",
+      "credits": 3
+    },
+    {
+      "id": "PSYC348",
+      "code": "PSYC 348",
+      "title": "Psychology of Adolescence",
+      "credits": 3
+    },
+    {
+      "id": "PSYC349",
+      "code": "PSYC 349",
+      "title": "Maturity and Aging",
+      "credits": 3
+    },
+    {
+      "id": "PSYC350",
+      "code": "PSYC 350",
+      "title": "Developmental Cognitive Neuroscience",
+      "credits": 3
+    },
+    {
+      "id": "PSYC352",
+      "code": "PSYC 352",
+      "title": "Neuropsychology",
+      "credits": 3
+    },
+    {
+      "id": "PSYC353",
+      "code": "PSYC 353",
+      "title": "Applied Social Psychology",
+      "credits": 3
+    },
+    {
+      "id": "PSYC355",
+      "code": "PSYC 355",
+      "title": "Neuroethics",
+      "credits": 3
+    },
+    {
+      "id": "PSYC356",
+      "code": "PSYC 356",
+      "title": "Consumer Psychology",
+      "credits": 3
+    },
+    {
+      "id": "PSYC360",
+      "code": "PSYC 360",
+      "title": "Understanding Prejudice",
+      "credits": 3
+    },
+    {
+      "id": "PSYC362",
+      "code": "PSYC 362",
+      "title": "Industrial/Organizational Psychology",
+      "credits": 3
+    },
+    {
+      "id": "PSYC368",
+      "code": "PSYC 368",
+      "title": "Counseling",
+      "credits": 3
+    },
+    {
+      "id": "PSYC369",
+      "code": "PSYC 369",
+      "title": "Psychology Honors Readings",
+      "credits": 3
+    },
+    {
+      "id": "PSYC370",
+      "code": "PSYC 370",
+      "title": "Psychology Honors Research",
+      "credits": 3
+    },
+    {
+      "id": "PSYC371",
+      "code": "PSYC 371",
+      "title": "Psychology of Political Behavior",
+      "credits": 3
+    },
+    {
+      "id": "PSYC372",
+      "code": "PSYC 372",
+      "title": "Psychology & Law",
+      "credits": 3
+    },
+    {
+      "id": "PSYC373",
+      "code": "PSYC 373",
+      "title": "Health Psychology",
+      "credits": 3
+    },
+    {
+      "id": "PSYC374",
+      "code": "PSYC 374",
+      "title": "Community Psychology",
+      "credits": 3
+    },
+    {
+      "id": "PSYC375",
+      "code": "PSYC 375",
+      "title": "Psychology of Addiction",
+      "credits": 3
+    },
+    {
+      "id": "PSYC376",
+      "code": "PSYC 376",
+      "title": "Psychology of Religion",
+      "credits": 3
+    },
+    {
+      "id": "PSYC377",
+      "code": "PSYC 377",
+      "title": "Psychology of Music",
+      "credits": 3
+    },
+    {
+      "id": "PSYC378",
+      "code": "PSYC 378",
+      "title": "Drugs and Behavior",
+      "credits": 3
+    },
+    {
+      "id": "PSYC381",
+      "code": "PSYC 381",
+      "title": "Advanced Statistical Analysis-Computer:Social Science",
+      "credits": 3
+    },
+    {
+      "id": "PSYC382",
+      "code": "PSYC 382",
+      "title": "Behavorial and Cognitive Neuroscience",
+      "credits": 3
+    },
+    {
+      "id": "PSYC383",
+      "code": "PSYC 383",
+      "title": "Methods in Computational Neuroscience",
+      "credits": 3
+    },
+    {
+      "id": "PSYC384",
+      "code": "PSYC 384",
+      "title": "Computational Modeling of the Brain",
+      "credits": 3
+    },
+    {
+      "id": "PSYC385",
+      "code": "PSYC 385",
+      "title": "Practicum in Peace Activism",
+      "credits": 3
+    },
+    {
+      "id": "PSYC386",
+      "code": "PSYC 386",
+      "title": "Psychology Seminar: Selected Topics",
+      "credits": 3
+    },
+    {
+      "id": "PSYC387",
+      "code": "PSYC 387",
+      "title": "Seminar in Behavorial and Cognitive Neurosciences",
+      "credits": 3
+    },
+    {
+      "id": "PSYC390",
+      "code": "PSYC 390",
+      "title": "Internship in Psychology",
+      "credits": 3
+    },
+    {
+      "id": "PSYC396",
+      "code": "PSYC 396",
+      "title": "Teaching Internship in Psychology",
+      "credits": 3
+    },
+    {
+      "id": "PSYC397",
+      "code": "PSYC 397",
+      "title": "Independent Research",
+      "credits": 3
+    },
+    {
+      "id": "PSYC399",
+      "code": "PSYC 399",
+      "title": "Special Studies in Psychology",
+      "credits": 1
+    },
+    {
+      "id": "PSYC401",
+      "code": "PSYC 401",
+      "title": "History & Systems of Psychology",
+      "credits": 3
+    },
+    {
+      "id": "PSYC412",
+      "code": "PSYC 412",
+      "title": "Introduction to the Profession of Clinical Psychology",
+      "credits": 3
+    },
+    {
+      "id": "PSYC420",
+      "code": "PSYC 420",
+      "title": "Research Methods in Psychology",
+      "credits": 3
+    },
+    {
+      "id": "PSYC432",
+      "code": "PSYC 432",
+      "title": "Intellectual & Personality Assessment",
+      "credits": 3
+    },
+    {
+      "id": "PSYC435",
+      "code": "PSYC 435",
+      "title": "Seminar in Cognitive Neuroscience",
+      "credits": 3
+    },
+    {
+      "id": "PSYC436",
+      "code": "PSYC 436",
+      "title": "Psychopharmacology",
+      "credits": 3
+    },
+    {
+      "id": "PSYC438",
+      "code": "PSYC 438",
+      "title": "Principles of Psychological Assessment Child & Adult",
+      "credits": 3
+    },
+    {
+      "id": "PSYC440",
+      "code": "PSYC 440",
+      "title": "Theory & Research in Psychology of Language",
+      "credits": 3
+    },
+    {
+      "id": "PSYC446",
+      "code": "PSYC 446",
+      "title": "Psychopathology",
+      "credits": 3
+    },
+    {
+      "id": "PSYC451",
+      "code": "PSYC 451",
+      "title": "Psychopathology of Childhood & Adolescents",
+      "credits": 3
+    },
+    {
+      "id": "PSYC452",
+      "code": "PSYC 452",
+      "title": "Clinical Treatment of Children & Adolescents",
+      "credits": 3
+    },
+    {
+      "id": "PSYC455",
+      "code": "PSYC 455",
+      "title": "Developmental Psychology",
+      "credits": 3
+    },
+    {
+      "id": "PSYC460",
+      "code": "PSYC 460",
+      "title": "Social Psychological Theory",
+      "credits": 3
+    },
+    {
+      "id": "PSYC461",
+      "code": "PSYC 461",
+      "title": "Attitude and Attitude Change",
+      "credits": 3
+    },
+    {
+      "id": "PSYC462",
+      "code": "PSYC 462",
+      "title": "Cognitive Social Psychology",
+      "credits": 3
+    },
+    {
+      "id": "PSYC464",
+      "code": "PSYC 464",
+      "title": "Practicum in Psychotherapy I",
+      "credits": 3
+    },
+    {
+      "id": "PSYC472",
+      "code": "PSYC 472",
+      "title": "Organizational Psychology",
+      "credits": 3
+    },
+    {
+      "id": "PSYC473",
+      "code": "PSYC 473",
+      "title": "Social Development",
+      "credits": 3
+    },
+    {
+      "id": "PSYC474",
+      "code": "PSYC 474",
+      "title": "Research in Group Dynamics",
+      "credits": 3
+    },
+    {
+      "id": "PSYC475",
+      "code": "PSYC 475",
+      "title": "Cognitive Development",
+      "credits": 3
+    },
+    {
+      "id": "PSYC477",
+      "code": "PSYC 477",
+      "title": "The Self and Self-Esteem",
+      "credits": 3
+    },
+    {
+      "id": "PSYC479",
+      "code": "PSYC 479",
+      "title": "Cognition and Emotion",
+      "credits": 3
+    },
+    {
+      "id": "PSYC482",
+      "code": "PSYC 482",
+      "title": "Advanced Statistics",
+      "credits": 3
+    },
+    {
+      "id": "PSYC484",
+      "code": "PSYC 484",
+      "title": "Prejudice and Intergroup Relations",
+      "credits": 3
+    },
+    {
+      "id": "PSYC485",
+      "code": "PSYC 485",
+      "title": "Psychology and Law",
+      "credits": 3
+    },
+    {
+      "id": "PSYC486",
+      "code": "PSYC 486",
+      "title": "Methods of Program Evaluation",
+      "credits": 3
+    },
+    {
+      "id": "PSYC489",
+      "code": "PSYC 489",
+      "title": "Political Cognition",
+      "credits": 3
+    },
+    {
+      "id": "PSYC491",
+      "code": "PSYC 491",
+      "title": "Multivariate Analysis",
+      "credits": 3
+    },
+    {
+      "id": "PSYC493",
+      "code": "PSYC 493",
+      "title": "Structural Equation Modeling",
+      "credits": 3
+    },
+    {
+      "id": "PSYC509",
+      "code": "PSYC 509",
+      "title": "Seminar on Teaching Psychology",
+      "credits": 0
+    },
+    {
+      "id": "PSYC510",
+      "code": "PSYC 510",
+      "title": "Ethics & Professional Practice",
+      "credits": 3
+    },
+    {
+      "id": "PSYC513",
+      "code": "PSYC 513",
+      "title": "Adolescence",
+      "credits": 3
+    },
+    {
+      "id": "PSYC514",
+      "code": "PSYC 514",
+      "title": "Research in Development Psychology",
+      "credits": 3
+    },
+    {
+      "id": "PSYC515",
+      "code": "PSYC 515",
+      "title": "Infancy",
+      "credits": 3
+    },
+    {
+      "id": "PSYC518",
+      "code": "PSYC 518",
+      "title": "Seminar Selected Topics-Clinical Psychology",
+      "credits": 3
+    },
+    {
+      "id": "PSYC525",
+      "code": "PSYC 525",
+      "title": "Seminar in Social Psychology",
+      "credits": 3
+    },
+    {
+      "id": "PSYC535",
+      "code": "PSYC 535",
+      "title": "Internship in Applied Social Psychology",
+      "credits": 0
+    },
+    {
+      "id": "PSYC540",
+      "code": "PSYC 540",
+      "title": "Psychology of Language Development",
+      "credits": 3
+    },
+    {
+      "id": "PSYC545",
+      "code": "PSYC 545",
+      "title": "Select Topics in Developmental Psychology",
+      "credits": 3
+    },
+    {
+      "id": "PSYC548",
+      "code": "PSYC 548",
+      "title": "Risk and Opportunity in Childhood and Adolescence",
+      "credits": 3
+    },
+    {
+      "id": "PSYC552",
+      "code": "PSYC 552",
+      "title": "Neuropsychology",
+      "credits": 3
+    },
+    {
+      "id": "PSYC553",
+      "code": "PSYC 553",
+      "title": "Neuropsychological Assessment",
+      "credits": 3
+    },
+    {
+      "id": "PSYC555",
+      "code": "PSYC 555",
+      "title": "Social Psychology Research and Professional Development",
+      "credits": 0
+    },
+    {
+      "id": "PSYC556",
+      "code": "PSYC 556",
+      "title": "Developmental Psychology Research and Professional Development",
+      "credits": 0
+    },
+    {
+      "id": "PSYC560",
+      "code": "PSYC 560",
+      "title": "Human Diversity",
+      "credits": 3
+    },
+    {
+      "id": "PSYC568",
+      "code": "PSYC 568",
+      "title": "Evidence-Based Practice in Clinical Psychology",
+      "credits": 3
+    },
+    {
+      "id": "PSYC595",
+      "code": "PSYC 595",
+      "title": "Thesis Supervision",
+      "credits": 0
+    },
+    {
+      "id": "PSYC596",
+      "code": "PSYC 596",
+      "title": "Internship in Clinical Psychology",
+      "credits": 0
+    },
+    {
+      "id": "PSYC597",
+      "code": "PSYC 597",
+      "title": "Integrative Readings in Psychology",
+      "credits": 3
+    },
+    {
+      "id": "PSYC598",
+      "code": "PSYC 598",
+      "title": "Research",
+      "credits": 3
+    },
+    {
+      "id": "PSYC599",
+      "code": "PSYC 599",
+      "title": "Directed Readings",
+      "credits": 3
+    },
+    {
+      "id": "PSYC600",
+      "code": "PSYC 600",
+      "title": "Dissertation Supervision",
+      "credits": 0
+    },
+    {
+      "id": "PSYC605",
+      "code": "PSYC 605",
+      "title": "Master's Study",
+      "credits": 0
+    },
+    {
+      "id": "PSYC610",
+      "code": "PSYC 610",
+      "title": "Doctoral Study",
+      "credits": 0
+    }
+  ]
+}
