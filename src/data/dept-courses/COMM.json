@@ -1,0 +1,1245 @@
+{
+  "catalog": "2026-2027",
+  "code": "COMM",
+  "name": "Communication",
+  "sourceUrl": "https://catalog.luc.edu/course-descriptions/comm/",
+  "fetchedAt": "2026-06-20",
+  "courses": [
+    {
+      "id": "COMM100",
+      "code": "COMM 100",
+      "title": "SOC Career Prep Seminar",
+      "credits": 1
+    },
+    {
+      "id": "COMM101",
+      "code": "COMM 101",
+      "title": "Public Speaking & Critical Thinking",
+      "credits": 3
+    },
+    {
+      "id": "COMM103",
+      "code": "COMM 103",
+      "title": "Business & Professional Speaking",
+      "credits": 3
+    },
+    {
+      "id": "COMM130",
+      "code": "COMM 130",
+      "title": "Intro to Audio Production",
+      "credits": 3
+    },
+    {
+      "id": "COMM135",
+      "code": "COMM 135",
+      "title": "Intro to Video Production",
+      "credits": 3
+    },
+    {
+      "id": "COMM140",
+      "code": "COMM 140",
+      "title": "Intercollegiate Debate",
+      "credits": 1
+    },
+    {
+      "id": "COMM145",
+      "code": "COMM 145",
+      "title": "Video for Journalists",
+      "credits": 3
+    },
+    {
+      "id": "COMM175",
+      "code": "COMM 175",
+      "title": "Introduction to Communication",
+      "credits": 3
+    },
+    {
+      "id": "COMM200",
+      "code": "COMM 200",
+      "title": "Digital Communication and Society",
+      "credits": 3
+    },
+    {
+      "id": "COMM201",
+      "code": "COMM 201",
+      "title": "Media Theory and Criticism",
+      "credits": 3
+    },
+    {
+      "id": "COMM202",
+      "code": "COMM 202",
+      "title": "Story for Film and Television",
+      "credits": 3
+    },
+    {
+      "id": "COMM203",
+      "code": "COMM 203",
+      "title": "Topics in Cinema History",
+      "credits": 3
+    },
+    {
+      "id": "COMM204",
+      "code": "COMM 204",
+      "title": "Community as Story",
+      "credits": 3
+    },
+    {
+      "id": "COMM205",
+      "code": "COMM 205",
+      "title": "Reporting Basics I: Writing and Interviewing",
+      "credits": 3
+    },
+    {
+      "id": "COMM206",
+      "code": "COMM 206",
+      "title": "Hip Hop Culture and Social Change",
+      "credits": 3
+    },
+    {
+      "id": "COMM207",
+      "code": "COMM 207",
+      "title": "Photojournalism",
+      "credits": 3
+    },
+    {
+      "id": "COMM208",
+      "code": "COMM 208",
+      "title": "Reporting Basics II: Technology for Journalists",
+      "credits": 3
+    },
+    {
+      "id": "COMM210",
+      "code": "COMM 210",
+      "title": "Principles of Public Relations",
+      "credits": 3
+    },
+    {
+      "id": "COMM211",
+      "code": "COMM 211",
+      "title": "Principles of Advertising",
+      "credits": 3
+    },
+    {
+      "id": "COMM212",
+      "code": "COMM 212",
+      "title": "International Advertising",
+      "credits": 3
+    },
+    {
+      "id": "COMM213",
+      "code": "COMM 213",
+      "title": "Digital Foundations",
+      "credits": 3
+    },
+    {
+      "id": "COMM214",
+      "code": "COMM 214",
+      "title": "Creative Concepts",
+      "credits": 3
+    },
+    {
+      "id": "COMM215",
+      "code": "COMM 215",
+      "title": "Ethics & Communication",
+      "credits": 3
+    },
+    {
+      "id": "COMM220",
+      "code": "COMM 220",
+      "title": "Introduction to Rhetoric",
+      "credits": 3
+    },
+    {
+      "id": "COMM226",
+      "code": "COMM 226",
+      "title": "Public Interest Communication",
+      "credits": 3
+    },
+    {
+      "id": "COMM227",
+      "code": "COMM 227",
+      "title": "Social Justice and Public Communication",
+      "credits": 3
+    },
+    {
+      "id": "COMM230",
+      "code": "COMM 230",
+      "title": "Argumentation & Advocacy",
+      "credits": 3
+    },
+    {
+      "id": "COMM231",
+      "code": "COMM 231",
+      "title": "Conflict Management and Communication",
+      "credits": 3
+    },
+    {
+      "id": "COMM232",
+      "code": "COMM 232",
+      "title": "Cinematography I",
+      "credits": 3
+    },
+    {
+      "id": "COMM234",
+      "code": "COMM 234",
+      "title": "Interviewing for Communication",
+      "credits": 3
+    },
+    {
+      "id": "COMM236",
+      "code": "COMM 236",
+      "title": "Persuasive Presentations",
+      "credits": 3
+    },
+    {
+      "id": "COMM237",
+      "code": "COMM 237",
+      "title": "Small Group Communication",
+      "credits": 3
+    },
+    {
+      "id": "COMM239",
+      "code": "COMM 239",
+      "title": "Moving China",
+      "credits": 3
+    },
+    {
+      "id": "COMM240",
+      "code": "COMM 240",
+      "title": "Communication Research Design",
+      "credits": 3
+    },
+    {
+      "id": "COMM241",
+      "code": "COMM 241",
+      "title": "Digital Platforms",
+      "credits": 3
+    },
+    {
+      "id": "COMM242",
+      "code": "COMM 242",
+      "title": "Rambler Sports Locker",
+      "credits": 3
+    },
+    {
+      "id": "COMM243",
+      "code": "COMM 243",
+      "title": "Leadership and Social Change in Sports",
+      "credits": 3
+    },
+    {
+      "id": "COMM244",
+      "code": "COMM 244",
+      "title": "Sports Analytics & Visualization",
+      "credits": 3
+    },
+    {
+      "id": "COMM245",
+      "code": "COMM 245",
+      "title": "Sports Advertising & Marketing",
+      "credits": 3
+    },
+    {
+      "id": "COMM250",
+      "code": "COMM 250",
+      "title": "Foundational ADPR Research Methods",
+      "credits": 3
+    },
+    {
+      "id": "COMM256",
+      "code": "COMM 256",
+      "title": "Broadcast Newswriting",
+      "credits": 3
+    },
+    {
+      "id": "COMM258",
+      "code": "COMM 258",
+      "title": "Game Studies",
+      "credits": 3
+    },
+    {
+      "id": "COMM259",
+      "code": "COMM 259",
+      "title": "News Editing",
+      "credits": 3
+    },
+    {
+      "id": "COMM260",
+      "code": "COMM 260",
+      "title": "Environmental Journalism",
+      "credits": 3
+    },
+    {
+      "id": "COMM261",
+      "code": "COMM 261",
+      "title": "Social Media and Society",
+      "credits": 3
+    },
+    {
+      "id": "COMM262",
+      "code": "COMM 262",
+      "title": "Feature & Opinion Writing",
+      "credits": 3
+    },
+    {
+      "id": "COMM263",
+      "code": "COMM 263",
+      "title": "Editorial Design I: Newspaper & Online",
+      "credits": 3
+    },
+    {
+      "id": "COMM265",
+      "code": "COMM 265",
+      "title": "Sports Broadcasting",
+      "credits": 3
+    },
+    {
+      "id": "COMM266",
+      "code": "COMM 266",
+      "title": "Advertising Copywriting",
+      "credits": 3
+    },
+    {
+      "id": "COMM268",
+      "code": "COMM 268",
+      "title": "Persuasion",
+      "credits": 3
+    },
+    {
+      "id": "COMM269",
+      "code": "COMM 269",
+      "title": "Observing China",
+      "credits": 3
+    },
+    {
+      "id": "COMM271",
+      "code": "COMM 271",
+      "title": "Media Culture and Communication",
+      "credits": 3
+    },
+    {
+      "id": "COMM272",
+      "code": "COMM 272",
+      "title": "Intercultural Communication",
+      "credits": 3
+    },
+    {
+      "id": "COMM273",
+      "code": "COMM 273",
+      "title": "Interpersonal Communication",
+      "credits": 3
+    },
+    {
+      "id": "COMM274",
+      "code": "COMM 274",
+      "title": "Introduction to Cinema",
+      "credits": 3
+    },
+    {
+      "id": "COMM275",
+      "code": "COMM 275",
+      "title": "Web Design and Usability",
+      "credits": 3
+    },
+    {
+      "id": "COMM277",
+      "code": "COMM 277",
+      "title": "Organizational Communication",
+      "credits": 3
+    },
+    {
+      "id": "COMM278",
+      "code": "COMM 278",
+      "title": "International Public Relations",
+      "credits": 3
+    },
+    {
+      "id": "COMM279",
+      "code": "COMM 279",
+      "title": "Critical Issues in Journalism",
+      "credits": 3
+    },
+    {
+      "id": "COMM280",
+      "code": "COMM 280",
+      "title": "Media Technology & Society",
+      "credits": 3
+    },
+    {
+      "id": "COMM281",
+      "code": "COMM 281",
+      "title": "Communication, Language & Gender",
+      "credits": 3
+    },
+    {
+      "id": "COMM282",
+      "code": "COMM 282",
+      "title": "Media Law",
+      "credits": 3
+    },
+    {
+      "id": "COMM283",
+      "code": "COMM 283",
+      "title": "Global Media",
+      "credits": 3
+    },
+    {
+      "id": "COMM290",
+      "code": "COMM 290",
+      "title": "Branding and Positioning",
+      "credits": 3
+    },
+    {
+      "id": "COMM296",
+      "code": "COMM 296",
+      "title": "Themes in Advertising/Public Relations",
+      "credits": 3
+    },
+    {
+      "id": "COMM297",
+      "code": "COMM 297",
+      "title": "Themes in Communication Studies",
+      "credits": 3
+    },
+    {
+      "id": "COMM298",
+      "code": "COMM 298",
+      "title": "Themes in Multimedia Journalism",
+      "credits": 3
+    },
+    {
+      "id": "COMM299",
+      "code": "COMM 299",
+      "title": "Themes in Film and Digital Media",
+      "credits": 3
+    },
+    {
+      "id": "COMM300",
+      "code": "COMM 300",
+      "title": "Persuasive Campaigns",
+      "credits": 3
+    },
+    {
+      "id": "COMM301",
+      "code": "COMM 301",
+      "title": "Discovering China Through Film",
+      "credits": 3
+    },
+    {
+      "id": "COMM302",
+      "code": "COMM 302",
+      "title": "Sports on Screen",
+      "credits": 3
+    },
+    {
+      "id": "COMM303",
+      "code": "COMM 303",
+      "title": "Media, Politics, and Propaganda",
+      "credits": 3
+    },
+    {
+      "id": "COMM304",
+      "code": "COMM 304",
+      "title": "Rhetorics of Utopia & Revolution",
+      "credits": 3
+    },
+    {
+      "id": "COMM305",
+      "code": "COMM 305",
+      "title": "Animation",
+      "credits": 3
+    },
+    {
+      "id": "COMM306",
+      "code": "COMM 306",
+      "title": "Environmental Communication & Advocacy",
+      "credits": 3
+    },
+    {
+      "id": "COMM307",
+      "code": "COMM 307",
+      "title": "Communication and Social Movements",
+      "credits": 3
+    },
+    {
+      "id": "COMM308",
+      "code": "COMM 308",
+      "title": "Screen Directing",
+      "credits": 3
+    },
+    {
+      "id": "COMM309",
+      "code": "COMM 309",
+      "title": "Designing Media for Social Change",
+      "credits": 3
+    },
+    {
+      "id": "COMM310",
+      "code": "COMM 310",
+      "title": "Production Design",
+      "credits": 3
+    },
+    {
+      "id": "COMM311",
+      "code": "COMM 311",
+      "title": "Health Communication",
+      "credits": 3
+    },
+    {
+      "id": "COMM312",
+      "code": "COMM 312",
+      "title": "Special Events Planning",
+      "credits": 3
+    },
+    {
+      "id": "COMM313",
+      "code": "COMM 313",
+      "title": "Corporate and Organizational Communication",
+      "credits": 3
+    },
+    {
+      "id": "COMM314",
+      "code": "COMM 314",
+      "title": "Public Relations Cases",
+      "credits": 3
+    },
+    {
+      "id": "COMM315",
+      "code": "COMM 315",
+      "title": "Advanced Reporting Topics",
+      "credits": 3
+    },
+    {
+      "id": "COMM317",
+      "code": "COMM 317",
+      "title": "Media Planning",
+      "credits": 3
+    },
+    {
+      "id": "COMM318",
+      "code": "COMM 318",
+      "title": "Public Relations Writing",
+      "credits": 3
+    },
+    {
+      "id": "COMM320",
+      "code": "COMM 320",
+      "title": "Public Service Communication",
+      "credits": 3
+    },
+    {
+      "id": "COMM321",
+      "code": "COMM 321",
+      "title": "Advertising Campaigns",
+      "credits": 3
+    },
+    {
+      "id": "COMM322",
+      "code": "COMM 322",
+      "title": "Guerilla Media",
+      "credits": 3
+    },
+    {
+      "id": "COMM323",
+      "code": "COMM 323",
+      "title": "Remixing Culture",
+      "credits": 3
+    },
+    {
+      "id": "COMM324",
+      "code": "COMM 324",
+      "title": "Film Genre",
+      "credits": 3
+    },
+    {
+      "id": "COMM326",
+      "code": "COMM 326",
+      "title": "Screenwriting",
+      "credits": 3
+    },
+    {
+      "id": "COMM327",
+      "code": "COMM 327",
+      "title": "Mastering Video Reporting and Storytelling",
+      "credits": 3
+    },
+    {
+      "id": "COMM328",
+      "code": "COMM 328",
+      "title": "Editorial Design II: Magazine & Interactive",
+      "credits": 3
+    },
+    {
+      "id": "COMM329",
+      "code": "COMM 329",
+      "title": "Advertising and Public Relations Design",
+      "credits": 3
+    },
+    {
+      "id": "COMM330",
+      "code": "COMM 330",
+      "title": "Intermediate Advertising Design",
+      "credits": 3
+    },
+    {
+      "id": "COMM331",
+      "code": "COMM 331",
+      "title": "Social Media Campaigns",
+      "credits": 3
+    },
+    {
+      "id": "COMM332",
+      "code": "COMM 332",
+      "title": "Investigative Reporting",
+      "credits": 3
+    },
+    {
+      "id": "COMM333",
+      "code": "COMM 333",
+      "title": "Cinematography II",
+      "credits": 3
+    },
+    {
+      "id": "COMM334",
+      "code": "COMM 334",
+      "title": "Mobile Advertising",
+      "credits": 3
+    },
+    {
+      "id": "COMM335",
+      "code": "COMM 335",
+      "title": "Creating ADPR Content with AI",
+      "credits": 3
+    },
+    {
+      "id": "COMM336",
+      "code": "COMM 336",
+      "title": "Search & Display Advertising",
+      "credits": 3
+    },
+    {
+      "id": "COMM337",
+      "code": "COMM 337",
+      "title": "AD/PR Multimedia Commercial Production",
+      "credits": 3
+    },
+    {
+      "id": "COMM338",
+      "code": "COMM 338",
+      "title": "Narrative Production",
+      "credits": 3
+    },
+    {
+      "id": "COMM339",
+      "code": "COMM 339",
+      "title": "Video Documentary",
+      "credits": 3
+    },
+    {
+      "id": "COMM342",
+      "code": "COMM 342",
+      "title": "Human Rights Reporting",
+      "credits": 3
+    },
+    {
+      "id": "COMM344",
+      "code": "COMM 344",
+      "title": "Portfolio I",
+      "credits": 3
+    },
+    {
+      "id": "COMM345",
+      "code": "COMM 345",
+      "title": "Student Agency",
+      "credits": 3
+    },
+    {
+      "id": "COMM346",
+      "code": "COMM 346",
+      "title": "Analytics, Insights, and Strategy",
+      "credits": 3
+    },
+    {
+      "id": "COMM347",
+      "code": "COMM 347",
+      "title": "Influencers & Social Economy",
+      "credits": 3
+    },
+    {
+      "id": "COMM350",
+      "code": "COMM 350",
+      "title": "Producing for Film & Digital Media",
+      "credits": 3
+    },
+    {
+      "id": "COMM357",
+      "code": "COMM 357",
+      "title": "Programming Film & Media: Festivals, TV & Digital",
+      "credits": 3
+    },
+    {
+      "id": "COMM358",
+      "code": "COMM 358",
+      "title": "Newscasting and Producing",
+      "credits": 3
+    },
+    {
+      "id": "COMM359",
+      "code": "COMM 359",
+      "title": "Advanced Post Production",
+      "credits": 3
+    },
+    {
+      "id": "COMM360",
+      "code": "COMM 360",
+      "title": "Digital Media Ethics",
+      "credits": 3
+    },
+    {
+      "id": "COMM361",
+      "code": "COMM 361",
+      "title": "New Media Criticism",
+      "credits": 3
+    },
+    {
+      "id": "COMM362",
+      "code": "COMM 362",
+      "title": "Multimedia Journalism Research Methods",
+      "credits": 3
+    },
+    {
+      "id": "COMM363",
+      "code": "COMM 363",
+      "title": "Research Methods in Advertising/Public Relations",
+      "credits": 3
+    },
+    {
+      "id": "COMM365",
+      "code": "COMM 365",
+      "title": "Naturalistic Methods Communication Research",
+      "credits": 3
+    },
+    {
+      "id": "COMM366",
+      "code": "COMM 366",
+      "title": "Observing/Measuring Cmun Behavior",
+      "credits": 3
+    },
+    {
+      "id": "COMM367",
+      "code": "COMM 367",
+      "title": "Rhetorical Criticism",
+      "credits": 3
+    },
+    {
+      "id": "COMM368",
+      "code": "COMM 368",
+      "title": "Ethnographic Research Methods in Communication",
+      "credits": 3
+    },
+    {
+      "id": "COMM370",
+      "code": "COMM 370",
+      "title": "Special Topics in Advertising & Public Relations",
+      "credits": 3
+    },
+    {
+      "id": "COMM371",
+      "code": "COMM 371",
+      "title": "Special Topics Communication Studies",
+      "credits": 3
+    },
+    {
+      "id": "COMM372",
+      "code": "COMM 372",
+      "title": "Special Topics: Multimedia Journalism",
+      "credits": 3
+    },
+    {
+      "id": "COMM373",
+      "code": "COMM 373",
+      "title": "Digital Storytelling Abroad",
+      "credits": 3
+    },
+    {
+      "id": "COMM374",
+      "code": "COMM 374",
+      "title": "Special Topics: Film & Digital Media",
+      "credits": 3
+    },
+    {
+      "id": "COMM375",
+      "code": "COMM 375",
+      "title": "Media Relations",
+      "credits": 3
+    },
+    {
+      "id": "COMM378",
+      "code": "COMM 378",
+      "title": "Advertising/Public Relations Practicum",
+      "credits": 3
+    },
+    {
+      "id": "COMM379",
+      "code": "COMM 379",
+      "title": "Digital Sustainability",
+      "credits": 3
+    },
+    {
+      "id": "COMM380",
+      "code": "COMM 380",
+      "title": "Debate Practicum",
+      "credits": 3
+    },
+    {
+      "id": "COMM381",
+      "code": "COMM 381",
+      "title": "Communication Practicum",
+      "credits": 1
+    },
+    {
+      "id": "COMM382",
+      "code": "COMM 382",
+      "title": "Multimedia Journalism Practicum",
+      "credits": 1
+    },
+    {
+      "id": "COMM383",
+      "code": "COMM 383",
+      "title": "Radio Practicum",
+      "credits": 3
+    },
+    {
+      "id": "COMM384",
+      "code": "COMM 384",
+      "title": "Film and Digital Media Practicum",
+      "credits": 1
+    },
+    {
+      "id": "COMM386",
+      "code": "COMM 386",
+      "title": "Advertising/Public Relations Capstone",
+      "credits": 3
+    },
+    {
+      "id": "COMM387",
+      "code": "COMM 387",
+      "title": "New and Digital Media Capstone",
+      "credits": 3
+    },
+    {
+      "id": "COMM388",
+      "code": "COMM 388",
+      "title": "Film and Digital Media Capstone",
+      "credits": 3
+    },
+    {
+      "id": "COMM389",
+      "code": "COMM 389",
+      "title": "Advertising Creative Capstone: Portfolio II",
+      "credits": 3
+    },
+    {
+      "id": "COMM390",
+      "code": "COMM 390",
+      "title": "Communication Studies Capstone",
+      "credits": 3
+    },
+    {
+      "id": "COMM391",
+      "code": "COMM 391",
+      "title": "Advertising/Public Relations Internship",
+      "credits": 3
+    },
+    {
+      "id": "COMM392",
+      "code": "COMM 392",
+      "title": "Multimedia Journalism Internship",
+      "credits": 3
+    },
+    {
+      "id": "COMM393",
+      "code": "COMM 393",
+      "title": "Communication Studies Internship",
+      "credits": 3
+    },
+    {
+      "id": "COMM394",
+      "code": "COMM 394",
+      "title": "Film & Digital Media Internship",
+      "credits": 3
+    },
+    {
+      "id": "COMM395",
+      "code": "COMM 395",
+      "title": "Sports Media Internship",
+      "credits": 3
+    },
+    {
+      "id": "COMM398",
+      "code": "COMM 398",
+      "title": "Directed Study",
+      "credits": 1
+    },
+    {
+      "id": "COMM400",
+      "code": "COMM 400",
+      "title": "Emerging Creative Technologies",
+      "credits": 3
+    },
+    {
+      "id": "COMM401",
+      "code": "COMM 401",
+      "title": "Foundations of Global Strategic Communication",
+      "credits": 3
+    },
+    {
+      "id": "COMM402",
+      "code": "COMM 402",
+      "title": "Organizational Leadership and Change Management",
+      "credits": 3
+    },
+    {
+      "id": "COMM403",
+      "code": "COMM 403",
+      "title": "Strategic Communication Research Methods",
+      "credits": 3
+    },
+    {
+      "id": "COMM405",
+      "code": "COMM 405",
+      "title": "Story Development and Production",
+      "credits": 3
+    },
+    {
+      "id": "COMM406",
+      "code": "COMM 406",
+      "title": "Environmental Advocacy",
+      "credits": 3
+    },
+    {
+      "id": "COMM409",
+      "code": "COMM 409",
+      "title": "Video Production Lab",
+      "credits": 3
+    },
+    {
+      "id": "COMM410",
+      "code": "COMM 410",
+      "title": "Media Law for Inclusive Digital Storytelling",
+      "credits": 3
+    },
+    {
+      "id": "COMM411",
+      "code": "COMM 411",
+      "title": "Strategic Communication Ethics and Law",
+      "credits": 3
+    },
+    {
+      "id": "COMM412",
+      "code": "COMM 412",
+      "title": "Communication Content Mining and Analytics",
+      "credits": 3
+    },
+    {
+      "id": "COMM413",
+      "code": "COMM 413",
+      "title": "Writing for Strategic Communication",
+      "credits": 3
+    },
+    {
+      "id": "COMM414",
+      "code": "COMM 414",
+      "title": "Advertising Campaigns",
+      "credits": 3
+    },
+    {
+      "id": "COMM415",
+      "code": "COMM 415",
+      "title": "Career and Portfolio Development",
+      "credits": 3
+    },
+    {
+      "id": "COMM417",
+      "code": "COMM 417",
+      "title": "Media Planning",
+      "credits": 3
+    },
+    {
+      "id": "COMM420",
+      "code": "COMM 420",
+      "title": "Digital Production: Storytelling with Impact",
+      "credits": 3
+    },
+    {
+      "id": "COMM421",
+      "code": "COMM 421",
+      "title": "Global Strategic Communication Boot Camp Chicago",
+      "credits": 3
+    },
+    {
+      "id": "COMM422",
+      "code": "COMM 422",
+      "title": "Global and Multicultural Audiences and Stakeholders",
+      "credits": 3
+    },
+    {
+      "id": "COMM425",
+      "code": "COMM 425",
+      "title": "AI-Powered Marketing and Analytics",
+      "credits": 3
+    },
+    {
+      "id": "COMM426",
+      "code": "COMM 426",
+      "title": "Strategic Business Communication for Social Impact",
+      "credits": 3
+    },
+    {
+      "id": "COMM429",
+      "code": "COMM 429",
+      "title": "Advertising and Public Relations Design",
+      "credits": 3
+    },
+    {
+      "id": "COMM430",
+      "code": "COMM 430",
+      "title": "Multiplatform Visual Design",
+      "credits": 3
+    },
+    {
+      "id": "COMM431",
+      "code": "COMM 431",
+      "title": "Campaign for Social Impact",
+      "credits": 3
+    },
+    {
+      "id": "COMM432",
+      "code": "COMM 432",
+      "title": "Public Interest Communication",
+      "credits": 3
+    },
+    {
+      "id": "COMM433",
+      "code": "COMM 433",
+      "title": "Corporate Communication",
+      "credits": 3
+    },
+    {
+      "id": "COMM434",
+      "code": "COMM 434",
+      "title": "Business-to-Business Communication",
+      "credits": 3
+    },
+    {
+      "id": "COMM435",
+      "code": "COMM 435",
+      "title": "Public Affairs and Issues Management",
+      "credits": 3
+    },
+    {
+      "id": "COMM436",
+      "code": "COMM 436",
+      "title": "Social Media Crisis Communication",
+      "credits": 3
+    },
+    {
+      "id": "COMM437",
+      "code": "COMM 437",
+      "title": "Advertising and Public Relations Multimedia Commercial Production",
+      "credits": 3
+    },
+    {
+      "id": "COMM438",
+      "code": "COMM 438",
+      "title": "Search & Display Advertising",
+      "credits": 3
+    },
+    {
+      "id": "COMM439",
+      "code": "COMM 439",
+      "title": "Video Documentary",
+      "credits": 3
+    },
+    {
+      "id": "COMM441",
+      "code": "COMM 441",
+      "title": "Global Strategic Communication Capstone",
+      "credits": 3
+    },
+    {
+      "id": "COMM444",
+      "code": "COMM 444",
+      "title": "Social Media Campaigns",
+      "credits": 3
+    },
+    {
+      "id": "COMM445",
+      "code": "COMM 445",
+      "title": "Creating ADPR Content with AI",
+      "credits": 3
+    },
+    {
+      "id": "COMM448",
+      "code": "COMM 448",
+      "title": "Short-Form Series Production",
+      "credits": 3
+    },
+    {
+      "id": "COMM449",
+      "code": "COMM 449",
+      "title": "Capstone Seminar",
+      "credits": 3
+    },
+    {
+      "id": "COMM450",
+      "code": "COMM 450",
+      "title": "Capstone II",
+      "credits": 3
+    },
+    {
+      "id": "COMM455",
+      "code": "COMM 455",
+      "title": "Animation",
+      "credits": 3
+    },
+    {
+      "id": "COMM458",
+      "code": "COMM 458",
+      "title": "Newscasting and Producing",
+      "credits": 3
+    },
+    {
+      "id": "COMM459",
+      "code": "COMM 459",
+      "title": "Advanced Post Production",
+      "credits": 3
+    },
+    {
+      "id": "COMM460",
+      "code": "COMM 460",
+      "title": "AI and Media Experience Design",
+      "credits": 3
+    },
+    {
+      "id": "COMM461",
+      "code": "COMM 461",
+      "title": "Health Communication",
+      "credits": 3
+    },
+    {
+      "id": "COMM462",
+      "code": "COMM 462",
+      "title": "Health Literacy & Digital Technology",
+      "credits": 3
+    },
+    {
+      "id": "COMM463",
+      "code": "COMM 463",
+      "title": "Intermediate Advertising Design",
+      "credits": 3
+    },
+    {
+      "id": "COMM464",
+      "code": "COMM 464",
+      "title": "Mobile Advertising",
+      "credits": 3
+    },
+    {
+      "id": "COMM466",
+      "code": "COMM 466",
+      "title": "Advanced Quantitative Research Methods",
+      "credits": 3
+    },
+    {
+      "id": "COMM467",
+      "code": "COMM 467",
+      "title": "Advanced Digital Analytics",
+      "credits": 3
+    },
+    {
+      "id": "COMM468",
+      "code": "COMM 468",
+      "title": "Consumer Psychology",
+      "credits": 3
+    },
+    {
+      "id": "COMM469",
+      "code": "COMM 469",
+      "title": "Digital User Experience Strategy",
+      "credits": 3
+    },
+    {
+      "id": "COMM470",
+      "code": "COMM 470",
+      "title": "Special Topics in Advertising and Public Relations",
+      "credits": 3
+    },
+    {
+      "id": "COMM471",
+      "code": "COMM 471",
+      "title": "Media Commerce and Platform Ecosystems",
+      "credits": 3
+    },
+    {
+      "id": "COMM473",
+      "code": "COMM 473",
+      "title": "Digital Storytelling Abroad",
+      "credits": 3
+    },
+    {
+      "id": "COMM479",
+      "code": "COMM 479",
+      "title": "Digital Sustainability",
+      "credits": 3
+    },
+    {
+      "id": "COMM480",
+      "code": "COMM 480",
+      "title": "Advertising and Emerging Media Capstone",
+      "credits": 3
+    },
+    {
+      "id": "COMM481",
+      "code": "COMM 481",
+      "title": "Project II",
+      "credits": 3
+    },
+    {
+      "id": "COMM491",
+      "code": "COMM 491",
+      "title": "Advertising/Public Relations Internship",
+      "credits": 3
+    },
+    {
+      "id": "COMM492",
+      "code": "COMM 492",
+      "title": "Multimedia Journalism Internship",
+      "credits": 3
+    },
+    {
+      "id": "COMM494",
+      "code": "COMM 494",
+      "title": "Film & Digital Media Internship",
+      "credits": 3
+    },
+    {
+      "id": "COMM498",
+      "code": "COMM 498",
+      "title": "Directed Study for Graduate Students",
+      "credits": 1
+    },
+    {
+      "id": "COMM700",
+      "code": "COMM 700",
+      "title": "Certificate: Digital Media Ethics",
+      "credits": 0
+    },
+    {
+      "id": "COMM701",
+      "code": "COMM 701",
+      "title": "Organizational Leadership and Change Management",
+      "credits": 0
+    }
+  ]
+}

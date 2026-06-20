@@ -1,0 +1,246 @@
+{
+  "id": "studio-arts-ba",
+  "department": "Fine and Performing Arts",
+  "name": "Studio Arts",
+  "degree": "BA",
+  "school": "Loyola University Chicago",
+  "totalCredits": 120,
+  "majorCredits": 42,
+  "catalogUrl": "https://catalog.luc.edu/undergraduate/arts-sciences/fine-performing-arts/studio-arts-ba/",
+  "courses": [
+    {
+      "id": "FNAR110",
+      "code": "FNAR 110",
+      "title": "Foundations of Visual Art",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "FNAR113",
+      "code": "FNAR 113",
+      "title": "Drawing I",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "FNAR201",
+      "code": "FNAR 201",
+      "title": "Global Art History: 600\u20131800 CE",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "FNAR202",
+      "code": "FNAR 202",
+      "title": "Global Art History: Modern Art",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "FNAR114",
+      "code": "FNAR 114",
+      "title": "Painting I",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "FNAR118",
+      "code": "FNAR 118",
+      "title": "Printmaking I",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "FNAR213",
+      "code": "FNAR 213",
+      "title": "Drawing II",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "FNAR214",
+      "code": "FNAR 214",
+      "title": "Painting II",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "FNAR218",
+      "code": "FNAR 218",
+      "title": "Printmaking II",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "FNAR311",
+      "code": "FNAR 311",
+      "title": "Advanced Studio",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "FNAR388",
+      "code": "FNAR 388",
+      "title": "Critical Approaches to Visual Art",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "FNAR398sa",
+      "code": "FNAR 398",
+      "title": "Fine Arts Capstone",
+      "credits": 3,
+      "category": "major"
+    }
+  ],
+  "electiveOptions": {
+    "sa-studio-elective": {
+      "creditsRequired": 6,
+      "label": "Studio Electives",
+      "note": "Two courses from: FNAR 115 (Photography), 120 (Ceramics: Handbuilding), 124 (Sculpture Foundations), 190 (Color Theory), or 233 (Digital Media Design)",
+      "courses": [
+        {
+          "id": "FNAR115",
+          "code": "FNAR 115",
+          "title": "Foundations of Photography",
+          "credits": 3,
+          "category": "elective"
+        },
+        {
+          "id": "FNAR120",
+          "code": "FNAR 120",
+          "title": "Ceramics: Handbuilding",
+          "credits": 3,
+          "category": "elective"
+        },
+        {
+          "id": "FNAR124",
+          "code": "FNAR 124",
+          "title": "Sculpture Foundations",
+          "credits": 3,
+          "category": "elective"
+        },
+        {
+          "id": "FNAR190",
+          "code": "FNAR 190",
+          "title": "Color Theory",
+          "credits": 3,
+          "category": "elective"
+        },
+        {
+          "id": "FNAR233",
+          "code": "FNAR 233",
+          "title": "Digital Media Design",
+          "credits": 3,
+          "category": "elective"
+        }
+      ]
+    }
+  },
+  "roadmap": [
+    {
+      "year": 1,
+      "semester": "Fall",
+      "credits": 6,
+      "items": [
+        {
+          "ref": "FNAR110"
+        },
+        {
+          "ref": "FNAR113"
+        }
+      ]
+    },
+    {
+      "year": 1,
+      "semester": "Spring",
+      "credits": 6,
+      "items": [
+        {
+          "ref": "FNAR114"
+        },
+        {
+          "ref": "FNAR201"
+        }
+      ]
+    },
+    {
+      "year": 2,
+      "semester": "Fall",
+      "credits": 6,
+      "items": [
+        {
+          "ref": "FNAR213"
+        },
+        {
+          "ref": "FNAR202"
+        }
+      ]
+    },
+    {
+      "year": 2,
+      "semester": "Spring",
+      "credits": 6,
+      "items": [
+        {
+          "ref": "FNAR214"
+        },
+        {
+          "ref": "FNAR118"
+        }
+      ]
+    },
+    {
+      "year": 3,
+      "semester": "Fall",
+      "credits": 6,
+      "items": [
+        {
+          "isElective": true,
+          "label": "FNAR Studio Elective (115, 120, 124, 190, or 233)",
+          "credits": 3
+        },
+        {
+          "isElective": true,
+          "label": "FNAR Studio Elective",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 3,
+      "semester": "Spring",
+      "credits": 3,
+      "items": [
+        {
+          "ref": "FNAR218"
+        }
+      ]
+    },
+    {
+      "year": 4,
+      "semester": "Fall",
+      "credits": 6,
+      "items": [
+        {
+          "ref": "FNAR311"
+        },
+        {
+          "ref": "FNAR388"
+        }
+      ]
+    },
+    {
+      "year": 4,
+      "semester": "Spring",
+      "credits": 3,
+      "items": [
+        {
+          "isElective": true,
+          "label": "FNAR 398",
+          "credits": 3
+        }
+      ]
+    }
+  ]
+}

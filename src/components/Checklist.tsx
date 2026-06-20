@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import SearchBox from './SearchBox';
 import optionalData from '../data/optional.json';
-import { calcDistinctDoneCredits } from '../utils/progress';
+import { calcDistinctDoneCredits, createProgressHelpers } from '../utils/progress';
 import { matchesSearch, normalizeSearch } from '../utils/search';
 import { progressBackgroundColor, progressBarStyle, progressColor } from '../utils/progressColor';
 import type { ChecklistItem as ChecklistModel, CompletedSet, Course, Program, ProgressItem } from '../types';
@@ -248,6 +248,7 @@ function ChecklistItem({ item, completed, toggle, isCompleted, toggleItem }: {
     </button>
   );
 }
+
 
 function OptionalCourses({ search, completed, toggle }: { search: string; completed: CompletedSet; toggle: Toggle }) {
   const groups = [typedOptionalData.writingIntensive, typedOptionalData.coreEligible];

@@ -1,0 +1,24 @@
+{
+  "id": "anthropology-bs",
+  "department": "Anthropology",
+  "name": "Anthropology",
+  "degree": "BS",
+  "school": "Loyola University Chicago",
+  "totalCredits": 120,
+  "majorCredits": 36,
+  "catalogUrl": "https://catalog.luc.edu/undergraduate/arts-sciences/anthropology/anthropology-bs/",
+  "courses": [
+    { "id": "ANTH101", "code": "ANTH 101", "title": "Human Origins", "credits": 3, "category": "major" },
+    { "id": "ANTH231", "code": "ANTH 231", "title": "Linguistic Anthropology", "credits": 3, "category": "major" },
+    { "id": "ANTH241", "code": "ANTH 241", "title": "Principles of Archaeology", "credits": 3, "category": "major" },
+    { "id": "ANTH100", "code": "ANTH 100", "title": "Globalization and Local Cultures", "credits": 3, "category": "major", "requirementGroup": "anth-bs-intro", "choiceNote": "ANTH 100 or ANTH 102" },
+    { "id": "ANTH102", "code": "ANTH 102", "title": "Culture, Society, and Diversity", "credits": 3, "category": "major", "requirementGroup": "anth-bs-intro", "choiceNote": "ANTH 100 or ANTH 102" }
+  ],
+  "electiveOptions": {
+    "anth-bs-ethnographic": { "creditsRequired": 3, "label": "Ethnographic Requirement", "note": "One course covering regional or thematic ethnography" },
+    "anth-bs-archaeology": { "creditsRequired": 3, "label": "Archaeology Requirement", "note": "One additional archaeology course" },
+    "anth-bs-theoretical": { "creditsRequired": 3, "label": "Theoretical Requirement", "note": "One course in anthropological theory" },
+    "anth-bs-bio": { "creditsRequired": 6, "label": "Bio-Anthropology Requirement", "note": "Two courses; at least one from Human Evolution, Primatology, Human Osteology, or Dental Anthropology" },
+    "anth-bs-electives": { "creditsRequired": 9, "label": "Additional Anthropology Electives", "note": "Three additional ANTH courses (at least two at 200/300-level)" }
+  }
+}

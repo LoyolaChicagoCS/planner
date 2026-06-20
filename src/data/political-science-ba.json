@@ -1,0 +1,49 @@
+{
+  "id": "political-science-ba",
+  "department": "Political Science",
+  "name": "Political Science",
+  "degree": "BA",
+  "school": "Loyola University Chicago",
+  "totalCredits": 120,
+  "majorCredits": 33,
+  "catalogUrl": "https://catalog.luc.edu/undergraduate/arts-sciences/political-science/political-science-ba/",
+  "courses": [],
+  "electiveOptions": {
+    "plsc-intro": {
+      "creditsRequired": 9,
+      "label": "Introductory Core Courses",
+      "note": "Three of four introductory courses",
+      "courses": [
+        { "id": "PLSC100", "code": "PLSC 100", "title": "Political Theory", "credits": 3, "category": "elective" },
+        { "id": "PLSC101", "code": "PLSC 101", "title": "American Politics", "credits": 3, "category": "elective" },
+        { "id": "PLSC102", "code": "PLSC 102", "title": "International Relations in an Age of Globalization", "credits": 3, "category": "elective" },
+        { "id": "PLSC103", "code": "PLSC 103", "title": "Comparative Politics", "credits": 3, "category": "elective" }
+      ]
+    },
+    "plsc-subfield-american": {
+      "creditsRequired": 3,
+      "label": "American Politics Subfield",
+      "note": "One upper-level course in the American Politics subfield (PLSC 200s–300s)"
+    },
+    "plsc-subfield-theory": {
+      "creditsRequired": 3,
+      "label": "Political Theory Subfield",
+      "note": "One upper-level course in the Political Theory subfield (PLSC 200s–300s)"
+    },
+    "plsc-subfield-comparative": {
+      "creditsRequired": 3,
+      "label": "Comparative Politics Subfield",
+      "note": "One upper-level course in the Comparative Politics subfield (PLSC 200s–300s)"
+    },
+    "plsc-subfield-ir": {
+      "creditsRequired": 3,
+      "label": "International Relations Subfield",
+      "note": "One upper-level course in the International Relations subfield (PLSC 200s–300s)"
+    },
+    "plsc-electives": {
+      "creditsRequired": 12,
+      "label": "Political Science Electives",
+      "note": "Four additional PLSC electives at the 200- or 300-level"
+    }
+  }
+}

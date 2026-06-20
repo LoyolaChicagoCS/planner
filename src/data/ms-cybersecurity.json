@@ -1,5 +1,6 @@
 {
   "id": "ms-cybersecurity",
+  "department": "Computer Science",
   "name": "Cybersecurity",
   "degree": "MS",
   "school": "Loyola University Chicago",
@@ -7,7 +8,6 @@
   "totalCredits": 37,
   "mastersCredits": 15,
   "catalogUrl": "https://catalog.luc.edu/graduate-professional/graduate-school/arts-sciences/computer-science/cybersecurity-ms/",
-
   "courses": [
     {
       "id": "COMP170",
@@ -15,7 +15,7 @@
       "title": "Object-Oriented Programming",
       "credits": 3,
       "category": "major",
-      "note": "Foundation course — waivable if you completed COMP 170 or equivalent"
+      "note": "Foundation course \u2014 waivable if you completed COMP 170 or equivalent"
     },
     {
       "id": "COMP271",
@@ -23,7 +23,7 @@
       "title": "Data Structures I",
       "credits": 3,
       "category": "major",
-      "note": "Foundation course — waivable if you completed COMP 271 or equivalent"
+      "note": "Foundation course \u2014 waivable if you completed COMP 271 or equivalent"
     },
     {
       "id": "COMP141",
@@ -31,7 +31,7 @@
       "title": "Computing Tools and Techniques",
       "credits": 1,
       "category": "major",
-      "note": "Foundation course — waivable if you completed COMP 141 or equivalent"
+      "note": "Foundation course \u2014 waivable if you completed COMP 141 or equivalent"
     },
     {
       "id": "MSCY_COMP401",
@@ -69,69 +69,198 @@
       "category": "major"
     }
   ],
-
   "electiveOptions": {
     "electives": {
       "creditsRequired": 15,
       "label": "Cybersecurity Electives",
       "note": "Choose 5 courses. COMP 488 must be cybersecurity-related (GPD approval required). COMP 490 must be cybersecurity competitions or research. COMP 499 up to 6 credits.",
       "courses": [
-        { "id": "MSCY_EL_COMP410", "code": "COMP 410", "title": "Operating Systems",                               "credits": 3 },
-        { "id": "MSCY_EL_COMP431", "code": "COMP 431", "title": "Cryptography",                                    "credits": 3 },
-        { "id": "MSCY_EL_COMP440", "code": "COMP 440", "title": "Computer Forensics Investigations",               "credits": 3 },
-        { "id": "MSCY_EL_COMP443", "code": "COMP 443", "title": "Computer Networks",                               "credits": 3 },
-        { "id": "MSCY_EL_COMP445", "code": "COMP 445", "title": "Internet of Things Device and Application Security","credits": 3 },
-        { "id": "MSCY_EL_COMP449", "code": "COMP 449", "title": "Wireless Networking and Security",                "credits": 3 },
-        { "id": "MSCY_EL_COMP451", "code": "COMP 451", "title": "Enterprise Networking",                           "credits": 3 },
-        { "id": "MSCY_EL_COMP471", "code": "COMP 471", "title": "Theory of Programming Languages",                 "credits": 3 },
-        { "id": "MSCY_EL_COMP479", "code": "COMP 479", "title": "Machine Learning",                                "credits": 3 },
-        { "id": "MSCY_EL_COMP487", "code": "COMP 487", "title": "Deep Learning",                                   "credits": 3 },
-        { "id": "MSCY_EL_COMP488", "code": "COMP 488", "title": "Computer Science Topics",                         "credits": 3, "note": "Topic must be cybersecurity-related; GPD approval required" },
-        { "id": "MSCY_EL_COMP490a","code": "COMP 490", "title": "Independent Project (3 cr)",                      "credits": 3, "uniqueProgress": true, "note": "Must involve cybersecurity competitions and/or research" },
-        { "id": "MSCY_EL_COMP490b","code": "COMP 490", "title": "Independent Project (6 cr)",                      "credits": 6, "uniqueProgress": true, "note": "Must involve cybersecurity competitions and/or research" },
-        { "id": "MSCY_EL_COMP499a","code": "COMP 499", "title": "Internship (3 cr)",                               "credits": 3, "uniqueProgress": true, "note": "Up to 6 credits allowed" },
-        { "id": "MSCY_EL_COMP499b","code": "COMP 499", "title": "Internship (6 cr)",                               "credits": 6, "uniqueProgress": true, "note": "Up to 6 credits allowed" }
+        {
+          "id": "MSCY_EL_COMP410",
+          "code": "COMP 410",
+          "title": "Operating Systems",
+          "credits": 3
+        },
+        {
+          "id": "MSCY_EL_COMP431",
+          "code": "COMP 431",
+          "title": "Cryptography",
+          "credits": 3
+        },
+        {
+          "id": "MSCY_EL_COMP440",
+          "code": "COMP 440",
+          "title": "Computer Forensics Investigations",
+          "credits": 3
+        },
+        {
+          "id": "MSCY_EL_COMP443",
+          "code": "COMP 443",
+          "title": "Computer Networks",
+          "credits": 3
+        },
+        {
+          "id": "MSCY_EL_COMP445",
+          "code": "COMP 445",
+          "title": "Internet of Things Device and Application Security",
+          "credits": 3
+        },
+        {
+          "id": "MSCY_EL_COMP449",
+          "code": "COMP 449",
+          "title": "Wireless Networking and Security",
+          "credits": 3
+        },
+        {
+          "id": "MSCY_EL_COMP451",
+          "code": "COMP 451",
+          "title": "Enterprise Networking",
+          "credits": 3
+        },
+        {
+          "id": "MSCY_EL_COMP471",
+          "code": "COMP 471",
+          "title": "Theory of Programming Languages",
+          "credits": 3
+        },
+        {
+          "id": "MSCY_EL_COMP479",
+          "code": "COMP 479",
+          "title": "Machine Learning",
+          "credits": 3
+        },
+        {
+          "id": "MSCY_EL_COMP487",
+          "code": "COMP 487",
+          "title": "Deep Learning",
+          "credits": 3
+        },
+        {
+          "id": "MSCY_EL_COMP488",
+          "code": "COMP 488",
+          "title": "Computer Science Topics",
+          "credits": 3,
+          "note": "Topic must be cybersecurity-related; GPD approval required"
+        },
+        {
+          "id": "MSCY_EL_COMP490a",
+          "code": "COMP 490",
+          "title": "Independent Project (3 cr)",
+          "credits": 3,
+          "uniqueProgress": true,
+          "note": "Must involve cybersecurity competitions and/or research"
+        },
+        {
+          "id": "MSCY_EL_COMP490b",
+          "code": "COMP 490",
+          "title": "Independent Project (6 cr)",
+          "credits": 6,
+          "uniqueProgress": true,
+          "note": "Must involve cybersecurity competitions and/or research"
+        },
+        {
+          "id": "MSCY_EL_COMP499a",
+          "code": "COMP 499",
+          "title": "Internship (3 cr)",
+          "credits": 3,
+          "uniqueProgress": true,
+          "note": "Up to 6 credits allowed"
+        },
+        {
+          "id": "MSCY_EL_COMP499b",
+          "code": "COMP 499",
+          "title": "Internship (6 cr)",
+          "credits": 6,
+          "uniqueProgress": true,
+          "note": "Up to 6 credits allowed"
+        }
       ]
     }
   },
-
   "coreRequirements": [],
-
   "roadmap": [
     {
-      "year": 1, "semester": "Fall", "credits": 10,
+      "year": 1,
+      "semester": "Fall",
+      "credits": 10,
       "items": [
-        { "ref": "COMP170" },
-        { "ref": "COMP141" },
-        { "ref": "MSCY_COMP401" },
-        { "ref": "MSCY_COMP417" }
+        {
+          "ref": "COMP170"
+        },
+        {
+          "ref": "COMP141"
+        },
+        {
+          "ref": "MSCY_COMP401"
+        },
+        {
+          "ref": "MSCY_COMP417"
+        }
       ]
     },
     {
-      "year": 1, "semester": "Spring", "credits": 9,
+      "year": 1,
+      "semester": "Spring",
+      "credits": 9,
       "items": [
-        { "ref": "COMP271" },
-        { "ref": "MSCY_COMP447" },
-        { "ref": "MSCY_COMP452" }
+        {
+          "ref": "COMP271"
+        },
+        {
+          "ref": "MSCY_COMP447"
+        },
+        {
+          "ref": "MSCY_COMP452"
+        }
       ]
     },
     {
-      "year": 2, "semester": "Fall", "credits": 9,
+      "year": 2,
+      "semester": "Fall",
+      "credits": 9,
       "items": [
-        { "ref": "MSCY_COMP448" },
-        { "label": "Cybersecurity Elective 1", "credits": 3, "isElective": true, "electiveType": "electives" },
-        { "label": "Cybersecurity Elective 2", "credits": 3, "isElective": true, "electiveType": "electives" }
+        {
+          "ref": "MSCY_COMP448"
+        },
+        {
+          "label": "Cybersecurity Elective 1",
+          "credits": 3,
+          "isElective": true,
+          "electiveType": "electives"
+        },
+        {
+          "label": "Cybersecurity Elective 2",
+          "credits": 3,
+          "isElective": true,
+          "electiveType": "electives"
+        }
       ]
     },
     {
-      "year": 2, "semester": "Spring", "credits": 9,
+      "year": 2,
+      "semester": "Spring",
+      "credits": 9,
       "items": [
-        { "label": "Cybersecurity Elective 3", "credits": 3, "isElective": true, "electiveType": "electives" },
-        { "label": "Cybersecurity Elective 4", "credits": 3, "isElective": true, "electiveType": "electives" },
-        { "label": "Cybersecurity Elective 5", "credits": 3, "isElective": true, "electiveType": "electives" }
+        {
+          "label": "Cybersecurity Elective 3",
+          "credits": 3,
+          "isElective": true,
+          "electiveType": "electives"
+        },
+        {
+          "label": "Cybersecurity Elective 4",
+          "credits": 3,
+          "isElective": true,
+          "electiveType": "electives"
+        },
+        {
+          "label": "Cybersecurity Elective 5",
+          "credits": 3,
+          "isElective": true,
+          "electiveType": "electives"
+        }
       ]
     }
   ],
-
   "checklist": []
 }

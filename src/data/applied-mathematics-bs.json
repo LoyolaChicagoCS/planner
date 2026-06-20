@@ -1,0 +1,240 @@
+{
+  "id": "applied-mathematics-bs",
+  "department": "Mathematics and Statistics",
+  "name": "Applied Mathematics",
+  "degree": "BS",
+  "school": "Loyola University Chicago",
+  "totalCredits": 120,
+  "majorCredits": 55,
+  "catalogUrl": "https://catalog.luc.edu/undergraduate/arts-sciences/mathematics-statistics/applied-mathematics-bs/",
+  "courses": [
+    {
+      "id": "MATH161",
+      "code": "MATH 161",
+      "title": "Calculus I",
+      "credits": 4,
+      "category": "major"
+    },
+    {
+      "id": "MATH162",
+      "code": "MATH 162",
+      "title": "Calculus II",
+      "credits": 4,
+      "category": "major"
+    },
+    {
+      "id": "MATH263",
+      "code": "MATH 263",
+      "title": "Multivariable Calculus",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "MATH264",
+      "code": "MATH 264",
+      "title": "Ordinary Differential Equations",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "MATH212",
+      "code": "MATH 212",
+      "title": "Linear Algebra",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "MATH201",
+      "code": "MATH 201",
+      "title": "Introduction to Discrete Mathematics",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "STAT203",
+      "code": "STAT 203",
+      "title": "Statistics",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "MATH313",
+      "code": "MATH 313",
+      "title": "Abstract Algebra I",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "MATH315",
+      "code": "MATH 315",
+      "title": "Real Analysis I",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "MATH360",
+      "code": "MATH 360",
+      "title": "Introduction to Numerical Methods",
+      "credits": 3,
+      "category": "major"
+    }
+  ],
+  "electiveOptions": {
+    "amath-upper": {
+      "creditsRequired": 9,
+      "label": "Applied Mathematics Electives",
+      "note": "Three upper-division MATH or STAT courses (300+) approved for the Applied Mathematics program"
+    },
+    "amath-application": {
+      "creditsRequired": 9,
+      "label": "Application Area",
+      "note": "9 credits in an approved application area (Physics, CS, Economics, Biology, or Engineering)"
+    },
+    "amath-capstone": {
+      "creditsRequired": 3,
+      "label": "Capstone",
+      "note": "MATH 490 (Senior Thesis) or approved capstone course"
+    },
+    "amath-cs": {
+      "creditsRequired": 3,
+      "label": "Programming Requirement",
+      "note": "COMP 150 or equivalent introductory programming course"
+    }
+  },
+  "roadmap": [
+    {
+      "year": 1,
+      "semester": "Fall",
+      "credits": 7,
+      "items": [
+        {
+          "ref": "MATH161"
+        },
+        {
+          "isElective": true,
+          "label": "Science Requirement",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 1,
+      "semester": "Spring",
+      "credits": 7,
+      "items": [
+        {
+          "ref": "MATH162"
+        },
+        {
+          "ref": "MATH201"
+        }
+      ]
+    },
+    {
+      "year": 2,
+      "semester": "Fall",
+      "credits": 13,
+      "items": [
+        {
+          "ref": "MATH263"
+        },
+        {
+          "isElective": true,
+          "label": "MATH 215",
+          "credits": 3
+        },
+        {
+          "isElective": true,
+          "label": "PHYS 121",
+          "credits": 3
+        },
+        {
+          "isElective": true,
+          "label": "PHYS 111L",
+          "credits": 1
+        }
+      ]
+    },
+    {
+      "year": 2,
+      "semester": "Spring",
+      "credits": 9,
+      "items": [
+        {
+          "ref": "MATH212"
+        },
+        {
+          "ref": "MATH264"
+        },
+        {
+          "isElective": true,
+          "label": "COMP 231 \u2014 Data Structures",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 3,
+      "semester": "Fall",
+      "credits": 6,
+      "items": [
+        {
+          "isElective": true,
+          "label": "STAT 203 or MATH 304",
+          "credits": 3
+        },
+        {
+          "isElective": true,
+          "label": "300-level Applied Math Elective",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 3,
+      "semester": "Spring",
+      "credits": 6,
+      "items": [
+        {
+          "isElective": true,
+          "label": "STAT 308 or MATH 305",
+          "credits": 3
+        },
+        {
+          "isElective": true,
+          "label": "MATH 309 or MATH 356",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 4,
+      "semester": "Fall",
+      "credits": 6,
+      "items": [
+        {
+          "isElective": true,
+          "label": "300-level Applied Math Elective",
+          "credits": 3
+        },
+        {
+          "isElective": true,
+          "label": "300-level Math/Stat Elective",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 4,
+      "semester": "Spring",
+      "credits": 3,
+      "items": [
+        {
+          "isElective": true,
+          "label": "MATH 309 or MATH 356",
+          "credits": 3
+        }
+      ]
+    }
+  ]
+}

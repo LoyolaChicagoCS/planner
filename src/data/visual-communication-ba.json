@@ -1,0 +1,240 @@
+{
+  "id": "visual-communication-ba",
+  "department": "Fine and Performing Arts",
+  "name": "Visual Communication",
+  "degree": "BA",
+  "school": "Loyola University Chicago",
+  "totalCredits": 120,
+  "majorCredits": 45,
+  "catalogUrl": "https://catalog.luc.edu/undergraduate/arts-sciences/fine-performing-arts/visual-communication-ba/",
+  "courses": [
+    {
+      "id": "FNAR113",
+      "code": "FNAR 113",
+      "title": "Drawing I",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "FNAR112",
+      "code": "FNAR 112",
+      "title": "Two-Dimensional Design",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "FNAR190",
+      "code": "FNAR 190",
+      "title": "Color Theory",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "FNAR115",
+      "code": "FNAR 115",
+      "title": "Foundations of Photography",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "FNAR132",
+      "code": "FNAR 132",
+      "title": "Visual Communication I",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "FNAR232",
+      "code": "FNAR 232",
+      "title": "Visual Communication II",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "FNAR233",
+      "code": "FNAR 233",
+      "title": "Digital Media Design",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "FNAR332",
+      "code": "FNAR 332",
+      "title": "Visual Communication III",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "FNAR333",
+      "code": "FNAR 333",
+      "title": "Explorations in Typography",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "FNAR334",
+      "code": "FNAR 334",
+      "title": "Motion Design",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "FNAR382",
+      "code": "FNAR 382",
+      "title": "Visual Communication IV",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "FNAR383",
+      "code": "FNAR 383",
+      "title": "Interactive Design",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "FNAR380",
+      "code": "FNAR 380",
+      "title": "Internship I",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "FNAR398vc",
+      "code": "FNAR 398",
+      "title": "Fine Arts Capstone",
+      "credits": 3,
+      "category": "major"
+    }
+  ],
+  "electiveOptions": {
+    "vc-art-history": {
+      "creditsRequired": 3,
+      "label": "Art History Requirement",
+      "note": "FNAR 202 (Global Art History: Modern Art) or FNAR 364 (History of Graphic Design)",
+      "courses": [
+        {
+          "id": "FNAR202",
+          "code": "FNAR 202",
+          "title": "Global Art History: Modern Art",
+          "credits": 3,
+          "category": "elective"
+        },
+        {
+          "id": "FNAR364",
+          "code": "FNAR 364",
+          "title": "History of Graphic Design",
+          "credits": 3,
+          "category": "elective"
+        }
+      ]
+    }
+  },
+  "roadmap": [
+    {
+      "year": 1,
+      "semester": "Fall",
+      "credits": 6,
+      "items": [
+        {
+          "ref": "FNAR112"
+        },
+        {
+          "ref": "FNAR113"
+        }
+      ]
+    },
+    {
+      "year": 1,
+      "semester": "Spring",
+      "credits": 6,
+      "items": [
+        {
+          "ref": "FNAR132"
+        },
+        {
+          "ref": "FNAR233"
+        }
+      ]
+    },
+    {
+      "year": 2,
+      "semester": "Fall",
+      "credits": 9,
+      "items": [
+        {
+          "ref": "FNAR115"
+        },
+        {
+          "ref": "FNAR190"
+        },
+        {
+          "isElective": true,
+          "label": "FNAR 202 or FNAR 364",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 2,
+      "semester": "Spring",
+      "credits": 6,
+      "items": [
+        {
+          "ref": "FNAR232"
+        },
+        {
+          "ref": "FNAR334"
+        }
+      ]
+    },
+    {
+      "year": 3,
+      "semester": "Fall",
+      "credits": 6,
+      "items": [
+        {
+          "ref": "FNAR332"
+        },
+        {
+          "ref": "FNAR333"
+        }
+      ]
+    },
+    {
+      "year": 3,
+      "semester": "Spring",
+      "credits": 3,
+      "items": [
+        {
+          "ref": "FNAR383"
+        }
+      ]
+    },
+    {
+      "year": 4,
+      "semester": "Fall",
+      "credits": 3,
+      "items": [
+        {
+          "ref": "FNAR380"
+        }
+      ]
+    },
+    {
+      "year": 4,
+      "semester": "Spring",
+      "credits": 6,
+      "items": [
+        {
+          "ref": "FNAR382"
+        },
+        {
+          "isElective": true,
+          "label": "FNAR 398",
+          "credits": 3
+        }
+      ]
+    }
+  ]
+}

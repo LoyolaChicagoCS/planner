@@ -4,17 +4,7 @@ import Footer from './Footer';
 import type { Program } from '../types';
 import loyolaLogo from '../assets/loyola-ramblers-logo.svg';
 
-/**
- * HomeScreen — the landing page showing one card per degree program.
- * Tapping a card navigates into that program's detail view.
- *
- * Props:
- *   programs  — array of program data objects (id, name, degree, totalCredits)
- *   onSelect  — callback(program) when a card is tapped
- */
-
-// Each program gets a distinct gradient, all anchored in LUC maroon/gold tones
-const PROGRAM_COLORS = {
+const PROGRAM_COLORS: Record<string, string> = {
   cs:            'from-maroon-600 to-maroon-800',
   se:            'from-gold-500 to-maroon-600',
   it:            'from-gold-400 to-maroon-500',
@@ -35,7 +25,7 @@ const PROGRAM_COLORS = {
   'phd-cs':           'from-maroon-900 to-gray-900',
 };
 
-const PROGRAM_ICONS = {
+const PROGRAM_ICONS: Record<string, string> = {
   cs:            '💻',
   se:            '🛠️',
   it:            '🌐',
@@ -56,61 +46,102 @@ const PROGRAM_ICONS = {
   'phd-cs':           '🔬',
 };
 
+type SchoolKey = 'cs' | 'cas' | 'business' | 'communication';
+type CsTabKey = 'majors' | 'interdisciplinary' | 'minors' | 'masters' | 'doctoral';
+type NonCsTabKey = 'majors' | 'interdisciplinary' | 'minors';
 
-type TabKey = 'majors' | 'interdisciplinary' | 'minors' | 'masters' | 'doctoral';
-
-const TABS: { key: TabKey; label: string }[] = [
-  { key: 'majors',           label: 'Majors' },
-  { key: 'interdisciplinary', label: 'Interdisciplinary' },
-  { key: 'minors',           label: 'Minors' },
-  { key: 'masters',          label: 'Masters' },
-  { key: 'doctoral',         label: 'Doctoral' },
+const SCHOOL_TABS: { key: SchoolKey; label: string }[] = [
+  { key: 'cs',            label: 'CS Department' },
+  { key: 'cas',           label: 'Arts & Sciences' },
+  { key: 'business',      label: 'Business' },
+  { key: 'communication', label: 'Communication' },
 ];
+
+const CS_TABS: { key: CsTabKey; label: string }[] = [
+  { key: 'majors',            label: 'Majors' },
+  { key: 'interdisciplinary', label: 'Interdisciplinary' },
+  { key: 'minors',            label: 'Minors' },
+  { key: 'masters',           label: 'Masters' },
+  { key: 'doctoral',          label: 'Doctoral' },
+];
+
+const NON_CS_TABS: { key: NonCsTabKey; label: string }[] = [
+  { key: 'majors',            label: 'Majors' },
+  { key: 'interdisciplinary', label: 'Interdisciplinary' },
+  { key: 'minors',            label: 'Minors' },
+];
+
+const sortByName = (arr: Program[]) => [...arr].sort((a, b) => a.name.localeCompare(b.name));
+
+function groupByDepartment(programs: Program[]): [string, Program[]][] {
+  const map = new Map<string, Program[]>();
+  for (const p of programs) {
+    const dept = p.department ?? 'Other';
+    if (!map.has(dept)) map.set(dept, []);
+    map.get(dept)!.push(p);
+  }
+  return [...map.entries()]
+    .sort(([a], [b]) => a.localeCompare(b))
+    .map(([dept, progs]) => [dept, sortByName(progs)]);
+}
 
 interface HomeScreenProps {
   programs: Program[];
   onSelect: (program: Program) => void;
 }
 
-const PROGRAM_COLOR_BY_ID: Record<string, string> = PROGRAM_COLORS;
-const PROGRAM_ICON_BY_ID: Record<string, string> = PROGRAM_ICONS;
-const sortByProgramName = (programs: Program[]) =>
-  [...programs].sort((first, second) => first.name.localeCompare(second.name));
-
 export default function HomeScreen({ programs, onSelect }: HomeScreenProps) {
-  const [activeTab, setActiveTab] = useState<TabKey>('majors');
+  const [school, setSchool]       = useState<SchoolKey>('cs');
+  const [csTab, setCsTab]         = useState<CsTabKey>('majors');
+  const [nonCsTab, setNonCsTab]   = useState<NonCsTabKey>('majors');
 
-  const departmentalDegrees = sortByProgramName(
-    programs.filter(program => ['cs', 'se', 'it', 'cybersecurity'].includes(program.id))
-  );
-  const interdisciplinaryMajors = sortByProgramName(
-    programs.filter(program => program.kind === 'interdisciplinary')
-  );
-  const minors = sortByProgramName(programs.filter(program => program.kind === 'minor'));
-  const mastersPrograms = sortByProgramName(programs.filter(program => program.kind === 'masters'));
-  const doctoralPrograms = sortByProgramName(programs.filter(program => program.kind === 'phd'));
+  // CS department programs — Bioinformatics and Data Science are interdisciplinary only
+  const csPrograms = {
+    majors:            sortByName(programs.filter(p => ['cs', 'se', 'it', 'cybersecurity'].includes(p.id))),
+    interdisciplinary: sortByName(programs.filter(p => p.kind === 'interdisciplinary' && p.department === 'Computer Science')),
+    minors:            sortByName(programs.filter(p => p.kind === 'minor' && p.department === 'Computer Science')),
+    masters:           sortByName(programs.filter(p => p.kind === 'masters')),
+    doctoral:          sortByName(programs.filter(p => p.kind === 'phd')),
+  };
 
-  const tabPrograms: Record<TabKey, Program[]> = {
-    majors:           departmentalDegrees,
-    interdisciplinary: interdisciplinaryMajors,
-    minors:           minors,
-    masters:          mastersPrograms,
-    doctoral:         doctoralPrograms,
+  // CAS BA/BS programs (not CS dept, not Communication, not Business)
+  const allCasPrograms = programs.filter(p =>
+    (p.degree === 'BA' || p.degree === 'BS') &&
+    p.department !== 'Computer Science' &&
+    p.department !== 'Communication' &&
+    p.department !== 'Business Administration',
+  );
+  const casGroups = {
+    majors:            groupByDepartment(allCasPrograms.filter(p => p.kind !== 'interdisciplinary' && p.kind !== 'minor')),
+    interdisciplinary: groupByDepartment(allCasPrograms.filter(p => p.kind === 'interdisciplinary')),
+    minors:            groupByDepartment(allCasPrograms.filter(p => p.kind === 'minor')),
+  };
+
+  // Quinlan School of Business (BBA programs)
+  const allBusinessPrograms = programs.filter(p => p.department === 'Business Administration');
+  const businessGroups = {
+    majors:            groupByDepartment(allBusinessPrograms.filter(p => p.kind !== 'interdisciplinary' && p.kind !== 'minor')),
+    interdisciplinary: groupByDepartment(allBusinessPrograms.filter(p => p.kind === 'interdisciplinary')),
+    minors:            groupByDepartment(allBusinessPrograms.filter(p => p.kind === 'minor')),
+  };
+
+  // School of Communication
+  const allCommPrograms = programs.filter(p => p.department === 'Communication');
+  const commGroups = {
+    majors:            groupByDepartment(allCommPrograms.filter(p => p.kind !== 'interdisciplinary' && p.kind !== 'minor')),
+    interdisciplinary: groupByDepartment(allCommPrograms.filter(p => p.kind === 'interdisciplinary')),
+    minors:            groupByDepartment(allCommPrograms.filter(p => p.kind === 'minor')),
   };
 
   return (
     <div className="flex flex-col h-full bg-gray-50">
-      {/* Header — LUC maroon bar */}
+      {/* Header */}
       <div className="bg-maroon-500 flex-shrink-0">
         <div className="px-6 pt-12 pb-6">
           <div className="flex flex-wrap items-center gap-x-3 gap-y-2">
             <div className="flex min-w-0 flex-1 items-center gap-3">
               <div className="flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-xl bg-white p-1.5 shadow-sm">
-                <img
-                  src={loyolaLogo}
-                  alt="Loyola Ramblers"
-                  className="h-full w-full object-contain"
-                />
+                <img src={loyolaLogo} alt="Loyola Ramblers" className="h-full w-full object-contain" />
               </div>
               <h1 className="text-2xl font-bold text-white leading-tight">Academic Checklist</h1>
             </div>
@@ -126,74 +157,153 @@ export default function HomeScreen({ programs, onSelect }: HomeScreenProps) {
         </div>
       </div>
 
-      {/* Tab bar */}
-      <div className="flex bg-white border-b border-gray-200 flex-shrink-0">
-        {TABS.map(tab => (
+      {/* School selector */}
+      <div className="flex bg-maroon-700 flex-shrink-0">
+        {SCHOOL_TABS.map(tab => (
           <button
             key={tab.key}
-            onClick={() => setActiveTab(tab.key)}
-            className={`
-              flex-1 py-2.5 text-xs font-semibold transition-colors
-              ${activeTab === tab.key
-                ? 'text-maroon-600 border-b-2 border-maroon-600'
-                : 'text-gray-400 border-b-2 border-transparent'}
-            `}
+            onClick={() => setSchool(tab.key)}
+            className={`flex-1 py-2.5 text-xs font-bold transition-colors ${
+              school === tab.key
+                ? 'bg-white text-maroon-700'
+                : 'text-maroon-200 hover:text-white'
+            }`}
           >
             {tab.label}
           </button>
         ))}
       </div>
 
-      {/* Program cards */}
-      <div
-        key={activeTab}
-        className="flex-1 overflow-y-auto px-4 pt-5 pb-8 space-y-3"
-      >
-        {tabPrograms[activeTab].map(program => (
-          <ProgramCard key={program.id} program={program} onSelect={onSelect} />
-        ))}
-      </div>
+      {school === 'cs' && (
+        <>
+          <div className="flex bg-white border-b border-gray-200 flex-shrink-0">
+            {CS_TABS.map(tab => (
+              <button
+                key={tab.key}
+                onClick={() => setCsTab(tab.key)}
+                className={`flex-1 py-2.5 text-xs font-semibold transition-colors ${
+                  csTab === tab.key
+                    ? 'text-maroon-600 border-b-2 border-maroon-600'
+                    : 'text-gray-400 border-b-2 border-transparent'
+                }`}
+              >
+                {tab.label}
+              </button>
+            ))}
+          </div>
+          <div key={csTab} className="flex-1 overflow-y-auto px-4 pt-5 pb-8 space-y-3">
+            {csPrograms[csTab].map(program => (
+              <ProgramCard key={program.id} program={program} onSelect={onSelect} />
+            ))}
+          </div>
+        </>
+      )}
+
+      {(school === 'cas' || school === 'business' || school === 'communication') && (
+        <>
+          <div className="flex bg-white border-b border-gray-200 flex-shrink-0">
+            {NON_CS_TABS.map(tab => (
+              <button
+                key={tab.key}
+                onClick={() => setNonCsTab(tab.key)}
+                className={`flex-1 py-2.5 text-xs font-semibold transition-colors ${
+                  nonCsTab === tab.key
+                    ? 'text-maroon-600 border-b-2 border-maroon-600'
+                    : 'text-gray-400 border-b-2 border-transparent'
+                }`}
+              >
+                {tab.label}
+              </button>
+            ))}
+          </div>
+          <div key={`${school}-${nonCsTab}`} className="flex-1 overflow-y-auto px-4 pt-5 pb-8">
+            <NonCsContent
+              groups={
+                school === 'cas'
+                  ? casGroups[nonCsTab]
+                  : school === 'business'
+                  ? businessGroups[nonCsTab]
+                  : commGroups[nonCsTab]
+              }
+              tab={nonCsTab}
+              onSelect={onSelect}
+            />
+          </div>
+        </>
+      )}
+
       <Footer />
     </div>
   );
 }
 
+function NonCsContent({
+  groups,
+  tab,
+  onSelect,
+}: {
+  groups: [string, Program[]][];
+  tab: NonCsTabKey;
+  onSelect: (p: Program) => void;
+}) {
+  if (groups.length === 0) {
+    const label = tab === 'minors' ? 'minors' : tab === 'interdisciplinary' ? 'interdisciplinary programs' : 'programs';
+    return (
+      <div className="flex flex-col items-center justify-center py-16 text-center">
+        <div className="text-4xl mb-3">📋</div>
+        <p className="text-sm text-gray-400">No {label} listed yet.</p>
+      </div>
+    );
+  }
+  return (
+    <>
+      {groups.map(([dept, progs]) => (
+        <div key={dept} className="mb-6">
+          <h2 className="text-xs font-bold uppercase tracking-wider text-gray-400 mb-2 px-1">{dept}</h2>
+          <div className="space-y-2">
+            {progs.map(program => (
+              <ProgramCard key={program.id} program={program} onSelect={onSelect} />
+            ))}
+          </div>
+        </div>
+      ))}
+    </>
+  );
+}
+
 function ProgramCard({ program, onSelect }: { program: Program; onSelect: (p: Program) => void }) {
+  const color = PROGRAM_COLORS[program.id] ?? 'from-maroon-500 to-maroon-700';
+  const icon  = PROGRAM_ICONS[program.id] ?? '🎓';
+  const isMinor = program.kind === 'minor';
+
   return (
     <button
       onClick={() => onSelect(program)}
       className={`
         w-full text-left rounded-2xl shadow-md
-        bg-gradient-to-br ${PROGRAM_COLOR_BY_ID[program.id] ?? 'from-maroon-500 to-maroon-700'}
+        bg-gradient-to-br ${color}
         text-white active:scale-95 transition-transform
-        ${program.kind === 'minor' ? 'p-5' : 'p-4'}
+        ${isMinor ? 'p-5' : 'p-4'}
       `}
     >
-      <div className={`flex items-center gap-3 ${program.kind === 'minor' ? 'mb-2' : ''}`}>
-        <div className={`${program.kind === 'minor' ? 'text-3xl' : 'text-2xl'} flex-shrink-0`}>
-          {PROGRAM_ICON_BY_ID[program.id] ?? '🎓'}
-        </div>
-        <div className={`${program.kind === 'minor' ? 'text-lg' : 'text-xl'} font-bold leading-tight`}>
+      <div className={`flex items-center gap-3 ${isMinor ? 'mb-2' : ''}`}>
+        <div className={`${isMinor ? 'text-3xl' : 'text-2xl'} flex-shrink-0`}>{icon}</div>
+        <div className={`${isMinor ? 'text-lg' : 'text-xl'} font-bold leading-tight`}>
           {program.name}
         </div>
       </div>
       <div className="text-sm opacity-80 mt-1">
-        {program.degree} &middot; {program.kind === 'minor'
-          ? `${program.minorCredits ?? program.totalCredits} minor credits`
+        {program.degree}
+        {program.kind === 'minor'
+          ? ` · ${program.minorCredits ?? program.totalCredits} minor credits`
           : program.kind === 'masters'
-          ? `30–${program.totalCredits} program credits`
-          : `${program.totalCredits} roadmap credits`}
+          ? ` · ${program.totalCredits} program credits`
+          : program.kind === 'phd'
+          ? ` · ${program.totalCredits} program credits`
+          : program.majorCredits
+          ? ` · ${program.majorCredits} major credits`
+          : ` · ${program.totalCredits} credits`}
       </div>
-      {program.majorCredits && program.kind !== 'masters' && (
-        <div className="text-xs opacity-75 mt-0.5">
-          {program.majorCredits} major credits
-        </div>
-      )}
-      {program.mastersCredits && program.kind === 'masters' && (
-        <div className="text-xs opacity-75 mt-0.5">
-          {program.mastersCredits} required credits
-        </div>
-      )}
     </button>
   );
 }

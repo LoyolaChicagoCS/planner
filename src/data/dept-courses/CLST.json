@@ -1,0 +1,365 @@
+{
+  "catalog": "2026-2027",
+  "code": "CLST",
+  "name": "Classical Studies",
+  "sourceUrl": "https://catalog.luc.edu/course-descriptions/clst/",
+  "fetchedAt": "2026-06-20",
+  "courses": [
+    {
+      "id": "CLST206",
+      "code": "CLST 206",
+      "title": "Art of Ancient Greece",
+      "credits": 3
+    },
+    {
+      "id": "CLST207",
+      "code": "CLST 207",
+      "title": "Art of the Roman World",
+      "credits": 3
+    },
+    {
+      "id": "CLST241",
+      "code": "CLST 241",
+      "title": "Religions of Ancient Greece",
+      "credits": 3
+    },
+    {
+      "id": "CLST267",
+      "code": "CLST 267",
+      "title": "Medical and Scientific Terminology in Context",
+      "credits": 3
+    },
+    {
+      "id": "CLST271",
+      "code": "CLST 271",
+      "title": "Classical Mythology",
+      "credits": 3,
+      "isTopics": true,
+      "topicsCount": 3
+    },
+    {
+      "id": "CLST272",
+      "code": "CLST 272",
+      "title": "Heroes & the Classical Epics",
+      "credits": 3
+    },
+    {
+      "id": "CLST273",
+      "code": "CLST 273",
+      "title": "Classical Tragedy",
+      "credits": 3
+    },
+    {
+      "id": "CLST273G",
+      "code": "CLST 273G",
+      "title": "Classical Tragedy - Women/Gender Focus",
+      "credits": 3
+    },
+    {
+      "id": "CLST274",
+      "code": "CLST 274",
+      "title": "World of Archaic Greece",
+      "credits": 3
+    },
+    {
+      "id": "CLST275",
+      "code": "CLST 275",
+      "title": "World of Classical Greece",
+      "credits": 3
+    },
+    {
+      "id": "CLST276",
+      "code": "CLST 276",
+      "title": "World of Classical Rome",
+      "credits": 3
+    },
+    {
+      "id": "CLST277",
+      "code": "CLST 277",
+      "title": "World of Late Antiquity",
+      "credits": 3
+    },
+    {
+      "id": "CLST278",
+      "code": "CLST 278",
+      "title": "Experiencing Mesopotamia",
+      "credits": 3
+    },
+    {
+      "id": "CLST279",
+      "code": "CLST 279",
+      "title": "Classical Rhetoric",
+      "credits": 3
+    },
+    {
+      "id": "CLST280",
+      "code": "CLST 280",
+      "title": "Romance Novel in Ancient World",
+      "credits": 3
+    },
+    {
+      "id": "CLST281",
+      "code": "CLST 281",
+      "title": "War and War Experience, Ancient and Modern",
+      "credits": 3
+    },
+    {
+      "id": "CLST282",
+      "code": "CLST 282",
+      "title": "The Use & Abuse of Ancient History",
+      "credits": 3
+    },
+    {
+      "id": "CLST283",
+      "code": "CLST 283",
+      "title": "Classical Comedy & Satire",
+      "credits": 3
+    },
+    {
+      "id": "CLST288",
+      "code": "CLST 288",
+      "title": "Greek Literature in Translation",
+      "credits": 3
+    },
+    {
+      "id": "CLST289",
+      "code": "CLST 289",
+      "title": "Latin Literature in Translation",
+      "credits": 3
+    },
+    {
+      "id": "CLST295",
+      "code": "CLST 295",
+      "title": "Women in the Classical World",
+      "credits": 3
+    },
+    {
+      "id": "CLST304",
+      "code": "CLST 304",
+      "title": "History of Ancient Philosophy",
+      "credits": 3
+    },
+    {
+      "id": "CLST305",
+      "code": "CLST 305",
+      "title": "Ancient Political Thought",
+      "credits": 3
+    },
+    {
+      "id": "CLST306",
+      "code": "CLST 306",
+      "title": "Science in Ancient Greece and Rome",
+      "credits": 3
+    },
+    {
+      "id": "CLST308",
+      "code": "CLST 308",
+      "title": "History of Rome to Constantine",
+      "credits": 3
+    },
+    {
+      "id": "CLST309",
+      "code": "CLST 309",
+      "title": "Greece to Alexander the Great",
+      "credits": 3
+    },
+    {
+      "id": "CLST315",
+      "code": "CLST 315",
+      "title": "Alexander & Hellenistic World",
+      "credits": 3
+    },
+    {
+      "id": "CLST316",
+      "code": "CLST 316",
+      "title": "Western Patristic Thought",
+      "credits": 3
+    },
+    {
+      "id": "CLST318",
+      "code": "CLST 318",
+      "title": "Transformations of Rome in Late Antiquity",
+      "credits": 3
+    },
+    {
+      "id": "CLST324",
+      "code": "CLST 324",
+      "title": "Shipwreck Archaeology",
+      "credits": 3
+    },
+    {
+      "id": "CLST328",
+      "code": "CLST 328",
+      "title": "Pompeii and Herculaneum",
+      "credits": 3
+    },
+    {
+      "id": "CLST334",
+      "code": "CLST 334",
+      "title": "Intro to Classical Archeology",
+      "credits": 3
+    },
+    {
+      "id": "CLST334R",
+      "code": "CLST 334R",
+      "title": "Introduction to Classical Archaeology - Rome/Italy Focus",
+      "credits": 3
+    },
+    {
+      "id": "CLST340",
+      "code": "CLST 340",
+      "title": "Classical Arch-Greek Temples",
+      "credits": 3
+    },
+    {
+      "id": "CLST342",
+      "code": "CLST 342",
+      "title": "Geography of The Ancient World",
+      "credits": 3
+    },
+    {
+      "id": "CLST344",
+      "code": "CLST 344",
+      "title": "Ancient Greek and Roman Coins",
+      "credits": 3
+    },
+    {
+      "id": "CLST348",
+      "code": "CLST 348",
+      "title": "Introduction to Museum Studies",
+      "credits": 3
+    },
+    {
+      "id": "CLST361",
+      "code": "CLST 361",
+      "title": "Roman Political Theory & Practice",
+      "credits": 3
+    },
+    {
+      "id": "CLST362",
+      "code": "CLST 362",
+      "title": "Roman Law",
+      "credits": 3
+    },
+    {
+      "id": "CLST363",
+      "code": "CLST 363",
+      "title": "Law & Legislature-Ancient Greece",
+      "credits": 3
+    },
+    {
+      "id": "CLST373",
+      "code": "CLST 373",
+      "title": "Daily Life in Ancient Greece",
+      "credits": 3
+    },
+    {
+      "id": "CLST374",
+      "code": "CLST 374",
+      "title": "Private Life of Ancient Romans",
+      "credits": 3
+    },
+    {
+      "id": "CLST375",
+      "code": "CLST 375",
+      "title": "Archaeology of Early Greece",
+      "credits": 3
+    },
+    {
+      "id": "CLST376",
+      "code": "CLST 376",
+      "title": "Homeric Questions",
+      "credits": 3
+    },
+    {
+      "id": "CLST378",
+      "code": "CLST 378",
+      "title": "Sport in Ancient Greece & Rome",
+      "credits": 3
+    },
+    {
+      "id": "CLST380",
+      "code": "CLST 380",
+      "title": "Research in Classical Studies",
+      "credits": 3
+    },
+    {
+      "id": "CLST381",
+      "code": "CLST 381",
+      "title": "Directed Study",
+      "credits": 1
+    },
+    {
+      "id": "CLST382",
+      "code": "CLST 382",
+      "title": "Internship in Classical Studies",
+      "credits": 3
+    },
+    {
+      "id": "CLST383",
+      "code": "CLST 383",
+      "title": "The Humanism of Antiquity I",
+      "credits": 3
+    },
+    {
+      "id": "CLST384",
+      "code": "CLST 384",
+      "title": "The Humanism of Antiquity II",
+      "credits": 3
+    },
+    {
+      "id": "CLST385",
+      "code": "CLST 385",
+      "title": "Historical Classic Greek Literature to 200 A.D",
+      "credits": 3
+    },
+    {
+      "id": "CLST386",
+      "code": "CLST 386",
+      "title": "History of Classical Roman Lit",
+      "credits": 3
+    },
+    {
+      "id": "CLST388",
+      "code": "CLST 388",
+      "title": "Classical Backgrounds I",
+      "credits": 3
+    },
+    {
+      "id": "CLST389",
+      "code": "CLST 389",
+      "title": "Classical Backgrounds II",
+      "credits": 3
+    },
+    {
+      "id": "CLST390",
+      "code": "CLST 390",
+      "title": "Fieldwork Greek Sites/Museums",
+      "credits": 1
+    },
+    {
+      "id": "CLST391",
+      "code": "CLST 391",
+      "title": "Topics in Comp Literature",
+      "credits": 3
+    },
+    {
+      "id": "CLST392",
+      "code": "CLST 392",
+      "title": "Theories of Myth",
+      "credits": 3
+    },
+    {
+      "id": "CLST395",
+      "code": "CLST 395",
+      "title": "Topography of Rome",
+      "credits": 3
+    },
+    {
+      "id": "CLST499",
+      "code": "CLST 499",
+      "title": "Directed Study",
+      "credits": 1
+    }
+  ]
+}

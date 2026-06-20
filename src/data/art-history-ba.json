@@ -1,0 +1,197 @@
+{
+  "id": "art-history-ba",
+  "department": "Fine and Performing Arts",
+  "name": "Art History",
+  "degree": "BA",
+  "school": "Loyola University Chicago",
+  "totalCredits": 120,
+  "majorCredits": 42,
+  "catalogUrl": "https://catalog.luc.edu/undergraduate/arts-sciences/fine-performing-arts/art-history-ba/",
+  "courses": [
+    {
+      "id": "FNAR199",
+      "code": "FNAR 199",
+      "title": "Art and Visual Culture",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "FNAR200",
+      "code": "FNAR 200",
+      "title": "Global Art History: Prehistoric to 600 CE",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "FNAR201",
+      "code": "FNAR 201",
+      "title": "Global Art History: 600\u20131800 CE",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "FNAR202",
+      "code": "FNAR 202",
+      "title": "Global Art History: Modern Art",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "FNAR390",
+      "code": "FNAR 390",
+      "title": "Art History: Methods and Research",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "FNAR391",
+      "code": "FNAR 391",
+      "title": "Senior Thesis in Art History",
+      "credits": 3,
+      "category": "major"
+    }
+  ],
+  "electiveOptions": {
+    "fnar-studio": {
+      "creditsRequired": 3,
+      "label": "Studio Art Requirement",
+      "note": "One studio art course: Drawing I, Painting I, Ceramics, Sculpture Foundations, or related"
+    },
+    "fnar-early-modern": {
+      "creditsRequired": 3,
+      "label": "Early Modern Art",
+      "note": "One course in medieval, baroque, or early renaissance art"
+    },
+    "fnar-non-western": {
+      "creditsRequired": 6,
+      "label": "Non-Western Art",
+      "note": "Two courses: Latin American, Islamic, African, South Asian, Chinese, or Japanese art"
+    },
+    "fnar-modern-western": {
+      "creditsRequired": 3,
+      "label": "Modern Art and Western Traditions",
+      "note": "One course such as Women/Art/Society, Paris in the Nineteenth Century, or Contemporary Art"
+    },
+    "fnar-ah-electives": {
+      "creditsRequired": 9,
+      "label": "Art History Electives",
+      "note": "Three additional art history courses"
+    }
+  },
+  "roadmap": [
+    {
+      "year": 1,
+      "semester": "Fall",
+      "credits": 3,
+      "items": [
+        {
+          "ref": "FNAR200"
+        }
+      ]
+    },
+    {
+      "year": 1,
+      "semester": "Spring",
+      "credits": 3,
+      "items": [
+        {
+          "ref": "FNAR199"
+        }
+      ]
+    },
+    {
+      "year": 2,
+      "semester": "Fall",
+      "credits": 6,
+      "items": [
+        {
+          "ref": "FNAR201"
+        },
+        {
+          "isElective": true,
+          "label": "FNAR Studio Art Course",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 2,
+      "semester": "Spring",
+      "credits": 6,
+      "items": [
+        {
+          "ref": "FNAR202"
+        },
+        {
+          "isElective": true,
+          "label": "FNAR Area Studies Course",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 3,
+      "semester": "Fall",
+      "credits": 6,
+      "items": [
+        {
+          "isElective": true,
+          "label": "FNAR Area Studies (Non-Western)",
+          "credits": 3
+        },
+        {
+          "isElective": true,
+          "label": "FNAR Area Studies",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 3,
+      "semester": "Spring",
+      "credits": 6,
+      "items": [
+        {
+          "isElective": true,
+          "label": "FNAR Area Studies",
+          "credits": 3
+        },
+        {
+          "isElective": true,
+          "label": "FNAR Area Studies (Non-Western)",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 4,
+      "semester": "Fall",
+      "credits": 6,
+      "items": [
+        {
+          "ref": "FNAR390"
+        },
+        {
+          "isElective": true,
+          "label": "FNAR Area Studies",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 4,
+      "semester": "Spring",
+      "credits": 6,
+      "items": [
+        {
+          "ref": "FNAR391"
+        },
+        {
+          "isElective": true,
+          "label": "FNAR Area Studies",
+          "credits": 3
+        }
+      ]
+    }
+  ]
+}

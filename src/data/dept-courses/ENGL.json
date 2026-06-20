@@ -1,0 +1,913 @@
+{
+  "catalog": "2026-2027",
+  "code": "ENGL",
+  "name": "English",
+  "sourceUrl": "https://catalog.luc.edu/course-descriptions/engl/",
+  "fetchedAt": "2026-06-20",
+  "courses": [
+    {
+      "id": "ENGL100",
+      "code": "ENGL 100",
+      "title": "Developmental Writing",
+      "credits": 3
+    },
+    {
+      "id": "ENGL102",
+      "code": "ENGL 102",
+      "title": "College Composition ESL 1",
+      "credits": 3
+    },
+    {
+      "id": "ENGL103",
+      "code": "ENGL 103",
+      "title": "College Composition ESL 2",
+      "credits": 3
+    },
+    {
+      "id": "ENGL210",
+      "code": "ENGL 210",
+      "title": "Business Writing",
+      "credits": 3
+    },
+    {
+      "id": "ENGL211",
+      "code": "ENGL 211",
+      "title": "Writing for Pre-Law Students",
+      "credits": 3
+    },
+    {
+      "id": "ENGL212",
+      "code": "ENGL 212",
+      "title": "Science Writing, Technical Communication, and Problem-Solving in Public",
+      "credits": 3
+    },
+    {
+      "id": "ENGL220",
+      "code": "ENGL 220",
+      "title": "Theory and Practice of Tutoring Writing",
+      "credits": 3
+    },
+    {
+      "id": "ENGL271",
+      "code": "ENGL 271",
+      "title": "Exploring Poetry",
+      "credits": 3
+    },
+    {
+      "id": "ENGL272",
+      "code": "ENGL 272",
+      "title": "Exploring Drama",
+      "credits": 3
+    },
+    {
+      "id": "ENGL273",
+      "code": "ENGL 273",
+      "title": "Exploring Fiction",
+      "credits": 3
+    },
+    {
+      "id": "ENGL274",
+      "code": "ENGL 274",
+      "title": "Exploring Shakespeare",
+      "credits": 3
+    },
+    {
+      "id": "ENGL282",
+      "code": "ENGL 282",
+      "title": "African-American Literature",
+      "credits": 3,
+      "isTopics": true,
+      "topicsCount": 3
+    },
+    {
+      "id": "ENGL283",
+      "code": "ENGL 283",
+      "title": "Women in Literature",
+      "credits": 3
+    },
+    {
+      "id": "ENGL284",
+      "code": "ENGL 284",
+      "title": "Asian American Literature",
+      "credits": 3
+    },
+    {
+      "id": "ENGL287",
+      "code": "ENGL 287",
+      "title": "Religion and Literature",
+      "credits": 3
+    },
+    {
+      "id": "ENGL288",
+      "code": "ENGL 288",
+      "title": "Nature in Literature",
+      "credits": 3
+    },
+    {
+      "id": "ENGL290",
+      "code": "ENGL 290",
+      "title": "Human Values in Literature",
+      "credits": 3
+    },
+    {
+      "id": "ENGL292",
+      "code": "ENGL 292",
+      "title": "South Asian Literature and Civilizations",
+      "credits": 3
+    },
+    {
+      "id": "ENGL293",
+      "code": "ENGL 293",
+      "title": "Advanced Writing",
+      "credits": 3
+    },
+    {
+      "id": "ENGL294",
+      "code": "ENGL 294",
+      "title": "Writing in/with New Media",
+      "credits": 3
+    },
+    {
+      "id": "ENGL295",
+      "code": "ENGL 295",
+      "title": "Writing Toward Social Justice: Eloquentia Perfecta",
+      "credits": 3
+    },
+    {
+      "id": "ENGL296",
+      "code": "ENGL 296",
+      "title": "Research Writing: Open Source Tools and Techniques",
+      "credits": 3
+    },
+    {
+      "id": "ENGL299",
+      "code": "ENGL 299",
+      "title": "Topics in Advanced Writing",
+      "credits": 3
+    },
+    {
+      "id": "ENGL300",
+      "code": "ENGL 300",
+      "title": "History of English Language",
+      "credits": 3
+    },
+    {
+      "id": "ENGL303",
+      "code": "ENGL 303",
+      "title": "Grammar: Principles & Pedagogy",
+      "credits": 3
+    },
+    {
+      "id": "ENGL306",
+      "code": "ENGL 306",
+      "title": "Studies in Women Writers",
+      "credits": 3,
+      "isTopics": true,
+      "topicsCount": 4
+    },
+    {
+      "id": "ENGL307",
+      "code": "ENGL 307",
+      "title": "Topics in Feminist and Gender Studies",
+      "credits": 3
+    },
+    {
+      "id": "ENGL311",
+      "code": "ENGL 311",
+      "title": "U.S. Latino/a Literature",
+      "credits": 3
+    },
+    {
+      "id": "ENGL312",
+      "code": "ENGL 312",
+      "title": "Studies in World Literature in English",
+      "credits": 3,
+      "isTopics": true,
+      "topicsCount": 4
+    },
+    {
+      "id": "ENGL313",
+      "code": "ENGL 313",
+      "title": "Border Literatures",
+      "credits": 3,
+      "isTopics": true,
+      "topicsCount": 4
+    },
+    {
+      "id": "ENGL315",
+      "code": "ENGL 315",
+      "title": "South Asian Literatures in English",
+      "credits": 3
+    },
+    {
+      "id": "ENGL315C",
+      "code": "ENGL 315C",
+      "title": "South Asian Literature Since 1900",
+      "credits": 3
+    },
+    {
+      "id": "ENGL316C",
+      "code": "ENGL 316C",
+      "title": "Caribbean Literature in English Since 1900",
+      "credits": 3
+    },
+    {
+      "id": "ENGL317",
+      "code": "ENGL 317",
+      "title": "The Writing of Poetry",
+      "credits": 3
+    },
+    {
+      "id": "ENGL318",
+      "code": "ENGL 318",
+      "title": "The Writing of Fiction",
+      "credits": 3
+    },
+    {
+      "id": "ENGL318R",
+      "code": "ENGL 318R",
+      "title": "The Writing of Fiction: Writing Rome",
+      "credits": 3
+    },
+    {
+      "id": "ENGL319",
+      "code": "ENGL 319",
+      "title": "Writing Creative Nonfiction",
+      "credits": 3
+    },
+    {
+      "id": "ENGL320",
+      "code": "ENGL 320",
+      "title": "English Literature: Medieval Period",
+      "credits": 3
+    },
+    {
+      "id": "ENGL321",
+      "code": "ENGL 321",
+      "title": "Intro to Old English",
+      "credits": 3
+    },
+    {
+      "id": "ENGL322",
+      "code": "ENGL 322",
+      "title": "Chaucer",
+      "credits": 3
+    },
+    {
+      "id": "ENGL323",
+      "code": "ENGL 323",
+      "title": "Studies in Medieval Literature",
+      "credits": 3
+    },
+    {
+      "id": "ENGL325",
+      "code": "ENGL 325",
+      "title": "British Literature-The Renaissance",
+      "credits": 3
+    },
+    {
+      "id": "ENGL326",
+      "code": "ENGL 326",
+      "title": "Shakespeare: Selected Major Plays",
+      "credits": 3
+    },
+    {
+      "id": "ENGL327",
+      "code": "ENGL 327",
+      "title": "Studies in Shakespeare",
+      "credits": 3
+    },
+    {
+      "id": "ENGL328",
+      "code": "ENGL 328",
+      "title": "Studies in The Renaissance",
+      "credits": 3
+    },
+    {
+      "id": "ENGL329",
+      "code": "ENGL 329",
+      "title": "Milton",
+      "credits": 3
+    },
+    {
+      "id": "ENGL335",
+      "code": "ENGL 335",
+      "title": "British Literature - The Romantic Period",
+      "credits": 3
+    },
+    {
+      "id": "ENGL338",
+      "code": "ENGL 338",
+      "title": "Studies in The Romantic Movmnt",
+      "credits": 3
+    },
+    {
+      "id": "ENGL340",
+      "code": "ENGL 340",
+      "title": "British Literature - The Victorian Period",
+      "credits": 3
+    },
+    {
+      "id": "ENGL343",
+      "code": "ENGL 343",
+      "title": "Studies in the Victorian Period",
+      "credits": 3
+    },
+    {
+      "id": "ENGL344",
+      "code": "ENGL 344",
+      "title": "Studies in Modernism",
+      "credits": 3
+    },
+    {
+      "id": "ENGL345",
+      "code": "ENGL 345",
+      "title": "British Literature Since 1900",
+      "credits": 3
+    },
+    {
+      "id": "ENGL348",
+      "code": "ENGL 348",
+      "title": "Studies in British Literature Since 1900",
+      "credits": 3
+    },
+    {
+      "id": "ENGL350",
+      "code": "ENGL 350",
+      "title": "Studies in Postmodernism",
+      "credits": 3
+    },
+    {
+      "id": "ENGL351",
+      "code": "ENGL 351",
+      "title": "Contemporary Literature",
+      "credits": 3
+    },
+    {
+      "id": "ENGL354",
+      "code": "ENGL 354",
+      "title": "Contemporary Critical Theory",
+      "credits": 3
+    },
+    {
+      "id": "ENGL355",
+      "code": "ENGL 355",
+      "title": "Studies in Literary Criticism",
+      "credits": 3
+    },
+    {
+      "id": "ENGL357",
+      "code": "ENGL 357",
+      "title": "Literature from a Writer's Perspective",
+      "credits": 3
+    },
+    {
+      "id": "ENGL358",
+      "code": "ENGL 358",
+      "title": "Cultural Theory",
+      "credits": 3
+    },
+    {
+      "id": "ENGL359",
+      "code": "ENGL 359",
+      "title": "High and Low Culture",
+      "credits": 3,
+      "isTopics": true,
+      "topicsCount": 4
+    },
+    {
+      "id": "ENGL361",
+      "code": "ENGL 361",
+      "title": "Modernist Poetry",
+      "credits": 3
+    },
+    {
+      "id": "ENGL362",
+      "code": "ENGL 362",
+      "title": "Studies in Poetry",
+      "credits": 3,
+      "isTopics": true,
+      "topicsCount": 4
+    },
+    {
+      "id": "ENGL363",
+      "code": "ENGL 363",
+      "title": "Major Author, Before 1700",
+      "credits": 3,
+      "isTopics": true,
+      "topicsCount": 3
+    },
+    {
+      "id": "ENGL367",
+      "code": "ENGL 367",
+      "title": "Modern Drama",
+      "credits": 3
+    },
+    {
+      "id": "ENGL368",
+      "code": "ENGL 368",
+      "title": "Studies in Drama",
+      "credits": 3,
+      "isTopics": true,
+      "topicsCount": 4
+    },
+    {
+      "id": "ENGL369",
+      "code": "ENGL 369",
+      "title": "Women in Drama Before 1700",
+      "credits": 3,
+      "isTopics": true,
+      "topicsCount": 2
+    },
+    {
+      "id": "ENGL371",
+      "code": "ENGL 371",
+      "title": "The Modern Novel",
+      "credits": 3
+    },
+    {
+      "id": "ENGL372",
+      "code": "ENGL 372",
+      "title": "Studies in Fiction",
+      "credits": 3,
+      "isTopics": true,
+      "topicsCount": 4
+    },
+    {
+      "id": "ENGL375",
+      "code": "ENGL 375",
+      "title": "American Literature to 1865",
+      "credits": 3
+    },
+    {
+      "id": "ENGL376",
+      "code": "ENGL 376",
+      "title": "American Literature 1865-1914",
+      "credits": 3
+    },
+    {
+      "id": "ENGL377",
+      "code": "ENGL 377",
+      "title": "American Literature 1914-1945",
+      "credits": 3
+    },
+    {
+      "id": "ENGL379",
+      "code": "ENGL 379",
+      "title": "Studies in American Literature",
+      "credits": 3,
+      "isTopics": true,
+      "topicsCount": 4
+    },
+    {
+      "id": "ENGL381",
+      "code": "ENGL 381",
+      "title": "Comparative American Literature",
+      "credits": 3,
+      "isTopics": true,
+      "topicsCount": 4
+    },
+    {
+      "id": "ENGL382",
+      "code": "ENGL 382",
+      "title": "Studies in American Culture",
+      "credits": 3,
+      "isTopics": true,
+      "topicsCount": 4
+    },
+    {
+      "id": "ENGL383",
+      "code": "ENGL 383",
+      "title": "Theology and Literature",
+      "credits": 1
+    },
+    {
+      "id": "ENGL384",
+      "code": "ENGL 384",
+      "title": "Studies in African American Literature",
+      "credits": 3,
+      "isTopics": true,
+      "topicsCount": 3
+    },
+    {
+      "id": "ENGL390",
+      "code": "ENGL 390",
+      "title": "Advanced Seminar",
+      "credits": 3
+    },
+    {
+      "id": "ENGL392",
+      "code": "ENGL 392",
+      "title": "Advanced Creative Nonfiction Workshop",
+      "credits": 3
+    },
+    {
+      "id": "ENGL393",
+      "code": "ENGL 393",
+      "title": "Teaching English to Adults: Internship",
+      "credits": 1
+    },
+    {
+      "id": "ENGL394",
+      "code": "ENGL 394",
+      "title": "Internship",
+      "credits": 3
+    },
+    {
+      "id": "ENGL395",
+      "code": "ENGL 395",
+      "title": "Honors Tutorial",
+      "credits": 3
+    },
+    {
+      "id": "ENGL397",
+      "code": "ENGL 397",
+      "title": "Advanced Writing Workshop: Poetry",
+      "credits": 3
+    },
+    {
+      "id": "ENGL398",
+      "code": "ENGL 398",
+      "title": "Advanced Writing Workshop: Fiction",
+      "credits": 3
+    },
+    {
+      "id": "ENGL399",
+      "code": "ENGL 399",
+      "title": "Special Studies in Literature",
+      "credits": 3
+    },
+    {
+      "id": "ENGL400",
+      "code": "ENGL 400",
+      "title": "Intro to Graduate Study",
+      "credits": 3
+    },
+    {
+      "id": "ENGL402",
+      "code": "ENGL 402",
+      "title": "Teaching College Composition",
+      "credits": 3
+    },
+    {
+      "id": "ENGL403",
+      "code": "ENGL 403",
+      "title": "Composition Theory",
+      "credits": 3
+    },
+    {
+      "id": "ENGL404",
+      "code": "ENGL 404",
+      "title": "Pedagogy: Theory and Practice",
+      "credits": 3
+    },
+    {
+      "id": "ENGL406",
+      "code": "ENGL 406",
+      "title": "History of the English Language",
+      "credits": 3
+    },
+    {
+      "id": "ENGL410",
+      "code": "ENGL 410",
+      "title": "Contemporary Literary Criticism",
+      "credits": 3
+    },
+    {
+      "id": "ENGL412",
+      "code": "ENGL 412",
+      "title": "History of the Book to 1800",
+      "credits": 3
+    },
+    {
+      "id": "ENGL413",
+      "code": "ENGL 413",
+      "title": "Textual Criticism",
+      "credits": 3
+    },
+    {
+      "id": "ENGL415",
+      "code": "ENGL 415",
+      "title": "Media and Culture",
+      "credits": 3
+    },
+    {
+      "id": "ENGL419",
+      "code": "ENGL 419",
+      "title": "Contemporary Issues in Literature and Culture",
+      "credits": 3
+    },
+    {
+      "id": "ENGL420",
+      "code": "ENGL 420",
+      "title": "Topics in Critical Theory",
+      "credits": 3
+    },
+    {
+      "id": "ENGL422",
+      "code": "ENGL 422",
+      "title": "Postcolonial Theory",
+      "credits": 3
+    },
+    {
+      "id": "ENGL423",
+      "code": "ENGL 423",
+      "title": "Marxist Literary Theory",
+      "credits": 3
+    },
+    {
+      "id": "ENGL424",
+      "code": "ENGL 424",
+      "title": "Cultural Studies",
+      "credits": 3
+    },
+    {
+      "id": "ENGL426",
+      "code": "ENGL 426",
+      "title": "Feminist Theory and Criticism",
+      "credits": 3
+    },
+    {
+      "id": "ENGL427",
+      "code": "ENGL 427",
+      "title": "Dramatic Theory",
+      "credits": 3
+    },
+    {
+      "id": "ENGL428",
+      "code": "ENGL 428",
+      "title": "Postmodernism",
+      "credits": 3
+    },
+    {
+      "id": "ENGL430",
+      "code": "ENGL 430",
+      "title": "Topics in Literature Studies",
+      "credits": 3
+    },
+    {
+      "id": "ENGL433",
+      "code": "ENGL 433",
+      "title": "Seminar in Individual Authors",
+      "credits": 3
+    },
+    {
+      "id": "ENGL436",
+      "code": "ENGL 436",
+      "title": "Women Writers in English",
+      "credits": 3
+    },
+    {
+      "id": "ENGL437",
+      "code": "ENGL 437",
+      "title": "Topics in Drama",
+      "credits": 3
+    },
+    {
+      "id": "ENGL440",
+      "code": "ENGL 440",
+      "title": "Topics in Medieval Literature",
+      "credits": 3
+    },
+    {
+      "id": "ENGL441",
+      "code": "ENGL 441",
+      "title": "Old English Language & Literature",
+      "credits": 3
+    },
+    {
+      "id": "ENGL443",
+      "code": "ENGL 443",
+      "title": "Middle English Literature",
+      "credits": 3
+    },
+    {
+      "id": "ENGL444",
+      "code": "ENGL 444",
+      "title": "Medieval Drama",
+      "credits": 3
+    },
+    {
+      "id": "ENGL447",
+      "code": "ENGL 447",
+      "title": "Chaucer",
+      "credits": 3
+    },
+    {
+      "id": "ENGL450",
+      "code": "ENGL 450",
+      "title": "Topics in Early Modern Literature & Culture",
+      "credits": 3
+    },
+    {
+      "id": "ENGL455",
+      "code": "ENGL 455",
+      "title": "Shakespeare",
+      "credits": 3
+    },
+    {
+      "id": "ENGL456",
+      "code": "ENGL 456",
+      "title": "Early Modern Drama",
+      "credits": 3
+    },
+    {
+      "id": "ENGL457",
+      "code": "ENGL 457",
+      "title": "Seventeenth-Century Literature",
+      "credits": 3
+    },
+    {
+      "id": "ENGL458",
+      "code": "ENGL 458",
+      "title": "Milton",
+      "credits": 3
+    },
+    {
+      "id": "ENGL460",
+      "code": "ENGL 460",
+      "title": "Topics in Restoration & 18th Century Literature",
+      "credits": 3
+    },
+    {
+      "id": "ENGL470",
+      "code": "ENGL 470",
+      "title": "Topics in Romanticism",
+      "credits": 3
+    },
+    {
+      "id": "ENGL471",
+      "code": "ENGL 471",
+      "title": "Poetry of Romantic Period",
+      "credits": 3
+    },
+    {
+      "id": "ENGL475",
+      "code": "ENGL 475",
+      "title": "Topics in Victorian Literature",
+      "credits": 3
+    },
+    {
+      "id": "ENGL476",
+      "code": "ENGL 476",
+      "title": "Victorian Poetry",
+      "credits": 3
+    },
+    {
+      "id": "ENGL477",
+      "code": "ENGL 477",
+      "title": "Victorian Prose",
+      "credits": 3
+    },
+    {
+      "id": "ENGL478",
+      "code": "ENGL 478",
+      "title": "Victorian Novel",
+      "credits": 3
+    },
+    {
+      "id": "ENGL480",
+      "code": "ENGL 480",
+      "title": "Topics in Modernism",
+      "credits": 3
+    },
+    {
+      "id": "ENGL481",
+      "code": "ENGL 481",
+      "title": "Modern Poetry",
+      "credits": 3
+    },
+    {
+      "id": "ENGL482",
+      "code": "ENGL 482",
+      "title": "Modern Drama",
+      "credits": 3
+    },
+    {
+      "id": "ENGL483",
+      "code": "ENGL 483",
+      "title": "Modern Novel",
+      "credits": 3
+    },
+    {
+      "id": "ENGL484",
+      "code": "ENGL 484",
+      "title": "Literature and Culture of the Jazz Age",
+      "credits": 3
+    },
+    {
+      "id": "ENGL485",
+      "code": "ENGL 485",
+      "title": "Contemporary Literature",
+      "credits": 3
+    },
+    {
+      "id": "ENGL487",
+      "code": "ENGL 487",
+      "title": "Postcolonial Literature",
+      "credits": 3
+    },
+    {
+      "id": "ENGL488",
+      "code": "ENGL 488",
+      "title": "20th Century Literature in English",
+      "credits": 3
+    },
+    {
+      "id": "ENGL489",
+      "code": "ENGL 489",
+      "title": "Magic Realism",
+      "credits": 3
+    },
+    {
+      "id": "ENGL490",
+      "code": "ENGL 490",
+      "title": "Topics in American Literature",
+      "credits": 3
+    },
+    {
+      "id": "ENGL491",
+      "code": "ENGL 491",
+      "title": "Early American Literature",
+      "credits": 3
+    },
+    {
+      "id": "ENGL492",
+      "code": "ENGL 492",
+      "title": "American Romanticism",
+      "credits": 3
+    },
+    {
+      "id": "ENGL493",
+      "code": "ENGL 493",
+      "title": "American Realism",
+      "credits": 3
+    },
+    {
+      "id": "ENGL494",
+      "code": "ENGL 494",
+      "title": "American Literature Since 1914",
+      "credits": 3
+    },
+    {
+      "id": "ENGL495",
+      "code": "ENGL 495",
+      "title": "Latino/a Literature",
+      "credits": 3
+    },
+    {
+      "id": "ENGL496",
+      "code": "ENGL 496",
+      "title": "African American Literature",
+      "credits": 3
+    },
+    {
+      "id": "ENGL500",
+      "code": "ENGL 500",
+      "title": "Capstone Seminar",
+      "credits": 3
+    },
+    {
+      "id": "ENGL501",
+      "code": "ENGL 501",
+      "title": "Directed Readings",
+      "credits": 3
+    },
+    {
+      "id": "ENGL502",
+      "code": "ENGL 502",
+      "title": "Independent Study-Doctoral Qualification",
+      "credits": 3
+    },
+    {
+      "id": "ENGL540",
+      "code": "ENGL 540",
+      "title": "Newberry Seminar",
+      "credits": 3
+    },
+    {
+      "id": "ENGL595",
+      "code": "ENGL 595",
+      "title": "Thesis Supervision",
+      "credits": 0
+    },
+    {
+      "id": "ENGL600",
+      "code": "ENGL 600",
+      "title": "Dissertation Supervision",
+      "credits": 0
+    },
+    {
+      "id": "ENGL605",
+      "code": "ENGL 605",
+      "title": "Master's Study",
+      "credits": 0
+    },
+    {
+      "id": "ENGL610",
+      "code": "ENGL 610",
+      "title": "Doctoral Study",
+      "credits": 0
+    }
+  ]
+}

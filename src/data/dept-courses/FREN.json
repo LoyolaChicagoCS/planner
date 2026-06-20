@@ -1,0 +1,165 @@
+{
+  "catalog": "2026-2027",
+  "code": "FREN",
+  "name": "French",
+  "sourceUrl": "https://catalog.luc.edu/course-descriptions/fren/",
+  "fetchedAt": "2026-06-20",
+  "courses": [
+    {
+      "id": "FREN101",
+      "code": "FREN 101",
+      "title": "Elementary French I",
+      "credits": 3
+    },
+    {
+      "id": "FREN102",
+      "code": "FREN 102",
+      "title": "Elementary French II",
+      "credits": 3
+    },
+    {
+      "id": "FREN103",
+      "code": "FREN 103",
+      "title": "Intermediate French I",
+      "credits": 3
+    },
+    {
+      "id": "FREN104",
+      "code": "FREN 104",
+      "title": "Intermediate French II",
+      "credits": 3
+    },
+    {
+      "id": "FREN250",
+      "code": "FREN 250",
+      "title": "French Composition and Conversation I",
+      "credits": 3
+    },
+    {
+      "id": "FREN251",
+      "code": "FREN 251",
+      "title": "French Composition and Conversation II",
+      "credits": 3
+    },
+    {
+      "id": "FREN270",
+      "code": "FREN 270",
+      "title": "Main Currents of French Literature & Culture I",
+      "credits": 3
+    },
+    {
+      "id": "FREN271",
+      "code": "FREN 271",
+      "title": "Main Currents of French Literature & Culture II",
+      "credits": 3
+    },
+    {
+      "id": "FREN300",
+      "code": "FREN 300",
+      "title": "Tutorial for Credit",
+      "credits": 1
+    },
+    {
+      "id": "FREN301",
+      "code": "FREN 301",
+      "title": "Stylistics",
+      "credits": 3
+    },
+    {
+      "id": "FREN302",
+      "code": "FREN 302",
+      "title": "French for Professions",
+      "credits": 3
+    },
+    {
+      "id": "FREN308",
+      "code": "FREN 308",
+      "title": "Literary Criticism and Theory",
+      "credits": 3
+    },
+    {
+      "id": "FREN309",
+      "code": "FREN 309",
+      "title": "Francophone Literature",
+      "credits": 3
+    },
+    {
+      "id": "FREN311",
+      "code": "FREN 311",
+      "title": "French Modernity",
+      "credits": 3
+    },
+    {
+      "id": "FREN314",
+      "code": "FREN 314",
+      "title": "Survey of Medieval Literature",
+      "credits": 3
+    },
+    {
+      "id": "FREN316",
+      "code": "FREN 316",
+      "title": "Renaissance France",
+      "credits": 3
+    },
+    {
+      "id": "FREN317",
+      "code": "FREN 317",
+      "title": "Le Grand Siècle",
+      "credits": 3
+    },
+    {
+      "id": "FREN318",
+      "code": "FREN 318",
+      "title": "Enlightenment France",
+      "credits": 3
+    },
+    {
+      "id": "FREN319",
+      "code": "FREN 319",
+      "title": "Romantic Century",
+      "credits": 3
+    },
+    {
+      "id": "FREN320",
+      "code": "FREN 320",
+      "title": "Survey of Literature of the Theatre",
+      "credits": 3
+    },
+    {
+      "id": "FREN330",
+      "code": "FREN 330",
+      "title": "Survey-Poetry Thry & Practice",
+      "credits": 3
+    },
+    {
+      "id": "FREN340",
+      "code": "FREN 340",
+      "title": "Survey of Prose: Fictional & Non-Fictional",
+      "credits": 3
+    },
+    {
+      "id": "FREN369",
+      "code": "FREN 369",
+      "title": "Introduction to French for Reading Knowledge",
+      "credits": 3
+    },
+    {
+      "id": "FREN390",
+      "code": "FREN 390",
+      "title": "French & Francophone Cultures & Civilizations",
+      "credits": 3
+    },
+    {
+      "id": "FREN395",
+      "code": "FREN 395",
+      "title": "Internship",
+      "credits": 3
+    },
+    {
+      "id": "FREN399",
+      "code": "FREN 399",
+      "title": "French Honors Tutorial",
+      "credits": 3
+    }
+  ]
+}

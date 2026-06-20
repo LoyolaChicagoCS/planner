@@ -1,0 +1,201 @@
+{
+  "catalog": "2026-2027",
+  "code": "PHYS",
+  "name": "Physics",
+  "sourceUrl": "https://catalog.luc.edu/course-descriptions/phys/",
+  "fetchedAt": "2026-06-20",
+  "courses": [
+    {
+      "id": "PHYS101",
+      "code": "PHYS 101",
+      "title": "Liberal Arts Physics",
+      "credits": 3
+    },
+    {
+      "id": "PHYS102",
+      "code": "PHYS 102",
+      "title": "Planetary and Stellar Astronomy",
+      "credits": 3
+    },
+    {
+      "id": "PHYS106",
+      "code": "PHYS 106",
+      "title": "Physics of Music",
+      "credits": 3
+    },
+    {
+      "id": "PHYS111",
+      "code": "PHYS 111",
+      "title": "College Physics I Lec / Dis",
+      "credits": 3
+    },
+    {
+      "id": "PHYS111L",
+      "code": "PHYS 111L",
+      "title": "College Physics Laboratory I",
+      "credits": 1
+    },
+    {
+      "id": "PHYS112",
+      "code": "PHYS 112",
+      "title": "College Physics II Lec/Disc",
+      "credits": 3
+    },
+    {
+      "id": "PHYS112L",
+      "code": "PHYS 112L",
+      "title": "College Physics Lab II",
+      "credits": 1
+    },
+    {
+      "id": "PHYS121",
+      "code": "PHYS 121",
+      "title": "College Physics I with Calculus Lecture/Discussion",
+      "credits": 3
+    },
+    {
+      "id": "PHYS122",
+      "code": "PHYS 122",
+      "title": "College Physics II with Calculus Lecture/Discussion",
+      "credits": 3
+    },
+    {
+      "id": "PHYS126F",
+      "code": "PHYS 126F",
+      "title": "Freshman Projects",
+      "credits": 1
+    },
+    {
+      "id": "PHYS130",
+      "code": "PHYS 130",
+      "title": "Introduction to Computational Physics",
+      "credits": 3
+    },
+    {
+      "id": "PHYS235",
+      "code": "PHYS 235",
+      "title": "Modern Physics",
+      "credits": 3
+    },
+    {
+      "id": "PHYS235L",
+      "code": "PHYS 235L",
+      "title": "Modern Physics Laboratory",
+      "credits": 1
+    },
+    {
+      "id": "PHYS301",
+      "code": "PHYS 301",
+      "title": "Mathematical Methods in Physics",
+      "credits": 3
+    },
+    {
+      "id": "PHYS303",
+      "code": "PHYS 303",
+      "title": "Electronics I",
+      "credits": 3
+    },
+    {
+      "id": "PHYS303L",
+      "code": "PHYS 303L",
+      "title": "Electronics Laboratory",
+      "credits": 1
+    },
+    {
+      "id": "PHYS310",
+      "code": "PHYS 310",
+      "title": "Optics",
+      "credits": 3
+    },
+    {
+      "id": "PHYS310L",
+      "code": "PHYS 310L",
+      "title": "Optics Lab",
+      "credits": 1
+    },
+    {
+      "id": "PHYS314",
+      "code": "PHYS 314",
+      "title": "Theoretical Mechanics I",
+      "credits": 3
+    },
+    {
+      "id": "PHYS315",
+      "code": "PHYS 315",
+      "title": "Theoretical Mechanics II",
+      "credits": 3
+    },
+    {
+      "id": "PHYS328",
+      "code": "PHYS 328",
+      "title": "Thermal Physical & Statistical Mechanics",
+      "credits": 3
+    },
+    {
+      "id": "PHYS338",
+      "code": "PHYS 338",
+      "title": "Advanced Physics Laboratory",
+      "credits": 2
+    },
+    {
+      "id": "PHYS351",
+      "code": "PHYS 351",
+      "title": "Electricity and Magnetism I",
+      "credits": 3
+    },
+    {
+      "id": "PHYS352",
+      "code": "PHYS 352",
+      "title": "Electricity and Magnetism II",
+      "credits": 3
+    },
+    {
+      "id": "PHYS361",
+      "code": "PHYS 361",
+      "title": "Quantum Mechanics I",
+      "credits": 3
+    },
+    {
+      "id": "PHYS371",
+      "code": "PHYS 371",
+      "title": "Biophysics",
+      "credits": 3
+    },
+    {
+      "id": "PHYS380",
+      "code": "PHYS 380",
+      "title": "Special Topics in Physics",
+      "credits": 1
+    },
+    {
+      "id": "PHYS381",
+      "code": "PHYS 381",
+      "title": "Special Topics in Physics",
+      "credits": 1
+    },
+    {
+      "id": "PHYS391",
+      "code": "PHYS 391",
+      "title": "Research",
+      "credits": 1
+    },
+    {
+      "id": "PHYS394",
+      "code": "PHYS 394",
+      "title": "Argonne Lab Research",
+      "credits": 3
+    },
+    {
+      "id": "PHYS395",
+      "code": "PHYS 395",
+      "title": "Argonne Lab Research",
+      "credits": 3
+    },
+    {
+      "id": "PHYS495",
+      "code": "PHYS 495",
+      "title": "AP Physics Workshop",
+      "credits": 3
+    }
+  ]
+}

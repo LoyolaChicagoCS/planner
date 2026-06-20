@@ -1,0 +1,23 @@
+{
+  "id": "anthropology-ba",
+  "department": "Anthropology",
+  "name": "Anthropology",
+  "degree": "BA",
+  "school": "Loyola University Chicago",
+  "totalCredits": 120,
+  "majorCredits": 36,
+  "catalogUrl": "https://catalog.luc.edu/undergraduate/arts-sciences/anthropology/anthropology-ba/",
+  "courses": [
+    { "id": "ANTH101", "code": "ANTH 101", "title": "Human Origins", "credits": 3, "category": "major" },
+    { "id": "ANTH231", "code": "ANTH 231", "title": "Linguistic Anthropology", "credits": 3, "category": "major" },
+    { "id": "ANTH100", "code": "ANTH 100", "title": "Globalization and Local Cultures", "credits": 3, "category": "major", "requirementGroup": "anth-ba-intro", "choiceNote": "ANTH 100 or ANTH 102" },
+    { "id": "ANTH102", "code": "ANTH 102", "title": "Culture, Society, and Diversity", "credits": 3, "category": "major", "requirementGroup": "anth-ba-intro", "choiceNote": "ANTH 100 or ANTH 102" }
+  ],
+  "electiveOptions": {
+    "anth-ethnographic": { "creditsRequired": 6, "label": "Ethnographic Requirement", "note": "Two courses covering regional and thematic ethnography" },
+    "anth-theoretical": { "creditsRequired": 6, "label": "Theoretical Requirement", "note": "Two courses in theory, human rights, applied anthropology, or religion" },
+    "anth-archaeology": { "creditsRequired": 3, "label": "Archaeology Requirement", "note": "One archaeology course (Mesoamerican, North American, Historical Archaeology, etc.)" },
+    "anth-bio": { "creditsRequired": 3, "label": "Bio-Anthropology Requirement", "note": "One course: Human Evolution, Primatology, Human Osteology, or Dental Anthropology" },
+    "anth-electives": { "creditsRequired": 9, "label": "Additional Anthropology Electives", "note": "Three additional ANTH courses (at least two at 200/300-level)" }
+  }
+}

@@ -1,0 +1,396 @@
+{
+  "id": "accounting-bba",
+  "department": "Business Administration",
+  "name": "Accounting",
+  "degree": "BBA",
+  "school": "Loyola University Chicago",
+  "totalCredits": 84,
+  "majorCredits": 24,
+  "catalogUrl": "https://catalog.luc.edu/undergraduate/business/accounting-bba/",
+  "courses": [
+    {
+      "id": "QUIN101",
+      "code": "QUIN 101",
+      "title": "Business Learning and Careers",
+      "credits": 0,
+      "category": "major"
+    },
+    {
+      "id": "QUIN102",
+      "code": "QUIN 102",
+      "title": "Financial Literacy and Well-Being",
+      "credits": 1,
+      "category": "major"
+    },
+    {
+      "id": "QUIN202",
+      "code": "QUIN 202",
+      "title": "Career Preparation",
+      "credits": 2,
+      "category": "major"
+    },
+    {
+      "id": "COMM103biz",
+      "code": "COMM 103",
+      "title": "Business and Professional Speaking",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "MATH110biz",
+      "code": "MATH 110",
+      "title": "Business Precalculus",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "ETHC341",
+      "code": "ETHC 341",
+      "title": "Ethics in Business",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "ACCT201",
+      "code": "ACCT 201",
+      "title": "Introductory Accounting I",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "ACCT202",
+      "code": "ACCT 202",
+      "title": "Introductory Accounting II",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "ECON201biz",
+      "code": "ECON 201",
+      "title": "Principles of Microeconomics",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "ECON202biz",
+      "code": "ECON 202",
+      "title": "Principles of Macroeconomics",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "FINC301",
+      "code": "FINC 301",
+      "title": "Introductory Business Finance",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "biz-core-finance",
+      "choiceNote": "FINC 301 or FINC 334"
+    },
+    {
+      "id": "FINC334",
+      "code": "FINC 334",
+      "title": "Principles of Corporate Finance",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "biz-core-finance",
+      "choiceNote": "FINC 301 or FINC 334"
+    },
+    {
+      "id": "INFS247",
+      "code": "INFS 247",
+      "title": "Business Information Systems",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "INFS343",
+      "code": "INFS 343",
+      "title": "Business Analytics",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "biz-core-analytics",
+      "choiceNote": "INFS 343 or ECON 346"
+    },
+    {
+      "id": "ECON346biz",
+      "code": "ECON 346",
+      "title": "Econometrics",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "biz-core-analytics",
+      "choiceNote": "INFS 343 or ECON 346"
+    },
+    {
+      "id": "ISSCM241",
+      "code": "ISSCM 241",
+      "title": "Business Statistics",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "biz-core-stats",
+      "choiceNote": "ISSCM 241 or STAT 103"
+    },
+    {
+      "id": "STAT103biz",
+      "code": "STAT 103",
+      "title": "Fundamentals of Statistics",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "biz-core-stats",
+      "choiceNote": "ISSCM 241 or STAT 103"
+    },
+    {
+      "id": "LREB315",
+      "code": "LREB 315",
+      "title": "Law and the Regulatory Environment of Business I",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "MARK201biz",
+      "code": "MARK 201",
+      "title": "Principles of Marketing",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "MGMT201",
+      "code": "MGMT 201",
+      "title": "Managing People and Organizations",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "MGMT304",
+      "code": "MGMT 304",
+      "title": "Strategic Management",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "SCMG232",
+      "code": "SCMG 232",
+      "title": "Introduction to Supply Chain Management",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "ACCT303",
+      "code": "ACCT 303",
+      "title": "Intermediate Accounting I",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "ACCT304",
+      "code": "ACCT 304",
+      "title": "Intermediate Accounting II",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "ACCT311",
+      "code": "ACCT 311",
+      "title": "Auditing and Internal Control Systems",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "ACCT317",
+      "code": "ACCT 317",
+      "title": "Managerial Accounting",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "ACCT328",
+      "code": "ACCT 328",
+      "title": "Concepts in Taxation",
+      "credits": 3,
+      "category": "major"
+    }
+  ],
+  "electiveOptions": {
+    "acct-electives": {
+      "creditsRequired": 9,
+      "label": "Accounting Electives",
+      "note": "Three upper-division ACCT courses approved for the Accounting major"
+    },
+    "biz-writing": {
+      "creditsRequired": 6,
+      "label": "Writing Intensive",
+      "note": "Two approved writing-intensive courses"
+    },
+    "biz-global": {
+      "creditsRequired": 3,
+      "label": "Global Awareness",
+      "note": "One approved global awareness course"
+    }
+  },
+  "roadmap": [
+    {
+      "year": 1,
+      "semester": "Fall",
+      "credits": 9,
+      "items": [
+        {
+          "ref": "ECON201biz"
+        },
+        {
+          "ref": "INFS247"
+        },
+        {
+          "ref": "MATH110biz"
+        },
+        {
+          "ref": "QUIN101"
+        }
+      ]
+    },
+    {
+      "year": 1,
+      "semester": "Spring",
+      "credits": 7,
+      "items": [
+        {
+          "ref": "ACCT201"
+        },
+        {
+          "ref": "ECON202biz"
+        },
+        {
+          "ref": "QUIN102"
+        }
+      ]
+    },
+    {
+      "year": 2,
+      "semester": "Fall",
+      "credits": 11,
+      "items": [
+        {
+          "ref": "ACCT202"
+        },
+        {
+          "ref": "ACCT303"
+        },
+        {
+          "isElective": true,
+          "label": "ISSCM 241 or STAT 103 \u2014 Business Statistics",
+          "credits": 3
+        },
+        {
+          "ref": "QUIN202"
+        }
+      ]
+    },
+    {
+      "year": 2,
+      "semester": "Spring",
+      "credits": 15,
+      "items": [
+        {
+          "ref": "ACCT304"
+        },
+        {
+          "ref": "ACCT311"
+        },
+        {
+          "ref": "MGMT201"
+        },
+        {
+          "ref": "SCMG232"
+        },
+        {
+          "isElective": true,
+          "label": "Business Writing Intensive",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 3,
+      "semester": "Fall",
+      "credits": 12,
+      "items": [
+        {
+          "ref": "ACCT328"
+        },
+        {
+          "ref": "COMM103biz"
+        },
+        {
+          "ref": "MARK201biz"
+        },
+        {
+          "isElective": true,
+          "label": "ACCT Elective",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 3,
+      "semester": "Spring",
+      "credits": 12,
+      "items": [
+        {
+          "isElective": true,
+          "label": "FINC 301 or FINC 334 \u2014 Business Finance",
+          "credits": 3
+        },
+        {
+          "isElective": true,
+          "label": "INFS 343 or ECON 346 \u2014 Business Analytics",
+          "credits": 3
+        },
+        {
+          "ref": "ETHC341"
+        },
+        {
+          "isElective": true,
+          "label": "ACCT Elective",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 4,
+      "semester": "Fall",
+      "credits": 9,
+      "items": [
+        {
+          "ref": "ACCT317"
+        },
+        {
+          "ref": "LREB315"
+        },
+        {
+          "isElective": true,
+          "label": "Writing Intensive Course",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 4,
+      "semester": "Spring",
+      "credits": 9,
+      "items": [
+        {
+          "ref": "MGMT304"
+        },
+        {
+          "isElective": true,
+          "label": "ACCT Elective",
+          "credits": 3
+        },
+        {
+          "isElective": true,
+          "label": "Global Awareness Course",
+          "credits": 3
+        }
+      ]
+    }
+  ]
+}

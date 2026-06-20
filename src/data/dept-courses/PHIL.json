@@ -1,0 +1,1005 @@
+{
+  "catalog": "2026-2027",
+  "code": "PHIL",
+  "name": "Philosophy",
+  "sourceUrl": "https://catalog.luc.edu/course-descriptions/phil/",
+  "fetchedAt": "2026-06-20",
+  "courses": [
+    {
+      "id": "PHIL130",
+      "code": "PHIL 130",
+      "title": "Philosophy & Persons",
+      "credits": 3
+    },
+    {
+      "id": "PHIL180",
+      "code": "PHIL 180",
+      "title": "Being Human: Philosophical Perspectives",
+      "credits": 3
+    },
+    {
+      "id": "PHIL181",
+      "code": "PHIL 181",
+      "title": "Ethics",
+      "credits": 3
+    },
+    {
+      "id": "PHIL182",
+      "code": "PHIL 182",
+      "title": "Social and Political Philosophy",
+      "credits": 3
+    },
+    {
+      "id": "PHIL190",
+      "code": "PHIL 190",
+      "title": "Loyola's Mission: The Philosophical Vision",
+      "credits": 3
+    },
+    {
+      "id": "PHIL193",
+      "code": "PHIL 193",
+      "title": "Contemporary Chinese Philosophy",
+      "credits": 3
+    },
+    {
+      "id": "PHIL262",
+      "code": "PHIL 262",
+      "title": "Social & Political Philosophy - Civic Engagement",
+      "credits": 3
+    },
+    {
+      "id": "PHIL263",
+      "code": "PHIL 263",
+      "title": "Contemporary Ethical Issues - Civic Engagement",
+      "credits": 3
+    },
+    {
+      "id": "PHIL264",
+      "code": "PHIL 264",
+      "title": "Health Care Ethics - Civic Engagement",
+      "credits": 3
+    },
+    {
+      "id": "PHIL267",
+      "code": "PHIL 267",
+      "title": "Aesthetics - Civic Engagement",
+      "credits": 3
+    },
+    {
+      "id": "PHIL271",
+      "code": "PHIL 271",
+      "title": "Philosophy of Religion",
+      "credits": 3
+    },
+    {
+      "id": "PHIL272",
+      "code": "PHIL 272",
+      "title": "Metaphysics",
+      "credits": 3
+    },
+    {
+      "id": "PHIL273",
+      "code": "PHIL 273",
+      "title": "Philosophy of Science",
+      "credits": 3
+    },
+    {
+      "id": "PHIL274",
+      "code": "PHIL 274",
+      "title": "Logic",
+      "credits": 3
+    },
+    {
+      "id": "PHIL275",
+      "code": "PHIL 275",
+      "title": "Theory of Knowledge",
+      "credits": 3
+    },
+    {
+      "id": "PHIL276",
+      "code": "PHIL 276",
+      "title": "Philosophy of Mind",
+      "credits": 3
+    },
+    {
+      "id": "PHIL277",
+      "code": "PHIL 277",
+      "title": "Aesthetics",
+      "credits": 3
+    },
+    {
+      "id": "PHIL277R",
+      "code": "PHIL 277R",
+      "title": "Aesthetics: the Aesthetic Experience in Rome",
+      "credits": 3
+    },
+    {
+      "id": "PHIL279",
+      "code": "PHIL 279",
+      "title": "Judgment and Decision-Making",
+      "credits": 3
+    },
+    {
+      "id": "PHIL283",
+      "code": "PHIL 283",
+      "title": "Business Ethics",
+      "credits": 3
+    },
+    {
+      "id": "PHIL284",
+      "code": "PHIL 284",
+      "title": "Health Care Ethics",
+      "credits": 3
+    },
+    {
+      "id": "PHIL285",
+      "code": "PHIL 285",
+      "title": "Contemporary Ethical Issues",
+      "credits": 3
+    },
+    {
+      "id": "PHIL286",
+      "code": "PHIL 286",
+      "title": "Ethics and Education",
+      "credits": 3
+    },
+    {
+      "id": "PHIL287",
+      "code": "PHIL 287",
+      "title": "Environmental Ethics",
+      "credits": 3
+    },
+    {
+      "id": "PHIL288",
+      "code": "PHIL 288",
+      "title": "Culture and Civilization",
+      "credits": 3
+    },
+    {
+      "id": "PHIL288R",
+      "code": "PHIL 288R",
+      "title": "Culture & Civilization in Rome",
+      "credits": 3
+    },
+    {
+      "id": "PHIL289",
+      "code": "PHIL 289",
+      "title": "Philosophy and Gender",
+      "credits": 3
+    },
+    {
+      "id": "PHIL301",
+      "code": "PHIL 301",
+      "title": "Symbolic Logic",
+      "credits": 3
+    },
+    {
+      "id": "PHIL302",
+      "code": "PHIL 302",
+      "title": "Topics in Formal Logic",
+      "credits": 3
+    },
+    {
+      "id": "PHIL304",
+      "code": "PHIL 304",
+      "title": "History of Ancient Philosophy",
+      "credits": 3
+    },
+    {
+      "id": "PHIL305",
+      "code": "PHIL 305",
+      "title": "Medieval Philosophy",
+      "credits": 3
+    },
+    {
+      "id": "PHIL306",
+      "code": "PHIL 306",
+      "title": "19th Century Philosophy",
+      "credits": 3
+    },
+    {
+      "id": "PHIL307",
+      "code": "PHIL 307",
+      "title": "13th & 14th Century Philosophy",
+      "credits": 3
+    },
+    {
+      "id": "PHIL308",
+      "code": "PHIL 308",
+      "title": "Islamic Philosophy",
+      "credits": 3
+    },
+    {
+      "id": "PHIL309",
+      "code": "PHIL 309",
+      "title": "Classical Modern Philosophy",
+      "credits": 3
+    },
+    {
+      "id": "PHIL310",
+      "code": "PHIL 310",
+      "title": "Issues in Philosophy of Human Nature",
+      "credits": 3
+    },
+    {
+      "id": "PHIL311",
+      "code": "PHIL 311",
+      "title": "Issues in Metaphysics",
+      "credits": 3
+    },
+    {
+      "id": "PHIL312",
+      "code": "PHIL 312",
+      "title": "Problems in the Philosophy of God",
+      "credits": 3
+    },
+    {
+      "id": "PHIL318",
+      "code": "PHIL 318",
+      "title": "Philosophy of Art",
+      "credits": 3
+    },
+    {
+      "id": "PHIL319",
+      "code": "PHIL 319",
+      "title": "Studies in Philososphy & Literature",
+      "credits": 3
+    },
+    {
+      "id": "PHIL320",
+      "code": "PHIL 320",
+      "title": "The Philosophy of St Augustine",
+      "credits": 3
+    },
+    {
+      "id": "PHIL321",
+      "code": "PHIL 321",
+      "title": "Ethics and Society",
+      "credits": 3
+    },
+    {
+      "id": "PHIL322",
+      "code": "PHIL 322",
+      "title": "Feminist Philosophies",
+      "credits": 3
+    },
+    {
+      "id": "PHIL323",
+      "code": "PHIL 323",
+      "title": "Philosophy of Law",
+      "credits": 3
+    },
+    {
+      "id": "PHIL324",
+      "code": "PHIL 324",
+      "title": "Topics in Ethics",
+      "credits": 3
+    },
+    {
+      "id": "PHIL324B",
+      "code": "PHIL 324B",
+      "title": "Bioethics Minor Capstone: Philosophical Topics",
+      "credits": 3
+    },
+    {
+      "id": "PHIL325",
+      "code": "PHIL 325",
+      "title": "Ethics & Case Based Reasoning",
+      "credits": 3
+    },
+    {
+      "id": "PHIL326",
+      "code": "PHIL 326",
+      "title": "Political Philosophy",
+      "credits": 3
+    },
+    {
+      "id": "PHIL327",
+      "code": "PHIL 327",
+      "title": "Topics in Political Philosophy",
+      "credits": 3
+    },
+    {
+      "id": "PHIL328",
+      "code": "PHIL 328",
+      "title": "Philosophical Questions in Human Rights",
+      "credits": 3
+    },
+    {
+      "id": "PHIL329",
+      "code": "PHIL 329",
+      "title": "International Ethics",
+      "credits": 3
+    },
+    {
+      "id": "PHIL330",
+      "code": "PHIL 330",
+      "title": "Theory of Knowledge",
+      "credits": 3
+    },
+    {
+      "id": "PHIL331",
+      "code": "PHIL 331",
+      "title": "Philosophy of Technology",
+      "credits": 3
+    },
+    {
+      "id": "PHIL333",
+      "code": "PHIL 333",
+      "title": "Language: Theories Ancient & Modern",
+      "credits": 3
+    },
+    {
+      "id": "PHIL335",
+      "code": "PHIL 335",
+      "title": "Asian Philosophy",
+      "credits": 3
+    },
+    {
+      "id": "PHIL340",
+      "code": "PHIL 340",
+      "title": "Philosophy of St Thomas Aquinas",
+      "credits": 3
+    },
+    {
+      "id": "PHIL342",
+      "code": "PHIL 342",
+      "title": "Topics in the Catholic Philosophical Tradition",
+      "credits": 3
+    },
+    {
+      "id": "PHIL344",
+      "code": "PHIL 344",
+      "title": "Philosophy of Human Nature",
+      "credits": 3
+    },
+    {
+      "id": "PHIL350",
+      "code": "PHIL 350",
+      "title": "Directed Reading",
+      "credits": 3
+    },
+    {
+      "id": "PHIL354",
+      "code": "PHIL 354",
+      "title": "Topics in Bioethics",
+      "credits": 3
+    },
+    {
+      "id": "PHIL355",
+      "code": "PHIL 355",
+      "title": "Neuroethics",
+      "credits": 3
+    },
+    {
+      "id": "PHIL360",
+      "code": "PHIL 360",
+      "title": "Contemporary European Philosophy",
+      "credits": 3
+    },
+    {
+      "id": "PHIL362",
+      "code": "PHIL 362",
+      "title": "The British Philosophers",
+      "credits": 3
+    },
+    {
+      "id": "PHIL369",
+      "code": "PHIL 369",
+      "title": "Philosophy of Medicine",
+      "credits": 3
+    },
+    {
+      "id": "PHIL370",
+      "code": "PHIL 370",
+      "title": "Intro to American Philosophy",
+      "credits": 3
+    },
+    {
+      "id": "PHIL374",
+      "code": "PHIL 374",
+      "title": "Philosophy of History",
+      "credits": 3
+    },
+    {
+      "id": "PHIL375",
+      "code": "PHIL 375",
+      "title": "Philosophy of Marxism",
+      "credits": 3
+    },
+    {
+      "id": "PHIL379",
+      "code": "PHIL 379",
+      "title": "John F. Grant, M.D., Symposium on Health Care Ethics",
+      "credits": 3
+    },
+    {
+      "id": "PHIL380",
+      "code": "PHIL 380",
+      "title": "Topics in Philosophy of Religion",
+      "credits": 3
+    },
+    {
+      "id": "PHIL381",
+      "code": "PHIL 381",
+      "title": "Philosophy of Science",
+      "credits": 3
+    },
+    {
+      "id": "PHIL382",
+      "code": "PHIL 382",
+      "title": "Philosophy of Social Science",
+      "credits": 3
+    },
+    {
+      "id": "PHIL383",
+      "code": "PHIL 383",
+      "title": "Philosophy of Psychology",
+      "credits": 3
+    },
+    {
+      "id": "PHIL384",
+      "code": "PHIL 384",
+      "title": "Topics in Philosophy & Science",
+      "credits": 3
+    },
+    {
+      "id": "PHIL385",
+      "code": "PHIL 385",
+      "title": "Environmental Ethics",
+      "credits": 3
+    },
+    {
+      "id": "PHIL386",
+      "code": "PHIL 386",
+      "title": "Analytic Philosophy",
+      "credits": 3
+    },
+    {
+      "id": "PHIL387",
+      "code": "PHIL 387",
+      "title": "Topics in Philosophy of Mind",
+      "credits": 3
+    },
+    {
+      "id": "PHIL388",
+      "code": "PHIL 388",
+      "title": "History of Ethics",
+      "credits": 3
+    },
+    {
+      "id": "PHIL389",
+      "code": "PHIL 389",
+      "title": "Contemporary Issues",
+      "credits": 3
+    },
+    {
+      "id": "PHIL390",
+      "code": "PHIL 390",
+      "title": "Independent Study for Majors",
+      "credits": 3
+    },
+    {
+      "id": "PHIL391",
+      "code": "PHIL 391",
+      "title": "Topics in Philosophy of Religion",
+      "credits": 3
+    },
+    {
+      "id": "PHIL393",
+      "code": "PHIL 393",
+      "title": "Philosophy & The Human Sciences",
+      "credits": 0
+    },
+    {
+      "id": "PHIL395",
+      "code": "PHIL 395",
+      "title": "Seminar in Ancient Philosophy",
+      "credits": 3
+    },
+    {
+      "id": "PHIL396",
+      "code": "PHIL 396",
+      "title": "Seminar in Medieval Philosophy",
+      "credits": 3
+    },
+    {
+      "id": "PHIL397",
+      "code": "PHIL 397",
+      "title": "Capstone Seminar in Classical Modern Philosophy",
+      "credits": 3
+    },
+    {
+      "id": "PHIL398",
+      "code": "PHIL 398",
+      "title": "Capstone Seminar in Contemporary Philosophy",
+      "credits": 3
+    },
+    {
+      "id": "PHIL399",
+      "code": "PHIL 399",
+      "title": "Capstone Seminar on a Topic in Philosophy",
+      "credits": 3
+    },
+    {
+      "id": "PHIL400",
+      "code": "PHIL 400",
+      "title": "Philosophy Research Tools",
+      "credits": 3
+    },
+    {
+      "id": "PHIL401",
+      "code": "PHIL 401",
+      "title": "Plato",
+      "credits": 3
+    },
+    {
+      "id": "PHIL402",
+      "code": "PHIL 402",
+      "title": "Aristotle",
+      "credits": 3
+    },
+    {
+      "id": "PHIL403",
+      "code": "PHIL 403",
+      "title": "Ancient Philosophy",
+      "credits": 3
+    },
+    {
+      "id": "PHIL405",
+      "code": "PHIL 405",
+      "title": "Augustine",
+      "credits": 3
+    },
+    {
+      "id": "PHIL406",
+      "code": "PHIL 406",
+      "title": "Aquinas",
+      "credits": 3
+    },
+    {
+      "id": "PHIL407",
+      "code": "PHIL 407",
+      "title": "Medieval Philosophy",
+      "credits": 3
+    },
+    {
+      "id": "PHIL408",
+      "code": "PHIL 408",
+      "title": "Late Medieval Philosophy",
+      "credits": 3
+    },
+    {
+      "id": "PHIL410",
+      "code": "PHIL 410",
+      "title": "Descartes",
+      "credits": 3
+    },
+    {
+      "id": "PHIL411",
+      "code": "PHIL 411",
+      "title": "Classical Rationalism",
+      "credits": 3
+    },
+    {
+      "id": "PHIL412",
+      "code": "PHIL 412",
+      "title": "Classical Empiricism",
+      "credits": 3
+    },
+    {
+      "id": "PHIL415",
+      "code": "PHIL 415",
+      "title": "Kant",
+      "credits": 3
+    },
+    {
+      "id": "PHIL416",
+      "code": "PHIL 416",
+      "title": "17th-18th Century Philosophy",
+      "credits": 3
+    },
+    {
+      "id": "PHIL417",
+      "code": "PHIL 417",
+      "title": "Classical German Philosophy",
+      "credits": 3
+    },
+    {
+      "id": "PHIL419",
+      "code": "PHIL 419",
+      "title": "Aesthetics",
+      "credits": 3
+    },
+    {
+      "id": "PHIL420",
+      "code": "PHIL 420",
+      "title": "Hegel",
+      "credits": 3
+    },
+    {
+      "id": "PHIL421",
+      "code": "PHIL 421",
+      "title": "Marx",
+      "credits": 3
+    },
+    {
+      "id": "PHIL422",
+      "code": "PHIL 422",
+      "title": "Nietzsche",
+      "credits": 3
+    },
+    {
+      "id": "PHIL425",
+      "code": "PHIL 425",
+      "title": "19th Century Philosophy",
+      "credits": 3
+    },
+    {
+      "id": "PHIL430",
+      "code": "PHIL 430",
+      "title": "Husserl",
+      "credits": 3
+    },
+    {
+      "id": "PHIL431",
+      "code": "PHIL 431",
+      "title": "Marxism",
+      "credits": 3
+    },
+    {
+      "id": "PHIL432",
+      "code": "PHIL 432",
+      "title": "Heidegger",
+      "credits": 3
+    },
+    {
+      "id": "PHIL433",
+      "code": "PHIL 433",
+      "title": "Phenomenology/Existentialism",
+      "credits": 3
+    },
+    {
+      "id": "PHIL434",
+      "code": "PHIL 434",
+      "title": "Hermeneutics & Critical Theory",
+      "credits": 3
+    },
+    {
+      "id": "PHIL436",
+      "code": "PHIL 436",
+      "title": "Contemporary French Philosophy",
+      "credits": 3
+    },
+    {
+      "id": "PHIL437",
+      "code": "PHIL 437",
+      "title": "Contemporary German Philosophy",
+      "credits": 3
+    },
+    {
+      "id": "PHIL438",
+      "code": "PHIL 438",
+      "title": "Topics in Continental Philosophy",
+      "credits": 3
+    },
+    {
+      "id": "PHIL439",
+      "code": "PHIL 439",
+      "title": "Chinese Philosophy",
+      "credits": 3
+    },
+    {
+      "id": "PHIL440",
+      "code": "PHIL 440",
+      "title": "American Philosophy",
+      "credits": 3
+    },
+    {
+      "id": "PHIL441",
+      "code": "PHIL 441",
+      "title": "Wittgenstein",
+      "credits": 3
+    },
+    {
+      "id": "PHIL442",
+      "code": "PHIL 442",
+      "title": "Anglo-American Philosophy",
+      "credits": 3
+    },
+    {
+      "id": "PHIL443",
+      "code": "PHIL 443",
+      "title": "Anglo-American Epistemology",
+      "credits": 3
+    },
+    {
+      "id": "PHIL444",
+      "code": "PHIL 444",
+      "title": "Studies in Logic",
+      "credits": 3
+    },
+    {
+      "id": "PHIL445",
+      "code": "PHIL 445",
+      "title": "Philosophy of Mind",
+      "credits": 3
+    },
+    {
+      "id": "PHIL446",
+      "code": "PHIL 446",
+      "title": "Philosophy of Perception",
+      "credits": 3
+    },
+    {
+      "id": "PHIL447",
+      "code": "PHIL 447",
+      "title": "Issues in Cognitive Science",
+      "credits": 3
+    },
+    {
+      "id": "PHIL449",
+      "code": "PHIL 449",
+      "title": "Philosophy of Language",
+      "credits": 3
+    },
+    {
+      "id": "PHIL450",
+      "code": "PHIL 450",
+      "title": "Epistemology",
+      "credits": 3
+    },
+    {
+      "id": "PHIL451",
+      "code": "PHIL 451",
+      "title": "Metaphysics",
+      "credits": 3
+    },
+    {
+      "id": "PHIL452",
+      "code": "PHIL 452",
+      "title": "Philosophy of Science",
+      "credits": 3
+    },
+    {
+      "id": "PHIL453",
+      "code": "PHIL 453",
+      "title": "Philosophy of Technology",
+      "credits": 3
+    },
+    {
+      "id": "PHIL454",
+      "code": "PHIL 454",
+      "title": "Philosophy of Religion",
+      "credits": 3
+    },
+    {
+      "id": "PHIL455",
+      "code": "PHIL 455",
+      "title": "Philosophical Theology",
+      "credits": 3
+    },
+    {
+      "id": "PHIL457",
+      "code": "PHIL 457",
+      "title": "Aesthetics",
+      "credits": 3
+    },
+    {
+      "id": "PHIL458",
+      "code": "PHIL 458",
+      "title": "Philosophy of History",
+      "credits": 3
+    },
+    {
+      "id": "PHIL459",
+      "code": "PHIL 459",
+      "title": "Philosophy of Law",
+      "credits": 3
+    },
+    {
+      "id": "PHIL462",
+      "code": "PHIL 462",
+      "title": "Kant's Moral Philosophy",
+      "credits": 3
+    },
+    {
+      "id": "PHIL463",
+      "code": "PHIL 463",
+      "title": "Virtue Ethics",
+      "credits": 3
+    },
+    {
+      "id": "PHIL464",
+      "code": "PHIL 464",
+      "title": "Utilitarianism",
+      "credits": 3
+    },
+    {
+      "id": "PHIL466",
+      "code": "PHIL 466",
+      "title": "Major Authors in Moral Philosophy",
+      "credits": 3
+    },
+    {
+      "id": "PHIL467",
+      "code": "PHIL 467",
+      "title": "Contemporary Ethical Theories",
+      "credits": 3
+    },
+    {
+      "id": "PHIL468",
+      "code": "PHIL 468",
+      "title": "Topics in Ethics",
+      "credits": 3
+    },
+    {
+      "id": "PHIL469",
+      "code": "PHIL 469",
+      "title": "Ethics and Rationality",
+      "credits": 3
+    },
+    {
+      "id": "PHIL470",
+      "code": "PHIL 470",
+      "title": "Ethics & Economic Justice",
+      "credits": 3
+    },
+    {
+      "id": "PHIL474",
+      "code": "PHIL 474",
+      "title": "Principles of Business Ethics",
+      "credits": 3
+    },
+    {
+      "id": "PHIL475",
+      "code": "PHIL 475",
+      "title": "Philosophy of Nursing: Nursing as a Moral Practice",
+      "credits": 3
+    },
+    {
+      "id": "PHIL477",
+      "code": "PHIL 477",
+      "title": "Social Health Care Ethics",
+      "credits": 3
+    },
+    {
+      "id": "PHIL478",
+      "code": "PHIL 478",
+      "title": "Research Methods in Social Justice",
+      "credits": 3
+    },
+    {
+      "id": "PHIL479",
+      "code": "PHIL 479",
+      "title": "Issues in Applied Ethics",
+      "credits": 3
+    },
+    {
+      "id": "PHIL480",
+      "code": "PHIL 480",
+      "title": "Social & Political Philosophy",
+      "credits": 3
+    },
+    {
+      "id": "PHIL481",
+      "code": "PHIL 481",
+      "title": "Philosophy of Action",
+      "credits": 3
+    },
+    {
+      "id": "PHIL482",
+      "code": "PHIL 482",
+      "title": "Philosophy of Social Science",
+      "credits": 3
+    },
+    {
+      "id": "PHIL483",
+      "code": "PHIL 483",
+      "title": "Philosophical Questions in Human Rights",
+      "credits": 3
+    },
+    {
+      "id": "PHIL484",
+      "code": "PHIL 484",
+      "title": "Philosophical Anthropology",
+      "credits": 3
+    },
+    {
+      "id": "PHIL485",
+      "code": "PHIL 485",
+      "title": "International Ethics",
+      "credits": 3
+    },
+    {
+      "id": "PHIL487",
+      "code": "PHIL 487",
+      "title": "Moral and Legal Issues of Economic Sanctions",
+      "credits": 3
+    },
+    {
+      "id": "PHIL490",
+      "code": "PHIL 490",
+      "title": "Current Philosophical Issues",
+      "credits": 3
+    },
+    {
+      "id": "PHIL500",
+      "code": "PHIL 500",
+      "title": "Directed Readings and Research",
+      "credits": 3
+    },
+    {
+      "id": "PHIL501",
+      "code": "PHIL 501",
+      "title": "Directed Readings & Research",
+      "credits": 3
+    },
+    {
+      "id": "PHIL502",
+      "code": "PHIL 502",
+      "title": "Directed Readings & Research",
+      "credits": 3
+    },
+    {
+      "id": "PHIL503",
+      "code": "PHIL 503",
+      "title": "Directed Readings & Research",
+      "credits": 3
+    },
+    {
+      "id": "PHIL505",
+      "code": "PHIL 505",
+      "title": "Teaching Internship I",
+      "credits": 0
+    },
+    {
+      "id": "PHIL510",
+      "code": "PHIL 510",
+      "title": "Clinical Ethics Practicum",
+      "credits": 3
+    },
+    {
+      "id": "PHIL511",
+      "code": "PHIL 511",
+      "title": "Social Ethics Practicum",
+      "credits": 3
+    },
+    {
+      "id": "PHIL550",
+      "code": "PHIL 550",
+      "title": "Integrative Seminar",
+      "credits": 3
+    },
+    {
+      "id": "PHIL590",
+      "code": "PHIL 590",
+      "title": "Dissertation Proposal Seminar",
+      "credits": 0
+    },
+    {
+      "id": "PHIL595",
+      "code": "PHIL 595",
+      "title": "Thesis Supervision",
+      "credits": 0
+    },
+    {
+      "id": "PHIL600",
+      "code": "PHIL 600",
+      "title": "Dissertation Supervision",
+      "credits": 0
+    },
+    {
+      "id": "PHIL605",
+      "code": "PHIL 605",
+      "title": "Master's Study",
+      "credits": 0
+    },
+    {
+      "id": "PHIL610",
+      "code": "PHIL 610",
+      "title": "Doctoral Study",
+      "credits": 0
+    }
+  ]
+}

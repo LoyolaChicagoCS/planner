@@ -1,6 +1,6 @@
 # Loyola CS Academic Checklist
 
-Mobile-first advising checklist for Loyola University Chicago Computer Science degree and minor planning — undergraduate, graduate, and doctoral.
+Mobile-first advising checklist for Loyola University Chicago Computer Science degree and minor planning — undergraduate, graduate, and doctoral — with support for tracking additional majors and minors from across the university.
 
 The app is live at:
 
@@ -12,22 +12,23 @@ This project helps students understand and track progress toward degree and mino
 
 The app is meant to support advising conversations, not replace them. Students can use it to explore degree requirements, check off completed courses, estimate remaining progress, and bring a clearer checklist to meetings with a human advisor.
 
+CS is always the primary program. Students can optionally add additional majors or minors from any department — CAS, Communication, or Business — and the Audit tab will show combined progress toward all selected programs simultaneously, deduplicating shared courses across them.
+
 ## Current Scope
 
-The current version targets these undergraduate BS programs administered by the department:
+### Computer Science Department (primary programs)
 
+Undergraduate BS majors:
 - Computer Science
 - Software Engineering
 - Information Technology
 - Cybersecurity
 
-It also includes these interdisciplinary undergraduate BS programs:
-
+Interdisciplinary undergraduate BS:
 - Bioinformatics
 - Data Science
 
-It also includes these undergraduate minors:
-
+Undergraduate minors:
 - Artificial Intelligence
 - Artificial Intelligence and Human Flourishing
 - Business of Applied Artificial Intelligence
@@ -35,17 +36,44 @@ It also includes these undergraduate minors:
 - Computer Science
 - Information Technology
 
-It also includes these graduate MS programs:
-
+Graduate MS programs:
 - Computer Science (MS)
 - Cybersecurity (MS)
 - Information Technology (MS)
 - Software Engineering (MS)
 - Data Science (MS)
 
-It also includes the doctoral program:
-
+Doctoral:
 - Computer Science (PhD)
+
+### College of Arts and Sciences (additional majors)
+
+All CAS undergraduate majors are supported as additional programs, spanning: African Studies, Anthropology (BA and BS), Biochemistry (BA and BS), Biology, Chemistry (BA and BS), Classical Civilization, Criminal Justice, Dance, Economics, English, Fine Arts (Art History, Music, Photography/Video Art, Sculpture/Ceramics, Studio Arts, Theatre, Visual Communication), Forensic Science, French, Global Studies, History, Human Services, Italian Studies, Latin, Mathematics (BS, Applied, Statistics, Math+CS), Neuroscience (Cognitive/Behavioral and Molecular/Cellular), Philosophy, Physics (BS, Biophysics, Theoretical Physics/Applied Math), Political Science, Psychology, Religious Studies, Sociology, Sociology-Anthropology, Spanish, Theology, and Women's Studies and Gender Studies.
+
+### School of Communication (additional majors)
+
+- Advertising and Public Relations (BA)
+- Advertising Creative (BA)
+- Communication Studies (BA)
+- Film and Digital Media: Production Track (BA)
+- Multimedia Journalism (BA)
+- Public Communication and Advocacy (BA)
+- Sports Media (BA)
+
+### Quinlan School of Business (additional majors)
+
+- Accounting (BBA)
+- Accounting and Analytics (BBA)
+- Economics (BBA)
+- Entrepreneurship (BBA)
+- Finance (BBA)
+- Human Resource Management (BBA)
+- Information Systems and Analytics (BBA)
+- International Business (BBA)
+- Management (BBA)
+- Marketing (BBA)
+- Sport Management (BBA)
+- Supply Chain Management (BBA)
 
 ## Student-Facing Requirements
 
@@ -81,19 +109,21 @@ Progress is represented as a set of stable requirement IDs.
 
 Persistence behavior:
 
-- Local browser storage key: `advising_progress`
+- Local browser storage key: `advising_progress` — completed course IDs
+- Local browser storage key: `advising_additional` — comma-separated IDs of additional programs
 - Selected program URL parameter: `?p=<program-id>`
+- Additional programs URL parameter: `?m=<dot-delimited-program-ids>`
 - Completed items URL parameter: `?d=<dot-delimited-ids>`
 
-Example:
+Example (CS primary, Mathematics and Philosophy as additional programs):
 
 ```text
-https://advising.cs.luc.edu/?p=cs&d=COMP313.CORE_WRITING.MATH161
+https://advising.cs.luc.edu/?p=cs&m=math-bs.philosophy-ba&d=COMP313.CORE_WRITING.MATH161
 ```
 
 Progress IDs must not contain dots or whitespace because dots delimit share-link IDs. Keep IDs URL-friendly, preferably using letters, numbers, `_`, and `-`.
 
-Old comma-delimited share links are still decoded for backward compatibility.
+Old comma-delimited share links are still decoded for backward compatibility. If the `?m=` parameter is absent (old links), no additional programs are restored.
 
 ## Requirement Modeling
 
@@ -104,6 +134,7 @@ Each program currently includes:
 - `id`
 - `name`
 - `degree`
+- `department` — owning department; `"Computer Science"` for all CS-department programs, `"Business Administration"` for BBA programs, `"Communication"` for Communication programs, absent for CAS programs. Used to filter the ProgramPicker so only appropriate programs can be added as additional majors.
 - `school`
 - `totalCredits` for the catalog roadmap/sample plan total
 - `majorCredits` for BS major requirement totals where applicable
@@ -178,13 +209,13 @@ If Loyola changes Core Area names, requirement structure, catalog URLs, or requi
 
 The landing page shows a fixed header ("Academic Checklist") with the Loyola Ramblers SVG mark and a build-time version pill. Below the header a tab bar organizes programs into five categories: Majors, Interdisciplinary, Minors, Masters, and Doctoral. Selecting a tab shows only the cards for that category; programs within a tab are alphabetized.
 
-Each selected program has up to five swipeable tabs:
+Each selected program has up to five swipeable tabs in this order:
 
-- `Courses`: required courses, elective requirements, and core requirements.
-- `Core`: catalog-derived University Core courses, including Tier I/Tier II sections where applicable. Not shown for graduate or doctoral programs.
-- `Roadmap`: suggested semester-by-semester plan.
-- `Checklist`: remaining courses, AP/transfer items, optional courses, and time-to-completion estimate. Graduate programs use a 9-credit full-time load assumption. The PhD program suppresses the time estimate entirely and shows a Doctoral Milestones section instead (qualifying exam, candidacy, prospectus, defense).
-- `Audit`: audit-style progress by requirement category.
+1. `Roadmap`: suggested semester-by-semester plan.
+2. `Courses`: required courses, elective requirements, and core requirements. If additional programs have been added, each appears as an extra section below the primary program's courses.
+3. `Core`: catalog-derived University Core courses, including Tier I/Tier II sections where applicable. Not shown for graduate or doctoral programs.
+4. `Checklist`: remaining courses, AP/transfer items, optional courses, and time-to-completion estimate. Graduate programs use a 9-credit full-time load assumption. The PhD program suppresses the time estimate entirely and shows a Doctoral Milestones section instead (qualifying exam, candidacy, prospectus, defense). Additional programs each appear as a section below the primary program's checklist.
+5. `Audit`: audit-style progress by requirement category. Additional programs each appear as a separate progress card below the primary program's audit categories, with a Remove button to deselect the additional program and a standalone "+ Add Additional Major or Minor" button at the bottom of the tab.
 
 Program pages use a compact top bar with the Loyola SVG mark next to the program name. Program actions stay on the first row: copy share link, open prefilled advisor email, clear selected progress, and the credit-progress pill. Degree/roadmap/major-credit metadata is intentionally rendered on a second row so long labels do not collide with the action controls on mobile.
 

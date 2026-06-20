@@ -1,5 +1,6 @@
 {
   "id": "ms-ds",
+  "department": "Computer Science",
   "name": "Data Science",
   "degree": "MS",
   "school": "Loyola University Chicago",
@@ -7,7 +8,6 @@
   "totalCredits": 30,
   "mastersCredits": 21,
   "catalogUrl": "https://catalog.luc.edu/graduate-professional/graduate-school/arts-sciences/data-science/data-science-ms/",
-
   "courses": [
     {
       "id": "MSDS_STAT408",
@@ -71,78 +71,307 @@
       "note": "Non-thesis track only"
     }
   ],
-
   "electiveOptions": {
     "electives": {
       "creditsRequired": 9,
       "label": "Electives",
       "note": "3 electives required: 1 COMP (3 cr), 1 STAT (3 cr), 1 COMP or STAT (3 cr). Primary electives are recommended; secondary electives require GPD coordination.",
       "courses": [
-        { "id": "MSDS_EL_COMP406",  "code": "COMP 406",  "title": "Data Mining",                                                            "credits": 3, "note": "Primary COMP elective" },
-        { "id": "MSDS_EL_COMP429",  "code": "COMP 429",  "title": "Natural Language Processing",                                            "credits": 3, "note": "Primary COMP elective" },
-        { "id": "MSDS_EL_COMP484",  "code": "COMP 484",  "title": "Artificial Intelligence",                                                "credits": 3, "note": "Primary COMP elective" },
-        { "id": "MSDS_EL_COMP487",  "code": "COMP 487",  "title": "Deep Learning",                                                          "credits": 3, "note": "Primary COMP elective" },
-        { "id": "MSDS_EL_COMP488",  "code": "COMP 488",  "title": "Computer Science Topics",                                                "credits": 3, "note": "Primary COMP elective — topic must be relevant to data science" },
-        { "id": "MSDS_EL_STAT411",  "code": "STAT 411",  "title": "Applied Survival Analysis",                                              "credits": 3, "note": "Primary STAT elective" },
-        { "id": "MSDS_EL_STAT421",  "code": "STAT 421",  "title": "Math Modeling & Simulation",                                             "credits": 3, "note": "Primary STAT elective" },
-        { "id": "MSDS_EL_STAT451",  "code": "STAT 451",  "title": "Applied Nonparametric Methods",                                          "credits": 3, "note": "Primary STAT elective" },
-        { "id": "MSDS_EL_STAT444",  "code": "STAT 444",  "title": "Longitudinal Data Analysis and Mixed Modeling",                          "credits": 3, "note": "Primary STAT elective" },
-        { "id": "MSDS_EL_STAT488",  "code": "STAT 488",  "title": "Topics in Statistics",                                                   "credits": 3, "note": "Primary STAT elective — topic must be relevant to data science" },
-        { "id": "MSDS_EL_COMP436",  "code": "COMP 436",  "title": "Markup Languages",                                                       "credits": 3, "note": "Secondary COMP elective" },
-        { "id": "MSDS_EL_COMP441",  "code": "COMP 441",  "title": "Human-Computer Interaction",                                             "credits": 3, "note": "Secondary COMP elective" },
-        { "id": "MSDS_EL_COMP460",  "code": "COMP 460",  "title": "Algorithms & Complexity",                                                "credits": 3, "note": "Secondary COMP elective" },
-        { "id": "MSDS_EL_COMP405",  "code": "COMP 405",  "title": "Database Administration",                                                "credits": 3, "note": "Secondary COMP elective" },
-        { "id": "MSDS_EL_COMP412",  "code": "COMP 412",  "title": "Open Source Computing",                                                  "credits": 3, "note": "Secondary COMP elective" },
-        { "id": "MSDS_EL_COMP413",  "code": "COMP 413",  "title": "Intermediate Object-Oriented Development",                               "credits": 3, "note": "Secondary COMP elective" },
-        { "id": "MSDS_EL_COMP418",  "code": "COMP 418",  "title": "Combinatorial Mathematics",                                              "credits": 3, "note": "Secondary COMP elective" },
-        { "id": "MSDS_EL_COMP424",  "code": "COMP 424",  "title": "Client-Side Web Design",                                                 "credits": 3, "note": "Secondary COMP elective" },
-        { "id": "MSDS_EL_COMP474",  "code": "COMP 474",  "title": "Software Engineering",                                                   "credits": 3, "note": "Secondary COMP elective" },
-        { "id": "MSDS_EL_COMP422",  "code": "COMP 422",  "title": "Software Development for Wireless and Mobile Devices",                   "credits": 3, "note": "Secondary COMP elective" },
-        { "id": "MSDS_EL_COMP417",  "code": "COMP 417",  "title": "Social and Ethical Issues in Computing",                                 "credits": 3, "note": "Secondary COMP elective" },
-        { "id": "MSDS_EL_COMP490a", "code": "COMP 490",  "title": "Independent Project (3 cr)",                                             "credits": 3, "uniqueProgress": true, "note": "Secondary COMP elective" },
-        { "id": "MSDS_EL_COMP490b", "code": "COMP 490",  "title": "Independent Project (6 cr)",                                             "credits": 6, "uniqueProgress": true, "note": "Secondary COMP elective" },
-        { "id": "MSDS_EL_COMP499a", "code": "COMP 499",  "title": "Internship (3 cr)",                                                      "credits": 3, "uniqueProgress": true, "note": "Secondary COMP elective" },
-        { "id": "MSDS_EL_COMP499b", "code": "COMP 499",  "title": "Internship (6 cr)",                                                      "credits": 6, "uniqueProgress": true, "note": "Secondary COMP elective" },
-        { "id": "MSDS_EL_COMP477",  "code": "COMP 477",  "title": "IT Project Management",                                                  "credits": 3, "note": "Secondary COMP elective" },
-        { "id": "MSDS_EL_STAT403",  "code": "STAT 403",  "title": "SAS Program & Applied Statistics",                                       "credits": 3, "note": "Secondary STAT elective" },
-        { "id": "MSDS_EL_STAT407",  "code": "STAT 407",  "title": "Statistical Design",                                                     "credits": 3, "note": "Secondary STAT elective" },
-        { "id": "MSDS_EL_STAT404",  "code": "STAT 404",  "title": "Probability & Statistics I",                                             "credits": 3, "note": "Secondary STAT elective" },
-        { "id": "MSDS_EL_STAT405",  "code": "STAT 405",  "title": "Probability & Statistics II",                                            "credits": 3, "note": "Secondary STAT elective" },
-        { "id": "MSDS_EL_STAT498a", "code": "STAT 498",  "title": "Independent Study Statistics (3 cr)",                                    "credits": 3, "uniqueProgress": true, "note": "Secondary STAT elective" },
-        { "id": "MSDS_EL_STAT498b", "code": "STAT 498",  "title": "Independent Study Statistics (6 cr)",                                    "credits": 6, "uniqueProgress": true, "note": "Secondary STAT elective" }
+        {
+          "id": "MSDS_EL_COMP406",
+          "code": "COMP 406",
+          "title": "Data Mining",
+          "credits": 3,
+          "note": "Primary COMP elective"
+        },
+        {
+          "id": "MSDS_EL_COMP429",
+          "code": "COMP 429",
+          "title": "Natural Language Processing",
+          "credits": 3,
+          "note": "Primary COMP elective"
+        },
+        {
+          "id": "MSDS_EL_COMP484",
+          "code": "COMP 484",
+          "title": "Artificial Intelligence",
+          "credits": 3,
+          "note": "Primary COMP elective"
+        },
+        {
+          "id": "MSDS_EL_COMP487",
+          "code": "COMP 487",
+          "title": "Deep Learning",
+          "credits": 3,
+          "note": "Primary COMP elective"
+        },
+        {
+          "id": "MSDS_EL_COMP488",
+          "code": "COMP 488",
+          "title": "Computer Science Topics",
+          "credits": 3,
+          "note": "Primary COMP elective \u2014 topic must be relevant to data science"
+        },
+        {
+          "id": "MSDS_EL_STAT411",
+          "code": "STAT 411",
+          "title": "Applied Survival Analysis",
+          "credits": 3,
+          "note": "Primary STAT elective"
+        },
+        {
+          "id": "MSDS_EL_STAT421",
+          "code": "STAT 421",
+          "title": "Math Modeling & Simulation",
+          "credits": 3,
+          "note": "Primary STAT elective"
+        },
+        {
+          "id": "MSDS_EL_STAT451",
+          "code": "STAT 451",
+          "title": "Applied Nonparametric Methods",
+          "credits": 3,
+          "note": "Primary STAT elective"
+        },
+        {
+          "id": "MSDS_EL_STAT444",
+          "code": "STAT 444",
+          "title": "Longitudinal Data Analysis and Mixed Modeling",
+          "credits": 3,
+          "note": "Primary STAT elective"
+        },
+        {
+          "id": "MSDS_EL_STAT488",
+          "code": "STAT 488",
+          "title": "Topics in Statistics",
+          "credits": 3,
+          "note": "Primary STAT elective \u2014 topic must be relevant to data science"
+        },
+        {
+          "id": "MSDS_EL_COMP436",
+          "code": "COMP 436",
+          "title": "Markup Languages",
+          "credits": 3,
+          "note": "Secondary COMP elective"
+        },
+        {
+          "id": "MSDS_EL_COMP441",
+          "code": "COMP 441",
+          "title": "Human-Computer Interaction",
+          "credits": 3,
+          "note": "Secondary COMP elective"
+        },
+        {
+          "id": "MSDS_EL_COMP460",
+          "code": "COMP 460",
+          "title": "Algorithms & Complexity",
+          "credits": 3,
+          "note": "Secondary COMP elective"
+        },
+        {
+          "id": "MSDS_EL_COMP405",
+          "code": "COMP 405",
+          "title": "Database Administration",
+          "credits": 3,
+          "note": "Secondary COMP elective"
+        },
+        {
+          "id": "MSDS_EL_COMP412",
+          "code": "COMP 412",
+          "title": "Open Source Computing",
+          "credits": 3,
+          "note": "Secondary COMP elective"
+        },
+        {
+          "id": "MSDS_EL_COMP413",
+          "code": "COMP 413",
+          "title": "Intermediate Object-Oriented Development",
+          "credits": 3,
+          "note": "Secondary COMP elective"
+        },
+        {
+          "id": "MSDS_EL_COMP418",
+          "code": "COMP 418",
+          "title": "Combinatorial Mathematics",
+          "credits": 3,
+          "note": "Secondary COMP elective"
+        },
+        {
+          "id": "MSDS_EL_COMP424",
+          "code": "COMP 424",
+          "title": "Client-Side Web Design",
+          "credits": 3,
+          "note": "Secondary COMP elective"
+        },
+        {
+          "id": "MSDS_EL_COMP474",
+          "code": "COMP 474",
+          "title": "Software Engineering",
+          "credits": 3,
+          "note": "Secondary COMP elective"
+        },
+        {
+          "id": "MSDS_EL_COMP422",
+          "code": "COMP 422",
+          "title": "Software Development for Wireless and Mobile Devices",
+          "credits": 3,
+          "note": "Secondary COMP elective"
+        },
+        {
+          "id": "MSDS_EL_COMP417",
+          "code": "COMP 417",
+          "title": "Social and Ethical Issues in Computing",
+          "credits": 3,
+          "note": "Secondary COMP elective"
+        },
+        {
+          "id": "MSDS_EL_COMP490a",
+          "code": "COMP 490",
+          "title": "Independent Project (3 cr)",
+          "credits": 3,
+          "uniqueProgress": true,
+          "note": "Secondary COMP elective"
+        },
+        {
+          "id": "MSDS_EL_COMP490b",
+          "code": "COMP 490",
+          "title": "Independent Project (6 cr)",
+          "credits": 6,
+          "uniqueProgress": true,
+          "note": "Secondary COMP elective"
+        },
+        {
+          "id": "MSDS_EL_COMP499a",
+          "code": "COMP 499",
+          "title": "Internship (3 cr)",
+          "credits": 3,
+          "uniqueProgress": true,
+          "note": "Secondary COMP elective"
+        },
+        {
+          "id": "MSDS_EL_COMP499b",
+          "code": "COMP 499",
+          "title": "Internship (6 cr)",
+          "credits": 6,
+          "uniqueProgress": true,
+          "note": "Secondary COMP elective"
+        },
+        {
+          "id": "MSDS_EL_COMP477",
+          "code": "COMP 477",
+          "title": "IT Project Management",
+          "credits": 3,
+          "note": "Secondary COMP elective"
+        },
+        {
+          "id": "MSDS_EL_STAT403",
+          "code": "STAT 403",
+          "title": "SAS Program & Applied Statistics",
+          "credits": 3,
+          "note": "Secondary STAT elective"
+        },
+        {
+          "id": "MSDS_EL_STAT407",
+          "code": "STAT 407",
+          "title": "Statistical Design",
+          "credits": 3,
+          "note": "Secondary STAT elective"
+        },
+        {
+          "id": "MSDS_EL_STAT404",
+          "code": "STAT 404",
+          "title": "Probability & Statistics I",
+          "credits": 3,
+          "note": "Secondary STAT elective"
+        },
+        {
+          "id": "MSDS_EL_STAT405",
+          "code": "STAT 405",
+          "title": "Probability & Statistics II",
+          "credits": 3,
+          "note": "Secondary STAT elective"
+        },
+        {
+          "id": "MSDS_EL_STAT498a",
+          "code": "STAT 498",
+          "title": "Independent Study Statistics (3 cr)",
+          "credits": 3,
+          "uniqueProgress": true,
+          "note": "Secondary STAT elective"
+        },
+        {
+          "id": "MSDS_EL_STAT498b",
+          "code": "STAT 498",
+          "title": "Independent Study Statistics (6 cr)",
+          "credits": 6,
+          "uniqueProgress": true,
+          "note": "Secondary STAT elective"
+        }
       ]
     }
   },
-
   "coreRequirements": [],
-
   "roadmap": [
     {
-      "year": 1, "semester": "Fall", "credits": 10,
+      "year": 1,
+      "semester": "Fall",
+      "credits": 10,
       "items": [
-        { "ref": "MSDS_DSCI401" },
-        { "ref": "MSDS_STAT408" },
-        { "ref": "MSDS_COMP453" }
+        {
+          "ref": "MSDS_DSCI401"
+        },
+        {
+          "ref": "MSDS_STAT408"
+        },
+        {
+          "ref": "MSDS_COMP453"
+        }
       ]
     },
     {
-      "year": 1, "semester": "Spring", "credits": 9,
+      "year": 1,
+      "semester": "Spring",
+      "credits": 9,
       "items": [
-        { "ref": "MSDS_STAT410" },
-        { "ref": "MSDS_COMP458" },
-        { "label": "COMP or STAT Elective 1", "credits": 3, "isElective": true, "electiveType": "electives" }
+        {
+          "ref": "MSDS_STAT410"
+        },
+        {
+          "ref": "MSDS_COMP458"
+        },
+        {
+          "label": "COMP or STAT Elective 1",
+          "credits": 3,
+          "isElective": true,
+          "electiveType": "electives"
+        }
       ]
     },
     {
-      "year": 2, "semester": "Fall", "credits": 11,
+      "year": 2,
+      "semester": "Fall",
+      "credits": 11,
       "items": [
-        { "ref": "MSDS_STAT438" },
-        { "label": "COMP or STAT Elective 2", "credits": 3, "isElective": true, "electiveType": "electives" },
-        { "label": "COMP or STAT Elective 3", "credits": 3, "isElective": true, "electiveType": "electives" },
-        { "ref": "MSDS_DSCI470" }
+        {
+          "ref": "MSDS_STAT438"
+        },
+        {
+          "label": "COMP or STAT Elective 2",
+          "credits": 3,
+          "isElective": true,
+          "electiveType": "electives"
+        },
+        {
+          "label": "COMP or STAT Elective 3",
+          "credits": 3,
+          "isElective": true,
+          "electiveType": "electives"
+        },
+        {
+          "ref": "MSDS_DSCI470"
+        }
       ]
     }
   ],
-
   "checklist": []
 }

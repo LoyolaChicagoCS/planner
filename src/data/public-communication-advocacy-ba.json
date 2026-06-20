@@ -1,0 +1,311 @@
+{
+  "id": "public-communication-advocacy-ba",
+  "department": "Communication",
+  "name": "Public Communication and Advocacy",
+  "degree": "BA",
+  "school": "Loyola University Chicago",
+  "totalCredits": 120,
+  "majorCredits": 43,
+  "catalogUrl": "https://catalog.luc.edu/undergraduate/communication/public-communication-advocacy/public-communication-advocacy-ba/",
+  "courses": [
+    {
+      "id": "COMM100",
+      "code": "COMM 100",
+      "title": "SOC Career Prep Seminar",
+      "credits": 1,
+      "category": "major"
+    },
+    {
+      "id": "COMM175",
+      "code": "COMM 175",
+      "title": "Introduction to Communication",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "COMM200",
+      "code": "COMM 200",
+      "title": "Digital Communication and Society",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "COMM215pca",
+      "code": "COMM 215",
+      "title": "Ethics and Communication",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "pca-ethics",
+      "choiceNote": "COMM 215 or COMM 360"
+    },
+    {
+      "id": "COMM360pca",
+      "code": "COMM 360",
+      "title": "Digital Media Ethics",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "pca-ethics",
+      "choiceNote": "COMM 215 or COMM 360"
+    },
+    {
+      "id": "COMM227",
+      "code": "COMM 227",
+      "title": "Social Justice and Public Communication",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "COMM268",
+      "code": "COMM 268",
+      "title": "Persuasion",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "COMM101",
+      "code": "COMM 101",
+      "title": "Public Speaking and Critical Thinking",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "COMM230",
+      "code": "COMM 230",
+      "title": "Argumentation and Advocacy",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "COMM231",
+      "code": "COMM 231",
+      "title": "Conflict Management and Communication",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "COMM300",
+      "code": "COMM 300",
+      "title": "Persuasive Campaigns",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "COMM306",
+      "code": "COMM 306",
+      "title": "Environmental Communication and Advocacy",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "COMM309",
+      "code": "COMM 309",
+      "title": "Designing Media for Social Change",
+      "credits": 3,
+      "category": "major"
+    }
+  ],
+  "electiveOptions": {
+    "pca-theory": {
+      "creditsRequired": 3,
+      "label": "Theory/Critical Analysis Elective",
+      "note": "COMM 201 (Media Theory), COMM 220 (Introduction to Rhetoric), COMM 226 (Public Interest Communication), or COMM 272 (Intercultural Communication)",
+      "courses": [
+        {
+          "id": "COMM201",
+          "code": "COMM 201",
+          "title": "Media Theory and Criticism",
+          "credits": 3,
+          "category": "elective"
+        },
+        {
+          "id": "COMM220",
+          "code": "COMM 220",
+          "title": "Introduction to Rhetoric",
+          "credits": 3,
+          "category": "elective"
+        },
+        {
+          "id": "COMM226",
+          "code": "COMM 226",
+          "title": "Public Interest Communication",
+          "credits": 3,
+          "category": "elective"
+        },
+        {
+          "id": "COMM272",
+          "code": "COMM 272",
+          "title": "Intercultural Communication",
+          "credits": 3,
+          "category": "elective"
+        }
+      ]
+    },
+    "pca-research": {
+      "creditsRequired": 3,
+      "label": "Research Methods Elective",
+      "note": "COMM 367 (Rhetorical Criticism), COMM 368 (Ethnographic Research Methods), or COMM 240 (Communication Research Design)",
+      "courses": [
+        {
+          "id": "COMM367",
+          "code": "COMM 367",
+          "title": "Rhetorical Criticism",
+          "credits": 3,
+          "category": "elective"
+        },
+        {
+          "id": "COMM368",
+          "code": "COMM 368",
+          "title": "Ethnographic Research Methods in Communication",
+          "credits": 3,
+          "category": "elective"
+        },
+        {
+          "id": "COMM240",
+          "code": "COMM 240",
+          "title": "Communication Research Design",
+          "credits": 3,
+          "category": "elective"
+        }
+      ]
+    },
+    "pca-media": {
+      "creditsRequired": 3,
+      "label": "Media Production Elective",
+      "note": "COMM 130 (Intro to Audio Production), COMM 135 (Intro to Video Production), or COMM 275 (Web Design and Usability)",
+      "courses": [
+        {
+          "id": "COMM130",
+          "code": "COMM 130",
+          "title": "Intro to Audio Production",
+          "credits": 3,
+          "category": "elective"
+        },
+        {
+          "id": "COMM135",
+          "code": "COMM 135",
+          "title": "Intro to Video Production",
+          "credits": 3,
+          "category": "elective"
+        },
+        {
+          "id": "COMM275",
+          "code": "COMM 275",
+          "title": "Web Design and Usability",
+          "credits": 3,
+          "category": "elective"
+        }
+      ]
+    }
+  },
+  "roadmap": [
+    {
+      "year": 1,
+      "semester": "Fall",
+      "credits": 3,
+      "items": [
+        {
+          "ref": "COMM175"
+        }
+      ]
+    },
+    {
+      "year": 1,
+      "semester": "Spring",
+      "credits": 6,
+      "items": [
+        {
+          "ref": "COMM101"
+        },
+        {
+          "ref": "COMM200"
+        }
+      ]
+    },
+    {
+      "year": 2,
+      "semester": "Fall",
+      "credits": 6,
+      "items": [
+        {
+          "isElective": true,
+          "label": "COMM 215 or COMM 360 \u2014 Ethics",
+          "credits": 3
+        },
+        {
+          "ref": "COMM227"
+        }
+      ]
+    },
+    {
+      "year": 2,
+      "semester": "Spring",
+      "credits": 6,
+      "items": [
+        {
+          "ref": "COMM268"
+        },
+        {
+          "isElective": true,
+          "label": "COMM 130/135/275 \u2014 Production or Web Design",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 3,
+      "semester": "Fall",
+      "credits": 7,
+      "items": [
+        {
+          "ref": "COMM100"
+        },
+        {
+          "ref": "COMM230"
+        },
+        {
+          "ref": "COMM231"
+        }
+      ]
+    },
+    {
+      "year": 3,
+      "semester": "Spring",
+      "credits": 6,
+      "items": [
+        {
+          "ref": "COMM300"
+        },
+        {
+          "isElective": true,
+          "label": "COMM 201/220/226/272 \u2014 Media or Rhetoric or Intercultural",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 4,
+      "semester": "Fall",
+      "credits": 6,
+      "items": [
+        {
+          "ref": "COMM306"
+        },
+        {
+          "isElective": true,
+          "label": "COMM 367/368/240 \u2014 Research Methods",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 4,
+      "semester": "Spring",
+      "credits": 3,
+      "items": [
+        {
+          "ref": "COMM309"
+        }
+      ]
+    }
+  ]
+}

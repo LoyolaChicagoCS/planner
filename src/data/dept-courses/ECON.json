@@ -1,0 +1,191 @@
+{
+  "catalog": "2026-2027",
+  "code": "ECON",
+  "name": "Economics",
+  "sourceUrl": "https://catalog.luc.edu/course-descriptions/econ/",
+  "fetchedAt": "2026-06-20",
+  "courses": [
+    {
+      "id": "ECON201",
+      "code": "ECON 201",
+      "title": "Principles of Microeconomics",
+      "credits": 3
+    },
+    {
+      "id": "ECON201H",
+      "code": "ECON 201H",
+      "title": "Principles of Microeconomics - Honors",
+      "credits": 3
+    },
+    {
+      "id": "ECON202",
+      "code": "ECON 202",
+      "title": "Principles of Macroeconomics",
+      "credits": 3
+    },
+    {
+      "id": "ECON202H",
+      "code": "ECON 202H",
+      "title": "Principles of Macroeconomics - Honors",
+      "credits": 3
+    },
+    {
+      "id": "ECON303",
+      "code": "ECON 303",
+      "title": "Intermediate Microeconomics",
+      "credits": 3
+    },
+    {
+      "id": "ECON304",
+      "code": "ECON 304",
+      "title": "Intermediate Macroeconomics",
+      "credits": 3
+    },
+    {
+      "id": "ECON320",
+      "code": "ECON 320",
+      "title": "Urban Economics",
+      "credits": 3
+    },
+    {
+      "id": "ECON323",
+      "code": "ECON 323",
+      "title": "International Economics",
+      "credits": 3
+    },
+    {
+      "id": "ECON324",
+      "code": "ECON 324",
+      "title": "International Monetary Relations",
+      "credits": 3
+    },
+    {
+      "id": "ECON325",
+      "code": "ECON 325",
+      "title": "Economics of Growth & Development",
+      "credits": 3
+    },
+    {
+      "id": "ECON327",
+      "code": "ECON 327",
+      "title": "American Economic & Business History",
+      "credits": 3
+    },
+    {
+      "id": "ECON328",
+      "code": "ECON 328",
+      "title": "Environmental Economics",
+      "credits": 3
+    },
+    {
+      "id": "ECON329",
+      "code": "ECON 329",
+      "title": "Health Economics",
+      "credits": 3
+    },
+    {
+      "id": "ECON334",
+      "code": "ECON 334",
+      "title": "Economics of Government Expenditures & Taxation",
+      "credits": 3
+    },
+    {
+      "id": "ECON336",
+      "code": "ECON 336",
+      "title": "Monetary and Fiscal Policy",
+      "credits": 3
+    },
+    {
+      "id": "ECON346",
+      "code": "ECON 346",
+      "title": "Econometrics",
+      "credits": 3
+    },
+    {
+      "id": "ECON360",
+      "code": "ECON 360",
+      "title": "Labor Economics",
+      "credits": 3
+    },
+    {
+      "id": "ECON370",
+      "code": "ECON 370",
+      "title": "Pricing & Industrial Organization",
+      "credits": 3
+    },
+    {
+      "id": "ECON395",
+      "code": "ECON 395",
+      "title": "Independent Study in Economics",
+      "credits": 1
+    },
+    {
+      "id": "ECON399",
+      "code": "ECON 399",
+      "title": "Special Topics in Economics",
+      "credits": 1
+    },
+    {
+      "id": "ECON420",
+      "code": "ECON 420",
+      "title": "Managerial Economics",
+      "credits": 3,
+      "isTopics": true,
+      "topicsCount": 4
+    },
+    {
+      "id": "ECON421",
+      "code": "ECON 421",
+      "title": "Business Fluctuations",
+      "credits": 3
+    },
+    {
+      "id": "ECON424",
+      "code": "ECON 424",
+      "title": "International Business Economics",
+      "credits": 3
+    },
+    {
+      "id": "ECON424E",
+      "code": "ECON 424E",
+      "title": "Global Issues in Economics",
+      "credits": 5
+    },
+    {
+      "id": "ECON429",
+      "code": "ECON 429",
+      "title": "Independent Study in Business Economics",
+      "credits": 3
+    },
+    {
+      "id": "ECON522",
+      "code": "ECON 522",
+      "title": "Game Theory & Strategy",
+      "credits": 3
+    },
+    {
+      "id": "ECON599",
+      "code": "ECON 599",
+      "title": "Special Topics",
+      "credits": 3
+    },
+    {
+      "id": "ECON602E",
+      "code": "ECON 602E",
+      "title": "Global Issues in Economics",
+      "credits": 5
+    },
+    {
+      "id": "ECON622",
+      "code": "ECON 622",
+      "title": "Derivative Securities",
+      "credits": 3
+    },
+    {
+      "id": "ECON625",
+      "code": "ECON 625",
+      "title": "Applied Econometrics",
+      "credits": 3
+    }
+  ]
+}

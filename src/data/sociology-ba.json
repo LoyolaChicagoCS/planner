@@ -1,0 +1,168 @@
+{
+  "id": "sociology-ba",
+  "department": "Sociology",
+  "name": "Sociology",
+  "degree": "BA",
+  "school": "Loyola University Chicago",
+  "totalCredits": 120,
+  "majorCredits": 34,
+  "catalogUrl": "https://catalog.luc.edu/undergraduate/arts-sciences/sociology/sociology-ba/",
+  "courses": [
+    {
+      "id": "SOCL101",
+      "code": "SOCL 101",
+      "title": "Society in a Global Age",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "SOCL205",
+      "code": "SOCL 205",
+      "title": "Sociological Thought",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "SOCL206",
+      "code": "SOCL 206",
+      "title": "Principles of Social Research",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "SOCL301",
+      "code": "SOCL 301",
+      "title": "Statistics for Social Research",
+      "credits": 4,
+      "category": "major"
+    },
+    {
+      "id": "SOCL365",
+      "code": "SOCL 365",
+      "title": "Social Theory & Social Research",
+      "credits": 3,
+      "category": "major"
+    }
+  ],
+  "electiveOptions": {
+    "socl-electives": {
+      "creditsRequired": 18,
+      "label": "Sociology Electives",
+      "note": "Six electives; five must be SOCL 210\u2013380, one may be from another social science with permission",
+      "courses": [
+        {
+          "id": "SOCL210",
+          "code": "SOCL 210",
+          "title": "Gender and Work",
+          "credits": 3,
+          "category": "elective"
+        }
+      ]
+    }
+  },
+  "roadmap": [
+    {
+      "year": 1,
+      "semester": "Fall",
+      "credits": 3,
+      "items": [
+        {
+          "isElective": true,
+          "label": "SOCL 100-Level Course",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 1,
+      "semester": "Spring",
+      "credits": 3,
+      "items": [
+        {
+          "isElective": true,
+          "label": "Sociology Elective",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 2,
+      "semester": "Fall",
+      "credits": 7,
+      "items": [
+        {
+          "ref": "SOCL205"
+        },
+        {
+          "ref": "SOCL301"
+        }
+      ]
+    },
+    {
+      "year": 2,
+      "semester": "Spring",
+      "credits": 6,
+      "items": [
+        {
+          "ref": "SOCL206"
+        },
+        {
+          "isElective": true,
+          "label": "Sociology Elective",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 3,
+      "semester": "Fall",
+      "credits": 3,
+      "items": [
+        {
+          "isElective": true,
+          "label": "Sociology Elective",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 3,
+      "semester": "Spring",
+      "credits": 3,
+      "items": [
+        {
+          "isElective": true,
+          "label": "Sociology Elective",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 4,
+      "semester": "Fall",
+      "credits": 6,
+      "items": [
+        {
+          "isElective": true,
+          "label": "Sociology Elective",
+          "credits": 3
+        },
+        {
+          "ref": "SOCL365"
+        }
+      ]
+    },
+    {
+      "year": 4,
+      "semester": "Spring",
+      "credits": 3,
+      "items": [
+        {
+          "isElective": true,
+          "label": "Sociology Elective",
+          "credits": 3
+        }
+      ]
+    }
+  ]
+}

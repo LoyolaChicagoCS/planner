@@ -1,0 +1,67 @@
+{
+  "id": "sociology-anthropology-ba",
+  "kind": "interdisciplinary",
+  "department": "Sociology",
+  "name": "Sociology and Anthropology",
+  "degree": "BA",
+  "school": "Loyola University Chicago",
+  "totalCredits": 120,
+  "majorCredits": 36,
+  "catalogUrl": "https://catalog.luc.edu/undergraduate/arts-sciences/sociology/sociology-anthropology-ba/",
+  "courses": [
+    {
+      "id": "SOCL101soa",
+      "code": "SOCL 101",
+      "title": "Society in a Global Age",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "ANTH101soa",
+      "code": "ANTH 101",
+      "title": "Introduction to Cultural Anthropology",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "SOCL205soa",
+      "code": "SOCL 205",
+      "title": "Sociological Thought",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "SOCL206soa",
+      "code": "SOCL 206",
+      "title": "Principles of Social Research",
+      "credits": 3,
+      "category": "major"
+    }
+  ],
+  "electiveOptions": {
+    "soa-soci-upper": {
+      "creditsRequired": 9,
+      "label": "Sociology Upper-Division Electives",
+      "note": "Three upper-division SOCL courses (300+)"
+    },
+    "soa-anth-upper": {
+      "creditsRequired": 9,
+      "label": "Anthropology Upper-Division Electives",
+      "note": "Three upper-division ANTH courses (300+)"
+    },
+    "soa-stats": {
+      "creditsRequired": 3,
+      "label": "Statistics Requirement",
+      "note": "STAT 203 or equivalent statistics course",
+      "courses": [
+        {
+          "id": "STAT203",
+          "code": "STAT 203",
+          "title": "Introduction to Probability & Statistics",
+          "credits": 3,
+          "category": "elective"
+        }
+      ]
+    }
+  }
+}

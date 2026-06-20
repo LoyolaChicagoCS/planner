@@ -1,0 +1,251 @@
+{
+  "catalog": "2026-2027",
+  "code": "ACCT",
+  "name": "Accounting",
+  "sourceUrl": "https://catalog.luc.edu/course-descriptions/acct/",
+  "fetchedAt": "2026-06-20",
+  "courses": [
+    {
+      "id": "ACCT201",
+      "code": "ACCT 201",
+      "title": "Introductory Accounting I",
+      "credits": 3
+    },
+    {
+      "id": "ACCT201H",
+      "code": "ACCT 201H",
+      "title": "Introductory Accounting I - Honors",
+      "credits": 3
+    },
+    {
+      "id": "ACCT202",
+      "code": "ACCT 202",
+      "title": "Introductory Accounting II",
+      "credits": 3
+    },
+    {
+      "id": "ACCT202H",
+      "code": "ACCT 202H",
+      "title": "Introductory Accounting II - Honors",
+      "credits": 3
+    },
+    {
+      "id": "ACCT303",
+      "code": "ACCT 303",
+      "title": "Intermediate Accounting I",
+      "credits": 3
+    },
+    {
+      "id": "ACCT304",
+      "code": "ACCT 304",
+      "title": "Intermediate Accounting II",
+      "credits": 3
+    },
+    {
+      "id": "ACCT306",
+      "code": "ACCT 306",
+      "title": "Advanced Financial Accounting",
+      "credits": 3
+    },
+    {
+      "id": "ACCT307",
+      "code": "ACCT 307",
+      "title": "Adv Accounting: Not-For-Profit Entities & Adv Financial Accounting Topics",
+      "credits": 3
+    },
+    {
+      "id": "ACCT308",
+      "code": "ACCT 308",
+      "title": "Accounting Information Systems and Sustainability Reporting",
+      "credits": 3
+    },
+    {
+      "id": "ACCT309",
+      "code": "ACCT 309",
+      "title": "Data Analytics for Accounting",
+      "credits": 3
+    },
+    {
+      "id": "ACCT311",
+      "code": "ACCT 311",
+      "title": "Auditing & Internal Control Systems",
+      "credits": 3
+    },
+    {
+      "id": "ACCT317",
+      "code": "ACCT 317",
+      "title": "Managerial Accounting",
+      "credits": 3
+    },
+    {
+      "id": "ACCT323",
+      "code": "ACCT 323",
+      "title": "Advanced CPA Topics",
+      "credits": 3
+    },
+    {
+      "id": "ACCT326",
+      "code": "ACCT 326",
+      "title": "Fraud Investigation",
+      "credits": 3
+    },
+    {
+      "id": "ACCT328",
+      "code": "ACCT 328",
+      "title": "Concepts in Taxation",
+      "credits": 3
+    },
+    {
+      "id": "ACCT331",
+      "code": "ACCT 331",
+      "title": "Introduction to the Business of Applied Artificial Intelligence",
+      "credits": 3
+    },
+    {
+      "id": "ACCT341",
+      "code": "ACCT 341",
+      "title": "Advanced Studies in Taxation",
+      "credits": 3
+    },
+    {
+      "id": "ACCT350",
+      "code": "ACCT 350",
+      "title": "Accounting Full Time Winter Internship",
+      "credits": 6
+    },
+    {
+      "id": "ACCT395",
+      "code": "ACCT 395",
+      "title": "Independent Study in Accounting",
+      "credits": 1
+    },
+    {
+      "id": "ACCT399",
+      "code": "ACCT 399",
+      "title": "Special Topics in Accounting",
+      "credits": 1
+    },
+    {
+      "id": "ACCT400",
+      "code": "ACCT 400",
+      "title": "Financial Accounting for Business Decisions",
+      "credits": 3,
+      "isTopics": true,
+      "topicsCount": 4
+    },
+    {
+      "id": "ACCT402",
+      "code": "ACCT 402",
+      "title": "Issues in Financial Reporting",
+      "credits": 3
+    },
+    {
+      "id": "ACCT404",
+      "code": "ACCT 404",
+      "title": "Financial State Analysis",
+      "credits": 3
+    },
+    {
+      "id": "ACCT405",
+      "code": "ACCT 405",
+      "title": "Accounting Theory I",
+      "credits": 3
+    },
+    {
+      "id": "ACCT406",
+      "code": "ACCT 406",
+      "title": "Accounting Theory II",
+      "credits": 3
+    },
+    {
+      "id": "ACCT407",
+      "code": "ACCT 407",
+      "title": "Tax Principles Applied to Individuals",
+      "credits": 3
+    },
+    {
+      "id": "ACCT408",
+      "code": "ACCT 408",
+      "title": "Tax Principles Applied to Entities",
+      "credits": 3
+    },
+    {
+      "id": "ACCT409",
+      "code": "ACCT 409",
+      "title": "Audit I -Audit and Assurance",
+      "credits": 3
+    },
+    {
+      "id": "ACCT410",
+      "code": "ACCT 410",
+      "title": "Audit II-Advanced Audit and Professional Ethics",
+      "credits": 3
+    },
+    {
+      "id": "ACCT411",
+      "code": "ACCT 411",
+      "title": "Business Law and Accountants",
+      "credits": 3
+    },
+    {
+      "id": "ACCT412",
+      "code": "ACCT 412",
+      "title": "Special Topics in Accounting",
+      "credits": 3
+    },
+    {
+      "id": "ACCT424",
+      "code": "ACCT 424",
+      "title": "Managerial Accounting",
+      "credits": 3
+    },
+    {
+      "id": "ACCT424E",
+      "code": "ACCT 424E",
+      "title": "Strategic Cost Accounting",
+      "credits": 3
+    },
+    {
+      "id": "ACCT425",
+      "code": "ACCT 425",
+      "title": "International Accounting",
+      "credits": 3
+    },
+    {
+      "id": "ACCT431",
+      "code": "ACCT 431",
+      "title": "Tax Research",
+      "credits": 3
+    },
+    {
+      "id": "ACCT432",
+      "code": "ACCT 432",
+      "title": "State, Local and International Tax",
+      "credits": 3
+    },
+    {
+      "id": "ACCT435",
+      "code": "ACCT 435",
+      "title": "Internal Audit",
+      "credits": 3
+    },
+    {
+      "id": "ACCT436",
+      "code": "ACCT 436",
+      "title": "Forensic Accounting and Fraud",
+      "credits": 3
+    },
+    {
+      "id": "ACCT437",
+      "code": "ACCT 437",
+      "title": "Advanced Forensic Accounting",
+      "credits": 3
+    },
+    {
+      "id": "ACCT439",
+      "code": "ACCT 439",
+      "title": "Independent Study",
+      "credits": 1
+    }
+  ]
+}

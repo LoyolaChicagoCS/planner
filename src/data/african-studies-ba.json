@@ -1,0 +1,49 @@
+{
+  "id": "african-studies-ba",
+  "kind": "interdisciplinary",
+  "department": "African Studies and the African Diaspora",
+  "name": "African Studies and the African Diaspora",
+  "degree": "BA",
+  "school": "Loyola University Chicago",
+  "totalCredits": 120,
+  "majorCredits": 33,
+  "catalogUrl": "https://catalog.luc.edu/undergraduate/arts-sciences/african-studies-african-diaspora/african-studies-african-diaspora-ba/",
+  "courses": [
+    {
+      "id": "AFR102",
+      "code": "AFR 102",
+      "title": "African Studies and the African Diaspora",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "AFR397",
+      "code": "AFR 397",
+      "title": "Capstone / Internship",
+      "credits": 3,
+      "category": "major"
+    }
+  ],
+  "electiveOptions": {
+    "afr-culture": {
+      "creditsRequired": 3,
+      "label": "Culture Course",
+      "note": "One approved culture course"
+    },
+    "afr-research": {
+      "creditsRequired": 3,
+      "label": "Research Course",
+      "note": "One approved research methods course"
+    },
+    "afr-concentration": {
+      "creditsRequired": 12,
+      "label": "Concentration (History, Literature & Arts, or Social Sciences)",
+      "note": "Four courses from one concentration; at least two at 200-level, one at 300-level"
+    },
+    "afr-electives": {
+      "creditsRequired": 9,
+      "label": "AFR Electives",
+      "note": "Three additional AFR courses; at least one at 200-level, one at 300-level"
+    }
+  }
+}

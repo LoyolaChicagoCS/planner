@@ -1,0 +1,455 @@
+{
+  "id": "engineering-computer-bs",
+  "name": "Engineering with a Computer Engineering Specialization",
+  "degree": "BS",
+  "department": "Engineering Science",
+  "school": "Loyola University Chicago",
+  "totalCredits": 131,
+  "majorCredits": 86,
+  "catalogUrl": "https://catalog.luc.edu/undergraduate/arts-sciences/engineering/computer-engineering-bs/",
+  "courses": [
+    {
+      "id": "ENGR101",
+      "code": "ENGR 101",
+      "title": "Introduction to Engineering Design",
+      "credits": 4,
+      "category": "major"
+    },
+    {
+      "id": "ENGR201",
+      "code": "ENGR 201",
+      "title": "Experiential Engineering",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "ENGR102",
+      "code": "ENGR 102",
+      "title": "Engineering Freshman Seminar",
+      "credits": 1,
+      "category": "major"
+    },
+    {
+      "id": "ENGR321",
+      "code": "ENGR 321",
+      "title": "Electronic Circuits & Devices",
+      "credits": 2,
+      "category": "major"
+    },
+    {
+      "id": "ENGR322",
+      "code": "ENGR 322",
+      "title": "Chemical & Thermal Processes",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "ENGR323",
+      "code": "ENGR 323",
+      "title": "Digital Electronic & Computer Engineering",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "ENGR324",
+      "code": "ENGR 324",
+      "title": "Mechanics",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "ENGR324L",
+      "code": "ENGR 324L",
+      "title": "Core Engineering Lab",
+      "credits": 1,
+      "category": "major"
+    },
+    {
+      "id": "ENGR325",
+      "code": "ENGR 325",
+      "title": "Materials Engineering",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "ENGR311",
+      "code": "ENGR 311",
+      "title": "Engineering Systems I",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "ENGR312",
+      "code": "ENGR 312",
+      "title": "Engineering Systems II",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "ENGR313",
+      "code": "ENGR 313",
+      "title": "Engineering Systems III",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "ENGR351",
+      "code": "ENGR 351",
+      "title": "Electronic Circuit Analysis and Design",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "ENGR351L",
+      "code": "ENGR 351L",
+      "title": "Circuit Design Laboratory",
+      "credits": 1,
+      "category": "major"
+    },
+    {
+      "id": "ENGR352",
+      "code": "ENGR 352",
+      "title": "Methods and Algorithms for Computer Engineers",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "ENGR353",
+      "code": "ENGR 353",
+      "title": "Programmable Systems",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "ENGR382",
+      "code": "ENGR 382",
+      "title": "Computer Engineering Capstone Design I",
+      "credits": 4,
+      "category": "major"
+    },
+    {
+      "id": "ENGR392",
+      "code": "ENGR 392",
+      "title": "Computer Engineering Capstone Design II",
+      "credits": 4,
+      "category": "major"
+    },
+    {
+      "id": "BIOL101engr",
+      "code": "BIOL 101",
+      "title": "General Biology I",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "BIOL111engr",
+      "code": "BIOL 111",
+      "title": "General Biology I Lab",
+      "credits": 1,
+      "category": "major"
+    },
+    {
+      "id": "CHEM171engr",
+      "code": "CHEM 171",
+      "title": "General Chemistry for Engineering Science Majors",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "CHEM173engr",
+      "code": "CHEM 173",
+      "title": "General Chemistry Lab for Engineering Science Majors",
+      "credits": 1,
+      "category": "major"
+    },
+    {
+      "id": "COMP170engr",
+      "code": "COMP 170",
+      "title": "Introduction to Object-Oriented Programming",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "MATH161engr",
+      "code": "MATH 161",
+      "title": "Calculus I",
+      "credits": 4,
+      "category": "major"
+    },
+    {
+      "id": "MATH162engr",
+      "code": "MATH 162",
+      "title": "Calculus II",
+      "credits": 4,
+      "category": "major"
+    },
+    {
+      "id": "MATH263engr",
+      "code": "MATH 263",
+      "title": "Multivariable Calculus",
+      "credits": 4,
+      "category": "major"
+    },
+    {
+      "id": "MATH266engr",
+      "code": "MATH 266",
+      "title": "Differential Equations and Linear Algebra",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "PHYS121engr",
+      "code": "PHYS 121",
+      "title": "College Physics I with Calculus",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "PHYS122engr",
+      "code": "PHYS 122",
+      "title": "College Physics II with Calculus",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "PHYS112Lengr",
+      "code": "PHYS 112L",
+      "title": "College Physics Lab II",
+      "credits": 1,
+      "category": "major"
+    },
+    {
+      "id": "STAT203engr",
+      "code": "STAT 203",
+      "title": "Introduction to Probability & Statistics",
+      "credits": 3,
+      "category": "major"
+    }
+  ],
+  "roadmap": [
+    {
+      "year": 1,
+      "semester": "Fall",
+      "credits": 16,
+      "items": [
+        {
+          "ref": "ENGR101"
+        },
+        {
+          "ref": "MATH161engr"
+        },
+        {
+          "ref": "BIOL101engr"
+        },
+        {
+          "ref": "BIOL111engr"
+        },
+        {
+          "ref": "PHYS121engr"
+        },
+        {
+          "isElective": true,
+          "label": "UNIV 101 \u2014 First Year Seminar",
+          "credits": 1
+        }
+      ]
+    },
+    {
+      "year": 1,
+      "semester": "Spring",
+      "credits": 18,
+      "items": [
+        {
+          "ref": "COMP170engr"
+        },
+        {
+          "ref": "MATH162engr"
+        },
+        {
+          "ref": "PHYS122engr"
+        },
+        {
+          "ref": "PHYS112Lengr"
+        },
+        {
+          "ref": "ENGR102"
+        },
+        {
+          "isElective": true,
+          "label": "UCWR 110 \u2014 Writing Responsibly",
+          "credits": 3
+        },
+        {
+          "isElective": true,
+          "label": "LUC Core Elective",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 2,
+      "semester": "Fall",
+      "credits": 17,
+      "items": [
+        {
+          "ref": "ENGR201"
+        },
+        {
+          "ref": "MATH263engr"
+        },
+        {
+          "ref": "CHEM171engr"
+        },
+        {
+          "ref": "CHEM173engr"
+        },
+        {
+          "isElective": true,
+          "label": "LUC Core Elective",
+          "credits": 3
+        },
+        {
+          "isElective": true,
+          "label": "Foreign Language 101",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 2,
+      "semester": "Spring",
+      "credits": 17,
+      "items": [
+        {
+          "ref": "ENGR311"
+        },
+        {
+          "ref": "ENGR321"
+        },
+        {
+          "ref": "MATH266engr"
+        },
+        {
+          "isElective": true,
+          "label": "Foreign Language 102",
+          "credits": 3
+        },
+        {
+          "isElective": true,
+          "label": "LUC Core Elective",
+          "credits": 3
+        },
+        {
+          "isElective": true,
+          "label": "LUC Core Elective",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 3,
+      "semester": "Fall",
+      "credits": 16,
+      "items": [
+        {
+          "ref": "ENGR312"
+        },
+        {
+          "ref": "ENGR322"
+        },
+        {
+          "ref": "ENGR323"
+        },
+        {
+          "ref": "ENGR324"
+        },
+        {
+          "ref": "ENGR324L"
+        },
+        {
+          "isElective": true,
+          "label": "LUC Core Elective",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 3,
+      "semester": "Spring",
+      "credits": 16,
+      "items": [
+        {
+          "ref": "ENGR313"
+        },
+        {
+          "ref": "ENGR325"
+        },
+        {
+          "ref": "ENGR351"
+        },
+        {
+          "ref": "ENGR351L"
+        },
+        {
+          "ref": "STAT203engr"
+        },
+        {
+          "isElective": true,
+          "label": "LUC Core Elective",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 4,
+      "semester": "Fall",
+      "credits": 16,
+      "items": [
+        {
+          "ref": "ENGR352"
+        },
+        {
+          "ref": "ENGR382"
+        },
+        {
+          "isElective": true,
+          "label": "LUC Core Elective",
+          "credits": 3
+        },
+        {
+          "isElective": true,
+          "label": "LUC Core Elective",
+          "credits": 3
+        },
+        {
+          "isElective": true,
+          "label": "LUC Core Elective",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 4,
+      "semester": "Spring",
+      "credits": 13,
+      "items": [
+        {
+          "ref": "ENGR353"
+        },
+        {
+          "ref": "ENGR392"
+        },
+        {
+          "isElective": true,
+          "label": "LUC Core Elective",
+          "credits": 3
+        },
+        {
+          "isElective": true,
+          "label": "LUC Core Elective",
+          "credits": 3
+        }
+      ]
+    }
+  ]
+}

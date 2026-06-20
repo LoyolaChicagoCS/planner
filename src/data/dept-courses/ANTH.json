@@ -1,0 +1,467 @@
+{
+  "catalog": "2026-2027",
+  "code": "ANTH",
+  "name": "Anthropology",
+  "sourceUrl": "https://catalog.luc.edu/course-descriptions/anth/",
+  "fetchedAt": "2026-06-20",
+  "courses": [
+    {
+      "id": "ANTH100",
+      "code": "ANTH 100",
+      "title": "Globalization and Local Cultures",
+      "credits": 3
+    },
+    {
+      "id": "ANTH101",
+      "code": "ANTH 101",
+      "title": "Human Origins",
+      "credits": 3
+    },
+    {
+      "id": "ANTH102",
+      "code": "ANTH 102",
+      "title": "Culture, Society, and Diversity",
+      "credits": 3
+    },
+    {
+      "id": "ANTH103",
+      "code": "ANTH 103",
+      "title": "Biological Background Human Social Behavior",
+      "credits": 3
+    },
+    {
+      "id": "ANTH104",
+      "code": "ANTH 104",
+      "title": "The Human Ecological Footprint",
+      "credits": 3
+    },
+    {
+      "id": "ANTH105",
+      "code": "ANTH 105",
+      "title": "Human Biocultural Diversity",
+      "credits": 3
+    },
+    {
+      "id": "ANTH106",
+      "code": "ANTH 106",
+      "title": "Sex, Science and Anthropological Inquiry",
+      "credits": 3
+    },
+    {
+      "id": "ANTH107",
+      "code": "ANTH 107",
+      "title": "Ancient Worlds",
+      "credits": 3
+    },
+    {
+      "id": "ANTH203",
+      "code": "ANTH 203",
+      "title": "Violence, Social Suffering, and Justice",
+      "credits": 3
+    },
+    {
+      "id": "ANTH205",
+      "code": "ANTH 205",
+      "title": "Gender in Cross-Cultural Perspective",
+      "credits": 3
+    },
+    {
+      "id": "ANTH207",
+      "code": "ANTH 207",
+      "title": "Economies, Culture, and Development",
+      "credits": 3
+    },
+    {
+      "id": "ANTH208",
+      "code": "ANTH 208",
+      "title": "Language and Identity",
+      "credits": 3
+    },
+    {
+      "id": "ANTH210",
+      "code": "ANTH 210",
+      "title": "Visual Representation of Culture",
+      "credits": 3
+    },
+    {
+      "id": "ANTH211",
+      "code": "ANTH 211",
+      "title": "Peoples of Latin America",
+      "credits": 3
+    },
+    {
+      "id": "ANTH212",
+      "code": "ANTH 212",
+      "title": "Peoples of Native North America",
+      "credits": 3
+    },
+    {
+      "id": "ANTH213",
+      "code": "ANTH 213",
+      "title": "Culture in Africa",
+      "credits": 3
+    },
+    {
+      "id": "ANTH214",
+      "code": "ANTH 214",
+      "title": "African-American Anthropology",
+      "credits": 3
+    },
+    {
+      "id": "ANTH215",
+      "code": "ANTH 215",
+      "title": "Culture in Contemporary Asia",
+      "credits": 3
+    },
+    {
+      "id": "ANTH216",
+      "code": "ANTH 216",
+      "title": "Cultures of Migration",
+      "credits": 3
+    },
+    {
+      "id": "ANTH217",
+      "code": "ANTH 217",
+      "title": "Mexican Culture & Heritage",
+      "credits": 3
+    },
+    {
+      "id": "ANTH220",
+      "code": "ANTH 220",
+      "title": "Contemporary Cultures of the Middle East",
+      "credits": 3
+    },
+    {
+      "id": "ANTH222",
+      "code": "ANTH 222",
+      "title": "Culture in Contemporary Europe",
+      "credits": 3
+    },
+    {
+      "id": "ANTH224",
+      "code": "ANTH 224",
+      "title": "Social Movements, Culture, and Activism",
+      "credits": 3
+    },
+    {
+      "id": "ANTH225",
+      "code": "ANTH 225",
+      "title": "Museum Cultures",
+      "credits": 3
+    },
+    {
+      "id": "ANTH231",
+      "code": "ANTH 231",
+      "title": "Linguistic Anthropology",
+      "credits": 3
+    },
+    {
+      "id": "ANTH241",
+      "code": "ANTH 241",
+      "title": "Principles of Archaeology",
+      "credits": 3
+    },
+    {
+      "id": "ANTH242",
+      "code": "ANTH 242",
+      "title": "Mesoamerican Archaeology and Survivance",
+      "credits": 3
+    },
+    {
+      "id": "ANTH243",
+      "code": "ANTH 243",
+      "title": "North American Archaeology",
+      "credits": 3
+    },
+    {
+      "id": "ANTH244",
+      "code": "ANTH 244",
+      "title": "Historical Archaeology",
+      "credits": 3
+    },
+    {
+      "id": "ANTH245",
+      "code": "ANTH 245",
+      "title": "Gender in Deep Time",
+      "credits": 3
+    },
+    {
+      "id": "ANTH246",
+      "code": "ANTH 246",
+      "title": "Ancient Human-Animal Interactions",
+      "credits": 3
+    },
+    {
+      "id": "ANTH247",
+      "code": "ANTH 247",
+      "title": "Aliens, Atlantis, and Archaeology",
+      "credits": 3
+    },
+    {
+      "id": "ANTH258",
+      "code": "ANTH 258",
+      "title": "Medical Anthropology & Global Health",
+      "credits": 3
+    },
+    {
+      "id": "ANTH280",
+      "code": "ANTH 280",
+      "title": "Evolution of Human Disease",
+      "credits": 3
+    },
+    {
+      "id": "ANTH281",
+      "code": "ANTH 281",
+      "title": "Evolution of the Human Diet",
+      "credits": 3
+    },
+    {
+      "id": "ANTH300",
+      "code": "ANTH 300",
+      "title": "Anthropology Career Development",
+      "credits": 3
+    },
+    {
+      "id": "ANTH303",
+      "code": "ANTH 303",
+      "title": "People and Conservation",
+      "credits": 3
+    },
+    {
+      "id": "ANTH304",
+      "code": "ANTH 304",
+      "title": "Anthropological Theory",
+      "credits": 3
+    },
+    {
+      "id": "ANTH305",
+      "code": "ANTH 305",
+      "title": "Violence and Culture",
+      "credits": 3
+    },
+    {
+      "id": "ANTH306",
+      "code": "ANTH 306",
+      "title": "Anthropology and Human Rights",
+      "credits": 3
+    },
+    {
+      "id": "ANTH307",
+      "code": "ANTH 307",
+      "title": "The Body and Culture",
+      "credits": 3
+    },
+    {
+      "id": "ANTH309",
+      "code": "ANTH 309",
+      "title": "Urban Anthropology",
+      "credits": 3
+    },
+    {
+      "id": "ANTH314",
+      "code": "ANTH 314",
+      "title": "Applied Anthropology",
+      "credits": 3
+    },
+    {
+      "id": "ANTH316",
+      "code": "ANTH 316",
+      "title": "Anthropology of Religion & Ritual",
+      "credits": 3
+    },
+    {
+      "id": "ANTH317",
+      "code": "ANTH 317",
+      "title": "Explore Chicago: Research in Culture and History",
+      "credits": 3
+    },
+    {
+      "id": "ANTH319",
+      "code": "ANTH 319",
+      "title": "Anthropology of Tourism",
+      "credits": 3
+    },
+    {
+      "id": "ANTH321",
+      "code": "ANTH 321",
+      "title": "Human Rights in Latin America",
+      "credits": 3
+    },
+    {
+      "id": "ANTH324",
+      "code": "ANTH 324",
+      "title": "Human Evolution",
+      "credits": 3
+    },
+    {
+      "id": "ANTH325",
+      "code": "ANTH 325",
+      "title": "Primatology-Behavior & Ecology",
+      "credits": 3
+    },
+    {
+      "id": "ANTH326",
+      "code": "ANTH 326",
+      "title": "Human Osteology Lecture/Laboratory",
+      "credits": 4
+    },
+    {
+      "id": "ANTH327",
+      "code": "ANTH 327",
+      "title": "Dental Anthropology",
+      "credits": 3
+    },
+    {
+      "id": "ANTH328",
+      "code": "ANTH 328",
+      "title": "Pompeii and Herculaneum",
+      "credits": 3
+    },
+    {
+      "id": "ANTH330",
+      "code": "ANTH 330",
+      "title": "Language in Popular Culture",
+      "credits": 3
+    },
+    {
+      "id": "ANTH332",
+      "code": "ANTH 332",
+      "title": "Language, Race, and Inequality",
+      "credits": 3
+    },
+    {
+      "id": "ANTH334",
+      "code": "ANTH 334",
+      "title": "Intro to Classical Archaeology",
+      "credits": 3
+    },
+    {
+      "id": "ANTH334R",
+      "code": "ANTH 334R",
+      "title": "Introduction to Classical Archaeology - Rome/Italy Focus",
+      "credits": 3
+    },
+    {
+      "id": "ANTH340",
+      "code": "ANTH 340",
+      "title": "Classical Archaeology: Greek Temple",
+      "credits": 3
+    },
+    {
+      "id": "ANTH342",
+      "code": "ANTH 342",
+      "title": "Rise & Fall of Civilizations",
+      "credits": 3
+    },
+    {
+      "id": "ANTH346",
+      "code": "ANTH 346",
+      "title": "Biology of Women",
+      "credits": 3
+    },
+    {
+      "id": "ANTH348",
+      "code": "ANTH 348",
+      "title": "Museum & Material Culture Research",
+      "credits": 3
+    },
+    {
+      "id": "ANTH353",
+      "code": "ANTH 353",
+      "title": "Epidemics and Pandemics",
+      "credits": 3
+    },
+    {
+      "id": "ANTH356",
+      "code": "ANTH 356",
+      "title": "Bioanthropological Lab Work",
+      "credits": 1
+    },
+    {
+      "id": "ANTH359",
+      "code": "ANTH 359",
+      "title": "Paleopathology",
+      "credits": 3
+    },
+    {
+      "id": "ANTH360",
+      "code": "ANTH 360",
+      "title": "Issues in Archaeology",
+      "credits": 3
+    },
+    {
+      "id": "ANTH361",
+      "code": "ANTH 361",
+      "title": "Issues Cultural Anthropology",
+      "credits": 3
+    },
+    {
+      "id": "ANTH362",
+      "code": "ANTH 362",
+      "title": "Issues in Biological Anthropology",
+      "credits": 3
+    },
+    {
+      "id": "ANTH362B",
+      "code": "ANTH 362B",
+      "title": "Bioethics Minor Capstone: Anthropological Topics",
+      "credits": 3
+    },
+    {
+      "id": "ANTH363",
+      "code": "ANTH 363",
+      "title": "Issues in Linguistic Anthropology",
+      "credits": 3
+    },
+    {
+      "id": "ANTH365",
+      "code": "ANTH 365",
+      "title": "Archaeology Lab Methods",
+      "credits": 3
+    },
+    {
+      "id": "ANTH366",
+      "code": "ANTH 366",
+      "title": "Lithic Technology",
+      "credits": 3
+    },
+    {
+      "id": "ANTH375",
+      "code": "ANTH 375",
+      "title": "Archaeology of Early Greece",
+      "credits": 3
+    },
+    {
+      "id": "ANTH396",
+      "code": "ANTH 396",
+      "title": "Internship in Anthropology",
+      "credits": 3,
+      "isTopics": true,
+      "topicsCount": 3
+    },
+    {
+      "id": "ANTH397",
+      "code": "ANTH 397",
+      "title": "Directed Readings-Anthropology",
+      "credits": 1
+    },
+    {
+      "id": "ANTH398",
+      "code": "ANTH 398",
+      "title": "Independent Study-Anthropology",
+      "credits": 1
+    },
+    {
+      "id": "ANTH399",
+      "code": "ANTH 399",
+      "title": "Fieldwork in Anthropology",
+      "credits": 1
+    },
+    {
+      "id": "ANTH399P",
+      "code": "ANTH 399P",
+      "title": "Fieldwork in Anthropology: Primate Behavior",
+      "credits": 3
+    }
+  ]
+}

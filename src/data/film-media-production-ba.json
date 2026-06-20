@@ -1,0 +1,276 @@
+{
+  "id": "film-media-production-ba",
+  "department": "Communication",
+  "name": "Film and Digital Media: Production Track",
+  "degree": "BA",
+  "school": "Loyola University Chicago",
+  "totalCredits": 120,
+  "majorCredits": 43,
+  "catalogUrl": "https://catalog.luc.edu/undergraduate/communication/film-digital-media/film-media-production-track-ba/",
+  "courses": [
+    {
+      "id": "COMM100",
+      "code": "COMM 100",
+      "title": "SOC Career Prep Seminar",
+      "credits": 1,
+      "category": "major"
+    },
+    {
+      "id": "COMM130",
+      "code": "COMM 130",
+      "title": "Intro to Audio Production",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "COMM135",
+      "code": "COMM 135",
+      "title": "Intro to Video Production",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "COMM200",
+      "code": "COMM 200",
+      "title": "Digital Communication and Society",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "COMM201",
+      "code": "COMM 201",
+      "title": "Media Theory and Criticism",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "COMM202",
+      "code": "COMM 202",
+      "title": "Story for Film and Television 1",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "COMM274",
+      "code": "COMM 274",
+      "title": "Introduction to Cinema",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "COMM350",
+      "code": "COMM 350",
+      "title": "Producing for Film and Digital Media",
+      "credits": 3,
+      "category": "major"
+    }
+  ],
+  "electiveOptions": {
+    "fdm-production": {
+      "creditsRequired": 6,
+      "label": "Production Electives",
+      "note": "Two production courses from: cinematography, directing, screenwriting, documentary, post-production"
+    },
+    "fdm-media-studies": {
+      "creditsRequired": 6,
+      "label": "Media Studies Electives",
+      "note": "Two courses: one from COMM 203/324 (cinema history/genre), one from broader film/media list",
+      "courses": [
+        {
+          "id": "COMM203",
+          "code": "COMM 203",
+          "title": "Topics in Cinema History",
+          "credits": 3,
+          "category": "elective"
+        }
+      ]
+    },
+    "fdm-advanced": {
+      "creditsRequired": 3,
+      "label": "Advanced Production",
+      "note": "COMM 336 (Cinematography I), COMM 337 (Screen Directing), COMM 339 (Screenwriting I), or similar",
+      "courses": [
+        {
+          "id": "COMM336",
+          "code": "COMM 336",
+          "title": "Search & Display Advertising",
+          "credits": 3,
+          "category": "elective"
+        },
+        {
+          "id": "COMM337",
+          "code": "COMM 337",
+          "title": "AD/PR Multimedia Commercial Production",
+          "credits": 3,
+          "category": "elective"
+        },
+        {
+          "id": "COMM339",
+          "code": "COMM 339",
+          "title": "Video Documentary",
+          "credits": 3,
+          "category": "elective"
+        }
+      ]
+    },
+    "fdm-internship": {
+      "creditsRequired": 3,
+      "label": "Internship",
+      "note": "COMM 394: Film and Digital Media Internship (Junior/Senior standing required)",
+      "courses": [
+        {
+          "id": "COMM394",
+          "code": "COMM 394",
+          "title": "Film & Digital Media Internship",
+          "credits": 3,
+          "category": "elective"
+        }
+      ]
+    },
+    "fdm-capstone": {
+      "creditsRequired": 3,
+      "label": "Capstone",
+      "note": "COMM 338, COMM 339, or COMM 388 (Film and Digital Media Capstone)",
+      "courses": [
+        {
+          "id": "COMM338",
+          "code": "COMM 338",
+          "title": "Narrative Production",
+          "credits": 3,
+          "category": "elective"
+        },
+        {
+          "id": "COMM339",
+          "code": "COMM 339",
+          "title": "Video Documentary",
+          "credits": 3,
+          "category": "elective"
+        },
+        {
+          "id": "COMM388",
+          "code": "COMM 388",
+          "title": "Film and Digital Media Capstone",
+          "credits": 3,
+          "category": "elective"
+        }
+      ]
+    }
+  },
+  "roadmap": [
+    {
+      "year": 1,
+      "semester": "Fall",
+      "credits": 6,
+      "items": [
+        {
+          "ref": "COMM201"
+        },
+        {
+          "ref": "COMM274"
+        }
+      ]
+    },
+    {
+      "year": 1,
+      "semester": "Spring",
+      "credits": 3,
+      "items": [
+        {
+          "ref": "COMM135"
+        }
+      ]
+    },
+    {
+      "year": 2,
+      "semester": "Fall",
+      "credits": 6,
+      "items": [
+        {
+          "ref": "COMM130"
+        },
+        {
+          "isElective": true,
+          "label": "Media Studies Elective",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 2,
+      "semester": "Spring",
+      "credits": 6,
+      "items": [
+        {
+          "ref": "COMM200"
+        },
+        {
+          "ref": "COMM202"
+        }
+      ]
+    },
+    {
+      "year": 3,
+      "semester": "Fall",
+      "credits": 7,
+      "items": [
+        {
+          "ref": "COMM100"
+        },
+        {
+          "isElective": true,
+          "label": "COMM 203 or COMM 324 \u2014 Cinema History or Film Genre",
+          "credits": 3
+        },
+        {
+          "isElective": true,
+          "label": "Production Elective",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 3,
+      "semester": "Spring",
+      "credits": 6,
+      "items": [
+        {
+          "isElective": true,
+          "label": "Production Elective",
+          "credits": 3
+        },
+        {
+          "isElective": true,
+          "label": "Advanced Production Elective",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 4,
+      "semester": "Fall",
+      "credits": 6,
+      "items": [
+        {
+          "ref": "COMM350"
+        },
+        {
+          "isElective": true,
+          "label": "COMM 394 \u2014 Film & Digital Media Internship",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 4,
+      "semester": "Spring",
+      "credits": 3,
+      "items": [
+        {
+          "isElective": true,
+          "label": "Major Capstone Course",
+          "credits": 3
+        }
+      ]
+    }
+  ]
+}

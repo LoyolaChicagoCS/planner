@@ -1,0 +1,663 @@
+{
+  "catalog": "2026-2027",
+  "code": "BIOL",
+  "name": "Biology",
+  "sourceUrl": "https://catalog.luc.edu/course-descriptions/biol/",
+  "fetchedAt": "2026-06-20",
+  "courses": [
+    {
+      "id": "BIOL101",
+      "code": "BIOL 101",
+      "title": "General Biology I",
+      "credits": 3
+    },
+    {
+      "id": "BIOL102",
+      "code": "BIOL 102",
+      "title": "General Biology II",
+      "credits": 3
+    },
+    {
+      "id": "BIOL110",
+      "code": "BIOL 110",
+      "title": "Liberal Arts Biology",
+      "credits": 3
+    },
+    {
+      "id": "BIOL111",
+      "code": "BIOL 111",
+      "title": "General Biology I Lab",
+      "credits": 1
+    },
+    {
+      "id": "BIOL112",
+      "code": "BIOL 112",
+      "title": "General Biology II Lab",
+      "credits": 1
+    },
+    {
+      "id": "BIOL195",
+      "code": "BIOL 195",
+      "title": "Special Topics in Biology",
+      "credits": 1
+    },
+    {
+      "id": "BIOL205",
+      "code": "BIOL 205",
+      "title": "Plant Biology Lec/Lab",
+      "credits": 4
+    },
+    {
+      "id": "BIOL210",
+      "code": "BIOL 210",
+      "title": "Laboratory Techniques",
+      "credits": 2
+    },
+    {
+      "id": "BIOL242",
+      "code": "BIOL 242",
+      "title": "Anatomy and Physiology I",
+      "credits": 4
+    },
+    {
+      "id": "BIOL243",
+      "code": "BIOL 243",
+      "title": "Anatomy and Physiology II",
+      "credits": 4
+    },
+    {
+      "id": "BIOL251",
+      "code": "BIOL 251",
+      "title": "Cell Biology",
+      "credits": 3
+    },
+    {
+      "id": "BIOL252",
+      "code": "BIOL 252",
+      "title": "Cell Biology Laboratory",
+      "credits": 1
+    },
+    {
+      "id": "BIOL265",
+      "code": "BIOL 265",
+      "title": "Ecology",
+      "credits": 3
+    },
+    {
+      "id": "BIOL266",
+      "code": "BIOL 266",
+      "title": "Ecology Laboratory",
+      "credits": 1
+    },
+    {
+      "id": "BIOL282",
+      "code": "BIOL 282",
+      "title": "Genetics",
+      "credits": 3
+    },
+    {
+      "id": "BIOL283",
+      "code": "BIOL 283",
+      "title": "Genetics Laboratory",
+      "credits": 1
+    },
+    {
+      "id": "BIOL296",
+      "code": "BIOL 296",
+      "title": "Introduction to Research",
+      "credits": 1
+    },
+    {
+      "id": "BIOL302",
+      "code": "BIOL 302",
+      "title": "General Microbiology Lec/Lab",
+      "credits": 4
+    },
+    {
+      "id": "BIOL304",
+      "code": "BIOL 304",
+      "title": "Intro to Developmental Biology",
+      "credits": 3
+    },
+    {
+      "id": "BIOL307",
+      "code": "BIOL 307",
+      "title": "Biology of Stem Cells",
+      "credits": 3
+    },
+    {
+      "id": "BIOL315",
+      "code": "BIOL 315",
+      "title": "Introductory Immunology Lec/Lab",
+      "credits": 4
+    },
+    {
+      "id": "BIOL316",
+      "code": "BIOL 316",
+      "title": "Limnology Lec/Lab",
+      "credits": 4
+    },
+    {
+      "id": "BIOL317",
+      "code": "BIOL 317",
+      "title": "Models of Human Disease",
+      "credits": 3
+    },
+    {
+      "id": "BIOL318",
+      "code": "BIOL 318",
+      "title": "General Virology",
+      "credits": 3
+    },
+    {
+      "id": "BIOL319",
+      "code": "BIOL 319",
+      "title": "Evolution",
+      "credits": 3
+    },
+    {
+      "id": "BIOL321",
+      "code": "BIOL 321",
+      "title": "Great Transitions in Vertebrate History",
+      "credits": 3
+    },
+    {
+      "id": "BIOL323",
+      "code": "BIOL 323",
+      "title": "Comparative Anatomy Lec/Lab",
+      "credits": 4
+    },
+    {
+      "id": "BIOL328",
+      "code": "BIOL 328",
+      "title": "Conservation Biology",
+      "credits": 3
+    },
+    {
+      "id": "BIOL330",
+      "code": "BIOL 330",
+      "title": "Global Change Biology",
+      "credits": 3
+    },
+    {
+      "id": "BIOL341",
+      "code": "BIOL 341",
+      "title": "Histology Lecture/Laboratory",
+      "credits": 4
+    },
+    {
+      "id": "BIOL344",
+      "code": "BIOL 344",
+      "title": "Microbial Evolution and Human Well-being",
+      "credits": 3
+    },
+    {
+      "id": "BIOL350",
+      "code": "BIOL 350",
+      "title": "Vertebrate Physiology",
+      "credits": 3
+    },
+    {
+      "id": "BIOL351",
+      "code": "BIOL 351",
+      "title": "Sleep/Circadian Rhythms",
+      "credits": 3
+    },
+    {
+      "id": "BIOL353",
+      "code": "BIOL 353",
+      "title": "Natural History of Vertebrates",
+      "credits": 4
+    },
+    {
+      "id": "BIOL356",
+      "code": "BIOL 356",
+      "title": "The Evolution of Animal Sex",
+      "credits": 3
+    },
+    {
+      "id": "BIOL357",
+      "code": "BIOL 357",
+      "title": "Neural Disease, Degeneration, and Regeneration",
+      "credits": 3
+    },
+    {
+      "id": "BIOL358",
+      "code": "BIOL 358",
+      "title": "Developmental Neurobiology",
+      "credits": 3
+    },
+    {
+      "id": "BIOL361",
+      "code": "BIOL 361",
+      "title": "Cellular and Gross Neuroanatomy",
+      "credits": 3
+    },
+    {
+      "id": "BIOL361L",
+      "code": "BIOL 361L",
+      "title": "Cellular and Gross Neuroanatomy Lab",
+      "credits": 1
+    },
+    {
+      "id": "BIOL362",
+      "code": "BIOL 362",
+      "title": "Neurobiology",
+      "credits": 3
+    },
+    {
+      "id": "BIOL365",
+      "code": "BIOL 365",
+      "title": "Writing a Scientific Manuscript",
+      "credits": 3
+    },
+    {
+      "id": "BIOL366",
+      "code": "BIOL 366",
+      "title": "Cell Physiology & Biochemistry",
+      "credits": 3
+    },
+    {
+      "id": "BIOL366L",
+      "code": "BIOL 366L",
+      "title": "Cell Physiology and Biochemistry Lab",
+      "credits": 3
+    },
+    {
+      "id": "BIOL368",
+      "code": "BIOL 368",
+      "title": "Plant Ecology Lec/Lab",
+      "credits": 4
+    },
+    {
+      "id": "BIOL369",
+      "code": "BIOL 369",
+      "title": "Invertebrate Biology",
+      "credits": 3
+    },
+    {
+      "id": "BIOL370",
+      "code": "BIOL 370",
+      "title": "Ichthyology Lec/Lab",
+      "credits": 4
+    },
+    {
+      "id": "BIOL373",
+      "code": "BIOL 373",
+      "title": "Laboratory in Neurophysiology and Behavior",
+      "credits": 4
+    },
+    {
+      "id": "BIOL375",
+      "code": "BIOL 375",
+      "title": "Aquatic Insects Lecture & Laboratory",
+      "credits": 4
+    },
+    {
+      "id": "BIOL376",
+      "code": "BIOL 376",
+      "title": "Seminar in Molecular/Cellular Neuroscience",
+      "credits": 3
+    },
+    {
+      "id": "BIOL377",
+      "code": "BIOL 377",
+      "title": "Molecular Pathogenesis",
+      "credits": 3
+    },
+    {
+      "id": "BIOL378B",
+      "code": "BIOL 378B",
+      "title": "Biological Topics for Bioethics Minor Capstone",
+      "credits": 3
+    },
+    {
+      "id": "BIOL379B",
+      "code": "BIOL 379B",
+      "title": "Biological Topics for Bioethics Minor Capstone",
+      "credits": 3
+    },
+    {
+      "id": "BIOL380",
+      "code": "BIOL 380",
+      "title": "Genetics and Evolution of Development",
+      "credits": 3
+    },
+    {
+      "id": "BIOL381",
+      "code": "BIOL 381",
+      "title": "Epigenetics",
+      "credits": 3
+    },
+    {
+      "id": "BIOL382",
+      "code": "BIOL 382",
+      "title": "Molecular Genetics",
+      "credits": 3
+    },
+    {
+      "id": "BIOL384",
+      "code": "BIOL 384",
+      "title": "Microbial Pathogenesis of Infectious Disease",
+      "credits": 3
+    },
+    {
+      "id": "BIOL385",
+      "code": "BIOL 385",
+      "title": "Principles of Electron Microscopy Lecture/Lab",
+      "credits": 4
+    },
+    {
+      "id": "BIOL386",
+      "code": "BIOL 386",
+      "title": "Human Genetics",
+      "credits": 3
+    },
+    {
+      "id": "BIOL387",
+      "code": "BIOL 387",
+      "title": "Genomics",
+      "credits": 3
+    },
+    {
+      "id": "BIOL388",
+      "code": "BIOL 388",
+      "title": "Bioinformatics",
+      "credits": 3
+    },
+    {
+      "id": "BIOL390",
+      "code": "BIOL 390",
+      "title": "Molecular Biology Laboratory",
+      "credits": 4
+    },
+    {
+      "id": "BIOL392",
+      "code": "BIOL 392",
+      "title": "Metagenomics",
+      "credits": 3
+    },
+    {
+      "id": "BIOL394",
+      "code": "BIOL 394",
+      "title": "Special Topics in Biology Laboratory",
+      "credits": 1,
+      "isTopics": true,
+      "topicsCount": 3
+    },
+    {
+      "id": "BIOL395",
+      "code": "BIOL 395",
+      "title": "Special Topics in Biology",
+      "credits": 3,
+      "isTopics": true,
+      "topicsCount": 3
+    },
+    {
+      "id": "BIOL395L",
+      "code": "BIOL 395L",
+      "title": "Special Topics Laboratory",
+      "credits": 1
+    },
+    {
+      "id": "BIOL396",
+      "code": "BIOL 396",
+      "title": "Research",
+      "credits": 3,
+      "isTopics": true,
+      "topicsCount": 3
+    },
+    {
+      "id": "BIOL397",
+      "code": "BIOL 397",
+      "title": "Course-Based Undergraduate Research Experience in Biology",
+      "credits": 1,
+      "isTopics": true,
+      "topicsCount": 3
+    },
+    {
+      "id": "BIOL398",
+      "code": "BIOL 398",
+      "title": "Internship in Biology",
+      "credits": 1,
+      "isTopics": true,
+      "topicsCount": 3
+    },
+    {
+      "id": "BIOL399",
+      "code": "BIOL 399",
+      "title": "Individual Study",
+      "credits": 1,
+      "isTopics": true,
+      "topicsCount": 3
+    },
+    {
+      "id": "BIOL401",
+      "code": "BIOL 401",
+      "title": "Medical Literature and Ethics",
+      "credits": 3
+    },
+    {
+      "id": "BIOL402",
+      "code": "BIOL 402",
+      "title": "Microbiology",
+      "credits": 3
+    },
+    {
+      "id": "BIOL405",
+      "code": "BIOL 405",
+      "title": "Advanced Development",
+      "credits": 3
+    },
+    {
+      "id": "BIOL408",
+      "code": "BIOL 408",
+      "title": "Writing for the Medical Professions",
+      "credits": 3
+    },
+    {
+      "id": "BIOL409",
+      "code": "BIOL 409",
+      "title": "Advanced Genetics",
+      "credits": 3
+    },
+    {
+      "id": "BIOL410",
+      "code": "BIOL 410",
+      "title": "Advanced Cell Biology",
+      "credits": 3
+    },
+    {
+      "id": "BIOL413",
+      "code": "BIOL 413",
+      "title": "Advanced Immunology",
+      "credits": 3
+    },
+    {
+      "id": "BIOL415",
+      "code": "BIOL 415",
+      "title": "Advanced Parasitology",
+      "credits": 4
+    },
+    {
+      "id": "BIOL416",
+      "code": "BIOL 416",
+      "title": "Limnology Lec/Lab",
+      "credits": 4
+    },
+    {
+      "id": "BIOL417",
+      "code": "BIOL 417",
+      "title": "Wetland Ecology Lec/Lab",
+      "credits": 4
+    },
+    {
+      "id": "BIOL418",
+      "code": "BIOL 418",
+      "title": "Aquatic Insects Lecture & Laboratory",
+      "credits": 4
+    },
+    {
+      "id": "BIOL422",
+      "code": "BIOL 422",
+      "title": "Research",
+      "credits": 1
+    },
+    {
+      "id": "BIOL426",
+      "code": "BIOL 426",
+      "title": "Entomology Lec/Lab",
+      "credits": 4
+    },
+    {
+      "id": "BIOL430",
+      "code": "BIOL 430",
+      "title": "Virology",
+      "credits": 3
+    },
+    {
+      "id": "BIOL450",
+      "code": "BIOL 450",
+      "title": "Advanced Bioinformatics",
+      "credits": 2
+    },
+    {
+      "id": "BIOL451",
+      "code": "BIOL 451",
+      "title": "Bioinformatics Seminar",
+      "credits": 1
+    },
+    {
+      "id": "BIOL452",
+      "code": "BIOL 452",
+      "title": "Human Anatomy and Physiology I",
+      "credits": 3
+    },
+    {
+      "id": "BIOL453",
+      "code": "BIOL 453",
+      "title": "Human Anatomy and Physiology II",
+      "credits": 3
+    },
+    {
+      "id": "BIOL455",
+      "code": "BIOL 455",
+      "title": "Advanced Neuroscience",
+      "credits": 3
+    },
+    {
+      "id": "BIOL458",
+      "code": "BIOL 458",
+      "title": "Developmental Neurobiology",
+      "credits": 3
+    },
+    {
+      "id": "BIOL461",
+      "code": "BIOL 461",
+      "title": "Advanced Neurobiology",
+      "credits": 3
+    },
+    {
+      "id": "BIOL466",
+      "code": "BIOL 466",
+      "title": "Advanced Biochemistry",
+      "credits": 3
+    },
+    {
+      "id": "BIOL470",
+      "code": "BIOL 470",
+      "title": "Biostats & Exp Design Lec/Lab",
+      "credits": 4
+    },
+    {
+      "id": "BIOL479",
+      "code": "BIOL 479",
+      "title": "Biology AP Workshop",
+      "credits": 3
+    },
+    {
+      "id": "BIOL482",
+      "code": "BIOL 482",
+      "title": "Advanced Molec Genetics",
+      "credits": 3
+    },
+    {
+      "id": "BIOL483",
+      "code": "BIOL 483",
+      "title": "Pop Genetics",
+      "credits": 3
+    },
+    {
+      "id": "BIOL485",
+      "code": "BIOL 485",
+      "title": "Prin Electron Microscopy Lec/Lab",
+      "credits": 4
+    },
+    {
+      "id": "BIOL488",
+      "code": "BIOL 488",
+      "title": "Bioinformatics",
+      "credits": 3
+    },
+    {
+      "id": "BIOL493",
+      "code": "BIOL 493",
+      "title": "Directed Reading",
+      "credits": 1
+    },
+    {
+      "id": "BIOL495",
+      "code": "BIOL 495",
+      "title": "Special Topics",
+      "credits": 1
+    },
+    {
+      "id": "BIOL495L",
+      "code": "BIOL 495L",
+      "title": "Special Topics Lab",
+      "credits": 0
+    },
+    {
+      "id": "BIOL500",
+      "code": "BIOL 500",
+      "title": "Scientific Logic",
+      "credits": 3
+    },
+    {
+      "id": "BIOL501",
+      "code": "BIOL 501",
+      "title": "Seminar",
+      "credits": 1
+    },
+    {
+      "id": "BIOL502",
+      "code": "BIOL 502",
+      "title": "Department Seminar",
+      "credits": 1
+    },
+    {
+      "id": "BIOL510",
+      "code": "BIOL 510",
+      "title": "Instructions in Teaching Biology",
+      "credits": 1
+    },
+    {
+      "id": "BIOL511",
+      "code": "BIOL 511",
+      "title": "Biology Teaching Practicum",
+      "credits": 2
+    },
+    {
+      "id": "BIOL595",
+      "code": "BIOL 595",
+      "title": "Thesis Supervision",
+      "credits": 0
+    },
+    {
+      "id": "BIOL605",
+      "code": "BIOL 605",
+      "title": "Master's Study",
+      "credits": 0
+    }
+  ]
+}

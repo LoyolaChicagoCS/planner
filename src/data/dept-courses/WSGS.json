@@ -1,0 +1,195 @@
+{
+  "catalog": "2026-2027",
+  "code": "WSGS",
+  "name": "Women's Studies and Gender Studies",
+  "sourceUrl": "https://catalog.luc.edu/course-descriptions/wsgs/",
+  "fetchedAt": "2026-06-20",
+  "courses": [
+    {
+      "id": "WSGS101",
+      "code": "WSGS 101",
+      "title": "Introduction to WSGS from a Global Perspective",
+      "credits": 3
+    },
+    {
+      "id": "WSGS201",
+      "code": "WSGS 201",
+      "title": "Contemporary Issues in WSGS",
+      "credits": 3
+    },
+    {
+      "id": "WSGS297",
+      "code": "WSGS 297",
+      "title": "Topics in WSGS",
+      "credits": 3
+    },
+    {
+      "id": "WSGS330",
+      "code": "WSGS 330",
+      "title": "History of Feminist Thought and Social Action",
+      "credits": 3
+    },
+    {
+      "id": "WSGS350",
+      "code": "WSGS 350",
+      "title": "Global Feminisms",
+      "credits": 3
+    },
+    {
+      "id": "WSGS360",
+      "code": "WSGS 360",
+      "title": "Migration, Identity, Sexuality",
+      "credits": 3
+    },
+    {
+      "id": "WSGS370",
+      "code": "WSGS 370",
+      "title": "Sexual Assault Advocacy",
+      "credits": 3
+    },
+    {
+      "id": "WSGS375",
+      "code": "WSGS 375",
+      "title": "Masculinity Studies: Equity, Race, Transformation",
+      "credits": 3
+    },
+    {
+      "id": "WSGS380",
+      "code": "WSGS 380",
+      "title": "Queer Theory: Beyond the Binary",
+      "credits": 3
+    },
+    {
+      "id": "WSGS388",
+      "code": "WSGS 388",
+      "title": "Women's Studies Practicum",
+      "credits": 3
+    },
+    {
+      "id": "WSGS389",
+      "code": "WSGS 389",
+      "title": "Independent Study",
+      "credits": 1
+    },
+    {
+      "id": "WSGS390",
+      "code": "WSGS 390",
+      "title": "Directed Readings Women Studies",
+      "credits": 3
+    },
+    {
+      "id": "WSGS391",
+      "code": "WSGS 391",
+      "title": "WSGS Methodologies",
+      "credits": 3
+    },
+    {
+      "id": "WSGS397",
+      "code": "WSGS 397",
+      "title": "Special Topics in WSGS",
+      "credits": 3
+    },
+    {
+      "id": "WSGS398",
+      "code": "WSGS 398",
+      "title": "Women's Studies Internship",
+      "credits": 3
+    },
+    {
+      "id": "WSGS399",
+      "code": "WSGS 399",
+      "title": "WSGS Capstone",
+      "credits": 3
+    },
+    {
+      "id": "WSGS401",
+      "code": "WSGS 401",
+      "title": "History of Feminist Thought",
+      "credits": 3
+    },
+    {
+      "id": "WSGS402",
+      "code": "WSGS 402",
+      "title": "Foundations of Women's Studies",
+      "credits": 3
+    },
+    {
+      "id": "WSGS450",
+      "code": "WSGS 450",
+      "title": "Global Feminisms",
+      "credits": 3
+    },
+    {
+      "id": "WSGS455",
+      "code": "WSGS 455",
+      "title": "Feminist Pedagogy",
+      "credits": 3
+    },
+    {
+      "id": "WSGS460",
+      "code": "WSGS 460",
+      "title": "Migration, Identity, Sexuality",
+      "credits": 3
+    },
+    {
+      "id": "WSGS470",
+      "code": "WSGS 470",
+      "title": "Sexual Assault Advocacy",
+      "credits": 3
+    },
+    {
+      "id": "WSGS475",
+      "code": "WSGS 475",
+      "title": "Masculinity Studies: Equity, Race, Transformation",
+      "credits": 3
+    },
+    {
+      "id": "WSGS480",
+      "code": "WSGS 480",
+      "title": "Queer Theory",
+      "credits": 3
+    },
+    {
+      "id": "WSGS497",
+      "code": "WSGS 497",
+      "title": "Topics in Women's Studies and Gender Studies",
+      "credits": 3
+    },
+    {
+      "id": "WSGS498",
+      "code": "WSGS 498",
+      "title": "Practicum",
+      "credits": 1
+    },
+    {
+      "id": "WSGS499",
+      "code": "WSGS 499",
+      "title": "Independent Study",
+      "credits": 1
+    },
+    {
+      "id": "WSGS500",
+      "code": "WSGS 500",
+      "title": "Thesis Research",
+      "credits": 3
+    },
+    {
+      "id": "WSGS595",
+      "code": "WSGS 595",
+      "title": "Thesis Supervision",
+      "credits": 0
+    },
+    {
+      "id": "WSGS599",
+      "code": "WSGS 599",
+      "title": "Capstone Presentation",
+      "credits": 0
+    },
+    {
+      "id": "WSGS605",
+      "code": "WSGS 605",
+      "title": "Master's Study",
+      "credits": 0
+    }
+  ]
+}

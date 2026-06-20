@@ -1,5 +1,6 @@
 {
   "id": "ms-cs",
+  "department": "Computer Science",
   "name": "Computer Science",
   "degree": "MS",
   "school": "Loyola University Chicago",
@@ -7,7 +8,6 @@
   "totalCredits": 43,
   "mastersCredits": 18,
   "catalogUrl": "https://catalog.luc.edu/graduate-professional/graduate-school/arts-sciences/computer-science/computer-science-ms/",
-
   "courses": [
     {
       "id": "COMP170",
@@ -15,7 +15,7 @@
       "title": "Object-Oriented Programming",
       "credits": 3,
       "category": "major",
-      "note": "Foundation course — waivable if you completed COMP 170 or equivalent"
+      "note": "Foundation course \u2014 waivable if you completed COMP 170 or equivalent"
     },
     {
       "id": "COMP271",
@@ -23,7 +23,7 @@
       "title": "Data Structures I",
       "credits": 3,
       "category": "major",
-      "note": "Foundation course — waivable if you completed COMP 271 or equivalent"
+      "note": "Foundation course \u2014 waivable if you completed COMP 271 or equivalent"
     },
     {
       "id": "COMP272",
@@ -31,7 +31,7 @@
       "title": "Data Structures II",
       "credits": 3,
       "category": "major",
-      "note": "Foundation course — waivable if you completed COMP 272 or equivalent"
+      "note": "Foundation course \u2014 waivable if you completed COMP 272 or equivalent"
     },
     {
       "id": "COMP141",
@@ -39,7 +39,7 @@
       "title": "Computing Tools and Techniques",
       "credits": 1,
       "category": "major",
-      "note": "Foundation course — waivable if you completed COMP 141 or equivalent"
+      "note": "Foundation course \u2014 waivable if you completed COMP 141 or equivalent"
     },
     {
       "id": "COMP163",
@@ -49,7 +49,7 @@
       "category": "major",
       "requirementGroup": "cs-discrete-structures",
       "choiceNote": "Choose COMP 163 or MATH 201",
-      "note": "Foundation course — waivable if you completed COMP 163, MATH 201, or equivalent"
+      "note": "Foundation course \u2014 waivable if you completed COMP 163, MATH 201, or equivalent"
     },
     {
       "id": "MSCS_COMP417",
@@ -68,25 +68,84 @@
       "note": "May be substituted with another graduate course at GPD discretion if equivalent was taken in undergrad. Not required for Cybersecurity concentration."
     }
   ],
-
   "electiveOptions": {
     "no-concentration": {
       "creditsRequired": 12,
-      "label": "No Concentration — Track Courses",
+      "label": "No Concentration \u2014 Track Courses",
       "note": "COMP 413 is required; choose 3 more from the list below",
       "courses": [
-        { "id": "MSCS_NC_COMP413", "code": "COMP 413", "title": "Intermediate Object-Oriented Development", "credits": 3 },
-        { "id": "MSCS_NC_COMP410", "code": "COMP 410", "title": "Operating Systems",                        "credits": 3 },
-        { "id": "MSCS_NC_COMP433", "code": "COMP 433", "title": "Web Services Programming",                 "credits": 3 },
-        { "id": "MSCS_NC_COMP436", "code": "COMP 436", "title": "Markup Languages",                         "credits": 3 },
-        { "id": "MSCS_NC_COMP439", "code": "COMP 439", "title": "Distributed Systems",                      "credits": 3 },
-        { "id": "MSCS_NC_COMP442", "code": "COMP 442", "title": "Server-Side Software Development",         "credits": 3 },
-        { "id": "MSCS_NC_COMP443", "code": "COMP 443", "title": "Computer Networks",                        "credits": 3 },
-        { "id": "MSCS_NC_COMP453", "code": "COMP 453", "title": "Database Programming",                     "credits": 3 },
-        { "id": "MSCS_NC_COMP464", "code": "COMP 464", "title": "High-Performance Computing",               "credits": 3 },
-        { "id": "MSCS_NC_COMP471", "code": "COMP 471", "title": "Theory of Programming Languages",          "credits": 3 },
-        { "id": "MSCS_NC_COMP473", "code": "COMP 473", "title": "Advanced Object Oriented Programming",     "credits": 3 },
-        { "id": "MSCS_NC_COMP474", "code": "COMP 474", "title": "Software Engineering",                     "credits": 3 }
+        {
+          "id": "MSCS_NC_COMP413",
+          "code": "COMP 413",
+          "title": "Intermediate Object-Oriented Development",
+          "credits": 3
+        },
+        {
+          "id": "MSCS_NC_COMP410",
+          "code": "COMP 410",
+          "title": "Operating Systems",
+          "credits": 3
+        },
+        {
+          "id": "MSCS_NC_COMP433",
+          "code": "COMP 433",
+          "title": "Web Services Programming",
+          "credits": 3
+        },
+        {
+          "id": "MSCS_NC_COMP436",
+          "code": "COMP 436",
+          "title": "Markup Languages",
+          "credits": 3
+        },
+        {
+          "id": "MSCS_NC_COMP439",
+          "code": "COMP 439",
+          "title": "Distributed Systems",
+          "credits": 3
+        },
+        {
+          "id": "MSCS_NC_COMP442",
+          "code": "COMP 442",
+          "title": "Server-Side Software Development",
+          "credits": 3
+        },
+        {
+          "id": "MSCS_NC_COMP443",
+          "code": "COMP 443",
+          "title": "Computer Networks",
+          "credits": 3
+        },
+        {
+          "id": "MSCS_NC_COMP453",
+          "code": "COMP 453",
+          "title": "Database Programming",
+          "credits": 3
+        },
+        {
+          "id": "MSCS_NC_COMP464",
+          "code": "COMP 464",
+          "title": "High-Performance Computing",
+          "credits": 3
+        },
+        {
+          "id": "MSCS_NC_COMP471",
+          "code": "COMP 471",
+          "title": "Theory of Programming Languages",
+          "credits": 3
+        },
+        {
+          "id": "MSCS_NC_COMP473",
+          "code": "COMP 473",
+          "title": "Advanced Object Oriented Programming",
+          "credits": 3
+        },
+        {
+          "id": "MSCS_NC_COMP474",
+          "code": "COMP 474",
+          "title": "Software Engineering",
+          "credits": 3
+        }
       ]
     },
     "ai-concentration": {
@@ -94,12 +153,47 @@
       "label": "Artificial Intelligence Concentration",
       "note": "COMP 479 required; choose 1 from the NLP/Deep Learning pair and 2 more from the list below",
       "courses": [
-        { "id": "MSCS_AI_COMP479", "code": "COMP 479", "title": "Machine Learning",            "credits": 3 },
-        { "id": "MSCS_AI_COMP429", "code": "COMP 429", "title": "Natural Language Processing", "credits": 3, "requirementGroup": "mscs-ai-elec1", "choiceNote": "Choose COMP 429 or COMP 487" },
-        { "id": "MSCS_AI_COMP487", "code": "COMP 487", "title": "Deep Learning",               "credits": 3, "requirementGroup": "mscs-ai-elec1", "choiceNote": "Choose COMP 429 or COMP 487" },
-        { "id": "MSCS_AI_COMP406", "code": "COMP 406", "title": "Data Mining",                 "credits": 3 },
-        { "id": "MSCS_AI_COMP458", "code": "COMP 458", "title": "Big Data Analytics",          "credits": 3 },
-        { "id": "MSCS_AI_COMP488", "code": "COMP 488", "title": "Computer Science Topics",     "credits": 3, "note": "Counts only if GPD determines the topic is related to Machine Learning" }
+        {
+          "id": "MSCS_AI_COMP479",
+          "code": "COMP 479",
+          "title": "Machine Learning",
+          "credits": 3
+        },
+        {
+          "id": "MSCS_AI_COMP429",
+          "code": "COMP 429",
+          "title": "Natural Language Processing",
+          "credits": 3,
+          "requirementGroup": "mscs-ai-elec1",
+          "choiceNote": "Choose COMP 429 or COMP 487"
+        },
+        {
+          "id": "MSCS_AI_COMP487",
+          "code": "COMP 487",
+          "title": "Deep Learning",
+          "credits": 3,
+          "requirementGroup": "mscs-ai-elec1",
+          "choiceNote": "Choose COMP 429 or COMP 487"
+        },
+        {
+          "id": "MSCS_AI_COMP406",
+          "code": "COMP 406",
+          "title": "Data Mining",
+          "credits": 3
+        },
+        {
+          "id": "MSCS_AI_COMP458",
+          "code": "COMP 458",
+          "title": "Big Data Analytics",
+          "credits": 3
+        },
+        {
+          "id": "MSCS_AI_COMP488",
+          "code": "COMP 488",
+          "title": "Computer Science Topics",
+          "credits": 3,
+          "note": "Counts only if GPD determines the topic is related to Machine Learning"
+        }
       ]
     },
     "cybersecurity-concentration": {
@@ -107,10 +201,30 @@
       "label": "Cybersecurity Concentration",
       "note": "All four courses required. COMP 460 is not required for this concentration.",
       "courses": [
-        { "id": "MSCS_CY_COMP401", "code": "COMP 401", "title": "Computer Security",                         "credits": 3 },
-        { "id": "MSCS_CY_COMP447", "code": "COMP 447", "title": "Intrusion Detection and Computer Forensics", "credits": 3 },
-        { "id": "MSCS_CY_COMP448", "code": "COMP 448", "title": "Network Security",                          "credits": 3 },
-        { "id": "MSCS_CY_COMP452", "code": "COMP 452", "title": "Introduction to Computer Vulnerabilities",  "credits": 3 }
+        {
+          "id": "MSCS_CY_COMP401",
+          "code": "COMP 401",
+          "title": "Computer Security",
+          "credits": 3
+        },
+        {
+          "id": "MSCS_CY_COMP447",
+          "code": "COMP 447",
+          "title": "Intrusion Detection and Computer Forensics",
+          "credits": 3
+        },
+        {
+          "id": "MSCS_CY_COMP448",
+          "code": "COMP 448",
+          "title": "Network Security",
+          "credits": 3
+        },
+        {
+          "id": "MSCS_CY_COMP452",
+          "code": "COMP 452",
+          "title": "Introduction to Computer Vulnerabilities",
+          "credits": 3
+        }
       ]
     },
     "systems-concentration": {
@@ -118,127 +232,543 @@
       "label": "Computer Systems Concentration",
       "note": "COMP 410 required; choose 3 more from the list below",
       "courses": [
-        { "id": "MSCS_SY_COMP410", "code": "COMP 410", "title": "Operating Systems",                      "credits": 3 },
-        { "id": "MSCS_SY_COMP405", "code": "COMP 405", "title": "Database Administration",                "credits": 3 },
-        { "id": "MSCS_SY_COMP413", "code": "COMP 413", "title": "Intermediate Object-Oriented Development","credits": 3 },
-        { "id": "MSCS_SY_COMP439", "code": "COMP 439", "title": "Distributed Systems",                    "credits": 3 },
-        { "id": "MSCS_SY_COMP443", "code": "COMP 443", "title": "Computer Networks",                      "credits": 3 },
-        { "id": "MSCS_SY_COMP451", "code": "COMP 451", "title": "Enterprise Networking",                  "credits": 3 },
-        { "id": "MSCS_SY_COMP462", "code": "COMP 462", "title": "Advanced Computer Architecture",         "credits": 3 },
-        { "id": "MSCS_SY_COMP464", "code": "COMP 464", "title": "High-Performance Computing",             "credits": 3 },
-        { "id": "MSCS_SY_COMP472", "code": "COMP 472", "title": "Compiler Construction",                  "credits": 3 }
+        {
+          "id": "MSCS_SY_COMP410",
+          "code": "COMP 410",
+          "title": "Operating Systems",
+          "credits": 3
+        },
+        {
+          "id": "MSCS_SY_COMP405",
+          "code": "COMP 405",
+          "title": "Database Administration",
+          "credits": 3
+        },
+        {
+          "id": "MSCS_SY_COMP413",
+          "code": "COMP 413",
+          "title": "Intermediate Object-Oriented Development",
+          "credits": 3
+        },
+        {
+          "id": "MSCS_SY_COMP439",
+          "code": "COMP 439",
+          "title": "Distributed Systems",
+          "credits": 3
+        },
+        {
+          "id": "MSCS_SY_COMP443",
+          "code": "COMP 443",
+          "title": "Computer Networks",
+          "credits": 3
+        },
+        {
+          "id": "MSCS_SY_COMP451",
+          "code": "COMP 451",
+          "title": "Enterprise Networking",
+          "credits": 3
+        },
+        {
+          "id": "MSCS_SY_COMP462",
+          "code": "COMP 462",
+          "title": "Advanced Computer Architecture",
+          "credits": 3
+        },
+        {
+          "id": "MSCS_SY_COMP464",
+          "code": "COMP 464",
+          "title": "High-Performance Computing",
+          "credits": 3
+        },
+        {
+          "id": "MSCS_SY_COMP472",
+          "code": "COMP 472",
+          "title": "Compiler Construction",
+          "credits": 3
+        }
       ]
     },
     "general-electives": {
       "creditsRequired": 12,
       "label": "General Electives",
-      "note": "Any COMP 400-level course except foundations (400A–E). Up to 6 credits of COMP 490 and/or COMP 499 combined may apply.",
+      "note": "Any COMP 400-level course except foundations (400A\u2013E). Up to 6 credits of COMP 490 and/or COMP 499 combined may apply.",
       "courses": [
-        { "id": "MSCS_GE_COMP401",  "code": "COMP 401",  "title": "Computer Security",                               "credits": 3 },
-        { "id": "MSCS_GE_COMP403",  "code": "COMP 403",  "title": "Operations Management",                           "credits": 3 },
-        { "id": "MSCS_GE_COMP404",  "code": "COMP 404",  "title": "Organizational Development",                      "credits": 3 },
-        { "id": "MSCS_GE_COMP405",  "code": "COMP 405",  "title": "Database Administration",                         "credits": 3 },
-        { "id": "MSCS_GE_COMP406",  "code": "COMP 406",  "title": "Data Mining",                                     "credits": 3 },
-        { "id": "MSCS_GE_COMP409",  "code": "COMP 409",  "title": "Advanced Numerical Analysis",                     "credits": 3 },
-        { "id": "MSCS_GE_COMP410",  "code": "COMP 410",  "title": "Operating Systems",                               "credits": 3 },
-        { "id": "MSCS_GE_COMP412",  "code": "COMP 412",  "title": "Open Source Computing",                           "credits": 3 },
-        { "id": "MSCS_GE_COMP413",  "code": "COMP 413",  "title": "Intermediate Object-Oriented Development",        "credits": 3 },
-        { "id": "MSCS_GE_COMP417",  "code": "COMP 417",  "title": "Social and Ethical Issues in Computing",          "credits": 3 },
-        { "id": "MSCS_GE_COMP418",  "code": "COMP 418",  "title": "Combinatorial Mathematics",                       "credits": 3 },
-        { "id": "MSCS_GE_COMP420",  "code": "COMP 420",  "title": "Software Systems Analysis",                       "credits": 3 },
-        { "id": "MSCS_GE_COMP421",  "code": "COMP 421",  "title": "Math Models & Simulation",                        "credits": 3 },
-        { "id": "MSCS_GE_COMP422",  "code": "COMP 422",  "title": "Software Development for Wireless and Mobile Devices", "credits": 3 },
-        { "id": "MSCS_GE_COMP424",  "code": "COMP 424",  "title": "Client-Side Web Design",                          "credits": 3 },
-        { "id": "MSCS_GE_COMP425",  "code": "COMP 425",  "title": "Rapid Applications Development",                  "credits": 3 },
-        { "id": "MSCS_GE_COMP428",  "code": "COMP 428",  "title": "Algebraic Coding Theory",                         "credits": 3 },
-        { "id": "MSCS_GE_COMP429",  "code": "COMP 429",  "title": "Natural Language Processing",                     "credits": 3 },
-        { "id": "MSCS_GE_COMP431",  "code": "COMP 431",  "title": "Cryptography",                                    "credits": 3 },
-        { "id": "MSCS_GE_COMP433",  "code": "COMP 433",  "title": "Web Services Programming",                        "credits": 3 },
-        { "id": "MSCS_GE_COMP434",  "code": "COMP 434",  "title": "Enterprise Software Development",                 "credits": 3 },
-        { "id": "MSCS_GE_COMP435",  "code": "COMP 435",  "title": "Formal Methods in Software Engineering",          "credits": 3 },
-        { "id": "MSCS_GE_COMP436",  "code": "COMP 436",  "title": "Markup Languages",                                "credits": 3 },
-        { "id": "MSCS_GE_COMP437",  "code": "COMP 437",  "title": "Intro Concurrent Programming",                    "credits": 3 },
-        { "id": "MSCS_GE_COMP439",  "code": "COMP 439",  "title": "Distributed Systems",                             "credits": 3 },
-        { "id": "MSCS_GE_COMP440",  "code": "COMP 440",  "title": "Computer Forensics Investigations",               "credits": 3 },
-        { "id": "MSCS_GE_COMP441",  "code": "COMP 441",  "title": "Human-Computer Interaction",                      "credits": 3 },
-        { "id": "MSCS_GE_COMP442",  "code": "COMP 442",  "title": "Server-Side Software Development",                "credits": 3 },
-        { "id": "MSCS_GE_COMP443",  "code": "COMP 443",  "title": "Computer Networks",                               "credits": 3 },
-        { "id": "MSCS_GE_COMP445",  "code": "COMP 445",  "title": "Internet of Things Device and Application Security", "credits": 3 },
-        { "id": "MSCS_GE_COMP446",  "code": "COMP 446",  "title": "Telecommunications",                              "credits": 3 },
-        { "id": "MSCS_GE_COMP447",  "code": "COMP 447",  "title": "Intrusion Detection and Computer Forensics",      "credits": 3 },
-        { "id": "MSCS_GE_COMP448",  "code": "COMP 448",  "title": "Network Security",                                "credits": 3 },
-        { "id": "MSCS_GE_COMP449",  "code": "COMP 449",  "title": "Wireless Networking and Security",                "credits": 3 },
-        { "id": "MSCS_GE_COMP450",  "code": "COMP 450",  "title": "Applied Cryptography",                            "credits": 3 },
-        { "id": "MSCS_GE_COMP451",  "code": "COMP 451",  "title": "Enterprise Networking",                           "credits": 3 },
-        { "id": "MSCS_GE_COMP452",  "code": "COMP 452",  "title": "Introduction to Computer Vulnerabilities",        "credits": 3 },
-        { "id": "MSCS_GE_COMP453",  "code": "COMP 453",  "title": "Database Programming",                            "credits": 3 },
-        { "id": "MSCS_GE_COMP458",  "code": "COMP 458",  "title": "Big Data Analytics",                              "credits": 3 },
-        { "id": "MSCS_GE_COMP460",  "code": "COMP 460",  "title": "Algorithms & Complexity",                         "credits": 3 },
-        { "id": "MSCS_GE_COMP462",  "code": "COMP 462",  "title": "Advanced Computer Architecture",                  "credits": 3 },
-        { "id": "MSCS_GE_COMP464",  "code": "COMP 464",  "title": "High-Performance Computing",                      "credits": 3 },
-        { "id": "MSCS_GE_COMP468",  "code": "COMP 468",  "title": "Database System Design",                          "credits": 3 },
-        { "id": "MSCS_GE_COMP469",  "code": "COMP 469",  "title": "Product Invention and 3D Printing",               "credits": 3 },
-        { "id": "MSCS_GE_COMP470",  "code": "COMP 470",  "title": "Software Quality and Testing",                    "credits": 3 },
-        { "id": "MSCS_GE_COMP471",  "code": "COMP 471",  "title": "Theory of Programming Languages",                 "credits": 3 },
-        { "id": "MSCS_GE_COMP472",  "code": "COMP 472",  "title": "Compiler Construction",                           "credits": 3 },
-        { "id": "MSCS_GE_COMP473",  "code": "COMP 473",  "title": "Advanced Object Oriented Programming",            "credits": 3 },
-        { "id": "MSCS_GE_COMP474",  "code": "COMP 474",  "title": "Software Engineering",                            "credits": 3 },
-        { "id": "MSCS_GE_COMP476",  "code": "COMP 476",  "title": "Automata & Formal Languages",                     "credits": 3 },
-        { "id": "MSCS_GE_COMP477",  "code": "COMP 477",  "title": "IT Project Management",                           "credits": 3 },
-        { "id": "MSCS_GE_COMP479",  "code": "COMP 479",  "title": "Machine Learning",                                "credits": 3 },
-        { "id": "MSCS_GE_COMP480",  "code": "COMP 480",  "title": "Computer Graphics",                               "credits": 3 },
-        { "id": "MSCS_GE_COMP483",  "code": "COMP 483",  "title": "Computational Biology",                           "credits": 4 },
-        { "id": "MSCS_GE_COMP484",  "code": "COMP 484",  "title": "Artificial Intelligence",                         "credits": 3 },
-        { "id": "MSCS_GE_COMP486",  "code": "COMP 486",  "title": "Computational Neuroscience",                      "credits": 3 },
-        { "id": "MSCS_GE_COMP487",  "code": "COMP 487",  "title": "Deep Learning",                                   "credits": 3 },
-        { "id": "MSCS_GE_COMP488",  "code": "COMP 488",  "title": "Computer Science Topics",                         "credits": 3 },
-        { "id": "MSCS_GE_COMP490a", "code": "COMP 490",  "title": "Independent Project (3 cr)",                      "credits": 3, "note": "Up to 6 credits of COMP 490 + COMP 499 combined may count toward electives", "uniqueProgress": true },
-        { "id": "MSCS_GE_COMP490b", "code": "COMP 490",  "title": "Independent Project (6 cr)",                      "credits": 6, "note": "Up to 6 credits of COMP 490 + COMP 499 combined may count toward electives", "uniqueProgress": true },
-        { "id": "MSCS_GE_COMP499a", "code": "COMP 499",  "title": "Internship (3 cr)",                               "credits": 3, "note": "Up to 6 credits of COMP 490 + COMP 499 combined may count toward electives", "uniqueProgress": true },
-        { "id": "MSCS_GE_COMP499b", "code": "COMP 499",  "title": "Internship (6 cr)",                               "credits": 6, "note": "Up to 6 credits of COMP 490 + COMP 499 combined may count toward electives", "uniqueProgress": true }
+        {
+          "id": "MSCS_GE_COMP401",
+          "code": "COMP 401",
+          "title": "Computer Security",
+          "credits": 3
+        },
+        {
+          "id": "MSCS_GE_COMP403",
+          "code": "COMP 403",
+          "title": "Operations Management",
+          "credits": 3
+        },
+        {
+          "id": "MSCS_GE_COMP404",
+          "code": "COMP 404",
+          "title": "Organizational Development",
+          "credits": 3
+        },
+        {
+          "id": "MSCS_GE_COMP405",
+          "code": "COMP 405",
+          "title": "Database Administration",
+          "credits": 3
+        },
+        {
+          "id": "MSCS_GE_COMP406",
+          "code": "COMP 406",
+          "title": "Data Mining",
+          "credits": 3
+        },
+        {
+          "id": "MSCS_GE_COMP409",
+          "code": "COMP 409",
+          "title": "Advanced Numerical Analysis",
+          "credits": 3
+        },
+        {
+          "id": "MSCS_GE_COMP410",
+          "code": "COMP 410",
+          "title": "Operating Systems",
+          "credits": 3
+        },
+        {
+          "id": "MSCS_GE_COMP412",
+          "code": "COMP 412",
+          "title": "Open Source Computing",
+          "credits": 3
+        },
+        {
+          "id": "MSCS_GE_COMP413",
+          "code": "COMP 413",
+          "title": "Intermediate Object-Oriented Development",
+          "credits": 3
+        },
+        {
+          "id": "MSCS_GE_COMP417",
+          "code": "COMP 417",
+          "title": "Social and Ethical Issues in Computing",
+          "credits": 3
+        },
+        {
+          "id": "MSCS_GE_COMP418",
+          "code": "COMP 418",
+          "title": "Combinatorial Mathematics",
+          "credits": 3
+        },
+        {
+          "id": "MSCS_GE_COMP420",
+          "code": "COMP 420",
+          "title": "Software Systems Analysis",
+          "credits": 3
+        },
+        {
+          "id": "MSCS_GE_COMP421",
+          "code": "COMP 421",
+          "title": "Math Models & Simulation",
+          "credits": 3
+        },
+        {
+          "id": "MSCS_GE_COMP422",
+          "code": "COMP 422",
+          "title": "Software Development for Wireless and Mobile Devices",
+          "credits": 3
+        },
+        {
+          "id": "MSCS_GE_COMP424",
+          "code": "COMP 424",
+          "title": "Client-Side Web Design",
+          "credits": 3
+        },
+        {
+          "id": "MSCS_GE_COMP425",
+          "code": "COMP 425",
+          "title": "Rapid Applications Development",
+          "credits": 3
+        },
+        {
+          "id": "MSCS_GE_COMP428",
+          "code": "COMP 428",
+          "title": "Algebraic Coding Theory",
+          "credits": 3
+        },
+        {
+          "id": "MSCS_GE_COMP429",
+          "code": "COMP 429",
+          "title": "Natural Language Processing",
+          "credits": 3
+        },
+        {
+          "id": "MSCS_GE_COMP431",
+          "code": "COMP 431",
+          "title": "Cryptography",
+          "credits": 3
+        },
+        {
+          "id": "MSCS_GE_COMP433",
+          "code": "COMP 433",
+          "title": "Web Services Programming",
+          "credits": 3
+        },
+        {
+          "id": "MSCS_GE_COMP434",
+          "code": "COMP 434",
+          "title": "Enterprise Software Development",
+          "credits": 3
+        },
+        {
+          "id": "MSCS_GE_COMP435",
+          "code": "COMP 435",
+          "title": "Formal Methods in Software Engineering",
+          "credits": 3
+        },
+        {
+          "id": "MSCS_GE_COMP436",
+          "code": "COMP 436",
+          "title": "Markup Languages",
+          "credits": 3
+        },
+        {
+          "id": "MSCS_GE_COMP437",
+          "code": "COMP 437",
+          "title": "Intro Concurrent Programming",
+          "credits": 3
+        },
+        {
+          "id": "MSCS_GE_COMP439",
+          "code": "COMP 439",
+          "title": "Distributed Systems",
+          "credits": 3
+        },
+        {
+          "id": "MSCS_GE_COMP440",
+          "code": "COMP 440",
+          "title": "Computer Forensics Investigations",
+          "credits": 3
+        },
+        {
+          "id": "MSCS_GE_COMP441",
+          "code": "COMP 441",
+          "title": "Human-Computer Interaction",
+          "credits": 3
+        },
+        {
+          "id": "MSCS_GE_COMP442",
+          "code": "COMP 442",
+          "title": "Server-Side Software Development",
+          "credits": 3
+        },
+        {
+          "id": "MSCS_GE_COMP443",
+          "code": "COMP 443",
+          "title": "Computer Networks",
+          "credits": 3
+        },
+        {
+          "id": "MSCS_GE_COMP445",
+          "code": "COMP 445",
+          "title": "Internet of Things Device and Application Security",
+          "credits": 3
+        },
+        {
+          "id": "MSCS_GE_COMP446",
+          "code": "COMP 446",
+          "title": "Telecommunications",
+          "credits": 3
+        },
+        {
+          "id": "MSCS_GE_COMP447",
+          "code": "COMP 447",
+          "title": "Intrusion Detection and Computer Forensics",
+          "credits": 3
+        },
+        {
+          "id": "MSCS_GE_COMP448",
+          "code": "COMP 448",
+          "title": "Network Security",
+          "credits": 3
+        },
+        {
+          "id": "MSCS_GE_COMP449",
+          "code": "COMP 449",
+          "title": "Wireless Networking and Security",
+          "credits": 3
+        },
+        {
+          "id": "MSCS_GE_COMP450",
+          "code": "COMP 450",
+          "title": "Applied Cryptography",
+          "credits": 3
+        },
+        {
+          "id": "MSCS_GE_COMP451",
+          "code": "COMP 451",
+          "title": "Enterprise Networking",
+          "credits": 3
+        },
+        {
+          "id": "MSCS_GE_COMP452",
+          "code": "COMP 452",
+          "title": "Introduction to Computer Vulnerabilities",
+          "credits": 3
+        },
+        {
+          "id": "MSCS_GE_COMP453",
+          "code": "COMP 453",
+          "title": "Database Programming",
+          "credits": 3
+        },
+        {
+          "id": "MSCS_GE_COMP458",
+          "code": "COMP 458",
+          "title": "Big Data Analytics",
+          "credits": 3
+        },
+        {
+          "id": "MSCS_GE_COMP460",
+          "code": "COMP 460",
+          "title": "Algorithms & Complexity",
+          "credits": 3
+        },
+        {
+          "id": "MSCS_GE_COMP462",
+          "code": "COMP 462",
+          "title": "Advanced Computer Architecture",
+          "credits": 3
+        },
+        {
+          "id": "MSCS_GE_COMP464",
+          "code": "COMP 464",
+          "title": "High-Performance Computing",
+          "credits": 3
+        },
+        {
+          "id": "MSCS_GE_COMP468",
+          "code": "COMP 468",
+          "title": "Database System Design",
+          "credits": 3
+        },
+        {
+          "id": "MSCS_GE_COMP469",
+          "code": "COMP 469",
+          "title": "Product Invention and 3D Printing",
+          "credits": 3
+        },
+        {
+          "id": "MSCS_GE_COMP470",
+          "code": "COMP 470",
+          "title": "Software Quality and Testing",
+          "credits": 3
+        },
+        {
+          "id": "MSCS_GE_COMP471",
+          "code": "COMP 471",
+          "title": "Theory of Programming Languages",
+          "credits": 3
+        },
+        {
+          "id": "MSCS_GE_COMP472",
+          "code": "COMP 472",
+          "title": "Compiler Construction",
+          "credits": 3
+        },
+        {
+          "id": "MSCS_GE_COMP473",
+          "code": "COMP 473",
+          "title": "Advanced Object Oriented Programming",
+          "credits": 3
+        },
+        {
+          "id": "MSCS_GE_COMP474",
+          "code": "COMP 474",
+          "title": "Software Engineering",
+          "credits": 3
+        },
+        {
+          "id": "MSCS_GE_COMP476",
+          "code": "COMP 476",
+          "title": "Automata & Formal Languages",
+          "credits": 3
+        },
+        {
+          "id": "MSCS_GE_COMP477",
+          "code": "COMP 477",
+          "title": "IT Project Management",
+          "credits": 3
+        },
+        {
+          "id": "MSCS_GE_COMP479",
+          "code": "COMP 479",
+          "title": "Machine Learning",
+          "credits": 3
+        },
+        {
+          "id": "MSCS_GE_COMP480",
+          "code": "COMP 480",
+          "title": "Computer Graphics",
+          "credits": 3
+        },
+        {
+          "id": "MSCS_GE_COMP483",
+          "code": "COMP 483",
+          "title": "Computational Biology",
+          "credits": 4
+        },
+        {
+          "id": "MSCS_GE_COMP484",
+          "code": "COMP 484",
+          "title": "Artificial Intelligence",
+          "credits": 3
+        },
+        {
+          "id": "MSCS_GE_COMP486",
+          "code": "COMP 486",
+          "title": "Computational Neuroscience",
+          "credits": 3
+        },
+        {
+          "id": "MSCS_GE_COMP487",
+          "code": "COMP 487",
+          "title": "Deep Learning",
+          "credits": 3
+        },
+        {
+          "id": "MSCS_GE_COMP488",
+          "code": "COMP 488",
+          "title": "Computer Science Topics",
+          "credits": 3
+        },
+        {
+          "id": "MSCS_GE_COMP490a",
+          "code": "COMP 490",
+          "title": "Independent Project (3 cr)",
+          "credits": 3,
+          "note": "Up to 6 credits of COMP 490 + COMP 499 combined may count toward electives",
+          "uniqueProgress": true
+        },
+        {
+          "id": "MSCS_GE_COMP490b",
+          "code": "COMP 490",
+          "title": "Independent Project (6 cr)",
+          "credits": 6,
+          "note": "Up to 6 credits of COMP 490 + COMP 499 combined may count toward electives",
+          "uniqueProgress": true
+        },
+        {
+          "id": "MSCS_GE_COMP499a",
+          "code": "COMP 499",
+          "title": "Internship (3 cr)",
+          "credits": 3,
+          "note": "Up to 6 credits of COMP 490 + COMP 499 combined may count toward electives",
+          "uniqueProgress": true
+        },
+        {
+          "id": "MSCS_GE_COMP499b",
+          "code": "COMP 499",
+          "title": "Internship (6 cr)",
+          "credits": 6,
+          "note": "Up to 6 credits of COMP 490 + COMP 499 combined may count toward electives",
+          "uniqueProgress": true
+        }
       ]
     }
   },
-
   "coreRequirements": [],
-
   "roadmap": [
     {
-      "year": 1, "semester": "Fall", "credits": 16,
+      "year": 1,
+      "semester": "Fall",
+      "credits": 16,
       "items": [
-        { "ref": "COMP170" },
-        { "ref": "COMP271" },
-        { "ref": "COMP141" },
-        { "ref": "MSCS_NC_COMP413" },
-        { "ref": "MSCS_COMP417" },
-        { "label": "General Elective", "credits": 3, "isElective": true, "electiveType": "general-electives" }
+        {
+          "ref": "COMP170"
+        },
+        {
+          "ref": "COMP271"
+        },
+        {
+          "ref": "COMP141"
+        },
+        {
+          "ref": "MSCS_NC_COMP413"
+        },
+        {
+          "ref": "MSCS_COMP417"
+        },
+        {
+          "label": "General Elective",
+          "credits": 3,
+          "isElective": true,
+          "electiveType": "general-electives"
+        }
       ]
     },
     {
-      "year": 1, "semester": "Spring", "credits": 15,
+      "year": 1,
+      "semester": "Spring",
+      "credits": 15,
       "items": [
-        { "ref": "COMP272" },
-        { "ref": "COMP163" },
-        { "ref": "MSCS_COMP460" },
-        { "label": "Track/Concentration Elective", "credits": 3, "isElective": true, "electiveType": "no-concentration" },
-        { "label": "Track/Concentration Elective", "credits": 3, "isElective": true, "electiveType": "no-concentration" }
+        {
+          "ref": "COMP272"
+        },
+        {
+          "ref": "COMP163"
+        },
+        {
+          "ref": "MSCS_COMP460"
+        },
+        {
+          "label": "Track/Concentration Elective",
+          "credits": 3,
+          "isElective": true,
+          "electiveType": "no-concentration"
+        },
+        {
+          "label": "Track/Concentration Elective",
+          "credits": 3,
+          "isElective": true,
+          "electiveType": "no-concentration"
+        }
       ]
     },
     {
-      "year": 1, "semester": "Summer", "credits": 3,
+      "year": 1,
+      "semester": "Summer",
+      "credits": 3,
       "items": [
-        { "ref": "MSCS_GE_COMP499a" }
+        {
+          "ref": "MSCS_GE_COMP499a"
+        }
       ]
     },
     {
-      "year": 2, "semester": "Fall", "credits": 9,
+      "year": 2,
+      "semester": "Fall",
+      "credits": 9,
       "items": [
-        { "label": "Track/Concentration Elective", "credits": 3, "isElective": true, "electiveType": "no-concentration" },
-        { "label": "General Elective", "credits": 3, "isElective": true, "electiveType": "general-electives" },
-        { "label": "General Elective", "credits": 3, "isElective": true, "electiveType": "general-electives" }
+        {
+          "label": "Track/Concentration Elective",
+          "credits": 3,
+          "isElective": true,
+          "electiveType": "no-concentration"
+        },
+        {
+          "label": "General Elective",
+          "credits": 3,
+          "isElective": true,
+          "electiveType": "general-electives"
+        },
+        {
+          "label": "General Elective",
+          "credits": 3,
+          "isElective": true,
+          "electiveType": "general-electives"
+        }
       ]
     }
   ],
-
   "checklist": []
 }

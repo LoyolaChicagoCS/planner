@@ -7,6 +7,8 @@ import {
   calcProgramRequirementDoneCredits,
   calcRequiredCredits,
   calcSatisfiedRequirementCredits,
+  createProgressHelpers,
+  enrichOpenElectiveGroups,
 } from '../utils/progress';
 import { progressBackgroundColor, progressBarStyle, progressColor } from '../utils/progressColor';
 import { matchesSearch, normalizeSearch } from '../utils/search';
@@ -44,6 +46,7 @@ const typedOptionalData = optionalData as OptionalData;
 
 interface AuditProps {
   program: Program;
+  allPrograms: Program[];
   completed: CompletedSet;
   toggle: Toggle;
   isCompleted: IsCompleted;
@@ -67,15 +70,16 @@ interface AuditProps {
  *   completed — Set of completed IDs
  *   toggle    — function(id) to mark/unmark
  */
-export default function Audit({ program, completed, toggle, isCompleted, isRequirementSatisfied, getRequirementStatus, toggleItem }: AuditProps) {
+export default function Audit({ program, allPrograms: _allPrograms, completed, toggle, isCompleted, isRequirementSatisfied, getRequirementStatus, toggleItem }: AuditProps) {
   const [query, setQuery] = useState('');
   const search = normalizeSearch(query);
-  const totalDone     = calcDistinctDoneCredits(program, completed);
+  const enriched = enrichOpenElectiveGroups(program);
+  const totalDone     = calcDistinctDoneCredits(enriched, completed);
   const totalRequired = program.kind === 'minor' || program.kind === 'masters' || program.kind === 'phd' ? program.totalCredits : 120;
   const remaining     = Math.max(0, totalRequired - totalDone);
   const pct           = Math.min(100, Math.round((totalDone / totalRequired) * 100));
-  const requirementDone = calcProgramRequirementDoneCredits(program, isRequirementSatisfied);
-  const requirementRequired = calcProgramRequirementCreditGoal(program);
+  const requirementDone = calcProgramRequirementDoneCredits(enriched, isRequirementSatisfied);
+  const requirementRequired = calcProgramRequirementCreditGoal(enriched);
   const requirementRemaining = Math.max(0, requirementRequired - requirementDone);
   const requirementPct = requirementRequired > 0
     ? Math.min(100, Math.round((requirementDone / requirementRequired) * 100))
@@ -108,15 +112,13 @@ export default function Audit({ program, completed, toggle, isCompleted, isRequi
 
       {/* Major required courses */}
       <AuditCategory
-        title={program.kind === 'minor' ? 'Minor Requirements' : program.kind === 'masters' ? 'Foundation & Required Courses' : program.kind === 'phd' ? 'Doctoral Required Courses' : 'Major Required Courses'}
-        items={(program.courses ?? []).map(c => ({
+        title={enriched.kind === 'minor' ? 'Minor Requirements' : enriched.kind === 'masters' ? 'Foundation & Required Courses' : enriched.kind === 'phd' ? 'Doctoral Required Courses' : 'Major Required Courses'}
+        items={(enriched.courses ?? []).map(c => ({
           ...c,
-          id: c.id,
           label: c.code ? `${c.code} — ${c.title}` : c.title,
-          credits: c.credits,
         }))}
         search={search}
-        creditsRequired={calcRequiredCredits(program.courses ?? [])}
+        creditsRequired={calcRequiredCredits(enriched.courses ?? [])}
         isCompleted={isCompleted}
         isRequirementSatisfied={isRequirementSatisfied}
         getRequirementStatus={getRequirementStatus}
@@ -124,7 +126,7 @@ export default function Audit({ program, completed, toggle, isCompleted, isRequi
       />
 
       {/* Elective groups */}
-      {Object.values(program.electiveOptions ?? {})
+      {Object.values(enriched.electiveOptions ?? {})
         .filter(group => (group.courses ?? []).length > 0 || group.creditsRequired > 0)
         .map(group => (
         <AuditCategory
@@ -133,9 +135,7 @@ export default function Audit({ program, completed, toggle, isCompleted, isRequi
           note={group.note}
           items={(group.courses ?? []).map(c => ({
             ...c,
-            id: c.id,
-            label: `${c.code} — ${c.title}`,
-            credits: c.credits,
+            label: c.code ? `${c.code} — ${c.title}` : c.title,
           }))}
           search={search}
           creditsRequired={group.creditsRequired}
@@ -164,7 +164,7 @@ export default function Audit({ program, completed, toggle, isCompleted, isRequi
       />
 
       {/* Optional CS courses — shown for awareness, not counted toward 120; not relevant for graduate programs */}
-      {program.kind !== 'masters' && program.kind !== 'phd' && <OptionalAuditSection search={search} completed={completed} toggle={toggle} />}
+      {enriched.kind !== 'masters' && enriched.kind !== 'phd' && <OptionalAuditSection search={search} completed={completed} toggle={toggle} />}
 
     </div>
   );
@@ -272,7 +272,9 @@ function AuditCategory({ title, note, items, search, creditsRequired, isComplete
         {/* Empty state */}
         {visibleItems.length === 0 && (
           <div className="px-4 py-3 text-xs text-gray-400 italic">
-            Choose courses from the elective list above.
+            {note
+              ? 'Courses satisfying this requirement are counted automatically when marked complete.'
+              : 'No courses in this category yet.'}
           </div>
         )}
       </div>
@@ -308,6 +310,90 @@ function AuditRow({ item, done, satisfiedByAlternate = false, toggleItem }: {
       </div>
       <span className="text-xs text-gray-400 flex-shrink-0">{item.credits} cr</span>
     </button>
+  );
+}
+
+/** Audit section for an additional program selected by the student */
+function AdditionalProgramAudit({ program, completed, toggle, search, onRemove }: {
+  program: Program;
+  completed: CompletedSet;
+  toggle: Toggle;
+  search: string;
+  onRemove: (id: string) => void;
+}) {
+  const enriched = enrichOpenElectiveGroups(program);
+  const { isCompleted, isRequirementSatisfied, getRequirementStatus, toggleItem } =
+    createProgressHelpers(enriched, completed, toggle);
+  const done = calcProgramRequirementDoneCredits(enriched, isRequirementSatisfied);
+  const goal = calcProgramRequirementCreditGoal(enriched);
+  const remaining = Math.max(0, goal - done);
+  const pct = goal > 0 ? Math.min(100, Math.round((done / goal) * 100)) : 0;
+  const creditLabel = program.kind === 'minor' ? 'Minor Credits' : 'Major Credits';
+  const remainingLabel = program.kind === 'minor' ? 'minor credits remaining' : 'major credits remaining';
+
+  return (
+    <div className="rounded-xl overflow-hidden border-2 border-maroon-100 shadow-sm">
+      <div className="bg-maroon-50 px-4 py-3 border-b border-maroon-100 flex items-start justify-between gap-2">
+        <div>
+          <div className="text-maroon-800 text-sm font-bold">{program.name}</div>
+          <div className="text-maroon-500 text-xs mt-0.5">{program.degree} · Additional {program.kind === 'minor' ? 'Minor' : 'Major'}</div>
+        </div>
+        <button
+          onClick={() => onRemove(program.id)}
+          className="flex-shrink-0 text-xs font-semibold px-2.5 py-1 rounded-full bg-white border border-maroon-200 text-maroon-500 active:bg-maroon-100 transition-colors mt-0.5"
+          aria-label={`Remove ${program.name}`}
+        >
+          Remove
+        </button>
+      </div>
+
+      <div className="px-4 pt-4 pb-2 bg-white">
+        <CreditSummary
+          title={creditLabel}
+          done={done}
+          required={goal}
+          remaining={remaining}
+          remainingLabel={remainingLabel}
+          pct={pct}
+        />
+      </div>
+
+      <div className="px-4 pb-4 bg-white">
+        <AuditCategory
+          title={enriched.kind === 'minor' ? 'Minor Requirements' : 'Major Required Courses'}
+          items={(enriched.courses ?? []).map(c => ({
+            ...c,
+            label: c.code ? `${c.code} — ${c.title}` : c.title,
+          }))}
+          search={search}
+          creditsRequired={calcRequiredCredits(enriched.courses ?? [])}
+          isCompleted={isCompleted}
+          isRequirementSatisfied={isRequirementSatisfied}
+          getRequirementStatus={getRequirementStatus}
+          toggleItem={toggleItem}
+        />
+        {Object.entries(enriched.electiveOptions ?? {})
+          .filter(([, group]) => (group.courses ?? []).length > 0 || group.creditsRequired > 0)
+          .map(([, group]) => (
+            <div key={group.label} className="mt-3">
+              <AuditCategory
+                title={group.label}
+                note={group.note}
+                items={(group.courses ?? []).map(c => ({
+                  ...c,
+                  label: c.code ? `${c.code} — ${c.title}` : c.title,
+                }))}
+                search={search}
+                creditsRequired={group.creditsRequired}
+                isCompleted={isCompleted}
+                isRequirementSatisfied={isRequirementSatisfied}
+                getRequirementStatus={getRequirementStatus}
+                toggleItem={toggleItem}
+              />
+            </div>
+          ))}
+      </div>
+    </div>
   );
 }
 

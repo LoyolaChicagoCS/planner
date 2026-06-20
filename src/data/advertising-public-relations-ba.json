@@ -1,0 +1,291 @@
+{
+  "id": "advertising-public-relations-ba",
+  "department": "Communication",
+  "name": "Advertising and Public Relations",
+  "degree": "BA",
+  "school": "Loyola University Chicago",
+  "totalCredits": 120,
+  "majorCredits": 49,
+  "catalogUrl": "https://catalog.luc.edu/undergraduate/communication/advertising-public-relations/public-relations-ba/",
+  "courses": [
+    {
+      "id": "COMM100",
+      "code": "COMM 100",
+      "title": "SOC Career Prep Seminar",
+      "credits": 1,
+      "category": "major"
+    },
+    {
+      "id": "COMM175",
+      "code": "COMM 175",
+      "title": "Introduction to Communication",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "COMM200",
+      "code": "COMM 200",
+      "title": "Digital Communication and Society",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "COMM215",
+      "code": "COMM 215",
+      "title": "Ethics and Communication",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "COMM210",
+      "code": "COMM 210",
+      "title": "Principles of Public Relations",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "COMM211",
+      "code": "COMM 211",
+      "title": "Principles of Advertising",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "COMM213",
+      "code": "COMM 213",
+      "title": "Digital Foundations",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "COMM250",
+      "code": "COMM 250",
+      "title": "Foundational ADPR Research Methods",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "MARK201comm",
+      "code": "MARK 201",
+      "title": "Principles of Marketing",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "COMM346",
+      "code": "COMM 346",
+      "title": "Analytics, Insights, and Strategy",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "COMM386",
+      "code": "COMM 386",
+      "title": "Advertising/Public Relations Capstone",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "COMM391",
+      "code": "COMM 391",
+      "title": "Advertising/Public Relations Internship",
+      "credits": 3,
+      "category": "major"
+    }
+  ],
+  "electiveOptions": {
+    "adpr-concentration": {
+      "creditsRequired": 9,
+      "label": "Specialized Concentration",
+      "note": "Choose Advertising (COMM 214, 317 + elective), PR (COMM 313, 318 + elective), or Integrated track",
+      "courses": [
+        {
+          "id": "COMM214",
+          "code": "COMM 214",
+          "title": "Creative Concepts",
+          "credits": 3,
+          "category": "elective"
+        },
+        {
+          "id": "COMM317",
+          "code": "COMM 317",
+          "title": "Media Planning",
+          "credits": 3,
+          "category": "elective"
+        },
+        {
+          "id": "COMM313",
+          "code": "COMM 313",
+          "title": "Corporate and Organizational Communication",
+          "credits": 3,
+          "category": "elective"
+        },
+        {
+          "id": "COMM318",
+          "code": "COMM 318",
+          "title": "Public Relations Writing",
+          "credits": 3,
+          "category": "elective"
+        }
+      ]
+    },
+    "adpr-new-media": {
+      "creditsRequired": 3,
+      "label": "New Media Course",
+      "note": "COMM 331 (Social Media Campaigns), COMM 335 (Creating ADPR Content with AI), or COMM 347 (Influencers & Social Economy)",
+      "courses": [
+        {
+          "id": "COMM331",
+          "code": "COMM 331",
+          "title": "Social Media Campaigns",
+          "credits": 3,
+          "category": "elective"
+        },
+        {
+          "id": "COMM335",
+          "code": "COMM 335",
+          "title": "Creating ADPR Content with AI",
+          "credits": 3,
+          "category": "elective"
+        },
+        {
+          "id": "COMM347",
+          "code": "COMM 347",
+          "title": "Influencers & Social Economy",
+          "credits": 3,
+          "category": "elective"
+        }
+      ]
+    },
+    "adpr-elective": {
+      "creditsRequired": 3,
+      "label": "Approved Elective",
+      "note": "One course from the approved ADPR electives list"
+    }
+  },
+  "roadmap": [
+    {
+      "year": 1,
+      "semester": "Fall",
+      "credits": 3,
+      "items": [
+        {
+          "ref": "COMM175"
+        }
+      ]
+    },
+    {
+      "year": 1,
+      "semester": "Spring",
+      "credits": 6,
+      "items": [
+        {
+          "ref": "COMM200"
+        },
+        {
+          "isElective": true,
+          "label": "COMM 210 or COMM 211 \u2014 Principles of PR or Advertising",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 2,
+      "semester": "Fall",
+      "credits": 9,
+      "items": [
+        {
+          "isElective": true,
+          "label": "COMM 211 or COMM 210 \u2014 Principles of Advertising or PR",
+          "credits": 3
+        },
+        {
+          "ref": "COMM213"
+        },
+        {
+          "ref": "COMM215"
+        }
+      ]
+    },
+    {
+      "year": 2,
+      "semester": "Spring",
+      "credits": 6,
+      "items": [
+        {
+          "ref": "COMM250"
+        },
+        {
+          "ref": "MARK201comm"
+        }
+      ]
+    },
+    {
+      "year": 3,
+      "semester": "Fall",
+      "credits": 9,
+      "items": [
+        {
+          "ref": "COMM346"
+        },
+        {
+          "isElective": true,
+          "label": "Concentration Course 1",
+          "credits": 3
+        },
+        {
+          "isElective": true,
+          "label": "Concentration Course 2",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 3,
+      "semester": "Spring",
+      "credits": 4,
+      "items": [
+        {
+          "ref": "COMM100"
+        },
+        {
+          "isElective": true,
+          "label": "Concentration Course 3",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 4,
+      "semester": "Fall",
+      "credits": 6,
+      "items": [
+        {
+          "isElective": true,
+          "label": "New Media Course",
+          "credits": 3
+        },
+        {
+          "ref": "COMM391"
+        }
+      ]
+    },
+    {
+      "year": 4,
+      "semester": "Spring",
+      "credits": 6,
+      "items": [
+        {
+          "isElective": true,
+          "label": "COMM 386 Capstone or COMM 391 Internship",
+          "credits": 3
+        },
+        {
+          "isElective": true,
+          "label": "Elective Course",
+          "credits": 3
+        }
+      ]
+    }
+  ]
+}

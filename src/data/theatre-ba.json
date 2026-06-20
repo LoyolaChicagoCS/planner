@@ -1,0 +1,243 @@
+{
+  "id": "theatre-ba",
+  "department": "Fine and Performing Arts",
+  "name": "Theatre",
+  "degree": "BA",
+  "school": "Loyola University Chicago",
+  "totalCredits": 120,
+  "majorCredits": 47,
+  "catalogUrl": "https://catalog.luc.edu/undergraduate/arts-sciences/fine-performing-arts/theatre-ba/",
+  "courses": [
+    {
+      "id": "THTR100",
+      "code": "THTR 100",
+      "title": "Introduction to Theatre Experience",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "THTR252",
+      "code": "THTR 252",
+      "title": "Theatrical Design I",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "THTR261",
+      "code": "THTR 261",
+      "title": "Beginning Acting",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "THTR364",
+      "code": "THTR 364",
+      "title": "Theatre History and Literature I",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "THTR365",
+      "code": "THTR 365",
+      "title": "Theatre History and Literature II",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "THTR366",
+      "code": "THTR 366",
+      "title": "Theatre History and Literature III",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "THTR367",
+      "code": "THTR 367",
+      "title": "Theatre History and Literature IV",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "THTR375",
+      "code": "THTR 375",
+      "title": "Play Direction: Theatre Capstone",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "THTR267",
+      "code": "THTR 267",
+      "title": "Acting Theories and Techniques II",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "thtr-emphasis",
+      "choiceNote": "THTR 267 or THTR 352"
+    },
+    {
+      "id": "THTR352",
+      "code": "THTR 352",
+      "title": "Theatrical Design II",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "thtr-emphasis",
+      "choiceNote": "THTR 267 or THTR 352"
+    }
+  ],
+  "electiveOptions": {
+    "thtr-practicum": {
+      "creditsRequired": 6,
+      "label": "Practicum",
+      "note": "At least 6 credits from THTR 321C/321S/321E/321R/321P (theatre production practicum)",
+      "courses": [
+        {
+          "id": "THTR321",
+          "code": "THTR 321",
+          "title": "Practicum: Costumes",
+          "credits": 2,
+          "category": "elective"
+        }
+      ]
+    },
+    "thtr-electives": {
+      "creditsRequired": 12,
+      "label": "Theatre Electives",
+      "note": "Four courses; at least one must be an Engaged Learning course"
+    }
+  },
+  "roadmap": [
+    {
+      "year": 1,
+      "semester": "Fall",
+      "credits": 9,
+      "items": [
+        {
+          "ref": "THTR100"
+        },
+        {
+          "isElective": true,
+          "label": "THTR 321R \u2014 Running Crew Practicum",
+          "credits": 1
+        },
+        {
+          "isElective": true,
+          "label": "THTR 261 or THTR 252",
+          "credits": 3
+        },
+        {
+          "isElective": true,
+          "label": "THTR Practicum (321C/E/S)",
+          "credits": 2
+        }
+      ]
+    },
+    {
+      "year": 1,
+      "semester": "Spring",
+      "credits": 8,
+      "items": [
+        {
+          "isElective": true,
+          "label": "THTR 261 or THTR 252",
+          "credits": 3
+        },
+        {
+          "isElective": true,
+          "label": "THTR 267 or THTR 352",
+          "credits": 3
+        },
+        {
+          "isElective": true,
+          "label": "THTR Practicum (321C/E/S)",
+          "credits": 2
+        }
+      ]
+    },
+    {
+      "year": 2,
+      "semester": "Fall",
+      "credits": 7,
+      "items": [
+        {
+          "ref": "THTR364"
+        },
+        {
+          "isElective": true,
+          "label": "THTR Practicum",
+          "credits": 1
+        },
+        {
+          "isElective": true,
+          "label": "Theatre Elective",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 2,
+      "semester": "Spring",
+      "credits": 6,
+      "items": [
+        {
+          "ref": "THTR365"
+        },
+        {
+          "isElective": true,
+          "label": "Theatre Elective",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 3,
+      "semester": "Fall",
+      "credits": 3,
+      "items": [
+        {
+          "ref": "THTR366"
+        }
+      ]
+    },
+    {
+      "year": 3,
+      "semester": "Spring",
+      "credits": 6,
+      "items": [
+        {
+          "ref": "THTR367"
+        },
+        {
+          "isElective": true,
+          "label": "Theatre Elective",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 4,
+      "semester": "Fall",
+      "credits": 2,
+      "items": [
+        {
+          "isElective": true,
+          "label": "THTR Practicum (321C/E/S)",
+          "credits": 2
+        }
+      ]
+    },
+    {
+      "year": 4,
+      "semester": "Spring",
+      "credits": 6,
+      "items": [
+        {
+          "ref": "THTR375"
+        },
+        {
+          "isElective": true,
+          "label": "Theatre Elective",
+          "credits": 3
+        }
+      ]
+    }
+  ]
+}

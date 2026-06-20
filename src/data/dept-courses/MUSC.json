@@ -1,0 +1,415 @@
+{
+  "catalog": "2026-2027",
+  "code": "MUSC",
+  "name": "Music",
+  "sourceUrl": "https://catalog.luc.edu/course-descriptions/musc/",
+  "fetchedAt": "2026-06-20",
+  "courses": [
+    {
+      "id": "MUSC101",
+      "code": "MUSC 101",
+      "title": "Music: Art of Listening",
+      "credits": 3
+    },
+    {
+      "id": "MUSC102",
+      "code": "MUSC 102",
+      "title": "Class Piano for Beginners",
+      "credits": 3
+    },
+    {
+      "id": "MUSC103",
+      "code": "MUSC 103",
+      "title": "Class Guitar for Beginners",
+      "credits": 3
+    },
+    {
+      "id": "MUSC104",
+      "code": "MUSC 104",
+      "title": "Gospel Choir",
+      "credits": 1
+    },
+    {
+      "id": "MUSC105",
+      "code": "MUSC 105",
+      "title": "Symphony Orchestra",
+      "credits": 1
+    },
+    {
+      "id": "MUSC106",
+      "code": "MUSC 106",
+      "title": "Guitar Ensemble",
+      "credits": 1
+    },
+    {
+      "id": "MUSC107",
+      "code": "MUSC 107",
+      "title": "Chorus",
+      "credits": 1
+    },
+    {
+      "id": "MUSC108",
+      "code": "MUSC 108",
+      "title": "Liturgical Choir: Cantorum",
+      "credits": 1
+    },
+    {
+      "id": "MUSC109",
+      "code": "MUSC 109",
+      "title": "Jazz Ensemble",
+      "credits": 1
+    },
+    {
+      "id": "MUSC110",
+      "code": "MUSC 110",
+      "title": "Wind Ensemble",
+      "credits": 1
+    },
+    {
+      "id": "MUSC111",
+      "code": "MUSC 111",
+      "title": "Percussion Ensemble",
+      "credits": 1
+    },
+    {
+      "id": "MUSC112",
+      "code": "MUSC 112",
+      "title": "Loyola University Technology Ensemble",
+      "credits": 1
+    },
+    {
+      "id": "MUSC122",
+      "code": "MUSC 122",
+      "title": "Introduction to Digital Music",
+      "credits": 3
+    },
+    {
+      "id": "MUSC142",
+      "code": "MUSC 142",
+      "title": "Class Voice for Beginners",
+      "credits": 3
+    },
+    {
+      "id": "MUSC144",
+      "code": "MUSC 144",
+      "title": "Music Theory I",
+      "credits": 3
+    },
+    {
+      "id": "MUSC145",
+      "code": "MUSC 145",
+      "title": "Musicianship Lab I",
+      "credits": 1
+    },
+    {
+      "id": "MUSC153",
+      "code": "MUSC 153",
+      "title": "The Music of China",
+      "credits": 3
+    },
+    {
+      "id": "MUSC154",
+      "code": "MUSC 154",
+      "title": "Intro to Opera",
+      "credits": 3
+    },
+    {
+      "id": "MUSC154R",
+      "code": "MUSC 154R",
+      "title": "Introduction to Opera in Rome",
+      "credits": 3
+    },
+    {
+      "id": "MUSC155",
+      "code": "MUSC 155",
+      "title": "Intro to Symphonic Music",
+      "credits": 3
+    },
+    {
+      "id": "MUSC156",
+      "code": "MUSC 156",
+      "title": "Intro to Jazz",
+      "credits": 3
+    },
+    {
+      "id": "MUSC157",
+      "code": "MUSC 157",
+      "title": "America Popular Song",
+      "credits": 3
+    },
+    {
+      "id": "MUSC161",
+      "code": "MUSC 161",
+      "title": "Music in United States",
+      "credits": 3
+    },
+    {
+      "id": "MUSC185",
+      "code": "MUSC 185",
+      "title": "Jazz Improvisation",
+      "credits": 3
+    },
+    {
+      "id": "MUSC186",
+      "code": "MUSC 186",
+      "title": "Jazz Arranging",
+      "credits": 3
+    },
+    {
+      "id": "MUSC201",
+      "code": "MUSC 201",
+      "title": "Music Technology I",
+      "credits": 3
+    },
+    {
+      "id": "MUSC202",
+      "code": "MUSC 202",
+      "title": "Class Piano II",
+      "credits": 3
+    },
+    {
+      "id": "MUSC203",
+      "code": "MUSC 203",
+      "title": "Class Guitar II",
+      "credits": 3
+    },
+    {
+      "id": "MUSC207",
+      "code": "MUSC 207",
+      "title": "Chamber Choir",
+      "credits": 1
+    },
+    {
+      "id": "MUSC244",
+      "code": "MUSC 244",
+      "title": "Music Theory II",
+      "credits": 3
+    },
+    {
+      "id": "MUSC245",
+      "code": "MUSC 245",
+      "title": "Musicianship Lab II",
+      "credits": 1
+    },
+    {
+      "id": "MUSC246",
+      "code": "MUSC 246",
+      "title": "Composition I",
+      "credits": 3
+    },
+    {
+      "id": "MUSC247",
+      "code": "MUSC 247",
+      "title": "Composition II",
+      "credits": 3
+    },
+    {
+      "id": "MUSC248",
+      "code": "MUSC 248",
+      "title": "Jazz Composition and Arranging",
+      "credits": 3
+    },
+    {
+      "id": "MUSC252",
+      "code": "MUSC 252",
+      "title": "Music History I",
+      "credits": 3
+    },
+    {
+      "id": "MUSC255",
+      "code": "MUSC 255",
+      "title": "Music in Catholic Worship",
+      "credits": 3
+    },
+    {
+      "id": "MUSC256",
+      "code": "MUSC 256",
+      "title": "Jazz Music History",
+      "credits": 3
+    },
+    {
+      "id": "MUSC260",
+      "code": "MUSC 260",
+      "title": "Conducting",
+      "credits": 3
+    },
+    {
+      "id": "MUSC261",
+      "code": "MUSC 261",
+      "title": "Lyric Diction I: Italian and German",
+      "credits": 1
+    },
+    {
+      "id": "MUSC262",
+      "code": "MUSC 262",
+      "title": "Lyric Diction II: French and Other Languages",
+      "credits": 1
+    },
+    {
+      "id": "MUSC280",
+      "code": "MUSC 280",
+      "title": "Applied Music",
+      "credits": 1,
+      "isTopics": true,
+      "topicsCount": 20
+    },
+    {
+      "id": "MUSC280L",
+      "code": "MUSC 280L",
+      "title": "Applied Music: Violin",
+      "credits": 1
+    },
+    {
+      "id": "MUSC289",
+      "code": "MUSC 289",
+      "title": "Chamber Music",
+      "credits": 1
+    },
+    {
+      "id": "MUSC290",
+      "code": "MUSC 290",
+      "title": "Jazz Combo",
+      "credits": 1
+    },
+    {
+      "id": "MUSC320",
+      "code": "MUSC 320",
+      "title": "Rehearsal and Performance",
+      "credits": 1
+    },
+    {
+      "id": "MUSC326",
+      "code": "MUSC 326",
+      "title": "Digital Music Programming",
+      "credits": 3
+    },
+    {
+      "id": "MUSC333",
+      "code": "MUSC 333",
+      "title": "Music and Ritual in Catholic Liturgical Life",
+      "credits": 3
+    },
+    {
+      "id": "MUSC344",
+      "code": "MUSC 344",
+      "title": "Music Theory III",
+      "credits": 3
+    },
+    {
+      "id": "MUSC345",
+      "code": "MUSC 345",
+      "title": "Music Theory IV",
+      "credits": 3
+    },
+    {
+      "id": "MUSC347",
+      "code": "MUSC 347",
+      "title": "Composition III",
+      "credits": 3
+    },
+    {
+      "id": "MUSC353",
+      "code": "MUSC 353",
+      "title": "Music History II",
+      "credits": 3
+    },
+    {
+      "id": "MUSC354",
+      "code": "MUSC 354",
+      "title": "Music History III",
+      "credits": 3
+    },
+    {
+      "id": "MUSC363",
+      "code": "MUSC 363",
+      "title": "Foundations of Vocal Technique and Pedagogy",
+      "credits": 3
+    },
+    {
+      "id": "MUSC364",
+      "code": "MUSC 364",
+      "title": "Vocal Repertoire",
+      "credits": 3
+    },
+    {
+      "id": "MUSC365",
+      "code": "MUSC 365",
+      "title": "Vocal Performance Workshop",
+      "credits": 3
+    },
+    {
+      "id": "MUSC370",
+      "code": "MUSC 370",
+      "title": "The Business of Music",
+      "credits": 3
+    },
+    {
+      "id": "MUSC374",
+      "code": "MUSC 374",
+      "title": "Musical Theatre Repertoire",
+      "credits": 4
+    },
+    {
+      "id": "MUSC380",
+      "code": "MUSC 380",
+      "title": "Applied Music Advanced",
+      "credits": 1,
+      "isTopics": true,
+      "topicsCount": 20
+    },
+    {
+      "id": "MUSC380L",
+      "code": "MUSC 380L",
+      "title": "Applied Music Advanced: Violin",
+      "credits": 1
+    },
+    {
+      "id": "MUSC385",
+      "code": "MUSC 385",
+      "title": "Jazz Improvisation II",
+      "credits": 3
+    },
+    {
+      "id": "MUSC386",
+      "code": "MUSC 386",
+      "title": "Orchestration",
+      "credits": 3
+    },
+    {
+      "id": "MUSC387",
+      "code": "MUSC 387",
+      "title": "Solo Recital: MUSC Capstone",
+      "credits": 1
+    },
+    {
+      "id": "MUSC388",
+      "code": "MUSC 388",
+      "title": "Lecture/Recital: MUSC Capstone",
+      "credits": 3
+    },
+    {
+      "id": "MUSC389",
+      "code": "MUSC 389",
+      "title": "Topics in Music",
+      "credits": 1
+    },
+    {
+      "id": "MUSC394",
+      "code": "MUSC 394",
+      "title": "Internship in Music",
+      "credits": 1
+    },
+    {
+      "id": "MUSC397",
+      "code": "MUSC 397",
+      "title": "Fieldwork in Chicago - Music",
+      "credits": 1
+    },
+    {
+      "id": "MUSC399",
+      "code": "MUSC 399",
+      "title": "Independent Study",
+      "credits": 1
+    }
+  ]
+}

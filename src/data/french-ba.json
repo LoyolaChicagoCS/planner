@@ -1,0 +1,57 @@
+{
+  "id": "french-ba",
+  "department": "Modern Languages and Literatures",
+  "name": "French",
+  "degree": "BA",
+  "school": "Loyola University Chicago",
+  "totalCredits": 120,
+  "majorCredits": 30,
+  "catalogUrl": "https://catalog.luc.edu/undergraduate/arts-sciences/modern-languages-literatures/french-ba/",
+  "courses": [
+    {
+      "id": "FREN301",
+      "code": "FREN 301",
+      "title": "Advanced French Language and Composition I",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "FREN302",
+      "code": "FREN 302",
+      "title": "Advanced French Language and Composition II",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "FREN310",
+      "code": "FREN 310",
+      "title": "Introduction to French Literature",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "FREN390",
+      "code": "FREN 390",
+      "title": "French & Francophone Cultures & Civilizations",
+      "credits": 3,
+      "category": "major"
+    }
+  ],
+  "electiveOptions": {
+    "fren-lit": {
+      "creditsRequired": 9,
+      "label": "Literature/Culture Electives",
+      "note": "Three 300-level FREN literature or culture courses"
+    },
+    "fren-elective": {
+      "creditsRequired": 6,
+      "label": "Additional Electives",
+      "note": "Two additional FREN courses at the 200-level or above"
+    },
+    "fren-study-abroad": {
+      "creditsRequired": 3,
+      "label": "Study Abroad / Language Elective",
+      "note": "Approved study-abroad or upper-division language elective"
+    }
+  }
+}

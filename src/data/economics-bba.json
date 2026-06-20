@@ -1,0 +1,443 @@
+{
+  "id": "economics-bba",
+  "department": "Business Administration",
+  "name": "Economics",
+  "degree": "BBA",
+  "school": "Loyola University Chicago",
+  "totalCredits": 78,
+  "majorCredits": 18,
+  "catalogUrl": "https://catalog.luc.edu/undergraduate/business/economics-bba/",
+  "courses": [
+    {
+      "id": "QUIN101",
+      "code": "QUIN 101",
+      "title": "Business Learning and Careers",
+      "credits": 0,
+      "category": "major"
+    },
+    {
+      "id": "QUIN102",
+      "code": "QUIN 102",
+      "title": "Financial Literacy and Well-Being",
+      "credits": 1,
+      "category": "major"
+    },
+    {
+      "id": "QUIN202",
+      "code": "QUIN 202",
+      "title": "Career Preparation",
+      "credits": 2,
+      "category": "major"
+    },
+    {
+      "id": "COMM103biz",
+      "code": "COMM 103",
+      "title": "Business and Professional Speaking",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "MATH110biz",
+      "code": "MATH 110",
+      "title": "Business Precalculus",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "ETHC341",
+      "code": "ETHC 341",
+      "title": "Ethics in Business",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "ACCT201",
+      "code": "ACCT 201",
+      "title": "Introductory Accounting I",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "ACCT202",
+      "code": "ACCT 202",
+      "title": "Introductory Accounting II",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "ECON201biz",
+      "code": "ECON 201",
+      "title": "Principles of Microeconomics",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "ECON202biz",
+      "code": "ECON 202",
+      "title": "Principles of Macroeconomics",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "FINC301",
+      "code": "FINC 301",
+      "title": "Introductory Business Finance",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "biz-core-finance",
+      "choiceNote": "FINC 301 or FINC 334"
+    },
+    {
+      "id": "FINC334",
+      "code": "FINC 334",
+      "title": "Principles of Corporate Finance",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "biz-core-finance",
+      "choiceNote": "FINC 301 or FINC 334"
+    },
+    {
+      "id": "INFS247",
+      "code": "INFS 247",
+      "title": "Business Information Systems",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "INFS343",
+      "code": "INFS 343",
+      "title": "Business Analytics",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "biz-core-analytics",
+      "choiceNote": "INFS 343 or ECON 346"
+    },
+    {
+      "id": "ECON346biz",
+      "code": "ECON 346",
+      "title": "Econometrics",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "biz-core-analytics",
+      "choiceNote": "INFS 343 or ECON 346"
+    },
+    {
+      "id": "ISSCM241",
+      "code": "ISSCM 241",
+      "title": "Business Statistics",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "biz-core-stats",
+      "choiceNote": "ISSCM 241 or STAT 103"
+    },
+    {
+      "id": "STAT103biz",
+      "code": "STAT 103",
+      "title": "Fundamentals of Statistics",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "biz-core-stats",
+      "choiceNote": "ISSCM 241 or STAT 103"
+    },
+    {
+      "id": "LREB315",
+      "code": "LREB 315",
+      "title": "Law and the Regulatory Environment of Business I",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "MARK201biz",
+      "code": "MARK 201",
+      "title": "Principles of Marketing",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "MGMT201",
+      "code": "MGMT 201",
+      "title": "Managing People and Organizations",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "MGMT304",
+      "code": "MGMT 304",
+      "title": "Strategic Management",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "SCMG232",
+      "code": "SCMG 232",
+      "title": "Introduction to Supply Chain Management",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "ECON303bba",
+      "code": "ECON 303",
+      "title": "Intermediate Microeconomics",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "ECON304",
+      "code": "ECON 304",
+      "title": "Intermediate Macroeconomics",
+      "credits": 3,
+      "category": "major"
+    }
+  ],
+  "electiveOptions": {
+    "econ-bba-electives": {
+      "creditsRequired": 12,
+      "label": "Economics Electives",
+      "note": "Four courses from: ECON 320, 323, 324, 325, 327, 328, 329, 334, 336, 346, 360, 370, 399, or MATH 360",
+      "courses": [
+        {
+          "id": "ECON320",
+          "code": "ECON 320",
+          "title": "Urban Economics",
+          "credits": 3,
+          "category": "elective"
+        },
+        {
+          "id": "ECON323",
+          "code": "ECON 323",
+          "title": "International Economics",
+          "credits": 3,
+          "category": "elective"
+        },
+        {
+          "id": "ECON324",
+          "code": "ECON 324",
+          "title": "International Monetary Relations",
+          "credits": 3,
+          "category": "elective"
+        },
+        {
+          "id": "ECON325",
+          "code": "ECON 325",
+          "title": "Economics of Growth & Development",
+          "credits": 3,
+          "category": "elective"
+        },
+        {
+          "id": "ECON327",
+          "code": "ECON 327",
+          "title": "American Economic & Business History",
+          "credits": 3,
+          "category": "elective"
+        },
+        {
+          "id": "ECON328",
+          "code": "ECON 328",
+          "title": "Environmental Economics",
+          "credits": 3,
+          "category": "elective"
+        },
+        {
+          "id": "ECON329",
+          "code": "ECON 329",
+          "title": "Health Economics",
+          "credits": 3,
+          "category": "elective"
+        },
+        {
+          "id": "ECON334",
+          "code": "ECON 334",
+          "title": "Economics of Government Expenditures & Taxation",
+          "credits": 3,
+          "category": "elective"
+        },
+        {
+          "id": "ECON336",
+          "code": "ECON 336",
+          "title": "Monetary and Fiscal Policy",
+          "credits": 3,
+          "category": "elective"
+        },
+        {
+          "id": "ECON346",
+          "code": "ECON 346",
+          "title": "Econometrics",
+          "credits": 3,
+          "category": "elective"
+        }
+      ]
+    },
+    "biz-writing": {
+      "creditsRequired": 6,
+      "label": "Writing Intensive",
+      "note": "Two approved writing-intensive courses"
+    },
+    "biz-global": {
+      "creditsRequired": 3,
+      "label": "Global Awareness",
+      "note": "One approved global awareness course"
+    }
+  },
+  "roadmap": [
+    {
+      "year": 1,
+      "semester": "Fall",
+      "credits": 9,
+      "items": [
+        {
+          "ref": "ECON201biz"
+        },
+        {
+          "ref": "INFS247"
+        },
+        {
+          "ref": "MATH110biz"
+        },
+        {
+          "ref": "QUIN101"
+        }
+      ]
+    },
+    {
+      "year": 1,
+      "semester": "Spring",
+      "credits": 7,
+      "items": [
+        {
+          "ref": "ACCT201"
+        },
+        {
+          "ref": "ECON202biz"
+        },
+        {
+          "ref": "QUIN102"
+        }
+      ]
+    },
+    {
+      "year": 2,
+      "semester": "Fall",
+      "credits": 11,
+      "items": [
+        {
+          "ref": "ACCT202"
+        },
+        {
+          "isElective": true,
+          "label": "ISSCM 241 or STAT 103 \u2014 Business Statistics",
+          "credits": 3
+        },
+        {
+          "isElective": true,
+          "label": "ECON 303",
+          "credits": 3
+        },
+        {
+          "ref": "QUIN202"
+        }
+      ]
+    },
+    {
+      "year": 2,
+      "semester": "Spring",
+      "credits": 12,
+      "items": [
+        {
+          "ref": "ECON304"
+        },
+        {
+          "ref": "MGMT201"
+        },
+        {
+          "ref": "SCMG232"
+        },
+        {
+          "isElective": true,
+          "label": "Business Writing Intensive",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 3,
+      "semester": "Fall",
+      "credits": 9,
+      "items": [
+        {
+          "ref": "MARK201biz"
+        },
+        {
+          "ref": "COMM103biz"
+        },
+        {
+          "isElective": true,
+          "label": "ECON Elective",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 3,
+      "semester": "Spring",
+      "credits": 12,
+      "items": [
+        {
+          "ref": "ETHC341"
+        },
+        {
+          "ref": "FINC301"
+        },
+        {
+          "isElective": true,
+          "label": "INFS 343 or ECON 346 \u2014 Business Analytics",
+          "credits": 3
+        },
+        {
+          "isElective": true,
+          "label": "ECON Elective",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 4,
+      "semester": "Fall",
+      "credits": 9,
+      "items": [
+        {
+          "ref": "LREB315"
+        },
+        {
+          "isElective": true,
+          "label": "Writing Intensive Course",
+          "credits": 3
+        },
+        {
+          "isElective": true,
+          "label": "ECON Elective",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 4,
+      "semester": "Spring",
+      "credits": 9,
+      "items": [
+        {
+          "ref": "MGMT304"
+        },
+        {
+          "isElective": true,
+          "label": "Global Awareness Course",
+          "credits": 3
+        },
+        {
+          "isElective": true,
+          "label": "ECON Elective",
+          "credits": 3
+        }
+      ]
+    }
+  ]
+}

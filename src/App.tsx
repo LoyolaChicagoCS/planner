@@ -4,13 +4,11 @@ import { encodeCompletedIds, getValidProgressIds, validateProgressIds } from './
 import HomeScreen from './components/HomeScreen';
 import ProgramScreen from './components/ProgramScreen';
 import { PROGRAMS } from './data/programs';
-import type { Program } from './types';
 
 validateProgressIds(getValidProgressIds(PROGRAMS));
 
 export default function App() {
-  // Restore active program from URL param on first load
-  const [activeProgram, setActiveProgram] = useState<Program | null>(() => {
+  const [activeProgram, setActiveProgram] = useState(() => {
     const params = new URLSearchParams(window.location.search);
     const progId = params.get('p');
     return PROGRAMS.find(p => p.id === progId) ?? null;
@@ -18,8 +16,6 @@ export default function App() {
 
   const { completed, toggle, clear } = useProgress(PROGRAMS);
 
-  // Keep the URL in sync with current program + completed state so the
-  // page is always shareable without any manual action by the student.
   useEffect(() => {
     const params = new URLSearchParams();
     if (activeProgram) {
@@ -29,7 +25,6 @@ export default function App() {
       if (shareIds.size > 0) params.set('d', encodeCompletedIds(shareIds));
       history.replaceState(null, '', `?${params}`);
     } else {
-      // Back on home — clear params but keep the path
       history.replaceState(null, '', window.location.pathname);
     }
   }, [activeProgram, completed]);
@@ -39,13 +34,17 @@ export default function App() {
       {activeProgram ? (
         <ProgramScreen
           program={activeProgram}
+          allPrograms={PROGRAMS}
           completed={completed}
           toggle={toggle}
           clear={clear}
           onBack={() => setActiveProgram(null)}
         />
       ) : (
-        <HomeScreen programs={PROGRAMS} onSelect={setActiveProgram} />
+        <HomeScreen
+          programs={PROGRAMS}
+          onSelect={setActiveProgram}
+        />
       )}
     </div>
   );

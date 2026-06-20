@@ -1,0 +1,645 @@
+{
+  "catalog": "2026-2027",
+  "code": "THEO",
+  "name": "Theology",
+  "sourceUrl": "https://catalog.luc.edu/course-descriptions/theo/",
+  "fetchedAt": "2026-06-20",
+  "courses": [
+    {
+      "id": "THEO100",
+      "code": "THEO 100",
+      "title": "Christian Theology",
+      "credits": 3
+    },
+    {
+      "id": "THEO107",
+      "code": "THEO 107",
+      "title": "Introduction to Religious Studies",
+      "credits": 3
+    },
+    {
+      "id": "THEO185",
+      "code": "THEO 185",
+      "title": "Christian Ethics",
+      "credits": 3
+    },
+    {
+      "id": "THEO186",
+      "code": "THEO 186",
+      "title": "Global Religious Ethics",
+      "credits": 3
+    },
+    {
+      "id": "THEO190",
+      "code": "THEO 190",
+      "title": "Loyola's Mission: Ignatian Traditions",
+      "credits": 3
+    },
+    {
+      "id": "THEO203",
+      "code": "THEO 203",
+      "title": "Social Justice and Injustice",
+      "credits": 3
+    },
+    {
+      "id": "THEO204",
+      "code": "THEO 204",
+      "title": "Religious Ethics and the Ecological Crisis",
+      "credits": 3
+    },
+    {
+      "id": "THEO214",
+      "code": "THEO 214",
+      "title": "Introduction to the Qur'an",
+      "credits": 3
+    },
+    {
+      "id": "THEO231",
+      "code": "THEO 231",
+      "title": "Hebrew Bible/Old Testament",
+      "credits": 3
+    },
+    {
+      "id": "THEO232",
+      "code": "THEO 232",
+      "title": "New Testament",
+      "credits": 3
+    },
+    {
+      "id": "THEO265",
+      "code": "THEO 265",
+      "title": "Sacraments and the Christian Imagination",
+      "credits": 3
+    },
+    {
+      "id": "THEO266",
+      "code": "THEO 266",
+      "title": "Church & Global Cultures",
+      "credits": 3
+    },
+    {
+      "id": "THEO267",
+      "code": "THEO 267",
+      "title": "Jesus Christ",
+      "credits": 3
+    },
+    {
+      "id": "THEO272",
+      "code": "THEO 272",
+      "title": "Judaism",
+      "credits": 3
+    },
+    {
+      "id": "THEO276",
+      "code": "THEO 276",
+      "title": "Black World Religion",
+      "credits": 3
+    },
+    {
+      "id": "THEO278",
+      "code": "THEO 278",
+      "title": "Religion & Gender",
+      "credits": 3
+    },
+    {
+      "id": "THEO279",
+      "code": "THEO 279",
+      "title": "Roman Catholicism",
+      "credits": 3
+    },
+    {
+      "id": "THEO280",
+      "code": "THEO 280",
+      "title": "Religion & Interdisciplinary Studies",
+      "credits": 3
+    },
+    {
+      "id": "THEO281",
+      "code": "THEO 281",
+      "title": "Christianity Through Time",
+      "credits": 3
+    },
+    {
+      "id": "THEO282",
+      "code": "THEO 282",
+      "title": "Hinduism",
+      "credits": 3
+    },
+    {
+      "id": "THEO293",
+      "code": "THEO 293",
+      "title": "Christian Marriage",
+      "credits": 3
+    },
+    {
+      "id": "THEO295",
+      "code": "THEO 295",
+      "title": "Islam",
+      "credits": 3
+    },
+    {
+      "id": "THEO297",
+      "code": "THEO 297",
+      "title": "Buddhism",
+      "credits": 3
+    },
+    {
+      "id": "THEO299",
+      "code": "THEO 299",
+      "title": "Religions of Asia",
+      "credits": 3
+    },
+    {
+      "id": "THEO302",
+      "code": "THEO 302",
+      "title": "Wisdom Literature and Psalms",
+      "credits": 3
+    },
+    {
+      "id": "THEO303",
+      "code": "THEO 303",
+      "title": "Pentateuch",
+      "credits": 3
+    },
+    {
+      "id": "THEO304",
+      "code": "THEO 304",
+      "title": "Israel Conquest to Exile",
+      "credits": 3
+    },
+    {
+      "id": "THEO308",
+      "code": "THEO 308",
+      "title": "Biblical Hebrew I",
+      "credits": 3
+    },
+    {
+      "id": "THEO309",
+      "code": "THEO 309",
+      "title": "Biblical Hebrew II",
+      "credits": 3
+    },
+    {
+      "id": "THEO311",
+      "code": "THEO 311",
+      "title": "The Meaning of Jesus Christ",
+      "credits": 3
+    },
+    {
+      "id": "THEO313",
+      "code": "THEO 313",
+      "title": "Gospels of Matthew, Mark & Luke",
+      "credits": 3
+    },
+    {
+      "id": "THEO314",
+      "code": "THEO 314",
+      "title": "Topics in Biblical Studies",
+      "credits": 3
+    },
+    {
+      "id": "THEO317",
+      "code": "THEO 317",
+      "title": "Christian Thought: Ancient-Medieval",
+      "credits": 3
+    },
+    {
+      "id": "THEO318",
+      "code": "THEO 318",
+      "title": "Christian Thought: Reformation to Modern",
+      "credits": 3
+    },
+    {
+      "id": "THEO330",
+      "code": "THEO 330",
+      "title": "Liberation Theology",
+      "credits": 3
+    },
+    {
+      "id": "THEO331",
+      "code": "THEO 331",
+      "title": "Theology of Secularization",
+      "credits": 3
+    },
+    {
+      "id": "THEO340",
+      "code": "THEO 340",
+      "title": "Foundations of Christian Morality",
+      "credits": 3
+    },
+    {
+      "id": "THEO342",
+      "code": "THEO 342",
+      "title": "Perspectives on Life and Death",
+      "credits": 3
+    },
+    {
+      "id": "THEO343",
+      "code": "THEO 343",
+      "title": "Contemporary Christian Sexuality",
+      "credits": 3
+    },
+    {
+      "id": "THEO344",
+      "code": "THEO 344",
+      "title": "Theology and Ecology",
+      "credits": 3
+    },
+    {
+      "id": "THEO348",
+      "code": "THEO 348",
+      "title": "Supervised Ministry",
+      "credits": 3
+    },
+    {
+      "id": "THEO349",
+      "code": "THEO 349",
+      "title": "Theological Topics for the Bioethics Capstone",
+      "credits": 3
+    },
+    {
+      "id": "THEO350",
+      "code": "THEO 350",
+      "title": "Topics in Islam",
+      "credits": 3
+    },
+    {
+      "id": "THEO352",
+      "code": "THEO 352",
+      "title": "Topics in Buddhism",
+      "credits": 3
+    },
+    {
+      "id": "THEO353",
+      "code": "THEO 353",
+      "title": "Religious Traditions",
+      "credits": 3
+    },
+    {
+      "id": "THEO356",
+      "code": "THEO 356",
+      "title": "Topics in Judaism",
+      "credits": 3
+    },
+    {
+      "id": "THEO365",
+      "code": "THEO 365",
+      "title": "Women, Gender and Embodiment in Islam",
+      "credits": 3
+    },
+    {
+      "id": "THEO366",
+      "code": "THEO 366",
+      "title": "Contemporary Islamic Thought and Movements",
+      "credits": 3
+    },
+    {
+      "id": "THEO373",
+      "code": "THEO 373",
+      "title": "Theology Capstone",
+      "credits": 3
+    },
+    {
+      "id": "THEO378",
+      "code": "THEO 378",
+      "title": "Theology and Culture",
+      "credits": 3
+    },
+    {
+      "id": "THEO382",
+      "code": "THEO 382",
+      "title": "Readings-Liturgy",
+      "credits": 3
+    },
+    {
+      "id": "THEO383",
+      "code": "THEO 383",
+      "title": "Theology Arts & Literature",
+      "credits": 1
+    },
+    {
+      "id": "THEO392",
+      "code": "THEO 392",
+      "title": "Readings in Theology",
+      "credits": 3
+    },
+    {
+      "id": "THEO393",
+      "code": "THEO 393",
+      "title": "Seminar",
+      "credits": 3
+    },
+    {
+      "id": "THEO395",
+      "code": "THEO 395",
+      "title": "Theology Tutorial",
+      "credits": 3
+    },
+    {
+      "id": "THEO401",
+      "code": "THEO 401",
+      "title": "Tutorial in Biblical Studies",
+      "credits": 3
+    },
+    {
+      "id": "THEO403",
+      "code": "THEO 403",
+      "title": "Topics in Rabbinic & Medieval Literature",
+      "credits": 3
+    },
+    {
+      "id": "THEO404",
+      "code": "THEO 404",
+      "title": "History of Israel",
+      "credits": 3
+    },
+    {
+      "id": "THEO405",
+      "code": "THEO 405",
+      "title": "Formation of The Pentateuch",
+      "credits": 3
+    },
+    {
+      "id": "THEO406",
+      "code": "THEO 406",
+      "title": "Basic Hebrew Grammar",
+      "credits": 3
+    },
+    {
+      "id": "THEO407",
+      "code": "THEO 407",
+      "title": "Hebrew Exegesis",
+      "credits": 3
+    },
+    {
+      "id": "THEO418",
+      "code": "THEO 418",
+      "title": "Theological Prophets-Ancient Israel",
+      "credits": 3
+    },
+    {
+      "id": "THEO420",
+      "code": "THEO 420",
+      "title": "Seminar",
+      "credits": 3
+    },
+    {
+      "id": "THEO421",
+      "code": "THEO 421",
+      "title": "Directed Reading in Bible Studies",
+      "credits": 1
+    },
+    {
+      "id": "THEO422",
+      "code": "THEO 422",
+      "title": "Directed Reading in Bible Studies",
+      "credits": 3
+    },
+    {
+      "id": "THEO424",
+      "code": "THEO 424",
+      "title": "The Synoptic Gospels",
+      "credits": 3
+    },
+    {
+      "id": "THEO425",
+      "code": "THEO 425",
+      "title": "Luke-Acts & New Testament Church",
+      "credits": 3
+    },
+    {
+      "id": "THEO427",
+      "code": "THEO 427",
+      "title": "St Paul's Contribution to Christianity",
+      "credits": 3
+    },
+    {
+      "id": "THEO429",
+      "code": "THEO 429",
+      "title": "Person of Jesus in New Testament",
+      "credits": 3
+    },
+    {
+      "id": "THEO436",
+      "code": "THEO 436",
+      "title": "Christology",
+      "credits": 3
+    },
+    {
+      "id": "THEO437",
+      "code": "THEO 437",
+      "title": "Mystery of God in Christian Theology",
+      "credits": 3
+    },
+    {
+      "id": "THEO440",
+      "code": "THEO 440",
+      "title": "Seminar in Systematic Theology",
+      "credits": 1
+    },
+    {
+      "id": "THEO441",
+      "code": "THEO 441",
+      "title": "Directed Reading in Systematic Theology",
+      "credits": 3
+    },
+    {
+      "id": "THEO447",
+      "code": "THEO 447",
+      "title": "Philosophical Theology",
+      "credits": 3
+    },
+    {
+      "id": "THEO449",
+      "code": "THEO 449",
+      "title": "Phenomenology of Religion",
+      "credits": 3
+    },
+    {
+      "id": "THEO459",
+      "code": "THEO 459",
+      "title": "Contemporary Theology",
+      "credits": 1
+    },
+    {
+      "id": "THEO460",
+      "code": "THEO 460",
+      "title": "Seminar in History of Theology",
+      "credits": 1
+    },
+    {
+      "id": "THEO461",
+      "code": "THEO 461",
+      "title": "Directed Readings in History of Theology",
+      "credits": 3
+    },
+    {
+      "id": "THEO464",
+      "code": "THEO 464",
+      "title": "Religion & Politics in Christian History",
+      "credits": 3
+    },
+    {
+      "id": "THEO470",
+      "code": "THEO 470",
+      "title": "Foundations Crititical Issues Theological Ethics",
+      "credits": 1
+    },
+    {
+      "id": "THEO475",
+      "code": "THEO 475",
+      "title": "Natural Law & Theological Ethics",
+      "credits": 3
+    },
+    {
+      "id": "THEO477",
+      "code": "THEO 477",
+      "title": "Feminist Issues in Theology and Ethics",
+      "credits": 3
+    },
+    {
+      "id": "THEO478",
+      "code": "THEO 478",
+      "title": "Issues in Medical Ethics",
+      "credits": 3
+    },
+    {
+      "id": "THEO480",
+      "code": "THEO 480",
+      "title": "Seminar in Christian Ethics",
+      "credits": 1
+    },
+    {
+      "id": "THEO481",
+      "code": "THEO 481",
+      "title": "Directed Readings Christian Ethics",
+      "credits": 3
+    },
+    {
+      "id": "THEO500",
+      "code": "THEO 500",
+      "title": "Theological Pedagogy I",
+      "credits": 0
+    },
+    {
+      "id": "THEO502",
+      "code": "THEO 502",
+      "title": "Theological Pedagogy II",
+      "credits": 0
+    },
+    {
+      "id": "THEO515",
+      "code": "THEO 515",
+      "title": "Gospels in Early Christianity",
+      "credits": 3
+    },
+    {
+      "id": "THEO517",
+      "code": "THEO 517",
+      "title": "Early Christian Letters",
+      "credits": 1
+    },
+    {
+      "id": "THEO519",
+      "code": "THEO 519",
+      "title": "Latr Nt-Subapost Writ",
+      "credits": 3
+    },
+    {
+      "id": "THEO523",
+      "code": "THEO 523",
+      "title": "Cultural-Religious Environment Early Christianity",
+      "credits": 3
+    },
+    {
+      "id": "THEO527",
+      "code": "THEO 527",
+      "title": "Various Community Early Christianity",
+      "credits": 3
+    },
+    {
+      "id": "THEO530",
+      "code": "THEO 530",
+      "title": "Seminar - Variable Titles",
+      "credits": 1
+    },
+    {
+      "id": "THEO536",
+      "code": "THEO 536",
+      "title": "Christian Doctrine-Catholic Theology",
+      "credits": 3
+    },
+    {
+      "id": "THEO560",
+      "code": "THEO 560",
+      "title": "Contemporary Authors",
+      "credits": 1
+    },
+    {
+      "id": "THEO570",
+      "code": "THEO 570",
+      "title": "Fundamental Issues in Christian Ethics",
+      "credits": 1
+    },
+    {
+      "id": "THEO573",
+      "code": "THEO 573",
+      "title": "Roman Catholic Ethics",
+      "credits": 3
+    },
+    {
+      "id": "THEO575",
+      "code": "THEO 575",
+      "title": "Religious Ethics and Social Theory",
+      "credits": 3
+    },
+    {
+      "id": "THEO580",
+      "code": "THEO 580",
+      "title": "Christian Social Ethics",
+      "credits": 3
+    },
+    {
+      "id": "THEO585",
+      "code": "THEO 585",
+      "title": "Issues Applied Theology Ethics",
+      "credits": 3
+    },
+    {
+      "id": "THEO590",
+      "code": "THEO 590",
+      "title": "Directed Readings and Research",
+      "credits": 3
+    },
+    {
+      "id": "THEO592",
+      "code": "THEO 592",
+      "title": "Directed Readings",
+      "credits": 3
+    },
+    {
+      "id": "THEO593",
+      "code": "THEO 593",
+      "title": "Directed Readings",
+      "credits": 3
+    },
+    {
+      "id": "THEO600",
+      "code": "THEO 600",
+      "title": "Dissertation Supervision",
+      "credits": 0
+    },
+    {
+      "id": "THEO605",
+      "code": "THEO 605",
+      "title": "Master's Study",
+      "credits": 0
+    },
+    {
+      "id": "THEO610",
+      "code": "THEO 610",
+      "title": "Doctoral Study",
+      "credits": 0
+    }
+  ]
+}

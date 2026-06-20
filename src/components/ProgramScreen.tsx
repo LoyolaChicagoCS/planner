@@ -30,31 +30,29 @@ interface CoreFocusTarget {
 
 interface ProgramScreenProps {
   program: Program;
+  allPrograms: Program[];
   completed: CompletedSet;
   toggle: (id: string) => void;
   clear: (idsToClear: Iterable<string>) => void;
   onBack: () => void;
 }
 
-/**
- * ProgramScreen — four horizontally-swipeable panels for one degree program.
- *
- * Props:
- *   program   — full program data object
- *   completed — Set of completed IDs
- *   toggle    — function(id) to mark/unmark
- *   clear     — function(ids) to remove completed IDs
- *   onBack    — callback to return to HomeScreen
- */
-export default function ProgramScreen({ program, completed, toggle, clear, onBack }: ProgramScreenProps) {
+export default function ProgramScreen({ program, allPrograms, completed, toggle, clear, onBack }: ProgramScreenProps) {
   const [activeIndex, setActiveIndex] = useState(0);
   const [copied, setCopied]           = useState(false);
   const [coreFocusTarget, setCoreFocusTarget] = useState<CoreFocusTarget | null>(null);
   const swiperRef                     = useRef<SwiperInstance | null>(null);
 
+  const hasRoadmap = (program.roadmap ?? []).length > 0;
   const hasCoreTab = (program.coreRequirements ?? []).length > 0;
-  const tabs = hasCoreTab ? ['Courses', 'Core', 'Roadmap', 'Checklist', 'Audit'] : ['Courses', 'Roadmap', 'Checklist', 'Audit'];
-  const coreTabIndex = hasCoreTab ? 1 : -1;
+  const tabs = [
+    ...(hasRoadmap ? ['Roadmap'] : []),
+    'Courses',
+    ...(hasCoreTab ? ['Core'] : []),
+    'Checklist',
+    'Audit',
+  ];
+  const coreTabIndex = hasCoreTab ? tabs.indexOf('Core') : -1;
   const creditGoal = program.kind === 'minor' || program.kind === 'masters' || program.kind === 'phd' ? program.totalCredits : 120;
   const requirementCreditLabel = program.kind === 'minor'
     ? `${program.minorCredits ?? program.totalCredits} minor credits`
@@ -62,7 +60,9 @@ export default function ProgramScreen({ program, completed, toggle, clear, onBac
     ? `${program.totalCredits} program credits`
     : program.kind === 'phd'
     ? `${program.totalCredits} program credits`
-    : `${program.totalCredits} roadmap credits`;
+    : hasRoadmap
+    ? `${program.totalCredits} roadmap credits`
+    : `${program.totalCredits} total credits`;
   const { isCompleted, isRequirementSatisfied, getRequirementStatus, toggleItem } =
     createProgressHelpers(program, completed, toggle);
   const doneCredits = calcDistinctDoneCredits(program, completed);
@@ -222,10 +222,24 @@ export default function ProgramScreen({ program, completed, toggle, clear, onBac
           onSwiper={swiper => { swiperRef.current = swiper; }}
           onSlideChange={swiper => setActiveIndex(swiper.activeIndex)}
         >
+          {hasRoadmap && (
+            <SwiperSlide style={{ overflowY: 'auto' }}>
+              <Roadmap
+                program={program}
+                completed={completed}
+                getRequirementStatus={getRequirementStatus}
+                toggleItem={toggleItem}
+                onOpenCoreRequirement={openCoreRequirement}
+              />
+              <Footer />
+            </SwiperSlide>
+          )}
+
           <SwiperSlide style={{ overflowY: 'auto' }}>
             <CourseList
               program={program}
               completed={completed}
+              toggle={toggle}
               isCompleted={isCompleted}
               getRequirementStatus={getRequirementStatus}
               toggleItem={toggleItem}
@@ -248,17 +262,6 @@ export default function ProgramScreen({ program, completed, toggle, clear, onBac
           )}
 
           <SwiperSlide style={{ overflowY: 'auto' }}>
-            <Roadmap
-              program={program}
-              completed={completed}
-              getRequirementStatus={getRequirementStatus}
-              toggleItem={toggleItem}
-              onOpenCoreRequirement={openCoreRequirement}
-            />
-            <Footer />
-          </SwiperSlide>
-
-          <SwiperSlide style={{ overflowY: 'auto' }}>
             <Checklist
               program={program}
               completed={completed}
@@ -273,6 +276,7 @@ export default function ProgramScreen({ program, completed, toggle, clear, onBac
           <SwiperSlide style={{ overflowY: 'auto' }}>
             <Audit
               program={program}
+              allPrograms={allPrograms}
               completed={completed}
               toggle={toggle}
               isCompleted={isCompleted}

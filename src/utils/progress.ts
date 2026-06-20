@@ -1,5 +1,51 @@
 import { coreRequirementGroup, getCoreCatalogItemsForProgram } from './coreCatalog';
-import type { CompletedSet, Program, ProgressItem } from '../types';
+import type { CompletedSet, Course, ElectiveGroup, Program, ProgressItem } from '../types';
+
+const OPEN_SLOT_CREDITS = 3;
+
+function slotTitle(groupLabel: string, i: number): string {
+  const base = groupLabel
+    .replace(/\bElectives\b/, 'Elective')
+    .replace(/\bCourses\b/, 'Course')
+    .replace(/\bRequirements\b/, 'Requirement')
+    .trim();
+  return `${base} ${i + 1}`;
+}
+
+/**
+ * For additional programs whose electiveOptions groups have no specific courses
+ * listed, injects synthetic slot items so the usual checkbox/progress logic works.
+ * Each slot represents one 3-credit elective the student claims to have completed.
+ */
+export function enrichOpenElectiveGroups(program: Program): Program {
+  const enrichedOptions: Record<string, ElectiveGroup> = {};
+  let changed = false;
+
+  for (const [key, group] of Object.entries(program.electiveOptions ?? {})) {
+    if ((group.courses ?? []).length > 0) {
+      enrichedOptions[key] = group;
+      continue;
+    }
+    if (!group.creditsRequired) {
+      enrichedOptions[key] = group;
+      continue;
+    }
+    const slotCount = Math.max(1, Math.round(group.creditsRequired / OPEN_SLOT_CREDITS));
+    const slots: Course[] = Array.from({ length: slotCount }, (_, i) => ({
+      id: `open-slot:${program.id}:${key}:${i}`,
+      code: '',
+      title: slotTitle(group.label, i),
+      credits: OPEN_SLOT_CREDITS,
+      category: 'elective' as const,
+      uniqueProgress: true,
+    }));
+    enrichedOptions[key] = { ...group, courses: slots };
+    changed = true;
+  }
+
+  if (!changed) return program;
+  return { ...program, electiveOptions: enrichedOptions };
+}
 
 export interface RequirementStatus {
   completed: boolean;

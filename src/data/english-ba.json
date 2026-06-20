@@ -1,0 +1,44 @@
+{
+  "id": "english-ba",
+  "department": "English",
+  "name": "English",
+  "degree": "BA",
+  "school": "Loyola University Chicago",
+  "totalCredits": 120,
+  "majorCredits": 36,
+  "catalogUrl": "https://catalog.luc.edu/undergraduate/arts-sciences/english/english-ba/",
+  "courses": [
+    { "id": "ENGL390", "code": "ENGL 390", "title": "Advanced Seminar (Capstone)", "credits": 3, "category": "major" },
+    { "id": "ENGL354", "code": "ENGL 354", "title": "Contemporary Critical Theory", "credits": 3, "category": "major", "requirementGroup": "engl-literary-theory", "choiceNote": "Choose ENGL 354 or 355" },
+    { "id": "ENGL355", "code": "ENGL 355", "title": "Studies in Literary Criticism", "credits": 3, "category": "major", "requirementGroup": "engl-literary-theory", "choiceNote": "Choose ENGL 354 or 355" },
+    { "id": "ENGL326", "code": "ENGL 326", "title": "Shakespeare: Selected Major Plays", "credits": 3, "category": "major", "requirementGroup": "engl-shakespeare", "choiceNote": "Choose ENGL 326 or 327" },
+    { "id": "ENGL327", "code": "ENGL 327", "title": "Studies in Shakespeare", "credits": 3, "category": "major", "requirementGroup": "engl-shakespeare", "choiceNote": "Choose ENGL 326 or 327" }
+  ],
+  "electiveOptions": {
+    "engl-pre-1700": {
+      "creditsRequired": 3,
+      "label": "English Literature Before 1700",
+      "note": "One course covering literature prior to 1700"
+    },
+    "engl-1700-1900": {
+      "creditsRequired": 3,
+      "label": "English Literature 1700–1900",
+      "note": "One course covering literature from 1700 to 1900"
+    },
+    "engl-pre-1900-third": {
+      "creditsRequired": 3,
+      "label": "Additional Pre-1900 Literature Course",
+      "note": "One additional course from either the pre-1700 or 1700–1900 period"
+    },
+    "engl-since-1900": {
+      "creditsRequired": 3,
+      "label": "English Literature Since 1900",
+      "note": "One course from the designated 20th/21st-century list"
+    },
+    "engl-electives": {
+      "creditsRequired": 15,
+      "label": "English Electives",
+      "note": "Five additional ENGL courses; at least one must satisfy the multicultural requirement"
+    }
+  }
+}

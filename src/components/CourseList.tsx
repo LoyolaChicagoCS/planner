@@ -1,17 +1,20 @@
 import { useState } from 'react';
 import SearchBox from './SearchBox';
 import { hasConcreteCoreSelection } from '../utils/coreCatalog';
+import { createProgressHelpers } from '../utils/progress';
 import { matchesSearch, normalizeSearch } from '../utils/search';
 import type { CompletedSet, CoreRequirement, Course, ElectiveGroup as ElectiveGroupModel, Program, ProgressItem } from '../types';
 import type { RequirementStatus } from '../utils/progress';
 
 type IsCompleted = (itemOrId: ProgressItem | string) => boolean;
 type GetRequirementStatus = (itemOrId: ProgressItem | string) => RequirementStatus;
+type Toggle = (id: string) => void;
 type ToggleItem = (itemOrId: ProgressItem | string) => void;
 
 interface CourseListProps {
   program: Program;
   completed: CompletedSet;
+  toggle: Toggle;
   isCompleted: IsCompleted;
   getRequirementStatus: GetRequirementStatus;
   toggleItem: ToggleItem;
@@ -30,7 +33,7 @@ interface CourseListProps {
  *   completed — Set of completed course/item IDs
  *   toggle    — function(id) to mark/unmark a course
  */
-export default function CourseList({ program, completed, isCompleted, getRequirementStatus, toggleItem, onOpenCoreRequirement }: CourseListProps) {
+export default function CourseList({ program, completed, toggle, isCompleted, getRequirementStatus, toggleItem, onOpenCoreRequirement }: CourseListProps) {
   const [query, setQuery] = useState('');
   const search = normalizeSearch(query);
   const isMinor = program.kind === 'minor';
@@ -225,6 +228,8 @@ function ElectiveCourseRow({ course, isCompleted, toggleItem }: { course: Course
     </button>
   );
 }
+
+/** Courses section for an additional (non-primary) program the student is tracking */
 
 /** Core curriculum items with checkboxes */
 function CoreInfo({ program, completed, search, getRequirementStatus, toggleItem, onOpenCoreRequirement }: {

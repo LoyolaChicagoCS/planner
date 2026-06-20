@@ -1,0 +1,183 @@
+{
+  "catalog": "2026-2027",
+  "code": "DANC",
+  "name": "Dance",
+  "sourceUrl": "https://catalog.luc.edu/course-descriptions/danc/",
+  "fetchedAt": "2026-06-20",
+  "courses": [
+    {
+      "id": "DANC111",
+      "code": "DANC 111",
+      "title": "Ballet I: Introduction to Ballet Theory and Technique",
+      "credits": 3
+    },
+    {
+      "id": "DANC121",
+      "code": "DANC 121",
+      "title": "Modern Dance I: Theories and Techniques",
+      "credits": 3
+    },
+    {
+      "id": "DANC131",
+      "code": "DANC 131",
+      "title": "Jazz Dance I: Theories and Techniques",
+      "credits": 3
+    },
+    {
+      "id": "DANC212",
+      "code": "DANC 212",
+      "title": "Ballet Dance II: Theory and Technique",
+      "credits": 2
+    },
+    {
+      "id": "DANC213",
+      "code": "DANC 213",
+      "title": "Ballet III: Advanced Continuing Ballet",
+      "credits": 2
+    },
+    {
+      "id": "DANC222",
+      "code": "DANC 222",
+      "title": "Modern Dance II: Theory and Technique",
+      "credits": 2
+    },
+    {
+      "id": "DANC224",
+      "code": "DANC 224",
+      "title": "Majors Modern II",
+      "credits": 1
+    },
+    {
+      "id": "DANC232",
+      "code": "DANC 232",
+      "title": "Jazz Dance II: Theories and Techniques",
+      "credits": 2
+    },
+    {
+      "id": "DANC240",
+      "code": "DANC 240",
+      "title": "Dance Practicum",
+      "credits": 1
+    },
+    {
+      "id": "DANC250",
+      "code": "DANC 250",
+      "title": "Historical Contexts in Contemporary Dance Practice",
+      "credits": 3
+    },
+    {
+      "id": "DANC260",
+      "code": "DANC 260",
+      "title": "Topics in Dance",
+      "credits": 2
+    },
+    {
+      "id": "DANC261",
+      "code": "DANC 261",
+      "title": "Topics in Applied Dance",
+      "credits": 1
+    },
+    {
+      "id": "DANC270",
+      "code": "DANC 270",
+      "title": "Dance Kinesiology",
+      "credits": 3
+    },
+    {
+      "id": "DANC275",
+      "code": "DANC 275",
+      "title": "Global Influences on Contemporary Dance Practice",
+      "credits": 2
+    },
+    {
+      "id": "DANC280",
+      "code": "DANC 280",
+      "title": "Dance & Disability: Interdisciplinary Theory & Applied Movement Practices",
+      "credits": 3
+    },
+    {
+      "id": "DANC312",
+      "code": "DANC 312",
+      "title": "Pointe I: Theory and Techniques",
+      "credits": 1
+    },
+    {
+      "id": "DANC314",
+      "code": "DANC 314",
+      "title": "Pointe II: Continuing Pointework",
+      "credits": 1
+    },
+    {
+      "id": "DANC323",
+      "code": "DANC 323",
+      "title": "Rehearsal and Performance",
+      "credits": 1
+    },
+    {
+      "id": "DANC324",
+      "code": "DANC 324",
+      "title": "Modern III: Theory and Techniques",
+      "credits": 1
+    },
+    {
+      "id": "DANC331",
+      "code": "DANC 331",
+      "title": "Jazz Dance III: Intermediate Jazz Dance Theories and Techniques",
+      "credits": 2
+    },
+    {
+      "id": "DANC341",
+      "code": "DANC 341",
+      "title": "Ballet IV: Anatomical Foundations and Cultural Context",
+      "credits": 1
+    },
+    {
+      "id": "DANC343",
+      "code": "DANC 343",
+      "title": "Ballet V: Advancing Ballet: Contemporary Methodologies in Applied Ballet",
+      "credits": 1
+    },
+    {
+      "id": "DANC360",
+      "code": "DANC 360",
+      "title": "Dance Pedagogy",
+      "credits": 3
+    },
+    {
+      "id": "DANC370",
+      "code": "DANC 370",
+      "title": "Dance Composition",
+      "credits": 3
+    },
+    {
+      "id": "DANC380",
+      "code": "DANC 380",
+      "title": "Senior Showcase Capstone",
+      "credits": 1
+    },
+    {
+      "id": "DANC394",
+      "code": "DANC 394",
+      "title": "Internship in Dance",
+      "credits": 1
+    },
+    {
+      "id": "DANC395",
+      "code": "DANC 395",
+      "title": "Independent Study",
+      "credits": 1
+    },
+    {
+      "id": "DANC397",
+      "code": "DANC 397",
+      "title": "Fieldwork in Chicago - Dance",
+      "credits": 1
+    },
+    {
+      "id": "DANC398",
+      "code": "DANC 398",
+      "title": "Research in Dance",
+      "credits": 1
+    }
+  ]
+}

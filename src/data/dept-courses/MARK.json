@@ -1,0 +1,245 @@
+{
+  "catalog": "2026-2027",
+  "code": "MARK",
+  "name": "Marketing",
+  "sourceUrl": "https://catalog.luc.edu/course-descriptions/mark/",
+  "fetchedAt": "2026-06-20",
+  "courses": [
+    {
+      "id": "MARK201",
+      "code": "MARK 201",
+      "title": "Principles of Marketing",
+      "credits": 3
+    },
+    {
+      "id": "MARK201H",
+      "code": "MARK 201H",
+      "title": "Principles of Marketing - Honors",
+      "credits": 3
+    },
+    {
+      "id": "MARK310",
+      "code": "MARK 310",
+      "title": "Consumer Behavior",
+      "credits": 3
+    },
+    {
+      "id": "MARK311",
+      "code": "MARK 311",
+      "title": "Marketing Research",
+      "credits": 3
+    },
+    {
+      "id": "MARK312",
+      "code": "MARK 312",
+      "title": "Gender and Marketing",
+      "credits": 3
+    },
+    {
+      "id": "MARK320",
+      "code": "MARK 320",
+      "title": "Marketing for Environmental Sustainability",
+      "credits": 3
+    },
+    {
+      "id": "MARK321",
+      "code": "MARK 321",
+      "title": "Ignatian Design Thinking",
+      "credits": 3
+    },
+    {
+      "id": "MARK323",
+      "code": "MARK 323",
+      "title": "Personal Selling",
+      "credits": 3
+    },
+    {
+      "id": "MARK334",
+      "code": "MARK 334",
+      "title": "Services Marketing",
+      "credits": 3
+    },
+    {
+      "id": "MARK360",
+      "code": "MARK 360",
+      "title": "Retailing Management",
+      "credits": 3
+    },
+    {
+      "id": "MARK363",
+      "code": "MARK 363",
+      "title": "International Marketing",
+      "credits": 3
+    },
+    {
+      "id": "MARK367",
+      "code": "MARK 367",
+      "title": "Multicultural Marketing",
+      "credits": 3
+    },
+    {
+      "id": "MARK370",
+      "code": "MARK 370",
+      "title": "Political Marketing",
+      "credits": 3
+    },
+    {
+      "id": "MARK373",
+      "code": "MARK 373",
+      "title": "Integrated Marketing Communications",
+      "credits": 3
+    },
+    {
+      "id": "MARK380",
+      "code": "MARK 380",
+      "title": "Digital Marketing",
+      "credits": 3
+    },
+    {
+      "id": "MARK390",
+      "code": "MARK 390",
+      "title": "Marketing Strategies",
+      "credits": 3
+    },
+    {
+      "id": "MARK395",
+      "code": "MARK 395",
+      "title": "Independent Study",
+      "credits": 1
+    },
+    {
+      "id": "MARK399",
+      "code": "MARK 399",
+      "title": "Special Topics in Marketing",
+      "credits": 1
+    },
+    {
+      "id": "MARK425N",
+      "code": "MARK 425N",
+      "title": "Business Communication",
+      "credits": 5
+    },
+    {
+      "id": "MARK460",
+      "code": "MARK 460",
+      "title": "Marketing Management",
+      "credits": 3,
+      "isTopics": true,
+      "topicsCount": 3
+    },
+    {
+      "id": "MARK461",
+      "code": "MARK 461",
+      "title": "Research Methods in Marketing",
+      "credits": 3
+    },
+    {
+      "id": "MARK463",
+      "code": "MARK 463",
+      "title": "Sales and Strategic Leadership",
+      "credits": 3
+    },
+    {
+      "id": "MARK464",
+      "code": "MARK 464",
+      "title": "Integrated Marketing Communication",
+      "credits": 3
+    },
+    {
+      "id": "MARK465",
+      "code": "MARK 465",
+      "title": "International Marketing",
+      "credits": 3
+    },
+    {
+      "id": "MARK467",
+      "code": "MARK 467",
+      "title": "Consumer Behavior",
+      "credits": 3
+    },
+    {
+      "id": "MARK468",
+      "code": "MARK 468",
+      "title": "Digital Marketing",
+      "credits": 3
+    },
+    {
+      "id": "MARK469",
+      "code": "MARK 469",
+      "title": "Independent Study-Marketing Management",
+      "credits": 3
+    },
+    {
+      "id": "MARK470N",
+      "code": "MARK 470N",
+      "title": "Research, Insights and Storytelling",
+      "credits": 3
+    },
+    {
+      "id": "MARK472E",
+      "code": "MARK 472E",
+      "title": "Market Opportunity Analysis",
+      "credits": 5
+    },
+    {
+      "id": "MARK561",
+      "code": "MARK 561",
+      "title": "Comparative Consumer Behavior",
+      "credits": 3
+    },
+    {
+      "id": "MARK562",
+      "code": "MARK 562",
+      "title": "Database Marketing Strategy",
+      "credits": 3
+    },
+    {
+      "id": "MARK564",
+      "code": "MARK 564",
+      "title": "Brand Equity and Marketing Strategy",
+      "credits": 3
+    },
+    {
+      "id": "MARK566",
+      "code": "MARK 566",
+      "title": "Integrated Media Planning",
+      "credits": 3
+    },
+    {
+      "id": "MARK567",
+      "code": "MARK 567",
+      "title": "Customer Relationship Management",
+      "credits": 3
+    },
+    {
+      "id": "MARK568",
+      "code": "MARK 568",
+      "title": "Social Media & Content Marketing",
+      "credits": 3
+    },
+    {
+      "id": "MARK569",
+      "code": "MARK 569",
+      "title": "Special Topics",
+      "credits": 3
+    },
+    {
+      "id": "MARK660",
+      "code": "MARK 660",
+      "title": "Digital Marketing Analytics",
+      "credits": 3
+    },
+    {
+      "id": "MARK661",
+      "code": "MARK 661",
+      "title": "Customer Analytics",
+      "credits": 3
+    },
+    {
+      "id": "MARK662",
+      "code": "MARK 662",
+      "title": "Marketing Metrics",
+      "credits": 3
+    }
+  ]
+}

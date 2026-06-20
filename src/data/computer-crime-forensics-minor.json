@@ -1,5 +1,6 @@
 {
   "id": "computer-crime-forensics-minor",
+  "department": "Computer Science",
   "name": "Computer Crime and Forensics",
   "degree": "Minor",
   "school": "Loyola University Chicago",
@@ -8,41 +9,109 @@
   "minorCredits": 21,
   "hasCompletionEstimate": false,
   "catalogUrl": "https://catalog.luc.edu/undergraduate/arts-sciences/computer-science/computer-crime-forensics-minor/",
-
   "courses": [
-    { "id": "CCFMIN_CJC101", "code": "CJC 101", "title": "Criminal Justice in a Global Context", "credits": 3, "category": "major" },
-    { "id": "CCFMIN_CJC202", "code": "CJC 202", "title": "Criminal Courts", "credits": 3, "category": "major" },
-    { "id": "CCFMIN_COMP170", "code": "COMP 170", "title": "Introduction to Object-Oriented Programming", "credits": 3, "category": "major" },
-    { "id": "CCFMIN_COMP301", "code": "COMP 301", "title": "Introduction to Computer Security", "credits": 3, "category": "major" },
-    { "id": "CCFMIN_COMP340", "code": "COMP 340", "title": "Computer Forensics", "credits": 3, "category": "major" },
-    { "id": "CCFMIN_COMP347", "code": "COMP 347", "title": "Intrusion Detection and Security", "credits": 3, "category": "major" }
+    {
+      "id": "CCFMIN_CJC101",
+      "code": "CJC 101",
+      "title": "Criminal Justice in a Global Context",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "CCFMIN_CJC202",
+      "code": "CJC 202",
+      "title": "Criminal Courts",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "CCFMIN_COMP170",
+      "code": "COMP 170",
+      "title": "Introduction to Object-Oriented Programming",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "CCFMIN_COMP301",
+      "code": "COMP 301",
+      "title": "Introduction to Computer Security",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "CCFMIN_COMP340",
+      "code": "COMP 340",
+      "title": "Computer Forensics",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "CCFMIN_COMP347",
+      "code": "COMP 347",
+      "title": "Intrusion Detection and Security",
+      "credits": 3,
+      "category": "major"
+    }
   ],
-
   "electiveOptions": {
     "restricted": {
       "creditsRequired": 3,
       "label": "Computer Crime and Forensics Selection",
       "courses": [
-        { "id": "CCFMIN_COMP264", "code": "COMP 264", "title": "Introduction to Computer Systems", "credits": 3, "requirementGroup": "computer-crime-forensics-selection" },
-        { "id": "CCFMIN_COMP317", "code": "COMP 317", "title": "Social, Legal, and Ethical Issues in Computing", "credits": 3, "requirementGroup": "computer-crime-forensics-selection" },
-        { "id": "CCFMIN_CJC323", "code": "CJC 323", "title": "Criminal Procedure", "credits": 3, "requirementGroup": "computer-crime-forensics-selection" },
-        { "id": "CCFMIN_CJC354", "code": "CJC 354", "title": "Cybercrime", "credits": 3, "requirementGroup": "computer-crime-forensics-selection" }
+        {
+          "id": "CCFMIN_COMP264",
+          "code": "COMP 264",
+          "title": "Introduction to Computer Systems",
+          "credits": 3,
+          "requirementGroup": "computer-crime-forensics-selection"
+        },
+        {
+          "id": "CCFMIN_COMP317",
+          "code": "COMP 317",
+          "title": "Social, Legal, and Ethical Issues in Computing",
+          "credits": 3,
+          "requirementGroup": "computer-crime-forensics-selection"
+        },
+        {
+          "id": "CCFMIN_CJC323",
+          "code": "CJC 323",
+          "title": "Criminal Procedure",
+          "credits": 3,
+          "requirementGroup": "computer-crime-forensics-selection"
+        },
+        {
+          "id": "CCFMIN_CJC354",
+          "code": "CJC 354",
+          "title": "Cybercrime",
+          "credits": 3,
+          "requirementGroup": "computer-crime-forensics-selection"
+        }
       ]
     },
-    "practicum": { "creditsRequired": 0, "label": "Practicum", "courses": [] },
-    "free": { "creditsRequired": 0, "label": "Free Electives", "courses": [] }
+    "practicum": {
+      "creditsRequired": 0,
+      "label": "Practicum",
+      "courses": []
+    },
+    "free": {
+      "creditsRequired": 0,
+      "label": "Free Electives",
+      "courses": []
+    }
   },
-
   "coreRequirements": [],
-
   "roadmap": [
     {
       "year": 1,
       "semester": "Semester I",
       "credits": 6,
       "items": [
-        { "ref": "CCFMIN_CJC101" },
-        { "ref": "CCFMIN_COMP170" }
+        {
+          "ref": "CCFMIN_CJC101"
+        },
+        {
+          "ref": "CCFMIN_COMP170"
+        }
       ]
     },
     {
@@ -50,8 +119,12 @@
       "semester": "Semester II",
       "credits": 6,
       "items": [
-        { "ref": "CCFMIN_CJC202" },
-        { "ref": "CCFMIN_COMP301" }
+        {
+          "ref": "CCFMIN_CJC202"
+        },
+        {
+          "ref": "CCFMIN_COMP301"
+        }
       ]
     },
     {
@@ -59,8 +132,12 @@
       "semester": "Semester III",
       "credits": 6,
       "items": [
-        { "ref": "CCFMIN_COMP340" },
-        { "ref": "CCFMIN_COMP347" }
+        {
+          "ref": "CCFMIN_COMP340"
+        },
+        {
+          "ref": "CCFMIN_COMP347"
+        }
       ]
     },
     {
@@ -68,10 +145,13 @@
       "semester": "Semester IV",
       "credits": 3,
       "items": [
-        { "label": "Computer Crime and Forensics Selection", "credits": 3, "isElective": true }
+        {
+          "label": "Computer Crime and Forensics Selection",
+          "credits": 3,
+          "isElective": true
+        }
       ]
     }
   ],
-
   "checklist": []
 }

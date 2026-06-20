@@ -1,0 +1,87 @@
+{
+  "catalog": "2026-2027",
+  "code": "SPRT",
+  "name": "Sport Management",
+  "sourceUrl": "https://catalog.luc.edu/course-descriptions/sprt/",
+  "fetchedAt": "2026-06-20",
+  "courses": [
+    {
+      "id": "SPRT130",
+      "code": "SPRT 130",
+      "title": "The Business of Sports",
+      "credits": 3
+    },
+    {
+      "id": "SPRT320",
+      "code": "SPRT 320",
+      "title": "Social Aspects of Sport Management",
+      "credits": 3
+    },
+    {
+      "id": "SPRT330",
+      "code": "SPRT 330",
+      "title": "Economics of Sport",
+      "credits": 3
+    },
+    {
+      "id": "SPRT335",
+      "code": "SPRT 335",
+      "title": "Fundamentals of Sport Finance",
+      "credits": 3
+    },
+    {
+      "id": "SPRT339",
+      "code": "SPRT 339",
+      "title": "Sports Facility Management and Operations",
+      "credits": 3
+    },
+    {
+      "id": "SPRT345",
+      "code": "SPRT 345",
+      "title": "Globalization of Sport Industry",
+      "credits": 3
+    },
+    {
+      "id": "SPRT365",
+      "code": "SPRT 365",
+      "title": "Fundamentals Sport Marketing",
+      "credits": 3
+    },
+    {
+      "id": "SPRT375",
+      "code": "SPRT 375",
+      "title": "Sport Media",
+      "credits": 3
+    },
+    {
+      "id": "SPRT380",
+      "code": "SPRT 380",
+      "title": "Legal Aspects in Sport Management",
+      "credits": 3
+    },
+    {
+      "id": "SPRT385",
+      "code": "SPRT 385",
+      "title": "Sport Analytics",
+      "credits": 3
+    },
+    {
+      "id": "SPRT395",
+      "code": "SPRT 395",
+      "title": "Independent Study",
+      "credits": 1
+    },
+    {
+      "id": "SPRT399",
+      "code": "SPRT 399",
+      "title": "Special Topics in Sport Management",
+      "credits": 1
+    },
+    {
+      "id": "SPRT532",
+      "code": "SPRT 532",
+      "title": "Sport Law",
+      "credits": 3
+    }
+  ]
+}

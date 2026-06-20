@@ -1,5 +1,6 @@
 {
   "id": "it-minor",
+  "department": "Computer Science",
   "name": "Information Technology",
   "degree": "Minor",
   "school": "Loyola University Chicago",
@@ -8,11 +9,28 @@
   "minorCredits": 18,
   "hasCompletionEstimate": false,
   "catalogUrl": "https://catalog.luc.edu/undergraduate/arts-sciences/computer-science/information-technology-minor/",
-
   "courses": [
-    { "id": "ITMIN_COMP141", "code": "COMP 141", "title": "Introduction to Computing Tools and Techniques", "credits": 3, "category": "major" },
-    { "id": "ITMIN_COMP170", "code": "COMP 170", "title": "Introduction to Object-Oriented Programming", "credits": 3, "category": "major" },
-    { "id": "ITMIN_COMP301", "code": "COMP 301", "title": "Introduction to Computer Security", "credits": 3, "category": "major" },
+    {
+      "id": "ITMIN_COMP141",
+      "code": "COMP 141",
+      "title": "Introduction to Computing Tools and Techniques",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "ITMIN_COMP170",
+      "code": "COMP 170",
+      "title": "Introduction to Object-Oriented Programming",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "ITMIN_COMP301",
+      "code": "COMP 301",
+      "title": "Introduction to Computer Security",
+      "credits": 3,
+      "category": "major"
+    },
     {
       "id": "ITMIN_COMP377",
       "code": "COMP 377",
@@ -32,40 +50,87 @@
       "choiceNote": "Choose COMP 377 or ISSCM 349"
     }
   ],
-
   "electiveOptions": {
     "restricted": {
       "creditsRequired": 3,
       "label": "Foundational IT Selection",
       "courses": [
-        { "id": "ITMIN_COMP251", "code": "COMP 251", "title": "Introduction to Database Systems", "credits": 3, "requirementGroup": "it-minor-foundation" },
-        { "id": "ITMIN_COMP264", "code": "COMP 264", "title": "Introduction to Computer Systems", "credits": 3, "requirementGroup": "it-minor-foundation" },
-        { "id": "ITMIN_COMP271", "code": "COMP 271", "title": "Data Structures I", "credits": 3, "requirementGroup": "it-minor-foundation" }
+        {
+          "id": "ITMIN_COMP251",
+          "code": "COMP 251",
+          "title": "Introduction to Database Systems",
+          "credits": 3,
+          "requirementGroup": "it-minor-foundation"
+        },
+        {
+          "id": "ITMIN_COMP264",
+          "code": "COMP 264",
+          "title": "Introduction to Computer Systems",
+          "credits": 3,
+          "requirementGroup": "it-minor-foundation"
+        },
+        {
+          "id": "ITMIN_COMP271",
+          "code": "COMP 271",
+          "title": "Data Structures I",
+          "credits": 3,
+          "requirementGroup": "it-minor-foundation"
+        }
       ]
     },
     "practicum": {
       "creditsRequired": 3,
       "label": "Advanced IT Selection",
       "courses": [
-        { "id": "ITMIN_COMP306", "code": "COMP 306", "title": "Data Mining", "credits": 3, "requirementGroup": "it-minor-advanced" },
-        { "id": "ITMIN_COMP305", "code": "COMP 305", "title": "Database Administration", "credits": 3, "requirementGroup": "it-minor-advanced" },
-        { "id": "ITMIN_COMP353", "code": "COMP 353", "title": "Database Programming", "credits": 3, "requirementGroup": "it-minor-advanced" },
-        { "id": "ITMIN_COMP343", "code": "COMP 343", "title": "Computer Networks", "credits": 3, "requirementGroup": "it-minor-advanced" }
+        {
+          "id": "ITMIN_COMP306",
+          "code": "COMP 306",
+          "title": "Data Mining",
+          "credits": 3,
+          "requirementGroup": "it-minor-advanced"
+        },
+        {
+          "id": "ITMIN_COMP305",
+          "code": "COMP 305",
+          "title": "Database Administration",
+          "credits": 3,
+          "requirementGroup": "it-minor-advanced"
+        },
+        {
+          "id": "ITMIN_COMP353",
+          "code": "COMP 353",
+          "title": "Database Programming",
+          "credits": 3,
+          "requirementGroup": "it-minor-advanced"
+        },
+        {
+          "id": "ITMIN_COMP343",
+          "code": "COMP 343",
+          "title": "Computer Networks",
+          "credits": 3,
+          "requirementGroup": "it-minor-advanced"
+        }
       ]
     },
-    "free": { "creditsRequired": 0, "label": "Free Electives", "courses": [] }
+    "free": {
+      "creditsRequired": 0,
+      "label": "Free Electives",
+      "courses": []
+    }
   },
-
   "coreRequirements": [],
-
   "roadmap": [
     {
       "year": 1,
       "semester": "Semester I",
       "credits": 6,
       "items": [
-        { "ref": "ITMIN_COMP141" },
-        { "ref": "ITMIN_COMP170" }
+        {
+          "ref": "ITMIN_COMP141"
+        },
+        {
+          "ref": "ITMIN_COMP170"
+        }
       ]
     },
     {
@@ -73,8 +138,14 @@
       "semester": "Semester II",
       "credits": 6,
       "items": [
-        { "label": "Foundational IT Selection", "credits": 3, "isElective": true },
-        { "ref": "ITMIN_COMP301" }
+        {
+          "label": "Foundational IT Selection",
+          "credits": 3,
+          "isElective": true
+        },
+        {
+          "ref": "ITMIN_COMP301"
+        }
       ]
     },
     {
@@ -82,11 +153,16 @@
       "semester": "Semester III",
       "credits": 6,
       "items": [
-        { "ref": "ITMIN_COMP377" },
-        { "label": "Advanced IT Selection", "credits": 3, "isElective": true }
+        {
+          "ref": "ITMIN_COMP377"
+        },
+        {
+          "label": "Advanced IT Selection",
+          "credits": 3,
+          "isElective": true
+        }
       ]
     }
   ],
-
   "checklist": []
 }

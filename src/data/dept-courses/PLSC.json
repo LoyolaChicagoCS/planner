@@ -1,0 +1,977 @@
+{
+  "catalog": "2026-2027",
+  "code": "PLSC",
+  "name": "Political Science",
+  "sourceUrl": "https://catalog.luc.edu/course-descriptions/plsc/",
+  "fetchedAt": "2026-06-20",
+  "courses": [
+    {
+      "id": "PLSC100",
+      "code": "PLSC 100",
+      "title": "Political Theory",
+      "credits": 3
+    },
+    {
+      "id": "PLSC101",
+      "code": "PLSC 101",
+      "title": "American Politics",
+      "credits": 3
+    },
+    {
+      "id": "PLSC102",
+      "code": "PLSC 102",
+      "title": "International Relations in an Age of Globalization",
+      "credits": 3
+    },
+    {
+      "id": "PLSC103",
+      "code": "PLSC 103",
+      "title": "Comparative Politics",
+      "credits": 3
+    },
+    {
+      "id": "PLSC123",
+      "code": "PLSC 123",
+      "title": "Speak Up Democracy",
+      "credits": 0
+    },
+    {
+      "id": "PLSC202",
+      "code": "PLSC 202",
+      "title": "Mock Trial",
+      "credits": 3
+    },
+    {
+      "id": "PLSC203",
+      "code": "PLSC 203",
+      "title": "Moot Court",
+      "credits": 3
+    },
+    {
+      "id": "PLSC204",
+      "code": "PLSC 204",
+      "title": "Conflict Management",
+      "credits": 3
+    },
+    {
+      "id": "PLSC208",
+      "code": "PLSC 208",
+      "title": "Representation in the United States",
+      "credits": 3
+    },
+    {
+      "id": "PLSC213",
+      "code": "PLSC 213",
+      "title": "International Human Rights",
+      "credits": 3
+    },
+    {
+      "id": "PLSC215",
+      "code": "PLSC 215",
+      "title": "Politics of Marginalized Groups",
+      "credits": 3
+    },
+    {
+      "id": "PLSC216",
+      "code": "PLSC 216",
+      "title": "Political Numbers",
+      "credits": 3
+    },
+    {
+      "id": "PLSC218",
+      "code": "PLSC 218",
+      "title": "African-American Politics",
+      "credits": 3
+    },
+    {
+      "id": "PLSC232",
+      "code": "PLSC 232",
+      "title": "Politics of the United Kingdom",
+      "credits": 3
+    },
+    {
+      "id": "PLSC236",
+      "code": "PLSC 236",
+      "title": "Political Communication",
+      "credits": 3
+    },
+    {
+      "id": "PLSC238",
+      "code": "PLSC 238",
+      "title": "Political Advocacy",
+      "credits": 3
+    },
+    {
+      "id": "PLSC251",
+      "code": "PLSC 251",
+      "title": "Women in American Politics",
+      "credits": 3
+    },
+    {
+      "id": "PLSC252",
+      "code": "PLSC 252",
+      "title": "Capitalism and Its Discontents",
+      "credits": 3
+    },
+    {
+      "id": "PLSC300",
+      "code": "PLSC 300",
+      "title": "Contemporary Political Issues",
+      "credits": 3,
+      "isTopics": true,
+      "topicsCount": 5
+    },
+    {
+      "id": "PLSC301",
+      "code": "PLSC 301",
+      "title": "Political Justice",
+      "credits": 3
+    },
+    {
+      "id": "PLSC302",
+      "code": "PLSC 302",
+      "title": "American Political Thought",
+      "credits": 3
+    },
+    {
+      "id": "PLSC304",
+      "code": "PLSC 304",
+      "title": "Ancient Political Thought",
+      "credits": 3
+    },
+    {
+      "id": "PLSC306",
+      "code": "PLSC 306",
+      "title": "Modern Political Thought",
+      "credits": 3
+    },
+    {
+      "id": "PLSC307",
+      "code": "PLSC 307",
+      "title": "Democratic Theory",
+      "credits": 3
+    },
+    {
+      "id": "PLSC308",
+      "code": "PLSC 308",
+      "title": "Contemporary Political Thought",
+      "credits": 3
+    },
+    {
+      "id": "PLSC310B",
+      "code": "PLSC 310B",
+      "title": "Catholic Political Thought",
+      "credits": 3
+    },
+    {
+      "id": "PLSC311",
+      "code": "PLSC 311",
+      "title": "Social Science Research Practicum: Cook County Community Survey",
+      "credits": 3
+    },
+    {
+      "id": "PLSC312",
+      "code": "PLSC 312",
+      "title": "Feminist Theory",
+      "credits": 3
+    },
+    {
+      "id": "PLSC313",
+      "code": "PLSC 313",
+      "title": "Resistance and Obligation",
+      "credits": 3
+    },
+    {
+      "id": "PLSC314",
+      "code": "PLSC 314",
+      "title": "Liberalism",
+      "credits": 3
+    },
+    {
+      "id": "PLSC316",
+      "code": "PLSC 316",
+      "title": "Politics of Genocide",
+      "credits": 3
+    },
+    {
+      "id": "PLSC317",
+      "code": "PLSC 317",
+      "title": "Politics of International Health",
+      "credits": 3
+    },
+    {
+      "id": "PLSC319",
+      "code": "PLSC 319",
+      "title": "Women, Law & Public Policy",
+      "credits": 3
+    },
+    {
+      "id": "PLSC320",
+      "code": "PLSC 320",
+      "title": "Constitutional Law-Due Process",
+      "credits": 3
+    },
+    {
+      "id": "PLSC321",
+      "code": "PLSC 321",
+      "title": "Constitutional Law-Powers of Government",
+      "credits": 3
+    },
+    {
+      "id": "PLSC322",
+      "code": "PLSC 322",
+      "title": "Constitutional Law-Rights and Liberties",
+      "credits": 3
+    },
+    {
+      "id": "PLSC325",
+      "code": "PLSC 325",
+      "title": "American Foreign Policy",
+      "credits": 3
+    },
+    {
+      "id": "PLSC326",
+      "code": "PLSC 326",
+      "title": "American National Security",
+      "credits": 3
+    },
+    {
+      "id": "PLSC327",
+      "code": "PLSC 327",
+      "title": "Political Psychology",
+      "credits": 3
+    },
+    {
+      "id": "PLSC329",
+      "code": "PLSC 329",
+      "title": "Interest Group Politics",
+      "credits": 3
+    },
+    {
+      "id": "PLSC330",
+      "code": "PLSC 330",
+      "title": "Global Justice",
+      "credits": 3
+    },
+    {
+      "id": "PLSC331",
+      "code": "PLSC 331",
+      "title": "Islamic Political Thought",
+      "credits": 3
+    },
+    {
+      "id": "PLSC332",
+      "code": "PLSC 332",
+      "title": "Politics of American Bureaucracies",
+      "credits": 3
+    },
+    {
+      "id": "PLSC333",
+      "code": "PLSC 333",
+      "title": "Crossing Borders: The Politics of Immigration",
+      "credits": 3
+    },
+    {
+      "id": "PLSC334",
+      "code": "PLSC 334",
+      "title": "Urban Policies and Problems",
+      "credits": 3
+    },
+    {
+      "id": "PLSC335",
+      "code": "PLSC 335",
+      "title": "Urban Semester Seminar",
+      "credits": 3
+    },
+    {
+      "id": "PLSC336",
+      "code": "PLSC 336",
+      "title": "Politics in Contemporary China",
+      "credits": 3
+    },
+    {
+      "id": "PLSC337",
+      "code": "PLSC 337",
+      "title": "Terrorism",
+      "credits": 3
+    },
+    {
+      "id": "PLSC339",
+      "code": "PLSC 339",
+      "title": "Political Ideologies",
+      "credits": 3
+    },
+    {
+      "id": "PLSC340",
+      "code": "PLSC 340",
+      "title": "International Relations of Africa",
+      "credits": 3
+    },
+    {
+      "id": "PLSC342",
+      "code": "PLSC 342",
+      "title": "African Politics",
+      "credits": 3
+    },
+    {
+      "id": "PLSC343",
+      "code": "PLSC 343",
+      "title": "Latin American Politics",
+      "credits": 3
+    },
+    {
+      "id": "PLSC346",
+      "code": "PLSC 346",
+      "title": "East Asian Politics",
+      "credits": 3
+    },
+    {
+      "id": "PLSC347",
+      "code": "PLSC 347",
+      "title": "The European Union",
+      "credits": 3
+    },
+    {
+      "id": "PLSC348",
+      "code": "PLSC 348",
+      "title": "Soviet & Post-Soviet Politics",
+      "credits": 3
+    },
+    {
+      "id": "PLSC349",
+      "code": "PLSC 349",
+      "title": "Eastern European Politics",
+      "credits": 3
+    },
+    {
+      "id": "PLSC350",
+      "code": "PLSC 350",
+      "title": "Global Political Economy",
+      "credits": 3
+    },
+    {
+      "id": "PLSC353",
+      "code": "PLSC 353",
+      "title": "International Law",
+      "credits": 3
+    },
+    {
+      "id": "PLSC354",
+      "code": "PLSC 354",
+      "title": "Global Environmental Politics",
+      "credits": 3
+    },
+    {
+      "id": "PLSC355C",
+      "code": "PLSC 355C",
+      "title": "Women and Politics: A Cross-National Perspective",
+      "credits": 3
+    },
+    {
+      "id": "PLSC356",
+      "code": "PLSC 356",
+      "title": "Intervent in World Politics",
+      "credits": 3
+    },
+    {
+      "id": "PLSC357",
+      "code": "PLSC 357",
+      "title": "Hollywood and Law",
+      "credits": 3
+    },
+    {
+      "id": "PLSC358",
+      "code": "PLSC 358",
+      "title": "War, Peace and Politics",
+      "credits": 3
+    },
+    {
+      "id": "PLSC358D",
+      "code": "PLSC 358D",
+      "title": "The Scientific Study of War",
+      "credits": 3
+    },
+    {
+      "id": "PLSC359",
+      "code": "PLSC 359",
+      "title": "Revolutions",
+      "credits": 3
+    },
+    {
+      "id": "PLSC360",
+      "code": "PLSC 360",
+      "title": "Western European Politics",
+      "credits": 3
+    },
+    {
+      "id": "PLSC362",
+      "code": "PLSC 362",
+      "title": "Politics Developing Societies",
+      "credits": 3
+    },
+    {
+      "id": "PLSC363",
+      "code": "PLSC 363",
+      "title": "International Politics",
+      "credits": 3
+    },
+    {
+      "id": "PLSC364",
+      "code": "PLSC 364",
+      "title": "UN & International Organization",
+      "credits": 3
+    },
+    {
+      "id": "PLSC365",
+      "code": "PLSC 365",
+      "title": "Italian Politics & Government",
+      "credits": 3
+    },
+    {
+      "id": "PLSC366",
+      "code": "PLSC 366",
+      "title": "Dictatorship",
+      "credits": 3
+    },
+    {
+      "id": "PLSC367",
+      "code": "PLSC 367",
+      "title": "Model United Nations",
+      "credits": 3
+    },
+    {
+      "id": "PLSC368",
+      "code": "PLSC 368",
+      "title": "Politics of the Middle East",
+      "credits": 3
+    },
+    {
+      "id": "PLSC369",
+      "code": "PLSC 369",
+      "title": "Politics of Energy",
+      "credits": 3
+    },
+    {
+      "id": "PLSC370",
+      "code": "PLSC 370",
+      "title": "Fieldwork in Political Science-Internship",
+      "credits": 1
+    },
+    {
+      "id": "PLSC371",
+      "code": "PLSC 371",
+      "title": "Roman Law",
+      "credits": 3
+    },
+    {
+      "id": "PLSC372",
+      "code": "PLSC 372",
+      "title": "Crime, Race & Violence",
+      "credits": 3
+    },
+    {
+      "id": "PLSC373",
+      "code": "PLSC 373",
+      "title": "Politics and Literature",
+      "credits": 3
+    },
+    {
+      "id": "PLSC374",
+      "code": "PLSC 374",
+      "title": "Democracy",
+      "credits": 3
+    },
+    {
+      "id": "PLSC376",
+      "code": "PLSC 376",
+      "title": "Political Behavior and Public Opinion",
+      "credits": 3
+    },
+    {
+      "id": "PLSC377",
+      "code": "PLSC 377",
+      "title": "American Public Policies",
+      "credits": 3
+    },
+    {
+      "id": "PLSC379",
+      "code": "PLSC 379",
+      "title": "The Legislative Process",
+      "credits": 3
+    },
+    {
+      "id": "PLSC380",
+      "code": "PLSC 380",
+      "title": "Public Policy Analysis",
+      "credits": 3
+    },
+    {
+      "id": "PLSC381",
+      "code": "PLSC 381",
+      "title": "The American Presidency",
+      "credits": 3
+    },
+    {
+      "id": "PLSC384",
+      "code": "PLSC 384",
+      "title": "The Judicial Process",
+      "credits": 3
+    },
+    {
+      "id": "PLSC385",
+      "code": "PLSC 385",
+      "title": "Introduction to Law",
+      "credits": 3
+    },
+    {
+      "id": "PLSC386",
+      "code": "PLSC 386",
+      "title": "Campaigns and Elections",
+      "credits": 3
+    },
+    {
+      "id": "PLSC387",
+      "code": "PLSC 387",
+      "title": "Politics and the Press",
+      "credits": 3
+    },
+    {
+      "id": "PLSC388",
+      "code": "PLSC 388",
+      "title": "The Morality and Legality of War",
+      "credits": 3
+    },
+    {
+      "id": "PLSC389",
+      "code": "PLSC 389",
+      "title": "State Politics",
+      "credits": 3
+    },
+    {
+      "id": "PLSC390",
+      "code": "PLSC 390",
+      "title": "Urban Politics",
+      "credits": 3
+    },
+    {
+      "id": "PLSC391",
+      "code": "PLSC 391",
+      "title": "Chicago Politics",
+      "credits": 3
+    },
+    {
+      "id": "PLSC392",
+      "code": "PLSC 392",
+      "title": "Environmental Politics",
+      "credits": 3
+    },
+    {
+      "id": "PLSC395",
+      "code": "PLSC 395",
+      "title": "Political Science Honors Seminar",
+      "credits": 3
+    },
+    {
+      "id": "PLSC396",
+      "code": "PLSC 396",
+      "title": "Directed Readings",
+      "credits": 1
+    },
+    {
+      "id": "PLSC397",
+      "code": "PLSC 397",
+      "title": "Urban Studies Research",
+      "credits": 3
+    },
+    {
+      "id": "PLSC398",
+      "code": "PLSC 398",
+      "title": "Washington DC Internship Seminar",
+      "credits": 3
+    },
+    {
+      "id": "PLSC399",
+      "code": "PLSC 399",
+      "title": "Tunisia On-Site: Arab Spring, Democratic Change, Islam",
+      "credits": 3
+    },
+    {
+      "id": "PLSC400",
+      "code": "PLSC 400",
+      "title": "Scope and Methods of Political Science",
+      "credits": 3
+    },
+    {
+      "id": "PLSC401",
+      "code": "PLSC 401",
+      "title": "Intro to Research Design & Method",
+      "credits": 3
+    },
+    {
+      "id": "PLSC402",
+      "code": "PLSC 402",
+      "title": "Seminar on Empirical Analysis",
+      "credits": 3
+    },
+    {
+      "id": "PLSC404",
+      "code": "PLSC 404",
+      "title": "Selected Problems in American Politics",
+      "credits": 3
+    },
+    {
+      "id": "PLSC405",
+      "code": "PLSC 405",
+      "title": "American Executive Branch",
+      "credits": 3
+    },
+    {
+      "id": "PLSC406",
+      "code": "PLSC 406",
+      "title": "American Legislative Branch",
+      "credits": 3
+    },
+    {
+      "id": "PLSC407",
+      "code": "PLSC 407",
+      "title": "Public Policy-Making & Implementation",
+      "credits": 3
+    },
+    {
+      "id": "PLSC409",
+      "code": "PLSC 409",
+      "title": "Organizational Theory",
+      "credits": 3
+    },
+    {
+      "id": "PLSC410",
+      "code": "PLSC 410",
+      "title": "Urban Politics",
+      "credits": 3
+    },
+    {
+      "id": "PLSC411",
+      "code": "PLSC 411",
+      "title": "American Political Parties/Electoral Process",
+      "credits": 3
+    },
+    {
+      "id": "PLSC412",
+      "code": "PLSC 412",
+      "title": "Constitutional Politics",
+      "credits": 3
+    },
+    {
+      "id": "PLSC416",
+      "code": "PLSC 416",
+      "title": "US Political Institutions",
+      "credits": 3
+    },
+    {
+      "id": "PLSC417",
+      "code": "PLSC 417",
+      "title": "The American Legal System",
+      "credits": 3
+    },
+    {
+      "id": "PLSC418",
+      "code": "PLSC 418",
+      "title": "Political Psychology & Socialization",
+      "credits": 3
+    },
+    {
+      "id": "PLSC419",
+      "code": "PLSC 419",
+      "title": "Managing Urban Government",
+      "credits": 3
+    },
+    {
+      "id": "PLSC420",
+      "code": "PLSC 420",
+      "title": "Comparative Political Systems",
+      "credits": 3
+    },
+    {
+      "id": "PLSC421",
+      "code": "PLSC 421",
+      "title": "Democratic Political Systems",
+      "credits": 3
+    },
+    {
+      "id": "PLSC422",
+      "code": "PLSC 422",
+      "title": "Authoritarian Political Systems",
+      "credits": 3
+    },
+    {
+      "id": "PLSC423",
+      "code": "PLSC 423",
+      "title": "Soviet & Post-Soviet Politics",
+      "credits": 3
+    },
+    {
+      "id": "PLSC424",
+      "code": "PLSC 424",
+      "title": "Politics of Developing Areas",
+      "credits": 3
+    },
+    {
+      "id": "PLSC425",
+      "code": "PLSC 425",
+      "title": "Sub-Saharan Africa",
+      "credits": 3
+    },
+    {
+      "id": "PLSC426",
+      "code": "PLSC 426",
+      "title": "Latin American Politics",
+      "credits": 3
+    },
+    {
+      "id": "PLSC427",
+      "code": "PLSC 427",
+      "title": "Politics of the Middle East",
+      "credits": 3
+    },
+    {
+      "id": "PLSC428",
+      "code": "PLSC 428",
+      "title": "Political Violence",
+      "credits": 3
+    },
+    {
+      "id": "PLSC429",
+      "code": "PLSC 429",
+      "title": "Comparative Politics Selected Problems",
+      "credits": 3
+    },
+    {
+      "id": "PLSC430",
+      "code": "PLSC 430",
+      "title": "Theories of International Politics",
+      "credits": 3
+    },
+    {
+      "id": "PLSC431",
+      "code": "PLSC 431",
+      "title": "Formulation US Foreign Policy",
+      "credits": 3
+    },
+    {
+      "id": "PLSC432",
+      "code": "PLSC 432",
+      "title": "Comparative Foreign Policy Analysis",
+      "credits": 3
+    },
+    {
+      "id": "PLSC433",
+      "code": "PLSC 433",
+      "title": "International Organization",
+      "credits": 3
+    },
+    {
+      "id": "PLSC435",
+      "code": "PLSC 435",
+      "title": "International Political Economics",
+      "credits": 3
+    },
+    {
+      "id": "PLSC436",
+      "code": "PLSC 436",
+      "title": "International Conflict",
+      "credits": 3
+    },
+    {
+      "id": "PLSC437",
+      "code": "PLSC 437",
+      "title": "Selected Problems International Law",
+      "credits": 3
+    },
+    {
+      "id": "PLSC439",
+      "code": "PLSC 439",
+      "title": "Selected Problems in International Politics",
+      "credits": 3
+    },
+    {
+      "id": "PLSC440",
+      "code": "PLSC 440",
+      "title": "Ancient Political Thought",
+      "credits": 3
+    },
+    {
+      "id": "PLSC442",
+      "code": "PLSC 442",
+      "title": "Modern Political Thought",
+      "credits": 3
+    },
+    {
+      "id": "PLSC444",
+      "code": "PLSC 444",
+      "title": "Great Authors",
+      "credits": 3
+    },
+    {
+      "id": "PLSC446",
+      "code": "PLSC 446",
+      "title": "Political Ethics",
+      "credits": 3
+    },
+    {
+      "id": "PLSC447",
+      "code": "PLSC 447",
+      "title": "American Political Thought to Civil War",
+      "credits": 3
+    },
+    {
+      "id": "PLSC449",
+      "code": "PLSC 449",
+      "title": "19th Century Political Thought",
+      "credits": 3
+    },
+    {
+      "id": "PLSC470",
+      "code": "PLSC 470",
+      "title": "Fieldwork in Political Science-Internship",
+      "credits": 1
+    },
+    {
+      "id": "PLSC475",
+      "code": "PLSC 475",
+      "title": "Political Analysis I",
+      "credits": 3
+    },
+    {
+      "id": "PLSC476",
+      "code": "PLSC 476",
+      "title": "Political Analysis II",
+      "credits": 3
+    },
+    {
+      "id": "PLSC499",
+      "code": "PLSC 499",
+      "title": "Directed Readings",
+      "credits": 3
+    },
+    {
+      "id": "PLSC502",
+      "code": "PLSC 502",
+      "title": "Seminar in Political Behavior",
+      "credits": 3
+    },
+    {
+      "id": "PLSC503",
+      "code": "PLSC 503",
+      "title": "Seminar: Law & Political Behavior",
+      "credits": 3
+    },
+    {
+      "id": "PLSC504",
+      "code": "PLSC 504",
+      "title": "Seminar: American Public Policy",
+      "credits": 3
+    },
+    {
+      "id": "PLSC505",
+      "code": "PLSC 505",
+      "title": "Seminar in Urban Problems",
+      "credits": 3
+    },
+    {
+      "id": "PLSC506",
+      "code": "PLSC 506",
+      "title": "Seminar State & Urban Policy Analysis",
+      "credits": 3
+    },
+    {
+      "id": "PLSC515",
+      "code": "PLSC 515",
+      "title": "Seminar-Public Administration",
+      "credits": 3
+    },
+    {
+      "id": "PLSC520",
+      "code": "PLSC 520",
+      "title": "Seminar: Comparative Politics",
+      "credits": 3
+    },
+    {
+      "id": "PLSC521",
+      "code": "PLSC 521",
+      "title": "Seminar Western European Politics",
+      "credits": 3
+    },
+    {
+      "id": "PLSC531",
+      "code": "PLSC 531",
+      "title": "Seminar: International Politics",
+      "credits": 3
+    },
+    {
+      "id": "PLSC532",
+      "code": "PLSC 532",
+      "title": "Soviet/Post-Soviet Foreign Policy",
+      "credits": 3
+    },
+    {
+      "id": "PLSC533",
+      "code": "PLSC 533",
+      "title": "U.S. National Security",
+      "credits": 3
+    },
+    {
+      "id": "PLSC543",
+      "code": "PLSC 543",
+      "title": "Liberalism",
+      "credits": 3
+    },
+    {
+      "id": "PLSC546",
+      "code": "PLSC 546",
+      "title": "Political Philosophy Selected Problems",
+      "credits": 3
+    },
+    {
+      "id": "PLSC595",
+      "code": "PLSC 595",
+      "title": "Thesis Supervision",
+      "credits": 0
+    },
+    {
+      "id": "PLSC596",
+      "code": "PLSC 596",
+      "title": "Thesis Research",
+      "credits": 3
+    },
+    {
+      "id": "PLSC597",
+      "code": "PLSC 597",
+      "title": "Dissertation Research",
+      "credits": 3
+    },
+    {
+      "id": "PLSC598",
+      "code": "PLSC 598",
+      "title": "Teaching Internship",
+      "credits": 3
+    },
+    {
+      "id": "PLSC600",
+      "code": "PLSC 600",
+      "title": "Dissertation Supervision",
+      "credits": 0
+    },
+    {
+      "id": "PLSC605",
+      "code": "PLSC 605",
+      "title": "Master's Study",
+      "credits": 0
+    },
+    {
+      "id": "PLSC610",
+      "code": "PLSC 610",
+      "title": "Doctoral Study",
+      "credits": 0
+    }
+  ]
+}
