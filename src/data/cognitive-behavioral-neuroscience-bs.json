@@ -8,28 +8,129 @@
   "majorCredits": 74,
   "catalogUrl": "https://catalog.luc.edu/undergraduate/arts-sciences/neuroscience/cognitive-behavioral-neuroscience-bs/",
   "courses": [
-    { "id": "NEUR100", "code": "NEUR 100", "title": "Introduction to Neuroscience", "credits": 3, "category": "major" },
-    { "id": "BIOL101", "code": "BIOL 101", "title": "Biology I", "credits": 3, "category": "major" },
-    { "id": "BIOL101L", "code": "BIOL 101L", "title": "Biology I Laboratory", "credits": 1, "category": "major" },
-    { "id": "BIOL102", "code": "BIOL 102", "title": "Biology II", "credits": 3, "category": "major" },
-    { "id": "BIOL102L", "code": "BIOL 102L", "title": "Biology II Laboratory", "credits": 1, "category": "major" },
-    { "id": "CHEM101", "code": "CHEM 101", "title": "General Chemistry I", "credits": 3, "category": "major" },
-    { "id": "CHEM101L", "code": "CHEM 101L", "title": "General Chemistry I Laboratory", "credits": 1, "category": "major" },
-    { "id": "CHEM102", "code": "CHEM 102", "title": "General Chemistry II", "credits": 3, "category": "major" },
-    { "id": "CHEM102L", "code": "CHEM 102L", "title": "General Chemistry II Laboratory", "credits": 1, "category": "major" },
-    { "id": "MATH131", "code": "MATH 131", "title": "Applied Calculus I", "credits": 3, "category": "major" },
-    { "id": "STAT203", "code": "STAT 203", "title": "Statistics", "credits": 3, "category": "major" },
-    { "id": "PSYC101", "code": "PSYC 101", "title": "Introduction to Psychology", "credits": 3, "category": "major" },
-    { "id": "PSYC304", "code": "PSYC 304", "title": "Biological Psychology", "credits": 3, "category": "major" },
-    { "id": "PSYC305", "code": "PSYC 305", "title": "Sensation and Perception", "credits": 3, "category": "major" },
-    { "id": "NEUR301", "code": "NEUR 301", "title": "Cellular Neuroscience", "credits": 3, "category": "major" },
-    { "id": "NEUR302", "code": "NEUR 302", "title": "Systems Neuroscience", "credits": 3, "category": "major" },
-    { "id": "NEUR400", "code": "NEUR 400", "title": "Neuroscience Research Methods", "credits": 3, "category": "major" },
-    { "id": "NEUR401L", "code": "NEUR 401L", "title": "Neuroscience Research Methods Laboratory", "credits": 1, "category": "major" },
-    { "id": "NEUR490", "code": "NEUR 490", "title": "Capstone in Neuroscience", "credits": 3, "category": "major" }
+    {
+      "id": "NEUR100",
+      "code": "NEUR 100",
+      "title": "Introduction to Neuroscience",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "BIOL101",
+      "code": "BIOL 101",
+      "title": "Biology I",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "BIOL101L",
+      "code": "BIOL 101L",
+      "title": "Biology I Laboratory",
+      "credits": 1,
+      "category": "major"
+    },
+    {
+      "id": "BIOL102",
+      "code": "BIOL 102",
+      "title": "Biology II",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "BIOL102L",
+      "code": "BIOL 102L",
+      "title": "Biology II Laboratory",
+      "credits": 1,
+      "category": "major"
+    },
+    {
+      "id": "CHEM101",
+      "code": "CHEM 101",
+      "title": "General Chemistry I",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "CHEM101L",
+      "code": "CHEM 101L",
+      "title": "General Chemistry I Laboratory",
+      "credits": 1,
+      "category": "major"
+    },
+    {
+      "id": "CHEM102",
+      "code": "CHEM 102",
+      "title": "General Chemistry II",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "CHEM102L",
+      "code": "CHEM 102L",
+      "title": "General Chemistry II Laboratory",
+      "credits": 1,
+      "category": "major"
+    },
+    {
+      "id": "MATH131",
+      "code": "MATH 131",
+      "title": "Applied Calculus I",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "STAT203",
+      "code": "STAT 203",
+      "title": "Statistics",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "PSYC101",
+      "code": "PSYC 101",
+      "title": "Introduction to Psychology",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "PSYC304",
+      "code": "PSYC 304",
+      "title": "Biological Psychology",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "PSYC305",
+      "code": "PSYC 305",
+      "title": "Sensation and Perception",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "NEUR301",
+      "code": "NEUR 301",
+      "title": "Cellular Neuroscience",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "NEUR302",
+      "code": "NEUR 302",
+      "title": "Systems Neuroscience",
+      "credits": 3,
+      "category": "major"
+    }
   ],
   "electiveOptions": {
-    "neur-cbn-electives": { "creditsRequired": 12, "label": "CBN Electives", "note": "Four courses from approved list in cognitive science, psychology, or advanced neuroscience" },
-    "neur-phys": { "creditsRequired": 3, "label": "Physics Requirement", "note": "PHYS 125 (General Physics I)" }
+    "neur-cbn-electives": {
+      "creditsRequired": 12,
+      "label": "CBN Electives",
+      "note": "Four courses from approved list in cognitive science, psychology, or advanced neuroscience"
+    },
+    "neur-phys": {
+      "creditsRequired": 3,
+      "label": "Physics Requirement",
+      "note": "PHYS 125 (General Physics I)"
+    }
   }
 }

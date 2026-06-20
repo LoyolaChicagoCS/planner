@@ -8,14 +8,43 @@
   "majorCredits": 30,
   "catalogUrl": "https://catalog.luc.edu/undergraduate/arts-sciences/modern-languages-literatures/spanish-ba/",
   "courses": [
-    { "id": "SPAN301", "code": "SPAN 301", "title": "Advanced Spanish Language and Composition I", "credits": 3, "category": "major" },
-    { "id": "SPAN302", "code": "SPAN 302", "title": "Advanced Spanish Language and Composition II", "credits": 3, "category": "major" },
-    { "id": "SPAN310", "code": "SPAN 310", "title": "Introduction to Spanish Literature", "credits": 3, "category": "major" },
-    { "id": "SPAN490", "code": "SPAN 490", "title": "Senior Seminar in Spanish", "credits": 3, "category": "major" }
+    {
+      "id": "SPAN301",
+      "code": "SPAN 301",
+      "title": "Advanced Spanish Language and Composition I",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "SPAN302",
+      "code": "SPAN 302",
+      "title": "Advanced Spanish Language and Composition II",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "SPAN310",
+      "code": "SPAN 310",
+      "title": "Introduction to Spanish Literature",
+      "credits": 3,
+      "category": "major"
+    }
   ],
   "electiveOptions": {
-    "span-lit": { "creditsRequired": 9, "label": "Literature/Culture Electives", "note": "Three 300/400-level SPAN literature or culture courses" },
-    "span-elective": { "creditsRequired": 6, "label": "Additional Electives", "note": "Two additional SPAN courses at 200-level or above" },
-    "span-study-abroad": { "creditsRequired": 3, "label": "Study Abroad / Language Elective", "note": "Approved study-abroad or upper-division Spanish elective" }
+    "span-lit": {
+      "creditsRequired": 9,
+      "label": "Literature/Culture Electives",
+      "note": "Three 300/400-level SPAN literature or culture courses"
+    },
+    "span-elective": {
+      "creditsRequired": 6,
+      "label": "Additional Electives",
+      "note": "Two additional SPAN courses at 200-level or above"
+    },
+    "span-study-abroad": {
+      "creditsRequired": 3,
+      "label": "Study Abroad / Language Elective",
+      "note": "Approved study-abroad or upper-division Spanish elective"
+    }
   }
 }

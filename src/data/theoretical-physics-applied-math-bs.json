@@ -8,26 +8,129 @@
   "majorCredits": 63,
   "catalogUrl": "https://catalog.luc.edu/undergraduate/arts-sciences/physics/theoretical-physics-applied-mathematics-bs/",
   "courses": [
-    { "id": "PHYS125", "code": "PHYS 125", "title": "General Physics I", "credits": 3, "category": "major" },
-    { "id": "PHYS125L", "code": "PHYS 125L", "title": "General Physics I Laboratory", "credits": 1, "category": "major" },
-    { "id": "PHYS126", "code": "PHYS 126", "title": "General Physics II", "credits": 3, "category": "major" },
-    { "id": "PHYS126L", "code": "PHYS 126L", "title": "General Physics II Laboratory", "credits": 1, "category": "major" },
-    { "id": "PHYS213", "code": "PHYS 213", "title": "Modern Physics", "credits": 3, "category": "major" },
-    { "id": "PHYS301", "code": "PHYS 301", "title": "Classical Mechanics", "credits": 3, "category": "major" },
-    { "id": "PHYS303", "code": "PHYS 303", "title": "Electricity and Magnetism", "credits": 3, "category": "major" },
-    { "id": "PHYS304", "code": "PHYS 304", "title": "Quantum Mechanics I", "credits": 3, "category": "major" },
-    { "id": "PHYS305", "code": "PHYS 305", "title": "Thermodynamics and Statistical Mechanics", "credits": 3, "category": "major" },
-    { "id": "PHYS310L", "code": "PHYS 310L", "title": "Advanced Laboratory I", "credits": 2, "category": "major" },
-    { "id": "PHYS490tpa", "code": "PHYS 490", "title": "Senior Thesis in Physics", "credits": 3, "category": "major" },
-    { "id": "MATH161", "code": "MATH 161", "title": "Calculus I", "credits": 4, "category": "major" },
-    { "id": "MATH162", "code": "MATH 162", "title": "Calculus II", "credits": 4, "category": "major" },
-    { "id": "MATH263", "code": "MATH 263", "title": "Multivariable Calculus", "credits": 3, "category": "major" },
-    { "id": "MATH264", "code": "MATH 264", "title": "Ordinary Differential Equations", "credits": 3, "category": "major" },
-    { "id": "MATH212", "code": "MATH 212", "title": "Linear Algebra", "credits": 3, "category": "major" },
-    { "id": "MATH360", "code": "MATH 360", "title": "Introduction to Numerical Methods", "credits": 3, "category": "major" }
+    {
+      "id": "PHYS125",
+      "code": "PHYS 125",
+      "title": "General Physics I",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "PHYS125L",
+      "code": "PHYS 125L",
+      "title": "General Physics I Laboratory",
+      "credits": 1,
+      "category": "major"
+    },
+    {
+      "id": "PHYS126",
+      "code": "PHYS 126",
+      "title": "General Physics II",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "PHYS126L",
+      "code": "PHYS 126L",
+      "title": "General Physics II Laboratory",
+      "credits": 1,
+      "category": "major"
+    },
+    {
+      "id": "PHYS213",
+      "code": "PHYS 213",
+      "title": "Modern Physics",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "PHYS301",
+      "code": "PHYS 301",
+      "title": "Classical Mechanics",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "PHYS303",
+      "code": "PHYS 303",
+      "title": "Electricity and Magnetism",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "PHYS304",
+      "code": "PHYS 304",
+      "title": "Quantum Mechanics I",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "PHYS305",
+      "code": "PHYS 305",
+      "title": "Thermodynamics and Statistical Mechanics",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "PHYS310L",
+      "code": "PHYS 310L",
+      "title": "Advanced Laboratory I",
+      "credits": 2,
+      "category": "major"
+    },
+    {
+      "id": "MATH161",
+      "code": "MATH 161",
+      "title": "Calculus I",
+      "credits": 4,
+      "category": "major"
+    },
+    {
+      "id": "MATH162",
+      "code": "MATH 162",
+      "title": "Calculus II",
+      "credits": 4,
+      "category": "major"
+    },
+    {
+      "id": "MATH263",
+      "code": "MATH 263",
+      "title": "Multivariable Calculus",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "MATH264",
+      "code": "MATH 264",
+      "title": "Ordinary Differential Equations",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "MATH212",
+      "code": "MATH 212",
+      "title": "Linear Algebra",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "MATH360",
+      "code": "MATH 360",
+      "title": "Introduction to Numerical Methods",
+      "credits": 3,
+      "category": "major"
+    }
   ],
   "electiveOptions": {
-    "tpam-phys-upper": { "creditsRequired": 6, "label": "Advanced Physics Electives", "note": "Two upper-division PHYS courses (300+)" },
-    "tpam-math-upper": { "creditsRequired": 6, "label": "Advanced Mathematics Electives", "note": "Two upper-division MATH courses (300+)" }
+    "tpam-phys-upper": {
+      "creditsRequired": 6,
+      "label": "Advanced Physics Electives",
+      "note": "Two upper-division PHYS courses (300+)"
+    },
+    "tpam-math-upper": {
+      "creditsRequired": 6,
+      "label": "Advanced Mathematics Electives",
+      "note": "Two upper-division MATH courses (300+)"
+    }
   }
 }

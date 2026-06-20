@@ -8,31 +8,164 @@
   "majorCredits": 68,
   "catalogUrl": "https://catalog.luc.edu/undergraduate/arts-sciences/physics/biophysics-bs/",
   "courses": [
-    { "id": "PHYS125", "code": "PHYS 125", "title": "General Physics I", "credits": 3, "category": "major" },
-    { "id": "PHYS125L", "code": "PHYS 125L", "title": "General Physics I Laboratory", "credits": 1, "category": "major" },
-    { "id": "PHYS126", "code": "PHYS 126", "title": "General Physics II", "credits": 3, "category": "major" },
-    { "id": "PHYS126L", "code": "PHYS 126L", "title": "General Physics II Laboratory", "credits": 1, "category": "major" },
-    { "id": "PHYS213", "code": "PHYS 213", "title": "Modern Physics", "credits": 3, "category": "major" },
-    { "id": "PHYS301", "code": "PHYS 301", "title": "Classical Mechanics", "credits": 3, "category": "major" },
-    { "id": "PHYS303", "code": "PHYS 303", "title": "Electricity and Magnetism", "credits": 3, "category": "major" },
-    { "id": "PHYS310L", "code": "PHYS 310L", "title": "Advanced Laboratory I", "credits": 2, "category": "major" },
-    { "id": "PHYS311L", "code": "PHYS 311L", "title": "Advanced Laboratory II", "credits": 2, "category": "major" },
-    { "id": "PHYS490", "code": "PHYS 490", "title": "Senior Thesis in Physics", "credits": 3, "category": "major" },
-    { "id": "BIOL101", "code": "BIOL 101", "title": "Biology I", "credits": 3, "category": "major" },
-    { "id": "BIOL101L", "code": "BIOL 101L", "title": "Biology I Laboratory", "credits": 1, "category": "major" },
-    { "id": "BIOL102", "code": "BIOL 102", "title": "Biology II", "credits": 3, "category": "major" },
-    { "id": "BIOL102L", "code": "BIOL 102L", "title": "Biology II Laboratory", "credits": 1, "category": "major" },
-    { "id": "CHEM101", "code": "CHEM 101", "title": "General Chemistry I", "credits": 3, "category": "major" },
-    { "id": "CHEM101L", "code": "CHEM 101L", "title": "General Chemistry I Laboratory", "credits": 1, "category": "major" },
-    { "id": "CHEM102", "code": "CHEM 102", "title": "General Chemistry II", "credits": 3, "category": "major" },
-    { "id": "CHEM102L", "code": "CHEM 102L", "title": "General Chemistry II Laboratory", "credits": 1, "category": "major" },
-    { "id": "MATH161", "code": "MATH 161", "title": "Calculus I", "credits": 4, "category": "major" },
-    { "id": "MATH162", "code": "MATH 162", "title": "Calculus II", "credits": 4, "category": "major" },
-    { "id": "MATH263", "code": "MATH 263", "title": "Multivariable Calculus", "credits": 3, "category": "major" },
-    { "id": "MATH264", "code": "MATH 264", "title": "Ordinary Differential Equations", "credits": 3, "category": "major" }
+    {
+      "id": "PHYS125",
+      "code": "PHYS 125",
+      "title": "General Physics I",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "PHYS125L",
+      "code": "PHYS 125L",
+      "title": "General Physics I Laboratory",
+      "credits": 1,
+      "category": "major"
+    },
+    {
+      "id": "PHYS126",
+      "code": "PHYS 126",
+      "title": "General Physics II",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "PHYS126L",
+      "code": "PHYS 126L",
+      "title": "General Physics II Laboratory",
+      "credits": 1,
+      "category": "major"
+    },
+    {
+      "id": "PHYS213",
+      "code": "PHYS 213",
+      "title": "Modern Physics",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "PHYS301",
+      "code": "PHYS 301",
+      "title": "Classical Mechanics",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "PHYS303",
+      "code": "PHYS 303",
+      "title": "Electricity and Magnetism",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "PHYS310L",
+      "code": "PHYS 310L",
+      "title": "Advanced Laboratory I",
+      "credits": 2,
+      "category": "major"
+    },
+    {
+      "id": "PHYS311L",
+      "code": "PHYS 311L",
+      "title": "Advanced Laboratory II",
+      "credits": 2,
+      "category": "major"
+    },
+    {
+      "id": "BIOL101",
+      "code": "BIOL 101",
+      "title": "Biology I",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "BIOL101L",
+      "code": "BIOL 101L",
+      "title": "Biology I Laboratory",
+      "credits": 1,
+      "category": "major"
+    },
+    {
+      "id": "BIOL102",
+      "code": "BIOL 102",
+      "title": "Biology II",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "BIOL102L",
+      "code": "BIOL 102L",
+      "title": "Biology II Laboratory",
+      "credits": 1,
+      "category": "major"
+    },
+    {
+      "id": "CHEM101",
+      "code": "CHEM 101",
+      "title": "General Chemistry I",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "CHEM101L",
+      "code": "CHEM 101L",
+      "title": "General Chemistry I Laboratory",
+      "credits": 1,
+      "category": "major"
+    },
+    {
+      "id": "CHEM102",
+      "code": "CHEM 102",
+      "title": "General Chemistry II",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "CHEM102L",
+      "code": "CHEM 102L",
+      "title": "General Chemistry II Laboratory",
+      "credits": 1,
+      "category": "major"
+    },
+    {
+      "id": "MATH161",
+      "code": "MATH 161",
+      "title": "Calculus I",
+      "credits": 4,
+      "category": "major"
+    },
+    {
+      "id": "MATH162",
+      "code": "MATH 162",
+      "title": "Calculus II",
+      "credits": 4,
+      "category": "major"
+    },
+    {
+      "id": "MATH263",
+      "code": "MATH 263",
+      "title": "Multivariable Calculus",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "MATH264",
+      "code": "MATH 264",
+      "title": "Ordinary Differential Equations",
+      "credits": 3,
+      "category": "major"
+    }
   ],
   "electiveOptions": {
-    "bphy-phys-upper": { "creditsRequired": 6, "label": "Advanced Physics Electives", "note": "Two upper-division PHYS courses (300+)" },
-    "bphy-biol-upper": { "creditsRequired": 3, "label": "Advanced Biology Elective", "note": "One upper-division BIOL or CHEM course" }
+    "bphy-phys-upper": {
+      "creditsRequired": 6,
+      "label": "Advanced Physics Electives",
+      "note": "Two upper-division PHYS courses (300+)"
+    },
+    "bphy-biol-upper": {
+      "creditsRequired": 3,
+      "label": "Advanced Biology Elective",
+      "note": "One upper-division BIOL or CHEM course"
+    }
   }
 }

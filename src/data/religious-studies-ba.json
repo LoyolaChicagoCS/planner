@@ -8,13 +8,38 @@
   "majorCredits": 36,
   "catalogUrl": "https://catalog.luc.edu/undergraduate/arts-sciences/theology/religious-studies-ba/",
   "courses": [
-    { "id": "THEO100rs", "code": "THEO 100", "title": "Theological Foundations", "credits": 3, "category": "major" },
-    { "id": "THEO210", "code": "THEO 210", "title": "World Religions", "credits": 3, "category": "major" },
-    { "id": "THEO300rs", "code": "THEO 300", "title": "Methods in Religious Studies", "credits": 3, "category": "major" },
-    { "id": "THEO490rs", "code": "THEO 490", "title": "Senior Seminar in Religious Studies", "credits": 3, "category": "major" }
+    {
+      "id": "THEO100rs",
+      "code": "THEO 100",
+      "title": "Theological Foundations",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "THEO210",
+      "code": "THEO 210",
+      "title": "World Religions",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "THEO300rs",
+      "code": "THEO 300",
+      "title": "Methods in Religious Studies",
+      "credits": 3,
+      "category": "major"
+    }
   ],
   "electiveOptions": {
-    "rs-upper": { "creditsRequired": 12, "label": "Upper-Division Electives", "note": "Four THEO courses at the 300/400 level from approved religious studies list" },
-    "rs-elective": { "creditsRequired": 12, "label": "Additional Electives", "note": "Four additional THEO courses from any level" }
+    "rs-upper": {
+      "creditsRequired": 12,
+      "label": "Upper-Division Electives",
+      "note": "Four THEO courses at the 300/400 level from approved religious studies list"
+    },
+    "rs-elective": {
+      "creditsRequired": 12,
+      "label": "Additional Electives",
+      "note": "Four additional THEO courses from any level"
+    }
   }
 }

@@ -8,15 +8,50 @@
   "majorCredits": 36,
   "catalogUrl": "https://catalog.luc.edu/undergraduate/arts-sciences/sociology/sociology-anthropology-ba/",
   "courses": [
-    { "id": "SOCI101soa", "code": "SOCI 101", "title": "Introduction to Sociology", "credits": 3, "category": "major" },
-    { "id": "ANTH101soa", "code": "ANTH 101", "title": "Introduction to Cultural Anthropology", "credits": 3, "category": "major" },
-    { "id": "SOCI301soa", "code": "SOCI 301", "title": "Sociological Theory", "credits": 3, "category": "major" },
-    { "id": "SOCI302soa", "code": "SOCI 302", "title": "Research Methods in Sociology", "credits": 3, "category": "major" },
-    { "id": "SOCI490soa", "code": "SOCI 490", "title": "Senior Seminar in Sociology and Anthropology", "credits": 3, "category": "major" }
+    {
+      "id": "SOCI101soa",
+      "code": "SOCI 101",
+      "title": "Introduction to Sociology",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "ANTH101soa",
+      "code": "ANTH 101",
+      "title": "Introduction to Cultural Anthropology",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "SOCI301soa",
+      "code": "SOCI 301",
+      "title": "Sociological Theory",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "SOCI302soa",
+      "code": "SOCI 302",
+      "title": "Research Methods in Sociology",
+      "credits": 3,
+      "category": "major"
+    }
   ],
   "electiveOptions": {
-    "soa-soci-upper": { "creditsRequired": 9, "label": "Sociology Upper-Division Electives", "note": "Three upper-division SOCI courses (300+)" },
-    "soa-anth-upper": { "creditsRequired": 9, "label": "Anthropology Upper-Division Electives", "note": "Three upper-division ANTH courses (300+)" },
-    "soa-stats": { "creditsRequired": 3, "label": "Statistics Requirement", "note": "STAT 203 or equivalent statistics course" }
+    "soa-soci-upper": {
+      "creditsRequired": 9,
+      "label": "Sociology Upper-Division Electives",
+      "note": "Three upper-division SOCI courses (300+)"
+    },
+    "soa-anth-upper": {
+      "creditsRequired": 9,
+      "label": "Anthropology Upper-Division Electives",
+      "note": "Three upper-division ANTH courses (300+)"
+    },
+    "soa-stats": {
+      "creditsRequired": 3,
+      "label": "Statistics Requirement",
+      "note": "STAT 203 or equivalent statistics course"
+    }
   }
 }

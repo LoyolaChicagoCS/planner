@@ -8,13 +8,36 @@
   "majorCredits": 36,
   "catalogUrl": "https://catalog.luc.edu/undergraduate/arts-sciences/womens-studies-gender-studies/womens-studies-gender-studies-ba/",
   "courses": [
-    { "id": "WSGS100", "code": "WSGS 100", "title": "Introduction to Women's and Gender Studies", "credits": 3, "category": "major" },
-    { "id": "WSGS300", "code": "WSGS 300", "title": "Research and Theory in Women's and Gender Studies", "credits": 3, "category": "major" },
-    { "id": "WSGS490", "code": "WSGS 490", "title": "Senior Capstone in WSGS", "credits": 3, "category": "major" }
+    {
+      "id": "WSGS100",
+      "code": "WSGS 100",
+      "title": "Introduction to Women's and Gender Studies",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "WSGS300",
+      "code": "WSGS 300",
+      "title": "Research and Theory in Women's and Gender Studies",
+      "credits": 3,
+      "category": "major"
+    }
   ],
   "electiveOptions": {
-    "wsgs-core": { "creditsRequired": 9, "label": "Core Electives", "note": "Three courses from the WSGS approved core list" },
-    "wsgs-upper": { "creditsRequired": 12, "label": "Upper-Division Electives", "note": "Four courses at the 300/400 level in WSGS or cross-listed fields" },
-    "wsgs-praxis": { "creditsRequired": 6, "label": "Praxis / Community Engagement", "note": "Two courses with engaged learning or community practice component" }
+    "wsgs-core": {
+      "creditsRequired": 9,
+      "label": "Core Electives",
+      "note": "Three courses from the WSGS approved core list"
+    },
+    "wsgs-upper": {
+      "creditsRequired": 12,
+      "label": "Upper-Division Electives",
+      "note": "Four courses at the 300/400 level in WSGS or cross-listed fields"
+    },
+    "wsgs-praxis": {
+      "creditsRequired": 6,
+      "label": "Praxis / Community Engagement",
+      "note": "Two courses with engaged learning or community practice component"
+    }
   }
 }

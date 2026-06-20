@@ -8,15 +8,48 @@
   "majorCredits": 33,
   "catalogUrl": "https://catalog.luc.edu/undergraduate/arts-sciences/global-studies/global-studies-ba/",
   "courses": [
-    { "id": "GLST100", "code": "GLST 100", "title": "Introduction to Global Studies", "credits": 3, "category": "major" },
-    { "id": "GLST201", "code": "GLST 201", "title": "Global Issues", "credits": 3, "category": "major" },
-    { "id": "GLST301", "code": "GLST 301", "title": "Research Methods in Global Studies", "credits": 3, "category": "major" },
-    { "id": "GLST401", "code": "GLST 401", "title": "Capstone Seminar in Global Studies", "credits": 3, "category": "major" }
+    {
+      "id": "GLST100",
+      "code": "GLST 100",
+      "title": "Introduction to Global Studies",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "GLST201",
+      "code": "GLST 201",
+      "title": "Global Issues",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "GLST301",
+      "code": "GLST 301",
+      "title": "Research Methods in Global Studies",
+      "credits": 3,
+      "category": "major"
+    }
   ],
   "electiveOptions": {
-    "glst-regional": { "creditsRequired": 6, "label": "Regional/Thematic Electives", "note": "Two courses from an approved regional or thematic focus list" },
-    "glst-methods": { "creditsRequired": 6, "label": "Disciplinary Methods Electives", "note": "Two courses from approved social science or humanities disciplines" },
-    "glst-language": { "creditsRequired": 6, "label": "Language Requirement", "note": "Second-year proficiency in one language (or equivalent coursework)" },
-    "glst-elective": { "creditsRequired": 3, "label": "Global Studies Elective", "note": "One additional approved elective" }
+    "glst-regional": {
+      "creditsRequired": 6,
+      "label": "Regional/Thematic Electives",
+      "note": "Two courses from an approved regional or thematic focus list"
+    },
+    "glst-methods": {
+      "creditsRequired": 6,
+      "label": "Disciplinary Methods Electives",
+      "note": "Two courses from approved social science or humanities disciplines"
+    },
+    "glst-language": {
+      "creditsRequired": 6,
+      "label": "Language Requirement",
+      "note": "Second-year proficiency in one language (or equivalent coursework)"
+    },
+    "glst-elective": {
+      "creditsRequired": 3,
+      "label": "Global Studies Elective",
+      "note": "One additional approved elective"
+    }
   }
 }
