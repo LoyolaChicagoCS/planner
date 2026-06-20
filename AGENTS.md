@@ -6,7 +6,7 @@ This repository is a Vite + React app for Loyola University Chicago Computer Sci
 
 https://advising.cs.luc.edu/
 
-Students select a BS, MS, or PhD program (or minor) and then use swipeable tabs to review courses, roadmaps, checklist items, Core courses where applicable, and an audit-style credit summary. The app is intentionally client-only: it has no backend, no user accounts, and no analytics or personal-data collection.
+Students select a CS-department BS, MS, or PhD program (or minor) as their primary program, then optionally add additional majors or minors from CAS, the School of Communication, or the Quinlan School of Business. Swipeable tabs show courses, roadmaps, checklist items, Core courses where applicable, and an audit-style credit summary that combines progress across all selected programs. The app is intentionally client-only: it has no backend, no user accounts, and no analytics or personal-data collection.
 
 ## Tech Stack
 
@@ -45,20 +45,21 @@ The home-screen version pill is injected by `vite.config.js` from the latest Git
 
 ## App Structure
 
-- `src/App.tsx` manages the selected program and keeps the URL in sync.
+- `src/App.tsx` manages the selected program, the `additionalPrograms` array, and keeps the URL in sync (`?p=`, `?m=`, `?d=`).
 - `src/main.tsx` mounts the React app.
 - `src/hooks/useProgress.ts` stores completion state in `localStorage` and restores shared progress from the `?d=` URL parameter.
 - `src/components/HomeScreen.tsx` renders the category tab bar (Majors, Interdisciplinary, Minors, Masters, Doctoral) and the program card list for the selected tab.
-- `src/components/ProgramScreen.tsx` renders the swipeable tabs, compact two-row program header, program-level controls, and share actions: Courses, Core when applicable, Roadmap, Checklist, and Audit.
-- `src/components/CourseList.tsx` shows major/minor, elective/selection, and core requirements.
+- `src/components/ProgramScreen.tsx` renders the swipeable tabs (Roadmap → Courses → Core → Checklist → Audit), compact two-row program header, program-level controls, and share actions. Passes `additionalPrograms` and `toggle` to `CourseList`, `Checklist`, and `Audit`.
+- `src/components/ProgramPicker.tsx` modal for browsing and adding additional majors and minors. Grouped by department. Excludes the active CS program, graduate/doctoral programs, and non-minor CS-department programs.
+- `src/components/CourseList.tsx` shows major/minor, elective/selection, and core requirements. Renders additional programs via `AdditionalProgramCourseSection` sub-component at the bottom.
 - `src/components/CorePlanner.tsx` shows catalog-derived University Core course choices for programs with Core requirements.
 - `src/components/SearchBox.tsx` provides the shared per-tab search input.
 - `src/components/Roadmap.tsx` shows the semester-by-semester plan.
-- `src/components/Checklist.tsx` shows remaining requirements, AP/transfer items, optional courses, and doctoral milestones for PhD programs.
-- `src/components/Audit.tsx` shows category-level credit progress.
+- `src/components/Checklist.tsx` shows remaining requirements, AP/transfer items, optional courses, and doctoral milestones for PhD programs. Renders additional programs via `AdditionalProgramChecklist` sub-component at the bottom.
+- `src/components/Audit.tsx` shows category-level credit progress. Renders each additional program as a separate card with a Remove button via `AdditionalProgramAudit` sub-component, plus a standalone "+ Add Additional Major or Minor" button.
 - `src/components/Footer.tsx` contains the privacy disclosure.
 - `src/types.ts` defines shared program, course, Core, roadmap, and progress types.
-- `src/utils/progress.ts` centralizes equivalent-course completion and distinct-credit calculations.
+- `src/utils/progress.ts` centralizes equivalent-course completion, distinct-credit calculations, and `createProgressHelpers(program, completed, toggle)` used by additional-program sub-components.
 - `src/utils/coreCatalog.ts` maps cached Core catalog courses to general Core requirement IDs.
 - `src/utils/search.ts` contains shared search matching helpers.
 - `src/utils/*.test.ts` contains model-level tests for progress, Core catalog, and share-link behavior.
@@ -72,6 +73,7 @@ Program data lives in `src/data/*.json`. Each program object should keep this sh
 - `id`
 - `name`
 - `degree`
+- `department` — identifies the owning department. `"Computer Science"` for all CS-department programs (used to exclude them from additional-program picker except when `kind === 'minor'`). `"Business Administration"` for Quinlan BBA programs. `"Communication"` for School of Communication programs. Omit entirely for CAS programs. The `ProgramPicker` filter logic reads this field.
 - `school`
 - `totalCredits`
 - `majorCredits` for BS major requirement totals where applicable
@@ -91,7 +93,11 @@ IDs are the app's stable persistence contract. Completion state is stored as a s
 
 Progress IDs must not contain dots or whitespace. Share links use a dot-delimited `?d=` value, and `src/utils/shareLink.ts` validates this rule. Keep IDs URL-friendly, preferably letters, numbers, `_`, and `-`. Old comma-delimited links are still decoded for backward compatibility.
 
-For BS programs, Loyola requires 120 credits to graduate, but catalog roadmaps may total 120 or 122 credits. Keep `totalCredits` aligned with the catalog roadmap/sample-plan total and use `majorCredits` for the major-only requirement total. For minors, `totalCredits` and `minorCredits` should reflect the credits required to complete the minor. For MS programs, `totalCredits` is the full program credit count (including any foundation courses) and `mastersCredits` is the required-coursework subset used for the Graduate Credits progress bar. For the PhD program, `totalCredits` is 60 and `phdCredits` is 39 (coursework only, excluding 21 dissertation credits); set `hasCompletionEstimate: false` since doctoral timelines are not estimable by credit count.
+For CS-department BS programs, Loyola requires 120 credits to graduate, but catalog roadmaps may total 120 or 122 credits. Keep `totalCredits` aligned with the catalog roadmap/sample-plan total and use `majorCredits` for the major-only requirement total. For minors, `totalCredits` and `minorCredits` should reflect the credits required to complete the minor. For MS programs, `totalCredits` is the full program credit count (including any foundation courses) and `mastersCredits` is the required-coursework subset used for the Graduate Credits progress bar. For the PhD program, `totalCredits` is 60 and `phdCredits` is 39 (coursework only, excluding 21 dissertation credits); set `hasCompletionEstimate: false` since doctoral timelines are not estimable by credit count.
+
+For BBA programs (Quinlan School of Business), `totalCredits` is the catalog-listed program total (typically 75–84 credits), **not** 120. BBA programs have a structured curriculum and do not have the same elective-heavy makeup as BS programs. Use `majorCredits` for the concentration-specific requirement total (the credits beyond the shared business core). All BBA programs share the same business core course IDs (e.g. `ACCT201`, `ECON201biz`, `MGMT201`, `FINC301`), so marking a business core course complete in any BBA program marks it across all others — this is intentional and correct.
+
+For CAS BA/BS programs used as additional majors, `totalCredits` and `majorCredits` reflect catalog major requirements. These programs do not have `roadmap`, `checklist`, or `coreRequirements` sections; only `courses` and `electiveOptions` are required for the additional-program feature.
 
 Some concrete courses appear in multiple requirement sections. Shared completion should be based on course identity (`code` + `title`) through `src/utils/progress.ts`, while total audit/checklist/header credits should count each distinct completed course only once.
 
@@ -109,6 +115,16 @@ The Core tab maps concrete catalog courses to general Core requirement IDs. Sele
 
 Search is intentionally available on every program tab. Each tab owns its own search query and filters only visible rows in that tab.
 
+## Additional Major / Minor Feature
+
+Students can add majors and minors from outside the CS department. These are tracked in the `additionalPrograms: Program[]` state in `App.tsx`. The primary CS-department program is never part of this array. Progress is not split per program — there is a single global `completed: Set<string>` shared across the primary and all additional programs, so the same course ID marked complete anywhere counts everywhere.
+
+`createProgressHelpers(program, completed, toggle)` in `src/utils/progress.ts` returns per-program helpers (`isCompleted`, `isRequirementSatisfied`, `getRequirementStatus`, `toggleItem`) and is called once per program inside each additional-program sub-component. It does not mutate state; `toggleItem` calls the same `toggle` function that was passed in.
+
+The `ProgramPicker` filter excludes the active program, graduate/doctoral programs (`kind === 'masters'` or `kind === 'phd'`), and CS-department non-minor programs (programs where `department === 'Computer Science'` and `kind !== 'minor'`). CS minors (e.g. AI Minor) are included so a CS student can track a second minor. CAS, Communication, and Business programs all pass through this filter.
+
+When an `electiveOptions` group has a `note` but no `courses` array (common for CAS programs that list elective pools as catalog text), `AuditCategory` renders the note text rather than an empty "Choose courses from the elective list above" prompt. This is the expected display for note-only elective groups.
+
 ## Privacy And Persistence
 
 Preserve the privacy model:
@@ -121,9 +137,13 @@ Preserve the privacy model:
 
 The current persistence behavior is:
 
-- `localStorage` key: `advising_progress`
+- `localStorage` key: `advising_progress` — comma-delimited completed course/item IDs
+- `localStorage` key: `advising_additional` — comma-delimited additional program IDs
 - URL parameter for selected program: `?p=<program-id>`
+- URL parameter for additional programs: `?m=<dot-delimited-program-ids>`
 - URL parameter for completed items: `?d=<dot-delimited-ids>`
+
+If `?m=` is absent (old share links), no additional programs are loaded. This keeps all existing share links backward compatible.
 
 ## Styling
 
