@@ -46,12 +46,14 @@ const PROGRAM_ICONS: Record<string, string> = {
   'phd-cs':           '🔬',
 };
 
-type SchoolKey = 'cs' | 'cas';
+type SchoolKey = 'cs' | 'cas' | 'business' | 'communication';
 type CsTabKey = 'majors' | 'interdisciplinary' | 'minors' | 'masters' | 'doctoral';
 
 const SCHOOL_TABS: { key: SchoolKey; label: string }[] = [
-  { key: 'cs',  label: 'CS Department' },
-  { key: 'cas', label: 'Arts & Sciences' },
+  { key: 'cs',            label: 'CS Department' },
+  { key: 'cas',           label: 'Arts & Sciences' },
+  { key: 'business',      label: 'Business' },
+  { key: 'communication', label: 'Communication' },
 ];
 
 const CS_TABS: { key: CsTabKey; label: string }[] = [
@@ -85,9 +87,9 @@ export default function HomeScreen({ programs, onSelect }: HomeScreenProps) {
   const [school, setSchool] = useState<SchoolKey>('cs');
   const [csTab, setCsTab]   = useState<CsTabKey>('majors');
 
-  // CS department programs
+  // CS department programs — Bioinformatics and Data Science are interdisciplinary only
   const csPrograms = {
-    majors:            sortByName(programs.filter(p => ['cs', 'se', 'it', 'cybersecurity', 'datascience', 'bioinformatics'].includes(p.id))),
+    majors:            sortByName(programs.filter(p => ['cs', 'se', 'it', 'cybersecurity'].includes(p.id))),
     interdisciplinary: sortByName(programs.filter(p => p.kind === 'interdisciplinary')),
     minors:            sortByName(programs.filter(p => p.kind === 'minor')),
     masters:           sortByName(programs.filter(p => p.kind === 'masters')),
@@ -102,6 +104,14 @@ export default function HomeScreen({ programs, onSelect }: HomeScreenProps) {
     p.department !== 'Business Administration',
   );
   const casByDept = groupByDepartment(casPrograms);
+
+  // Quinlan School of Business (BBA programs)
+  const businessPrograms = programs.filter(p => p.department === 'Business Administration');
+  const businessByDept = groupByDepartment(businessPrograms);
+
+  // School of Communication
+  const commPrograms = programs.filter(p => p.department === 'Communication');
+  const commByDept = groupByDepartment(commPrograms);
 
   return (
     <div className="flex flex-col h-full bg-gray-50">
@@ -144,9 +154,8 @@ export default function HomeScreen({ programs, onSelect }: HomeScreenProps) {
         ))}
       </div>
 
-      {school === 'cs' ? (
+      {school === 'cs' && (
         <>
-          {/* CS sub-tabs */}
           <div className="flex bg-white border-b border-gray-200 flex-shrink-0">
             {CS_TABS.map(tab => (
               <button
@@ -162,27 +171,29 @@ export default function HomeScreen({ programs, onSelect }: HomeScreenProps) {
               </button>
             ))}
           </div>
-
           <div key={csTab} className="flex-1 overflow-y-auto px-4 pt-5 pb-8 space-y-3">
             {csPrograms[csTab].map(program => (
               <ProgramCard key={program.id} program={program} onSelect={onSelect} />
             ))}
           </div>
         </>
-      ) : (
+      )}
+
+      {(school === 'cas' || school === 'business' || school === 'communication') && (
         <div className="flex-1 overflow-y-auto px-4 pt-5 pb-8">
-          {casByDept.map(([dept, progs]) => (
-            <div key={dept} className="mb-6">
-              <h2 className="text-xs font-bold uppercase tracking-wider text-gray-400 mb-2 px-1">
-                {dept}
-              </h2>
-              <div className="space-y-2">
-                {progs.map(program => (
-                  <ProgramCard key={program.id} program={program} onSelect={onSelect} />
-                ))}
+          {(school === 'cas' ? casByDept : school === 'business' ? businessByDept : commByDept)
+            .map(([dept, progs]) => (
+              <div key={dept} className="mb-6">
+                <h2 className="text-xs font-bold uppercase tracking-wider text-gray-400 mb-2 px-1">
+                  {dept}
+                </h2>
+                <div className="space-y-2">
+                  {progs.map(program => (
+                    <ProgramCard key={program.id} program={program} onSelect={onSelect} />
+                  ))}
+                </div>
               </div>
-            </div>
-          ))}
+            ))}
         </div>
       )}
 
