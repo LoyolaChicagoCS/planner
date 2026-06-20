@@ -28,18 +28,25 @@
       "title": "Introduction to Italian Literature",
       "credits": 3,
       "category": "major"
+    },
+    {
+      "id": "ITAL390",
+      "code": "ITAL 390",
+      "title": "Culture & Civilization",
+      "credits": 3,
+      "category": "major"
     }
   ],
   "electiveOptions": {
     "ital-lit": {
       "creditsRequired": 9,
       "label": "Literature/Culture Electives",
-      "note": "Three 300/400-level ITAL literature, culture, or cinema courses"
+      "note": "Three 300-level ITAL literature, culture, or cinema courses"
     },
     "ital-elective": {
       "creditsRequired": 6,
       "label": "Additional Electives",
-      "note": "Two additional ITAL courses at 200-level or above"
+      "note": "Two additional ITAL courses at the 200-level or above"
     },
     "ital-study-abroad": {
       "creditsRequired": 3,

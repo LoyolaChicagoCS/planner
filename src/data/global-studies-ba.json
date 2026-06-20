@@ -28,6 +28,13 @@
       "title": "Research Methods in Global Studies",
       "credits": 3,
       "category": "major"
+    },
+    {
+      "id": "GLST398",
+      "code": "GLST 398",
+      "title": "Topics in Global Studies",
+      "credits": 3,
+      "category": "major"
     }
   ],
   "electiveOptions": {

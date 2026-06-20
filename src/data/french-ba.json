@@ -28,18 +28,25 @@
       "title": "Introduction to French Literature",
       "credits": 3,
       "category": "major"
+    },
+    {
+      "id": "FREN390",
+      "code": "FREN 390",
+      "title": "French & Francophone Cultures & Civilizations",
+      "credits": 3,
+      "category": "major"
     }
   ],
   "electiveOptions": {
     "fren-lit": {
       "creditsRequired": 9,
       "label": "Literature/Culture Electives",
-      "note": "Three 300/400-level FREN literature or culture courses"
+      "note": "Three 300-level FREN literature or culture courses"
     },
     "fren-elective": {
       "creditsRequired": 6,
       "label": "Additional Electives",
-      "note": "Two additional FREN courses at 200-level or above"
+      "note": "Two additional FREN courses at the 200-level or above"
     },
     "fren-study-abroad": {
       "creditsRequired": 3,

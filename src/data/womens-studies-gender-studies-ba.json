@@ -21,6 +21,13 @@
       "title": "Research and Theory in Women's and Gender Studies",
       "credits": 3,
       "category": "major"
+    },
+    {
+      "id": "WSGS399",
+      "code": "WSGS 399",
+      "title": "WSGS Capstone",
+      "credits": 3,
+      "category": "major"
     }
   ],
   "electiveOptions": {
@@ -32,7 +39,7 @@
     "wsgs-upper": {
       "creditsRequired": 12,
       "label": "Upper-Division Electives",
-      "note": "Four courses at the 300/400 level in WSGS or cross-listed fields"
+      "note": "Four courses at the 300-level in WSGS or cross-listed fields"
     },
     "wsgs-praxis": {
       "creditsRequired": 6,

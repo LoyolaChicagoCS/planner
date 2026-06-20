@@ -9,9 +9,9 @@
   "catalogUrl": "https://catalog.luc.edu/undergraduate/arts-sciences/sociology/sociology-anthropology-ba/",
   "courses": [
     {
-      "id": "SOCI101soa",
-      "code": "SOCI 101",
-      "title": "Introduction to Sociology",
+      "id": "SOCL101soa",
+      "code": "SOCL 101",
+      "title": "Society in a Global Age",
       "credits": 3,
       "category": "major"
     },
@@ -23,16 +23,16 @@
       "category": "major"
     },
     {
-      "id": "SOCI301soa",
-      "code": "SOCI 301",
-      "title": "Sociological Theory",
+      "id": "SOCL205soa",
+      "code": "SOCL 205",
+      "title": "Sociological Thought",
       "credits": 3,
       "category": "major"
     },
     {
-      "id": "SOCI302soa",
-      "code": "SOCI 302",
-      "title": "Research Methods in Sociology",
+      "id": "SOCL206soa",
+      "code": "SOCL 206",
+      "title": "Principles of Social Research",
       "credits": 3,
       "category": "major"
     }
@@ -41,7 +41,7 @@
     "soa-soci-upper": {
       "creditsRequired": 9,
       "label": "Sociology Upper-Division Electives",
-      "note": "Three upper-division SOCI courses (300+)"
+      "note": "Three upper-division SOCL courses (300+)"
     },
     "soa-anth-upper": {
       "creditsRequired": 9,

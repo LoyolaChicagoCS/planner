@@ -35,13 +35,20 @@
       "title": "Methods in Theology",
       "credits": 3,
       "category": "major"
+    },
+    {
+      "id": "THEO373",
+      "code": "THEO 373",
+      "title": "Theology Capstone",
+      "credits": 3,
+      "category": "major"
     }
   ],
   "electiveOptions": {
     "theo-upper": {
       "creditsRequired": 12,
       "label": "Upper-Division Theology Electives",
-      "note": "Four THEO courses at the 300/400 level from approved list"
+      "note": "Four THEO courses at the 300-level from approved list"
     },
     "theo-elective": {
       "creditsRequired": 9,

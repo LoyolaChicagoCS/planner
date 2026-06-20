@@ -28,18 +28,25 @@
       "title": "Introduction to Spanish Literature",
       "credits": 3,
       "category": "major"
+    },
+    {
+      "id": "SPAN390",
+      "code": "SPAN 390",
+      "title": "Latin American Culture and Civilization",
+      "credits": 3,
+      "category": "major"
     }
   ],
   "electiveOptions": {
     "span-lit": {
       "creditsRequired": 9,
       "label": "Literature/Culture Electives",
-      "note": "Three 300/400-level SPAN literature or culture courses"
+      "note": "Three 300-level SPAN literature or culture courses"
     },
     "span-elective": {
       "creditsRequired": 6,
       "label": "Additional Electives",
-      "note": "Two additional SPAN courses at 200-level or above"
+      "note": "Two additional SPAN courses at the 200-level or above"
     },
     "span-study-abroad": {
       "creditsRequired": 3,

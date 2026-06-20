@@ -28,13 +28,20 @@
       "title": "Methods in Religious Studies",
       "credits": 3,
       "category": "major"
+    },
+    {
+      "id": "THEO373rs",
+      "code": "THEO 373",
+      "title": "Theology Capstone",
+      "credits": 3,
+      "category": "major"
     }
   ],
   "electiveOptions": {
     "rs-upper": {
       "creditsRequired": 12,
       "label": "Upper-Division Electives",
-      "note": "Four THEO courses at the 300/400 level from approved religious studies list"
+      "note": "Four THEO courses at the 300-level from approved religious studies list"
     },
     "rs-elective": {
       "creditsRequired": 12,

@@ -9,8 +9,8 @@
   "catalogUrl": "https://catalog.luc.edu/undergraduate/arts-sciences/neuroscience/cognitive-behavioral-neuroscience-bs/",
   "courses": [
     {
-      "id": "NEUR100",
-      "code": "NEUR 100",
+      "id": "NEUR101",
+      "code": "NEUR 101",
       "title": "Introduction to Neuroscience",
       "credits": 3,
       "category": "major"
@@ -95,28 +95,7 @@
     {
       "id": "PSYC304",
       "code": "PSYC 304",
-      "title": "Biological Psychology",
-      "credits": 3,
-      "category": "major"
-    },
-    {
-      "id": "PSYC305",
-      "code": "PSYC 305",
-      "title": "Sensation and Perception",
-      "credits": 3,
-      "category": "major"
-    },
-    {
-      "id": "NEUR301",
-      "code": "NEUR 301",
-      "title": "Cellular Neuroscience",
-      "credits": 3,
-      "category": "major"
-    },
-    {
-      "id": "NEUR302",
-      "code": "NEUR 302",
-      "title": "Systems Neuroscience",
+      "title": "Statistics",
       "credits": 3,
       "category": "major"
     }

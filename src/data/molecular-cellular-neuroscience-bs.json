@@ -9,8 +9,8 @@
   "catalogUrl": "https://catalog.luc.edu/undergraduate/arts-sciences/neuroscience/molecular-cellular-neuroscience-bs/",
   "courses": [
     {
-      "id": "NEUR100",
-      "code": "NEUR 100",
+      "id": "NEUR101",
+      "code": "NEUR 101",
       "title": "Introduction to Neuroscience",
       "credits": 3,
       "category": "major"
@@ -118,20 +118,6 @@
       "code": "PHYS 125L",
       "title": "General Physics I Laboratory",
       "credits": 1,
-      "category": "major"
-    },
-    {
-      "id": "NEUR301",
-      "code": "NEUR 301",
-      "title": "Cellular Neuroscience",
-      "credits": 3,
-      "category": "major"
-    },
-    {
-      "id": "NEUR302",
-      "code": "NEUR 302",
-      "title": "Systems Neuroscience",
-      "credits": 3,
       "category": "major"
     }
   ],
