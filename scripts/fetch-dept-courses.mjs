@@ -17,6 +17,12 @@ const BASE_URL = 'https://catalog.luc.edu/course-descriptions';
 const OUT_DIR = 'src/data/dept-courses';
 const CATALOG_YEAR = '2026-2027';
 
+// When using dept-courses data to populate undergraduate elective pools,
+// filter courses to numbers ≤ this value. 500+ courses are graduate-level
+// and should not appear in additional-major elective arrays even though they
+// are collected here for catalog completeness and annual update convenience.
+export const UNDERGRAD_MAX_COURSE_NUM = 499;
+
 /**
  * All departments needed to populate elective pools across CAS, Communication,
  * and Business additional-major program files. Each entry maps the department

@@ -16,6 +16,10 @@
 import { readdirSync, readFileSync } from 'node:fs';
 import path from 'node:path';
 
+// Undergraduate course number ceiling — mirrors the constant in fetch-dept-courses.mjs.
+// 500+ courses are graduate-level and must not appear in additional-major elective pools.
+const UNDERGRAD_MAX = 499;
+
 const DATA_DIR  = 'src/data';
 const DEPT_DIR  = 'src/data/dept-courses';
 const CS_IDS = new Set([
@@ -25,11 +29,13 @@ const CS_IDS = new Set([
   'ms-cs', 'ms-it', 'ms-cybersecurity', 'ms-se', 'ms-ds', 'phd-cs',
 ]);
 
-// Load dept-courses inventories
+// Load dept-courses inventories — undergraduate courses only (≤ 499)
 const deptCourses = {};
 for (const f of readdirSync(DEPT_DIR).filter(n => n.endsWith('.json'))) {
   const dept = JSON.parse(readFileSync(path.join(DEPT_DIR, f), 'utf8'));
-  deptCourses[dept.code] = dept.courses;
+  deptCourses[dept.code] = dept.courses.filter(
+    c => parseInt(c.code.split(' ')[1], 10) <= UNDERGRAD_MAX,
+  );
 }
 
 // Detect if a note text references specific course numbers
