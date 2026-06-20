@@ -26,7 +26,6 @@ const typedOptionalData = optionalData as OptionalData;
 
 interface ChecklistProps {
   program: Program;
-  additionalPrograms: Program[];
   completed: CompletedSet;
   toggle: Toggle;
   isCompleted: IsCompleted;
@@ -49,7 +48,7 @@ interface ChecklistProps {
  *   completed — Set of completed IDs
  *   toggle    — function(id) to mark/unmark
  */
-export default function Checklist({ program, additionalPrograms, completed, toggle, isCompleted, isRequirementSatisfied, toggleItem }: ChecklistProps) {
+export default function Checklist({ program, completed, toggle, isCompleted, isRequirementSatisfied, toggleItem }: ChecklistProps) {
   const [query, setQuery] = useState('');
   const search = normalizeSearch(query);
   const checklistItems  = program.checklist ?? [];
@@ -73,15 +72,6 @@ export default function Checklist({ program, additionalPrograms, completed, togg
       <ChecklistSection title="AP Exam Credits"              items={apItems}       search={search} completed={completed} toggle={toggle} isCompleted={isCompleted} toggleItem={toggleItem} />
       <ChecklistSection title="Transfer & Placement Credits" items={transferItems} search={search} completed={completed} toggle={toggle} isCompleted={isCompleted} toggleItem={toggleItem} />
       {program.kind !== 'masters' && program.kind !== 'phd' && <OptionalCourses search={search} completed={completed} toggle={toggle} />}
-      {additionalPrograms.map(addlProgram => (
-        <AdditionalProgramChecklist
-          key={addlProgram.id}
-          program={addlProgram}
-          completed={completed}
-          toggle={toggle}
-          search={search}
-        />
-      ))}
     </div>
   );
 }
@@ -259,81 +249,6 @@ function ChecklistItem({ item, completed, toggle, isCompleted, toggleItem }: {
   );
 }
 
-function AdditionalProgramChecklist({ program, completed, toggle, search }: {
-  program: Program;
-  completed: CompletedSet;
-  toggle: Toggle;
-  search: string;
-}) {
-  const { isRequirementSatisfied, toggleItem } = createProgressHelpers(program, completed, toggle);
-  const kindLabel = program.kind === 'minor' ? 'Minor' : 'Major';
-  const remaining = (program.courses ?? []).filter(c =>
-    !isRequirementSatisfied(c) && matchesSearch([c.code, c.title, c.label, c.note, c.choiceNote], search)
-  );
-  const electiveGroups = Object.values(program.electiveOptions ?? {}).filter(g => g.creditsRequired > 0);
-
-  return (
-    <div className="flex flex-col gap-3">
-      <div className="flex items-center gap-2">
-        <div className="flex-1 h-px bg-maroon-100" />
-        <span className="text-xs font-semibold text-maroon-500 uppercase tracking-wide px-2">
-          Additional {kindLabel}: {program.name} {program.degree}
-        </span>
-        <div className="flex-1 h-px bg-maroon-100" />
-      </div>
-      {remaining.length === 0 && electiveGroups.length === 0 ? (
-        <div className="bg-maroon-50 border border-maroon-100 rounded-xl p-4 text-sm text-maroon-700 text-center font-medium">
-          {search ? 'No matching remaining courses' : 'All required courses complete ✓'}
-        </div>
-      ) : (
-        <>
-          {remaining.length > 0 && (
-            <div>
-              <h2 className="text-xs font-semibold uppercase tracking-widest text-gray-400 mb-3">
-                Remaining Required Courses
-                <span className="ml-2 normal-case font-normal text-gray-400">({remaining.length} courses)</span>
-              </h2>
-              <div className="flex flex-col gap-2">
-                {remaining.map(course => (
-                  <button
-                    key={course.id}
-                    onClick={() => toggleItem(course)}
-                    className="flex items-center gap-3 p-3 rounded-xl text-left w-full bg-white border border-gray-100 shadow-sm active:bg-gray-50"
-                  >
-                    <div className="flex-shrink-0 w-5 h-5 rounded-full border-2 border-gray-300" />
-                    <div className="flex-1 min-w-0">
-                      <div className="text-sm font-medium text-gray-800 leading-snug">
-                        {course.code ? `${course.code} — ${course.title}` : course.label}
-                      </div>
-                      {course.choiceNote && (
-                        <div className="text-xs text-gray-400 mt-0.5">{course.choiceNote}</div>
-                      )}
-                    </div>
-                    <div className="text-xs text-gray-400 flex-shrink-0">{course.credits} cr</div>
-                  </button>
-                ))}
-              </div>
-            </div>
-          )}
-          {electiveGroups.length > 0 && (
-            <div>
-              <h2 className="text-xs font-semibold uppercase tracking-widest text-gray-400 mb-3">Elective Requirements</h2>
-              <div className="flex flex-col gap-2">
-                {electiveGroups.map(group => (
-                  <div key={group.label} className="p-3 rounded-xl bg-white border border-gold-100 shadow-sm">
-                    <div className="text-sm font-semibold text-gold-800">{group.label}</div>
-                    {group.note && <div className="text-xs text-gray-500 mt-0.5 italic">{group.note}</div>}
-                    <div className="text-xs text-gray-400 mt-1">{group.creditsRequired} credits required</div>
-                  </div>
-                ))}
-              </div>
-            </div>
-          )}
-        </>
-      )}
-    </div>
-  );
-}
 
 function OptionalCourses({ search, completed, toggle }: { search: string; completed: CompletedSet; toggle: Toggle }) {
   const groups = [typedOptionalData.writingIntensive, typedOptionalData.coreEligible];

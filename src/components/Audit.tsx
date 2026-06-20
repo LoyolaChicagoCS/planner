@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import SearchBox from './SearchBox';
-import ProgramPicker from './ProgramPicker';
 import optionalData from '../data/optional.json';
 import {
   calcDistinctDoneCredits,
@@ -48,9 +47,6 @@ const typedOptionalData = optionalData as OptionalData;
 interface AuditProps {
   program: Program;
   allPrograms: Program[];
-  additionalPrograms: Program[];
-  onAddProgram: (p: Program) => void;
-  onRemoveProgram: (id: string) => void;
   completed: CompletedSet;
   toggle: Toggle;
   isCompleted: IsCompleted;
@@ -74,16 +70,16 @@ interface AuditProps {
  *   completed — Set of completed IDs
  *   toggle    — function(id) to mark/unmark
  */
-export default function Audit({ program, allPrograms, additionalPrograms, onAddProgram, onRemoveProgram, completed, toggle, isCompleted, isRequirementSatisfied, getRequirementStatus, toggleItem }: AuditProps) {
+export default function Audit({ program, allPrograms: _allPrograms, completed, toggle, isCompleted, isRequirementSatisfied, getRequirementStatus, toggleItem }: AuditProps) {
   const [query, setQuery] = useState('');
-  const [pickerOpen, setPickerOpen] = useState(false);
   const search = normalizeSearch(query);
-  const totalDone     = calcDistinctDoneCredits(program, completed);
+  const enriched = enrichOpenElectiveGroups(program);
+  const totalDone     = calcDistinctDoneCredits(enriched, completed);
   const totalRequired = program.kind === 'minor' || program.kind === 'masters' || program.kind === 'phd' ? program.totalCredits : 120;
   const remaining     = Math.max(0, totalRequired - totalDone);
   const pct           = Math.min(100, Math.round((totalDone / totalRequired) * 100));
-  const requirementDone = calcProgramRequirementDoneCredits(program, isRequirementSatisfied);
-  const requirementRequired = calcProgramRequirementCreditGoal(program);
+  const requirementDone = calcProgramRequirementDoneCredits(enriched, isRequirementSatisfied);
+  const requirementRequired = calcProgramRequirementCreditGoal(enriched);
   const requirementRemaining = Math.max(0, requirementRequired - requirementDone);
   const requirementPct = requirementRequired > 0
     ? Math.min(100, Math.round((requirementDone / requirementRequired) * 100))
@@ -116,15 +112,13 @@ export default function Audit({ program, allPrograms, additionalPrograms, onAddP
 
       {/* Major required courses */}
       <AuditCategory
-        title={program.kind === 'minor' ? 'Minor Requirements' : program.kind === 'masters' ? 'Foundation & Required Courses' : program.kind === 'phd' ? 'Doctoral Required Courses' : 'Major Required Courses'}
-        items={(program.courses ?? []).map(c => ({
+        title={enriched.kind === 'minor' ? 'Minor Requirements' : enriched.kind === 'masters' ? 'Foundation & Required Courses' : enriched.kind === 'phd' ? 'Doctoral Required Courses' : 'Major Required Courses'}
+        items={(enriched.courses ?? []).map(c => ({
           ...c,
-          id: c.id,
           label: c.code ? `${c.code} — ${c.title}` : c.title,
-          credits: c.credits,
         }))}
         search={search}
-        creditsRequired={calcRequiredCredits(program.courses ?? [])}
+        creditsRequired={calcRequiredCredits(enriched.courses ?? [])}
         isCompleted={isCompleted}
         isRequirementSatisfied={isRequirementSatisfied}
         getRequirementStatus={getRequirementStatus}
@@ -132,7 +126,7 @@ export default function Audit({ program, allPrograms, additionalPrograms, onAddP
       />
 
       {/* Elective groups */}
-      {Object.values(program.electiveOptions ?? {})
+      {Object.values(enriched.electiveOptions ?? {})
         .filter(group => (group.courses ?? []).length > 0 || group.creditsRequired > 0)
         .map(group => (
         <AuditCategory
@@ -141,9 +135,7 @@ export default function Audit({ program, allPrograms, additionalPrograms, onAddP
           note={group.note}
           items={(group.courses ?? []).map(c => ({
             ...c,
-            id: c.id,
-            label: `${c.code} — ${c.title}`,
-            credits: c.credits,
+            label: c.code ? `${c.code} — ${c.title}` : c.title,
           }))}
           search={search}
           creditsRequired={group.creditsRequired}
@@ -172,38 +164,7 @@ export default function Audit({ program, allPrograms, additionalPrograms, onAddP
       />
 
       {/* Optional CS courses — shown for awareness, not counted toward 120; not relevant for graduate programs */}
-      {program.kind !== 'masters' && program.kind !== 'phd' && <OptionalAuditSection search={search} completed={completed} toggle={toggle} />}
-
-      {/* Additional majors / minors — one card per program, remove button in header */}
-      {additionalPrograms.map(addlProgram => (
-        <AdditionalProgramAudit
-          key={addlProgram.id}
-          program={addlProgram}
-          completed={completed}
-          toggle={toggle}
-          search={search}
-          onRemove={onRemoveProgram}
-        />
-      ))}
-
-      {/* Add button — always visible at the bottom */}
-      <button
-        onClick={() => setPickerOpen(true)}
-        className="w-full rounded-xl border-2 border-dashed border-maroon-200 py-3 text-sm font-semibold text-maroon-400 active:bg-maroon-50 transition-colors"
-      >
-        + Add Additional Major or Minor
-      </button>
-
-      {pickerOpen && (
-        <ProgramPicker
-          programs={allPrograms}
-          activeProgram={program}
-          additionalPrograms={additionalPrograms}
-          onAdd={p => { onAddProgram(p); }}
-          onRemove={onRemoveProgram}
-          onClose={() => setPickerOpen(false)}
-        />
-      )}
+      {enriched.kind !== 'masters' && enriched.kind !== 'phd' && <OptionalAuditSection search={search} completed={completed} toggle={toggle} />}
 
     </div>
   );
