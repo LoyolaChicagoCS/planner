@@ -8,25 +8,224 @@
   "majorCredits": 33,
   "catalogUrl": "https://catalog.luc.edu/undergraduate/arts-sciences/philosophy/philosopy-ba/",
   "courses": [
-    { "id": "PHIL274", "code": "PHIL 274", "title": "Logic", "credits": 3, "category": "major" },
-    { "id": "PHIL304", "code": "PHIL 304", "title": "History of Ancient Philosophy", "credits": 3, "category": "major" },
-    { "id": "PHIL309", "code": "PHIL 309", "title": "Classical Modern Philosophy", "credits": 3, "category": "major" }
+    {
+      "id": "PHIL274",
+      "code": "PHIL 274",
+      "title": "Logic",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "PHIL304",
+      "code": "PHIL 304",
+      "title": "History of Ancient Philosophy",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "PHIL309",
+      "code": "PHIL 309",
+      "title": "Classical Modern Philosophy",
+      "credits": 3,
+      "category": "major"
+    }
   ],
   "electiveOptions": {
     "phil-ethics": {
       "creditsRequired": 3,
       "label": "Ethics Elective",
-      "note": "One course from PHIL 181, 182, 283–289, 321–322, 324–325, 329, 355, 369, 375, 385, or 388"
+      "note": "One course from PHIL 181, 182, 283–289, 321–322, 324–325, 329, 355, 369, 375, 385, or 388",
+      "courses": [
+        {
+          "id": "PHIL181",
+          "code": "PHIL 181",
+          "title": "Ethics",
+          "credits": 3,
+          "category": "elective"
+        },
+        {
+          "id": "PHIL182",
+          "code": "PHIL 182",
+          "title": "Social and Political Philosophy",
+          "credits": 3,
+          "category": "elective"
+        },
+        {
+          "id": "PHIL283",
+          "code": "PHIL 283",
+          "title": "Business Ethics",
+          "credits": 3,
+          "category": "elective"
+        },
+        {
+          "id": "PHIL284",
+          "code": "PHIL 284",
+          "title": "Health Care Ethics",
+          "credits": 3,
+          "category": "elective"
+        },
+        {
+          "id": "PHIL285",
+          "code": "PHIL 285",
+          "title": "Contemporary Ethical Issues",
+          "credits": 3,
+          "category": "elective"
+        },
+        {
+          "id": "PHIL286",
+          "code": "PHIL 286",
+          "title": "Ethics and Education",
+          "credits": 3,
+          "category": "elective"
+        },
+        {
+          "id": "PHIL287",
+          "code": "PHIL 287",
+          "title": "Environmental Ethics",
+          "credits": 3,
+          "category": "elective"
+        },
+        {
+          "id": "PHIL288",
+          "code": "PHIL 288",
+          "title": "Culture and Civilization",
+          "credits": 3,
+          "category": "elective"
+        },
+        {
+          "id": "PHIL289",
+          "code": "PHIL 289",
+          "title": "Philosophy and Gender",
+          "credits": 3,
+          "category": "elective"
+        },
+        {
+          "id": "PHIL321",
+          "code": "PHIL 321",
+          "title": "Ethics and Society",
+          "credits": 3,
+          "category": "elective"
+        }
+      ]
     },
     "phil-metaphysics": {
       "creditsRequired": 3,
       "label": "Metaphysics / Epistemology Elective",
-      "note": "One course from PHIL 130, 271–277, 279, 311, 325, 330, 380–384, 386–387, 391, or 393"
+      "note": "One course from PHIL 130, 271–277, 279, 311, 325, 330, 380–384, 386–387, 391, or 393",
+      "courses": [
+        {
+          "id": "PHIL130",
+          "code": "PHIL 130",
+          "title": "Philosophy & Persons",
+          "credits": 3,
+          "category": "elective"
+        },
+        {
+          "id": "PHIL271",
+          "code": "PHIL 271",
+          "title": "Philosophy of Religion",
+          "credits": 3,
+          "category": "elective"
+        },
+        {
+          "id": "PHIL272",
+          "code": "PHIL 272",
+          "title": "Metaphysics",
+          "credits": 3,
+          "category": "elective"
+        },
+        {
+          "id": "PHIL273",
+          "code": "PHIL 273",
+          "title": "Philosophy of Science",
+          "credits": 3,
+          "category": "elective"
+        },
+        {
+          "id": "PHIL274",
+          "code": "PHIL 274",
+          "title": "Logic",
+          "credits": 3,
+          "category": "elective"
+        },
+        {
+          "id": "PHIL275",
+          "code": "PHIL 275",
+          "title": "Theory of Knowledge",
+          "credits": 3,
+          "category": "elective"
+        },
+        {
+          "id": "PHIL276",
+          "code": "PHIL 276",
+          "title": "Philosophy of Mind",
+          "credits": 3,
+          "category": "elective"
+        },
+        {
+          "id": "PHIL277",
+          "code": "PHIL 277",
+          "title": "Aesthetics",
+          "credits": 3,
+          "category": "elective"
+        },
+        {
+          "id": "PHIL279",
+          "code": "PHIL 279",
+          "title": "Judgment and Decision-Making",
+          "credits": 3,
+          "category": "elective"
+        },
+        {
+          "id": "PHIL311",
+          "code": "PHIL 311",
+          "title": "Issues in Metaphysics",
+          "credits": 3,
+          "category": "elective"
+        }
+      ]
     },
     "phil-capstone": {
       "creditsRequired": 3,
       "label": "Philosophy Capstone Seminar",
-      "note": "One course from PHIL 395, 396, 397, 398, or 399"
+      "note": "One course from PHIL 395, 396, 397, 398, or 399",
+      "courses": [
+        {
+          "id": "PHIL395",
+          "code": "PHIL 395",
+          "title": "Seminar in Ancient Philosophy",
+          "credits": 3,
+          "category": "elective"
+        },
+        {
+          "id": "PHIL396",
+          "code": "PHIL 396",
+          "title": "Seminar in Medieval Philosophy",
+          "credits": 3,
+          "category": "elective"
+        },
+        {
+          "id": "PHIL397",
+          "code": "PHIL 397",
+          "title": "Capstone Seminar in Classical Modern Philosophy",
+          "credits": 3,
+          "category": "elective"
+        },
+        {
+          "id": "PHIL398",
+          "code": "PHIL 398",
+          "title": "Capstone Seminar in Contemporary Philosophy",
+          "credits": 3,
+          "category": "elective"
+        },
+        {
+          "id": "PHIL399",
+          "code": "PHIL 399",
+          "title": "Capstone Seminar on a Topic in Philosophy",
+          "credits": 3,
+          "category": "elective"
+        }
+      ]
     },
     "phil-electives": {
       "creditsRequired": 21,

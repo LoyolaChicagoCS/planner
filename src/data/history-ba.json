@@ -8,43 +8,183 @@
   "majorCredits": 36,
   "catalogUrl": "https://catalog.luc.edu/undergraduate/arts-sciences/history/history-ba/",
   "courses": [
-    { "id": "HIST299", "code": "HIST 299", "title": "Historical Methods", "credits": 3, "category": "major", "note": "INDS 380 accepted as substitute" }
+    {
+      "id": "HIST299",
+      "code": "HIST 299",
+      "title": "Historical Methods",
+      "credits": 3,
+      "category": "major",
+      "note": "INDS 380 accepted as substitute"
+    }
   ],
   "electiveOptions": {
     "hist-tier1-intro": {
       "creditsRequired": 3,
       "label": "Tier 1 Intro: Foundational Historical Knowledge",
-      "note": "One course from HIST 101–104 or HONR 101–102"
+      "note": "One course from HIST 101–104 or HONR 101–102",
+      "courses": [
+        {
+          "id": "HIST101",
+          "code": "HIST 101",
+          "title": "Culture, Power and Identity: Western Ideas & Institutions to 17th Century",
+          "credits": 3,
+          "category": "elective"
+        }
+      ]
     },
     "hist-tier2-intro": {
       "creditsRequired": 3,
       "label": "Tier 2 Intro: Historical Knowledge",
-      "note": "One course from HIST 208–213 or approved honors alternative"
+      "note": "One course from HIST 208–213 or approved honors alternative",
+      "courses": [
+        {
+          "id": "HIST208",
+          "code": "HIST 208",
+          "title": "East Asian History: Themes & Issues",
+          "credits": 3,
+          "category": "elective"
+        }
+      ]
     },
     "hist-premodern": {
       "creditsRequired": 3,
       "label": "Pre-Modern History",
-      "note": "One 300-level course in pre-modern history (e.g., HIST 310, 314, 315)"
+      "note": "One 300-level course in pre-modern history (e.g., HIST 310, 314, 315)",
+      "courses": [
+        {
+          "id": "HIST310",
+          "code": "HIST 310",
+          "title": "The Middle Ages",
+          "credits": 3,
+          "category": "elective"
+        },
+        {
+          "id": "HIST314",
+          "code": "HIST 314",
+          "title": "Renaissance",
+          "credits": 3,
+          "category": "elective"
+        },
+        {
+          "id": "HIST315",
+          "code": "HIST 315",
+          "title": "The Reformation",
+          "credits": 3,
+          "category": "elective"
+        }
+      ]
     },
     "hist-modern-european": {
       "creditsRequired": 3,
       "label": "Modern European History",
-      "note": "One 300-level course in modern European history (e.g., HIST 320, 330, 337)"
+      "note": "One 300-level course in modern European history (e.g., HIST 320, 330, 337)",
+      "courses": [
+        {
+          "id": "HIST320",
+          "code": "HIST 320",
+          "title": "Era French Revolution & Napoleon",
+          "credits": 3,
+          "category": "elective"
+        },
+        {
+          "id": "HIST330",
+          "code": "HIST 330",
+          "title": "Europe in the Age of Catastrophe, 1900-1945",
+          "credits": 3,
+          "category": "elective"
+        },
+        {
+          "id": "HIST337",
+          "code": "HIST 337",
+          "title": "Rise & Fall of Soviet Union",
+          "credits": 3,
+          "category": "elective"
+        }
+      ]
     },
     "hist-us": {
       "creditsRequired": 3,
       "label": "U.S. History",
-      "note": "One 300-level course in U.S. history (e.g., HIST 360, 363, 367, 380)"
+      "note": "One 300-level course in U.S. history (e.g., HIST 360, 363, 367, 380)",
+      "courses": [
+        {
+          "id": "HIST360",
+          "code": "HIST 360",
+          "title": "Community and Culture in Colonial America",
+          "credits": 3,
+          "category": "elective"
+        },
+        {
+          "id": "HIST363",
+          "code": "HIST 363",
+          "title": "Civil War & Reconstruction 1850-1877",
+          "credits": 3,
+          "category": "elective"
+        },
+        {
+          "id": "HIST367",
+          "code": "HIST 367",
+          "title": "United States from Great Depression to Recession",
+          "credits": 3,
+          "category": "elective"
+        },
+        {
+          "id": "HIST380",
+          "code": "HIST 380",
+          "title": "Introduction to African-American History",
+          "credits": 3,
+          "category": "elective"
+        }
+      ]
     },
     "hist-world": {
       "creditsRequired": 3,
       "label": "World History",
-      "note": "One 300-level course in world/non-Western history (e.g., HIST 341, 350, 356)"
+      "note": "One 300-level course in world/non-Western history (e.g., HIST 341, 350, 356)",
+      "courses": [
+        {
+          "id": "HIST341",
+          "code": "HIST 341",
+          "title": "Modern Middle East",
+          "credits": 3,
+          "category": "elective"
+        },
+        {
+          "id": "HIST350",
+          "code": "HIST 350",
+          "title": "Colonial Latin America",
+          "credits": 3,
+          "category": "elective"
+        },
+        {
+          "id": "HIST356",
+          "code": "HIST 356",
+          "title": "Mexican History-Ancient to Modern Times",
+          "credits": 3,
+          "category": "elective"
+        }
+      ]
     },
     "hist-electives": {
       "creditsRequired": 15,
       "label": "History Electives",
-      "note": "Five additional history courses (HIST 101–399 or approved related courses); one may be HIST 398 Internship"
+      "note": "Five additional history courses (HIST 101–399 or approved related courses); one may be HIST 398 Internship",
+      "courses": [
+        {
+          "id": "HIST101",
+          "code": "HIST 101",
+          "title": "Culture, Power and Identity: Western Ideas & Institutions to 17th Century",
+          "credits": 3,
+          "category": "elective"
+        },
+        {
+          "id": "HIST398",
+          "code": "HIST 398",
+          "title": "History Internship",
+          "credits": 3,
+          "category": "elective"
+        }
+      ]
     }
   }
 }

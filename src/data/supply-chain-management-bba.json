@@ -8,36 +8,278 @@
   "majorCredits": 18,
   "catalogUrl": "https://catalog.luc.edu/undergraduate/business/supply-chain-management-bba/",
   "courses": [
-    { "id": "QUIN101", "code": "QUIN 101", "title": "Business Learning and Careers", "credits": 0, "category": "major" },
-    { "id": "QUIN102", "code": "QUIN 102", "title": "Financial Literacy and Well-Being", "credits": 1, "category": "major" },
-    { "id": "QUIN202", "code": "QUIN 202", "title": "Career Preparation", "credits": 2, "category": "major" },
-    { "id": "COMM103biz", "code": "COMM 103", "title": "Business and Professional Speaking", "credits": 3, "category": "major" },
-    { "id": "MATH110biz", "code": "MATH 110", "title": "Business Precalculus", "credits": 3, "category": "major" },
-    { "id": "ETHC341", "code": "ETHC 341", "title": "Ethics in Business", "credits": 3, "category": "major" },
-    { "id": "ACCT201", "code": "ACCT 201", "title": "Introductory Accounting I", "credits": 3, "category": "major" },
-    { "id": "ACCT202", "code": "ACCT 202", "title": "Introductory Accounting II", "credits": 3, "category": "major" },
-    { "id": "ECON201biz", "code": "ECON 201", "title": "Principles of Microeconomics", "credits": 3, "category": "major" },
-    { "id": "ECON202biz", "code": "ECON 202", "title": "Principles of Macroeconomics", "credits": 3, "category": "major" },
-    { "id": "FINC301", "code": "FINC 301", "title": "Introductory Business Finance", "credits": 3, "category": "major", "requirementGroup": "biz-core-finance", "choiceNote": "FINC 301 or FINC 334" },
-    { "id": "FINC334", "code": "FINC 334", "title": "Principles of Corporate Finance", "credits": 3, "category": "major", "requirementGroup": "biz-core-finance", "choiceNote": "FINC 301 or FINC 334" },
-    { "id": "INFS247", "code": "INFS 247", "title": "Business Information Systems", "credits": 3, "category": "major" },
-    { "id": "INFS343", "code": "INFS 343", "title": "Business Analytics", "credits": 3, "category": "major", "requirementGroup": "biz-core-analytics", "choiceNote": "INFS 343 or ECON 346" },
-    { "id": "ECON346biz", "code": "ECON 346", "title": "Econometrics", "credits": 3, "category": "major", "requirementGroup": "biz-core-analytics", "choiceNote": "INFS 343 or ECON 346" },
-    { "id": "ISSCM241", "code": "ISSCM 241", "title": "Business Statistics", "credits": 3, "category": "major", "requirementGroup": "biz-core-stats", "choiceNote": "ISSCM 241 or STAT 103" },
-    { "id": "STAT103biz", "code": "STAT 103", "title": "Fundamentals of Statistics", "credits": 3, "category": "major", "requirementGroup": "biz-core-stats", "choiceNote": "ISSCM 241 or STAT 103" },
-    { "id": "LREB315", "code": "LREB 315", "title": "Law and the Regulatory Environment of Business I", "credits": 3, "category": "major" },
-    { "id": "MARK201biz", "code": "MARK 201", "title": "Principles of Marketing", "credits": 3, "category": "major" },
-    { "id": "MGMT201", "code": "MGMT 201", "title": "Managing People and Organizations", "credits": 3, "category": "major" },
-    { "id": "MGMT304", "code": "MGMT 304", "title": "Strategic Management", "credits": 3, "category": "major" },
-    { "id": "SCMG232", "code": "SCMG 232", "title": "Introduction to Supply Chain Management", "credits": 3, "category": "major" },
-    { "id": "SCMG338", "code": "SCMG 338", "title": "Global Transportation", "credits": 3, "category": "major" },
-    { "id": "SCMG340", "code": "SCMG 340", "title": "Global Procurement", "credits": 3, "category": "major" },
-    { "id": "SCMG341", "code": "SCMG 341", "title": "Supply Chain Analytics", "credits": 3, "category": "major", "requirementGroup": "scmg-analytics", "choiceNote": "SCMG 341 or SCMG 342" },
-    { "id": "SCMG342", "code": "SCMG 342", "title": "Supply Chain Analytics II", "credits": 3, "category": "major", "requirementGroup": "scmg-analytics", "choiceNote": "SCMG 341 or SCMG 342" }
+    {
+      "id": "QUIN101",
+      "code": "QUIN 101",
+      "title": "Business Learning and Careers",
+      "credits": 0,
+      "category": "major"
+    },
+    {
+      "id": "QUIN102",
+      "code": "QUIN 102",
+      "title": "Financial Literacy and Well-Being",
+      "credits": 1,
+      "category": "major"
+    },
+    {
+      "id": "QUIN202",
+      "code": "QUIN 202",
+      "title": "Career Preparation",
+      "credits": 2,
+      "category": "major"
+    },
+    {
+      "id": "COMM103biz",
+      "code": "COMM 103",
+      "title": "Business and Professional Speaking",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "MATH110biz",
+      "code": "MATH 110",
+      "title": "Business Precalculus",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "ETHC341",
+      "code": "ETHC 341",
+      "title": "Ethics in Business",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "ACCT201",
+      "code": "ACCT 201",
+      "title": "Introductory Accounting I",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "ACCT202",
+      "code": "ACCT 202",
+      "title": "Introductory Accounting II",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "ECON201biz",
+      "code": "ECON 201",
+      "title": "Principles of Microeconomics",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "ECON202biz",
+      "code": "ECON 202",
+      "title": "Principles of Macroeconomics",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "FINC301",
+      "code": "FINC 301",
+      "title": "Introductory Business Finance",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "biz-core-finance",
+      "choiceNote": "FINC 301 or FINC 334"
+    },
+    {
+      "id": "FINC334",
+      "code": "FINC 334",
+      "title": "Principles of Corporate Finance",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "biz-core-finance",
+      "choiceNote": "FINC 301 or FINC 334"
+    },
+    {
+      "id": "INFS247",
+      "code": "INFS 247",
+      "title": "Business Information Systems",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "INFS343",
+      "code": "INFS 343",
+      "title": "Business Analytics",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "biz-core-analytics",
+      "choiceNote": "INFS 343 or ECON 346"
+    },
+    {
+      "id": "ECON346biz",
+      "code": "ECON 346",
+      "title": "Econometrics",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "biz-core-analytics",
+      "choiceNote": "INFS 343 or ECON 346"
+    },
+    {
+      "id": "ISSCM241",
+      "code": "ISSCM 241",
+      "title": "Business Statistics",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "biz-core-stats",
+      "choiceNote": "ISSCM 241 or STAT 103"
+    },
+    {
+      "id": "STAT103biz",
+      "code": "STAT 103",
+      "title": "Fundamentals of Statistics",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "biz-core-stats",
+      "choiceNote": "ISSCM 241 or STAT 103"
+    },
+    {
+      "id": "LREB315",
+      "code": "LREB 315",
+      "title": "Law and the Regulatory Environment of Business I",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "MARK201biz",
+      "code": "MARK 201",
+      "title": "Principles of Marketing",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "MGMT201",
+      "code": "MGMT 201",
+      "title": "Managing People and Organizations",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "MGMT304",
+      "code": "MGMT 304",
+      "title": "Strategic Management",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "SCMG232",
+      "code": "SCMG 232",
+      "title": "Introduction to Supply Chain Management",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "SCMG338",
+      "code": "SCMG 338",
+      "title": "Global Transportation",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "SCMG340",
+      "code": "SCMG 340",
+      "title": "Global Procurement",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "SCMG341",
+      "code": "SCMG 341",
+      "title": "Supply Chain Analytics",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "scmg-analytics",
+      "choiceNote": "SCMG 341 or SCMG 342"
+    },
+    {
+      "id": "SCMG342",
+      "code": "SCMG 342",
+      "title": "Supply Chain Analytics II",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "scmg-analytics",
+      "choiceNote": "SCMG 341 or SCMG 342"
+    }
   ],
   "electiveOptions": {
-    "scmg-electives": { "creditsRequired": 9, "label": "Supply Chain Electives", "note": "Three courses: 2 from SCMG 337, 342, 346, 383; up to 1 from INFS 347, ISSCM 349, SCMG 395, or 399" },
-    "biz-writing": { "creditsRequired": 6, "label": "Writing Intensive", "note": "Two approved writing-intensive courses" },
-    "biz-global": { "creditsRequired": 3, "label": "Global Awareness", "note": "One approved global awareness course" }
+    "scmg-electives": {
+      "creditsRequired": 9,
+      "label": "Supply Chain Electives",
+      "note": "Three courses: 2 from SCMG 337, 342, 346, 383; up to 1 from INFS 347, ISSCM 349, SCMG 395, or 399",
+      "courses": [
+        {
+          "id": "SCMG337",
+          "code": "SCMG 337",
+          "title": "Inventory and Warehouse Management",
+          "credits": 3,
+          "category": "elective"
+        },
+        {
+          "id": "SCMG342",
+          "code": "SCMG 342",
+          "title": "Supply Chain Optimization",
+          "credits": 3,
+          "category": "elective"
+        },
+        {
+          "id": "SCMG346",
+          "code": "SCMG 346",
+          "title": "Analytics for Social Good",
+          "credits": 3,
+          "category": "elective"
+        },
+        {
+          "id": "SCMG383",
+          "code": "SCMG 383",
+          "title": "Service and Operations Management",
+          "credits": 3,
+          "category": "elective"
+        },
+        {
+          "id": "INFS347",
+          "code": "INFS 347",
+          "title": "Systems Analysis & Design",
+          "credits": 3,
+          "category": "elective"
+        },
+        {
+          "id": "ISSCM349",
+          "code": "ISSCM 349",
+          "title": "Project Management",
+          "credits": 3,
+          "category": "elective"
+        },
+        {
+          "id": "SCMG395",
+          "code": "SCMG 395",
+          "title": "Independent Study in Operations Management",
+          "credits": 1,
+          "category": "elective"
+        },
+        {
+          "id": "SCMG399",
+          "code": "SCMG 399",
+          "title": "Special Topics in Operations Management",
+          "credits": 1,
+          "category": "elective"
+        }
+      ]
+    },
+    "biz-writing": {
+      "creditsRequired": 6,
+      "label": "Writing Intensive",
+      "note": "Two approved writing-intensive courses"
+    },
+    "biz-global": {
+      "creditsRequired": 3,
+      "label": "Global Awareness",
+      "note": "One approved global awareness course"
+    }
   }
 }

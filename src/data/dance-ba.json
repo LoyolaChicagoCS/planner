@@ -8,18 +8,108 @@
   "majorCredits": 40,
   "catalogUrl": "https://catalog.luc.edu/undergraduate/arts-sciences/fine-performing-arts/dance-ba/",
   "courses": [
-    { "id": "DANC250", "code": "DANC 250", "title": "Historical Contexts in Contemporary Dance Practice", "credits": 3, "category": "major" },
-    { "id": "DANC270", "code": "DANC 270", "title": "Dance Kinesiology", "credits": 3, "category": "major" },
-    { "id": "DANC360", "code": "DANC 360", "title": "Dance Pedagogy", "credits": 3, "category": "major" },
-    { "id": "DANC370", "code": "DANC 370", "title": "Dance Composition", "credits": 3, "category": "major" },
-    { "id": "DANC380", "code": "DANC 380", "title": "Senior Showcase Capstone", "credits": 1, "category": "major" }
+    {
+      "id": "DANC250",
+      "code": "DANC 250",
+      "title": "Historical Contexts in Contemporary Dance Practice",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "DANC270",
+      "code": "DANC 270",
+      "title": "Dance Kinesiology",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "DANC360",
+      "code": "DANC 360",
+      "title": "Dance Pedagogy",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "DANC370",
+      "code": "DANC 370",
+      "title": "Dance Composition",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "DANC380",
+      "code": "DANC 380",
+      "title": "Senior Showcase Capstone",
+      "credits": 1,
+      "category": "major"
+    }
   ],
   "electiveOptions": {
-    "danc-practicum": { "creditsRequired": 2, "label": "Theatre/Dance Practicum", "note": "THTR 321C (Costumes) or THTR 321E (Electrics)" },
-    "danc-applied": { "creditsRequired": 12, "label": "Applied Dance Courses", "note": "Ballet, pointe, jazz, and modern technique courses per sequence requirements" },
-    "danc-synthesis": { "creditsRequired": 2, "label": "Rehearsal and Performance", "note": "DANC 323 (twice); may be repeated for credit" },
-    "danc-internship": { "creditsRequired": 1, "label": "Internship in Dance", "note": "DANC 394" },
-    "danc-electives": { "creditsRequired": 4, "label": "Dance Electives", "note": "Additional approved dance courses" },
-    "danc-global": { "creditsRequired": 2, "label": "Global Influences on Contemporary Dance Practice", "note": "DANC 275" }
+    "danc-practicum": {
+      "creditsRequired": 2,
+      "label": "Theatre/Dance Practicum",
+      "note": "THTR 321C (Costumes) or THTR 321E (Electrics)",
+      "courses": [
+        {
+          "id": "THTR321",
+          "code": "THTR 321",
+          "title": "Practicum: Costumes",
+          "credits": 2,
+          "category": "elective"
+        }
+      ]
+    },
+    "danc-applied": {
+      "creditsRequired": 12,
+      "label": "Applied Dance Courses",
+      "note": "Ballet, pointe, jazz, and modern technique courses per sequence requirements"
+    },
+    "danc-synthesis": {
+      "creditsRequired": 2,
+      "label": "Rehearsal and Performance",
+      "note": "DANC 323 (twice); may be repeated for credit",
+      "courses": [
+        {
+          "id": "DANC323",
+          "code": "DANC 323",
+          "title": "Rehearsal and Performance",
+          "credits": 1,
+          "category": "elective"
+        }
+      ]
+    },
+    "danc-internship": {
+      "creditsRequired": 1,
+      "label": "Internship in Dance",
+      "note": "DANC 394",
+      "courses": [
+        {
+          "id": "DANC394",
+          "code": "DANC 394",
+          "title": "Internship in Dance",
+          "credits": 1,
+          "category": "elective"
+        }
+      ]
+    },
+    "danc-electives": {
+      "creditsRequired": 4,
+      "label": "Dance Electives",
+      "note": "Additional approved dance courses"
+    },
+    "danc-global": {
+      "creditsRequired": 2,
+      "label": "Global Influences on Contemporary Dance Practice",
+      "note": "DANC 275",
+      "courses": [
+        {
+          "id": "DANC275",
+          "code": "DANC 275",
+          "title": "Global Influences on Contemporary Dance Practice",
+          "credits": 2,
+          "category": "elective"
+        }
+      ]
+    }
   }
 }

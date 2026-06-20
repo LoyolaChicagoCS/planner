@@ -8,35 +8,246 @@
   "majorCredits": 21,
   "catalogUrl": "https://catalog.luc.edu/undergraduate/business/entrepreneurship-bba/",
   "courses": [
-    { "id": "QUIN101", "code": "QUIN 101", "title": "Business Learning and Careers", "credits": 0, "category": "major" },
-    { "id": "QUIN102", "code": "QUIN 102", "title": "Financial Literacy and Well-Being", "credits": 1, "category": "major" },
-    { "id": "QUIN202", "code": "QUIN 202", "title": "Career Preparation", "credits": 2, "category": "major" },
-    { "id": "COMM103biz", "code": "COMM 103", "title": "Business and Professional Speaking", "credits": 3, "category": "major" },
-    { "id": "MATH110biz", "code": "MATH 110", "title": "Business Precalculus", "credits": 3, "category": "major" },
-    { "id": "ETHC341", "code": "ETHC 341", "title": "Ethics in Business", "credits": 3, "category": "major" },
-    { "id": "ACCT201", "code": "ACCT 201", "title": "Introductory Accounting I", "credits": 3, "category": "major" },
-    { "id": "ACCT202", "code": "ACCT 202", "title": "Introductory Accounting II", "credits": 3, "category": "major" },
-    { "id": "ECON201biz", "code": "ECON 201", "title": "Principles of Microeconomics", "credits": 3, "category": "major" },
-    { "id": "ECON202biz", "code": "ECON 202", "title": "Principles of Macroeconomics", "credits": 3, "category": "major" },
-    { "id": "FINC301", "code": "FINC 301", "title": "Introductory Business Finance", "credits": 3, "category": "major", "requirementGroup": "biz-core-finance", "choiceNote": "FINC 301 or FINC 334" },
-    { "id": "FINC334", "code": "FINC 334", "title": "Principles of Corporate Finance", "credits": 3, "category": "major", "requirementGroup": "biz-core-finance", "choiceNote": "FINC 301 or FINC 334" },
-    { "id": "INFS247", "code": "INFS 247", "title": "Business Information Systems", "credits": 3, "category": "major" },
-    { "id": "INFS343", "code": "INFS 343", "title": "Business Analytics", "credits": 3, "category": "major", "requirementGroup": "biz-core-analytics", "choiceNote": "INFS 343 or ECON 346" },
-    { "id": "ECON346biz", "code": "ECON 346", "title": "Econometrics", "credits": 3, "category": "major", "requirementGroup": "biz-core-analytics", "choiceNote": "INFS 343 or ECON 346" },
-    { "id": "ISSCM241", "code": "ISSCM 241", "title": "Business Statistics", "credits": 3, "category": "major", "requirementGroup": "biz-core-stats", "choiceNote": "ISSCM 241 or STAT 103" },
-    { "id": "STAT103biz", "code": "STAT 103", "title": "Fundamentals of Statistics", "credits": 3, "category": "major", "requirementGroup": "biz-core-stats", "choiceNote": "ISSCM 241 or STAT 103" },
-    { "id": "LREB315", "code": "LREB 315", "title": "Law and the Regulatory Environment of Business I", "credits": 3, "category": "major" },
-    { "id": "MARK201biz", "code": "MARK 201", "title": "Principles of Marketing", "credits": 3, "category": "major" },
-    { "id": "MGMT201", "code": "MGMT 201", "title": "Managing People and Organizations", "credits": 3, "category": "major" },
-    { "id": "MGMT304", "code": "MGMT 304", "title": "Strategic Management", "credits": 3, "category": "major" },
-    { "id": "SCMG232", "code": "SCMG 232", "title": "Introduction to Supply Chain Management", "credits": 3, "category": "major" },
-    { "id": "ENTR201", "code": "ENTR 201", "title": "Essentials of Entrepreneurship", "credits": 3, "category": "major" },
-    { "id": "ENTR345", "code": "ENTR 345", "title": "Entrepreneurial Marketing", "credits": 3, "category": "major" },
-    { "id": "ENTR390", "code": "ENTR 390", "title": "Entrepreneurship Strategies Capstone", "credits": 3, "category": "major" }
+    {
+      "id": "QUIN101",
+      "code": "QUIN 101",
+      "title": "Business Learning and Careers",
+      "credits": 0,
+      "category": "major"
+    },
+    {
+      "id": "QUIN102",
+      "code": "QUIN 102",
+      "title": "Financial Literacy and Well-Being",
+      "credits": 1,
+      "category": "major"
+    },
+    {
+      "id": "QUIN202",
+      "code": "QUIN 202",
+      "title": "Career Preparation",
+      "credits": 2,
+      "category": "major"
+    },
+    {
+      "id": "COMM103biz",
+      "code": "COMM 103",
+      "title": "Business and Professional Speaking",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "MATH110biz",
+      "code": "MATH 110",
+      "title": "Business Precalculus",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "ETHC341",
+      "code": "ETHC 341",
+      "title": "Ethics in Business",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "ACCT201",
+      "code": "ACCT 201",
+      "title": "Introductory Accounting I",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "ACCT202",
+      "code": "ACCT 202",
+      "title": "Introductory Accounting II",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "ECON201biz",
+      "code": "ECON 201",
+      "title": "Principles of Microeconomics",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "ECON202biz",
+      "code": "ECON 202",
+      "title": "Principles of Macroeconomics",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "FINC301",
+      "code": "FINC 301",
+      "title": "Introductory Business Finance",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "biz-core-finance",
+      "choiceNote": "FINC 301 or FINC 334"
+    },
+    {
+      "id": "FINC334",
+      "code": "FINC 334",
+      "title": "Principles of Corporate Finance",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "biz-core-finance",
+      "choiceNote": "FINC 301 or FINC 334"
+    },
+    {
+      "id": "INFS247",
+      "code": "INFS 247",
+      "title": "Business Information Systems",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "INFS343",
+      "code": "INFS 343",
+      "title": "Business Analytics",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "biz-core-analytics",
+      "choiceNote": "INFS 343 or ECON 346"
+    },
+    {
+      "id": "ECON346biz",
+      "code": "ECON 346",
+      "title": "Econometrics",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "biz-core-analytics",
+      "choiceNote": "INFS 343 or ECON 346"
+    },
+    {
+      "id": "ISSCM241",
+      "code": "ISSCM 241",
+      "title": "Business Statistics",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "biz-core-stats",
+      "choiceNote": "ISSCM 241 or STAT 103"
+    },
+    {
+      "id": "STAT103biz",
+      "code": "STAT 103",
+      "title": "Fundamentals of Statistics",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "biz-core-stats",
+      "choiceNote": "ISSCM 241 or STAT 103"
+    },
+    {
+      "id": "LREB315",
+      "code": "LREB 315",
+      "title": "Law and the Regulatory Environment of Business I",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "MARK201biz",
+      "code": "MARK 201",
+      "title": "Principles of Marketing",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "MGMT201",
+      "code": "MGMT 201",
+      "title": "Managing People and Organizations",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "MGMT304",
+      "code": "MGMT 304",
+      "title": "Strategic Management",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "SCMG232",
+      "code": "SCMG 232",
+      "title": "Introduction to Supply Chain Management",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "ENTR201",
+      "code": "ENTR 201",
+      "title": "Essentials of Entrepreneurship",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "ENTR345",
+      "code": "ENTR 345",
+      "title": "Entrepreneurial Marketing",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "ENTR390",
+      "code": "ENTR 390",
+      "title": "Entrepreneurship Strategies Capstone",
+      "credits": 3,
+      "category": "major"
+    }
   ],
   "electiveOptions": {
-    "entr-electives": { "creditsRequired": 6, "label": "Entrepreneurship Electives", "note": "Two courses from: ENTR 311 (Social Entrepreneurship), ENTR 313, ENTR 391 (New Venture Lab), ISSCM 349 (Project Management), or ENTR 395/399" },
-    "biz-writing": { "creditsRequired": 6, "label": "Writing Intensive", "note": "Two approved writing-intensive courses" },
-    "biz-global": { "creditsRequired": 3, "label": "Global Awareness", "note": "One approved global awareness course" }
+    "entr-electives": {
+      "creditsRequired": 6,
+      "label": "Entrepreneurship Electives",
+      "note": "Two courses from: ENTR 311 (Social Entrepreneurship), ENTR 313, ENTR 391 (New Venture Lab), ISSCM 349 (Project Management), or ENTR 395/399",
+      "courses": [
+        {
+          "id": "ENTR311",
+          "code": "ENTR 311",
+          "title": "Social Entrepreneurship",
+          "credits": 3,
+          "category": "elective"
+        },
+        {
+          "id": "ENTR313",
+          "code": "ENTR 313",
+          "title": "Entrepreneurship - Global Opportunity Scan",
+          "credits": 3,
+          "category": "elective"
+        },
+        {
+          "id": "ENTR391",
+          "code": "ENTR 391",
+          "title": "New Venture Lab",
+          "credits": 3,
+          "category": "elective"
+        },
+        {
+          "id": "ISSCM349",
+          "code": "ISSCM 349",
+          "title": "Project Management",
+          "credits": 3,
+          "category": "elective"
+        },
+        {
+          "id": "ENTR395",
+          "code": "ENTR 395",
+          "title": "Independent Study",
+          "credits": 1,
+          "category": "elective"
+        }
+      ]
+    },
+    "biz-writing": {
+      "creditsRequired": 6,
+      "label": "Writing Intensive",
+      "note": "Two approved writing-intensive courses"
+    },
+    "biz-global": {
+      "creditsRequired": 3,
+      "label": "Global Awareness",
+      "note": "One approved global awareness course"
+    }
   }
 }

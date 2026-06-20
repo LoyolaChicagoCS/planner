@@ -8,51 +8,259 @@
   "majorCredits": 46,
   "catalogUrl": "https://catalog.luc.edu/undergraduate/arts-sciences/psychology/psychology-bs/",
   "courses": [
-    { "id": "PSYC101", "code": "PSYC 101", "title": "General Psychology", "credits": 3, "category": "major" },
-    { "id": "PSYC201", "code": "PSYC 201", "title": "Psychology Advising and Career Development", "credits": 1, "category": "major" },
-    { "id": "PSYC304", "code": "PSYC 304", "title": "Statistics", "credits": 3, "category": "major" },
-    { "id": "PSYC306", "code": "PSYC 306", "title": "Research Methods in Psychology", "credits": 3, "category": "major" }
+    {
+      "id": "PSYC101",
+      "code": "PSYC 101",
+      "title": "General Psychology",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "PSYC201",
+      "code": "PSYC 201",
+      "title": "Psychology Advising and Career Development",
+      "credits": 1,
+      "category": "major"
+    },
+    {
+      "id": "PSYC304",
+      "code": "PSYC 304",
+      "title": "Statistics",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "PSYC306",
+      "code": "PSYC 306",
+      "title": "Research Methods in Psychology",
+      "credits": 3,
+      "category": "major"
+    }
   ],
   "electiveOptions": {
     "psyc-pillar-diversity": {
       "creditsRequired": 3,
       "label": "Diversity & Inclusion Pillar",
-      "note": "One course from PSYC 235, 237, 238, 239, 360, or 374"
+      "note": "One course from PSYC 235, 237, 238, 239, 360, or 374",
+      "courses": [
+        {
+          "id": "PSYC235",
+          "code": "PSYC 235",
+          "title": "Psychology of Human Sexuality",
+          "credits": 3,
+          "category": "elective"
+        },
+        {
+          "id": "PSYC237",
+          "code": "PSYC 237",
+          "title": "Cross-Cultural Psychology",
+          "credits": 3,
+          "category": "elective"
+        },
+        {
+          "id": "PSYC238",
+          "code": "PSYC 238",
+          "title": "Psychology of Gender",
+          "credits": 3,
+          "category": "elective"
+        },
+        {
+          "id": "PSYC239",
+          "code": "PSYC 239",
+          "title": "Understanding Bias and Inclusivity",
+          "credits": 3,
+          "category": "elective"
+        },
+        {
+          "id": "PSYC360",
+          "code": "PSYC 360",
+          "title": "Understanding Prejudice",
+          "credits": 3,
+          "category": "elective"
+        },
+        {
+          "id": "PSYC374",
+          "code": "PSYC 374",
+          "title": "Community Psychology",
+          "credits": 3,
+          "category": "elective"
+        }
+      ]
     },
     "psyc-pillar-biological": {
       "creditsRequired": 3,
       "label": "Biological Pillar",
-      "note": "NEUR 101 or PSYC 240"
+      "note": "NEUR 101 or PSYC 240",
+      "courses": [
+        {
+          "id": "NEUR101",
+          "code": "NEUR 101",
+          "title": "Introduction to Neuroscience",
+          "credits": 3,
+          "category": "elective"
+        },
+        {
+          "id": "PSYC240",
+          "code": "PSYC 240",
+          "title": "Psychology-Biology of Perception",
+          "credits": 3,
+          "category": "elective"
+        }
+      ]
     },
     "psyc-pillar-cognitive": {
       "creditsRequired": 3,
       "label": "Cognitive Pillar",
-      "note": "One course from PSYC 250, 251, 307, or 382"
+      "note": "One course from PSYC 250, 251, 307, or 382",
+      "courses": [
+        {
+          "id": "PSYC250",
+          "code": "PSYC 250",
+          "title": "Cognitive Psychology",
+          "credits": 3,
+          "category": "elective"
+        },
+        {
+          "id": "PSYC251",
+          "code": "PSYC 251",
+          "title": "Learning and Memory",
+          "credits": 3,
+          "category": "elective"
+        },
+        {
+          "id": "PSYC307",
+          "code": "PSYC 307",
+          "title": "Psychology of Language",
+          "credits": 3,
+          "category": "elective"
+        },
+        {
+          "id": "PSYC382",
+          "code": "PSYC 382",
+          "title": "Behavorial and Cognitive Neuroscience",
+          "credits": 3,
+          "category": "elective"
+        }
+      ]
     },
     "psyc-pillar-developmental": {
       "creditsRequired": 3,
       "label": "Developmental Pillar",
-      "note": "PSYC 273 or 274"
+      "note": "PSYC 273 or 274",
+      "courses": [
+        {
+          "id": "PSYC273",
+          "code": "PSYC 273",
+          "title": "Developmental Psychology",
+          "credits": 3,
+          "category": "elective"
+        },
+        {
+          "id": "PSYC274",
+          "code": "PSYC 274",
+          "title": "Lifespan Development",
+          "credits": 3,
+          "category": "elective"
+        }
+      ]
     },
     "psyc-pillar-mental-health": {
       "creditsRequired": 3,
       "label": "Mental Health Pillar",
-      "note": "PSYC 331 or 346"
+      "note": "PSYC 331 or 346",
+      "courses": [
+        {
+          "id": "PSYC331",
+          "code": "PSYC 331",
+          "title": "Psychopathology",
+          "credits": 3,
+          "category": "elective"
+        },
+        {
+          "id": "PSYC346",
+          "code": "PSYC 346",
+          "title": "Psychopathology of Childhood",
+          "credits": 3,
+          "category": "elective"
+        }
+      ]
     },
     "psyc-pillar-social": {
       "creditsRequired": 3,
       "label": "Social Pillar",
-      "note": "PSYC 275"
+      "note": "PSYC 275",
+      "courses": [
+        {
+          "id": "PSYC275",
+          "code": "PSYC 275",
+          "title": "Social Psychology",
+          "credits": 3,
+          "category": "elective"
+        }
+      ]
     },
     "psyc-advanced-lab": {
       "creditsRequired": 3,
       "label": "Advanced Lab Course",
-      "note": "One course from PSYC 311–318, 321, or 327"
+      "note": "One course from PSYC 311–318, 321, or 327",
+      "courses": [
+        {
+          "id": "PSYC311",
+          "code": "PSYC 311",
+          "title": "Lab in Psychobiology",
+          "credits": 3,
+          "category": "elective"
+        },
+        {
+          "id": "PSYC321",
+          "code": "PSYC 321",
+          "title": "Laboratory-Social Psychology",
+          "credits": 3,
+          "category": "elective"
+        },
+        {
+          "id": "PSYC327",
+          "code": "PSYC 327",
+          "title": "Lab on Body Image",
+          "credits": 3,
+          "category": "elective"
+        }
+      ]
     },
     "psyc-capstone": {
       "creditsRequired": 3,
       "label": "Capstone",
-      "note": "One course from PSYC 370, 390, 396, or 397"
+      "note": "One course from PSYC 370, 390, 396, or 397",
+      "courses": [
+        {
+          "id": "PSYC370",
+          "code": "PSYC 370",
+          "title": "Psychology Honors Research",
+          "credits": 3,
+          "category": "elective"
+        },
+        {
+          "id": "PSYC390",
+          "code": "PSYC 390",
+          "title": "Internship in Psychology",
+          "credits": 3,
+          "category": "elective"
+        },
+        {
+          "id": "PSYC396",
+          "code": "PSYC 396",
+          "title": "Teaching Internship in Psychology",
+          "credits": 3,
+          "category": "elective"
+        },
+        {
+          "id": "PSYC397",
+          "code": "PSYC 397",
+          "title": "Independent Research",
+          "credits": 3,
+          "category": "elective"
+        }
+      ]
     },
     "psyc-electives": {
       "creditsRequired": 6,

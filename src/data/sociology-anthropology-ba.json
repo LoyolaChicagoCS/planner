@@ -51,7 +51,16 @@
     "soa-stats": {
       "creditsRequired": 3,
       "label": "Statistics Requirement",
-      "note": "STAT 203 or equivalent statistics course"
+      "note": "STAT 203 or equivalent statistics course",
+      "courses": [
+        {
+          "id": "STAT203",
+          "code": "STAT 203",
+          "title": "Introduction to Probability & Statistics",
+          "credits": 3,
+          "category": "elective"
+        }
+      ]
     }
   }
 }

@@ -8,19 +8,100 @@
   "majorCredits": 47,
   "catalogUrl": "https://catalog.luc.edu/undergraduate/arts-sciences/fine-performing-arts/theatre-ba/",
   "courses": [
-    { "id": "THTR100", "code": "THTR 100", "title": "Introduction to Theatre Experience", "credits": 3, "category": "major" },
-    { "id": "THTR252", "code": "THTR 252", "title": "Theatrical Design I", "credits": 3, "category": "major" },
-    { "id": "THTR261", "code": "THTR 261", "title": "Beginning Acting", "credits": 3, "category": "major" },
-    { "id": "THTR364", "code": "THTR 364", "title": "Theatre History and Literature I", "credits": 3, "category": "major" },
-    { "id": "THTR365", "code": "THTR 365", "title": "Theatre History and Literature II", "credits": 3, "category": "major" },
-    { "id": "THTR366", "code": "THTR 366", "title": "Theatre History and Literature III", "credits": 3, "category": "major" },
-    { "id": "THTR367", "code": "THTR 367", "title": "Theatre History and Literature IV", "credits": 3, "category": "major" },
-    { "id": "THTR375", "code": "THTR 375", "title": "Play Direction: Theatre Capstone", "credits": 3, "category": "major" },
-    { "id": "THTR267", "code": "THTR 267", "title": "Acting Theories and Techniques II", "credits": 3, "category": "major", "requirementGroup": "thtr-emphasis", "choiceNote": "THTR 267 or THTR 352" },
-    { "id": "THTR352", "code": "THTR 352", "title": "Theatrical Design II", "credits": 3, "category": "major", "requirementGroup": "thtr-emphasis", "choiceNote": "THTR 267 or THTR 352" }
+    {
+      "id": "THTR100",
+      "code": "THTR 100",
+      "title": "Introduction to Theatre Experience",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "THTR252",
+      "code": "THTR 252",
+      "title": "Theatrical Design I",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "THTR261",
+      "code": "THTR 261",
+      "title": "Beginning Acting",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "THTR364",
+      "code": "THTR 364",
+      "title": "Theatre History and Literature I",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "THTR365",
+      "code": "THTR 365",
+      "title": "Theatre History and Literature II",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "THTR366",
+      "code": "THTR 366",
+      "title": "Theatre History and Literature III",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "THTR367",
+      "code": "THTR 367",
+      "title": "Theatre History and Literature IV",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "THTR375",
+      "code": "THTR 375",
+      "title": "Play Direction: Theatre Capstone",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "THTR267",
+      "code": "THTR 267",
+      "title": "Acting Theories and Techniques II",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "thtr-emphasis",
+      "choiceNote": "THTR 267 or THTR 352"
+    },
+    {
+      "id": "THTR352",
+      "code": "THTR 352",
+      "title": "Theatrical Design II",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "thtr-emphasis",
+      "choiceNote": "THTR 267 or THTR 352"
+    }
   ],
   "electiveOptions": {
-    "thtr-practicum": { "creditsRequired": 6, "label": "Practicum", "note": "At least 6 credits from THTR 321C/321S/321E/321R/321P (theatre production practicum)" },
-    "thtr-electives": { "creditsRequired": 12, "label": "Theatre Electives", "note": "Four courses; at least one must be an Engaged Learning course" }
+    "thtr-practicum": {
+      "creditsRequired": 6,
+      "label": "Practicum",
+      "note": "At least 6 credits from THTR 321C/321S/321E/321R/321P (theatre production practicum)",
+      "courses": [
+        {
+          "id": "THTR321",
+          "code": "THTR 321",
+          "title": "Practicum: Costumes",
+          "credits": 2,
+          "category": "elective"
+        }
+      ]
+    },
+    "thtr-electives": {
+      "creditsRequired": 12,
+      "label": "Theatre Electives",
+      "note": "Four courses; at least one must be an Engaged Learning course"
+    }
   }
 }

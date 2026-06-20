@@ -8,18 +8,113 @@
   "majorCredits": 42,
   "catalogUrl": "https://catalog.luc.edu/undergraduate/arts-sciences/fine-performing-arts/music-ba/",
   "courses": [
-    { "id": "MUSC144", "code": "MUSC 144", "title": "Music Theory I", "credits": 3, "category": "major" },
-    { "id": "MUSC145", "code": "MUSC 145", "title": "Musicianship Lab I", "credits": 1, "category": "major" },
-    { "id": "MUSC244", "code": "MUSC 244", "title": "Music Theory II", "credits": 3, "category": "major" },
-    { "id": "MUSC245", "code": "MUSC 245", "title": "Musicianship Lab II", "credits": 1, "category": "major" },
-    { "id": "MUSC344", "code": "MUSC 344", "title": "Music Theory III", "credits": 3, "category": "major" },
-    { "id": "MUSC353", "code": "MUSC 353", "title": "Music History II", "credits": 3, "category": "major" }
+    {
+      "id": "MUSC144",
+      "code": "MUSC 144",
+      "title": "Music Theory I",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "MUSC145",
+      "code": "MUSC 145",
+      "title": "Musicianship Lab I",
+      "credits": 1,
+      "category": "major"
+    },
+    {
+      "id": "MUSC244",
+      "code": "MUSC 244",
+      "title": "Music Theory II",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "MUSC245",
+      "code": "MUSC 245",
+      "title": "Musicianship Lab II",
+      "credits": 1,
+      "category": "major"
+    },
+    {
+      "id": "MUSC344",
+      "code": "MUSC 344",
+      "title": "Music Theory III",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "MUSC353",
+      "code": "MUSC 353",
+      "title": "Music History II",
+      "credits": 3,
+      "category": "major"
+    }
   ],
   "electiveOptions": {
-    "musc-history-elective": { "creditsRequired": 3, "label": "Music History Elective", "note": "One course from MUSC 252, 256, or 354" },
-    "musc-applied": { "creditsRequired": 6, "label": "Applied Music Lessons", "note": "Six credits of private instruction on instrument or voice" },
-    "musc-ensemble": { "creditsRequired": 6, "label": "Ensembles", "note": "Six credits from symphony, chorus, jazz ensemble, wind ensemble, chamber music, etc." },
-    "musc-capstone": { "creditsRequired": 1, "label": "Senior Capstone Experience", "note": "MUSC 387 (Solo Recital) or MUSC 388 (Lecture/Recital)" },
-    "musc-general": { "creditsRequired": 12, "label": "General Music Electives", "note": "Four courses from composition, conducting, jazz improvisation, music technology, or other music offerings" }
+    "musc-history-elective": {
+      "creditsRequired": 3,
+      "label": "Music History Elective",
+      "note": "One course from MUSC 252, 256, or 354",
+      "courses": [
+        {
+          "id": "MUSC252",
+          "code": "MUSC 252",
+          "title": "Music History I",
+          "credits": 3,
+          "category": "elective"
+        },
+        {
+          "id": "MUSC256",
+          "code": "MUSC 256",
+          "title": "Jazz Music History",
+          "credits": 3,
+          "category": "elective"
+        },
+        {
+          "id": "MUSC354",
+          "code": "MUSC 354",
+          "title": "Music History III",
+          "credits": 3,
+          "category": "elective"
+        }
+      ]
+    },
+    "musc-applied": {
+      "creditsRequired": 6,
+      "label": "Applied Music Lessons",
+      "note": "Six credits of private instruction on instrument or voice"
+    },
+    "musc-ensemble": {
+      "creditsRequired": 6,
+      "label": "Ensembles",
+      "note": "Six credits from symphony, chorus, jazz ensemble, wind ensemble, chamber music, etc."
+    },
+    "musc-capstone": {
+      "creditsRequired": 1,
+      "label": "Senior Capstone Experience",
+      "note": "MUSC 387 (Solo Recital) or MUSC 388 (Lecture/Recital)",
+      "courses": [
+        {
+          "id": "MUSC387",
+          "code": "MUSC 387",
+          "title": "Solo Recital: MUSC Capstone",
+          "credits": 1,
+          "category": "elective"
+        },
+        {
+          "id": "MUSC388",
+          "code": "MUSC 388",
+          "title": "Lecture/Recital: MUSC Capstone",
+          "credits": 3,
+          "category": "elective"
+        }
+      ]
+    },
+    "musc-general": {
+      "creditsRequired": 12,
+      "label": "General Music Electives",
+      "note": "Four courses from composition, conducting, jazz improvisation, music technology, or other music offerings"
+    }
   }
 }
