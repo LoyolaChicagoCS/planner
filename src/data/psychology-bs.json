@@ -1,0 +1,68 @@
+{
+  "id": "psychology-bs",
+  "department": "Psychology",
+  "name": "Psychology",
+  "degree": "BS",
+  "school": "Loyola University Chicago",
+  "totalCredits": 120,
+  "majorCredits": 46,
+  "catalogUrl": "https://catalog.luc.edu/undergraduate/arts-sciences/psychology/psychology-bs/",
+  "courses": [
+    { "id": "PSYC101", "code": "PSYC 101", "title": "General Psychology", "credits": 3, "category": "major" },
+    { "id": "PSYC201", "code": "PSYC 201", "title": "Psychology Advising and Career Development", "credits": 1, "category": "major" },
+    { "id": "PSYC304", "code": "PSYC 304", "title": "Statistics", "credits": 3, "category": "major" },
+    { "id": "PSYC306", "code": "PSYC 306", "title": "Research Methods in Psychology", "credits": 3, "category": "major" }
+  ],
+  "electiveOptions": {
+    "psyc-pillar-diversity": {
+      "creditsRequired": 3,
+      "label": "Diversity & Inclusion Pillar",
+      "note": "One course from PSYC 235, 237, 238, 239, 360, or 374"
+    },
+    "psyc-pillar-biological": {
+      "creditsRequired": 3,
+      "label": "Biological Pillar",
+      "note": "NEUR 101 or PSYC 240"
+    },
+    "psyc-pillar-cognitive": {
+      "creditsRequired": 3,
+      "label": "Cognitive Pillar",
+      "note": "One course from PSYC 250, 251, 307, or 382"
+    },
+    "psyc-pillar-developmental": {
+      "creditsRequired": 3,
+      "label": "Developmental Pillar",
+      "note": "PSYC 273 or 274"
+    },
+    "psyc-pillar-mental-health": {
+      "creditsRequired": 3,
+      "label": "Mental Health Pillar",
+      "note": "PSYC 331 or 346"
+    },
+    "psyc-pillar-social": {
+      "creditsRequired": 3,
+      "label": "Social Pillar",
+      "note": "PSYC 275"
+    },
+    "psyc-advanced-lab": {
+      "creditsRequired": 3,
+      "label": "Advanced Lab Course",
+      "note": "One course from PSYC 311–318, 321, or 327"
+    },
+    "psyc-capstone": {
+      "creditsRequired": 3,
+      "label": "Capstone",
+      "note": "One course from PSYC 370, 390, 396, or 397"
+    },
+    "psyc-electives": {
+      "creditsRequired": 6,
+      "label": "Psychology Electives",
+      "note": "Two additional psychology courses"
+    },
+    "psyc-quantitative": {
+      "creditsRequired": 6,
+      "label": "Ancillary Quantitative Courses",
+      "note": "Two courses from computing, data science, or mathematics"
+    }
+  }
+}

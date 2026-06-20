@@ -1,0 +1,36 @@
+{
+  "id": "molecular-cellular-neuroscience-bs",
+  "department": "Neuroscience",
+  "name": "Molecular and Cellular Neuroscience",
+  "degree": "BS",
+  "school": "Loyola University Chicago",
+  "totalCredits": 120,
+  "majorCredits": 67,
+  "catalogUrl": "https://catalog.luc.edu/undergraduate/arts-sciences/neuroscience/molecular-cellular-neuroscience-bs/",
+  "courses": [
+    { "id": "NEUR100", "code": "NEUR 100", "title": "Introduction to Neuroscience", "credits": 3, "category": "major" },
+    { "id": "BIOL101", "code": "BIOL 101", "title": "Biology I", "credits": 3, "category": "major" },
+    { "id": "BIOL101L", "code": "BIOL 101L", "title": "Biology I Laboratory", "credits": 1, "category": "major" },
+    { "id": "BIOL102", "code": "BIOL 102", "title": "Biology II", "credits": 3, "category": "major" },
+    { "id": "BIOL102L", "code": "BIOL 102L", "title": "Biology II Laboratory", "credits": 1, "category": "major" },
+    { "id": "BIOL280", "code": "BIOL 280", "title": "Genetics", "credits": 3, "category": "major" },
+    { "id": "BIOL280L", "code": "BIOL 280L", "title": "Genetics Laboratory", "credits": 1, "category": "major" },
+    { "id": "CHEM101", "code": "CHEM 101", "title": "General Chemistry I", "credits": 3, "category": "major" },
+    { "id": "CHEM101L", "code": "CHEM 101L", "title": "General Chemistry I Laboratory", "credits": 1, "category": "major" },
+    { "id": "CHEM102", "code": "CHEM 102", "title": "General Chemistry II", "credits": 3, "category": "major" },
+    { "id": "CHEM102L", "code": "CHEM 102L", "title": "General Chemistry II Laboratory", "credits": 1, "category": "major" },
+    { "id": "CHEM221", "code": "CHEM 221", "title": "Organic Chemistry I", "credits": 3, "category": "major" },
+    { "id": "CHEM221L", "code": "CHEM 221L", "title": "Organic Chemistry I Laboratory", "credits": 1, "category": "major" },
+    { "id": "MATH131", "code": "MATH 131", "title": "Applied Calculus I", "credits": 3, "category": "major" },
+    { "id": "PHYS125", "code": "PHYS 125", "title": "General Physics I", "credits": 3, "category": "major" },
+    { "id": "PHYS125L", "code": "PHYS 125L", "title": "General Physics I Laboratory", "credits": 1, "category": "major" },
+    { "id": "NEUR301", "code": "NEUR 301", "title": "Cellular Neuroscience", "credits": 3, "category": "major" },
+    { "id": "NEUR302", "code": "NEUR 302", "title": "Systems Neuroscience", "credits": 3, "category": "major" },
+    { "id": "NEUR400", "code": "NEUR 400", "title": "Neuroscience Research Methods", "credits": 3, "category": "major" },
+    { "id": "NEUR401Lmcn", "code": "NEUR 401L", "title": "Neuroscience Research Methods Laboratory", "credits": 1, "category": "major" },
+    { "id": "NEUR490mcn", "code": "NEUR 490", "title": "Capstone in Neuroscience", "credits": 3, "category": "major" }
+  ],
+  "electiveOptions": {
+    "neur-mcn-electives": { "creditsRequired": 9, "label": "MCN Electives", "note": "Three courses from approved molecular/cellular biology or advanced neuroscience list" }
+  }
+}

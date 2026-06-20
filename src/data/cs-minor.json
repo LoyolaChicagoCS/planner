@@ -1,5 +1,6 @@
 {
   "id": "cs-minor",
+  "department": "Computer Science",
   "name": "Computer Science",
   "degree": "Minor",
   "school": "Loyola University Chicago",
@@ -8,9 +9,14 @@
   "minorCredits": 21,
   "hasCompletionEstimate": false,
   "catalogUrl": "https://catalog.luc.edu/undergraduate/arts-sciences/computer-science/computer-science-minor/",
-
   "courses": [
-    { "id": "CSMIN_COMP141", "code": "COMP 141", "title": "Introduction to Computing Tools and Techniques", "credits": 3, "category": "major" },
+    {
+      "id": "CSMIN_COMP141",
+      "code": "COMP 141",
+      "title": "Introduction to Computing Tools and Techniques",
+      "credits": 3,
+      "category": "major"
+    },
     {
       "id": "CSMIN_COMP163",
       "code": "COMP 163",
@@ -29,20 +35,56 @@
       "requirementGroup": "cs-minor-discrete",
       "choiceNote": "Choose COMP 163 or MATH 201"
     },
-    { "id": "CSMIN_COMP170", "code": "COMP 170", "title": "Introduction to Object-Oriented Programming", "credits": 3, "category": "major" },
-    { "id": "CSMIN_COMP271", "code": "COMP 271", "title": "Data Structures I", "credits": 3, "category": "major" }
+    {
+      "id": "CSMIN_COMP170",
+      "code": "COMP 170",
+      "title": "Introduction to Object-Oriented Programming",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "CSMIN_COMP271",
+      "code": "COMP 271",
+      "title": "Data Structures I",
+      "credits": 3,
+      "category": "major"
+    }
   ],
-
   "electiveOptions": {
     "restricted": {
       "creditsRequired": 3,
       "label": "Minor Selection 1",
       "note": "Choose one course. COMP 391 may not be used for 300-level elective options.",
       "courses": [
-        { "id": "CSMIN_SEL1_COMP3XX", "code": "COMP 3XX", "title": "300-level COMP course", "credits": 3, "requirementGroup": "cs-minor-selection-1", "uniqueProgress": true },
-        { "id": "CSMIN_COMP125", "code": "COMP 125", "title": "Visual Information Processing", "credits": 3, "requirementGroup": "cs-minor-selection-1" },
-        { "id": "CSMIN_COMP150", "code": "COMP 150", "title": "Introduction to Computing", "credits": 3, "requirementGroup": "cs-minor-selection-1" },
-        { "id": "CSMIN_COMP180", "code": "COMP 180", "title": "Computing and Data Analysis for the Sciences", "credits": 3, "requirementGroup": "cs-minor-selection-1" }
+        {
+          "id": "CSMIN_SEL1_COMP3XX",
+          "code": "COMP 3XX",
+          "title": "300-level COMP course",
+          "credits": 3,
+          "requirementGroup": "cs-minor-selection-1",
+          "uniqueProgress": true
+        },
+        {
+          "id": "CSMIN_COMP125",
+          "code": "COMP 125",
+          "title": "Visual Information Processing",
+          "credits": 3,
+          "requirementGroup": "cs-minor-selection-1"
+        },
+        {
+          "id": "CSMIN_COMP150",
+          "code": "COMP 150",
+          "title": "Introduction to Computing",
+          "credits": 3,
+          "requirementGroup": "cs-minor-selection-1"
+        },
+        {
+          "id": "CSMIN_COMP180",
+          "code": "COMP 180",
+          "title": "Computing and Data Analysis for the Sciences",
+          "credits": 3,
+          "requirementGroup": "cs-minor-selection-1"
+        }
       ]
     },
     "practicum": {
@@ -50,10 +92,35 @@
       "label": "Minor Selection 2",
       "note": "Choose one course. COMP 391 may not be used for 300-level elective options.",
       "courses": [
-        { "id": "CSMIN_SEL2_COMP3XX", "code": "COMP 3XX", "title": "300-level COMP course", "credits": 3, "requirementGroup": "cs-minor-selection-2", "uniqueProgress": true },
-        { "id": "CSMIN_COMP251", "code": "COMP 251", "title": "Introduction to Database Systems", "credits": 3, "requirementGroup": "cs-minor-selection-2" },
-        { "id": "CSMIN_COMP272", "code": "COMP 272", "title": "Data Structures II", "credits": 3, "requirementGroup": "cs-minor-selection-2" },
-        { "id": "CSMIN_COMP264", "code": "COMP 264", "title": "Introduction to Computer Systems", "credits": 3, "requirementGroup": "cs-minor-selection-2" }
+        {
+          "id": "CSMIN_SEL2_COMP3XX",
+          "code": "COMP 3XX",
+          "title": "300-level COMP course",
+          "credits": 3,
+          "requirementGroup": "cs-minor-selection-2",
+          "uniqueProgress": true
+        },
+        {
+          "id": "CSMIN_COMP251",
+          "code": "COMP 251",
+          "title": "Introduction to Database Systems",
+          "credits": 3,
+          "requirementGroup": "cs-minor-selection-2"
+        },
+        {
+          "id": "CSMIN_COMP272",
+          "code": "COMP 272",
+          "title": "Data Structures II",
+          "credits": 3,
+          "requirementGroup": "cs-minor-selection-2"
+        },
+        {
+          "id": "CSMIN_COMP264",
+          "code": "COMP 264",
+          "title": "Introduction to Computer Systems",
+          "credits": 3,
+          "requirementGroup": "cs-minor-selection-2"
+        }
       ]
     },
     "free": {
@@ -61,21 +128,29 @@
       "label": "300-Level COMP Elective",
       "note": "COMP 391 Internship in Computer Science is not allowed.",
       "courses": [
-        { "id": "CSMIN_FREE_COMP3XX", "code": "COMP 3XX", "title": "300-level computer science elective", "credits": 3, "uniqueProgress": true }
+        {
+          "id": "CSMIN_FREE_COMP3XX",
+          "code": "COMP 3XX",
+          "title": "300-level computer science elective",
+          "credits": 3,
+          "uniqueProgress": true
+        }
       ]
     }
   },
-
   "coreRequirements": [],
-
   "roadmap": [
     {
       "year": 1,
       "semester": "Semester I",
       "credits": 6,
       "items": [
-        { "ref": "CSMIN_COMP141" },
-        { "ref": "CSMIN_COMP170" }
+        {
+          "ref": "CSMIN_COMP141"
+        },
+        {
+          "ref": "CSMIN_COMP170"
+        }
       ]
     },
     {
@@ -83,8 +158,12 @@
       "semester": "Semester II",
       "credits": 6,
       "items": [
-        { "ref": "CSMIN_COMP163" },
-        { "ref": "CSMIN_COMP271" }
+        {
+          "ref": "CSMIN_COMP163"
+        },
+        {
+          "ref": "CSMIN_COMP271"
+        }
       ]
     },
     {
@@ -92,8 +171,16 @@
       "semester": "Semester III",
       "credits": 6,
       "items": [
-        { "label": "Minor Selection 1", "credits": 3, "isElective": true },
-        { "label": "Minor Selection 2", "credits": 3, "isElective": true }
+        {
+          "label": "Minor Selection 1",
+          "credits": 3,
+          "isElective": true
+        },
+        {
+          "label": "Minor Selection 2",
+          "credits": 3,
+          "isElective": true
+        }
       ]
     },
     {
@@ -101,10 +188,13 @@
       "semester": "Semester IV",
       "credits": 3,
       "items": [
-        { "label": "300-Level COMP Elective", "credits": 3, "isElective": true }
+        {
+          "label": "300-Level COMP Elective",
+          "credits": 3,
+          "isElective": true
+        }
       ]
     }
   ],
-
   "checklist": []
 }

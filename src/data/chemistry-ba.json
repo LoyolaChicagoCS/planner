@@ -1,0 +1,33 @@
+{
+  "id": "chemistry-ba",
+  "department": "Chemistry and Biochemistry",
+  "name": "Chemistry",
+  "degree": "BA",
+  "school": "Loyola University Chicago",
+  "totalCredits": 120,
+  "majorCredits": 55,
+  "catalogUrl": "https://catalog.luc.edu/undergraduate/arts-sciences/chemistry-biochemistry/chemistry-ba/",
+  "courses": [
+    { "id": "CHEM160", "code": "CHEM 160", "title": "Chemical Structure and Properties", "credits": 3, "category": "major" },
+    { "id": "CHEM161", "code": "CHEM 161", "title": "Chemical Structure and Properties Laboratory", "credits": 1, "category": "major" },
+    { "id": "CHEM180", "code": "CHEM 180", "title": "Chemical Reactivity I", "credits": 3, "category": "major" },
+    { "id": "CHEM181", "code": "CHEM 181", "title": "Chemical Reactivity I Lab", "credits": 1, "category": "major" },
+    { "id": "CHEM240", "code": "CHEM 240", "title": "Chemical Reactivity II", "credits": 3, "category": "major" },
+    { "id": "CHEM242", "code": "CHEM 242", "title": "Chemical Synthesis Laboratory", "credits": 2, "category": "major" },
+    { "id": "CHEM260", "code": "CHEM 260", "title": "Quantitative Methods in Chemistry", "credits": 3, "category": "major" },
+    { "id": "CHEM272", "code": "CHEM 272", "title": "Analytical Chemistry Laboratory", "credits": 2, "category": "major" },
+    { "id": "CHEM280", "code": "CHEM 280", "title": "Environmental & Chemical Analysis", "credits": 3, "category": "major" },
+    { "id": "CHEM301", "code": "CHEM 301", "title": "Physical Chemistry I", "credits": 3, "category": "major" },
+    { "id": "CHEM302", "code": "CHEM 302", "title": "Physical Chemistry II", "credits": 3, "category": "major" },
+    { "id": "CHEM303", "code": "CHEM 303", "title": "Physical Chemistry Lab I", "credits": 2, "category": "major" },
+    { "id": "CHEM314", "code": "CHEM 314", "title": "Instrumental Analysis", "credits": 4, "category": "major" },
+    { "id": "CHEM340", "code": "CHEM 340", "title": "Advanced Inorganic Chemistry", "credits": 3, "category": "major" },
+    { "id": "PHYS121", "code": "PHYS 121", "title": "College Physics I with Calculus", "credits": 3, "category": "major" },
+    { "id": "PHYS111L", "code": "PHYS 111L", "title": "College Physics Laboratory I", "credits": 1, "category": "major" },
+    { "id": "PHYS122", "code": "PHYS 122", "title": "College Physics II with Calculus", "credits": 3, "category": "major" },
+    { "id": "PHYS112L", "code": "PHYS 112L", "title": "College Physics Lab II", "credits": 1, "category": "major" },
+    { "id": "MATH161", "code": "MATH 161", "title": "Calculus I", "credits": 4, "category": "major" },
+    { "id": "MATH162", "code": "MATH 162", "title": "Calculus II", "credits": 4, "category": "major" },
+    { "id": "STAT203", "code": "STAT 203", "title": "Introduction to Probability & Statistics", "credits": 3, "category": "major" }
+  ]
+}

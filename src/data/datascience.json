@@ -1,5 +1,6 @@
 {
   "id": "datascience",
+  "department": "Computer Science",
   "name": "Data Science",
   "degree": "BS",
   "kind": "interdisciplinary",
@@ -7,33 +8,125 @@
   "totalCredits": 120,
   "majorCredits": 59,
   "note": "Partnership program between Computer Science, Mathematics & Statistics, and the broader College of Arts & Sciences.",
-
   "courses": [
-    { "id": "UNIV101",   "code": "UNIV 101",      "title": "First Year Seminar",                             "credits": 1, "category": "core" },
-    { "id": "DSCI101",   "code": "DSCI 101",      "title": "Fundamentals of Modern Data Science with R",     "credits": 3, "category": "major" },
-    { "id": "MATH161",   "code": "MATH 161",      "title": "Calculus I",                                     "credits": 4, "category": "major" },
-    { "id": "MATH162",   "code": "MATH 162",      "title": "Calculus II",                                    "credits": 4, "category": "major" },
-    { "id": "MATH212",   "code": "MATH 212",      "title": "Linear Algebra",                                 "credits": 3, "category": "major" },
-    { "id": "STAT203",   "code": "STAT 203",      "title": "Introduction to Probability & Statistics",       "credits": 3, "category": "major" },
-    { "id": "STAT308",   "code": "STAT 308",      "title": "Applied Regression Analysis",                    "credits": 3, "category": "major" },
-    { "id": "STAT310",   "code": "STAT 310",      "title": "Categorical Data Analysis",                      "credits": 3, "category": "major" },
-    { "id": "COMP141",   "code": "COMP 141",      "title": "Introduction to Computing Tools and Techniques", "credits": 3, "category": "major" },
-    { "id": "COMP215",   "code": "COMP 215",      "title": "Object Oriented Programming with Mathematics",   "credits": 3, "category": "major",
-      "alternateNote": "also listed as MATH 215" },
-    { "id": "COMP231",   "code": "COMP 231",      "title": "Data Structures & Algorithms for Informatics",   "credits": 3, "category": "major" },
-    { "id": "COMP317",   "code": "COMP 317",      "title": "Social, Legal, and Ethical Issues in Computing", "credits": 3, "category": "major" },
-    { "id": "COMP353",   "code": "COMP 353",      "title": "Database Programming",                           "credits": 3, "category": "major" },
-    { "id": "COMP358",   "code": "COMP 358",      "title": "Big Data Analytics",                             "credits": 3, "category": "major" }
+    {
+      "id": "UNIV101",
+      "code": "UNIV 101",
+      "title": "First Year Seminar",
+      "credits": 1,
+      "category": "core"
+    },
+    {
+      "id": "DSCI101",
+      "code": "DSCI 101",
+      "title": "Fundamentals of Modern Data Science with R",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "MATH161",
+      "code": "MATH 161",
+      "title": "Calculus I",
+      "credits": 4,
+      "category": "major"
+    },
+    {
+      "id": "MATH162",
+      "code": "MATH 162",
+      "title": "Calculus II",
+      "credits": 4,
+      "category": "major"
+    },
+    {
+      "id": "MATH212",
+      "code": "MATH 212",
+      "title": "Linear Algebra",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "STAT203",
+      "code": "STAT 203",
+      "title": "Introduction to Probability & Statistics",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "STAT308",
+      "code": "STAT 308",
+      "title": "Applied Regression Analysis",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "STAT310",
+      "code": "STAT 310",
+      "title": "Categorical Data Analysis",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "COMP141",
+      "code": "COMP 141",
+      "title": "Introduction to Computing Tools and Techniques",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "COMP215",
+      "code": "COMP 215",
+      "title": "Object Oriented Programming with Mathematics",
+      "credits": 3,
+      "category": "major",
+      "alternateNote": "also listed as MATH 215"
+    },
+    {
+      "id": "COMP231",
+      "code": "COMP 231",
+      "title": "Data Structures & Algorithms for Informatics",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "COMP317",
+      "code": "COMP 317",
+      "title": "Social, Legal, and Ethical Issues in Computing",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "COMP353",
+      "code": "COMP 353",
+      "title": "Database Programming",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "COMP358",
+      "code": "COMP 358",
+      "title": "Big Data Analytics",
+      "credits": 3,
+      "category": "major"
+    }
   ],
-
   "electiveOptions": {
     "restricted": {
       "creditsRequired": 6,
       "label": "STAT 300-Level Electives",
       "note": "Any STAT 300-level course excluding STAT 335 and STAT 337",
       "courses": [
-        { "id": "DSELEC_STAT1", "code": "STAT 3XX (1)", "title": "STAT 300-level elective", "credits": 3 },
-        { "id": "DSELEC_STAT2", "code": "STAT 3XX (2)", "title": "STAT 300-level elective", "credits": 3 }
+        {
+          "id": "DSELEC_STAT1",
+          "code": "STAT 3XX (1)",
+          "title": "STAT 300-level elective",
+          "credits": 3
+        },
+        {
+          "id": "DSELEC_STAT2",
+          "code": "STAT 3XX (2)",
+          "title": "STAT 300-level elective",
+          "credits": 3
+        }
       ]
     },
     "practicum": {
@@ -41,8 +134,18 @@
       "label": "Capstone / Internship",
       "note": "Choose one capstone track",
       "courses": [
-        { "id": "DSCAP_DSCI399", "code": "DSCI 399", "title": "Data Science Internship",  "credits": 3 },
-        { "id": "DSCAP_STAT370", "code": "STAT 370", "title": "Data Science Consulting",  "credits": 3 }
+        {
+          "id": "DSCAP_DSCI399",
+          "code": "DSCI 399",
+          "title": "Data Science Internship",
+          "credits": 3
+        },
+        {
+          "id": "DSCAP_STAT370",
+          "code": "STAT 370",
+          "title": "Data Science Consulting",
+          "credits": 3
+        }
       ]
     },
     "free": {
@@ -50,106 +153,366 @@
       "label": "COMP 300-Level Electives",
       "note": "Any COMP 300-level course excluding COMP 391",
       "courses": [
-        { "id": "DSFREE_COMP1", "code": "COMP 3XX (1)", "title": "COMP 300-level elective", "credits": 3 },
-        { "id": "DSFREE_COMP2", "code": "COMP 3XX (2)", "title": "COMP 300-level elective", "credits": 3 }
+        {
+          "id": "DSFREE_COMP1",
+          "code": "COMP 3XX (1)",
+          "title": "COMP 300-level elective",
+          "credits": 3
+        },
+        {
+          "id": "DSFREE_COMP2",
+          "code": "COMP 3XX (2)",
+          "title": "COMP 300-level elective",
+          "credits": 3
+        }
       ]
     }
   },
-
   "coreRequirements": [
-    { "id": "CORE_WRITING", "label": "College Writing Seminar",                    "credits": 3 },
-    { "id": "CORE_PHIL1",   "label": "Philosophical Knowledge Tier 1",             "credits": 3 },
-    { "id": "CORE_PHIL2",   "label": "Philosophical Knowledge Tier 2",             "credits": 3 },
-    { "id": "CORE_HIST1",   "label": "Historical Knowledge Tier 1",                "credits": 3 },
-    { "id": "CORE_HIST2",   "label": "Historical Knowledge Tier 2",                "credits": 3 },
-    { "id": "CORE_ETHICS",  "label": "Ethics",                                     "credits": 3 },
-    { "id": "CORE_QUANT",   "label": "Quantitative Knowledge and Inquiry",          "credits": 3 },
-    { "id": "CORE_SCI1",    "label": "Scientific Knowledge Tier 1",                "credits": 3 },
-    { "id": "CORE_SCI2",    "label": "Scientific Knowledge Tier 2",                "credits": 3 },
-    { "id": "CORE_SOC1",    "label": "Societal & Cultural Knowledge Tier 1",       "credits": 3 },
-    { "id": "CORE_SOC2",    "label": "Societal & Cultural Knowledge Tier 2",       "credits": 3 },
-    { "id": "CORE_LIT1",    "label": "Literary Knowledge & Experience Tier 1",     "credits": 3 },
-    { "id": "CORE_LIT2",    "label": "Literary Knowledge & Experience Tier 2",     "credits": 3 },
-    { "id": "CORE_THEO1",   "label": "Theological & Religious Studies Tier 1",     "credits": 3 },
-    { "id": "CORE_THEO2",   "label": "Theological & Religious Studies Tier 2",     "credits": 3 },
-    { "id": "CORE_ART",     "label": "Artistic Knowledge & Experience",            "credits": 3 },
-    { "id": "CAS_LANG1",    "label": "CAS Language Requirement (101-level)",       "credits": 3 },
-    { "id": "CAS_LANG2",    "label": "CAS Language Requirement (102-level)",       "credits": 3 },
-    { "id": "CAS_ELEC1",    "label": "CAS Elective",                               "credits": 3 },
-    { "id": "CAS_ELEC2",    "label": "CAS Elective",                               "credits": 3 },
-    { "id": "CAS_ELEC3",    "label": "CAS Elective",                               "credits": 3 }
+    {
+      "id": "CORE_WRITING",
+      "label": "College Writing Seminar",
+      "credits": 3
+    },
+    {
+      "id": "CORE_PHIL1",
+      "label": "Philosophical Knowledge Tier 1",
+      "credits": 3
+    },
+    {
+      "id": "CORE_PHIL2",
+      "label": "Philosophical Knowledge Tier 2",
+      "credits": 3
+    },
+    {
+      "id": "CORE_HIST1",
+      "label": "Historical Knowledge Tier 1",
+      "credits": 3
+    },
+    {
+      "id": "CORE_HIST2",
+      "label": "Historical Knowledge Tier 2",
+      "credits": 3
+    },
+    {
+      "id": "CORE_ETHICS",
+      "label": "Ethics",
+      "credits": 3
+    },
+    {
+      "id": "CORE_QUANT",
+      "label": "Quantitative Knowledge and Inquiry",
+      "credits": 3
+    },
+    {
+      "id": "CORE_SCI1",
+      "label": "Scientific Knowledge Tier 1",
+      "credits": 3
+    },
+    {
+      "id": "CORE_SCI2",
+      "label": "Scientific Knowledge Tier 2",
+      "credits": 3
+    },
+    {
+      "id": "CORE_SOC1",
+      "label": "Societal & Cultural Knowledge Tier 1",
+      "credits": 3
+    },
+    {
+      "id": "CORE_SOC2",
+      "label": "Societal & Cultural Knowledge Tier 2",
+      "credits": 3
+    },
+    {
+      "id": "CORE_LIT1",
+      "label": "Literary Knowledge & Experience Tier 1",
+      "credits": 3
+    },
+    {
+      "id": "CORE_LIT2",
+      "label": "Literary Knowledge & Experience Tier 2",
+      "credits": 3
+    },
+    {
+      "id": "CORE_THEO1",
+      "label": "Theological & Religious Studies Tier 1",
+      "credits": 3
+    },
+    {
+      "id": "CORE_THEO2",
+      "label": "Theological & Religious Studies Tier 2",
+      "credits": 3
+    },
+    {
+      "id": "CORE_ART",
+      "label": "Artistic Knowledge & Experience",
+      "credits": 3
+    },
+    {
+      "id": "CAS_LANG1",
+      "label": "CAS Language Requirement (101-level)",
+      "credits": 3
+    },
+    {
+      "id": "CAS_LANG2",
+      "label": "CAS Language Requirement (102-level)",
+      "credits": 3
+    },
+    {
+      "id": "CAS_ELEC1",
+      "label": "CAS Elective",
+      "credits": 3
+    },
+    {
+      "id": "CAS_ELEC2",
+      "label": "CAS Elective",
+      "credits": 3
+    },
+    {
+      "id": "CAS_ELEC3",
+      "label": "CAS Elective",
+      "credits": 3
+    }
   ],
-
   "roadmap": [
     {
-      "year": 1, "semester": "Fall", "credits": 16,
+      "year": 1,
+      "semester": "Fall",
+      "credits": 16,
       "items": [
-        { "ref": "DSCI101" }, { "ref": "MATH161" },
-        { "ref": "CORE_WRITING" }, { "ref": "CORE_PHIL1" }, { "ref": "UNIV101" }
+        {
+          "ref": "DSCI101"
+        },
+        {
+          "ref": "MATH161"
+        },
+        {
+          "ref": "CORE_WRITING"
+        },
+        {
+          "ref": "CORE_PHIL1"
+        },
+        {
+          "ref": "UNIV101"
+        }
       ]
     },
     {
-      "year": 1, "semester": "Spring", "credits": 16,
+      "year": 1,
+      "semester": "Spring",
+      "credits": 16,
       "items": [
-        { "ref": "COMP141" }, { "ref": "MATH162" },
-        { "ref": "CORE_HIST1" }, { "ref": "CORE_ETHICS" }, { "ref": "CORE_SCI1" }
+        {
+          "ref": "COMP141"
+        },
+        {
+          "ref": "MATH162"
+        },
+        {
+          "ref": "CORE_HIST1"
+        },
+        {
+          "ref": "CORE_ETHICS"
+        },
+        {
+          "ref": "CORE_SCI1"
+        }
       ]
     },
     {
-      "year": 2, "semester": "Fall", "credits": 15,
+      "year": 2,
+      "semester": "Fall",
+      "credits": 15,
       "items": [
-        { "ref": "MATH212" }, { "ref": "COMP215" },
-        { "ref": "CORE_THEO1" }, { "ref": "CORE_SOC1" }, { "ref": "CAS_LANG1" }
+        {
+          "ref": "MATH212"
+        },
+        {
+          "ref": "COMP215"
+        },
+        {
+          "ref": "CORE_THEO1"
+        },
+        {
+          "ref": "CORE_SOC1"
+        },
+        {
+          "ref": "CAS_LANG1"
+        }
       ]
     },
     {
-      "year": 2, "semester": "Spring", "credits": 15,
+      "year": 2,
+      "semester": "Spring",
+      "credits": 15,
       "items": [
-        { "ref": "COMP231" }, { "ref": "STAT203" },
-        { "ref": "CORE_LIT1" }, { "ref": "CORE_ART" }, { "ref": "CAS_LANG2" }
+        {
+          "ref": "COMP231"
+        },
+        {
+          "ref": "STAT203"
+        },
+        {
+          "ref": "CORE_LIT1"
+        },
+        {
+          "ref": "CORE_ART"
+        },
+        {
+          "ref": "CAS_LANG2"
+        }
       ]
     },
     {
-      "year": 3, "semester": "Fall", "credits": 15,
+      "year": 3,
+      "semester": "Fall",
+      "credits": 15,
       "items": [
-        { "ref": "STAT308" }, { "ref": "COMP353" },
-        { "ref": "CORE_SCI2" }, { "ref": "CORE_THEO2" }, { "ref": "CAS_ELEC1" }
+        {
+          "ref": "STAT308"
+        },
+        {
+          "ref": "COMP353"
+        },
+        {
+          "ref": "CORE_SCI2"
+        },
+        {
+          "ref": "CORE_THEO2"
+        },
+        {
+          "ref": "CAS_ELEC1"
+        }
       ]
     },
     {
-      "year": 3, "semester": "Spring", "credits": 15,
+      "year": 3,
+      "semester": "Spring",
+      "credits": 15,
       "items": [
-        { "label": "COMP 300-Level Elective", "credits": 3, "isElective": true, "electiveType": "free" },
-        { "label": "STAT 300-Level Elective", "credits": 3, "isElective": true, "electiveType": "restricted" },
-        { "ref": "COMP317" }, { "ref": "CORE_HIST2" }, { "ref": "CAS_ELEC2" }
+        {
+          "label": "COMP 300-Level Elective",
+          "credits": 3,
+          "isElective": true,
+          "electiveType": "free"
+        },
+        {
+          "label": "STAT 300-Level Elective",
+          "credits": 3,
+          "isElective": true,
+          "electiveType": "restricted"
+        },
+        {
+          "ref": "COMP317"
+        },
+        {
+          "ref": "CORE_HIST2"
+        },
+        {
+          "ref": "CAS_ELEC2"
+        }
       ]
     },
     {
-      "year": 4, "semester": "Fall", "credits": 15,
+      "year": 4,
+      "semester": "Fall",
+      "credits": 15,
       "items": [
-        { "label": "STAT 338 or COMP 379 (Predictive Analytics / ML)", "credits": 3, "isElective": true, "electiveType": "restricted" },
-        { "label": "Capstone (DSCI 399 or STAT 370)",                  "credits": 3, "isElective": true, "electiveType": "practicum" },
-        { "label": "STAT 300-Level Elective",                          "credits": 3, "isElective": true, "electiveType": "restricted" },
-        { "ref": "CORE_SOC2" }, { "ref": "CORE_PHIL2" }
+        {
+          "label": "STAT 338 or COMP 379 (Predictive Analytics / ML)",
+          "credits": 3,
+          "isElective": true,
+          "electiveType": "restricted"
+        },
+        {
+          "label": "Capstone (DSCI 399 or STAT 370)",
+          "credits": 3,
+          "isElective": true,
+          "electiveType": "practicum"
+        },
+        {
+          "label": "STAT 300-Level Elective",
+          "credits": 3,
+          "isElective": true,
+          "electiveType": "restricted"
+        },
+        {
+          "ref": "CORE_SOC2"
+        },
+        {
+          "ref": "CORE_PHIL2"
+        }
       ]
     },
     {
-      "year": 4, "semester": "Spring", "credits": 15,
+      "year": 4,
+      "semester": "Spring",
+      "credits": 15,
       "items": [
-        { "ref": "COMP358" },
-        { "ref": "STAT310" },
-        { "label": "COMP 300-Level Elective", "credits": 3, "isElective": true, "electiveType": "free" },
-        { "ref": "CORE_LIT2" }, { "ref": "CAS_ELEC3" }
+        {
+          "ref": "COMP358"
+        },
+        {
+          "ref": "STAT310"
+        },
+        {
+          "label": "COMP 300-Level Elective",
+          "credits": 3,
+          "isElective": true,
+          "electiveType": "free"
+        },
+        {
+          "ref": "CORE_LIT2"
+        },
+        {
+          "ref": "CAS_ELEC3"
+        }
       ]
     }
   ],
-
   "checklist": [
-    { "id": "ap_calc_ab",   "label": "AP Calculus AB (score ≥ 4)",                "grants": "MATH 161 — 4 credits", "courseRef": "MATH161", "category": "ap" },
-    { "id": "ap_calc_bc",   "label": "AP Calculus BC (score ≥ 4)",                "grants": "MATH 161 + MATH 162 — 8 credits", "courseRef": "MATH161", "alsoCourseRef": "MATH162", "category": "ap" },
-    { "id": "ap_stats",     "label": "AP Statistics (score ≥ 4)",                 "grants": "STAT 203 — 3 credits", "courseRef": "STAT203", "category": "ap" },
-    { "id": "ap_cs_a",      "label": "AP Computer Science A (score ≥ 4)",         "grants": "COMP 170 — may substitute for COMP 215", "category": "ap" },
-    { "id": "lang_prof",    "label": "Foreign language proficiency exam",          "grants": "CAS Language Requirement waived", "courseRef": "CAS_LANG2", "category": "transfer" },
-    { "id": "xfer_calc",    "label": "Transfer credit: Calculus I",               "grants": "May substitute for MATH 161", "courseRef": "MATH161", "category": "transfer" }
+    {
+      "id": "ap_calc_ab",
+      "label": "AP Calculus AB (score \u2265 4)",
+      "grants": "MATH 161 \u2014 4 credits",
+      "courseRef": "MATH161",
+      "category": "ap"
+    },
+    {
+      "id": "ap_calc_bc",
+      "label": "AP Calculus BC (score \u2265 4)",
+      "grants": "MATH 161 + MATH 162 \u2014 8 credits",
+      "courseRef": "MATH161",
+      "alsoCourseRef": "MATH162",
+      "category": "ap"
+    },
+    {
+      "id": "ap_stats",
+      "label": "AP Statistics (score \u2265 4)",
+      "grants": "STAT 203 \u2014 3 credits",
+      "courseRef": "STAT203",
+      "category": "ap"
+    },
+    {
+      "id": "ap_cs_a",
+      "label": "AP Computer Science A (score \u2265 4)",
+      "grants": "COMP 170 \u2014 may substitute for COMP 215",
+      "category": "ap"
+    },
+    {
+      "id": "lang_prof",
+      "label": "Foreign language proficiency exam",
+      "grants": "CAS Language Requirement waived",
+      "courseRef": "CAS_LANG2",
+      "category": "transfer"
+    },
+    {
+      "id": "xfer_calc",
+      "label": "Transfer credit: Calculus I",
+      "grants": "May substitute for MATH 161",
+      "courseRef": "MATH161",
+      "category": "transfer"
+    }
   ]
 }

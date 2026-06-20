@@ -1,0 +1,37 @@
+{
+  "id": "philosophy-ba",
+  "department": "Philosophy",
+  "name": "Philosophy",
+  "degree": "BA",
+  "school": "Loyola University Chicago",
+  "totalCredits": 120,
+  "majorCredits": 33,
+  "catalogUrl": "https://catalog.luc.edu/undergraduate/arts-sciences/philosophy/philosopy-ba/",
+  "courses": [
+    { "id": "PHIL274", "code": "PHIL 274", "title": "Logic", "credits": 3, "category": "major" },
+    { "id": "PHIL304", "code": "PHIL 304", "title": "History of Ancient Philosophy", "credits": 3, "category": "major" },
+    { "id": "PHIL309", "code": "PHIL 309", "title": "Classical Modern Philosophy", "credits": 3, "category": "major" }
+  ],
+  "electiveOptions": {
+    "phil-ethics": {
+      "creditsRequired": 3,
+      "label": "Ethics Elective",
+      "note": "One course from PHIL 181, 182, 283–289, 321–322, 324–325, 329, 355, 369, 375, 385, or 388"
+    },
+    "phil-metaphysics": {
+      "creditsRequired": 3,
+      "label": "Metaphysics / Epistemology Elective",
+      "note": "One course from PHIL 130, 271–277, 279, 311, 325, 330, 380–384, 386–387, 391, or 393"
+    },
+    "phil-capstone": {
+      "creditsRequired": 3,
+      "label": "Philosophy Capstone Seminar",
+      "note": "One course from PHIL 395, 396, 397, 398, or 399"
+    },
+    "phil-electives": {
+      "creditsRequired": 21,
+      "label": "Philosophy Electives",
+      "note": "Seven additional philosophy courses (at least four at the 300-level)"
+    }
+  }
+}

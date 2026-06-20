@@ -1,6 +1,7 @@
 import { useState } from 'react';
 
 import Footer from './Footer';
+import ProgramPicker from './ProgramPicker';
 import type { Program } from '../types';
 import loyolaLogo from '../assets/loyola-ramblers-logo.svg';
 
@@ -70,6 +71,9 @@ const TABS: { key: TabKey; label: string }[] = [
 interface HomeScreenProps {
   programs: Program[];
   onSelect: (program: Program) => void;
+  additionalPrograms: Program[];
+  onAddProgram: (program: Program) => void;
+  onRemoveProgram: (id: string) => void;
 }
 
 const PROGRAM_COLOR_BY_ID: Record<string, string> = PROGRAM_COLORS;
@@ -77,8 +81,9 @@ const PROGRAM_ICON_BY_ID: Record<string, string> = PROGRAM_ICONS;
 const sortByProgramName = (programs: Program[]) =>
   [...programs].sort((first, second) => first.name.localeCompare(second.name));
 
-export default function HomeScreen({ programs, onSelect }: HomeScreenProps) {
+export default function HomeScreen({ programs, onSelect, additionalPrograms, onAddProgram, onRemoveProgram }: HomeScreenProps) {
   const [activeTab, setActiveTab] = useState<TabKey>('majors');
+  const [pickerOpen, setPickerOpen] = useState(false);
 
   const departmentalDegrees = sortByProgramName(
     programs.filter(program => ['cs', 'se', 'it', 'cybersecurity'].includes(program.id))
@@ -125,6 +130,42 @@ export default function HomeScreen({ programs, onSelect }: HomeScreenProps) {
           </p>
         </div>
       </div>
+
+      {/* Double major section */}
+      <div className="bg-white border-b border-gray-100 flex-shrink-0 px-4 py-3 flex items-center gap-2 flex-wrap">
+        {additionalPrograms.map(p => (
+          <span
+            key={p.id}
+            className="inline-flex items-center gap-1.5 rounded-full bg-maroon-50 text-maroon-700 text-xs font-semibold px-3 py-1"
+          >
+            {p.name}
+            <button
+              onClick={() => onRemoveProgram(p.id)}
+              className="text-maroon-400 hover:text-maroon-700 leading-none"
+              aria-label={`Remove ${p.name}`}
+            >
+              ×
+            </button>
+          </span>
+        ))}
+        <button
+          onClick={() => setPickerOpen(true)}
+          className="inline-flex items-center gap-1 rounded-full border border-dashed border-maroon-300 text-maroon-500 text-xs font-semibold px-3 py-1 active:bg-maroon-50 transition-colors"
+        >
+          + Add Additional Major
+        </button>
+      </div>
+
+      {pickerOpen && (
+        <ProgramPicker
+          programs={programs}
+          activeProgram={null}
+          additionalPrograms={additionalPrograms}
+          onAdd={p => { onAddProgram(p); }}
+          onRemove={onRemoveProgram}
+          onClose={() => setPickerOpen(false)}
+        />
+      )}
 
       {/* Tab bar */}
       <div className="flex bg-white border-b border-gray-200 flex-shrink-0">

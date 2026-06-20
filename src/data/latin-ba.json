@@ -1,0 +1,18 @@
+{
+  "id": "latin-ba",
+  "department": "Classical Studies",
+  "name": "Latin",
+  "degree": "BA",
+  "school": "Loyola University Chicago",
+  "totalCredits": 120,
+  "majorCredits": 36,
+  "catalogUrl": "https://catalog.luc.edu/undergraduate/arts-sciences/classical-studies/latin-ba/",
+  "courses": [
+    { "id": "CLST383", "code": "CLST 383", "title": "The Humanism of Antiquity I", "credits": 3, "category": "major" },
+    { "id": "CLST384", "code": "CLST 384", "title": "The Humanism of Antiquity II", "credits": 3, "category": "major" }
+  ],
+  "electiveOptions": {
+    "latin-courses": { "creditsRequired": 18, "label": "Latin Electives", "note": "Six Latin (LATN) courses; at least two at the 300-level" },
+    "latin-classical": { "creditsRequired": 12, "label": "Greek / Latin / Classical Studies Electives", "note": "Four courses from GREK, LATN, or CLST" }
+  }
+}

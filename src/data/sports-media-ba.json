@@ -1,0 +1,28 @@
+{
+  "id": "sports-media-ba",
+  "department": "Communication",
+  "name": "Sports Media",
+  "degree": "BA",
+  "school": "Loyola University Chicago",
+  "totalCredits": 120,
+  "majorCredits": 43,
+  "catalogUrl": "https://catalog.luc.edu/undergraduate/communication/sports-media/sports-media-ba/",
+  "courses": [
+    { "id": "COMM100", "code": "COMM 100", "title": "SOC Career Prep Seminar", "credits": 1, "category": "major" },
+    { "id": "COMM175", "code": "COMM 175", "title": "Introduction to Communication", "credits": 3, "category": "major" },
+    { "id": "COMM200", "code": "COMM 200", "title": "Digital Communication and Society", "credits": 3, "category": "major" },
+    { "id": "COMM215", "code": "COMM 215", "title": "Ethics and Communication", "credits": 3, "category": "major" },
+    { "id": "COMM282", "code": "COMM 282", "title": "Media Law", "credits": 3, "category": "major" },
+    { "id": "SPRT130", "code": "SPRT 130", "title": "The Business of Sports", "credits": 3, "category": "major" },
+    { "id": "COMM145", "code": "COMM 145", "title": "Video for Journalists", "credits": 3, "category": "major" },
+    { "id": "COMM205", "code": "COMM 205", "title": "Reporting Basics I: Writing and Interviewing", "credits": 3, "category": "major" },
+    { "id": "COMM256", "code": "COMM 256", "title": "Broadcast Newswriting", "credits": 3, "category": "major" },
+    { "id": "COMM265", "code": "COMM 265", "title": "Sports Broadcasting", "credits": 3, "category": "major" },
+    { "id": "COMM242", "code": "COMM 242", "title": "Rambler Sports Locker", "credits": 3, "category": "major" },
+    { "id": "COMM243", "code": "COMM 243", "title": "Leadership and Social Change in Sports", "credits": 3, "category": "major" },
+    { "id": "COMM395", "code": "COMM 395", "title": "Sports Media Internship", "credits": 3, "category": "major" }
+  ],
+  "electiveOptions": {
+    "sm-electives": { "creditsRequired": 6, "label": "Sports Media Electives", "note": "Two courses (COMM 372 required as one): COMM 207, 244, 245, 302, 372, 373 or SPRT 320, 345, 375" }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "finance-bba",
+  "department": "Business Administration",
+  "name": "Finance",
+  "degree": "BBA",
+  "school": "Loyola University Chicago",
+  "totalCredits": 79,
+  "majorCredits": 18,
+  "catalogUrl": "https://catalog.luc.edu/undergraduate/business/finance-bba/",
+  "courses": [
+    { "id": "QUIN101", "code": "QUIN 101", "title": "Business Learning and Careers", "credits": 0, "category": "major" },
+    { "id": "QUIN102", "code": "QUIN 102", "title": "Financial Literacy and Well-Being", "credits": 1, "category": "major" },
+    { "id": "QUIN202", "code": "QUIN 202", "title": "Career Preparation", "credits": 2, "category": "major" },
+    { "id": "COMM103biz", "code": "COMM 103", "title": "Business and Professional Speaking", "credits": 3, "category": "major" },
+    { "id": "MATH130biz", "code": "MATH 130", "title": "Business Calculus", "credits": 4, "category": "major", "requirementGroup": "finc-math", "choiceNote": "MATH 130 or MATH 161" },
+    { "id": "MATH161finc", "code": "MATH 161", "title": "Calculus I", "credits": 4, "category": "major", "requirementGroup": "finc-math", "choiceNote": "MATH 130 or MATH 161" },
+    { "id": "ETHC341", "code": "ETHC 341", "title": "Ethics in Business", "credits": 3, "category": "major" },
+    { "id": "ACCT201", "code": "ACCT 201", "title": "Introductory Accounting I", "credits": 3, "category": "major" },
+    { "id": "ACCT202", "code": "ACCT 202", "title": "Introductory Accounting II", "credits": 3, "category": "major" },
+    { "id": "ECON201biz", "code": "ECON 201", "title": "Principles of Microeconomics", "credits": 3, "category": "major" },
+    { "id": "ECON202biz", "code": "ECON 202", "title": "Principles of Macroeconomics", "credits": 3, "category": "major" },
+    { "id": "FINC334", "code": "FINC 334", "title": "Principles of Corporate Finance", "credits": 3, "category": "major" },
+    { "id": "INFS247", "code": "INFS 247", "title": "Business Information Systems", "credits": 3, "category": "major" },
+    { "id": "INFS343", "code": "INFS 343", "title": "Business Analytics", "credits": 3, "category": "major", "requirementGroup": "biz-core-analytics", "choiceNote": "INFS 343 or ECON 346" },
+    { "id": "ECON346biz", "code": "ECON 346", "title": "Econometrics", "credits": 3, "category": "major", "requirementGroup": "biz-core-analytics", "choiceNote": "INFS 343 or ECON 346" },
+    { "id": "ISSCM241", "code": "ISSCM 241", "title": "Business Statistics", "credits": 3, "category": "major", "requirementGroup": "biz-core-stats", "choiceNote": "ISSCM 241 or STAT 103" },
+    { "id": "STAT103biz", "code": "STAT 103", "title": "Fundamentals of Statistics", "credits": 3, "category": "major", "requirementGroup": "biz-core-stats", "choiceNote": "ISSCM 241 or STAT 103" },
+    { "id": "LREB315", "code": "LREB 315", "title": "Law and the Regulatory Environment of Business I", "credits": 3, "category": "major" },
+    { "id": "MARK201biz", "code": "MARK 201", "title": "Principles of Marketing", "credits": 3, "category": "major" },
+    { "id": "MGMT201", "code": "MGMT 201", "title": "Managing People and Organizations", "credits": 3, "category": "major" },
+    { "id": "MGMT304", "code": "MGMT 304", "title": "Strategic Management", "credits": 3, "category": "major" },
+    { "id": "SCMG232", "code": "SCMG 232", "title": "Introduction to Supply Chain Management", "credits": 3, "category": "major" },
+    { "id": "ECON303finc", "code": "ECON 303", "title": "Intermediate Microeconomics", "credits": 3, "category": "major" },
+    { "id": "FINC335", "code": "FINC 335", "title": "Investments", "credits": 3, "category": "major" }
+  ],
+  "electiveOptions": {
+    "finc-group-a": { "creditsRequired": 3, "label": "Finance Elective Group A (at least 1)", "note": "FINC 336, 342, 345, 346, 356, 357, or 358" },
+    "finc-group-b": { "creditsRequired": 9, "label": "Finance Electives Group A/B (4 total)", "note": "Select 3 more from Group A or Group B (FINC 337, 338, 347, 349, 355, 359, 395, 399)" },
+    "biz-writing": { "creditsRequired": 6, "label": "Writing Intensive", "note": "Two approved writing-intensive courses" },
+    "biz-global": { "creditsRequired": 3, "label": "Global Awareness", "note": "One approved global awareness course" }
+  }
+}

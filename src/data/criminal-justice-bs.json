@@ -1,0 +1,31 @@
+{
+  "id": "criminal-justice-bs",
+  "department": "Criminal Justice and Criminology",
+  "name": "Criminal Justice and Criminology",
+  "degree": "BS",
+  "school": "Loyola University Chicago",
+  "totalCredits": 120,
+  "majorCredits": 36,
+  "catalogUrl": "https://catalog.luc.edu/undergraduate/arts-sciences/criminal-justice-criminology/criminal-justice-criminology-bs/",
+  "courses": [
+    { "id": "CJC101", "code": "CJC 101", "title": "Criminal Justice in a Global Context", "credits": 3, "category": "major" },
+    { "id": "CJC201", "code": "CJC 201", "title": "Theories of Criminal Behavior", "credits": 3, "category": "major" },
+    { "id": "CJC205", "code": "CJC 205", "title": "Research Methods", "credits": 3, "category": "major" },
+    { "id": "CJC202", "code": "CJC 202", "title": "Criminal Courts", "credits": 3, "category": "major", "requirementGroup": "cjc-systems", "choiceNote": "Choose two of CJC 202, 203, 204, or 323" },
+    { "id": "CJC203", "code": "CJC 203", "title": "Policing", "credits": 3, "category": "major", "requirementGroup": "cjc-systems", "choiceNote": "Choose two of CJC 202, 203, 204, or 323" },
+    { "id": "CJC204", "code": "CJC 204", "title": "Corrections", "credits": 3, "category": "major", "requirementGroup": "cjc-systems", "choiceNote": "Choose two of CJC 202, 203, 204, or 323" },
+    { "id": "CJC323", "code": "CJC 323", "title": "Criminal Procedure", "credits": 3, "category": "major", "requirementGroup": "cjc-systems", "choiceNote": "Choose two of CJC 202, 203, 204, or 323" }
+  ],
+  "electiveOptions": {
+    "cjc-electives": {
+      "creditsRequired": 18,
+      "label": "CJC Electives",
+      "note": "Six CJC 200- or 300-level electives plus a statistics course (or five CJC electives plus CJC 206 Statistics)"
+    },
+    "cjc-capstone": {
+      "creditsRequired": 3,
+      "label": "Capstone",
+      "note": "CJC 399 (Senior Capstone), CJC 390 (Capstone Internship), or CJC 391 (Capstone Research)"
+    }
+  }
+}

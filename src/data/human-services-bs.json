@@ -1,0 +1,22 @@
+{
+  "id": "human-services-bs",
+  "department": "Human Services",
+  "name": "Human Services",
+  "degree": "BS",
+  "school": "Loyola University Chicago",
+  "totalCredits": 120,
+  "majorCredits": 45,
+  "catalogUrl": "https://catalog.luc.edu/undergraduate/arts-sciences/human-services/human-services-bs/",
+  "courses": [
+    { "id": "HSRV200", "code": "HSRV 200", "title": "Introduction to Human Services", "credits": 3, "category": "major" },
+    { "id": "HSRV210", "code": "HSRV 210", "title": "Social Policy and Human Services", "credits": 3, "category": "major" },
+    { "id": "HSRV310", "code": "HSRV 310", "title": "Case Management and Interviewing", "credits": 3, "category": "major" },
+    { "id": "HSRV320", "code": "HSRV 320", "title": "Program Planning and Evaluation", "credits": 3, "category": "major" },
+    { "id": "HSRV400", "code": "HSRV 400", "title": "Ethics in Human Services", "credits": 3, "category": "major" },
+    { "id": "HSRV490", "code": "HSRV 490", "title": "Senior Seminar in Human Services", "credits": 3, "category": "major" },
+    { "id": "HSRV480", "code": "HSRV 480", "title": "Field Practicum", "credits": 6, "category": "major" }
+  ],
+  "electiveOptions": {
+    "hsrv-electives": { "creditsRequired": 21, "label": "Human Services Electives", "note": "Approved courses in social work, sociology, psychology, and related disciplines" }
+  }
+}

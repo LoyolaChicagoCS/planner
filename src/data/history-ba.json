@@ -1,0 +1,50 @@
+{
+  "id": "history-ba",
+  "department": "History",
+  "name": "History",
+  "degree": "BA",
+  "school": "Loyola University Chicago",
+  "totalCredits": 120,
+  "majorCredits": 36,
+  "catalogUrl": "https://catalog.luc.edu/undergraduate/arts-sciences/history/history-ba/",
+  "courses": [
+    { "id": "HIST299", "code": "HIST 299", "title": "Historical Methods", "credits": 3, "category": "major", "note": "INDS 380 accepted as substitute" }
+  ],
+  "electiveOptions": {
+    "hist-tier1-intro": {
+      "creditsRequired": 3,
+      "label": "Tier 1 Intro: Foundational Historical Knowledge",
+      "note": "One course from HIST 101–104 or HONR 101–102"
+    },
+    "hist-tier2-intro": {
+      "creditsRequired": 3,
+      "label": "Tier 2 Intro: Historical Knowledge",
+      "note": "One course from HIST 208–213 or approved honors alternative"
+    },
+    "hist-premodern": {
+      "creditsRequired": 3,
+      "label": "Pre-Modern History",
+      "note": "One 300-level course in pre-modern history (e.g., HIST 310, 314, 315)"
+    },
+    "hist-modern-european": {
+      "creditsRequired": 3,
+      "label": "Modern European History",
+      "note": "One 300-level course in modern European history (e.g., HIST 320, 330, 337)"
+    },
+    "hist-us": {
+      "creditsRequired": 3,
+      "label": "U.S. History",
+      "note": "One 300-level course in U.S. history (e.g., HIST 360, 363, 367, 380)"
+    },
+    "hist-world": {
+      "creditsRequired": 3,
+      "label": "World History",
+      "note": "One 300-level course in world/non-Western history (e.g., HIST 341, 350, 356)"
+    },
+    "hist-electives": {
+      "creditsRequired": 15,
+      "label": "History Electives",
+      "note": "Five additional history courses (HIST 101–399 or approved related courses); one may be HIST 398 Internship"
+    }
+  }
+}

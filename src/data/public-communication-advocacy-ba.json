@@ -1,0 +1,30 @@
+{
+  "id": "public-communication-advocacy-ba",
+  "department": "Communication",
+  "name": "Public Communication and Advocacy",
+  "degree": "BA",
+  "school": "Loyola University Chicago",
+  "totalCredits": 120,
+  "majorCredits": 43,
+  "catalogUrl": "https://catalog.luc.edu/undergraduate/communication/public-communication-advocacy/public-communication-advocacy-ba/",
+  "courses": [
+    { "id": "COMM100", "code": "COMM 100", "title": "SOC Career Prep Seminar", "credits": 1, "category": "major" },
+    { "id": "COMM175", "code": "COMM 175", "title": "Introduction to Communication", "credits": 3, "category": "major" },
+    { "id": "COMM200", "code": "COMM 200", "title": "Digital Communication and Society", "credits": 3, "category": "major" },
+    { "id": "COMM215pca", "code": "COMM 215", "title": "Ethics and Communication", "credits": 3, "category": "major", "requirementGroup": "pca-ethics", "choiceNote": "COMM 215 or COMM 360" },
+    { "id": "COMM360pca", "code": "COMM 360", "title": "Digital Media Ethics", "credits": 3, "category": "major", "requirementGroup": "pca-ethics", "choiceNote": "COMM 215 or COMM 360" },
+    { "id": "COMM227", "code": "COMM 227", "title": "Social Justice and Public Communication", "credits": 3, "category": "major" },
+    { "id": "COMM268", "code": "COMM 268", "title": "Persuasion", "credits": 3, "category": "major" },
+    { "id": "COMM101", "code": "COMM 101", "title": "Public Speaking and Critical Thinking", "credits": 3, "category": "major" },
+    { "id": "COMM230", "code": "COMM 230", "title": "Argumentation and Advocacy", "credits": 3, "category": "major" },
+    { "id": "COMM231", "code": "COMM 231", "title": "Conflict Management and Communication", "credits": 3, "category": "major" },
+    { "id": "COMM300", "code": "COMM 300", "title": "Persuasive Campaigns", "credits": 3, "category": "major" },
+    { "id": "COMM306", "code": "COMM 306", "title": "Environmental Communication and Advocacy", "credits": 3, "category": "major" },
+    { "id": "COMM309", "code": "COMM 309", "title": "Designing Media for Social Change", "credits": 3, "category": "major" }
+  ],
+  "electiveOptions": {
+    "pca-theory": { "creditsRequired": 3, "label": "Theory/Critical Analysis Elective", "note": "COMM 201 (Media Theory), COMM 220 (Introduction to Rhetoric), COMM 226 (Public Interest Communication), or COMM 272 (Intercultural Communication)" },
+    "pca-research": { "creditsRequired": 3, "label": "Research Methods Elective", "note": "COMM 367 (Rhetorical Criticism), COMM 368 (Ethnographic Research Methods), or COMM 240 (Communication Research Design)" },
+    "pca-media": { "creditsRequired": 3, "label": "Media Production Elective", "note": "COMM 130 (Intro to Audio Production), COMM 135 (Intro to Video Production), or COMM 275 (Web Design and Usability)" }
+  }
+}

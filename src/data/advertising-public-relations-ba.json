@@ -1,0 +1,29 @@
+{
+  "id": "advertising-public-relations-ba",
+  "department": "Communication",
+  "name": "Advertising and Public Relations",
+  "degree": "BA",
+  "school": "Loyola University Chicago",
+  "totalCredits": 120,
+  "majorCredits": 49,
+  "catalogUrl": "https://catalog.luc.edu/undergraduate/communication/advertising-public-relations/public-relations-ba/",
+  "courses": [
+    { "id": "COMM100", "code": "COMM 100", "title": "SOC Career Prep Seminar", "credits": 1, "category": "major" },
+    { "id": "COMM175", "code": "COMM 175", "title": "Introduction to Communication", "credits": 3, "category": "major" },
+    { "id": "COMM200", "code": "COMM 200", "title": "Digital Communication and Society", "credits": 3, "category": "major" },
+    { "id": "COMM215", "code": "COMM 215", "title": "Ethics and Communication", "credits": 3, "category": "major" },
+    { "id": "COMM210", "code": "COMM 210", "title": "Principles of Public Relations", "credits": 3, "category": "major" },
+    { "id": "COMM211", "code": "COMM 211", "title": "Principles of Advertising", "credits": 3, "category": "major" },
+    { "id": "COMM213", "code": "COMM 213", "title": "Digital Foundations", "credits": 3, "category": "major" },
+    { "id": "COMM250", "code": "COMM 250", "title": "Foundational ADPR Research Methods", "credits": 3, "category": "major" },
+    { "id": "MARK201comm", "code": "MARK 201", "title": "Principles of Marketing", "credits": 3, "category": "major" },
+    { "id": "COMM346", "code": "COMM 346", "title": "Analytics, Insights, and Strategy", "credits": 3, "category": "major" },
+    { "id": "COMM386", "code": "COMM 386", "title": "Advertising/Public Relations Capstone", "credits": 3, "category": "major" },
+    { "id": "COMM391", "code": "COMM 391", "title": "Advertising/Public Relations Internship", "credits": 3, "category": "major" }
+  ],
+  "electiveOptions": {
+    "adpr-concentration": { "creditsRequired": 9, "label": "Specialized Concentration", "note": "Choose Advertising (COMM 214, 317 + elective), PR (COMM 313, 318 + elective), or Integrated track" },
+    "adpr-new-media": { "creditsRequired": 3, "label": "New Media Course", "note": "COMM 331 (Social Media Campaigns), COMM 335 (Creating ADPR Content with AI), or COMM 347 (Influencers & Social Economy)" },
+    "adpr-elective": { "creditsRequired": 3, "label": "Approved Elective", "note": "One course from the approved ADPR electives list" }
+  }
+}

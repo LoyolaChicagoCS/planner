@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import SearchBox from './SearchBox';
+import ProgramPicker from './ProgramPicker';
 import optionalData from '../data/optional.json';
 import {
   calcDistinctDoneCredits,
@@ -7,6 +8,7 @@ import {
   calcProgramRequirementDoneCredits,
   calcRequiredCredits,
   calcSatisfiedRequirementCredits,
+  createProgressHelpers,
 } from '../utils/progress';
 import { progressBackgroundColor, progressBarStyle, progressColor } from '../utils/progressColor';
 import { matchesSearch, normalizeSearch } from '../utils/search';
@@ -44,6 +46,10 @@ const typedOptionalData = optionalData as OptionalData;
 
 interface AuditProps {
   program: Program;
+  allPrograms: Program[];
+  additionalPrograms: Program[];
+  onAddProgram: (p: Program) => void;
+  onRemoveProgram: (id: string) => void;
   completed: CompletedSet;
   toggle: Toggle;
   isCompleted: IsCompleted;
@@ -67,8 +73,9 @@ interface AuditProps {
  *   completed — Set of completed IDs
  *   toggle    — function(id) to mark/unmark
  */
-export default function Audit({ program, completed, toggle, isCompleted, isRequirementSatisfied, getRequirementStatus, toggleItem }: AuditProps) {
+export default function Audit({ program, allPrograms, additionalPrograms, onAddProgram, onRemoveProgram, completed, toggle, isCompleted, isRequirementSatisfied, getRequirementStatus, toggleItem }: AuditProps) {
   const [query, setQuery] = useState('');
+  const [pickerOpen, setPickerOpen] = useState(false);
   const search = normalizeSearch(query);
   const totalDone     = calcDistinctDoneCredits(program, completed);
   const totalRequired = program.kind === 'minor' || program.kind === 'masters' || program.kind === 'phd' ? program.totalCredits : 120;
@@ -165,6 +172,37 @@ export default function Audit({ program, completed, toggle, isCompleted, isRequi
 
       {/* Optional CS courses — shown for awareness, not counted toward 120; not relevant for graduate programs */}
       {program.kind !== 'masters' && program.kind !== 'phd' && <OptionalAuditSection search={search} completed={completed} toggle={toggle} />}
+
+      {/* Additional majors / minors — one card per program, remove button in header */}
+      {additionalPrograms.map(addlProgram => (
+        <AdditionalProgramAudit
+          key={addlProgram.id}
+          program={addlProgram}
+          completed={completed}
+          toggle={toggle}
+          search={search}
+          onRemove={onRemoveProgram}
+        />
+      ))}
+
+      {/* Add button — always visible at the bottom */}
+      <button
+        onClick={() => setPickerOpen(true)}
+        className="w-full rounded-xl border-2 border-dashed border-maroon-200 py-3 text-sm font-semibold text-maroon-400 active:bg-maroon-50 transition-colors"
+      >
+        + Add Additional Major or Minor
+      </button>
+
+      {pickerOpen && (
+        <ProgramPicker
+          programs={allPrograms}
+          activeProgram={program}
+          additionalPrograms={additionalPrograms}
+          onAdd={p => { onAddProgram(p); }}
+          onRemove={onRemoveProgram}
+          onClose={() => setPickerOpen(false)}
+        />
+      )}
 
     </div>
   );
@@ -272,7 +310,9 @@ function AuditCategory({ title, note, items, search, creditsRequired, isComplete
         {/* Empty state */}
         {visibleItems.length === 0 && (
           <div className="px-4 py-3 text-xs text-gray-400 italic">
-            Choose courses from the elective list above.
+            {note
+              ? 'Courses satisfying this requirement are counted automatically when marked complete.'
+              : 'No courses in this category yet.'}
           </div>
         )}
       </div>
@@ -308,6 +348,89 @@ function AuditRow({ item, done, satisfiedByAlternate = false, toggleItem }: {
       </div>
       <span className="text-xs text-gray-400 flex-shrink-0">{item.credits} cr</span>
     </button>
+  );
+}
+
+/** Audit section for an additional program selected by the student */
+function AdditionalProgramAudit({ program, completed, toggle, search, onRemove }: {
+  program: Program;
+  completed: CompletedSet;
+  toggle: Toggle;
+  search: string;
+  onRemove: (id: string) => void;
+}) {
+  const { isCompleted, isRequirementSatisfied, getRequirementStatus, toggleItem } =
+    createProgressHelpers(program, completed, toggle);
+  const done = calcProgramRequirementDoneCredits(program, isRequirementSatisfied);
+  const goal = calcProgramRequirementCreditGoal(program);
+  const remaining = Math.max(0, goal - done);
+  const pct = goal > 0 ? Math.min(100, Math.round((done / goal) * 100)) : 0;
+  const creditLabel = program.kind === 'minor' ? 'Minor Credits' : 'Major Credits';
+  const remainingLabel = program.kind === 'minor' ? 'minor credits remaining' : 'major credits remaining';
+
+  return (
+    <div className="rounded-xl overflow-hidden border-2 border-maroon-100 shadow-sm">
+      <div className="bg-maroon-50 px-4 py-3 border-b border-maroon-100 flex items-start justify-between gap-2">
+        <div>
+          <div className="text-maroon-800 text-sm font-bold">{program.name}</div>
+          <div className="text-maroon-500 text-xs mt-0.5">{program.degree} · Additional {program.kind === 'minor' ? 'Minor' : 'Major'}</div>
+        </div>
+        <button
+          onClick={() => onRemove(program.id)}
+          className="flex-shrink-0 text-xs font-semibold px-2.5 py-1 rounded-full bg-white border border-maroon-200 text-maroon-500 active:bg-maroon-100 transition-colors mt-0.5"
+          aria-label={`Remove ${program.name}`}
+        >
+          Remove
+        </button>
+      </div>
+
+      <div className="px-4 pt-4 pb-2 bg-white">
+        <CreditSummary
+          title={creditLabel}
+          done={done}
+          required={goal}
+          remaining={remaining}
+          remainingLabel={remainingLabel}
+          pct={pct}
+        />
+      </div>
+
+      <div className="px-4 pb-4 bg-white">
+        <AuditCategory
+          title={program.kind === 'minor' ? 'Minor Requirements' : 'Major Required Courses'}
+          items={(program.courses ?? []).map(c => ({
+            ...c,
+            label: c.code ? `${c.code} — ${c.title}` : c.title,
+          }))}
+          search={search}
+          creditsRequired={calcRequiredCredits(program.courses ?? [])}
+          isCompleted={isCompleted}
+          isRequirementSatisfied={isRequirementSatisfied}
+          getRequirementStatus={getRequirementStatus}
+          toggleItem={toggleItem}
+        />
+        {Object.values(program.electiveOptions ?? {})
+          .filter(group => (group.courses ?? []).length > 0 || group.creditsRequired > 0)
+          .map(group => (
+            <div key={group.label} className="mt-3">
+              <AuditCategory
+                title={group.label}
+                note={group.note}
+                items={(group.courses ?? []).map(c => ({
+                  ...c,
+                  label: `${c.code} — ${c.title}`,
+                }))}
+                search={search}
+                creditsRequired={group.creditsRequired}
+                isCompleted={isCompleted}
+                isRequirementSatisfied={isRequirementSatisfied}
+                getRequirementStatus={getRequirementStatus}
+                toggleItem={toggleItem}
+              />
+            </div>
+          ))}
+      </div>
+    </div>
   );
 }
 

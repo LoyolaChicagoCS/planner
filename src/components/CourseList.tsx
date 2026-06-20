@@ -1,17 +1,21 @@
 import { useState } from 'react';
 import SearchBox from './SearchBox';
 import { hasConcreteCoreSelection } from '../utils/coreCatalog';
+import { createProgressHelpers } from '../utils/progress';
 import { matchesSearch, normalizeSearch } from '../utils/search';
 import type { CompletedSet, CoreRequirement, Course, ElectiveGroup as ElectiveGroupModel, Program, ProgressItem } from '../types';
 import type { RequirementStatus } from '../utils/progress';
 
 type IsCompleted = (itemOrId: ProgressItem | string) => boolean;
 type GetRequirementStatus = (itemOrId: ProgressItem | string) => RequirementStatus;
+type Toggle = (id: string) => void;
 type ToggleItem = (itemOrId: ProgressItem | string) => void;
 
 interface CourseListProps {
   program: Program;
+  additionalPrograms: Program[];
   completed: CompletedSet;
+  toggle: Toggle;
   isCompleted: IsCompleted;
   getRequirementStatus: GetRequirementStatus;
   toggleItem: ToggleItem;
@@ -30,7 +34,7 @@ interface CourseListProps {
  *   completed — Set of completed course/item IDs
  *   toggle    — function(id) to mark/unmark a course
  */
-export default function CourseList({ program, completed, isCompleted, getRequirementStatus, toggleItem, onOpenCoreRequirement }: CourseListProps) {
+export default function CourseList({ program, additionalPrograms, completed, toggle, isCompleted, getRequirementStatus, toggleItem, onOpenCoreRequirement }: CourseListProps) {
   const [query, setQuery] = useState('');
   const search = normalizeSearch(query);
   const isMinor = program.kind === 'minor';
@@ -54,6 +58,15 @@ export default function CourseList({ program, completed, isCompleted, getRequire
           onOpenCoreRequirement={onOpenCoreRequirement}
         />
       )}
+      {additionalPrograms.map(addlProgram => (
+        <AdditionalProgramCourseSection
+          key={addlProgram.id}
+          program={addlProgram}
+          completed={completed}
+          toggle={toggle}
+          search={search}
+        />
+      ))}
     </div>
   );
 }
@@ -223,6 +236,51 @@ function ElectiveCourseRow({ course, isCompleted, toggleItem }: { course: Course
       </div>
       <div className="text-xs text-gray-400 flex-shrink-0">{course.credits} cr</div>
     </button>
+  );
+}
+
+/** Courses section for an additional (non-primary) program the student is tracking */
+function AdditionalProgramCourseSection({ program, completed, toggle, search }: {
+  program: Program;
+  completed: CompletedSet;
+  toggle: Toggle;
+  search: string;
+}) {
+  const { isCompleted, getRequirementStatus, toggleItem } = createProgressHelpers(program, completed, toggle);
+  const majorCourses = (program.courses ?? []).filter(c => c.category === 'major' && courseMatches(c, search));
+  const electiveCourses = (program.courses ?? []).filter(c => c.category === 'elective' && courseMatches(c, search));
+  const groups = Object.values(program.electiveOptions ?? {}).filter(group =>
+    (group.courses ?? []).length > 0 || group.creditsRequired > 0
+  );
+  const kindLabel = program.kind === 'minor' ? 'Minor' : 'Major';
+
+  return (
+    <div className="flex flex-col gap-4">
+      <div className="flex items-center gap-2">
+        <div className="flex-1 h-px bg-maroon-100" />
+        <span className="text-xs font-semibold text-maroon-500 uppercase tracking-wide px-2">
+          Additional {kindLabel}: {program.name} {program.degree}
+        </span>
+        <div className="flex-1 h-px bg-maroon-100" />
+      </div>
+      <Section
+        title={program.kind === 'minor' ? 'Minor Requirements' : 'Major Requirements'}
+        courses={majorCourses}
+        getRequirementStatus={getRequirementStatus}
+        toggleItem={toggleItem}
+      />
+      <Section title="Electives & Capstone" courses={electiveCourses} getRequirementStatus={getRequirementStatus} toggleItem={toggleItem} />
+      {groups.length > 0 && (
+        <div>
+          <h2 className="text-xs font-semibold uppercase tracking-widest text-gray-400 mb-3">Elective Requirements</h2>
+          <div className="flex flex-col gap-4">
+            {groups.map(group => (
+              <ElectiveGroup key={group.label} group={group} search={search} isCompleted={isCompleted} toggleItem={toggleItem} />
+            ))}
+          </div>
+        </div>
+      )}
+    </div>
   );
 }
 

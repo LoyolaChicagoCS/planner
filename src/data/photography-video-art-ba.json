@@ -1,0 +1,28 @@
+{
+  "id": "photography-video-art-ba",
+  "department": "Fine and Performing Arts",
+  "name": "Photography and Video Art",
+  "degree": "BA",
+  "school": "Loyola University Chicago",
+  "totalCredits": 120,
+  "majorCredits": 42,
+  "catalogUrl": "https://catalog.luc.edu/undergraduate/arts-sciences/fine-performing-arts/photography-video-art-ba/",
+  "courses": [
+    { "id": "FNAR110", "code": "FNAR 110", "title": "Foundations of Visual Art", "credits": 3, "category": "major" },
+    { "id": "FNAR113", "code": "FNAR 113", "title": "Drawing I", "credits": 3, "category": "major" },
+    { "id": "FNAR365", "code": "FNAR 365", "title": "History of Photography I", "credits": 3, "category": "major" },
+    { "id": "FNAR115", "code": "FNAR 115", "title": "Foundations of Photography", "credits": 3, "category": "major" },
+    { "id": "FNAR216", "code": "FNAR 216", "title": "Lighting Techniques for Photography and Video Art", "credits": 3, "category": "major" },
+    { "id": "FNAR219", "code": "FNAR 219", "title": "Photography: Digital Imaging", "credits": 3, "category": "major" },
+    { "id": "FNAR315", "code": "FNAR 315", "title": "Photography: Films and Cameras", "credits": 3, "category": "major" },
+    { "id": "FNAR320", "code": "FNAR 320", "title": "Video Art", "credits": 3, "category": "major" },
+    { "id": "FNAR388", "code": "FNAR 388", "title": "Critical Approaches to Visual Art", "credits": 3, "category": "major" },
+    { "id": "FNAR398", "code": "FNAR 398", "title": "Fine Arts Capstone", "credits": 3, "category": "major" }
+  ],
+  "electiveOptions": {
+    "phot-art-history": { "creditsRequired": 3, "label": "Art History Elective", "note": "FNAR 202 (Modern Art) or FNAR 306 (Contemporary Art 1945–Present)" },
+    "phot-visual-comm": { "creditsRequired": 3, "label": "Visual Communication Elective", "note": "FNAR 132 or FNAR 233" },
+    "phot-drawing-painting": { "creditsRequired": 3, "label": "Drawing, Painting & Printmaking Elective", "note": "FNAR 114 (Painting I) or FNAR 118 (Printmaking I)" },
+    "phot-sculpture": { "creditsRequired": 3, "label": "Sculpture & Ceramics Elective", "note": "FNAR 124 (Sculpture Foundations) or FNAR 120 (Ceramics: Handbuilding)" }
+  }
+}

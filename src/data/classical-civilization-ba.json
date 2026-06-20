@@ -1,0 +1,20 @@
+{
+  "id": "classical-civilization-ba",
+  "department": "Classical Studies",
+  "name": "Classical Civilization",
+  "degree": "BA",
+  "school": "Loyola University Chicago",
+  "totalCredits": 120,
+  "majorCredits": 30,
+  "catalogUrl": "https://catalog.luc.edu/undergraduate/arts-sciences/classical-studies/classical-civilization-ba/",
+  "courses": [
+    { "id": "CLST275", "code": "CLST 275", "title": "World of Classical Greece", "credits": 3, "category": "major" },
+    { "id": "CLST276", "code": "CLST 276", "title": "World of Classical Rome", "credits": 3, "category": "major" },
+    { "id": "CLST383", "code": "CLST 383", "title": "The Humanism of Antiquity I", "credits": 3, "category": "major" },
+    { "id": "CLST384", "code": "CLST 384", "title": "The Humanism of Antiquity II", "credits": 3, "category": "major" }
+  ],
+  "electiveOptions": {
+    "clst-literature": { "creditsRequired": 3, "label": "Literature Requirement", "note": "One course from Classical Mythology, Heroes & Classical Epics, Classical Tragedy, Classical Rhetoric, or related" },
+    "clst-electives": { "creditsRequired": 15, "label": "Classical Studies Electives", "note": "Five CLST courses; up to four may be GREK or LATN" }
+  }
+}

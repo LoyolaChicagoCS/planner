@@ -1,0 +1,21 @@
+{
+  "id": "theology-ba",
+  "department": "Theology",
+  "name": "Theology",
+  "degree": "BA",
+  "school": "Loyola University Chicago",
+  "totalCredits": 120,
+  "majorCredits": 36,
+  "catalogUrl": "https://catalog.luc.edu/undergraduate/arts-sciences/theology/theology-ba/",
+  "courses": [
+    { "id": "THEO100", "code": "THEO 100", "title": "Theological Foundations", "credits": 3, "category": "major" },
+    { "id": "THEO200", "code": "THEO 200", "title": "Christian Scriptures", "credits": 3, "category": "major" },
+    { "id": "THEO201", "code": "THEO 201", "title": "Christian Tradition", "credits": 3, "category": "major" },
+    { "id": "THEO300", "code": "THEO 300", "title": "Methods in Theology", "credits": 3, "category": "major" },
+    { "id": "THEO490", "code": "THEO 490", "title": "Senior Seminar in Theology", "credits": 3, "category": "major" }
+  ],
+  "electiveOptions": {
+    "theo-upper": { "creditsRequired": 12, "label": "Upper-Division Theology Electives", "note": "Four THEO courses at the 300/400 level from approved list" },
+    "theo-elective": { "creditsRequired": 9, "label": "Additional Electives", "note": "Three additional THEO courses from any level" }
+  }
+}

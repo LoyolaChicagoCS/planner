@@ -1,0 +1,29 @@
+{
+  "id": "math-cs-bs",
+  "department": "Mathematics and Statistics",
+  "name": "Mathematics and Computer Science",
+  "degree": "BS",
+  "school": "Loyola University Chicago",
+  "totalCredits": 120,
+  "majorCredits": 60,
+  "catalogUrl": "https://catalog.luc.edu/undergraduate/arts-sciences/mathematics-statistics/mathematics-computer-science-bs/",
+  "courses": [
+    { "id": "MATH161", "code": "MATH 161", "title": "Calculus I", "credits": 4, "category": "major" },
+    { "id": "MATH162", "code": "MATH 162", "title": "Calculus II", "credits": 4, "category": "major" },
+    { "id": "MATH263", "code": "MATH 263", "title": "Multivariable Calculus", "credits": 3, "category": "major" },
+    { "id": "MATH212", "code": "MATH 212", "title": "Linear Algebra", "credits": 3, "category": "major" },
+    { "id": "MATH201", "code": "MATH 201", "title": "Introduction to Discrete Mathematics", "credits": 3, "category": "major" },
+    { "id": "MATH313", "code": "MATH 313", "title": "Abstract Algebra I", "credits": 3, "category": "major" },
+    { "id": "MATH315", "code": "MATH 315", "title": "Real Analysis I", "credits": 3, "category": "major" },
+    { "id": "STAT203", "code": "STAT 203", "title": "Statistics", "credits": 3, "category": "major" },
+    { "id": "COMP170", "code": "COMP 170", "title": "Introduction to Object-Oriented Programming", "credits": 3, "category": "major" },
+    { "id": "COMP271", "code": "COMP 271", "title": "Data Structures and Algorithms", "credits": 3, "category": "major" },
+    { "id": "COMP363", "code": "COMP 363", "title": "Design and Analysis of Algorithms", "credits": 3, "category": "major" },
+    { "id": "COMP313", "code": "COMP 313", "title": "Intermediate Object-Oriented Programming", "credits": 3, "category": "major" }
+  ],
+  "electiveOptions": {
+    "mcs-math-upper": { "creditsRequired": 6, "label": "Mathematics Electives", "note": "Two upper-division MATH courses (300+)" },
+    "mcs-cs-upper": { "creditsRequired": 9, "label": "Computer Science Electives", "note": "Three upper-division COMP courses (300+)" },
+    "mcs-capstone": { "creditsRequired": 3, "label": "Capstone", "note": "COMP 490 or MATH 490" }
+  }
+}

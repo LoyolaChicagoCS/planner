@@ -1,0 +1,21 @@
+{
+  "id": "italian-studies-ba",
+  "department": "Modern Languages and Literatures",
+  "name": "Italian Studies",
+  "degree": "BA",
+  "school": "Loyola University Chicago",
+  "totalCredits": 120,
+  "majorCredits": 30,
+  "catalogUrl": "https://catalog.luc.edu/undergraduate/arts-sciences/modern-languages-literatures/italian-studies-ba/",
+  "courses": [
+    { "id": "ITAL301", "code": "ITAL 301", "title": "Advanced Italian Language and Composition I", "credits": 3, "category": "major" },
+    { "id": "ITAL302", "code": "ITAL 302", "title": "Advanced Italian Language and Composition II", "credits": 3, "category": "major" },
+    { "id": "ITAL310", "code": "ITAL 310", "title": "Introduction to Italian Literature", "credits": 3, "category": "major" },
+    { "id": "ITAL490", "code": "ITAL 490", "title": "Senior Seminar in Italian Studies", "credits": 3, "category": "major" }
+  ],
+  "electiveOptions": {
+    "ital-lit": { "creditsRequired": 9, "label": "Literature/Culture Electives", "note": "Three 300/400-level ITAL literature, culture, or cinema courses" },
+    "ital-elective": { "creditsRequired": 6, "label": "Additional Electives", "note": "Two additional ITAL courses at 200-level or above" },
+    "ital-study-abroad": { "creditsRequired": 3, "label": "Study Abroad / Language Elective", "note": "Approved study-abroad (Rome campus) or upper-division Italian elective" }
+  }
+}

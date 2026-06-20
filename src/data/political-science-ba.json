@@ -1,0 +1,42 @@
+{
+  "id": "political-science-ba",
+  "department": "Political Science",
+  "name": "Political Science",
+  "degree": "BA",
+  "school": "Loyola University Chicago",
+  "totalCredits": 120,
+  "majorCredits": 33,
+  "catalogUrl": "https://catalog.luc.edu/undergraduate/arts-sciences/political-science/political-science-ba/",
+  "electiveOptions": {
+    "plsc-intro": {
+      "creditsRequired": 9,
+      "label": "Introductory Core Courses",
+      "note": "Three of four intro courses: PLSC 100 (Political Theory), 101 (American Politics), 102 (International Relations), 103 (Comparative Politics)"
+    },
+    "plsc-subfield-american": {
+      "creditsRequired": 3,
+      "label": "American Politics Subfield",
+      "note": "One upper-level course in the American Politics subfield"
+    },
+    "plsc-subfield-theory": {
+      "creditsRequired": 3,
+      "label": "Political Theory Subfield",
+      "note": "One upper-level course in the Political Theory subfield"
+    },
+    "plsc-subfield-comparative": {
+      "creditsRequired": 3,
+      "label": "Comparative Politics Subfield",
+      "note": "One upper-level course in the Comparative Politics subfield"
+    },
+    "plsc-subfield-ir": {
+      "creditsRequired": 3,
+      "label": "International Relations Subfield",
+      "note": "One upper-level course in the International Relations subfield"
+    },
+    "plsc-electives": {
+      "creditsRequired": 12,
+      "label": "Political Science Electives",
+      "note": "Four additional PLSC electives"
+    }
+  }
+}

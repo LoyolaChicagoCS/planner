@@ -1,0 +1,29 @@
+{
+  "id": "sculpture-ceramics-ba",
+  "department": "Fine and Performing Arts",
+  "name": "Sculpture and Ceramics",
+  "degree": "BA",
+  "school": "Loyola University Chicago",
+  "totalCredits": 120,
+  "majorCredits": 42,
+  "catalogUrl": "https://catalog.luc.edu/undergraduate/arts-sciences/fine-performing-arts/sculpture-ceramics-ba/",
+  "courses": [
+    { "id": "FNAR110", "code": "FNAR 110", "title": "Foundations of Visual Art", "credits": 3, "category": "major" },
+    { "id": "FNAR113", "code": "FNAR 113", "title": "Drawing I", "credits": 3, "category": "major" },
+    { "id": "FNAR115", "code": "FNAR 115", "title": "Foundations of Photography", "credits": 3, "category": "major" },
+    { "id": "FNAR124", "code": "FNAR 124", "title": "Sculpture Foundations", "credits": 3, "category": "major" },
+    { "id": "FNAR222", "code": "FNAR 222", "title": "Sculpture/Ceramics: Intermediate Studio", "credits": 3, "category": "major" },
+    { "id": "FNAR322", "code": "FNAR 322", "title": "Sculpture & Ceramics: Advanced Studio", "credits": 3, "category": "major" },
+    { "id": "FNAR388", "code": "FNAR 388", "title": "Critical Approaches to Visual Art", "credits": 3, "category": "major" },
+    { "id": "FNAR398", "code": "FNAR 398", "title": "Fine Arts Capstone", "credits": 3, "category": "major" },
+    { "id": "FNAR202", "code": "FNAR 202", "title": "Global Art History: Modern Art", "credits": 3, "category": "major" },
+    { "id": "FNAR120", "code": "FNAR 120", "title": "Ceramics: Handbuilding", "credits": 3, "category": "major", "requirementGroup": "sculpt-ceramics-intro", "choiceNote": "FNAR 120 or FNAR 121" },
+    { "id": "FNAR121", "code": "FNAR 121", "title": "Ceramics: Wheelthrowing", "credits": 3, "category": "major", "requirementGroup": "sculpt-ceramics-intro", "choiceNote": "FNAR 120 or FNAR 121" }
+  ],
+  "electiveOptions": {
+    "sculpt-art-history": { "creditsRequired": 3, "label": "Art History Elective", "note": "FNAR 200 or FNAR 201 (Global Art History)" },
+    "sculpt-drawing-painting": { "creditsRequired": 3, "label": "Drawing, Painting & Printmaking Elective", "note": "FNAR 114 (Painting I) or FNAR 118 (Printmaking I)" },
+    "sculpt-visual-comm": { "creditsRequired": 3, "label": "Visual Communication Elective", "note": "FNAR 132 (Visual Communication I) or FNAR 190 (Color Theory)" },
+    "sculpt-studio": { "creditsRequired": 3, "label": "Studio Elective", "note": "Additional ceramics, metalwork/jewelry, or internship" }
+  }
+}

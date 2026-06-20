@@ -1,5 +1,6 @@
 {
   "id": "bioinformatics",
+  "department": "Computer Science",
   "name": "Bioinformatics",
   "degree": "BS",
   "school": "Loyola University Chicago",
@@ -8,18 +9,77 @@
   "majorCredits": 63,
   "catalogUrl": "https://catalog.luc.edu/undergraduate/arts-sciences/bioinformatics/bioinformatics-bs/",
   "note": "Interdisciplinary program integrating biology, chemistry, computer science, mathematics, and statistics.",
-
   "courses": [
-    { "id": "BIOI_UNIV101", "code": "UNIV 101", "title": "First Year Seminar", "credits": 1, "category": "core" },
-    { "id": "BIOI_BIOL101", "code": "BIOL 101", "title": "General Biology I", "credits": 3, "category": "major" },
-    { "id": "BIOI_BIOL282", "code": "BIOL 282", "title": "Genetics", "credits": 3, "category": "major" },
-    { "id": "BIOI_BIOL283", "code": "BIOL 283", "title": "Genetics Laboratory", "credits": 1, "category": "major" },
-    { "id": "BIOI_CHEM160", "code": "CHEM 160", "title": "Chemical Structure and Properties", "credits": 3, "category": "major" },
-    { "id": "BIOI_CHEM180", "code": "CHEM 180", "title": "Chemical Reactivity I", "credits": 3, "category": "major" },
-    { "id": "BIOI_CHEM240", "code": "CHEM 240", "title": "Chemical Reactivity II", "credits": 3, "category": "major" },
-    { "id": "BIOI_CHEM260", "code": "CHEM 260", "title": "Quantitative Methods in Chemistry", "credits": 3, "category": "major" },
-    { "id": "BIOI_CHEM361", "code": "CHEM 361", "title": "Principles of Biochemistry", "credits": 3, "category": "major" },
-    { "id": "BIOI_COMP141", "code": "COMP 141", "title": "Introduction to Computing Tools and Techniques", "credits": 3, "category": "major" },
+    {
+      "id": "BIOI_UNIV101",
+      "code": "UNIV 101",
+      "title": "First Year Seminar",
+      "credits": 1,
+      "category": "core"
+    },
+    {
+      "id": "BIOI_BIOL101",
+      "code": "BIOL 101",
+      "title": "General Biology I",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "BIOI_BIOL282",
+      "code": "BIOL 282",
+      "title": "Genetics",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "BIOI_BIOL283",
+      "code": "BIOL 283",
+      "title": "Genetics Laboratory",
+      "credits": 1,
+      "category": "major"
+    },
+    {
+      "id": "BIOI_CHEM160",
+      "code": "CHEM 160",
+      "title": "Chemical Structure and Properties",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "BIOI_CHEM180",
+      "code": "CHEM 180",
+      "title": "Chemical Reactivity I",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "BIOI_CHEM240",
+      "code": "CHEM 240",
+      "title": "Chemical Reactivity II",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "BIOI_CHEM260",
+      "code": "CHEM 260",
+      "title": "Quantitative Methods in Chemistry",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "BIOI_CHEM361",
+      "code": "CHEM 361",
+      "title": "Principles of Biochemistry",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "BIOI_COMP141",
+      "code": "COMP 141",
+      "title": "Introduction to Computing Tools and Techniques",
+      "credits": 3,
+      "category": "major"
+    },
     {
       "id": "BIOI_MATH215",
       "code": "MATH 215",
@@ -38,9 +98,27 @@
       "requirementGroup": "bioinformatics-programming",
       "choiceNote": "Substitute for MATH 215"
     },
-    { "id": "BIOI_COMP231", "code": "COMP 231", "title": "Data Structures & Algorithms for Informatics", "credits": 3, "category": "major" },
-    { "id": "BIOI_MATH131", "code": "MATH 131", "title": "Applied Calculus I", "credits": 3, "category": "major" },
-    { "id": "BIOI_MATH132", "code": "MATH 132", "title": "Applied Calculus II", "credits": 3, "category": "major" },
+    {
+      "id": "BIOI_COMP231",
+      "code": "COMP 231",
+      "title": "Data Structures & Algorithms for Informatics",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "BIOI_MATH131",
+      "code": "MATH 131",
+      "title": "Applied Calculus I",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "BIOI_MATH132",
+      "code": "MATH 132",
+      "title": "Applied Calculus II",
+      "credits": 3,
+      "category": "major"
+    },
     {
       "id": "BIOI_STAT335",
       "code": "STAT 335",
@@ -59,7 +137,13 @@
       "requirementGroup": "bioinformatics-statistics",
       "choiceNote": "Choose STAT 335 or STAT 203"
     },
-    { "id": "BIOI_BIOI201", "code": "BIOI 201", "title": "Introduction to Bioinformatics", "credits": 3, "category": "major" },
+    {
+      "id": "BIOI_BIOI201",
+      "code": "BIOI 201",
+      "title": "Introduction to Bioinformatics",
+      "credits": 3,
+      "category": "major"
+    },
     {
       "id": "BIOI_BIOL387",
       "code": "BIOL 387",
@@ -78,8 +162,20 @@
       "requirementGroup": "bioinformatics-genomics",
       "choiceNote": "Choose BIOL 387 or BIOL 392"
     },
-    { "id": "BIOI_BIOL388", "code": "BIOL 388", "title": "Bioinformatics", "credits": 3, "category": "major" },
-    { "id": "BIOI_COMP383", "code": "COMP 383", "title": "Computational Biology", "credits": 4, "category": "major" },
+    {
+      "id": "BIOI_BIOL388",
+      "code": "BIOL 388",
+      "title": "Bioinformatics",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "BIOI_COMP383",
+      "code": "COMP 383",
+      "title": "Computational Biology",
+      "credits": 4,
+      "category": "major"
+    },
     {
       "id": "BIOI_STAT337",
       "code": "STAT 337",
@@ -99,19 +195,54 @@
       "choiceNote": "Choose STAT 337 or STAT 336"
     }
   ],
-
   "electiveOptions": {
     "restricted": {
       "creditsRequired": 6,
       "label": "Bioinformatics Electives",
       "note": "Select two elective areas; choose one course from an area when alternatives are listed.",
       "courses": [
-        { "id": "BIOI_ELEC_BIOL390", "code": "BIOL 390", "title": "Molecular Biology Laboratory", "credits": 3, "requirementGroup": "bioinformatics-elective-molecular" },
-        { "id": "BIOI_ELEC_BIOL382", "code": "BIOL 382", "title": "Molecular Genetics", "credits": 3, "requirementGroup": "bioinformatics-elective-molecular" },
-        { "id": "BIOI_ELEC_BIOI365", "code": "BIOI 365", "title": "Exploring Proteins", "credits": 3, "requirementGroup": "bioinformatics-elective-proteins" },
-        { "id": "BIOI_ELEC_CHEM365", "code": "CHEM 365", "title": "Proteomics", "credits": 3, "requirementGroup": "bioinformatics-elective-proteins" },
-        { "id": "BIOI_ELEC_COMP353", "code": "COMP 353", "title": "Database Programming", "credits": 3, "requirementGroup": "bioinformatics-elective-computing" },
-        { "id": "BIOI_ELEC_COMP379", "code": "COMP 379", "title": "Machine Learning", "credits": 3, "requirementGroup": "bioinformatics-elective-computing" }
+        {
+          "id": "BIOI_ELEC_BIOL390",
+          "code": "BIOL 390",
+          "title": "Molecular Biology Laboratory",
+          "credits": 3,
+          "requirementGroup": "bioinformatics-elective-molecular"
+        },
+        {
+          "id": "BIOI_ELEC_BIOL382",
+          "code": "BIOL 382",
+          "title": "Molecular Genetics",
+          "credits": 3,
+          "requirementGroup": "bioinformatics-elective-molecular"
+        },
+        {
+          "id": "BIOI_ELEC_BIOI365",
+          "code": "BIOI 365",
+          "title": "Exploring Proteins",
+          "credits": 3,
+          "requirementGroup": "bioinformatics-elective-proteins"
+        },
+        {
+          "id": "BIOI_ELEC_CHEM365",
+          "code": "CHEM 365",
+          "title": "Proteomics",
+          "credits": 3,
+          "requirementGroup": "bioinformatics-elective-proteins"
+        },
+        {
+          "id": "BIOI_ELEC_COMP353",
+          "code": "COMP 353",
+          "title": "Database Programming",
+          "credits": 3,
+          "requirementGroup": "bioinformatics-elective-computing"
+        },
+        {
+          "id": "BIOI_ELEC_COMP379",
+          "code": "COMP 379",
+          "title": "Machine Learning",
+          "credits": 3,
+          "requirementGroup": "bioinformatics-elective-computing"
+        }
       ]
     },
     "practicum": {
@@ -119,49 +250,158 @@
       "label": "Bioinformatics Research",
       "note": "At least 1 research credit is required; BIOI 398 and BIOI 399 may be repeated.",
       "courses": [
-        { "id": "BIOI_RESEARCH397", "code": "BIOI 397", "title": "Bioinformatics Survey", "credits": 1 },
-        { "id": "BIOI_RESEARCH398", "code": "BIOI 398", "title": "Bioinformatics Internship", "credits": 1 },
-        { "id": "BIOI_RESEARCH399", "code": "BIOI 399", "title": "Bioinformatics Research", "credits": 1 }
+        {
+          "id": "BIOI_RESEARCH397",
+          "code": "BIOI 397",
+          "title": "Bioinformatics Survey",
+          "credits": 1
+        },
+        {
+          "id": "BIOI_RESEARCH398",
+          "code": "BIOI 398",
+          "title": "Bioinformatics Internship",
+          "credits": 1
+        },
+        {
+          "id": "BIOI_RESEARCH399",
+          "code": "BIOI 399",
+          "title": "Bioinformatics Research",
+          "credits": 1
+        }
       ]
     },
-    "free": { "creditsRequired": 0, "label": "Free Electives", "courses": [] }
+    "free": {
+      "creditsRequired": 0,
+      "label": "Free Electives",
+      "courses": []
+    }
   },
-
   "coreRequirements": [
-    { "id": "CORE_WRITING", "label": "College Writing Seminar", "credits": 3 },
-    { "id": "CORE_THEO1", "label": "Theological & Religious Studies Tier 1", "credits": 3 },
-    { "id": "CORE_THEO2", "label": "Theological & Religious Studies Tier 2", "credits": 3 },
-    { "id": "CORE_ETHICS", "label": "Ethics", "credits": 3 },
-    { "id": "CORE_HIST1", "label": "Historical Knowledge Tier 1", "credits": 3 },
-    { "id": "CORE_HIST2", "label": "Historical Knowledge Tier 2", "credits": 3 },
-    { "id": "CORE_PHIL1", "label": "Philosophical Knowledge Tier 1", "credits": 3 },
-    { "id": "CORE_PHIL2", "label": "Philosophical Knowledge Tier 2", "credits": 3 },
-    { "id": "CORE_LIT1", "label": "Literary Knowledge & Experience Tier 1", "credits": 3 },
-    { "id": "CORE_LIT2", "label": "Literary Knowledge & Experience Tier 2", "credits": 3 },
-    { "id": "CORE_SOC1", "label": "Societal & Cultural Knowledge Tier 1", "credits": 3 },
-    { "id": "CORE_SOC2", "label": "Societal & Cultural Knowledge Tier 2", "credits": 3 },
-    { "id": "CORE_ART", "label": "Artistic Knowledge & Experience", "credits": 3 },
-    { "id": "CAS_LANG1", "label": "CAS Language Requirement (101-level)", "credits": 3 },
-    { "id": "CAS_LANG2", "label": "CAS Language Requirement (102-level)", "credits": 3 },
-    { "id": "CAS_ELEC1", "label": "CAS Elective", "credits": 3 },
-    { "id": "CAS_ELEC2", "label": "CAS Elective", "credits": 3 },
-    { "id": "CAS_ELEC3", "label": "CAS Elective", "credits": 3 },
-    { "id": "CAS_ELEC4", "label": "CAS Elective", "credits": 3 },
-    { "id": "CAS_ELEC5", "label": "CAS Elective", "credits": 3 }
+    {
+      "id": "CORE_WRITING",
+      "label": "College Writing Seminar",
+      "credits": 3
+    },
+    {
+      "id": "CORE_THEO1",
+      "label": "Theological & Religious Studies Tier 1",
+      "credits": 3
+    },
+    {
+      "id": "CORE_THEO2",
+      "label": "Theological & Religious Studies Tier 2",
+      "credits": 3
+    },
+    {
+      "id": "CORE_ETHICS",
+      "label": "Ethics",
+      "credits": 3
+    },
+    {
+      "id": "CORE_HIST1",
+      "label": "Historical Knowledge Tier 1",
+      "credits": 3
+    },
+    {
+      "id": "CORE_HIST2",
+      "label": "Historical Knowledge Tier 2",
+      "credits": 3
+    },
+    {
+      "id": "CORE_PHIL1",
+      "label": "Philosophical Knowledge Tier 1",
+      "credits": 3
+    },
+    {
+      "id": "CORE_PHIL2",
+      "label": "Philosophical Knowledge Tier 2",
+      "credits": 3
+    },
+    {
+      "id": "CORE_LIT1",
+      "label": "Literary Knowledge & Experience Tier 1",
+      "credits": 3
+    },
+    {
+      "id": "CORE_LIT2",
+      "label": "Literary Knowledge & Experience Tier 2",
+      "credits": 3
+    },
+    {
+      "id": "CORE_SOC1",
+      "label": "Societal & Cultural Knowledge Tier 1",
+      "credits": 3
+    },
+    {
+      "id": "CORE_SOC2",
+      "label": "Societal & Cultural Knowledge Tier 2",
+      "credits": 3
+    },
+    {
+      "id": "CORE_ART",
+      "label": "Artistic Knowledge & Experience",
+      "credits": 3
+    },
+    {
+      "id": "CAS_LANG1",
+      "label": "CAS Language Requirement (101-level)",
+      "credits": 3
+    },
+    {
+      "id": "CAS_LANG2",
+      "label": "CAS Language Requirement (102-level)",
+      "credits": 3
+    },
+    {
+      "id": "CAS_ELEC1",
+      "label": "CAS Elective",
+      "credits": 3
+    },
+    {
+      "id": "CAS_ELEC2",
+      "label": "CAS Elective",
+      "credits": 3
+    },
+    {
+      "id": "CAS_ELEC3",
+      "label": "CAS Elective",
+      "credits": 3
+    },
+    {
+      "id": "CAS_ELEC4",
+      "label": "CAS Elective",
+      "credits": 3
+    },
+    {
+      "id": "CAS_ELEC5",
+      "label": "CAS Elective",
+      "credits": 3
+    }
   ],
-
   "roadmap": [
     {
       "year": 1,
       "semester": "Fall",
       "credits": 16,
       "items": [
-        { "ref": "BIOI_BIOL101" },
-        { "ref": "BIOI_CHEM160" },
-        { "ref": "BIOI_MATH131" },
-        { "ref": "CORE_WRITING" },
-        { "ref": "CORE_THEO1" },
-        { "ref": "BIOI_UNIV101" }
+        {
+          "ref": "BIOI_BIOL101"
+        },
+        {
+          "ref": "BIOI_CHEM160"
+        },
+        {
+          "ref": "BIOI_MATH131"
+        },
+        {
+          "ref": "CORE_WRITING"
+        },
+        {
+          "ref": "CORE_THEO1"
+        },
+        {
+          "ref": "BIOI_UNIV101"
+        }
       ]
     },
     {
@@ -169,12 +409,24 @@
       "semester": "Spring",
       "credits": 18,
       "items": [
-        { "ref": "BIOI_COMP141" },
-        { "ref": "BIOI_CHEM180" },
-        { "ref": "BIOI_MATH132" },
-        { "ref": "BIOI_BIOI201" },
-        { "ref": "CORE_ETHICS" },
-        { "ref": "CORE_THEO2" }
+        {
+          "ref": "BIOI_COMP141"
+        },
+        {
+          "ref": "BIOI_CHEM180"
+        },
+        {
+          "ref": "BIOI_MATH132"
+        },
+        {
+          "ref": "BIOI_BIOI201"
+        },
+        {
+          "ref": "CORE_ETHICS"
+        },
+        {
+          "ref": "CORE_THEO2"
+        }
       ]
     },
     {
@@ -182,12 +434,24 @@
       "semester": "Fall",
       "credits": 16,
       "items": [
-        { "ref": "BIOI_BIOL282" },
-        { "ref": "BIOI_BIOL283" },
-        { "ref": "BIOI_CHEM240" },
-        { "ref": "BIOI_MATH215" },
-        { "ref": "CORE_HIST1" },
-        { "ref": "CORE_PHIL1" }
+        {
+          "ref": "BIOI_BIOL282"
+        },
+        {
+          "ref": "BIOI_BIOL283"
+        },
+        {
+          "ref": "BIOI_CHEM240"
+        },
+        {
+          "ref": "BIOI_MATH215"
+        },
+        {
+          "ref": "CORE_HIST1"
+        },
+        {
+          "ref": "CORE_PHIL1"
+        }
       ]
     },
     {
@@ -195,11 +459,21 @@
       "semester": "Spring",
       "credits": 15,
       "items": [
-        { "ref": "BIOI_CHEM260" },
-        { "ref": "BIOI_COMP231" },
-        { "ref": "CAS_ELEC1" },
-        { "ref": "CORE_HIST2" },
-        { "ref": "CORE_PHIL2" }
+        {
+          "ref": "BIOI_CHEM260"
+        },
+        {
+          "ref": "BIOI_COMP231"
+        },
+        {
+          "ref": "CAS_ELEC1"
+        },
+        {
+          "ref": "CORE_HIST2"
+        },
+        {
+          "ref": "CORE_PHIL2"
+        }
       ]
     },
     {
@@ -207,12 +481,24 @@
       "semester": "Fall",
       "credits": 18,
       "items": [
-        { "ref": "BIOI_BIOL388" },
-        { "ref": "BIOI_CHEM361" },
-        { "ref": "BIOI_BIOL392" },
-        { "ref": "CAS_ELEC2" },
-        { "ref": "CAS_LANG1" },
-        { "ref": "CORE_LIT1" }
+        {
+          "ref": "BIOI_BIOL388"
+        },
+        {
+          "ref": "BIOI_CHEM361"
+        },
+        {
+          "ref": "BIOI_BIOL392"
+        },
+        {
+          "ref": "CAS_ELEC2"
+        },
+        {
+          "ref": "CAS_LANG1"
+        },
+        {
+          "ref": "CORE_LIT1"
+        }
       ]
     },
     {
@@ -220,11 +506,23 @@
       "semester": "Spring",
       "credits": 13,
       "items": [
-        { "ref": "BIOI_STAT335" },
-        { "label": "Bioinformatics Research", "credits": 1, "isElective": true },
-        { "ref": "CAS_LANG2" },
-        { "ref": "CORE_LIT2" },
-        { "ref": "CORE_SOC1" }
+        {
+          "ref": "BIOI_STAT335"
+        },
+        {
+          "label": "Bioinformatics Research",
+          "credits": 1,
+          "isElective": true
+        },
+        {
+          "ref": "CAS_LANG2"
+        },
+        {
+          "ref": "CORE_LIT2"
+        },
+        {
+          "ref": "CORE_SOC1"
+        }
       ]
     },
     {
@@ -232,10 +530,22 @@
       "semester": "Fall",
       "credits": 12,
       "items": [
-        { "label": "Bioinformatics Elective", "credits": 3, "isElective": true },
-        { "label": "Bioinformatics Elective", "credits": 3, "isElective": true },
-        { "ref": "CAS_ELEC3" },
-        { "ref": "CORE_SOC2" }
+        {
+          "label": "Bioinformatics Elective",
+          "credits": 3,
+          "isElective": true
+        },
+        {
+          "label": "Bioinformatics Elective",
+          "credits": 3,
+          "isElective": true
+        },
+        {
+          "ref": "CAS_ELEC3"
+        },
+        {
+          "ref": "CORE_SOC2"
+        }
       ]
     },
     {
@@ -243,20 +553,60 @@
       "semester": "Spring",
       "credits": 16,
       "items": [
-        { "ref": "BIOI_COMP383" },
-        { "ref": "BIOI_STAT337" },
-        { "ref": "CAS_ELEC4" },
-        { "ref": "CAS_ELEC5" },
-        { "ref": "CORE_ART" }
+        {
+          "ref": "BIOI_COMP383"
+        },
+        {
+          "ref": "BIOI_STAT337"
+        },
+        {
+          "ref": "CAS_ELEC4"
+        },
+        {
+          "ref": "CAS_ELEC5"
+        },
+        {
+          "ref": "CORE_ART"
+        }
       ]
     }
   ],
-
   "checklist": [
-    { "id": "bioi_ap_calc_ab", "label": "AP Calculus AB (score ≥ 4)", "grants": "May satisfy MATH 131", "courseRef": "BIOI_MATH131", "category": "ap" },
-    { "id": "bioi_ap_calc_bc", "label": "AP Calculus BC (score ≥ 4)", "grants": "May satisfy MATH 131 + MATH 132", "courseRef": "BIOI_MATH131", "alsoCourseRef": "BIOI_MATH132", "category": "ap" },
-    { "id": "bioi_ap_stats", "label": "AP Statistics (score ≥ 4)", "grants": "May satisfy STAT 203 alternate", "courseRef": "BIOI_STAT203", "category": "ap" },
-    { "id": "bioi_lang_prof", "label": "Foreign language proficiency exam", "grants": "CAS Language Requirement waived", "courseRef": "CAS_LANG2", "category": "transfer" },
-    { "id": "bioi_xfer_programming", "label": "Transfer credit: Object-Oriented Programming", "grants": "May substitute for MATH 215 or COMP 170", "courseRef": "BIOI_COMP170", "category": "transfer" }
+    {
+      "id": "bioi_ap_calc_ab",
+      "label": "AP Calculus AB (score \u2265 4)",
+      "grants": "May satisfy MATH 131",
+      "courseRef": "BIOI_MATH131",
+      "category": "ap"
+    },
+    {
+      "id": "bioi_ap_calc_bc",
+      "label": "AP Calculus BC (score \u2265 4)",
+      "grants": "May satisfy MATH 131 + MATH 132",
+      "courseRef": "BIOI_MATH131",
+      "alsoCourseRef": "BIOI_MATH132",
+      "category": "ap"
+    },
+    {
+      "id": "bioi_ap_stats",
+      "label": "AP Statistics (score \u2265 4)",
+      "grants": "May satisfy STAT 203 alternate",
+      "courseRef": "BIOI_STAT203",
+      "category": "ap"
+    },
+    {
+      "id": "bioi_lang_prof",
+      "label": "Foreign language proficiency exam",
+      "grants": "CAS Language Requirement waived",
+      "courseRef": "CAS_LANG2",
+      "category": "transfer"
+    },
+    {
+      "id": "bioi_xfer_programming",
+      "label": "Transfer credit: Object-Oriented Programming",
+      "grants": "May substitute for MATH 215 or COMP 170",
+      "courseRef": "BIOI_COMP170",
+      "category": "transfer"
+    }
   ]
 }

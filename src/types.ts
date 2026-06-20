@@ -69,6 +69,7 @@ export interface Program {
   name: string;
   degree: string;
   school: string;
+  department?: string;
   kind?: ProgramKind;
   totalCredits: number;
   majorCredits?: number;

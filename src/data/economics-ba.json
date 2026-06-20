@@ -1,0 +1,27 @@
+{
+  "id": "economics-ba",
+  "department": "Economics",
+  "name": "Economics",
+  "degree": "BA",
+  "school": "Loyola University Chicago",
+  "totalCredits": 120,
+  "majorCredits": 36,
+  "catalogUrl": "https://catalog.luc.edu/undergraduate/arts-sciences/economics/economics-ba/",
+  "courses": [
+    { "id": "STAT103", "code": "STAT 103", "title": "Fundamentals of Statistics", "credits": 3, "category": "major" },
+    { "id": "ECON201", "code": "ECON 201", "title": "Principles of Microeconomics", "credits": 3, "category": "major" },
+    { "id": "ECON202", "code": "ECON 202", "title": "Principles of Macroeconomics", "credits": 3, "category": "major" },
+    { "id": "ECON303", "code": "ECON 303", "title": "Intermediate Microeconomics", "credits": 3, "category": "major" },
+    { "id": "ECON304", "code": "ECON 304", "title": "Intermediate Macroeconomics", "credits": 3, "category": "major" },
+    { "id": "MATH130", "code": "MATH 130", "title": "Calculus I (Business)", "credits": 3, "category": "major", "requirementGroup": "econ-calculus", "choiceNote": "Choose MATH 130, 131, or 161" },
+    { "id": "MATH131", "code": "MATH 131", "title": "Applied Calculus I", "credits": 3, "category": "major", "requirementGroup": "econ-calculus", "choiceNote": "Choose MATH 130, 131, or 161" },
+    { "id": "MATH161", "code": "MATH 161", "title": "Calculus I", "credits": 4, "category": "major", "requirementGroup": "econ-calculus", "choiceNote": "Choose MATH 130, 131, or 161" }
+  ],
+  "electiveOptions": {
+    "econ-300-electives": {
+      "creditsRequired": 18,
+      "label": "300-Level Economics Electives",
+      "note": "Six 300-level ECON courses (e.g., Urban, International, Environmental, Health, Labor Economics, Econometrics)"
+    }
+  }
+}

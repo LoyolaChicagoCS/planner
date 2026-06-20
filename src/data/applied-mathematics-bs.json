@@ -1,0 +1,28 @@
+{
+  "id": "applied-mathematics-bs",
+  "department": "Mathematics and Statistics",
+  "name": "Applied Mathematics",
+  "degree": "BS",
+  "school": "Loyola University Chicago",
+  "totalCredits": 120,
+  "majorCredits": 55,
+  "catalogUrl": "https://catalog.luc.edu/undergraduate/arts-sciences/mathematics-statistics/applied-mathematics-bs/",
+  "courses": [
+    { "id": "MATH161", "code": "MATH 161", "title": "Calculus I", "credits": 4, "category": "major" },
+    { "id": "MATH162", "code": "MATH 162", "title": "Calculus II", "credits": 4, "category": "major" },
+    { "id": "MATH263", "code": "MATH 263", "title": "Multivariable Calculus", "credits": 3, "category": "major" },
+    { "id": "MATH264", "code": "MATH 264", "title": "Ordinary Differential Equations", "credits": 3, "category": "major" },
+    { "id": "MATH212", "code": "MATH 212", "title": "Linear Algebra", "credits": 3, "category": "major" },
+    { "id": "MATH201", "code": "MATH 201", "title": "Introduction to Discrete Mathematics", "credits": 3, "category": "major" },
+    { "id": "STAT203", "code": "STAT 203", "title": "Statistics", "credits": 3, "category": "major" },
+    { "id": "MATH313", "code": "MATH 313", "title": "Abstract Algebra I", "credits": 3, "category": "major" },
+    { "id": "MATH315", "code": "MATH 315", "title": "Real Analysis I", "credits": 3, "category": "major" },
+    { "id": "MATH360", "code": "MATH 360", "title": "Introduction to Numerical Methods", "credits": 3, "category": "major" }
+  ],
+  "electiveOptions": {
+    "amath-upper": { "creditsRequired": 9, "label": "Applied Mathematics Electives", "note": "Three upper-division MATH or STAT courses (300+) approved for the Applied Mathematics program" },
+    "amath-application": { "creditsRequired": 9, "label": "Application Area", "note": "9 credits in an approved application area (Physics, CS, Economics, Biology, or Engineering)" },
+    "amath-capstone": { "creditsRequired": 3, "label": "Capstone", "note": "MATH 490 (Senior Thesis) or approved capstone course" },
+    "amath-cs": { "creditsRequired": 3, "label": "Programming Requirement", "note": "COMP 150 or equivalent introductory programming course" }
+  }
+}

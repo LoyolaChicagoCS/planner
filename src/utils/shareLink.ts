@@ -35,10 +35,11 @@ function addCourseIds(ids: Set<string>, courses: ProgressItem[] = []): void {
   for (const course of courses) addId(ids, course.id);
 }
 
-export function getValidProgressIds(programs: Program[], programId?: string): Set<string> {
+export function getValidProgressIds(programs: Program[], programId?: string, additionalProgramIds?: string[]): Set<string> {
   const ids = new Set<string>();
-  const selectedPrograms = programId
-    ? programs.filter(program => program.id === programId)
+  const primaryIds = new Set([...(programId ? [programId] : []), ...(additionalProgramIds ?? [])]);
+  const selectedPrograms = primaryIds.size > 0
+    ? programs.filter(program => primaryIds.has(program.id))
     : programs;
 
   for (const program of selectedPrograms) {

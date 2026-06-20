@@ -1,0 +1,28 @@
+{
+  "id": "communication-studies-ba",
+  "department": "Communication",
+  "name": "Communication Studies",
+  "degree": "BA",
+  "school": "Loyola University Chicago",
+  "totalCredits": 120,
+  "majorCredits": 43,
+  "catalogUrl": "https://catalog.luc.edu/undergraduate/communication/communication-studies/communication-studies-ba/",
+  "courses": [
+    { "id": "COMM100", "code": "COMM 100", "title": "SOC Career Prep Seminar", "credits": 1, "category": "major" },
+    { "id": "COMM175", "code": "COMM 175", "title": "Introduction to Communication", "credits": 3, "category": "major" },
+    { "id": "COMM200", "code": "COMM 200", "title": "Digital Communication and Society", "credits": 3, "category": "major" },
+    { "id": "COMM215", "code": "COMM 215", "title": "Ethics and Communication", "credits": 3, "category": "major", "choiceNote": "COMM 215 or COMM 360", "requirementGroup": "commst-ethics" },
+    { "id": "COMM360", "code": "COMM 360", "title": "Digital Media Ethics", "credits": 3, "category": "major", "choiceNote": "COMM 215 or COMM 360", "requirementGroup": "commst-ethics" },
+    { "id": "COMM240", "code": "COMM 240", "title": "Communication Research Design", "credits": 3, "category": "major" },
+    { "id": "COMM271", "code": "COMM 271", "title": "Media Culture and Communication", "credits": 3, "category": "major" },
+    { "id": "COMM272", "code": "COMM 272", "title": "Intercultural Communication", "credits": 3, "category": "major" },
+    { "id": "COMM273", "code": "COMM 273", "title": "Interpersonal Communication", "credits": 3, "category": "major" },
+    { "id": "COMM390", "code": "COMM 390", "title": "Communication Studies Capstone", "credits": 3, "category": "major" }
+  ],
+  "electiveOptions": {
+    "commst-concentration": { "creditsRequired": 9, "label": "Concentration", "note": "9 credits from one area: Organizational Communication, Media & Technology, or Social Media & Society" },
+    "commst-methods": { "creditsRequired": 3, "label": "Intensive Methods Elective", "note": "COMM 367 (Rhetorical Criticism), COMM 368 (Ethnographic Methods), COMM 369 (New Media Criticism), or similar" },
+    "commst-application": { "creditsRequired": 3, "label": "Application Course", "note": "Communication Practicum, Internship, or Directed Study" },
+    "commst-elective": { "creditsRequired": 3, "label": "Major Elective", "note": "One additional approved Communication course" }
+  }
+}

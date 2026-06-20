@@ -1,0 +1,27 @@
+{
+  "id": "film-media-production-ba",
+  "department": "Communication",
+  "name": "Film and Digital Media: Production Track",
+  "degree": "BA",
+  "school": "Loyola University Chicago",
+  "totalCredits": 120,
+  "majorCredits": 43,
+  "catalogUrl": "https://catalog.luc.edu/undergraduate/communication/film-digital-media/film-media-production-track-ba/",
+  "courses": [
+    { "id": "COMM100", "code": "COMM 100", "title": "SOC Career Prep Seminar", "credits": 1, "category": "major" },
+    { "id": "COMM130", "code": "COMM 130", "title": "Intro to Audio Production", "credits": 3, "category": "major" },
+    { "id": "COMM135", "code": "COMM 135", "title": "Intro to Video Production", "credits": 3, "category": "major" },
+    { "id": "COMM200", "code": "COMM 200", "title": "Digital Communication and Society", "credits": 3, "category": "major" },
+    { "id": "COMM201", "code": "COMM 201", "title": "Media Theory and Criticism", "credits": 3, "category": "major" },
+    { "id": "COMM202", "code": "COMM 202", "title": "Story for Film and Television 1", "credits": 3, "category": "major" },
+    { "id": "COMM274", "code": "COMM 274", "title": "Introduction to Cinema", "credits": 3, "category": "major" },
+    { "id": "COMM350", "code": "COMM 350", "title": "Producing for Film and Digital Media", "credits": 3, "category": "major" }
+  ],
+  "electiveOptions": {
+    "fdm-production": { "creditsRequired": 6, "label": "Production Electives", "note": "Two production courses from: cinematography, directing, screenwriting, documentary, post-production" },
+    "fdm-media-studies": { "creditsRequired": 6, "label": "Media Studies Electives", "note": "Two courses: one from COMM 203/324 (cinema history/genre), one from broader film/media list" },
+    "fdm-advanced": { "creditsRequired": 3, "label": "Advanced Production", "note": "COMM 336 (Cinematography I), COMM 337 (Screen Directing), COMM 339 (Screenwriting I), or similar" },
+    "fdm-internship": { "creditsRequired": 3, "label": "Internship", "note": "COMM 394: Film and Digital Media Internship (Junior/Senior standing required)" },
+    "fdm-capstone": { "creditsRequired": 3, "label": "Capstone", "note": "COMM 338, COMM 339, or COMM 388 (Film and Digital Media Capstone)" }
+  }
+}

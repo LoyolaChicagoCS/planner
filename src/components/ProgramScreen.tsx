@@ -30,6 +30,10 @@ interface CoreFocusTarget {
 
 interface ProgramScreenProps {
   program: Program;
+  allPrograms: Program[];
+  additionalPrograms: Program[];
+  onAddProgram: (p: Program) => void;
+  onRemoveProgram: (id: string) => void;
   completed: CompletedSet;
   toggle: (id: string) => void;
   clear: (idsToClear: Iterable<string>) => void;
@@ -46,15 +50,15 @@ interface ProgramScreenProps {
  *   clear     — function(ids) to remove completed IDs
  *   onBack    — callback to return to HomeScreen
  */
-export default function ProgramScreen({ program, completed, toggle, clear, onBack }: ProgramScreenProps) {
+export default function ProgramScreen({ program, allPrograms, additionalPrograms, onAddProgram, onRemoveProgram, completed, toggle, clear, onBack }: ProgramScreenProps) {
   const [activeIndex, setActiveIndex] = useState(0);
   const [copied, setCopied]           = useState(false);
   const [coreFocusTarget, setCoreFocusTarget] = useState<CoreFocusTarget | null>(null);
   const swiperRef                     = useRef<SwiperInstance | null>(null);
 
   const hasCoreTab = (program.coreRequirements ?? []).length > 0;
-  const tabs = hasCoreTab ? ['Courses', 'Core', 'Roadmap', 'Checklist', 'Audit'] : ['Courses', 'Roadmap', 'Checklist', 'Audit'];
-  const coreTabIndex = hasCoreTab ? 1 : -1;
+  const tabs = hasCoreTab ? ['Roadmap', 'Courses', 'Core', 'Checklist', 'Audit'] : ['Roadmap', 'Courses', 'Checklist', 'Audit'];
+  const coreTabIndex = hasCoreTab ? 2 : -1;
   const creditGoal = program.kind === 'minor' || program.kind === 'masters' || program.kind === 'phd' ? program.totalCredits : 120;
   const requirementCreditLabel = program.kind === 'minor'
     ? `${program.minorCredits ?? program.totalCredits} minor credits`
@@ -223,9 +227,22 @@ export default function ProgramScreen({ program, completed, toggle, clear, onBac
           onSlideChange={swiper => setActiveIndex(swiper.activeIndex)}
         >
           <SwiperSlide style={{ overflowY: 'auto' }}>
-            <CourseList
+            <Roadmap
               program={program}
               completed={completed}
+              getRequirementStatus={getRequirementStatus}
+              toggleItem={toggleItem}
+              onOpenCoreRequirement={openCoreRequirement}
+            />
+            <Footer />
+          </SwiperSlide>
+
+          <SwiperSlide style={{ overflowY: 'auto' }}>
+            <CourseList
+              program={program}
+              additionalPrograms={additionalPrograms}
+              completed={completed}
+              toggle={toggle}
               isCompleted={isCompleted}
               getRequirementStatus={getRequirementStatus}
               toggleItem={toggleItem}
@@ -248,19 +265,9 @@ export default function ProgramScreen({ program, completed, toggle, clear, onBac
           )}
 
           <SwiperSlide style={{ overflowY: 'auto' }}>
-            <Roadmap
-              program={program}
-              completed={completed}
-              getRequirementStatus={getRequirementStatus}
-              toggleItem={toggleItem}
-              onOpenCoreRequirement={openCoreRequirement}
-            />
-            <Footer />
-          </SwiperSlide>
-
-          <SwiperSlide style={{ overflowY: 'auto' }}>
             <Checklist
               program={program}
+              additionalPrograms={additionalPrograms}
               completed={completed}
               toggle={toggle}
               isCompleted={isCompleted}
@@ -273,6 +280,10 @@ export default function ProgramScreen({ program, completed, toggle, clear, onBac
           <SwiperSlide style={{ overflowY: 'auto' }}>
             <Audit
               program={program}
+              allPrograms={allPrograms}
+              additionalPrograms={additionalPrograms}
+              onAddProgram={onAddProgram}
+              onRemoveProgram={onRemoveProgram}
               completed={completed}
               toggle={toggle}
               isCompleted={isCompleted}
