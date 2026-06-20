@@ -93,19 +93,9 @@
       "id": "SCMG480",
       "code": "SCMG 480",
       "title": "Intro to Operations Management",
-      "credits": 3
-    },
-    {
-      "id": "SCMG480B",
-      "code": "SCMG 480B",
-      "title": "Operations Management",
-      "credits": 3
-    },
-    {
-      "id": "SCMG480C",
-      "code": "SCMG 480C",
-      "title": "Intro to Operations Management",
-      "credits": 3
+      "credits": 3,
+      "isTopics": true,
+      "topicsCount": 3
     },
     {
       "id": "SCMG481",

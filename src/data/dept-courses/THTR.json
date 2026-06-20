@@ -87,43 +87,9 @@
       "id": "THTR321",
       "code": "THTR 321",
       "title": "Practicum: Costumes",
-      "credits": 2
-    },
-    {
-      "id": "THTR321C",
-      "code": "THTR 321C",
-      "title": "Practicum: Costumes",
-      "credits": 2
-    },
-    {
-      "id": "THTR321E",
-      "code": "THTR 321E",
-      "title": "Practicum: Electrics",
-      "credits": 2
-    },
-    {
-      "id": "THTR321P",
-      "code": "THTR 321P",
-      "title": "Theatre Practicum: Production Staff",
-      "credits": 1
-    },
-    {
-      "id": "THTR321R",
-      "code": "THTR 321R",
-      "title": "Theatre Practicum: Running Crew",
-      "credits": 1
-    },
-    {
-      "id": "THTR321S",
-      "code": "THTR 321S",
-      "title": "Practicum: Scenic",
-      "credits": 2
-    },
-    {
-      "id": "THTR321T",
-      "code": "THTR 321T",
-      "title": "Theatre Practicum: Scene Painting",
-      "credits": 1
+      "credits": 2,
+      "isTopics": true,
+      "topicsCount": 7
     },
     {
       "id": "THTR323",
@@ -135,19 +101,9 @@
       "id": "THTR324",
       "code": "THTR 324",
       "title": "Applied Design and Management",
-      "credits": 1
-    },
-    {
-      "id": "THTR324D",
-      "code": "THTR 324D",
-      "title": "Applied Design",
-      "credits": 1
-    },
-    {
-      "id": "THTR324M",
-      "code": "THTR 324M",
-      "title": "Applied Management",
-      "credits": 1
+      "credits": 1,
+      "isTopics": true,
+      "topicsCount": 3
     },
     {
       "id": "THTR327",

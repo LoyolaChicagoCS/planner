@@ -93,25 +93,9 @@
       "id": "INFS400",
       "code": "INFS 400",
       "title": "Quantitative Methods",
-      "credits": 0
-    },
-    {
-      "id": "INFS400C",
-      "code": "INFS 400C",
-      "title": "Quantitative Methods",
-      "credits": 0
-    },
-    {
-      "id": "INFS400E",
-      "code": "INFS 400E",
-      "title": "Quantitative Methods",
-      "credits": 5
-    },
-    {
-      "id": "INFS400N",
-      "code": "INFS 400N",
-      "title": "Quantitative Methods I",
-      "credits": 0
+      "credits": 0,
+      "isTopics": true,
+      "topicsCount": 4
     },
     {
       "id": "INFS402N",
@@ -126,22 +110,12 @@
       "credits": 3
     },
     {
-      "id": "INFS484B",
-      "code": "INFS 484B",
+      "id": "INFS484",
+      "code": "INFS 484",
       "title": "Project Management",
-      "credits": 5
-    },
-    {
-      "id": "INFS484E",
-      "code": "INFS 484E",
-      "title": "Project Management",
-      "credits": 3
-    },
-    {
-      "id": "INFS484N",
-      "code": "INFS 484N",
-      "title": "Project Management",
-      "credits": 3
+      "credits": 5,
+      "isTopics": true,
+      "topicsCount": 3
     },
     {
       "id": "INFS490E",
@@ -228,16 +202,12 @@
       "credits": 3
     },
     {
-      "id": "INFS596B",
-      "code": "INFS 596B",
-      "title": "Data-Driven Decision Making",
-      "credits": 3
-    },
-    {
-      "id": "INFS596N",
-      "code": "INFS 596N",
-      "title": "Data Driven Decision Making",
-      "credits": 3
+      "id": "INFS596",
+      "code": "INFS 596",
+      "title": "Data",
+      "credits": 3,
+      "isTopics": true,
+      "topicsCount": 2
     },
     {
       "id": "INFS600E",

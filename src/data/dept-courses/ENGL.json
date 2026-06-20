@@ -75,19 +75,9 @@
       "id": "ENGL282",
       "code": "ENGL 282",
       "title": "African-American Literature",
-      "credits": 3
-    },
-    {
-      "id": "ENGL282B",
-      "code": "ENGL 282B",
-      "title": "African-American Literature 1700-1900",
-      "credits": 3
-    },
-    {
-      "id": "ENGL282C",
-      "code": "ENGL 282C",
-      "title": "African-American Literature since 1900",
-      "credits": 3
+      "credits": 3,
+      "isTopics": true,
+      "topicsCount": 3
     },
     {
       "id": "ENGL283",
@@ -171,25 +161,9 @@
       "id": "ENGL306",
       "code": "ENGL 306",
       "title": "Studies in Women Writers",
-      "credits": 3
-    },
-    {
-      "id": "ENGL306A",
-      "code": "ENGL 306A",
-      "title": "Studies in Women Writers Before 1700",
-      "credits": 3
-    },
-    {
-      "id": "ENGL306B",
-      "code": "ENGL 306B",
-      "title": "Studies in Women Writers 1700-1900",
-      "credits": 3
-    },
-    {
-      "id": "ENGL306C",
-      "code": "ENGL 306C",
-      "title": "Studies in Women Writers Since 1900",
-      "credits": 3
+      "credits": 3,
+      "isTopics": true,
+      "topicsCount": 4
     },
     {
       "id": "ENGL307",
@@ -207,49 +181,17 @@
       "id": "ENGL312",
       "code": "ENGL 312",
       "title": "Studies in World Literature in English",
-      "credits": 3
-    },
-    {
-      "id": "ENGL312A",
-      "code": "ENGL 312A",
-      "title": "Studies in World Literature in English Before 1700",
-      "credits": 3
-    },
-    {
-      "id": "ENGL312B",
-      "code": "ENGL 312B",
-      "title": "Studies in World Literature in English 1700-1900",
-      "credits": 3
-    },
-    {
-      "id": "ENGL312C",
-      "code": "ENGL 312C",
-      "title": "Studies in World Literature in English Since 1900",
-      "credits": 3
+      "credits": 3,
+      "isTopics": true,
+      "topicsCount": 4
     },
     {
       "id": "ENGL313",
       "code": "ENGL 313",
       "title": "Border Literatures",
-      "credits": 3
-    },
-    {
-      "id": "ENGL313A",
-      "code": "ENGL 313A",
-      "title": "Border Literature Before 1700",
-      "credits": 3
-    },
-    {
-      "id": "ENGL313B",
-      "code": "ENGL 313B",
-      "title": "Border Literature 1700-1900",
-      "credits": 3
-    },
-    {
-      "id": "ENGL313C",
-      "code": "ENGL 313C",
-      "title": "Border Literature Since 1900",
-      "credits": 3
+      "credits": 3,
+      "isTopics": true,
+      "topicsCount": 4
     },
     {
       "id": "ENGL315",
@@ -429,25 +371,9 @@
       "id": "ENGL359",
       "code": "ENGL 359",
       "title": "High and Low Culture",
-      "credits": 3
-    },
-    {
-      "id": "ENGL359A",
-      "code": "ENGL 359A",
-      "title": "High and Low Culture Before 1700",
-      "credits": 3
-    },
-    {
-      "id": "ENGL359B",
-      "code": "ENGL 359B",
-      "title": "High and Low Culture 1700-1900",
-      "credits": 3
-    },
-    {
-      "id": "ENGL359C",
-      "code": "ENGL 359C",
-      "title": "High and Low Culture Since 1900",
-      "credits": 3
+      "credits": 3,
+      "isTopics": true,
+      "topicsCount": 4
     },
     {
       "id": "ENGL361",
@@ -459,43 +385,17 @@
       "id": "ENGL362",
       "code": "ENGL 362",
       "title": "Studies in Poetry",
-      "credits": 3
+      "credits": 3,
+      "isTopics": true,
+      "topicsCount": 4
     },
     {
-      "id": "ENGL362A",
-      "code": "ENGL 362A",
-      "title": "Studies in Poetry Before 1700",
-      "credits": 3
-    },
-    {
-      "id": "ENGL362B",
-      "code": "ENGL 362B",
-      "title": "Studies in Poetry 1700-1900",
-      "credits": 3
-    },
-    {
-      "id": "ENGL362C",
-      "code": "ENGL 362C",
-      "title": "Studies in Poetry Since 1900",
-      "credits": 3
-    },
-    {
-      "id": "ENGL363A",
-      "code": "ENGL 363A",
+      "id": "ENGL363",
+      "code": "ENGL 363",
       "title": "Major Author, Before 1700",
-      "credits": 3
-    },
-    {
-      "id": "ENGL363B",
-      "code": "ENGL 363B",
-      "title": "Major Author, 1700-1900",
-      "credits": 3
-    },
-    {
-      "id": "ENGL363C",
-      "code": "ENGL 363C",
-      "title": "Major Author, After 1900",
-      "credits": 3
+      "credits": 3,
+      "isTopics": true,
+      "topicsCount": 3
     },
     {
       "id": "ENGL367",
@@ -507,37 +407,17 @@
       "id": "ENGL368",
       "code": "ENGL 368",
       "title": "Studies in Drama",
-      "credits": 3
+      "credits": 3,
+      "isTopics": true,
+      "topicsCount": 4
     },
     {
-      "id": "ENGL368A",
-      "code": "ENGL 368A",
-      "title": "Studies in Drama Before 1700",
-      "credits": 3
-    },
-    {
-      "id": "ENGL368B",
-      "code": "ENGL 368B",
-      "title": "Studies in Drama 1700-1900",
-      "credits": 3
-    },
-    {
-      "id": "ENGL368C",
-      "code": "ENGL 368C",
-      "title": "Studies in Drama Since 1900",
-      "credits": 3
-    },
-    {
-      "id": "ENGL369A",
-      "code": "ENGL 369A",
+      "id": "ENGL369",
+      "code": "ENGL 369",
       "title": "Women in Drama Before 1700",
-      "credits": 3
-    },
-    {
-      "id": "ENGL369B",
-      "code": "ENGL 369B",
-      "title": "Women in Drama 1700-1900",
-      "credits": 3
+      "credits": 3,
+      "isTopics": true,
+      "topicsCount": 2
     },
     {
       "id": "ENGL371",
@@ -549,25 +429,9 @@
       "id": "ENGL372",
       "code": "ENGL 372",
       "title": "Studies in Fiction",
-      "credits": 3
-    },
-    {
-      "id": "ENGL372A",
-      "code": "ENGL 372A",
-      "title": "Studies in Fiction Before 1700",
-      "credits": 3
-    },
-    {
-      "id": "ENGL372B",
-      "code": "ENGL 372B",
-      "title": "Studies in Fiction 1700-1900",
-      "credits": 3
-    },
-    {
-      "id": "ENGL372C",
-      "code": "ENGL 372C",
-      "title": "Studies in Fiction Since 1900",
-      "credits": 3
+      "credits": 3,
+      "isTopics": true,
+      "topicsCount": 4
     },
     {
       "id": "ENGL375",
@@ -591,73 +455,25 @@
       "id": "ENGL379",
       "code": "ENGL 379",
       "title": "Studies in American Literature",
-      "credits": 3
-    },
-    {
-      "id": "ENGL379A",
-      "code": "ENGL 379A",
-      "title": "Studies in American Literature Before 1700",
-      "credits": 3
-    },
-    {
-      "id": "ENGL379B",
-      "code": "ENGL 379B",
-      "title": "Studies in American Literature 1700-1900",
-      "credits": 3
-    },
-    {
-      "id": "ENGL379C",
-      "code": "ENGL 379C",
-      "title": "Studies in American Literature Since 1900",
-      "credits": 3
+      "credits": 3,
+      "isTopics": true,
+      "topicsCount": 4
     },
     {
       "id": "ENGL381",
       "code": "ENGL 381",
       "title": "Comparative American Literature",
-      "credits": 3
-    },
-    {
-      "id": "ENGL381A",
-      "code": "ENGL 381A",
-      "title": "Comparative Literature Before 1700",
-      "credits": 3
-    },
-    {
-      "id": "ENGL381B",
-      "code": "ENGL 381B",
-      "title": "Comparative American Literature 1700 - 1900",
-      "credits": 3
-    },
-    {
-      "id": "ENGL381C",
-      "code": "ENGL 381C",
-      "title": "Comparative American Literature Since 1900",
-      "credits": 3
+      "credits": 3,
+      "isTopics": true,
+      "topicsCount": 4
     },
     {
       "id": "ENGL382",
       "code": "ENGL 382",
       "title": "Studies in American Culture",
-      "credits": 3
-    },
-    {
-      "id": "ENGL382A",
-      "code": "ENGL 382A",
-      "title": "Studies in American Culture Before 1700",
-      "credits": 3
-    },
-    {
-      "id": "ENGL382B",
-      "code": "ENGL 382B",
-      "title": "Studies in American Culture 1700-1900",
-      "credits": 3
-    },
-    {
-      "id": "ENGL382C",
-      "code": "ENGL 382C",
-      "title": "Studies in American Culture Since 1900",
-      "credits": 3
+      "credits": 3,
+      "isTopics": true,
+      "topicsCount": 4
     },
     {
       "id": "ENGL383",
@@ -669,19 +485,9 @@
       "id": "ENGL384",
       "code": "ENGL 384",
       "title": "Studies in African American Literature",
-      "credits": 3
-    },
-    {
-      "id": "ENGL384B",
-      "code": "ENGL 384B",
-      "title": "Studies in African American Literature, 1700-1900",
-      "credits": 3
-    },
-    {
-      "id": "ENGL384C",
-      "code": "ENGL 384C",
-      "title": "Studies in African American Literature Since 1900",
-      "credits": 3
+      "credits": 3,
+      "isTopics": true,
+      "topicsCount": 3
     },
     {
       "id": "ENGL390",

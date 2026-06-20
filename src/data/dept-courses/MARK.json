@@ -123,19 +123,9 @@
       "id": "MARK460",
       "code": "MARK 460",
       "title": "Marketing Management",
-      "credits": 3
-    },
-    {
-      "id": "MARK460B",
-      "code": "MARK 460B",
-      "title": "Marketing Management",
-      "credits": 3
-    },
-    {
-      "id": "MARK460E",
-      "code": "MARK 460E",
-      "title": "Marketing Management",
-      "credits": 3
+      "credits": 3,
+      "isTopics": true,
+      "topicsCount": 3
     },
     {
       "id": "MARK461",

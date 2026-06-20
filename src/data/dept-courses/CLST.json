@@ -33,19 +33,9 @@
       "id": "CLST271",
       "code": "CLST 271",
       "title": "Classical Mythology",
-      "credits": 3
-    },
-    {
-      "id": "CLST271G",
-      "code": "CLST 271G",
-      "title": "Classical Mythology - Women/Gender Focus",
-      "credits": 3
-    },
-    {
-      "id": "CLST271R",
-      "code": "CLST 271R",
-      "title": "Classical Mythology - Rome Focus",
-      "credits": 3
+      "credits": 3,
+      "isTopics": true,
+      "topicsCount": 3
     },
     {
       "id": "CLST272",

@@ -246,129 +246,17 @@
       "credits": 1
     },
     {
-      "id": "MUSC280A",
-      "code": "MUSC 280A",
-      "title": "Applied Music: Clarinet",
-      "credits": 1
-    },
-    {
-      "id": "MUSC280B",
-      "code": "MUSC 280B",
-      "title": "Applied Music: Percussion",
-      "credits": 1
-    },
-    {
-      "id": "MUSC280C",
-      "code": "MUSC 280C",
-      "title": "Applied Music: Oboe",
-      "credits": 1
-    },
-    {
-      "id": "MUSC280E",
-      "code": "MUSC 280E",
-      "title": "Applied Music: Trumpet",
-      "credits": 1
-    },
-    {
-      "id": "MUSC280F",
-      "code": "MUSC 280F",
-      "title": "Applied Music: Saxophone",
-      "credits": 1
-    },
-    {
-      "id": "MUSC280G",
-      "code": "MUSC 280G",
-      "title": "Applied Music: Guitar",
-      "credits": 1
-    },
-    {
-      "id": "MUSC280I",
-      "code": "MUSC 280I",
-      "title": "Applied Music: Organ",
-      "credits": 1
-    },
-    {
-      "id": "MUSC280J",
-      "code": "MUSC 280J",
-      "title": "Applied Music: Piano",
-      "credits": 1
-    },
-    {
-      "id": "MUSC280K",
-      "code": "MUSC 280K",
-      "title": "Applied Music: Voice",
-      "credits": 1
+      "id": "MUSC280",
+      "code": "MUSC 280",
+      "title": "Applied Music",
+      "credits": 1,
+      "isTopics": true,
+      "topicsCount": 20
     },
     {
       "id": "MUSC280L",
       "code": "MUSC 280L",
       "title": "Applied Music: Violin",
-      "credits": 1
-    },
-    {
-      "id": "MUSC280M",
-      "code": "MUSC 280M",
-      "title": "Applied Music: Flute",
-      "credits": 1
-    },
-    {
-      "id": "MUSC280N",
-      "code": "MUSC 280N",
-      "title": "Applied Music: Cello",
-      "credits": 1
-    },
-    {
-      "id": "MUSC280O",
-      "code": "MUSC 280O",
-      "title": "Applied Music: Double Bass",
-      "credits": 1
-    },
-    {
-      "id": "MUSC280P",
-      "code": "MUSC 280P",
-      "title": "Applied Music: Viola",
-      "credits": 1
-    },
-    {
-      "id": "MUSC280Q",
-      "code": "MUSC 280Q",
-      "title": "Applied Music: Horn",
-      "credits": 1
-    },
-    {
-      "id": "MUSC280R",
-      "code": "MUSC 280R",
-      "title": "Applied Music: Trombone",
-      "credits": 1
-    },
-    {
-      "id": "MUSC280S",
-      "code": "MUSC 280S",
-      "title": "Applied Music: Harp",
-      "credits": 1
-    },
-    {
-      "id": "MUSC280U",
-      "code": "MUSC 280U",
-      "title": "Applied Music: Drum Set",
-      "credits": 1
-    },
-    {
-      "id": "MUSC280V",
-      "code": "MUSC 280V",
-      "title": "Applied Music: Low Brass",
-      "credits": 1
-    },
-    {
-      "id": "MUSC280Y",
-      "code": "MUSC 280Y",
-      "title": "Applied Music: Bassoon",
-      "credits": 1
-    },
-    {
-      "id": "MUSC280Z",
-      "code": "MUSC 280Z",
-      "title": "Applied Music: Composition",
       "credits": 1
     },
     {
@@ -462,129 +350,17 @@
       "credits": 4
     },
     {
-      "id": "MUSC380A",
-      "code": "MUSC 380A",
-      "title": "Applied Music Advanced: Clarinet",
-      "credits": 1
-    },
-    {
-      "id": "MUSC380B",
-      "code": "MUSC 380B",
-      "title": "Applied Music Advanced: Percussion",
-      "credits": 1
-    },
-    {
-      "id": "MUSC380C",
-      "code": "MUSC 380C",
-      "title": "Applied Music Advanced: Oboe",
-      "credits": 1
-    },
-    {
-      "id": "MUSC380E",
-      "code": "MUSC 380E",
-      "title": "Applied Music Advanced: Trumpet",
-      "credits": 1
-    },
-    {
-      "id": "MUSC380F",
-      "code": "MUSC 380F",
-      "title": "Applied Music Advanced: Saxophone",
-      "credits": 1
-    },
-    {
-      "id": "MUSC380G",
-      "code": "MUSC 380G",
-      "title": "Applied Music Advanced: Guitar",
-      "credits": 1
-    },
-    {
-      "id": "MUSC380I",
-      "code": "MUSC 380I",
-      "title": "Applied Music Advanced: Organ",
-      "credits": 1
-    },
-    {
-      "id": "MUSC380J",
-      "code": "MUSC 380J",
-      "title": "Applied Music Advanced: Piano",
-      "credits": 1
-    },
-    {
-      "id": "MUSC380K",
-      "code": "MUSC 380K",
-      "title": "Applied Music Advanced: Voice",
-      "credits": 1
+      "id": "MUSC380",
+      "code": "MUSC 380",
+      "title": "Applied Music Advanced",
+      "credits": 1,
+      "isTopics": true,
+      "topicsCount": 20
     },
     {
       "id": "MUSC380L",
       "code": "MUSC 380L",
       "title": "Applied Music Advanced: Violin",
-      "credits": 1
-    },
-    {
-      "id": "MUSC380M",
-      "code": "MUSC 380M",
-      "title": "Applied Music Advanced: Flute",
-      "credits": 1
-    },
-    {
-      "id": "MUSC380N",
-      "code": "MUSC 380N",
-      "title": "Applied Music Advanced: Cello",
-      "credits": 1
-    },
-    {
-      "id": "MUSC380O",
-      "code": "MUSC 380O",
-      "title": "Applied Music Advanced: Double Bass",
-      "credits": 1
-    },
-    {
-      "id": "MUSC380P",
-      "code": "MUSC 380P",
-      "title": "Applied Music Advanced: Viola",
-      "credits": 1
-    },
-    {
-      "id": "MUSC380Q",
-      "code": "MUSC 380Q",
-      "title": "Applied Music Advanced: Horn",
-      "credits": 1
-    },
-    {
-      "id": "MUSC380R",
-      "code": "MUSC 380R",
-      "title": "Applied Music: Advanced Trombone",
-      "credits": 1
-    },
-    {
-      "id": "MUSC380S",
-      "code": "MUSC 380S",
-      "title": "Applied Music Advanced: Harp",
-      "credits": 1
-    },
-    {
-      "id": "MUSC380U",
-      "code": "MUSC 380U",
-      "title": "Applied Music Advanced: Drum Set",
-      "credits": 1
-    },
-    {
-      "id": "MUSC380V",
-      "code": "MUSC 380V",
-      "title": "Applied Music Advanced: Low Brass",
-      "credits": 1
-    },
-    {
-      "id": "MUSC380Y",
-      "code": "MUSC 380Y",
-      "title": "Applied Music Advanced: Bassoon",
-      "credits": 1
-    },
-    {
-      "id": "MUSC380Z",
-      "code": "MUSC 380Z",
-      "title": "Applied Music Advanced: Composition",
       "credits": 1
     },
     {

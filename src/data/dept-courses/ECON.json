@@ -129,25 +129,9 @@
       "id": "ECON420",
       "code": "ECON 420",
       "title": "Managerial Economics",
-      "credits": 3
-    },
-    {
-      "id": "ECON420B",
-      "code": "ECON 420B",
-      "title": "Managerial Economics",
-      "credits": 3
-    },
-    {
-      "id": "ECON420C",
-      "code": "ECON 420C",
-      "title": "Managerial Economics",
-      "credits": 3
-    },
-    {
-      "id": "ECON420E",
-      "code": "ECON 420E",
-      "title": "Managers, Markets and Decision Making",
-      "credits": 3
+      "credits": 3,
+      "isTopics": true,
+      "topicsCount": 4
     },
     {
       "id": "ECON421",

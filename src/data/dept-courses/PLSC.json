@@ -117,31 +117,9 @@
       "id": "PLSC300",
       "code": "PLSC 300",
       "title": "Contemporary Political Issues",
-      "credits": 3
-    },
-    {
-      "id": "PLSC300A",
-      "code": "PLSC 300A",
-      "title": "Contemporary Political Issues: American Politics",
-      "credits": 3
-    },
-    {
-      "id": "PLSC300B",
-      "code": "PLSC 300B",
-      "title": "Contemporary Political Issues: Political Theory",
-      "credits": 3
-    },
-    {
-      "id": "PLSC300C",
-      "code": "PLSC 300C",
-      "title": "Contemporary Political Issues: Comparative Politics",
-      "credits": 3
-    },
-    {
-      "id": "PLSC300D",
-      "code": "PLSC 300D",
-      "title": "Contemporary Political issues in International Relations",
-      "credits": 3
+      "credits": 3,
+      "isTopics": true,
+      "topicsCount": 5
     },
     {
       "id": "PLSC301",

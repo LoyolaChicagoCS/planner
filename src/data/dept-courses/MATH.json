@@ -72,16 +72,12 @@
       "credits": 3
     },
     {
-      "id": "MATH160A",
-      "code": "MATH 160A",
+      "id": "MATH160",
+      "code": "MATH 160",
       "title": "Seminar A for Calculus Transition",
-      "credits": 1
-    },
-    {
-      "id": "MATH160B",
-      "code": "MATH 160B",
-      "title": "Seminar B for Calculus Transition",
-      "credits": 2
+      "credits": 1,
+      "isTopics": true,
+      "topicsCount": 2
     },
     {
       "id": "MATH161",

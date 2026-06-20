@@ -141,25 +141,9 @@
       "id": "FINC450",
       "code": "FINC 450",
       "title": "Financial Management",
-      "credits": 3
-    },
-    {
-      "id": "FINC450B",
-      "code": "FINC 450B",
-      "title": "Finance for a Sustainable World",
-      "credits": 3
-    },
-    {
-      "id": "FINC450C",
-      "code": "FINC 450C",
-      "title": "Financial Management",
-      "credits": 3
-    },
-    {
-      "id": "FINC450E",
-      "code": "FINC 450E",
-      "title": "Financial Management",
-      "credits": 3
+      "credits": 3,
+      "isTopics": true,
+      "topicsCount": 4
     },
     {
       "id": "FINC451",

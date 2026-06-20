@@ -152,6 +152,92 @@ function parseCourseBlocks(html) {
   return courses;
 }
 
+/**
+ * Consolidate lettered course variants into single "topics" entries.
+ *
+ * Loyola uses letter suffixes for several purposes:
+ *   A, B, C, D, E, F … — repeatable topics courses (different theme each semester)
+ *   L                  — laboratory section (keep separate, not a topics variant)
+ *   H                  — honors section (keep separate)
+ *
+ * Rule: if a base number has 2 or more lettered variants (excluding L and H),
+ * collapse all of them (plus the bare base if it exists) into one entry marked
+ * isTopics: true with a topicsCount field. Labs and honors sections always stay
+ * as standalone entries.
+ *
+ * Example:
+ *   HIST 300, 300A, 300B, 300C, 300D, 300E → one entry "Topics in History" (isTopics, topicsCount: 6)
+ *   BIOL 361L                               → kept as-is (lab)
+ *   ACCT 201, 201H                          → kept as two separate entries (honors)
+ *   MUSC 280K, 280P, 280S, 280Z            → one entry "Applied Music" (isTopics, topicsCount: 4)
+ */
+function consolidateCourses(courses) {
+  // Partition into labs, honors, and regular (including lettered variants)
+  const labs    = [];
+  const honors  = [];
+  const regular = [];
+
+  for (const c of courses) {
+    const suffix = c.code.split(' ')[1].replace(/^\d{3}/, ''); // '' | 'A' | 'L' | 'H' | 'AB' etc.
+    if (suffix === 'L') { labs.push(c); continue; }
+    if (suffix === 'H') { honors.push(c); continue; }
+    regular.push(c);
+  }
+
+  // Group regular entries by their base number (digits only)
+  const groups = new Map(); // "DEPT NNN" → { base, variants[] }
+  for (const c of regular) {
+    const [dept, numFull] = c.code.split(' ');
+    const baseNum = numFull.replace(/[A-Z]+$/, '');
+    const key = `${dept} ${baseNum}`;
+    if (!groups.has(key)) groups.set(key, { key, dept, baseNum, base: null, variants: [] });
+    const g = groups.get(key);
+    if (numFull === baseNum) g.base = c; else g.variants.push(c);
+  }
+
+  const result = [];
+
+  for (const g of groups.values()) {
+    if (g.variants.length < 2) {
+      // 0 or 1 lettered variant — not a topics group, keep each entry separately
+      if (g.base) result.push(g.base);
+      result.push(...g.variants);
+      continue;
+    }
+
+    // 2+ lettered variants → consolidate as a topics entry
+    const totalCount = (g.base ? 1 : 0) + g.variants.length;
+    const representative = g.base ?? g.variants[0];
+
+    // Derive a clean title: strip instrument/focus suffixes after ":" or " - "
+    // so "Applied Music: Viola" → "Applied Music", "Topics in History" stays as-is
+    let title = representative.title;
+    if (!g.base) {
+      const stripped = title.replace(/\s*[:–—-]\s*.+$/, '').trim();
+      if (stripped.length >= 4) title = stripped;
+    }
+
+    result.push({
+      id: `${g.dept}${g.baseNum}`,
+      code: `${g.dept} ${g.baseNum}`,
+      title,
+      credits: representative.credits,
+      isTopics: true,
+      topicsCount: totalCount,
+    });
+  }
+
+  // Labs and honors pass through unchanged
+  result.push(...labs, ...honors);
+
+  // Re-sort by numeric course number (labs/honors sort alongside their base)
+  return result.sort((a, b) => {
+    const an = parseInt(a.code.split(' ')[1], 10);
+    const bn = parseInt(b.code.split(' ')[1], 10);
+    return an - bn || a.code.localeCompare(b.code);
+  });
+}
+
 // ---------------------------------------------------------------------------
 // Network helper
 // ---------------------------------------------------------------------------
@@ -207,7 +293,7 @@ for (const dept of targets) {
 
   try {
     const html = await fetchWithRetry(url);
-    courses = parseCourseBlocks(html);
+    courses = consolidateCourses(parseCourseBlocks(html));
 
     if (courses.length === 0) {
       // Retry with alternate slug patterns that Loyola sometimes uses
@@ -219,7 +305,7 @@ for (const dept of targets) {
         if (alt === slug) continue;
         try {
           const altHtml = await fetchWithRetry(`${BASE_URL}/${alt}/`);
-          const altCourses = parseCourseBlocks(altHtml);
+          const altCourses = consolidateCourses(parseCourseBlocks(altHtml));
           if (altCourses.length > 0) {
             courses = altCourses;
             break;

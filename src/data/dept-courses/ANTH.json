@@ -435,19 +435,9 @@
       "id": "ANTH396",
       "code": "ANTH 396",
       "title": "Internship in Anthropology",
-      "credits": 3
-    },
-    {
-      "id": "ANTH396A",
-      "code": "ANTH 396A",
-      "title": "Internship: Bioarchaeology & Forensic Anthropology",
-      "credits": 1
-    },
-    {
-      "id": "ANTH396M",
-      "code": "ANTH 396M",
-      "title": "Internship: Museum Collections Management",
-      "credits": 3
+      "credits": 3,
+      "isTopics": true,
+      "topicsCount": 3
     },
     {
       "id": "ANTH397",

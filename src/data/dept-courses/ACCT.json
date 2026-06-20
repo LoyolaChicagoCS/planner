@@ -129,25 +129,9 @@
       "id": "ACCT400",
       "code": "ACCT 400",
       "title": "Financial Accounting for Business Decisions",
-      "credits": 3
-    },
-    {
-      "id": "ACCT400B",
-      "code": "ACCT 400B",
-      "title": "Financial Accounting for Business Decisions",
-      "credits": 3
-    },
-    {
-      "id": "ACCT400C",
-      "code": "ACCT 400C",
-      "title": "Financial Accounting for Business Decisions",
-      "credits": 3
-    },
-    {
-      "id": "ACCT400E",
-      "code": "ACCT 400E",
-      "title": "Financial Statement Analysis and Decision Making",
-      "credits": 3
+      "credits": 3,
+      "isTopics": true,
+      "topicsCount": 4
     },
     {
       "id": "ACCT402",

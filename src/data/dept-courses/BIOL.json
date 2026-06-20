@@ -381,31 +381,17 @@
       "id": "BIOL394",
       "code": "BIOL 394",
       "title": "Special Topics in Biology Laboratory",
-      "credits": 1
-    },
-    {
-      "id": "BIOL394E",
-      "code": "BIOL 394E",
-      "title": "Special Topics in Biology Laboratory (Ecology Emph)",
-      "credits": 1
-    },
-    {
-      "id": "BIOL394M",
-      "code": "BIOL 394M",
-      "title": "Special Topics in Biology Laboratory (Molecular Emph)",
-      "credits": 1
+      "credits": 1,
+      "isTopics": true,
+      "topicsCount": 3
     },
     {
       "id": "BIOL395",
       "code": "BIOL 395",
       "title": "Special Topics in Biology",
-      "credits": 3
-    },
-    {
-      "id": "BIOL395E",
-      "code": "BIOL 395E",
-      "title": "Special Topics in Biology (Ecology Emph)",
-      "credits": 3
+      "credits": 3,
+      "isTopics": true,
+      "topicsCount": 3
     },
     {
       "id": "BIOL395L",
@@ -414,82 +400,36 @@
       "credits": 1
     },
     {
-      "id": "BIOL395M",
-      "code": "BIOL 395M",
-      "title": "Special Topics in Biology (Molecular Emph)",
-      "credits": 3
-    },
-    {
       "id": "BIOL396",
       "code": "BIOL 396",
       "title": "Research",
-      "credits": 3
-    },
-    {
-      "id": "BIOL396E",
-      "code": "BIOL 396E",
-      "title": "Research (Ecology Emph)",
-      "credits": 3
-    },
-    {
-      "id": "BIOL396M",
-      "code": "BIOL 396M",
-      "title": "Research (Molecular Emph)",
-      "credits": 3
+      "credits": 3,
+      "isTopics": true,
+      "topicsCount": 3
     },
     {
       "id": "BIOL397",
       "code": "BIOL 397",
       "title": "Course-Based Undergraduate Research Experience in Biology",
-      "credits": 1
-    },
-    {
-      "id": "BIOL397E",
-      "code": "BIOL 397E",
-      "title": "Course-based Undergraduate Research Experience in Biology (Ecology Emph)",
-      "credits": 1
-    },
-    {
-      "id": "BIOL397M",
-      "code": "BIOL 397M",
-      "title": "Course-based Undergraduate Research Experience in Biology (Molecular Emph)",
-      "credits": 1
+      "credits": 1,
+      "isTopics": true,
+      "topicsCount": 3
     },
     {
       "id": "BIOL398",
       "code": "BIOL 398",
       "title": "Internship in Biology",
-      "credits": 1
-    },
-    {
-      "id": "BIOL398E",
-      "code": "BIOL 398E",
-      "title": "Internship in Biology (Ecology Emph)",
-      "credits": 1
-    },
-    {
-      "id": "BIOL398M",
-      "code": "BIOL 398M",
-      "title": "Internship in Biology (Molecular Emph)",
-      "credits": 1
+      "credits": 1,
+      "isTopics": true,
+      "topicsCount": 3
     },
     {
       "id": "BIOL399",
       "code": "BIOL 399",
       "title": "Individual Study",
-      "credits": 1
-    },
-    {
-      "id": "BIOL399E",
-      "code": "BIOL 399E",
-      "title": "Individual Study (Ecology Emph)",
-      "credits": 1
-    },
-    {
-      "id": "BIOL399M",
-      "code": "BIOL 399M",
-      "title": "Individual Study (Molecular Emph)",
-      "credits": 1
+      "credits": 1,
+      "isTopics": true,
+      "topicsCount": 3
     },
     {
       "id": "BIOL401",

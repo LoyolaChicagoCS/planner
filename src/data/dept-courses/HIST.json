@@ -39,19 +39,9 @@
       "id": "HIST208",
       "code": "HIST 208",
       "title": "East Asian History: Themes & Issues",
-      "credits": 3
-    },
-    {
-      "id": "HIST208X",
-      "code": "HIST 208X",
-      "title": "Pre-Modern Chinese History",
-      "credits": 3
-    },
-    {
-      "id": "HIST208Z",
-      "code": "HIST 208Z",
-      "title": "Modern Chinese History",
-      "credits": 3
+      "credits": 3,
+      "isTopics": true,
+      "topicsCount": 3
     },
     {
       "id": "HIST209",
@@ -114,16 +104,12 @@
       "credits": 3
     },
     {
-      "id": "HIST267A",
-      "code": "HIST 267A",
+      "id": "HIST267",
+      "code": "HIST 267",
       "title": "Modern German Culture and Ideas I",
-      "credits": 3
-    },
-    {
-      "id": "HIST267B",
-      "code": "HIST 267B",
-      "title": "Modern German Culture and Ideas II",
-      "credits": 3
+      "credits": 3,
+      "isTopics": true,
+      "topicsCount": 2
     },
     {
       "id": "HIST275A",
@@ -132,16 +118,12 @@
       "credits": 3
     },
     {
-      "id": "HIST279C",
-      "code": "HIST 279C",
+      "id": "HIST279",
+      "code": "HIST 279",
       "title": "History of Computing",
-      "credits": 3
-    },
-    {
-      "id": "HIST279E",
-      "code": "HIST 279E",
-      "title": "Climate and History",
-      "credits": 3
+      "credits": 3,
+      "isTopics": true,
+      "topicsCount": 2
     },
     {
       "id": "HIST280A",
@@ -183,37 +165,9 @@
       "id": "HIST300",
       "code": "HIST 300",
       "title": "Topics in History",
-      "credits": 3
-    },
-    {
-      "id": "HIST300A",
-      "code": "HIST 300A",
-      "title": "Topics",
-      "credits": 3
-    },
-    {
-      "id": "HIST300B",
-      "code": "HIST 300B",
-      "title": "Topics in Premodern History",
-      "credits": 3
-    },
-    {
-      "id": "HIST300C",
-      "code": "HIST 300C",
-      "title": "Topics in European History (Post-1700)",
-      "credits": 3
-    },
-    {
-      "id": "HIST300D",
-      "code": "HIST 300D",
-      "title": "Topics in U.S. History",
-      "credits": 3
-    },
-    {
-      "id": "HIST300E",
-      "code": "HIST 300E",
-      "title": "Topics in World History",
-      "credits": 3
+      "credits": 3,
+      "isTopics": true,
+      "topicsCount": 6
     },
     {
       "id": "HIST301",
@@ -240,28 +194,12 @@
       "credits": 3
     },
     {
-      "id": "HIST308A",
-      "code": "HIST 308A",
+      "id": "HIST308",
+      "code": "HIST 308",
       "title": "History of Rome to Constantine",
-      "credits": 3
-    },
-    {
-      "id": "HIST308B",
-      "code": "HIST 308B",
-      "title": "Pompeii and Herculaneum",
-      "credits": 3
-    },
-    {
-      "id": "HIST308C",
-      "code": "HIST 308C",
-      "title": "History of Early Christianity",
-      "credits": 3
-    },
-    {
-      "id": "HIST308D",
-      "code": "HIST 308D",
-      "title": "Transformations of Rome in Late Antiquity",
-      "credits": 3
+      "credits": 3,
+      "isTopics": true,
+      "topicsCount": 4
     },
     {
       "id": "HIST309",
@@ -273,43 +211,9 @@
       "id": "HIST310",
       "code": "HIST 310",
       "title": "The Middle Ages",
-      "credits": 3
-    },
-    {
-      "id": "HIST310A",
-      "code": "HIST 310A",
-      "title": "Medieval World 1100-1500",
-      "credits": 3
-    },
-    {
-      "id": "HIST310B",
-      "code": "HIST 310B",
-      "title": "Medieval Culture",
-      "credits": 3
-    },
-    {
-      "id": "HIST310C",
-      "code": "HIST 310C",
-      "title": "Medieval Women",
-      "credits": 3
-    },
-    {
-      "id": "HIST310D",
-      "code": "HIST 310D",
-      "title": "Medieval Popular Religion",
-      "credits": 3
-    },
-    {
-      "id": "HIST310F",
-      "code": "HIST 310F",
-      "title": "Medieval Inquisitions and Heresy",
-      "credits": 3
-    },
-    {
-      "id": "HIST310G",
-      "code": "HIST 310G",
-      "title": "Supernatural in the Middle Ages",
-      "credits": 3
+      "credits": 3,
+      "isTopics": true,
+      "topicsCount": 7
     },
     {
       "id": "HIST310L",
@@ -360,22 +264,12 @@
       "credits": 3
     },
     {
-      "id": "HIST318A",
-      "code": "HIST 318A",
-      "title": "Early Modern England 1485-1760",
-      "credits": 3
-    },
-    {
-      "id": "HIST318B",
-      "code": "HIST 318B",
-      "title": "English Social History 1450-1750",
-      "credits": 3
-    },
-    {
-      "id": "HIST318C",
-      "code": "HIST 318C",
-      "title": "London 1550 - 1715",
-      "credits": 3
+      "id": "HIST318",
+      "code": "HIST 318",
+      "title": "Early Modern England 1485",
+      "credits": 3,
+      "isTopics": true,
+      "topicsCount": 3
     },
     {
       "id": "HIST320",
@@ -441,19 +335,9 @@
       "id": "HIST329",
       "code": "HIST 329",
       "title": "Women's Sphere in Past Society",
-      "credits": 3
-    },
-    {
-      "id": "HIST329C",
-      "code": "HIST 329C",
-      "title": "Empire, Sex, Violence: European Colonial History",
-      "credits": 3
-    },
-    {
-      "id": "HIST329N",
-      "code": "HIST 329N",
-      "title": "Modern European Nationalism: Myth and Reality",
-      "credits": 3
+      "credits": 3,
+      "isTopics": true,
+      "topicsCount": 3
     },
     {
       "id": "HIST330",
@@ -474,16 +358,12 @@
       "credits": 3
     },
     {
-      "id": "HIST334A",
-      "code": "HIST 334A",
+      "id": "HIST334",
+      "code": "HIST 334",
       "title": "The Nazi Revolution",
-      "credits": 3
-    },
-    {
-      "id": "HIST334B",
-      "code": "HIST 334B",
-      "title": "The Holocaust: History and Memory",
-      "credits": 3
+      "credits": 3,
+      "isTopics": true,
+      "topicsCount": 2
     },
     {
       "id": "HIST335",
@@ -510,28 +390,20 @@
       "credits": 3
     },
     {
-      "id": "HIST338A",
-      "code": "HIST 338A",
+      "id": "HIST338",
+      "code": "HIST 338",
       "title": "History of European Communism",
-      "credits": 3
+      "credits": 3,
+      "isTopics": true,
+      "topicsCount": 2
     },
     {
-      "id": "HIST338B",
-      "code": "HIST 338B",
-      "title": "Eastern Europe in the 20th Century",
-      "credits": 3
-    },
-    {
-      "id": "HIST339C",
-      "code": "HIST 339C",
+      "id": "HIST339",
+      "code": "HIST 339",
       "title": "Modern Europe and the Arts",
-      "credits": 3
-    },
-    {
-      "id": "HIST339F",
-      "code": "HIST 339F",
-      "title": "History of Feminist Thought and Social Action",
-      "credits": 3
+      "credits": 3,
+      "isTopics": true,
+      "topicsCount": 2
     },
     {
       "id": "HIST340B",
@@ -543,49 +415,17 @@
       "id": "HIST341",
       "code": "HIST 341",
       "title": "Modern Middle East",
-      "credits": 3
+      "credits": 3,
+      "isTopics": true,
+      "topicsCount": 3
     },
     {
-      "id": "HIST341B",
-      "code": "HIST 341B",
-      "title": "Arab-Israeli Conflict",
-      "credits": 3
-    },
-    {
-      "id": "HIST341C",
-      "code": "HIST 341C",
-      "title": "Tunisia On-Site: Arab Spring, Democratic Change, Islam",
-      "credits": 3
-    },
-    {
-      "id": "HIST342A",
-      "code": "HIST 342A",
+      "id": "HIST342",
+      "code": "HIST 342",
       "title": "African History to 1600",
-      "credits": 3
-    },
-    {
-      "id": "HIST342B",
-      "code": "HIST 342B",
-      "title": "African History Post-1600",
-      "credits": 3
-    },
-    {
-      "id": "HIST342C",
-      "code": "HIST 342C",
-      "title": "The History of Islam in Africa",
-      "credits": 3
-    },
-    {
-      "id": "HIST342D",
-      "code": "HIST 342D",
-      "title": "African Diaspora in the Middle East and South Asia",
-      "credits": 3
-    },
-    {
-      "id": "HIST342M",
-      "code": "HIST 342M",
-      "title": "African Music's Influence on American Music",
-      "credits": 3
+      "credits": 3,
+      "isTopics": true,
+      "topicsCount": 5
     },
     {
       "id": "HIST343",
@@ -600,40 +440,20 @@
       "credits": 3
     },
     {
-      "id": "HIST346A",
-      "code": "HIST 346A",
-      "title": "Early Modern China: 1550-1800",
-      "credits": 3
+      "id": "HIST346",
+      "code": "HIST 346",
+      "title": "Early Modern China",
+      "credits": 3,
+      "isTopics": true,
+      "topicsCount": 3
     },
     {
-      "id": "HIST346B",
-      "code": "HIST 346B",
-      "title": "Reform & Revolution in China, 1800-1949",
-      "credits": 3
-    },
-    {
-      "id": "HIST346C",
-      "code": "HIST 346C",
-      "title": "History of Christianity in China",
-      "credits": 3
-    },
-    {
-      "id": "HIST347A",
-      "code": "HIST 347A",
-      "title": "China Since 1949: The People's Republic",
-      "credits": 3
-    },
-    {
-      "id": "HIST347C",
-      "code": "HIST 347C",
-      "title": "Cultural Revolution-China",
-      "credits": 3
-    },
-    {
-      "id": "HIST347D",
-      "code": "HIST 347D",
-      "title": "Modern Chinese History through Film",
-      "credits": 3
+      "id": "HIST347",
+      "code": "HIST 347",
+      "title": "China Since 1949",
+      "credits": 3,
+      "isTopics": true,
+      "topicsCount": 3
     },
     {
       "id": "HIST349",
@@ -699,25 +519,9 @@
       "id": "HIST359",
       "code": "HIST 359",
       "title": "Teaching World History",
-      "credits": 3
-    },
-    {
-      "id": "HIST359D",
-      "code": "HIST 359D",
-      "title": "The Ottoman Empire: A Global Perspective",
-      "credits": 3
-    },
-    {
-      "id": "HIST359E",
-      "code": "HIST 359E",
-      "title": "Concentration Camps: A Global History",
-      "credits": 3
-    },
-    {
-      "id": "HIST359F",
-      "code": "HIST 359F",
-      "title": "Genocides in the Modern World",
-      "credits": 3
+      "credits": 3,
+      "isTopics": true,
+      "topicsCount": 4
     },
     {
       "id": "HIST359H",
@@ -894,40 +698,12 @@
       "credits": 3
     },
     {
-      "id": "HIST389B",
-      "code": "HIST 389B",
-      "title": "Topic: Gender, Race, & Class in US History",
-      "credits": 3
-    },
-    {
-      "id": "HIST389C",
-      "code": "HIST 389C",
-      "title": "Gender Benders",
-      "credits": 3
-    },
-    {
-      "id": "HIST389F",
-      "code": "HIST 389F",
-      "title": "The Sixties",
-      "credits": 3
-    },
-    {
-      "id": "HIST389K",
-      "code": "HIST 389K",
-      "title": "Autobiography and Memoir in Recent US History",
-      "credits": 3
-    },
-    {
-      "id": "HIST389N",
-      "code": "HIST 389N",
-      "title": "Anti-Immigrant Politics in U.S. History",
-      "credits": 3
-    },
-    {
-      "id": "HIST389W",
-      "code": "HIST 389W",
-      "title": "Races to the White House: Presidential History",
-      "credits": 3
+      "id": "HIST389",
+      "code": "HIST 389",
+      "title": "Topic",
+      "credits": 3,
+      "isTopics": true,
+      "topicsCount": 6
     },
     {
       "id": "HIST390",

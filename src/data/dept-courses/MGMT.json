@@ -144,22 +144,12 @@
       "credits": 5
     },
     {
-      "id": "MGMT430B",
-      "code": "MGMT 430B",
+      "id": "MGMT430",
+      "code": "MGMT 430",
       "title": "Strategy and Leadership",
-      "credits": 3
-    },
-    {
-      "id": "MGMT430E",
-      "code": "MGMT 430E",
-      "title": "Capstone",
-      "credits": 5
-    },
-    {
-      "id": "MGMT430N",
-      "code": "MGMT 430N",
-      "title": "Strategy and Leadership",
-      "credits": 3
+      "credits": 3,
+      "isTopics": true,
+      "topicsCount": 3
     },
     {
       "id": "MGMT431N",
@@ -180,16 +170,12 @@
       "credits": 3
     },
     {
-      "id": "MGMT460B",
-      "code": "MGMT 460B",
+      "id": "MGMT460",
+      "code": "MGMT 460",
       "title": "Marketing Management",
-      "credits": 3
-    },
-    {
-      "id": "MGMT460E",
-      "code": "MGMT 460E",
-      "title": "Values Based Leadership",
-      "credits": 5
+      "credits": 3,
+      "isTopics": true,
+      "topicsCount": 2
     },
     {
       "id": "MGMT472",
