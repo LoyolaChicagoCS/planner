@@ -1,0 +1,66 @@
+{
+  "id": "business-administration-minor",
+  "department": "Business Administration",
+  "name": "Business Administration",
+  "degree": "Minor",
+  "school": "Loyola University Chicago",
+  "kind": "minor",
+  "totalCredits": 18,
+  "minorCredits": 18,
+  "hasCompletionEstimate": false,
+  "catalogUrl": "https://catalog.luc.edu/undergraduate/business/business-administration-minor/",
+  "courses": [
+    { "id": "BUSINESS_ADMINISTRATION_MINOR_ACCT201", "code": "ACCT 201", "title": "Introductory Accounting I", "credits": 3, "category": "major", "requirementGroup": "BUSINESS_ADMINISTRATION_MINOR-grp1", "choiceNote": "Business Principles Group 1: Select three of ACCT 201, ACCT 202, ECON 201, ECON 202, INFS 247, ISSCM 241 (9 hours). No more than two Economics courses total for this minor." },
+    { "id": "BUSINESS_ADMINISTRATION_MINOR_ACCT202", "code": "ACCT 202", "title": "Introductory Accounting II", "credits": 3, "category": "major", "requirementGroup": "BUSINESS_ADMINISTRATION_MINOR-grp1", "choiceNote": "Business Principles Group 1: Select three of ACCT 201, ACCT 202, ECON 201, ECON 202, INFS 247, ISSCM 241 (9 hours). No more than two Economics courses total for this minor." },
+    { "id": "BUSINESS_ADMINISTRATION_MINOR_ECON201", "code": "ECON 201", "title": "Principles of Microeconomics", "credits": 3, "category": "major", "requirementGroup": "BUSINESS_ADMINISTRATION_MINOR-grp1", "choiceNote": "Business Principles Group 1: Select three of ACCT 201, ACCT 202, ECON 201, ECON 202, INFS 247, ISSCM 241 (9 hours). No more than two Economics courses total for this minor." },
+    { "id": "BUSINESS_ADMINISTRATION_MINOR_ECON202", "code": "ECON 202", "title": "Principles of Macroeconomics", "credits": 3, "category": "major", "requirementGroup": "BUSINESS_ADMINISTRATION_MINOR-grp1", "choiceNote": "Business Principles Group 1: Select three of ACCT 201, ACCT 202, ECON 201, ECON 202, INFS 247, ISSCM 241 (9 hours). No more than two Economics courses total for this minor." },
+    { "id": "BUSINESS_ADMINISTRATION_MINOR_INFS247", "code": "INFS 247", "title": "Business Information Systems", "credits": 3, "category": "major", "requirementGroup": "BUSINESS_ADMINISTRATION_MINOR-grp1", "choiceNote": "Business Principles Group 1: Select three of ACCT 201, ACCT 202, ECON 201, ECON 202, INFS 247, ISSCM 241 (9 hours). No more than two Economics courses total for this minor." },
+    { "id": "BUSINESS_ADMINISTRATION_MINOR_ISSCM241", "code": "ISSCM 241", "title": "Business Statistics", "credits": 3, "category": "major", "requirementGroup": "BUSINESS_ADMINISTRATION_MINOR-grp1", "choiceNote": "Business Principles Group 1: Select three of ACCT 201, ACCT 202, ECON 201, ECON 202, INFS 247, ISSCM 241 (9 hours). No more than two Economics courses total for this minor." },
+    { "id": "BUSINESS_ADMINISTRATION_MINOR_ECON303", "code": "ECON 303", "title": "Intermediate Microeconomics", "credits": 3, "category": "major", "requirementGroup": "BUSINESS_ADMINISTRATION_MINOR-grp2", "choiceNote": "Business Principles Group 2: Select three of ECON 303, ECON 304, FINC 301 or FINC 334, LREB 315, MARK 201, MGMT 201, SCMG 232 (9 hours). No more than two Economics courses total for this minor." },
+    { "id": "BUSINESS_ADMINISTRATION_MINOR_ECON304", "code": "ECON 304", "title": "Intermediate Macroeconomics", "credits": 3, "category": "major", "requirementGroup": "BUSINESS_ADMINISTRATION_MINOR-grp2", "choiceNote": "Business Principles Group 2: Select three of ECON 303, ECON 304, FINC 301 or FINC 334, LREB 315, MARK 201, MGMT 201, SCMG 232 (9 hours). No more than two Economics courses total for this minor." },
+    { "id": "BUSINESS_ADMINISTRATION_MINOR_FINC301", "code": "FINC 301", "title": "Introductory Business Finance", "credits": 3, "category": "major", "requirementGroup": "BUSINESS_ADMINISTRATION_MINOR-grp2", "choiceNote": "Business Principles Group 2: Select three of ECON 303, ECON 304, FINC 301 or FINC 334, LREB 315, MARK 201, MGMT 201, SCMG 232 (9 hours). FINC 301 or FINC 334. No more than two Economics courses total for this minor." },
+    { "id": "BUSINESS_ADMINISTRATION_MINOR_FINC334", "code": "FINC 334", "title": "Principles of Corporate Finance", "credits": 3, "category": "major", "requirementGroup": "BUSINESS_ADMINISTRATION_MINOR-grp2", "choiceNote": "Business Principles Group 2: Select three of ECON 303, ECON 304, FINC 301 or FINC 334, LREB 315, MARK 201, MGMT 201, SCMG 232 (9 hours). FINC 301 or FINC 334. No more than two Economics courses total for this minor." },
+    { "id": "BUSINESS_ADMINISTRATION_MINOR_LREB315", "code": "LREB 315", "title": "Law and the Regulatory Environment of Business I", "credits": 3, "category": "major", "requirementGroup": "BUSINESS_ADMINISTRATION_MINOR-grp2", "choiceNote": "Business Principles Group 2: Select three of ECON 303, ECON 304, FINC 301 or FINC 334, LREB 315, MARK 201, MGMT 201, SCMG 232 (9 hours). No more than two Economics courses total for this minor." },
+    { "id": "BUSINESS_ADMINISTRATION_MINOR_MARK201", "code": "MARK 201", "title": "Principles of Marketing", "credits": 3, "category": "major", "requirementGroup": "BUSINESS_ADMINISTRATION_MINOR-grp2", "choiceNote": "Business Principles Group 2: Select three of ECON 303, ECON 304, FINC 301 or FINC 334, LREB 315, MARK 201, MGMT 201, SCMG 232 (9 hours). No more than two Economics courses total for this minor." },
+    { "id": "BUSINESS_ADMINISTRATION_MINOR_MGMT201", "code": "MGMT 201", "title": "Managing People and Organizations", "credits": 3, "category": "major", "requirementGroup": "BUSINESS_ADMINISTRATION_MINOR-grp2", "choiceNote": "Business Principles Group 2: Select three of ECON 303, ECON 304, FINC 301 or FINC 334, LREB 315, MARK 201, MGMT 201, SCMG 232 (9 hours). No more than two Economics courses total for this minor." },
+    { "id": "BUSINESS_ADMINISTRATION_MINOR_SCMG232", "code": "SCMG 232", "title": "Introduction to Supply Chain Management", "credits": 3, "category": "major", "requirementGroup": "BUSINESS_ADMINISTRATION_MINOR-grp2", "choiceNote": "Business Principles Group 2: Select three of ECON 303, ECON 304, FINC 301 or FINC 334, LREB 315, MARK 201, MGMT 201, SCMG 232 (9 hours). No more than two Economics courses total for this minor." }
+  ],
+  "coreRequirements": [],
+  "checklist": [],
+  "roadmap": [
+    {
+      "year": 2,
+      "semester": "Semester I",
+      "credits": 3,
+      "items": [
+        { "label": "Business Principles Group 1 course", "credits": 3, "isElective": true }
+      ]
+    },
+    {
+      "year": 2,
+      "semester": "Semester II",
+      "credits": 3,
+      "items": [
+        { "label": "Business Principles Group 1 course", "credits": 3, "isElective": true }
+      ]
+    },
+    {
+      "year": 3,
+      "semester": "Semester I",
+      "credits": 6,
+      "items": [
+        { "label": "Business Principles Group 1 course", "credits": 3, "isElective": true },
+        { "label": "Business Principles Group 2 course", "credits": 3, "isElective": true }
+      ]
+    },
+    {
+      "year": 3,
+      "semester": "Semester II",
+      "credits": 6,
+      "items": [
+        { "label": "Business Principles Group 2 course", "credits": 3, "isElective": true },
+        { "label": "Business Principles Group 2 course", "credits": 3, "isElective": true }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "id": "musical-theatre-minor",
+  "department": "Fine and Performing Arts",
+  "name": "Musical Theatre",
+  "degree": "Minor",
+  "school": "Loyola University Chicago",
+  "kind": "minor",
+  "totalCredits": 24,
+  "minorCredits": 24,
+  "hasCompletionEstimate": false,
+  "catalogUrl": "https://catalog.luc.edu/undergraduate/arts-sciences/fine-performing-arts/musical-theatre-minor/",
+  "courses": [
+    { "id": "MUSICAL_THEATRE_MINOR_MUSC107", "code": "MUSC 107", "title": "Chorus", "credits": 1, "category": "major" },
+    { "id": "MUSICAL_THEATRE_MINOR_MUSC280K", "code": "MUSC 280K", "title": "Applied Music: Voice", "credits": 3, "category": "major", "requirementGroup": "MUSICAL_THEATRE_MINOR-grp1", "choiceNote": "Choose MUSC 280K or MUSC 380K" },
+    { "id": "MUSICAL_THEATRE_MINOR_MUSC380K", "code": "MUSC 380K", "title": "Applied Music Advanced: Voice", "credits": 3, "category": "major", "requirementGroup": "MUSICAL_THEATRE_MINOR-grp1", "choiceNote": "Choose MUSC 280K or MUSC 380K" },
+    { "id": "MUSICAL_THEATRE_MINOR_MUSC144", "code": "MUSC 144", "title": "Music Theory I", "credits": 3, "category": "major", "requirementGroup": "MUSICAL_THEATRE_MINOR-grp2", "choiceNote": "Choose MUSC 144 or MUSC 244" },
+    { "id": "MUSICAL_THEATRE_MINOR_MUSC244", "code": "MUSC 244", "title": "Music Theory II", "credits": 3, "category": "major", "requirementGroup": "MUSICAL_THEATRE_MINOR-grp2", "choiceNote": "Choose MUSC 144 or MUSC 244" },
+    { "id": "MUSICAL_THEATRE_MINOR_THTR100", "code": "THTR 100", "title": "Intro to Theatre Experience", "credits": 3, "category": "major" },
+    { "id": "MUSICAL_THEATRE_MINOR_THTR261", "code": "THTR 261", "title": "Beginning Acting", "credits": 3, "category": "major" },
+    { "id": "MUSICAL_THEATRE_MINOR_THTR321R", "code": "THTR 321R", "title": "Theatre Practicum: Running Crew", "credits": 1, "category": "major" },
+    { "id": "MUSICAL_THEATRE_MINOR_MUSC374", "code": "MUSC 374", "title": "Musical Theatre Repertoire", "credits": 4, "category": "major" }
+  ],
+  "electiveOptions": {
+    "dance": {
+      "creditsRequired": 6,
+      "label": "Dance Technique Electives",
+      "note": "Select 6 credit hours from the following dance courses.",
+      "courses": [
+        { "id": "MUSICAL_THEATRE_MINOR_DANC111", "code": "DANC 111", "title": "Ballet I: Introduction to Ballet Theory and Technique", "credits": 3 },
+        { "id": "MUSICAL_THEATRE_MINOR_DANC121", "code": "DANC 121", "title": "Modern Dance I: Theories and Techniques", "credits": 3 },
+        { "id": "MUSICAL_THEATRE_MINOR_DANC131", "code": "DANC 131", "title": "Jazz Dance I: Theories and Techniques", "credits": 3 },
+        { "id": "MUSICAL_THEATRE_MINOR_DANC212", "code": "DANC 212", "title": "Ballet Dance II: Theory and Technique", "credits": 3 },
+        { "id": "MUSICAL_THEATRE_MINOR_DANC213", "code": "DANC 213", "title": "Ballet III: Advanced Continuing Ballet", "credits": 3 },
+        { "id": "MUSICAL_THEATRE_MINOR_DANC222", "code": "DANC 222", "title": "Modern Dance II: Theory and Technique", "credits": 3 },
+        { "id": "MUSICAL_THEATRE_MINOR_DANC232", "code": "DANC 232", "title": "Jazz Dance II: Theories and Techniques", "credits": 3 },
+        { "id": "MUSICAL_THEATRE_MINOR_DANC275", "code": "DANC 275", "title": "Global Influences on Contemporary Dance Practice", "credits": 3 },
+        { "id": "MUSICAL_THEATRE_MINOR_DANC312", "code": "DANC 312", "title": "Pointe I: Theory and Techniques", "credits": 3 },
+        { "id": "MUSICAL_THEATRE_MINOR_DANC314", "code": "DANC 314", "title": "Pointe II: Continuing Pointework", "credits": 3 },
+        { "id": "MUSICAL_THEATRE_MINOR_DANC324", "code": "DANC 324", "title": "Modern III: Theory and Techniques", "credits": 3 },
+        { "id": "MUSICAL_THEATRE_MINOR_DANC331", "code": "DANC 331", "title": "Jazz Dance III: Intermediate Jazz Dance Theories and Techniques", "credits": 3 },
+        { "id": "MUSICAL_THEATRE_MINOR_DANC341", "code": "DANC 341", "title": "Ballet IV: Anatomical Foundations and Cultural Context", "credits": 3 },
+        { "id": "MUSICAL_THEATRE_MINOR_DANC343", "code": "DANC 343", "title": "Ballet V: Advancing Ballet: Contemporary Methodologies in Applied Ballet", "credits": 3 }
+      ]
+    }
+  },
+  "coreRequirements": [],
+  "checklist": [],
+  "roadmap": [
+    { "year": 1, "semester": "Semester I", "credits": 4, "items": [
+      { "ref": "MUSICAL_THEATRE_MINOR_MUSC107" },
+      { "ref": "MUSICAL_THEATRE_MINOR_THTR100" }
+    ] },
+    { "year": 1, "semester": "Semester II", "credits": 4, "items": [
+      { "ref": "MUSICAL_THEATRE_MINOR_MUSC280K" },
+      { "ref": "MUSICAL_THEATRE_MINOR_THTR261" }
+    ] },
+    { "year": 2, "semester": "Semester I", "credits": 4, "items": [
+      { "label": "Dance technique elective (DANC)", "credits": 3, "isElective": true },
+      { "label": "Applied Music: Voice (MUSC 280K)", "credits": 1, "isElective": false }
+    ] },
+    { "year": 2, "semester": "Semester II", "credits": 3, "items": [
+      { "label": "Dance technique elective (DANC)", "credits": 3, "isElective": true }
+    ] },
+    { "year": 3, "semester": "Semester I", "credits": 4, "items": [
+      { "ref": "MUSICAL_THEATRE_MINOR_MUSC144" },
+      { "label": "Musicianship Lab I (MUSC 145)", "credits": 1, "isElective": false }
+    ] },
+    { "year": 3, "semester": "Semester II", "credits": 1, "items": [
+      { "ref": "MUSICAL_THEATRE_MINOR_THTR321R" }
+    ] },
+    { "year": 4, "semester": "Semester I", "credits": 4, "items": [
+      { "ref": "MUSICAL_THEATRE_MINOR_MUSC374" }
+    ] }
+  ]
+}

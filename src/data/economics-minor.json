@@ -1,0 +1,53 @@
+{
+  "id": "economics-minor",
+  "department": "Business Administration",
+  "name": "Economics",
+  "degree": "Minor",
+  "school": "Loyola University Chicago",
+  "kind": "minor",
+  "totalCredits": 18,
+  "minorCredits": 18,
+  "hasCompletionEstimate": false,
+  "catalogUrl": "https://catalog.luc.edu/undergraduate/business/economics-minor/",
+  "courses": [
+    { "id": "ECONOMICS_MINOR_ECON201", "code": "ECON 201", "title": "Principles of Microeconomics", "credits": 3, "category": "major" },
+    { "id": "ECONOMICS_MINOR_ECON202", "code": "ECON 202", "title": "Principles of Macroeconomics", "credits": 3, "category": "major" },
+    { "id": "ECONOMICS_MINOR_ECON303", "code": "ECON 303", "title": "Intermediate Microeconomics", "credits": 3, "category": "major", "requirementGroup": "ECONOMICS_MINOR-grp1", "choiceNote": "Choose ECON 303 or ECON 304" },
+    { "id": "ECONOMICS_MINOR_ECON304", "code": "ECON 304", "title": "Intermediate Macroeconomics", "credits": 3, "category": "major", "requirementGroup": "ECONOMICS_MINOR-grp1", "choiceNote": "Choose ECON 303 or ECON 304" }
+  ],
+  "electiveOptions": {
+    "econElectives": {
+      "creditsRequired": 9,
+      "label": "Economics Electives",
+      "note": "Select three of the following (9 credit hours). ECON 303 and ECON 304 may be selected here if not used to satisfy the intermediate course requirement.",
+      "courses": [
+        { "id": "ECONOMICS_MINOR_ECON303_ELEC", "code": "ECON 303", "title": "Intermediate Microeconomics", "credits": 3 },
+        { "id": "ECONOMICS_MINOR_ECON304_ELEC", "code": "ECON 304", "title": "Intermediate Macroeconomics", "credits": 3 },
+        { "id": "ECONOMICS_MINOR_ECON320", "code": "ECON 320", "title": "Urban Economics", "credits": 3 },
+        { "id": "ECONOMICS_MINOR_ECON323", "code": "ECON 323", "title": "International Economics", "credits": 3 },
+        { "id": "ECONOMICS_MINOR_ECON324", "code": "ECON 324", "title": "International Monetary Relations", "credits": 3 },
+        { "id": "ECONOMICS_MINOR_ECON325", "code": "ECON 325", "title": "Economics of Growth & Development", "credits": 3 },
+        { "id": "ECONOMICS_MINOR_ECON327", "code": "ECON 327", "title": "American Economic & Business History", "credits": 3 },
+        { "id": "ECONOMICS_MINOR_ECON328", "code": "ECON 328", "title": "Environmental Economics", "credits": 3 },
+        { "id": "ECONOMICS_MINOR_ECON329", "code": "ECON 329", "title": "Health Economics", "credits": 3 },
+        { "id": "ECONOMICS_MINOR_ECON334", "code": "ECON 334", "title": "Economics of Government Expenditures & Taxation", "credits": 3 },
+        { "id": "ECONOMICS_MINOR_ECON336", "code": "ECON 336", "title": "Monetary and Fiscal Policy", "credits": 3 },
+        { "id": "ECONOMICS_MINOR_ECON346", "code": "ECON 346", "title": "Econometrics", "credits": 3 },
+        { "id": "ECONOMICS_MINOR_ECON360", "code": "ECON 360", "title": "Labor Economics", "credits": 3 },
+        { "id": "ECONOMICS_MINOR_ECON370", "code": "ECON 370", "title": "Pricing & Industrial Organization", "credits": 3 },
+        { "id": "ECONOMICS_MINOR_ECON399", "code": "ECON 399", "title": "Special Topics in Economics", "credits": 3 },
+        { "id": "ECONOMICS_MINOR_MATH360", "code": "MATH 360", "title": "Introduction to Game Theory", "credits": 3 }
+      ]
+    }
+  },
+  "coreRequirements": [],
+  "checklist": [],
+  "roadmap": [
+    { "year": 1, "semester": "Fall", "credits": 3, "items": [ { "ref": "ECONOMICS_MINOR_ECON201" } ] },
+    { "year": 1, "semester": "Spring", "credits": 3, "items": [ { "ref": "ECONOMICS_MINOR_ECON202" } ] },
+    { "year": 2, "semester": "Fall", "credits": 3, "items": [ { "label": "ECON 303 or ECON 304 (Intermediate Micro or Macro)", "credits": 3, "isElective": true } ] },
+    { "year": 2, "semester": "Spring", "credits": 3, "items": [ { "label": "ECON Elective", "credits": 3, "isElective": true } ] },
+    { "year": 3, "semester": "Fall", "credits": 3, "items": [ { "label": "ECON Elective", "credits": 3, "isElective": true } ] },
+    { "year": 3, "semester": "Winter", "credits": 3, "items": [ { "label": "ECON Elective", "credits": 3, "isElective": true } ] }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "german-studies-minor",
+  "department": "Modern Languages and Literatures",
+  "name": "German Studies",
+  "degree": "Minor",
+  "school": "Loyola University Chicago",
+  "kind": "minor",
+  "totalCredits": 19,
+  "minorCredits": 19,
+  "hasCompletionEstimate": false,
+  "catalogUrl": "https://catalog.luc.edu/undergraduate/arts-sciences/modern-languages-literatures/german-studies-minor/",
+  "courses": [
+    { "id": "GERMAN_STUDIES_MINOR_GERM103", "code": "GERM 103", "title": "Intermediate German I", "credits": 3, "category": "major" },
+    { "id": "GERMAN_STUDIES_MINOR_GERM104", "code": "GERM 104", "title": "Intermediate German II", "credits": 3, "category": "major" },
+    { "id": "GERMAN_STUDIES_MINOR_GRMS300", "code": "GRMS 300", "title": "German Studies Minor Capstone", "credits": 1, "category": "major" }
+  ],
+  "electiveOptions": {
+    "germanStudiesElectives": {
+      "creditsRequired": 12,
+      "label": "German Studies Electives (choose four courses)",
+      "note": "Students choose four courses (12 credit hours) from the following list. A course qualifies only if at least one-third of its content is devoted to German cultural history. GERM 250 and GERM 251 are preferred and must be taken unless waived.",
+      "courses": [
+        { "id": "GERMAN_STUDIES_MINOR_GERM250", "code": "GERM 250", "title": "Composition & Conversation I", "credits": 3 },
+        { "id": "GERMAN_STUDIES_MINOR_GERM251", "code": "GERM 251", "title": "Composition & Conversation II", "credits": 3 },
+        { "id": "GERMAN_STUDIES_MINOR_GERM320", "code": "GERM 320", "title": "German-American History: Focus on Chicago", "credits": 3 },
+        { "id": "GERMAN_STUDIES_MINOR_GERM369", "code": "GERM 369", "title": "German Reading Knowledge", "credits": 3 },
+        { "id": "GERMAN_STUDIES_MINOR_GERM370", "code": "GERM 370", "title": "German Cinema", "credits": 3 },
+        { "id": "GERMAN_STUDIES_MINOR_HIST300B", "code": "HIST 300B", "title": "Topics in Premodern History", "credits": 3 },
+        { "id": "GERMAN_STUDIES_MINOR_HIST300C", "code": "HIST 300C", "title": "Topics in European History (Post-1700)", "credits": 3 },
+        { "id": "GERMAN_STUDIES_MINOR_HIST310A", "code": "HIST 310A", "title": "Medieval World 1100-1500", "credits": 3 },
+        { "id": "GERMAN_STUDIES_MINOR_HIST310B", "code": "HIST 310B", "title": "Medieval Culture", "credits": 3 },
+        { "id": "GERMAN_STUDIES_MINOR_HIST315", "code": "HIST 315", "title": "The Reformation", "credits": 3 },
+        { "id": "GERMAN_STUDIES_MINOR_HIST321", "code": "HIST 321", "title": "19th Century European Culture and Ideas", "credits": 3 },
+        { "id": "GERMAN_STUDIES_MINOR_HIST330", "code": "HIST 330", "title": "Europe in the Age of Catastrophe, 1900-1945", "credits": 3 },
+        { "id": "GERMAN_STUDIES_MINOR_HIST335", "code": "HIST 335", "title": "The Second World War", "credits": 3 },
+        { "id": "GERMAN_STUDIES_MINOR_HIST336", "code": "HIST 336", "title": "Contemporary Europe 1945 to Present", "credits": 3 },
+        { "id": "GERMAN_STUDIES_MINOR_HIST338A", "code": "HIST 338A", "title": "History of European Communism", "credits": 3 },
+        { "id": "GERMAN_STUDIES_MINOR_PHIL306", "code": "PHIL 306", "title": "19th Century Philosophy", "credits": 3 },
+        { "id": "GERMAN_STUDIES_MINOR_PHIL309", "code": "PHIL 309", "title": "Classical Modern Philosophy", "credits": 3 },
+        { "id": "GERMAN_STUDIES_MINOR_PHIL375", "code": "PHIL 375", "title": "Philosophy of Marxism", "credits": 3 },
+        { "id": "GERMAN_STUDIES_MINOR_PLSC308", "code": "PLSC 308", "title": "Contemporary Political Thought", "credits": 3 },
+        { "id": "GERMAN_STUDIES_MINOR_SOCL205", "code": "SOCL 205", "title": "Sociological Thought", "credits": 3 },
+        { "id": "GERMAN_STUDIES_MINOR_THEO281", "code": "THEO 281", "title": "Christianity Through Time", "credits": 3 }
+      ]
+    }
+  },
+  "coreRequirements": [],
+  "checklist": []
+}

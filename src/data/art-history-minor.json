@@ -1,0 +1,53 @@
+{
+  "id": "art-history-minor",
+  "department": "Fine and Performing Arts",
+  "name": "Art History",
+  "degree": "Minor",
+  "school": "Loyola University Chicago",
+  "kind": "minor",
+  "totalCredits": 18,
+  "minorCredits": 18,
+  "hasCompletionEstimate": false,
+  "catalogUrl": "https://catalog.luc.edu/undergraduate/arts-sciences/fine-performing-arts/art-history-minor/",
+  "courses": [
+    { "id": "ART_HISTORY_MINOR_FNAR200", "code": "FNAR 200", "title": "Global Art History: Prehistoric to 600 CE", "credits": 3, "category": "major" },
+    { "id": "ART_HISTORY_MINOR_FNAR201", "code": "FNAR 201", "title": "Global Art History: 600-1800CE", "credits": 3, "category": "major" },
+    { "id": "ART_HISTORY_MINOR_FNAR202", "code": "FNAR 202", "title": "Global Art History: Modern Art", "credits": 3, "category": "major" },
+
+    { "id": "ART_HISTORY_MINOR_FNAR305", "code": "FNAR 305", "title": "American Art to 1945", "credits": 3, "category": "major", "requirementGroup": "ART_HISTORY_MINOR-grp1", "choiceNote": "Select one Western Traditions course: FNAR 305, 306, 338, 344, 345, 343, 360, 304, or 349" },
+    { "id": "ART_HISTORY_MINOR_FNAR306", "code": "FNAR 306", "title": "Contemporary Art 1945-Present", "credits": 3, "category": "major", "requirementGroup": "ART_HISTORY_MINOR-grp1", "choiceNote": "Select one Western Traditions course: FNAR 305, 306, 338, 344, 345, 343, 360, 304, or 349" },
+    { "id": "ART_HISTORY_MINOR_FNAR338", "code": "FNAR 338", "title": "Medieval Art", "credits": 3, "category": "major", "requirementGroup": "ART_HISTORY_MINOR-grp1", "choiceNote": "Select one Western Traditions course: FNAR 305, 306, 338, 344, 345, 343, 360, 304, or 349" },
+    { "id": "ART_HISTORY_MINOR_FNAR344", "code": "FNAR 344", "title": "Early Italian Renaissance Art", "credits": 3, "category": "major", "requirementGroup": "ART_HISTORY_MINOR-grp1", "choiceNote": "Select one Western Traditions course: FNAR 305, 306, 338, 344, 345, 343, 360, 304, or 349" },
+    { "id": "ART_HISTORY_MINOR_FNAR345", "code": "FNAR 345", "title": "Italian High Renaissance and Mannerist Art", "credits": 3, "category": "major", "requirementGroup": "ART_HISTORY_MINOR-grp1", "choiceNote": "Select one Western Traditions course: FNAR 305, 306, 338, 344, 345, 343, 360, 304, or 349" },
+    { "id": "ART_HISTORY_MINOR_FNAR343", "code": "FNAR 343", "title": "Baroque Art", "credits": 3, "category": "major", "requirementGroup": "ART_HISTORY_MINOR-grp1", "choiceNote": "Select one Western Traditions course: FNAR 305, 306, 338, 344, 345, 343, 360, 304, or 349" },
+    { "id": "ART_HISTORY_MINOR_FNAR360", "code": "FNAR 360", "title": "Picturing Women in Renaissance and Baroque Art", "credits": 3, "category": "major", "requirementGroup": "ART_HISTORY_MINOR-grp1", "choiceNote": "Select one Western Traditions course: FNAR 305, 306, 338, 344, 345, 343, 360, 304, or 349" },
+    { "id": "ART_HISTORY_MINOR_FNAR304", "code": "FNAR 304", "title": "Paris in the Nineteenth Century", "credits": 3, "category": "major", "requirementGroup": "ART_HISTORY_MINOR-grp1", "choiceNote": "Select one Western Traditions course: FNAR 305, 306, 338, 344, 345, 343, 360, 304, or 349" },
+    { "id": "ART_HISTORY_MINOR_FNAR349", "code": "FNAR 349", "title": "Art and the Catholic Tradition", "credits": 3, "category": "major", "requirementGroup": "ART_HISTORY_MINOR-grp1", "choiceNote": "Select one Western Traditions course: FNAR 305, 306, 338, 344, 345, 343, 360, 304, or 349" },
+
+    { "id": "ART_HISTORY_MINOR_FNAR351", "code": "FNAR 351", "title": "Latin American Art I: Ancient to 19th Century", "credits": 3, "category": "major", "requirementGroup": "ART_HISTORY_MINOR-grp2", "choiceNote": "Select one Non-Western Traditions course: FNAR 351, 353, 355, 356, 357, 358, 359, or 352" },
+    { "id": "ART_HISTORY_MINOR_FNAR353", "code": "FNAR 353", "title": "Latin American Art II: Modern to Contemporary", "credits": 3, "category": "major", "requirementGroup": "ART_HISTORY_MINOR-grp2", "choiceNote": "Select one Non-Western Traditions course: FNAR 351, 353, 355, 356, 357, 358, 359, or 352" },
+    { "id": "ART_HISTORY_MINOR_FNAR355", "code": "FNAR 355", "title": "Art of Africa", "credits": 3, "category": "major", "requirementGroup": "ART_HISTORY_MINOR-grp2", "choiceNote": "Select one Non-Western Traditions course: FNAR 351, 353, 355, 356, 357, 358, 359, or 352" },
+    { "id": "ART_HISTORY_MINOR_FNAR356", "code": "FNAR 356", "title": "India, Women and Visual Culture", "credits": 3, "category": "major", "requirementGroup": "ART_HISTORY_MINOR-grp2", "choiceNote": "Select one Non-Western Traditions course: FNAR 351, 353, 355, 356, 357, 358, 359, or 352" },
+    { "id": "ART_HISTORY_MINOR_FNAR357", "code": "FNAR 357", "title": "South Asian Visual Culture", "credits": 3, "category": "major", "requirementGroup": "ART_HISTORY_MINOR-grp2", "choiceNote": "Select one Non-Western Traditions course: FNAR 351, 353, 355, 356, 357, 358, 359, or 352" },
+    { "id": "ART_HISTORY_MINOR_FNAR358", "code": "FNAR 358", "title": "Chinese Art and Culture", "credits": 3, "category": "major", "requirementGroup": "ART_HISTORY_MINOR-grp2", "choiceNote": "Select one Non-Western Traditions course: FNAR 351, 353, 355, 356, 357, 358, 359, or 352" },
+    { "id": "ART_HISTORY_MINOR_FNAR359", "code": "FNAR 359", "title": "Japanese Art and Culture", "credits": 3, "category": "major", "requirementGroup": "ART_HISTORY_MINOR-grp2", "choiceNote": "Select one Non-Western Traditions course: FNAR 351, 353, 355, 356, 357, 358, 359, or 352" },
+    { "id": "ART_HISTORY_MINOR_FNAR352", "code": "FNAR 352", "title": "Islam and Visual Culture", "credits": 3, "category": "major", "requirementGroup": "ART_HISTORY_MINOR-grp2", "choiceNote": "Select one Non-Western Traditions course: FNAR 351, 353, 355, 356, 357, 358, 359, or 352" },
+
+    { "id": "ART_HISTORY_MINOR_FNAR203", "code": "FNAR 203", "title": "Chicago: Face of a City", "credits": 3, "category": "major", "requirementGroup": "ART_HISTORY_MINOR-grp3", "choiceNote": "Select one additional course from the Western or Non-Western lists above, or from: FNAR 203, 207, 342, 365, 394, or 390" },
+    { "id": "ART_HISTORY_MINOR_FNAR207", "code": "FNAR 207", "title": "Women, Art, and Society", "credits": 3, "category": "major", "requirementGroup": "ART_HISTORY_MINOR-grp3", "choiceNote": "Select one additional course from the Western or Non-Western lists above, or from: FNAR 203, 207, 342, 365, 394, or 390" },
+    { "id": "ART_HISTORY_MINOR_FNAR342", "code": "FNAR 342", "title": "Art in Rome", "credits": 3, "category": "major", "requirementGroup": "ART_HISTORY_MINOR-grp3", "choiceNote": "Select one additional course from the Western or Non-Western lists above, or from: FNAR 203, 207, 342, 365, 394, or 390" },
+    { "id": "ART_HISTORY_MINOR_FNAR365", "code": "FNAR 365", "title": "History of Photography", "credits": 3, "category": "major", "requirementGroup": "ART_HISTORY_MINOR-grp3", "choiceNote": "Select one additional course from the Western or Non-Western lists above, or from: FNAR 203, 207, 342, 365, 394, or 390" },
+    { "id": "ART_HISTORY_MINOR_FNAR394", "code": "FNAR 394", "title": "Topics in Art History", "credits": 3, "category": "major", "requirementGroup": "ART_HISTORY_MINOR-grp3", "choiceNote": "Select one additional course from the Western or Non-Western lists above, or from: FNAR 203, 207, 342, 365, 394, or 390" },
+    { "id": "ART_HISTORY_MINOR_FNAR390", "code": "FNAR 390", "title": "Art History: Methods and Research", "credits": 3, "category": "major", "requirementGroup": "ART_HISTORY_MINOR-grp3", "choiceNote": "Select one additional course from the Western or Non-Western lists above, or from: FNAR 203, 207, 342, 365, 394, or 390" }
+  ],
+  "coreRequirements": [],
+  "checklist": [],
+  "roadmap": [
+    { "year": 1, "semester": "Fall", "credits": 3, "items": [ { "ref": "ART_HISTORY_MINOR_FNAR200" } ] },
+    { "year": 2, "semester": "Fall", "credits": 3, "items": [ { "ref": "ART_HISTORY_MINOR_FNAR201" } ] },
+    { "year": 2, "semester": "Spring", "credits": 3, "items": [ { "ref": "ART_HISTORY_MINOR_FNAR202" } ] },
+    { "year": 3, "semester": "Fall", "credits": 3, "items": [ { "label": "Select one: Western Traditions", "credits": 3, "isElective": true } ] },
+    { "year": 3, "semester": "Spring", "credits": 3, "items": [ { "label": "Select one: Non-Western Traditions", "credits": 3, "isElective": true } ] },
+    { "year": 4, "semester": "Fall", "credits": 3, "items": [ { "label": "Select one additional Art History course", "credits": 3, "isElective": true } ] }
+  ]
+}

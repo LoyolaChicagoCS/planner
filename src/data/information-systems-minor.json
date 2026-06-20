@@ -1,0 +1,57 @@
+{
+  "id": "information-systems-minor",
+  "department": "Business Administration",
+  "name": "Information Systems",
+  "degree": "Minor",
+  "school": "Loyola University Chicago",
+  "kind": "minor",
+  "totalCredits": 18,
+  "minorCredits": 18,
+  "hasCompletionEstimate": false,
+  "catalogUrl": "https://catalog.luc.edu/undergraduate/business/information-systems-minor/",
+  "courses": [
+    { "id": "INFORMATION_SYSTEMS_MINOR_INFS247", "code": "INFS 247", "title": "Business Information Systems", "credits": 3, "category": "major" },
+    { "id": "INFORMATION_SYSTEMS_MINOR_INFS346", "code": "INFS 346", "title": "Database & Data Warehousing Systems", "credits": 3, "category": "major" }
+  ],
+  "electiveOptions": {
+    "businessPrinciples": {
+      "creditsRequired": 6,
+      "label": "Business Principles (select two)",
+      "note": "Select two of the following. (Footnote: Quinlan Business Core courses - not included in 9 credits toward minor for Quinlan students.)",
+      "courses": [
+        { "id": "INFORMATION_SYSTEMS_MINOR_ACCT201", "code": "ACCT 201", "title": "Introductory Accounting I", "credits": 3 },
+        { "id": "INFORMATION_SYSTEMS_MINOR_ECON201", "code": "ECON 201", "title": "Principles of Microeconomics", "credits": 3, "requirementGroup": "INFORMATION_SYSTEMS_MINOR-grp1", "choiceNote": "Choose ECON 201 or ECON 202" },
+        { "id": "INFORMATION_SYSTEMS_MINOR_ECON202", "code": "ECON 202", "title": "Principles of Macroeconomics", "credits": 3, "requirementGroup": "INFORMATION_SYSTEMS_MINOR-grp1", "choiceNote": "Choose ECON 201 or ECON 202" },
+        { "id": "INFORMATION_SYSTEMS_MINOR_MARK201", "code": "MARK 201", "title": "Principles of Marketing", "credits": 3 },
+        { "id": "INFORMATION_SYSTEMS_MINOR_MGMT201", "code": "MGMT 201", "title": "Managing People and Organizations", "credits": 3 }
+      ]
+    },
+    "infsElectives": {
+      "creditsRequired": 6,
+      "label": "Information Systems Electives (select two)",
+      "note": "Electives - Select two of the following.",
+      "courses": [
+        { "id": "INFORMATION_SYSTEMS_MINOR_INFS336", "code": "INFS 336", "title": "Global Perspectives on Digital Business", "credits": 3 },
+        { "id": "INFORMATION_SYSTEMS_MINOR_INFS347", "code": "INFS 347", "title": "Systems Analysis & Design", "credits": 3 },
+        { "id": "INFORMATION_SYSTEMS_MINOR_INFS348", "code": "INFS 348", "title": "Advanced Data Analytics and AI", "credits": 3 },
+        { "id": "INFORMATION_SYSTEMS_MINOR_INFS360", "code": "INFS 360", "title": "Data Visualization & Business Intelligence", "credits": 3 },
+        { "id": "INFORMATION_SYSTEMS_MINOR_INFS362", "code": "INFS 362", "title": "User Experience (UX) and Biometrics", "credits": 3 },
+        { "id": "INFORMATION_SYSTEMS_MINOR_INFS394", "code": "INFS 394", "title": "Programming in Python", "credits": 3 },
+        { "id": "INFORMATION_SYSTEMS_MINOR_INFS395", "code": "INFS 395", "title": "Independent Study in Information Systems", "credits": 3 },
+        { "id": "INFORMATION_SYSTEMS_MINOR_INFS397", "code": "INFS 397", "title": "VBA Programming with MS Office", "credits": 3 },
+        { "id": "INFORMATION_SYSTEMS_MINOR_INFS399", "code": "INFS 399", "title": "Special Topics in Information Systems", "credits": 3 },
+        { "id": "INFORMATION_SYSTEMS_MINOR_ISSCM349", "code": "ISSCM 349", "title": "Project Management", "credits": 3 }
+      ]
+    }
+  },
+  "coreRequirements": [],
+  "checklist": [],
+  "roadmap": [
+    { "year": 1, "semester": "Fall", "credits": 3, "items": [ { "ref": "INFORMATION_SYSTEMS_MINOR_INFS247" } ] },
+    { "year": 1, "semester": "Spring", "credits": 3, "items": [ { "label": "200-level Business Principles course", "credits": 3, "isElective": true } ] },
+    { "year": 2, "semester": "Fall", "credits": 3, "items": [ { "ref": "INFORMATION_SYSTEMS_MINOR_INFS346" } ] },
+    { "year": 2, "semester": "Spring", "credits": 3, "items": [ { "label": "200-level Business Principles course", "credits": 3, "isElective": true } ] },
+    { "year": 3, "semester": "Fall", "credits": 3, "items": [ { "label": "INFS Elective", "credits": 3, "isElective": true } ] },
+    { "year": 3, "semester": "Spring", "credits": 3, "items": [ { "label": "INFS Elective", "credits": 3, "isElective": true } ] }
+  ]
+}

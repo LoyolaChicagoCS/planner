@@ -1,0 +1,59 @@
+{
+  "id": "sociolegal-studies-minor",
+  "department": "Sociology",
+  "name": "Sociolegal Studies",
+  "degree": "Minor",
+  "school": "Loyola University Chicago",
+  "kind": "minor",
+  "totalCredits": 18,
+  "minorCredits": 18,
+  "hasCompletionEstimate": false,
+  "catalogUrl": "https://catalog.luc.edu/undergraduate/arts-sciences/sociolegal-studies/sociolegal-studies-minor/",
+  "courses": [
+    { "id": "SOCIOLEGAL_STUDIES_MINOR_SLGL200", "code": "SLGL 200", "title": "Introduction to Sociolegal Studies", "credits": 3, "category": "major" }
+  ],
+  "electiveOptions": {
+    "requiredElectives": {
+      "creditsRequired": 15,
+      "label": "Required Electives (select five)",
+      "note": "Required Electives (15 hours): Select five from the following.",
+      "courses": [
+        { "id": "SOCIOLEGAL_STUDIES_MINOR_ANTH305", "code": "ANTH 305", "title": "Violence and Culture", "credits": 3 },
+        { "id": "SOCIOLEGAL_STUDIES_MINOR_ANTH306", "code": "ANTH 306", "title": "Anthropology and Human Rights", "credits": 3 },
+        { "id": "SOCIOLEGAL_STUDIES_MINOR_ANTH314", "code": "ANTH 314", "title": "Applied Anthropology", "credits": 3 },
+        { "id": "SOCIOLEGAL_STUDIES_MINOR_ANTH321", "code": "ANTH 321", "title": "Human Rights in Latin America", "credits": 3 },
+        { "id": "SOCIOLEGAL_STUDIES_MINOR_CJC202", "code": "CJC 202", "title": "Criminal Courts", "credits": 3 },
+        { "id": "SOCIOLEGAL_STUDIES_MINOR_CJC322", "code": "CJC 322", "title": "Criminal Law", "credits": 3 },
+        { "id": "SOCIOLEGAL_STUDIES_MINOR_CJC323", "code": "CJC 323", "title": "Criminal Procedure", "credits": 3 },
+        { "id": "SOCIOLEGAL_STUDIES_MINOR_CJC345", "code": "CJC 345", "title": "Social Justice and Crime", "credits": 3 },
+        { "id": "SOCIOLEGAL_STUDIES_MINOR_CJC372", "code": "CJC 372", "title": "Race, Ethnicity, and Criminal Justice", "credits": 3 },
+        { "id": "SOCIOLEGAL_STUDIES_MINOR_CJC377", "code": "CJC 377", "title": "Psychology and Law", "credits": 3 },
+        { "id": "SOCIOLEGAL_STUDIES_MINOR_CLST361", "code": "CLST 361", "title": "Roman Political Theory & Practice", "credits": 3 },
+        { "id": "SOCIOLEGAL_STUDIES_MINOR_CLST362", "code": "CLST 362", "title": "Roman Law", "credits": 3 },
+        { "id": "SOCIOLEGAL_STUDIES_MINOR_CLST363", "code": "CLST 363", "title": "Law & Legislature-Ancient Greece", "credits": 3 },
+        { "id": "SOCIOLEGAL_STUDIES_MINOR_COMP317", "code": "COMP 317", "title": "Social, Legal, and Ethical Issues in Computing", "credits": 3 },
+        { "id": "SOCIOLEGAL_STUDIES_MINOR_ENGL211", "code": "ENGL 211", "title": "Writing for Pre-Law Students", "credits": 3 },
+        { "id": "SOCIOLEGAL_STUDIES_MINOR_HIST367", "code": "HIST 367", "title": "United States from Great Depression to Recession", "credits": 3 },
+        { "id": "SOCIOLEGAL_STUDIES_MINOR_HIST370", "code": "HIST 370", "title": "American Business, Wealth, and Inequality", "credits": 3 },
+        { "id": "SOCIOLEGAL_STUDIES_MINOR_HIST373", "code": "HIST 373", "title": "US Law & Public Policy", "credits": 3 },
+        { "id": "SOCIOLEGAL_STUDIES_MINOR_HIST373A", "code": "HIST 373A", "title": "Crime and Punishment", "credits": 3 },
+        { "id": "SOCIOLEGAL_STUDIES_MINOR_HIST382", "code": "HIST 382", "title": "Teaching Race, Class, and Gender", "credits": 3 },
+        { "id": "SOCIOLEGAL_STUDIES_MINOR_PHIL321", "code": "PHIL 321", "title": "Ethics and Society", "credits": 3 },
+        { "id": "SOCIOLEGAL_STUDIES_MINOR_PHIL323", "code": "PHIL 323", "title": "Philosophy of Law", "credits": 3 },
+        { "id": "SOCIOLEGAL_STUDIES_MINOR_PHIL326", "code": "PHIL 326", "title": "Political Philosophy", "credits": 3 },
+        { "id": "SOCIOLEGAL_STUDIES_MINOR_PLSC320", "code": "PLSC 320", "title": "Constitutional Law-Due Process", "credits": 3 },
+        { "id": "SOCIOLEGAL_STUDIES_MINOR_PLSC321", "code": "PLSC 321", "title": "Constitutional Law-Powers of Government", "credits": 3 },
+        { "id": "SOCIOLEGAL_STUDIES_MINOR_PLSC322", "code": "PLSC 322", "title": "Constitutional Law-Rights and Liberties", "credits": 3 },
+        { "id": "SOCIOLEGAL_STUDIES_MINOR_PLSC353", "code": "PLSC 353", "title": "International Law", "credits": 3 },
+        { "id": "SOCIOLEGAL_STUDIES_MINOR_PLSC384", "code": "PLSC 384", "title": "The Judicial Process", "credits": 3 },
+        { "id": "SOCIOLEGAL_STUDIES_MINOR_PLSC385", "code": "PLSC 385", "title": "Introduction to Law", "credits": 3 },
+        { "id": "SOCIOLEGAL_STUDIES_MINOR_PSYC372", "code": "PSYC 372", "title": "Psychology & Law", "credits": 3 },
+        { "id": "SOCIOLEGAL_STUDIES_MINOR_SLGL399", "code": "SLGL 399", "title": "Independent Study", "credits": 3 },
+        { "id": "SOCIOLEGAL_STUDIES_MINOR_SOCL215", "code": "SOCL 215", "title": "Law & Society", "credits": 3 },
+        { "id": "SOCIOLEGAL_STUDIES_MINOR_SOCL261", "code": "SOCL 261", "title": "Social Movements & Social Change", "credits": 3 }
+      ]
+    }
+  },
+  "coreRequirements": [],
+  "checklist": []
+}

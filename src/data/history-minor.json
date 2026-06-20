@@ -1,0 +1,104 @@
+{
+  "id": "history-minor",
+  "department": "History",
+  "name": "History",
+  "degree": "Minor",
+  "school": "Loyola University Chicago",
+  "kind": "minor",
+  "totalCredits": 18,
+  "minorCredits": 18,
+  "hasCompletionEstimate": false,
+  "catalogUrl": "https://catalog.luc.edu/undergraduate/arts-sciences/history/history-minor/",
+  "courses": [],
+  "electiveOptions": {
+    "introductory": {
+      "creditsRequired": 6,
+      "label": "Introductory Courses (select two)",
+      "note": "Select two of the following introductory courses (6 hours).",
+      "courses": [
+        { "id": "HISTORY_MINOR_HIST101", "code": "HIST 101", "title": "Culture, Power and Identity: Western Ideas & Institutions to 17th Century", "credits": 3 },
+        { "id": "HISTORY_MINOR_HIST102", "code": "HIST 102", "title": "Culture, Power and Identity: Western Ideas & Institutions from 17th Century", "credits": 3 },
+        { "id": "HISTORY_MINOR_HIST103", "code": "HIST 103", "title": "American Pluralism", "credits": 3 },
+        { "id": "HISTORY_MINOR_HIST104", "code": "HIST 104", "title": "Global History Since 1500", "credits": 3 },
+        { "id": "HISTORY_MINOR_HIST208", "code": "HIST 208", "title": "East Asian History: Themes & Issues", "credits": 3 },
+        { "id": "HISTORY_MINOR_HIST209", "code": "HIST 209", "title": "Islamic History: Themes & Issues", "credits": 3 },
+        { "id": "HISTORY_MINOR_HIST210", "code": "HIST 210", "title": "Latin American History: Themes & Issues", "credits": 3 },
+        { "id": "HISTORY_MINOR_HIST211", "code": "HIST 211", "title": "US History to 1865: Themes & Issues", "credits": 3 },
+        { "id": "HISTORY_MINOR_HIST212", "code": "HIST 212", "title": "US History since 1865: Themes & Issues", "credits": 3 },
+        { "id": "HISTORY_MINOR_HIST213", "code": "HIST 213", "title": "African History: Themes & Issues", "credits": 3 }
+      ]
+    },
+    "requiredAreas": {
+      "creditsRequired": 6,
+      "label": "Required Areas (select two 300-level courses)",
+      "note": "Select two 300-level courses from the list below (6 hours).",
+      "courses": [
+        { "id": "HISTORY_MINOR_POOL_HIST3XX", "code": "HIST 3XX", "title": "Any HIST 300-level course", "credits": 3, "uniqueProgress": true },
+        { "id": "HISTORY_MINOR_CLST362", "code": "CLST 362", "title": "Roman Law", "credits": 3 },
+        { "id": "HISTORY_MINOR_ECON327", "code": "ECON 327", "title": "American Economic & Business History", "credits": 3 },
+        { "id": "HISTORY_MINOR_THEO317", "code": "THEO 317", "title": "Christian Thought: Ancient-Medieval", "credits": 3 },
+        { "id": "HISTORY_MINOR_THEO318", "code": "THEO 318", "title": "Christian Thought: Reformation to Modern", "credits": 3 }
+      ]
+    },
+    "electives": {
+      "creditsRequired": 6,
+      "label": "Electives (select two additional courses)",
+      "note": "Select any two additional 3-hour classes (6 hours). These can be introductory or upper-level, drawn from designated HIST ranges plus CLST 362, ECON 327, THEO 317, or THEO 318.",
+      "courses": [
+        { "id": "HISTORY_MINOR_POOL_ELECTIVE", "code": "HIST XXX", "title": "Additional HIST course (introductory or upper-level)", "credits": 3, "uniqueProgress": true }
+      ]
+    }
+  },
+  "coreRequirements": [],
+  "checklist": [],
+  "roadmap": [
+    {
+      "year": 1,
+      "semester": "Fall",
+      "credits": 3,
+      "items": [
+        { "label": "Introductory (Core) Course #1", "credits": 3, "isElective": true }
+      ]
+    },
+    {
+      "year": 1,
+      "semester": "Spring",
+      "credits": 3,
+      "items": [
+        { "label": "Introductory (Core) Course #2", "credits": 3, "isElective": true }
+      ]
+    },
+    {
+      "year": 2,
+      "semester": "Fall",
+      "credits": 3,
+      "items": [
+        { "label": "Elective #1", "credits": 3, "isElective": true }
+      ]
+    },
+    {
+      "year": 3,
+      "semester": "Fall",
+      "credits": 3,
+      "items": [
+        { "label": "HIST 300-Level Course #1", "credits": 3, "isElective": true }
+      ]
+    },
+    {
+      "year": 3,
+      "semester": "Spring",
+      "credits": 3,
+      "items": [
+        { "label": "HIST 300-Level Course #2", "credits": 3, "isElective": true }
+      ]
+    },
+    {
+      "year": 4,
+      "semester": "Fall",
+      "credits": 3,
+      "items": [
+        { "label": "Elective #2", "credits": 3, "isElective": true }
+      ]
+    }
+  ]
+}

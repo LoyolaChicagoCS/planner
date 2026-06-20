@@ -1,0 +1,100 @@
+{
+  "id": "womens-studies-gender-studies-minor",
+  "department": "Women's Studies and Gender Studies",
+  "name": "Women's Studies and Gender Studies",
+  "degree": "Minor",
+  "school": "Loyola University Chicago",
+  "kind": "minor",
+  "totalCredits": 18,
+  "minorCredits": 18,
+  "hasCompletionEstimate": false,
+  "catalogUrl": "https://catalog.luc.edu/undergraduate/arts-sciences/womens-studies-gender-studies/womens-studies-gender-studies-minor/",
+  "courses": [
+    {
+      "id": "WOMENS_STUDIES_GENDER_STUDIES_MINOR_WSGS101",
+      "code": "WSGS 101",
+      "title": "Introduction to WSGS from a Global Perspective",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "WOMENS_STUDIES_GENDER_STUDIES_MINOR-grp1",
+      "choiceNote": "Choose WSGS 101 or WSGS 201"
+    },
+    {
+      "id": "WOMENS_STUDIES_GENDER_STUDIES_MINOR_WSGS201",
+      "code": "WSGS 201",
+      "title": "Contemporary Issues in WSGS",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "WOMENS_STUDIES_GENDER_STUDIES_MINOR-grp1",
+      "choiceNote": "Choose WSGS 101 or WSGS 201"
+    }
+  ],
+  "electiveOptions": {
+    "wsgsElectives": {
+      "creditsRequired": 15,
+      "label": "WSGS Electives",
+      "note": "Select five (5) elective courses from WSGS and cross-listed offerings with at least 2 of these at the 300 level.",
+      "courses": [
+        {
+          "id": "WOMENS_STUDIES_GENDER_STUDIES_MINOR_POOL1",
+          "code": "WSGS 3XX",
+          "title": "WSGS or cross-listed elective (at least 2 of 5 at the 300 level)",
+          "credits": 3,
+          "uniqueProgress": true
+        }
+      ]
+    }
+  },
+  "coreRequirements": [],
+  "checklist": [],
+  "roadmap": [
+    {
+      "year": 2,
+      "semester": "Fall",
+      "credits": 3,
+      "items": [
+        { "ref": "WOMENS_STUDIES_GENDER_STUDIES_MINOR_WSGS101" }
+      ]
+    },
+    {
+      "year": 2,
+      "semester": "Spring",
+      "credits": 3,
+      "items": [
+        { "label": "WSGS Elective", "credits": 3, "isElective": true }
+      ]
+    },
+    {
+      "year": 3,
+      "semester": "Fall",
+      "credits": 3,
+      "items": [
+        { "label": "WSGS Elective", "credits": 3, "isElective": true }
+      ]
+    },
+    {
+      "year": 3,
+      "semester": "Spring",
+      "credits": 3,
+      "items": [
+        { "label": "WSGS Elective", "credits": 3, "isElective": true }
+      ]
+    },
+    {
+      "year": 4,
+      "semester": "Fall",
+      "credits": 3,
+      "items": [
+        { "label": "WSGS Elective", "credits": 3, "isElective": true }
+      ]
+    },
+    {
+      "year": 4,
+      "semester": "Spring",
+      "credits": 3,
+      "items": [
+        { "label": "WSGS Elective", "credits": 3, "isElective": true }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": "entrepreneurship-minor",
+  "department": "Business Administration",
+  "name": "Entrepreneurship",
+  "degree": "Minor",
+  "school": "Loyola University Chicago",
+  "kind": "minor",
+  "totalCredits": 18,
+  "minorCredits": 18,
+  "hasCompletionEstimate": false,
+  "catalogUrl": "https://catalog.luc.edu/undergraduate/business/entrepreneurship-minor/",
+  "courses": [
+    { "id": "ENTREPRENEURSHIP_MINOR_ENTR201", "code": "ENTR 201", "title": "Essentials of Entrepreneurship", "credits": 3, "category": "major" },
+    { "id": "ENTREPRENEURSHIP_MINOR_ACCT201", "code": "ACCT 201", "title": "Introductory Accounting I", "credits": 3, "category": "major", "requirementGroup": "ENTREPRENEURSHIP_MINOR-grp1", "choiceNote": "Select two of the following: ACCT 201, ECON 201, INFS 247, MARK 201, MGMT 201" },
+    { "id": "ENTREPRENEURSHIP_MINOR_ECON201", "code": "ECON 201", "title": "Principles of Microeconomics", "credits": 3, "category": "major", "requirementGroup": "ENTREPRENEURSHIP_MINOR-grp1", "choiceNote": "Select two of the following: ACCT 201, ECON 201, INFS 247, MARK 201, MGMT 201" },
+    { "id": "ENTREPRENEURSHIP_MINOR_INFS247", "code": "INFS 247", "title": "Business Information Systems", "credits": 3, "category": "major", "requirementGroup": "ENTREPRENEURSHIP_MINOR-grp1", "choiceNote": "Select two of the following: ACCT 201, ECON 201, INFS 247, MARK 201, MGMT 201" },
+    { "id": "ENTREPRENEURSHIP_MINOR_MARK201", "code": "MARK 201", "title": "Principles of Marketing", "credits": 3, "category": "major", "requirementGroup": "ENTREPRENEURSHIP_MINOR-grp1", "choiceNote": "Select two of the following: ACCT 201, ECON 201, INFS 247, MARK 201, MGMT 201" },
+    { "id": "ENTREPRENEURSHIP_MINOR_MGMT201", "code": "MGMT 201", "title": "Managing People and Organizations", "credits": 3, "category": "major", "requirementGroup": "ENTREPRENEURSHIP_MINOR-grp1", "choiceNote": "Select two of the following: ACCT 201, ECON 201, INFS 247, MARK 201, MGMT 201" },
+    { "id": "ENTREPRENEURSHIP_MINOR_ENTR311", "code": "ENTR 311", "title": "Social Entrepreneurship", "credits": 3, "category": "major", "requirementGroup": "ENTREPRENEURSHIP_MINOR-grp2", "choiceNote": "Select three of the following: ENTR 311, ENTR 313, ENTR 345, ENTR 390, ENTR 391, ENTR 395, ENTR 399" },
+    { "id": "ENTREPRENEURSHIP_MINOR_ENTR313", "code": "ENTR 313", "title": "Entrepreneurship - Global Opportunity Scan", "credits": 3, "category": "major", "requirementGroup": "ENTREPRENEURSHIP_MINOR-grp2", "choiceNote": "Select three of the following: ENTR 311, ENTR 313, ENTR 345, ENTR 390, ENTR 391, ENTR 395, ENTR 399" },
+    { "id": "ENTREPRENEURSHIP_MINOR_ENTR345", "code": "ENTR 345", "title": "Entrepreneurial Marketing", "credits": 3, "category": "major", "requirementGroup": "ENTREPRENEURSHIP_MINOR-grp2", "choiceNote": "Select three of the following: ENTR 311, ENTR 313, ENTR 345, ENTR 390, ENTR 391, ENTR 395, ENTR 399" },
+    { "id": "ENTREPRENEURSHIP_MINOR_ENTR390", "code": "ENTR 390", "title": "Entrepreneurship Strategies - Capstone", "credits": 3, "category": "major", "requirementGroup": "ENTREPRENEURSHIP_MINOR-grp2", "choiceNote": "Select three of the following: ENTR 311, ENTR 313, ENTR 345, ENTR 390, ENTR 391, ENTR 395, ENTR 399" },
+    { "id": "ENTREPRENEURSHIP_MINOR_ENTR391", "code": "ENTR 391", "title": "New Venture Lab", "credits": 3, "category": "major", "requirementGroup": "ENTREPRENEURSHIP_MINOR-grp2", "choiceNote": "Select three of the following: ENTR 311, ENTR 313, ENTR 345, ENTR 390, ENTR 391, ENTR 395, ENTR 399" },
+    { "id": "ENTREPRENEURSHIP_MINOR_ENTR395", "code": "ENTR 395", "title": "Independent Study", "credits": 3, "category": "major", "requirementGroup": "ENTREPRENEURSHIP_MINOR-grp2", "choiceNote": "Select three of the following: ENTR 311, ENTR 313, ENTR 345, ENTR 390, ENTR 391, ENTR 395, ENTR 399" },
+    { "id": "ENTREPRENEURSHIP_MINOR_ENTR399", "code": "ENTR 399", "title": "Selected Topics in Entrepreneurship", "credits": 3, "category": "major", "requirementGroup": "ENTREPRENEURSHIP_MINOR-grp2", "choiceNote": "Select three of the following: ENTR 311, ENTR 313, ENTR 345, ENTR 390, ENTR 391, ENTR 395, ENTR 399" }
+  ],
+  "coreRequirements": [],
+  "checklist": [],
+  "roadmap": [
+    { "year": 1, "semester": "Spring", "credits": 3, "items": [ { "ref": "ENTREPRENEURSHIP_MINOR_ENTR201" } ] },
+    { "year": 2, "semester": "Fall", "credits": 3, "items": [ { "label": "200-level Business Principles course", "credits": 3, "isElective": true } ] },
+    { "year": 2, "semester": "Spring", "credits": 3, "items": [ { "label": "200-level Business Principles course", "credits": 3, "isElective": true } ] },
+    { "year": 3, "semester": "Fall", "credits": 3, "items": [ { "label": "ENTR Elective", "credits": 3, "isElective": true } ] },
+    { "year": 3, "semester": "Spring", "credits": 3, "items": [ { "label": "ENTR Elective", "credits": 3, "isElective": true } ] },
+    { "year": 4, "semester": "Fall", "credits": 3, "items": [ { "label": "ENTR Elective", "credits": 3, "isElective": true } ] }
+  ]
+}

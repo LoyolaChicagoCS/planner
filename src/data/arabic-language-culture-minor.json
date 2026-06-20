@@ -1,0 +1,42 @@
+{
+  "id": "arabic-language-culture-minor",
+  "department": "Modern Languages and Literatures",
+  "name": "Arabic Language and Culture",
+  "degree": "Minor",
+  "school": "Loyola University Chicago",
+  "kind": "minor",
+  "totalCredits": 18,
+  "minorCredits": 18,
+  "hasCompletionEstimate": false,
+  "catalogUrl": "https://catalog.luc.edu/undergraduate/arts-sciences/modern-languages-literatures/arabic-language-culture-minor/",
+  "courses": [
+    { "id": "ARABIC_LANGUAGE_CULTURE_MINOR_ARAB101", "code": "ARAB 101", "title": "Arabic I", "credits": 3, "category": "major", "requirementGroup": "ARABIC_LANGUAGE_CULTURE_MINOR-grp1", "choiceNote": "Choose four of ARAB 101, ARAB 102, ARAB 103, ARAB 104, ARAB 250, ARAB 251 (12 credit hours; language courses must be taken in order)" },
+    { "id": "ARABIC_LANGUAGE_CULTURE_MINOR_ARAB102", "code": "ARAB 102", "title": "Arabic II", "credits": 3, "category": "major", "requirementGroup": "ARABIC_LANGUAGE_CULTURE_MINOR-grp1", "choiceNote": "Choose four of ARAB 101, ARAB 102, ARAB 103, ARAB 104, ARAB 250, ARAB 251 (12 credit hours; language courses must be taken in order)" },
+    { "id": "ARABIC_LANGUAGE_CULTURE_MINOR_ARAB103", "code": "ARAB 103", "title": "Arabic III", "credits": 3, "category": "major", "requirementGroup": "ARABIC_LANGUAGE_CULTURE_MINOR-grp1", "choiceNote": "Choose four of ARAB 101, ARAB 102, ARAB 103, ARAB 104, ARAB 250, ARAB 251 (12 credit hours; language courses must be taken in order)" },
+    { "id": "ARABIC_LANGUAGE_CULTURE_MINOR_ARAB104", "code": "ARAB 104", "title": "Arabic IV", "credits": 3, "category": "major", "requirementGroup": "ARABIC_LANGUAGE_CULTURE_MINOR-grp1", "choiceNote": "Choose four of ARAB 101, ARAB 102, ARAB 103, ARAB 104, ARAB 250, ARAB 251 (12 credit hours; language courses must be taken in order)" },
+    { "id": "ARABIC_LANGUAGE_CULTURE_MINOR_ARAB250", "code": "ARAB 250", "title": "Advanced Composition and Conversation", "credits": 3, "category": "major", "requirementGroup": "ARABIC_LANGUAGE_CULTURE_MINOR-grp1", "choiceNote": "Choose four of ARAB 101, ARAB 102, ARAB 103, ARAB 104, ARAB 250, ARAB 251 (12 credit hours; language courses must be taken in order)" },
+    { "id": "ARABIC_LANGUAGE_CULTURE_MINOR_ARAB251", "code": "ARAB 251", "title": "Advanced Composition and Conversation II", "credits": 3, "category": "major", "requirementGroup": "ARABIC_LANGUAGE_CULTURE_MINOR-grp1", "choiceNote": "Choose four of ARAB 101, ARAB 102, ARAB 103, ARAB 104, ARAB 250, ARAB 251 (12 credit hours; language courses must be taken in order)" },
+    { "id": "ARABIC_LANGUAGE_CULTURE_MINOR_LITR238", "code": "LITR 238", "title": "Arabic Literature in Translation", "credits": 3, "category": "major", "requirementGroup": "ARABIC_LANGUAGE_CULTURE_MINOR-grp2", "choiceNote": "Choose LITR 238 or LITR 280" },
+    { "id": "ARABIC_LANGUAGE_CULTURE_MINOR_LITR280", "code": "LITR 280", "title": "World Masterpieces in Translation", "credits": 3, "category": "major", "requirementGroup": "ARABIC_LANGUAGE_CULTURE_MINOR-grp2", "choiceNote": "Choose LITR 238 or LITR 280" },
+    { "id": "ARABIC_LANGUAGE_CULTURE_MINOR_ANTH220", "code": "ANTH 220", "title": "Contemporary Cultures of the Middle East", "credits": 3, "category": "major", "requirementGroup": "ARABIC_LANGUAGE_CULTURE_MINOR-grp3", "choiceNote": "Choose one Arabic Culture course (other options may become available on a rotating basis)" },
+    { "id": "ARABIC_LANGUAGE_CULTURE_MINOR_COMM297", "code": "COMM 297", "title": "Themes in Communication Studies", "credits": 3, "category": "major", "requirementGroup": "ARABIC_LANGUAGE_CULTURE_MINOR-grp3", "choiceNote": "Choose one Arabic Culture course (other options may become available on a rotating basis)" },
+    { "id": "ARABIC_LANGUAGE_CULTURE_MINOR_FNAR352", "code": "FNAR 352", "title": "Islam and Visual Culture", "credits": 3, "category": "major", "requirementGroup": "ARABIC_LANGUAGE_CULTURE_MINOR-grp3", "choiceNote": "Choose one Arabic Culture course (other options may become available on a rotating basis)" },
+    { "id": "ARABIC_LANGUAGE_CULTURE_MINOR_HIST209", "code": "HIST 209", "title": "Islamic History: Themes & Issues", "credits": 3, "category": "major", "requirementGroup": "ARABIC_LANGUAGE_CULTURE_MINOR-grp3", "choiceNote": "Choose one Arabic Culture course (other options may become available on a rotating basis)" },
+    { "id": "ARABIC_LANGUAGE_CULTURE_MINOR_HIST300", "code": "HIST 300", "title": "Topics in History", "credits": 3, "category": "major", "requirementGroup": "ARABIC_LANGUAGE_CULTURE_MINOR-grp3", "choiceNote": "Choose one Arabic Culture course (other options may become available on a rotating basis)" },
+    { "id": "ARABIC_LANGUAGE_CULTURE_MINOR_HIST312", "code": "HIST 312", "title": "England to 1485", "credits": 3, "category": "major", "requirementGroup": "ARABIC_LANGUAGE_CULTURE_MINOR-grp3", "choiceNote": "Choose one Arabic Culture course (other options may become available on a rotating basis)" },
+    { "id": "ARABIC_LANGUAGE_CULTURE_MINOR_PLSC300", "code": "PLSC 300", "title": "Contemporary Political Issues", "credits": 3, "category": "major", "requirementGroup": "ARABIC_LANGUAGE_CULTURE_MINOR-grp3", "choiceNote": "Choose one Arabic Culture course (other options may become available on a rotating basis)" },
+    { "id": "ARABIC_LANGUAGE_CULTURE_MINOR_PLSC368", "code": "PLSC 368", "title": "Politics of the Middle East", "credits": 3, "category": "major", "requirementGroup": "ARABIC_LANGUAGE_CULTURE_MINOR-grp3", "choiceNote": "Choose one Arabic Culture course (other options may become available on a rotating basis)" },
+    { "id": "ARABIC_LANGUAGE_CULTURE_MINOR_THEO295", "code": "THEO 295", "title": "Islam", "credits": 3, "category": "major", "requirementGroup": "ARABIC_LANGUAGE_CULTURE_MINOR-grp3", "choiceNote": "Choose one Arabic Culture course (other options may become available on a rotating basis)" },
+    { "id": "ARABIC_LANGUAGE_CULTURE_MINOR_THEO365", "code": "THEO 365", "title": "Women, Gender and Embodiment in Islam", "credits": 3, "category": "major", "requirementGroup": "ARABIC_LANGUAGE_CULTURE_MINOR-grp3", "choiceNote": "Choose one Arabic Culture course (other options may become available on a rotating basis)" }
+  ],
+  "coreRequirements": [],
+  "checklist": [],
+  "roadmap": [
+    { "year": 1, "semester": "Semester I", "credits": 3, "items": [ { "label": "Arabic Language Course #1", "credits": 3, "isElective": true } ] },
+    { "year": 1, "semester": "Semester II", "credits": 3, "items": [ { "label": "Arabic Language Course #2", "credits": 3, "isElective": true } ] },
+    { "year": 2, "semester": "Semester III", "credits": 3, "items": [ { "label": "Arabic Language Course #3", "credits": 3, "isElective": true } ] },
+    { "year": 2, "semester": "Semester IV", "credits": 3, "items": [ { "label": "Arabic Language Course #4", "credits": 3, "isElective": true } ] },
+    { "year": 3, "semester": "Semester V", "credits": 3, "items": [ { "label": "Arabic Literature in Translation Course", "credits": 3, "isElective": true } ] },
+    { "year": 3, "semester": "Semester VI", "credits": 3, "items": [ { "label": "Arabic Culture Course", "credits": 3, "isElective": true } ] }
+  ]
+}

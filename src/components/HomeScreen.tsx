@@ -106,7 +106,7 @@ export default function HomeScreen({ programs, onSelect }: HomeScreenProps) {
 
   // CAS BA/BS programs (not CS dept, not Communication, not Business)
   const allCasPrograms = programs.filter(p =>
-    (p.degree === 'BA' || p.degree === 'BS') &&
+    (p.degree === 'BA' || p.degree === 'BS' || p.kind === 'minor') &&
     p.department !== 'Computer Science' &&
     p.department !== 'Communication' &&
     p.department !== 'Business Administration',

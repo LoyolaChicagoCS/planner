@@ -1,0 +1,86 @@
+{
+  "id": "physics-minor",
+  "department": "Physics",
+  "name": "Physics",
+  "degree": "Minor",
+  "school": "Loyola University Chicago",
+  "kind": "minor",
+  "totalCredits": 30,
+  "minorCredits": 30,
+  "hasCompletionEstimate": false,
+  "catalogUrl": "https://catalog.luc.edu/undergraduate/arts-sciences/physics/physics-minor/",
+  "courses": [
+    { "id": "PHYSICS_MINOR_PHYS121", "code": "PHYS 121", "title": "College Physics I with Calculus Lecture/Discussion", "credits": 3, "category": "major" },
+    { "id": "PHYSICS_MINOR_PHYS111L", "code": "PHYS 111L", "title": "College Physics Laboratory I", "credits": 1, "category": "major" },
+    { "id": "PHYSICS_MINOR_PHYS122", "code": "PHYS 122", "title": "College Physics II with Calculus Lecture/Discussion", "credits": 3, "category": "major" },
+    { "id": "PHYSICS_MINOR_PHYS112L", "code": "PHYS 112L", "title": "College Physics Lab II", "credits": 1, "category": "major" },
+    { "id": "PHYSICS_MINOR_PHYS235", "code": "PHYS 235", "title": "Modern Physics", "credits": 3, "category": "major" },
+    { "id": "PHYSICS_MINOR_PHYS235L", "code": "PHYS 235L", "title": "Modern Physics Laboratory", "credits": 1, "category": "major" },
+    { "id": "PHYSICS_MINOR_MATH161", "code": "MATH 161", "title": "Calculus I", "credits": 4, "category": "major" },
+    { "id": "PHYSICS_MINOR_MATH162", "code": "MATH 162", "title": "Calculus II", "credits": 4, "category": "major" },
+    { "id": "PHYSICS_MINOR_MATH263", "code": "MATH 263", "title": "Multivariable Calculus", "credits": 4, "category": "major" }
+  ],
+  "electiveOptions": {
+    "electives": {
+      "creditsRequired": 6,
+      "label": "Physics Electives",
+      "note": "Complete six credit hours from the following list. A minimum of three hours must be at the PHYS 300-level. Up to three hours of PHYS 391 (Research) may count toward the minor.",
+      "courses": [
+        { "id": "PHYSICS_MINOR_PHYS126F", "code": "PHYS 126F", "title": "Freshman Projects", "credits": 3 },
+        { "id": "PHYSICS_MINOR_PHYS130", "code": "PHYS 130", "title": "Introduction to Computational Physics", "credits": 3 },
+        { "id": "PHYSICS_MINOR_PHYS301", "code": "PHYS 301", "title": "Mathematical Methods in Physics", "credits": 3 },
+        { "id": "PHYSICS_MINOR_PHYS303", "code": "PHYS 303", "title": "Electronics I", "credits": 3 },
+        { "id": "PHYSICS_MINOR_PHYS303L", "code": "PHYS 303L", "title": "Electronics Laboratory", "credits": 1 },
+        { "id": "PHYSICS_MINOR_PHYS310", "code": "PHYS 310", "title": "Optics", "credits": 3 },
+        { "id": "PHYSICS_MINOR_PHYS310L", "code": "PHYS 310L", "title": "Optics Lab", "credits": 1 },
+        { "id": "PHYSICS_MINOR_PHYS371", "code": "PHYS 371", "title": "Biophysics", "credits": 3 },
+        { "id": "PHYSICS_MINOR_PHYS381", "code": "PHYS 381", "title": "Special Topics in Physics", "credits": 3 },
+        { "id": "PHYSICS_MINOR_PHYS391", "code": "PHYS 391", "title": "Research", "credits": 3 },
+        { "id": "PHYSICS_MINOR_MATH264", "code": "MATH 264", "title": "Ordinary Differential Equations", "credits": 3 }
+      ]
+    }
+  },
+  "coreRequirements": [],
+  "checklist": [],
+  "roadmap": [
+    {
+      "year": 1,
+      "semester": "Fall",
+      "credits": 8,
+      "items": [
+        { "ref": "PHYSICS_MINOR_PHYS121" },
+        { "ref": "PHYSICS_MINOR_PHYS111L" },
+        { "ref": "PHYSICS_MINOR_MATH161" }
+      ]
+    },
+    {
+      "year": 1,
+      "semester": "Spring",
+      "credits": 8,
+      "items": [
+        { "ref": "PHYSICS_MINOR_PHYS122" },
+        { "ref": "PHYSICS_MINOR_PHYS112L" },
+        { "ref": "PHYSICS_MINOR_MATH162" }
+      ]
+    },
+    {
+      "year": 2,
+      "semester": "Fall",
+      "credits": 8,
+      "items": [
+        { "ref": "PHYSICS_MINOR_PHYS235" },
+        { "ref": "PHYSICS_MINOR_PHYS235L" },
+        { "ref": "PHYSICS_MINOR_MATH263" }
+      ]
+    },
+    {
+      "year": 2,
+      "semester": "Spring",
+      "credits": 6,
+      "items": [
+        { "label": "PHYS 300-Level Elective", "credits": 3, "isElective": true },
+        { "label": "PHYS Elective", "credits": 3, "isElective": true }
+      ]
+    }
+  ]
+}

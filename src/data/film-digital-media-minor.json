@@ -1,0 +1,118 @@
+{
+  "id": "film-digital-media-minor",
+  "department": "Communication",
+  "name": "Film and Digital Media",
+  "degree": "Minor",
+  "school": "Loyola University Chicago",
+  "kind": "minor",
+  "totalCredits": 21,
+  "minorCredits": 21,
+  "hasCompletionEstimate": false,
+  "catalogUrl": "https://catalog.luc.edu/undergraduate/communication/film-digital-media/film-digital-media-minor/",
+  "courses": [
+    { "id": "FILM_DIGITAL_MEDIA_MINOR_COMM201", "code": "COMM 201", "title": "Media Theory and Criticism", "credits": 3, "category": "major" },
+    { "id": "FILM_DIGITAL_MEDIA_MINOR_COMM274", "code": "COMM 274", "title": "Introduction to Cinema", "credits": 3, "category": "major" }
+  ],
+  "electiveOptions": {
+    "basicProduction": {
+      "creditsRequired": 3,
+      "label": "Basic Production Course",
+      "note": "Select one of the following (3 hours): COMM 130, COMM 135, or COMM 275.",
+      "courses": [
+        { "id": "FILM_DIGITAL_MEDIA_MINOR_BP_COMM130", "code": "COMM 130", "title": "Intro to Audio Production", "credits": 3 },
+        { "id": "FILM_DIGITAL_MEDIA_MINOR_BP_COMM135", "code": "COMM 135", "title": "Intro to Video Production", "credits": 3 },
+        { "id": "FILM_DIGITAL_MEDIA_MINOR_BP_COMM275", "code": "COMM 275", "title": "Web Design and Usability", "credits": 3 }
+      ]
+    },
+    "productionElectives": {
+      "creditsRequired": 6,
+      "label": "Production Electives",
+      "note": "Select two of the following (6 hours); a max of one course may be taken at the 100-level.",
+      "courses": [
+        { "id": "FILM_DIGITAL_MEDIA_MINOR_PE_COMM130", "code": "COMM 130", "title": "Intro to Audio Production", "credits": 3 },
+        { "id": "FILM_DIGITAL_MEDIA_MINOR_PE_COMM135", "code": "COMM 135", "title": "Intro to Video Production", "credits": 3 },
+        { "id": "FILM_DIGITAL_MEDIA_MINOR_PE_COMM207", "code": "COMM 207", "title": "Photojournalism", "credits": 3 },
+        { "id": "FILM_DIGITAL_MEDIA_MINOR_PE_COMM232", "code": "COMM 232", "title": "Cinematography I", "credits": 3 },
+        { "id": "FILM_DIGITAL_MEDIA_MINOR_PE_COMM275", "code": "COMM 275", "title": "Web Design and Usability", "credits": 3 },
+        { "id": "FILM_DIGITAL_MEDIA_MINOR_PE_COMM299", "code": "COMM 299", "title": "Themes in Film and Digital Media", "credits": 3 },
+        { "id": "FILM_DIGITAL_MEDIA_MINOR_PE_COMM305", "code": "COMM 305", "title": "Animation", "credits": 3 },
+        { "id": "FILM_DIGITAL_MEDIA_MINOR_PE_COMM308", "code": "COMM 308", "title": "Screen Directing", "credits": 3 },
+        { "id": "FILM_DIGITAL_MEDIA_MINOR_PE_COMM326", "code": "COMM 326", "title": "Screenwriting", "credits": 3 },
+        { "id": "FILM_DIGITAL_MEDIA_MINOR_PE_COMM339", "code": "COMM 339", "title": "Video Documentary", "credits": 3 },
+        { "id": "FILM_DIGITAL_MEDIA_MINOR_PE_COMM359", "code": "COMM 359", "title": "Advanced Post Production", "credits": 3 },
+        { "id": "FILM_DIGITAL_MEDIA_MINOR_PE_COMM373", "code": "COMM 373", "title": "Digital Storytelling Abroad", "credits": 3 },
+        { "id": "FILM_DIGITAL_MEDIA_MINOR_PE_COMM384", "code": "COMM 384", "title": "Film and Digital Media Practicum", "credits": 3 },
+        { "id": "FILM_DIGITAL_MEDIA_MINOR_PE_FNAR233", "code": "FNAR 233", "title": "Digital Media Design", "credits": 3 }
+      ]
+    },
+    "filmMediaStudiesElectives": {
+      "creditsRequired": 6,
+      "label": "Film & Media Studies Electives",
+      "note": "Select two of the following (6 hours).",
+      "courses": [
+        { "id": "FILM_DIGITAL_MEDIA_MINOR_FMS_COMM200", "code": "COMM 200", "title": "Digital Communication and Society", "credits": 3 },
+        { "id": "FILM_DIGITAL_MEDIA_MINOR_FMS_COMM203", "code": "COMM 203", "title": "Topics in Cinema History", "credits": 3 },
+        { "id": "FILM_DIGITAL_MEDIA_MINOR_FMS_COMM258", "code": "COMM 258", "title": "Game Studies", "credits": 3 },
+        { "id": "FILM_DIGITAL_MEDIA_MINOR_FMS_COMM322", "code": "COMM 322", "title": "Guerilla Media", "credits": 3 },
+        { "id": "FILM_DIGITAL_MEDIA_MINOR_FMS_COMM323", "code": "COMM 323", "title": "Remixing Culture", "credits": 3 },
+        { "id": "FILM_DIGITAL_MEDIA_MINOR_FMS_COMM324", "code": "COMM 324", "title": "Film Genre", "credits": 3 },
+        { "id": "FILM_DIGITAL_MEDIA_MINOR_FMS_COMM357", "code": "COMM 357", "title": "Programming Film & Media: Festivals, TV & Digital", "credits": 3 },
+        { "id": "FILM_DIGITAL_MEDIA_MINOR_FMS_COMM361", "code": "COMM 361", "title": "New Media Criticism", "credits": 3 },
+        { "id": "FILM_DIGITAL_MEDIA_MINOR_FMS_COMM374", "code": "COMM 374", "title": "Special Topics: Film & Digital Media", "credits": 3 }
+      ]
+    }
+  },
+  "coreRequirements": [],
+  "checklist": [],
+  "roadmap": [
+    {
+      "year": 2,
+      "semester": "Fall",
+      "credits": 6,
+      "items": [
+        { "ref": "FILM_DIGITAL_MEDIA_MINOR_COMM201" },
+        { "ref": "FILM_DIGITAL_MEDIA_MINOR_COMM274" }
+      ]
+    },
+    {
+      "year": 2,
+      "semester": "Spring",
+      "credits": 3,
+      "items": [
+        { "label": "Basic Production Course", "credits": 3, "isElective": true }
+      ]
+    },
+    {
+      "year": 3,
+      "semester": "Fall",
+      "credits": 3,
+      "items": [
+        { "label": "Production Elective #1", "credits": 3, "isElective": true }
+      ]
+    },
+    {
+      "year": 3,
+      "semester": "Spring",
+      "credits": 3,
+      "items": [
+        { "label": "Production Elective #2", "credits": 3, "isElective": true }
+      ]
+    },
+    {
+      "year": 4,
+      "semester": "Fall",
+      "credits": 3,
+      "items": [
+        { "label": "Film and Media Studies Elective #1", "credits": 3, "isElective": true }
+      ]
+    },
+    {
+      "year": 4,
+      "semester": "Spring",
+      "credits": 3,
+      "items": [
+        { "label": "Film and Media Studies Elective #2", "credits": 3, "isElective": true }
+      ]
+    }
+  ]
+}

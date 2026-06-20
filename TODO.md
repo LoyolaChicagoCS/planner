@@ -1,22 +1,30 @@
 # TODO
 
-## 1. Minors — None exist yet outside CS
+## 1. Minors — DONE (2026-06-20)
 
-The Minors tabs for CAS, Business, and Communication are all empty. Need to add programs with `"kind": "minor"` for each school.
+Added **86 minors** across CAS (63), Quinlan Business (14), and the School of Communication (9),
+fetched from catalog.luc.edu and transcribed into `src/data/*-minor.json` with `"kind": "minor"`.
+59 include catalog-derived sample-sequence roadmaps; the rest are requirements-only (the catalog
+page had no sample sequence). All registered in `programs.ts`.
 
-### CAS minors to add
-- Biology, Chemistry, Physics, Mathematics, Statistics
-- History, Philosophy, Sociology, Psychology, Political Science
-- English, French, Spanish, Italian, Classics
-- Theology, Religious Studies, Women's Studies
-- Fine Arts, Theatre, Dance, Music
-- African Studies, Anthropology, Criminal Justice, Global Studies
+Required code fix: `HomeScreen.tsx`'s CAS filter excluded `degree: "Minor"`; it now also keeps
+`kind === 'minor'`. Business/Communication route by `department`, so no change was needed there.
 
-### Business minors to add
-- Accounting, Finance, Entrepreneurship, Marketing, Management, Supply Chain, International Business, Information Systems
+Department headers reuse the exact strings used by the matching majors (e.g.
+`"Chemistry and Biochemistry"`, `"Modern Languages and Literatures"`, `"Fine and Performing Arts"`)
+so each minor groups under its major.
 
-### Communication minors to add
-- Advertising, Journalism, Communication Studies, Film & Media, Sports Media
+Not added (out of the three supported schools, or already exist as CS-dept minors): Education,
+Nursing, Health Sciences, Environmental Sustainability, and Social Work minors; the Data Science and
+Bioinformatics minors (CS-department, would belong in the CS tab — revisit if wanted).
+
+### Follow-up for the minors data
+- Open elective *pools* (e.g. "9 credits of 300-level HIST") are modeled with a single placeholder
+  option (`"code": "XXX 3XX", "uniqueProgress": true`). Where the catalog enumerates allowed
+  courses, those are listed instead. Spot-check pool-heavy minors against the catalog.
+- A handful of Business minors have eligibility caveats (e.g. some require/exclude Quinlan students,
+  or reduce credits because courses double as the Business Core). These are captured in `note` text,
+  not enforced by the model.
 
 ---
 
@@ -73,5 +81,5 @@ Currently neither school has anything in their Interdisciplinary tab. Check whet
 
 ## 6. Minor quality-of-life items
 
-- `minorCredits` field is missing on some programs — the card falls back to `totalCredits`, which may be wrong for minors
+- `minorCredits` field is missing on some programs — the card falls back to `totalCredits`, which may be wrong for minors. (All 86 newly-added minors set `minorCredits` explicitly; this remains for older/CS-dept entries.)
 - History BA, Philosophy BA, Theology BA, Religious Studies BA roadmaps have 0 tracked `ref` items (all `isElective`) — could be improved once course IDs are verified against catalog

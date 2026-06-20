@@ -1,0 +1,56 @@
+{
+  "id": "advertising-minor",
+  "department": "Communication",
+  "name": "Advertising",
+  "degree": "Minor",
+  "school": "Loyola University Chicago",
+  "kind": "minor",
+  "totalCredits": 21,
+  "minorCredits": 21,
+  "hasCompletionEstimate": false,
+  "catalogUrl": "https://catalog.luc.edu/undergraduate/communication/advertising-creative/advertising-minor/",
+  "courses": [
+    { "id": "ADVERTISING_MINOR_COMM175", "code": "COMM 175", "title": "Introduction to Communication", "credits": 3, "category": "major" },
+    { "id": "ADVERTISING_MINOR_COMM211", "code": "COMM 211", "title": "Principles of Advertising", "credits": 3, "category": "major" },
+    { "id": "ADVERTISING_MINOR_COMM213", "code": "COMM 213", "title": "Digital Foundations", "credits": 3, "category": "major" },
+    { "id": "ADVERTISING_MINOR_COMM214", "code": "COMM 214", "title": "Creative Concepts 1", "credits": 3, "category": "major" },
+    { "id": "ADVERTISING_MINOR_COMM317", "code": "COMM 317", "title": "Media Planning", "credits": 3, "category": "major" }
+  ],
+  "electiveOptions": {
+    "electives": {
+      "creditsRequired": 6,
+      "label": "Advertising Minor Electives",
+      "note": "Select two of the following (6 hrs).",
+      "courses": [
+        { "id": "ADVERTISING_MINOR_COMM101", "code": "COMM 101", "title": "Public Speaking & Critical Thinking", "credits": 3, "requirementGroup": "ADVERTISING_MINOR-grp1", "choiceNote": "Choose COMM 101 or COMM 103" },
+        { "id": "ADVERTISING_MINOR_COMM103", "code": "COMM 103", "title": "Business & Professional Speaking", "credits": 3, "requirementGroup": "ADVERTISING_MINOR-grp1", "choiceNote": "Choose COMM 101 or COMM 103" },
+        { "id": "ADVERTISING_MINOR_COMM205", "code": "COMM 205", "title": "Reporting Basics I: Writing and Interviewing", "credits": 3 },
+        { "id": "ADVERTISING_MINOR_COMM212", "code": "COMM 212", "title": "International Advertising", "credits": 3 },
+        { "id": "ADVERTISING_MINOR_COMM266", "code": "COMM 266", "title": "Advertising Copywriting", "credits": 3 },
+        { "id": "ADVERTISING_MINOR_COMM290", "code": "COMM 290", "title": "Branding and Positioning", "credits": 3 },
+        { "id": "ADVERTISING_MINOR_COMM296", "code": "COMM 296", "title": "Themes in Advertising/Public Relations", "credits": 3 },
+        { "id": "ADVERTISING_MINOR_COMM311", "code": "COMM 311", "title": "Health Communication", "credits": 3 },
+        { "id": "ADVERTISING_MINOR_COMM312", "code": "COMM 312", "title": "Special Events Planning", "credits": 3 },
+        { "id": "ADVERTISING_MINOR_COMM321", "code": "COMM 321", "title": "Advertising Campaigns", "credits": 3 },
+        { "id": "ADVERTISING_MINOR_COMM329", "code": "COMM 329", "title": "Advertising and Public Relations Design", "credits": 3 },
+        { "id": "ADVERTISING_MINOR_COMM331", "code": "COMM 331", "title": "Social Media Campaigns", "credits": 3 },
+        { "id": "ADVERTISING_MINOR_COMM335", "code": "COMM 335", "title": "Creating ADPR Content with AI", "credits": 3 },
+        { "id": "ADVERTISING_MINOR_COMM337", "code": "COMM 337", "title": "AD/PR Multimedia Commercial Production", "credits": 3 },
+        { "id": "ADVERTISING_MINOR_COMM345", "code": "COMM 345", "title": "Student Agency", "credits": 3 },
+        { "id": "ADVERTISING_MINOR_COMM347", "code": "COMM 347", "title": "Influencers & Social Economy", "credits": 3 },
+        { "id": "ADVERTISING_MINOR_COMM370", "code": "COMM 370", "title": "Special Topics in Advertising & Public Relations", "credits": 3 },
+        { "id": "ADVERTISING_MINOR_COMM391", "code": "COMM 391", "title": "Advertising/Public Relations Internship", "credits": 3 }
+      ]
+    }
+  },
+  "coreRequirements": [],
+  "checklist": [],
+  "roadmap": [
+    { "year": 2, "semester": "Fall", "credits": 3, "items": [ { "ref": "ADVERTISING_MINOR_COMM175" } ] },
+    { "year": 2, "semester": "Spring", "credits": 3, "items": [ { "ref": "ADVERTISING_MINOR_COMM211" } ] },
+    { "year": 3, "semester": "Fall", "credits": 3, "items": [ { "ref": "ADVERTISING_MINOR_COMM213" } ] },
+    { "year": 3, "semester": "Spring", "credits": 3, "items": [ { "ref": "ADVERTISING_MINOR_COMM214" } ] },
+    { "year": 4, "semester": "Fall", "credits": 3, "items": [ { "ref": "ADVERTISING_MINOR_COMM317" } ] },
+    { "year": 4, "semester": "Spring", "credits": 6, "items": [ { "label": "Minor Elective #1", "credits": 3, "isElective": true }, { "label": "Minor Elective #2", "credits": 3, "isElective": true } ] }
+  ]
+}

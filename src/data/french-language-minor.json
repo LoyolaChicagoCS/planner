@@ -1,0 +1,30 @@
+{
+  "id": "french-language-minor",
+  "department": "Modern Languages and Literatures",
+  "name": "French Language",
+  "degree": "Minor",
+  "school": "Loyola University Chicago",
+  "kind": "minor",
+  "totalCredits": 18,
+  "minorCredits": 18,
+  "hasCompletionEstimate": false,
+  "catalogUrl": "https://catalog.luc.edu/undergraduate/arts-sciences/modern-languages-literatures/french-language-minor/",
+  "courses": [
+    { "id": "FRENCH_LANGUAGE_MINOR_FREN101", "code": "FREN 101", "title": "Elementary French I", "credits": 3, "category": "major" },
+    { "id": "FRENCH_LANGUAGE_MINOR_FREN102", "code": "FREN 102", "title": "Elementary French II", "credits": 3, "category": "major" },
+    { "id": "FRENCH_LANGUAGE_MINOR_FREN103", "code": "FREN 103", "title": "Intermediate French I", "credits": 3, "category": "major" },
+    { "id": "FRENCH_LANGUAGE_MINOR_FREN104", "code": "FREN 104", "title": "Intermediate French II", "credits": 3, "category": "major" },
+    { "id": "FRENCH_LANGUAGE_MINOR_FREN250", "code": "FREN 250", "title": "French Composition and Conversation I", "credits": 3, "category": "major" },
+    { "id": "FRENCH_LANGUAGE_MINOR_FREN251", "code": "FREN 251", "title": "French Composition and Conversation II", "credits": 3, "category": "major" }
+  ],
+  "coreRequirements": [],
+  "checklist": [],
+  "roadmap": [
+    { "year": 1, "semester": "Semester I", "credits": 3, "items": [ { "ref": "FRENCH_LANGUAGE_MINOR_FREN101" } ] },
+    { "year": 1, "semester": "Semester II", "credits": 3, "items": [ { "ref": "FRENCH_LANGUAGE_MINOR_FREN102" } ] },
+    { "year": 2, "semester": "Semester III", "credits": 3, "items": [ { "ref": "FRENCH_LANGUAGE_MINOR_FREN103" } ] },
+    { "year": 2, "semester": "Semester IV", "credits": 3, "items": [ { "ref": "FRENCH_LANGUAGE_MINOR_FREN104" } ] },
+    { "year": 3, "semester": "Semester V", "credits": 3, "items": [ { "ref": "FRENCH_LANGUAGE_MINOR_FREN250" } ] },
+    { "year": 3, "semester": "Semester VI", "credits": 3, "items": [ { "ref": "FRENCH_LANGUAGE_MINOR_FREN251" } ] }
+  ]
+}

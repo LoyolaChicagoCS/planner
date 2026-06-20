@@ -1,0 +1,31 @@
+{
+  "id": "french-language-literature-minor",
+  "department": "Modern Languages and Literatures",
+  "name": "French Language and Literature",
+  "degree": "Minor",
+  "school": "Loyola University Chicago",
+  "kind": "minor",
+  "totalCredits": 18,
+  "minorCredits": 18,
+  "hasCompletionEstimate": false,
+  "catalogUrl": "https://catalog.luc.edu/undergraduate/arts-sciences/modern-languages-literatures/french-language-literature-minor/",
+  "courses": [
+    { "id": "FRENCH_LANGUAGE_LITERATURE_MINOR_FREN250", "code": "FREN 250", "title": "French Composition and Conversation I", "credits": 3, "category": "major" },
+    { "id": "FRENCH_LANGUAGE_LITERATURE_MINOR_FREN251", "code": "FREN 251", "title": "French Composition and Conversation II", "credits": 3, "category": "major" },
+    { "id": "FRENCH_LANGUAGE_LITERATURE_MINOR_FREN270", "code": "FREN 270", "title": "Main Currents of French Literature & Culture I", "credits": 3, "category": "major" },
+    { "id": "FRENCH_LANGUAGE_LITERATURE_MINOR_FREN271", "code": "FREN 271", "title": "Main Currents of French Literature & Culture II", "credits": 3, "category": "major" }
+  ],
+  "electiveOptions": {
+    "fren300": {
+      "creditsRequired": 6,
+      "label": "Two FREN 300-Level Courses",
+      "note": "Two FREN 300-level courses (6 credit hours).",
+      "courses": [
+        { "id": "FRENCH_LANGUAGE_LITERATURE_MINOR_POOL1", "code": "FREN 3XX", "title": "300-level FREN elective", "credits": 3, "uniqueProgress": true },
+        { "id": "FRENCH_LANGUAGE_LITERATURE_MINOR_POOL2", "code": "FREN 3XX", "title": "300-level FREN elective", "credits": 3, "uniqueProgress": true }
+      ]
+    }
+  },
+  "coreRequirements": [],
+  "checklist": []
+}

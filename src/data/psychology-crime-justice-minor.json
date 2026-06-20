@@ -1,0 +1,103 @@
+{
+  "id": "psychology-crime-justice-minor",
+  "department": "Psychology",
+  "name": "Psychology of Crime and Justice",
+  "degree": "Minor",
+  "school": "Loyola University Chicago",
+  "kind": "minor",
+  "totalCredits": 18,
+  "minorCredits": 18,
+  "hasCompletionEstimate": false,
+  "catalogUrl": "https://catalog.luc.edu/undergraduate/arts-sciences/psychology-crime-justice/psychology-crime-justice-minor/",
+  "courses": [
+    {
+      "id": "PSYCHOLOGY_CRIME_JUSTICE_MINOR_PSYC331",
+      "code": "PSYC 331",
+      "title": "Psychopathology",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "PSYCHOLOGY_CRIME_JUSTICE_MINOR-grp1",
+      "choiceNote": "Choose PSYC 331 or PSYC 372/CJC 377"
+    },
+    {
+      "id": "PSYCHOLOGY_CRIME_JUSTICE_MINOR_PSYC372",
+      "code": "PSYC 372",
+      "title": "Psychology & Law",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "PSYCHOLOGY_CRIME_JUSTICE_MINOR-grp1",
+      "choiceNote": "Choose PSYC 331 or PSYC 372/CJC 377"
+    },
+    {
+      "id": "PSYCHOLOGY_CRIME_JUSTICE_MINOR_CJC345",
+      "code": "CJC 345",
+      "title": "Social Justice and Crime",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "PSYCHOLOGY_CRIME_JUSTICE_MINOR-grp2",
+      "choiceNote": "Choose CJC 345 or CJC 346"
+    },
+    {
+      "id": "PSYCHOLOGY_CRIME_JUSTICE_MINOR_CJC346",
+      "code": "CJC 346",
+      "title": "Mental Illness and Crime",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "PSYCHOLOGY_CRIME_JUSTICE_MINOR-grp2",
+      "choiceNote": "Choose CJC 345 or CJC 346"
+    },
+    {
+      "id": "PSYCHOLOGY_CRIME_JUSTICE_MINOR_CJC101",
+      "code": "CJC 101",
+      "title": "Criminal Justice in a Global Context",
+      "credits": 3,
+      "category": "major",
+      "choiceNote": "Required for Psychology majors and all non-CJC majors; CJC majors take PSYC 101 instead. Additional requirements (12 hours) are determined by the student's major."
+    },
+    {
+      "id": "PSYCHOLOGY_CRIME_JUSTICE_MINOR_PSYC101",
+      "code": "PSYC 101",
+      "title": "General Psychology",
+      "credits": 3,
+      "category": "major",
+      "choiceNote": "Required for CJC majors and all non-Psychology majors; Psychology majors take CJC 101 instead. Additional requirements (12 hours) are determined by the student's major."
+    }
+  ],
+  "electiveOptions": {
+    "approvedElectives": {
+      "creditsRequired": 6,
+      "label": "Approved Crime and Justice Electives",
+      "note": "Additional requirements total 12 hours determined by major: Psychology majors take CJC 101 plus 3 electives (2 CJC, 1 PSYC); CJC majors take PSYC 101 plus 3 electives (2 PSYC, 1 CJC); all other majors take both CJC 101 and PSYC 101 plus 2 electives. Choose remaining electives from the approved list. PSCJ 399 (Independent Study) may replace one elective.",
+      "courses": [
+        { "id": "PSYCHOLOGY_CRIME_JUSTICE_MINOR_CJC201", "code": "CJC 201", "title": "Theories of Criminal Behavior", "credits": 3 },
+        { "id": "PSYCHOLOGY_CRIME_JUSTICE_MINOR_CJC202", "code": "CJC 202", "title": "Criminal Courts", "credits": 3 },
+        { "id": "PSYCHOLOGY_CRIME_JUSTICE_MINOR_CJC204", "code": "CJC 204", "title": "Corrections", "credits": 3 },
+        { "id": "PSYCHOLOGY_CRIME_JUSTICE_MINOR_CJC302", "code": "CJC 302", "title": "Juvenile Justice System", "credits": 3 },
+        { "id": "PSYCHOLOGY_CRIME_JUSTICE_MINOR_CJC322", "code": "CJC 322", "title": "Criminal Law", "credits": 3 },
+        { "id": "PSYCHOLOGY_CRIME_JUSTICE_MINOR_CJC345E", "code": "CJC 345", "title": "Social Justice and Crime", "credits": 3 },
+        { "id": "PSYCHOLOGY_CRIME_JUSTICE_MINOR_CJC346E", "code": "CJC 346", "title": "Mental Illness and Crime", "credits": 3 },
+        { "id": "PSYCHOLOGY_CRIME_JUSTICE_MINOR_CJC360", "code": "CJC 360", "title": "Substance Use and Crime", "credits": 3 },
+        { "id": "PSYCHOLOGY_CRIME_JUSTICE_MINOR_CJC371", "code": "CJC 371", "title": "Victimology", "credits": 3 },
+        { "id": "PSYCHOLOGY_CRIME_JUSTICE_MINOR_CJC372", "code": "CJC 372", "title": "Race, Ethnicity, and Criminal Justice", "credits": 3 },
+        { "id": "PSYCHOLOGY_CRIME_JUSTICE_MINOR_CJC373", "code": "CJC 373", "title": "Intimate Partner Violence", "credits": 3 },
+        { "id": "PSYCHOLOGY_CRIME_JUSTICE_MINOR_CJC374", "code": "CJC 374", "title": "Miscarriages of Justice", "credits": 3 },
+        { "id": "PSYCHOLOGY_CRIME_JUSTICE_MINOR_CJC376", "code": "CJC 376", "title": "Childhood Exposure to Violence", "credits": 3 },
+        { "id": "PSYCHOLOGY_CRIME_JUSTICE_MINOR_CJC379", "code": "CJC 379", "title": "Leaving Crime Behind", "credits": 3 },
+        { "id": "PSYCHOLOGY_CRIME_JUSTICE_MINOR_PSCJ399", "code": "PSCJ 399", "title": "Independent Study", "credits": 3 },
+        { "id": "PSYCHOLOGY_CRIME_JUSTICE_MINOR_PSYC239", "code": "PSYC 239", "title": "Understanding Bias and Inclusivity", "credits": 3 },
+        { "id": "PSYCHOLOGY_CRIME_JUSTICE_MINOR_PSYC275", "code": "PSYC 275", "title": "Social Psychology", "credits": 3 },
+        { "id": "PSYCHOLOGY_CRIME_JUSTICE_MINOR_PSYC331E", "code": "PSYC 331", "title": "Psychopathology", "credits": 3 },
+        { "id": "PSYCHOLOGY_CRIME_JUSTICE_MINOR_PSYC332", "code": "PSYC 332", "title": "Affective Neuroscience", "credits": 3 },
+        { "id": "PSYCHOLOGY_CRIME_JUSTICE_MINOR_PSYC338", "code": "PSYC 338", "title": "Psychology of Personality", "credits": 3 },
+        { "id": "PSYCHOLOGY_CRIME_JUSTICE_MINOR_PSYC346", "code": "PSYC 346", "title": "Psychopathology of Childhood", "credits": 3 },
+        { "id": "PSYCHOLOGY_CRIME_JUSTICE_MINOR_PSYC348", "code": "PSYC 348", "title": "Psychology of Adolescence", "credits": 3 },
+        { "id": "PSYCHOLOGY_CRIME_JUSTICE_MINOR_PSYC360", "code": "PSYC 360", "title": "Understanding Prejudice", "credits": 3 },
+        { "id": "PSYCHOLOGY_CRIME_JUSTICE_MINOR_PSYC368", "code": "PSYC 368", "title": "Counseling", "credits": 3 },
+        { "id": "PSYCHOLOGY_CRIME_JUSTICE_MINOR_PSYC375", "code": "PSYC 375", "title": "Psychology of Addiction", "credits": 3 },
+        { "id": "PSYCHOLOGY_CRIME_JUSTICE_MINOR_PSYC378", "code": "PSYC 378", "title": "Drugs and Behavior", "credits": 3 }
+      ]
+    }
+  },
+  "coreRequirements": [],
+  "checklist": []
+}

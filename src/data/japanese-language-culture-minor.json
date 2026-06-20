@@ -1,0 +1,51 @@
+{
+  "id": "japanese-language-culture-minor",
+  "department": "Modern Languages and Literatures",
+  "name": "Japanese Language and Culture",
+  "degree": "Minor",
+  "school": "Loyola University Chicago",
+  "kind": "minor",
+  "totalCredits": 18,
+  "minorCredits": 18,
+  "hasCompletionEstimate": false,
+  "catalogUrl": "https://catalog.luc.edu/undergraduate/arts-sciences/modern-languages-literatures/japanese-language-culture-minor/",
+  "courses": [
+    { "id": "JAPANESE_LANGUAGE_CULTURE_MINOR_JAPN101", "code": "JAPN 101", "title": "Japanese I", "credits": 3, "category": "major", "requirementGroup": "JAPANESE_LANGUAGE_CULTURE_MINOR-grp1", "choiceNote": "Japanese Language Requirement: select a minimum of four (12 credits) from JAPN 101, 102, 103, 104, 250, 251" },
+    { "id": "JAPANESE_LANGUAGE_CULTURE_MINOR_JAPN102", "code": "JAPN 102", "title": "Japanese II", "credits": 3, "category": "major", "requirementGroup": "JAPANESE_LANGUAGE_CULTURE_MINOR-grp1", "choiceNote": "Japanese Language Requirement: select a minimum of four (12 credits) from JAPN 101, 102, 103, 104, 250, 251" },
+    { "id": "JAPANESE_LANGUAGE_CULTURE_MINOR_JAPN103", "code": "JAPN 103", "title": "Japanese III", "credits": 3, "category": "major", "requirementGroup": "JAPANESE_LANGUAGE_CULTURE_MINOR-grp1", "choiceNote": "Japanese Language Requirement: select a minimum of four (12 credits) from JAPN 101, 102, 103, 104, 250, 251" },
+    { "id": "JAPANESE_LANGUAGE_CULTURE_MINOR_JAPN104", "code": "JAPN 104", "title": "Japanese IV", "credits": 3, "category": "major", "requirementGroup": "JAPANESE_LANGUAGE_CULTURE_MINOR-grp1", "choiceNote": "Japanese Language Requirement: select a minimum of four (12 credits) from JAPN 101, 102, 103, 104, 250, 251" },
+    { "id": "JAPANESE_LANGUAGE_CULTURE_MINOR_JAPN250", "code": "JAPN 250", "title": "Composition & Conversation I", "credits": 3, "category": "major", "requirementGroup": "JAPANESE_LANGUAGE_CULTURE_MINOR-grp1", "choiceNote": "Japanese Language Requirement: select a minimum of four (12 credits) from JAPN 101, 102, 103, 104, 250, 251" },
+    { "id": "JAPANESE_LANGUAGE_CULTURE_MINOR_JAPN251", "code": "JAPN 251", "title": "Composition & Conversation II", "credits": 3, "category": "major", "requirementGroup": "JAPANESE_LANGUAGE_CULTURE_MINOR-grp1", "choiceNote": "Japanese Language Requirement: select a minimum of four (12 credits) from JAPN 101, 102, 103, 104, 250, 251" }
+  ],
+  "electiveOptions": {
+    "literatureCulture": {
+      "creditsRequired": 6,
+      "label": "Literature and Culture Component",
+      "note": "Select up to two (6 credits). The remaining 6 hours can be additional Japanese language courses, courses in Japanese Literature in Translation, or other courses focused on Japanese society and culture.",
+      "courses": [
+        { "id": "JAPANESE_LANGUAGE_CULTURE_MINOR_LITR245", "code": "LITR 245", "title": "Asian Masterpieces (Survey of Japanese Literature)", "credits": 3 },
+        { "id": "JAPANESE_LANGUAGE_CULTURE_MINOR_LITR245B", "code": "LITR 245", "title": "Asian Masterpieces (Identity in Modern Japan)", "credits": 3 },
+        { "id": "JAPANESE_LANGUAGE_CULTURE_MINOR_LITR245C", "code": "LITR 245", "title": "Asian Masterpieces (Japanese Pop Culture)", "credits": 3 },
+        { "id": "JAPANESE_LANGUAGE_CULTURE_MINOR_LITR284", "code": "LITR 284", "title": "International Film (Introduction to Japanese Film)", "credits": 3 },
+        { "id": "JAPANESE_LANGUAGE_CULTURE_MINOR_ANTH215", "code": "ANTH 215", "title": "Culture in Contemporary Asia", "credits": 3 },
+        { "id": "JAPANESE_LANGUAGE_CULTURE_MINOR_FNAR359", "code": "FNAR 359", "title": "Japanese Art and Culture", "credits": 3 },
+        { "id": "JAPANESE_LANGUAGE_CULTURE_MINOR_HIST208", "code": "HIST 208", "title": "East Asian History: Themes & Issues", "credits": 3 },
+        { "id": "JAPANESE_LANGUAGE_CULTURE_MINOR_HIST349", "code": "HIST 349", "title": "Contemporary Global Issues: Historical Perspectives", "credits": 3 },
+        { "id": "JAPANESE_LANGUAGE_CULTURE_MINOR_HIST349A", "code": "HIST 349A", "title": "Women in East Asia", "credits": 3 },
+        { "id": "JAPANESE_LANGUAGE_CULTURE_MINOR_PHIL335", "code": "PHIL 335", "title": "Asian Philosophy", "credits": 3 },
+        { "id": "JAPANESE_LANGUAGE_CULTURE_MINOR_THEO297", "code": "THEO 297", "title": "Buddhism", "credits": 3 },
+        { "id": "JAPANESE_LANGUAGE_CULTURE_MINOR_THEO352", "code": "THEO 352", "title": "Topics in Buddhism", "credits": 3 }
+      ]
+    }
+  },
+  "coreRequirements": [],
+  "checklist": [],
+  "roadmap": [
+    { "year": 1, "semester": "Semester I", "credits": 3, "items": [ { "ref": "JAPANESE_LANGUAGE_CULTURE_MINOR_JAPN101" } ] },
+    { "year": 1, "semester": "Semester II", "credits": 3, "items": [ { "ref": "JAPANESE_LANGUAGE_CULTURE_MINOR_JAPN102" } ] },
+    { "year": 2, "semester": "Semester III", "credits": 3, "items": [ { "ref": "JAPANESE_LANGUAGE_CULTURE_MINOR_JAPN103" } ] },
+    { "year": 2, "semester": "Semester IV", "credits": 3, "items": [ { "ref": "JAPANESE_LANGUAGE_CULTURE_MINOR_JAPN104" } ] },
+    { "year": 3, "semester": "Semester V", "credits": 3, "items": [ { "ref": "JAPANESE_LANGUAGE_CULTURE_MINOR_JAPN250" } ] },
+    { "year": 3, "semester": "Semester VI", "credits": 3, "items": [ { "ref": "JAPANESE_LANGUAGE_CULTURE_MINOR_JAPN251" } ] }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "professional-communication-minor",
+  "department": "Communication",
+  "name": "Professional Communication",
+  "degree": "Minor",
+  "school": "Loyola University Chicago",
+  "kind": "minor",
+  "totalCredits": 18,
+  "minorCredits": 18,
+  "hasCompletionEstimate": false,
+  "catalogUrl": "https://catalog.luc.edu/undergraduate/communication/communication-studies/professional-communication-minor/",
+  "courses": [],
+  "electiveOptions": {
+    "oralCommunication": {
+      "creditsRequired": 3,
+      "label": "Oral Communication",
+      "note": "Select one of the following (3 hours).",
+      "courses": [
+        { "id": "PROFESSIONAL_COMMUNICATION_MINOR_COMM101", "code": "COMM 101", "title": "Public Speaking & Critical Thinking", "credits": 3 },
+        { "id": "PROFESSIONAL_COMMUNICATION_MINOR_COMM103", "code": "COMM 103", "title": "Business & Professional Speaking (Quinlan majors only)", "credits": 3 }
+      ]
+    },
+    "writtenCommunication": {
+      "creditsRequired": 3,
+      "label": "Written Communication",
+      "note": "Select one of the following (3 hours). COMM 205, 277, and 313 cannot be used to fulfill both the Written Communication and the Applied Communication requirements.",
+      "courses": [
+        { "id": "PROFESSIONAL_COMMUNICATION_MINOR_COMM205", "code": "COMM 205", "title": "Reporting Basics I: Writing and Interviewing", "credits": 3 },
+        { "id": "PROFESSIONAL_COMMUNICATION_MINOR_COMM277", "code": "COMM 277", "title": "Organizational Communication", "credits": 3 },
+        { "id": "PROFESSIONAL_COMMUNICATION_MINOR_COMM313", "code": "COMM 313", "title": "Corporate and Organizational Communication", "credits": 3 }
+      ]
+    },
+    "appliedCommunication": {
+      "creditsRequired": 12,
+      "label": "Applied Communication",
+      "note": "Select four of the following (12 hours). COMM 205, 277, and 313 cannot be used to fulfill both the Written Communication and the Applied Communication requirements.",
+      "courses": [
+        { "id": "PROFESSIONAL_COMMUNICATION_MINOR_COMM145", "code": "COMM 145", "title": "Video for Journalists", "credits": 3 },
+        { "id": "PROFESSIONAL_COMMUNICATION_MINOR_COMM205A", "code": "COMM 205", "title": "Reporting Basics I: Writing and Interviewing", "credits": 3 },
+        { "id": "PROFESSIONAL_COMMUNICATION_MINOR_COMM210", "code": "COMM 210", "title": "Principles of Public Relations", "credits": 3 },
+        { "id": "PROFESSIONAL_COMMUNICATION_MINOR_COMM211", "code": "COMM 211", "title": "Principles of Advertising", "credits": 3 },
+        { "id": "PROFESSIONAL_COMMUNICATION_MINOR_COMM230", "code": "COMM 230", "title": "Argumentation & Advocacy", "credits": 3 },
+        { "id": "PROFESSIONAL_COMMUNICATION_MINOR_COMM231", "code": "COMM 231", "title": "Conflict Management and Communication", "credits": 3 },
+        { "id": "PROFESSIONAL_COMMUNICATION_MINOR_COMM234", "code": "COMM 234", "title": "Interviewing for Communication", "credits": 3 },
+        { "id": "PROFESSIONAL_COMMUNICATION_MINOR_COMM237", "code": "COMM 237", "title": "Small Group Communication", "credits": 3 },
+        { "id": "PROFESSIONAL_COMMUNICATION_MINOR_COMM273", "code": "COMM 273", "title": "Interpersonal Communication", "credits": 3 },
+        { "id": "PROFESSIONAL_COMMUNICATION_MINOR_COMM275", "code": "COMM 275", "title": "Web Design and Usability", "credits": 3 },
+        { "id": "PROFESSIONAL_COMMUNICATION_MINOR_COMM277A", "code": "COMM 277", "title": "Organizational Communication", "credits": 3 },
+        { "id": "PROFESSIONAL_COMMUNICATION_MINOR_COMM313A", "code": "COMM 313", "title": "Corporate and Organizational Communication", "credits": 3 }
+      ]
+    }
+  },
+  "coreRequirements": [],
+  "checklist": [],
+  "roadmap": [
+    { "year": 2, "semester": "Fall", "credits": 3, "items": [ { "label": "Oral Communication Course", "credits": 3, "isElective": true } ] },
+    { "year": 2, "semester": "Spring", "credits": 3, "items": [ { "label": "Written Communication Course", "credits": 3, "isElective": true } ] },
+    { "year": 3, "semester": "Fall", "credits": 3, "items": [ { "label": "Applied Communication Course #1", "credits": 3, "isElective": true } ] },
+    { "year": 3, "semester": "Spring", "credits": 3, "items": [ { "label": "Applied Communication Course #2", "credits": 3, "isElective": true } ] },
+    { "year": 4, "semester": "Fall", "credits": 3, "items": [ { "label": "Applied Communication Course #3", "credits": 3, "isElective": true } ] },
+    { "year": 4, "semester": "Spring", "credits": 3, "items": [ { "label": "Applied Communication Course #4", "credits": 3, "isElective": true } ] }
+  ]
+}

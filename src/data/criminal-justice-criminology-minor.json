@@ -1,0 +1,33 @@
+{
+  "id": "criminal-justice-criminology-minor",
+  "department": "Criminal Justice and Criminology",
+  "name": "Criminal Justice and Criminology",
+  "degree": "Minor",
+  "school": "Loyola University Chicago",
+  "kind": "minor",
+  "totalCredits": 18,
+  "minorCredits": 18,
+  "hasCompletionEstimate": false,
+  "catalogUrl": "https://catalog.luc.edu/undergraduate/arts-sciences/criminal-justice-criminology/criminal-justice-criminology-minor/",
+  "courses": [
+    { "id": "CRIMINAL_JUSTICE_CRIMINOLOGY_MINOR_CJC101", "code": "CJC 101", "title": "Criminal Justice in a Global Context", "credits": 3, "category": "major" },
+    { "id": "CRIMINAL_JUSTICE_CRIMINOLOGY_MINOR_CJC201", "code": "CJC 201", "title": "Theories of Criminal Behavior", "credits": 3, "category": "major", "requirementGroup": "CRIMINAL_JUSTICE_CRIMINOLOGY_MINOR-grp1", "choiceNote": "Select at least two of: CJC 201, CJC 202, CJC 203, CJC 204, CJC 322, CJC 323" },
+    { "id": "CRIMINAL_JUSTICE_CRIMINOLOGY_MINOR_CJC202", "code": "CJC 202", "title": "Criminal Courts", "credits": 3, "category": "major", "requirementGroup": "CRIMINAL_JUSTICE_CRIMINOLOGY_MINOR-grp1", "choiceNote": "Select at least two of: CJC 201, CJC 202, CJC 203, CJC 204, CJC 322, CJC 323" },
+    { "id": "CRIMINAL_JUSTICE_CRIMINOLOGY_MINOR_CJC203", "code": "CJC 203", "title": "Policing", "credits": 3, "category": "major", "requirementGroup": "CRIMINAL_JUSTICE_CRIMINOLOGY_MINOR-grp1", "choiceNote": "Select at least two of: CJC 201, CJC 202, CJC 203, CJC 204, CJC 322, CJC 323" },
+    { "id": "CRIMINAL_JUSTICE_CRIMINOLOGY_MINOR_CJC204", "code": "CJC 204", "title": "Corrections", "credits": 3, "category": "major", "requirementGroup": "CRIMINAL_JUSTICE_CRIMINOLOGY_MINOR-grp1", "choiceNote": "Select at least two of: CJC 201, CJC 202, CJC 203, CJC 204, CJC 322, CJC 323" },
+    { "id": "CRIMINAL_JUSTICE_CRIMINOLOGY_MINOR_CJC322", "code": "CJC 322", "title": "Criminal Law", "credits": 3, "category": "major", "requirementGroup": "CRIMINAL_JUSTICE_CRIMINOLOGY_MINOR-grp1", "choiceNote": "Select at least two of: CJC 201, CJC 202, CJC 203, CJC 204, CJC 322, CJC 323" },
+    { "id": "CRIMINAL_JUSTICE_CRIMINOLOGY_MINOR_CJC323", "code": "CJC 323", "title": "Criminal Procedure", "credits": 3, "category": "major", "requirementGroup": "CRIMINAL_JUSTICE_CRIMINOLOGY_MINOR-grp1", "choiceNote": "Select at least two of: CJC 201, CJC 202, CJC 203, CJC 204, CJC 322, CJC 323" }
+  ],
+  "electiveOptions": {
+    "cjcElectives": {
+      "creditsRequired": 9,
+      "label": "CJC Electives",
+      "note": "Select three (3) electives from CJC 200- or 300-level courses (9 credit hours)",
+      "courses": [
+        { "id": "CRIMINAL_JUSTICE_CRIMINOLOGY_MINOR_POOL1", "code": "CJC 2XX/3XX", "title": "200- or 300-level CJC elective", "credits": 3, "uniqueProgress": true }
+      ]
+    }
+  },
+  "coreRequirements": [],
+  "checklist": []
+}

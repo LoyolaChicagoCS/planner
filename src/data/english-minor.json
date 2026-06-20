@@ -1,0 +1,52 @@
+{
+  "id": "english-minor",
+  "department": "English",
+  "name": "English",
+  "degree": "Minor",
+  "school": "Loyola University Chicago",
+  "kind": "minor",
+  "totalCredits": 18,
+  "minorCredits": 18,
+  "hasCompletionEstimate": false,
+  "catalogUrl": "https://catalog.luc.edu/undergraduate/arts-sciences/english/english-minor/",
+  "courses": [],
+  "electiveOptions": {
+    "lowerLevel": {
+      "creditsRequired": 6,
+      "label": "UCLR 100E / advanced 200-level English",
+      "note": "Up to two courses (6 hours) may be drawn from UCLR 100-E and advanced 200-level (ENGL 270 and above) courses.",
+      "courses": [
+        {
+          "id": "ENGLISH_MINOR_UCLR100E",
+          "code": "UCLR 100E",
+          "title": "Interpreting Literature - English (or an advanced 200-level course of ENGL 270 or above)",
+          "credits": 3,
+          "uniqueProgress": true
+        },
+        {
+          "id": "ENGLISH_MINOR_POOL_ENGL270",
+          "code": "ENGL 2XX",
+          "title": "Advanced 200-level English course (ENGL 270 or above)",
+          "credits": 3,
+          "uniqueProgress": true
+        }
+      ]
+    },
+    "upperLevel": {
+      "creditsRequired": 12,
+      "label": "300-level English courses",
+      "note": "Four courses (12 hours) should be at the 300 level.",
+      "courses": [
+        {
+          "id": "ENGLISH_MINOR_POOL_ENGL3XX",
+          "code": "ENGL 3XX",
+          "title": "300-level English elective",
+          "credits": 3,
+          "uniqueProgress": true
+        }
+      ]
+    }
+  },
+  "coreRequirements": [],
+  "checklist": []
+}

@@ -1,0 +1,100 @@
+{
+  "id": "catholic-studies-minor",
+  "department": "Catholic Studies",
+  "name": "Catholic Studies",
+  "degree": "Minor",
+  "school": "Loyola University Chicago",
+  "kind": "minor",
+  "totalCredits": 18,
+  "minorCredits": 18,
+  "hasCompletionEstimate": false,
+  "catalogUrl": "https://catalog.luc.edu/undergraduate/arts-sciences/catholic-studies/catholic-studies-minor/",
+  "courses": [
+    {
+      "id": "CATHOLIC_STUDIES_MINOR_CATH296",
+      "code": "CATH 296",
+      "title": "All Things Ignatian: Living and Learning in the Jesuit Trad",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "CATHOLIC_STUDIES_MINOR-grp1",
+      "choiceNote": "Choose CATH 296 or CATH 303 (Foundational Course)"
+    },
+    {
+      "id": "CATHOLIC_STUDIES_MINOR_CATH303",
+      "code": "CATH 303",
+      "title": "Topics in the Catholic Philosophical Tradition",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "CATHOLIC_STUDIES_MINOR-grp1",
+      "choiceNote": "Choose CATH 296 or CATH 303 (Foundational Course)"
+    }
+  ],
+  "electiveOptions": {
+    "electives": {
+      "creditsRequired": 15,
+      "label": "Elective Courses (5 courses)",
+      "note": "Select five (5) courses (15 credit hours) from the Elective Course List. At least one elective must be from Philosophy, one elective must be from Theology, and at least two electives must be 300-level. No more than two courses from a single academic discipline may count toward the minor.",
+      "courses": [
+        {
+          "id": "CATHOLIC_STUDIES_MINOR_POOL1",
+          "code": "ELEC 1XX",
+          "title": "Catholic Studies elective (from approved Elective Course List)",
+          "credits": 3,
+          "uniqueProgress": true
+        }
+      ]
+    }
+  },
+  "coreRequirements": [],
+  "checklist": [],
+  "roadmap": [
+    {
+      "year": 1,
+      "semester": "Semester I",
+      "credits": 3,
+      "items": [
+        { "ref": "CATHOLIC_STUDIES_MINOR_CATH296" }
+      ]
+    },
+    {
+      "year": 1,
+      "semester": "Semester II",
+      "credits": 3,
+      "items": [
+        { "label": "Lower Division Elective", "credits": 3, "isElective": true }
+      ]
+    },
+    {
+      "year": 2,
+      "semester": "Semester III",
+      "credits": 3,
+      "items": [
+        { "label": "Lower Division Elective", "credits": 3, "isElective": true }
+      ]
+    },
+    {
+      "year": 2,
+      "semester": "Semester IV",
+      "credits": 3,
+      "items": [
+        { "label": "Lower Division Elective", "credits": 3, "isElective": true }
+      ]
+    },
+    {
+      "year": 3,
+      "semester": "Semester V",
+      "credits": 3,
+      "items": [
+        { "label": "Upper Division Elective", "credits": 3, "isElective": true }
+      ]
+    },
+    {
+      "year": 3,
+      "semester": "Semester VI",
+      "credits": 3,
+      "items": [
+        { "label": "Upper Division Elective", "credits": 3, "isElective": true }
+      ]
+    }
+  ]
+}

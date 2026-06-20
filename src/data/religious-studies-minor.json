@@ -1,0 +1,97 @@
+{
+  "id": "religious-studies-minor",
+  "department": "Theology",
+  "name": "Religious Studies",
+  "degree": "Minor",
+  "school": "Loyola University Chicago",
+  "kind": "minor",
+  "totalCredits": 18,
+  "minorCredits": 18,
+  "hasCompletionEstimate": false,
+  "catalogUrl": "https://catalog.luc.edu/undergraduate/arts-sciences/theology/religious-studies-minor/",
+  "courses": [
+    { "id": "RELIGIOUS_STUDIES_MINOR_THEO100", "code": "THEO 100", "title": "Christian Theology", "credits": 3, "category": "major", "requirementGroup": "RELIGIOUS_STUDIES_MINOR-grp1", "choiceNote": "Christian Traditions: choose one (THEO 100, 185, 232, 265, 267, 279, 281, 317, or 318)" },
+    { "id": "RELIGIOUS_STUDIES_MINOR_THEO185", "code": "THEO 185", "title": "Christian Ethics", "credits": 3, "category": "major", "requirementGroup": "RELIGIOUS_STUDIES_MINOR-grp1", "choiceNote": "Christian Traditions: choose one (THEO 100, 185, 232, 265, 267, 279, 281, 317, or 318)" },
+    { "id": "RELIGIOUS_STUDIES_MINOR_THEO232", "code": "THEO 232", "title": "New Testament", "credits": 3, "category": "major", "requirementGroup": "RELIGIOUS_STUDIES_MINOR-grp1", "choiceNote": "Christian Traditions: choose one (THEO 100, 185, 232, 265, 267, 279, 281, 317, or 318)" },
+    { "id": "RELIGIOUS_STUDIES_MINOR_THEO265", "code": "THEO 265", "title": "Sacraments and the Christian Imagination", "credits": 3, "category": "major", "requirementGroup": "RELIGIOUS_STUDIES_MINOR-grp1", "choiceNote": "Christian Traditions: choose one (THEO 100, 185, 232, 265, 267, 279, 281, 317, or 318)" },
+    { "id": "RELIGIOUS_STUDIES_MINOR_THEO267", "code": "THEO 267", "title": "Jesus Christ", "credits": 3, "category": "major", "requirementGroup": "RELIGIOUS_STUDIES_MINOR-grp1", "choiceNote": "Christian Traditions: choose one (THEO 100, 185, 232, 265, 267, 279, 281, 317, or 318)" },
+    { "id": "RELIGIOUS_STUDIES_MINOR_THEO279", "code": "THEO 279", "title": "Roman Catholicism", "credits": 3, "category": "major", "requirementGroup": "RELIGIOUS_STUDIES_MINOR-grp1", "choiceNote": "Christian Traditions: choose one (THEO 100, 185, 232, 265, 267, 279, 281, 317, or 318)" },
+    { "id": "RELIGIOUS_STUDIES_MINOR_THEO281", "code": "THEO 281", "title": "Christianity Through Time", "credits": 3, "category": "major", "requirementGroup": "RELIGIOUS_STUDIES_MINOR-grp1", "choiceNote": "Christian Traditions: choose one (THEO 100, 185, 232, 265, 267, 279, 281, 317, or 318)" },
+    { "id": "RELIGIOUS_STUDIES_MINOR_THEO317", "code": "THEO 317", "title": "Christian Thought: Ancient-Medieval", "credits": 3, "category": "major", "requirementGroup": "RELIGIOUS_STUDIES_MINOR-grp1", "choiceNote": "Christian Traditions: choose one (THEO 100, 185, 232, 265, 267, 279, 281, 317, or 318)" },
+    { "id": "RELIGIOUS_STUDIES_MINOR_THEO318", "code": "THEO 318", "title": "Christian Thought: Reformation to Modern", "credits": 3, "category": "major", "requirementGroup": "RELIGIOUS_STUDIES_MINOR-grp1", "choiceNote": "Christian Traditions: choose one (THEO 100, 185, 232, 265, 267, 279, 281, 317, or 318)" },
+
+    { "id": "RELIGIOUS_STUDIES_MINOR_THEO272", "code": "THEO 272", "title": "Judaism", "credits": 3, "category": "major", "requirementGroup": "RELIGIOUS_STUDIES_MINOR-grp2", "choiceNote": "Non-Christian Religious Tradition: choose one (THEO 272, 282, 295, 297, or 299)" },
+    { "id": "RELIGIOUS_STUDIES_MINOR_THEO282", "code": "THEO 282", "title": "Hinduism", "credits": 3, "category": "major", "requirementGroup": "RELIGIOUS_STUDIES_MINOR-grp2", "choiceNote": "Non-Christian Religious Tradition: choose one (THEO 272, 282, 295, 297, or 299)" },
+    { "id": "RELIGIOUS_STUDIES_MINOR_THEO295", "code": "THEO 295", "title": "Islam", "credits": 3, "category": "major", "requirementGroup": "RELIGIOUS_STUDIES_MINOR-grp2", "choiceNote": "Non-Christian Religious Tradition: choose one (THEO 272, 282, 295, 297, or 299)" },
+    { "id": "RELIGIOUS_STUDIES_MINOR_THEO297", "code": "THEO 297", "title": "Buddhism", "credits": 3, "category": "major", "requirementGroup": "RELIGIOUS_STUDIES_MINOR-grp2", "choiceNote": "Non-Christian Religious Tradition: choose one (THEO 272, 282, 295, 297, or 299)" },
+    { "id": "RELIGIOUS_STUDIES_MINOR_THEO299", "code": "THEO 299", "title": "Religions of Asia", "credits": 3, "category": "major", "requirementGroup": "RELIGIOUS_STUDIES_MINOR-grp2", "choiceNote": "Non-Christian Religious Tradition: choose one (THEO 272, 282, 295, 297, or 299)" },
+
+    { "id": "RELIGIOUS_STUDIES_MINOR_THEO107", "code": "THEO 107", "title": "Introduction to Religious Studies", "credits": 3, "category": "major", "requirementGroup": "RELIGIOUS_STUDIES_MINOR-grp3", "choiceNote": "Religious Comparisons: choose one (THEO 107, 186, or 278)" },
+    { "id": "RELIGIOUS_STUDIES_MINOR_THEO186", "code": "THEO 186", "title": "Global Religious Ethics", "credits": 3, "category": "major", "requirementGroup": "RELIGIOUS_STUDIES_MINOR-grp3", "choiceNote": "Religious Comparisons: choose one (THEO 107, 186, or 278)" },
+    { "id": "RELIGIOUS_STUDIES_MINOR_THEO278", "code": "THEO 278", "title": "Religion & Gender", "credits": 3, "category": "major", "requirementGroup": "RELIGIOUS_STUDIES_MINOR-grp3", "choiceNote": "Religious Comparisons: choose one (THEO 107, 186, or 278)" }
+  ],
+  "electiveOptions": {
+    "theo300": {
+      "creditsRequired": 9,
+      "label": "THEO 300-Level Electives",
+      "note": "Select three THEO 300-Level or Higher Electives (9 hours).",
+      "courses": [
+        { "id": "RELIGIOUS_STUDIES_MINOR_POOL1", "code": "THEO 3XX", "title": "300-level THEO elective", "credits": 3, "uniqueProgress": true },
+        { "id": "RELIGIOUS_STUDIES_MINOR_POOL2", "code": "THEO 3XX", "title": "300-level THEO elective", "credits": 3, "uniqueProgress": true },
+        { "id": "RELIGIOUS_STUDIES_MINOR_POOL3", "code": "THEO 3XX", "title": "300-level THEO elective", "credits": 3, "uniqueProgress": true }
+      ]
+    }
+  },
+  "coreRequirements": [],
+  "checklist": [],
+  "roadmap": [
+    {
+      "year": 1,
+      "semester": "Semester I",
+      "credits": 3,
+      "items": [
+        { "ref": "RELIGIOUS_STUDIES_MINOR_THEO107" }
+      ]
+    },
+    {
+      "year": 1,
+      "semester": "Semester II",
+      "credits": 3,
+      "items": [
+        { "label": "Non-Christian Traditions Course (200-Level or Higher)", "credits": 3, "isElective": true }
+      ]
+    },
+    {
+      "year": 2,
+      "semester": "Semester I",
+      "credits": 3,
+      "items": [
+        { "label": "Christian Traditions Course (THEO 200-Level Course)", "credits": 3, "isElective": true }
+      ]
+    },
+    {
+      "year": 2,
+      "semester": "Semester II",
+      "credits": 3,
+      "items": [
+        { "label": "THEO 300-Level Elective Course", "credits": 3, "isElective": true }
+      ]
+    },
+    {
+      "year": 3,
+      "semester": "Semester I",
+      "credits": 3,
+      "items": [
+        { "label": "THEO 300-Level Elective Course", "credits": 3, "isElective": true }
+      ]
+    },
+    {
+      "year": 3,
+      "semester": "Semester II",
+      "credits": 3,
+      "items": [
+        { "label": "THEO 300-Level Elective Course", "credits": 3, "isElective": true }
+      ]
+    }
+  ]
+}

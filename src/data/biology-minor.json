@@ -1,0 +1,42 @@
+{
+  "id": "biology-minor",
+  "department": "Biology",
+  "name": "Biology",
+  "degree": "Minor",
+  "school": "Loyola University Chicago",
+  "kind": "minor",
+  "totalCredits": 24,
+  "minorCredits": 24,
+  "hasCompletionEstimate": false,
+  "catalogUrl": "https://catalog.luc.edu/undergraduate/arts-sciences/biology/biology-minor/",
+  "courses": [
+    { "id": "BIOLOGY_MINOR_BIOL101", "code": "BIOL 101", "title": "General Biology I", "credits": 3, "category": "major" },
+    { "id": "BIOLOGY_MINOR_BIOL102", "code": "BIOL 102", "title": "General Biology II", "credits": 3, "category": "major" },
+    { "id": "BIOLOGY_MINOR_BIOL111", "code": "BIOL 111", "title": "General Biology I Lab", "credits": 1, "category": "major" },
+    { "id": "BIOLOGY_MINOR_BIOL112", "code": "BIOL 112", "title": "General Biology II Lab", "credits": 1, "category": "major" },
+    { "id": "BIOLOGY_MINOR_BIOL251", "code": "BIOL 251", "title": "Cell Biology", "credits": 3, "category": "major" },
+    { "id": "BIOLOGY_MINOR_BIOL265", "code": "BIOL 265", "title": "Ecology", "credits": 3, "category": "major" },
+    { "id": "BIOLOGY_MINOR_BIOL282", "code": "BIOL 282", "title": "Genetics", "credits": 3, "category": "major" }
+  ],
+  "electiveOptions": {
+    "biologyElectives": {
+      "creditsRequired": 7,
+      "label": "Biology Electives",
+      "note": "Select seven credit hours of Biology Electives (any BIOL 200-level course not taken as required and any BIOL 300-level course; certain cross-listed and research/internship courses count subject to catalog caps).",
+      "courses": [
+        { "id": "BIOLOGY_MINOR_POOL1", "code": "BIOL 2XX/3XX", "title": "Biology elective (200- or 300-level)", "credits": 3, "uniqueProgress": true }
+      ]
+    }
+  },
+  "coreRequirements": [],
+  "checklist": [],
+  "roadmap": [
+    { "year": 1, "semester": "Semester I", "credits": 4, "items": [ { "ref": "BIOLOGY_MINOR_BIOL101" }, { "ref": "BIOLOGY_MINOR_BIOL111" } ] },
+    { "year": 1, "semester": "Semester II", "credits": 4, "items": [ { "ref": "BIOLOGY_MINOR_BIOL102" }, { "ref": "BIOLOGY_MINOR_BIOL112" } ] },
+    { "year": 2, "semester": "Semester I", "credits": 3, "items": [ { "ref": "BIOLOGY_MINOR_BIOL251" } ] },
+    { "year": 2, "semester": "Semester II", "credits": 3, "items": [ { "ref": "BIOLOGY_MINOR_BIOL265" } ] },
+    { "year": 3, "semester": "Semester I", "credits": 3, "items": [ { "ref": "BIOLOGY_MINOR_BIOL282" } ] },
+    { "year": 3, "semester": "Semester II", "credits": 3, "items": [ { "label": "Biology Elective", "credits": 3, "isElective": true } ] },
+    { "year": 4, "semester": "Semester I", "credits": 4, "items": [ { "label": "Biology Elective", "credits": 4, "isElective": true } ] }
+  ]
+}

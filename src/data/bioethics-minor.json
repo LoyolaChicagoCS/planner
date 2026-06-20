@@ -1,0 +1,108 @@
+{
+  "id": "bioethics-minor",
+  "department": "Bioethics",
+  "name": "Bioethics",
+  "degree": "Minor",
+  "school": "Loyola University Chicago",
+  "kind": "minor",
+  "totalCredits": 20,
+  "minorCredits": 20,
+  "hasCompletionEstimate": false,
+  "catalogUrl": "https://catalog.luc.edu/undergraduate/arts-sciences/bioethics/bioethics-minor/",
+  "courses": [
+    { "id": "BIOETHICS_MINOR_PHIL284", "code": "PHIL 284", "title": "Health Care Ethics", "credits": 3, "category": "major" },
+    { "id": "BIOETHICS_MINOR_BIOL101", "code": "BIOL 101", "title": "General Biology I", "credits": 3, "category": "major", "requirementGroup": "BIOETHICS_MINOR-grp-science", "choiceNote": "Science requirement: choose the four-course Biology track (BIOL 101/111/102/112) OR three Natural Sciences courses" },
+    { "id": "BIOETHICS_MINOR_BIOL111", "code": "BIOL 111", "title": "General Biology I Lab", "credits": 1, "category": "major", "requirementGroup": "BIOETHICS_MINOR-grp-science", "choiceNote": "Science requirement: choose the four-course Biology track (BIOL 101/111/102/112) OR three Natural Sciences courses" },
+    { "id": "BIOETHICS_MINOR_BIOL102", "code": "BIOL 102", "title": "General Biology II", "credits": 3, "category": "major", "requirementGroup": "BIOETHICS_MINOR-grp-science", "choiceNote": "Science requirement: choose the four-course Biology track (BIOL 101/111/102/112) OR three Natural Sciences courses" },
+    { "id": "BIOETHICS_MINOR_BIOL112", "code": "BIOL 112", "title": "General Biology II Lab", "credits": 1, "category": "major", "requirementGroup": "BIOETHICS_MINOR-grp-science", "choiceNote": "Science requirement: choose the four-course Biology track (BIOL 101/111/102/112) OR three Natural Sciences courses" }
+  ],
+  "electiveOptions": {
+    "naturalSciences": {
+      "creditsRequired": 9,
+      "label": "Natural Sciences track (alternative to Biology)",
+      "note": "Science requirement alternative: choose three (3) Natural Sciences courses (8-9 hrs) instead of the four-course Biology track. Options include ANTH 101, 103, 104, 105, 106, 258, 280, 303, 353 and ENVS 204, 207, 218, 223, 224, 226, 273, 274, 280, 283, 301, 385, 387.",
+      "courses": [
+        { "id": "BIOETHICS_MINOR_ANTH101", "code": "ANTH 101", "title": "ANTH 101", "credits": 3 },
+        { "id": "BIOETHICS_MINOR_ANTH103", "code": "ANTH 103", "title": "ANTH 103", "credits": 3 },
+        { "id": "BIOETHICS_MINOR_ANTH104", "code": "ANTH 104", "title": "ANTH 104", "credits": 3 },
+        { "id": "BIOETHICS_MINOR_ANTH105", "code": "ANTH 105", "title": "ANTH 105", "credits": 3 },
+        { "id": "BIOETHICS_MINOR_ANTH106", "code": "ANTH 106", "title": "ANTH 106", "credits": 3 },
+        { "id": "BIOETHICS_MINOR_ANTH258", "code": "ANTH 258", "title": "ANTH 258", "credits": 3 },
+        { "id": "BIOETHICS_MINOR_ANTH280", "code": "ANTH 280", "title": "ANTH 280", "credits": 3 },
+        { "id": "BIOETHICS_MINOR_ANTH303", "code": "ANTH 303", "title": "ANTH 303", "credits": 3 },
+        { "id": "BIOETHICS_MINOR_ANTH353", "code": "ANTH 353", "title": "ANTH 353", "credits": 3 },
+        { "id": "BIOETHICS_MINOR_ENVS204", "code": "ENVS 204", "title": "ENVS 204", "credits": 3 },
+        { "id": "BIOETHICS_MINOR_ENVS207", "code": "ENVS 207", "title": "ENVS 207", "credits": 3 },
+        { "id": "BIOETHICS_MINOR_ENVS218", "code": "ENVS 218", "title": "ENVS 218", "credits": 3 },
+        { "id": "BIOETHICS_MINOR_ENVS223", "code": "ENVS 223", "title": "ENVS 223", "credits": 3 },
+        { "id": "BIOETHICS_MINOR_ENVS224", "code": "ENVS 224", "title": "ENVS 224", "credits": 3 },
+        { "id": "BIOETHICS_MINOR_ENVS226", "code": "ENVS 226", "title": "ENVS 226", "credits": 3 },
+        { "id": "BIOETHICS_MINOR_ENVS273", "code": "ENVS 273", "title": "ENVS 273", "credits": 3 },
+        { "id": "BIOETHICS_MINOR_ENVS274", "code": "ENVS 274", "title": "ENVS 274", "credits": 3 },
+        { "id": "BIOETHICS_MINOR_ENVS280", "code": "ENVS 280", "title": "ENVS 280", "credits": 3 },
+        { "id": "BIOETHICS_MINOR_ENVS283", "code": "ENVS 283", "title": "ENVS 283", "credits": 3 },
+        { "id": "BIOETHICS_MINOR_ENVS301", "code": "ENVS 301", "title": "ENVS 301", "credits": 3 },
+        { "id": "BIOETHICS_MINOR_ENVS385", "code": "ENVS 385", "title": "ENVS 385", "credits": 3 },
+        { "id": "BIOETHICS_MINOR_ENVS387", "code": "ENVS 387", "title": "ENVS 387", "credits": 3 }
+      ]
+    },
+    "ethicsElectives": {
+      "creditsRequired": 6,
+      "label": "Ethics electives",
+      "note": "Choose two (2) additional Ethics courses (6 hrs), at least one of which must be at the 300 level. Options: PHIL 287, 354, 355, 369, 379, 389; THEO 204, 342, 343, 344, 393; HIST 301, 331A; HSM 110, 210, 220, 230; PSYC 235, 238, 373; SOCL 221, 225, 226, 236, 272, 278.",
+      "courses": [
+        { "id": "BIOETHICS_MINOR_PHIL287", "code": "PHIL 287", "title": "PHIL 287", "credits": 3 },
+        { "id": "BIOETHICS_MINOR_PHIL354", "code": "PHIL 354", "title": "PHIL 354", "credits": 3 },
+        { "id": "BIOETHICS_MINOR_PHIL355", "code": "PHIL 355", "title": "PHIL 355", "credits": 3 },
+        { "id": "BIOETHICS_MINOR_PHIL369", "code": "PHIL 369", "title": "PHIL 369", "credits": 3 },
+        { "id": "BIOETHICS_MINOR_PHIL379", "code": "PHIL 379", "title": "PHIL 379", "credits": 3 },
+        { "id": "BIOETHICS_MINOR_PHIL389", "code": "PHIL 389", "title": "PHIL 389", "credits": 3 },
+        { "id": "BIOETHICS_MINOR_THEO204", "code": "THEO 204", "title": "THEO 204", "credits": 3 },
+        { "id": "BIOETHICS_MINOR_THEO342", "code": "THEO 342", "title": "THEO 342", "credits": 3 },
+        { "id": "BIOETHICS_MINOR_THEO343", "code": "THEO 343", "title": "THEO 343", "credits": 3 },
+        { "id": "BIOETHICS_MINOR_THEO344", "code": "THEO 344", "title": "THEO 344", "credits": 3 },
+        { "id": "BIOETHICS_MINOR_THEO393", "code": "THEO 393", "title": "THEO 393", "credits": 3 },
+        { "id": "BIOETHICS_MINOR_HIST301", "code": "HIST 301", "title": "HIST 301", "credits": 3 },
+        { "id": "BIOETHICS_MINOR_HIST331A", "code": "HIST 331A", "title": "HIST 331A", "credits": 3 },
+        { "id": "BIOETHICS_MINOR_HSM110", "code": "HSM 110", "title": "HSM 110", "credits": 3 },
+        { "id": "BIOETHICS_MINOR_HSM210", "code": "HSM 210", "title": "HSM 210", "credits": 3 },
+        { "id": "BIOETHICS_MINOR_HSM220", "code": "HSM 220", "title": "HSM 220", "credits": 3 },
+        { "id": "BIOETHICS_MINOR_HSM230", "code": "HSM 230", "title": "HSM 230", "credits": 3 },
+        { "id": "BIOETHICS_MINOR_PSYC235", "code": "PSYC 235", "title": "PSYC 235", "credits": 3 },
+        { "id": "BIOETHICS_MINOR_PSYC238", "code": "PSYC 238", "title": "PSYC 238", "credits": 3 },
+        { "id": "BIOETHICS_MINOR_PSYC373", "code": "PSYC 373", "title": "PSYC 373", "credits": 3 },
+        { "id": "BIOETHICS_MINOR_SOCL221", "code": "SOCL 221", "title": "SOCL 221", "credits": 3 },
+        { "id": "BIOETHICS_MINOR_SOCL225", "code": "SOCL 225", "title": "SOCL 225", "credits": 3 },
+        { "id": "BIOETHICS_MINOR_SOCL226", "code": "SOCL 226", "title": "SOCL 226", "credits": 3 },
+        { "id": "BIOETHICS_MINOR_SOCL236", "code": "SOCL 236", "title": "SOCL 236", "credits": 3 },
+        { "id": "BIOETHICS_MINOR_SOCL272", "code": "SOCL 272", "title": "SOCL 272", "credits": 3 },
+        { "id": "BIOETHICS_MINOR_SOCL278", "code": "SOCL 278", "title": "SOCL 278", "credits": 3 }
+      ]
+    },
+    "capstone": {
+      "creditsRequired": 3,
+      "label": "Interdisciplinary Capstone",
+      "note": "Choose one Interdisciplinary Bioethics Capstone course (3 hrs): BIET 395A, 395B, 395C, 395E, 396A, 396B, 396C, or 396E.",
+      "courses": [
+        { "id": "BIOETHICS_MINOR_BIET395A", "code": "BIET 395A", "title": "Bioethics Minor Capstone: Philosophical & Anthropological Topics", "credits": 3 },
+        { "id": "BIOETHICS_MINOR_BIET395B", "code": "BIET 395B", "title": "Bioethics Minor Capstone", "credits": 3 },
+        { "id": "BIOETHICS_MINOR_BIET395C", "code": "BIET 395C", "title": "Bioethics Minor Capstone", "credits": 3 },
+        { "id": "BIOETHICS_MINOR_BIET395E", "code": "BIET 395E", "title": "Bioethics Minor Capstone", "credits": 3 },
+        { "id": "BIOETHICS_MINOR_BIET396A", "code": "BIET 396A", "title": "Bioethics Minor Capstone", "credits": 3 },
+        { "id": "BIOETHICS_MINOR_BIET396B", "code": "BIET 396B", "title": "Bioethics Minor Capstone", "credits": 3 },
+        { "id": "BIOETHICS_MINOR_BIET396C", "code": "BIET 396C", "title": "Bioethics Minor Capstone", "credits": 3 },
+        { "id": "BIOETHICS_MINOR_BIET396E", "code": "BIET 396E", "title": "Bioethics Minor Capstone", "credits": 3 }
+      ]
+    }
+  },
+  "coreRequirements": [],
+  "checklist": [],
+  "roadmap": [
+    { "year": 1, "semester": "Semester I", "credits": 4, "items": [ { "ref": "BIOETHICS_MINOR_BIOL101" }, { "ref": "BIOETHICS_MINOR_BIOL111" } ] },
+    { "year": 1, "semester": "Semester II", "credits": 4, "items": [ { "ref": "BIOETHICS_MINOR_BIOL102" }, { "ref": "BIOETHICS_MINOR_BIOL112" } ] },
+    { "year": 2, "semester": "Semester I", "credits": 3, "items": [ { "ref": "BIOETHICS_MINOR_PHIL284" } ] },
+    { "year": 3, "semester": "Semester I", "credits": 3, "items": [ { "label": "Ethics Elective, any level", "credits": 3, "isElective": true } ] },
+    { "year": 3, "semester": "Semester II", "credits": 3, "items": [ { "label": "Ethics 300-level Elective", "credits": 3, "isElective": true } ] },
+    { "year": 4, "semester": "Semester II", "credits": 3, "items": [ { "label": "Capstone (BIET 395/396)", "credits": 3, "isElective": true } ] }
+  ]
+}

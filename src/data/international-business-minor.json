@@ -1,0 +1,63 @@
+{
+  "id": "international-business-minor",
+  "department": "Business Administration",
+  "name": "International Business",
+  "degree": "Minor",
+  "school": "Loyola University Chicago",
+  "kind": "minor",
+  "totalCredits": 18,
+  "minorCredits": 18,
+  "hasCompletionEstimate": false,
+  "catalogUrl": "https://catalog.luc.edu/undergraduate/business/international-business-minor/",
+  "courses": [
+    { "id": "INTERNATIONAL_BUSINESS_MINOR_IBUS201", "code": "IBUS 201", "title": "Introduction to International Business", "credits": 3, "category": "major" },
+    { "id": "INTERNATIONAL_BUSINESS_MINOR_IBUS315", "code": "IBUS 315", "title": "International Management", "credits": 3, "category": "major" }
+  ],
+  "electiveOptions": {
+    "businessCore": {
+      "creditsRequired": 6,
+      "label": "Business Principles Courses (select two)",
+      "note": "Select two of the following Quinlan Business Core courses. These are not included in the 12 credits toward the minor for Quinlan students.",
+      "courses": [
+        { "id": "INTERNATIONAL_BUSINESS_MINOR_ACCT201", "code": "ACCT 201", "title": "Introductory Accounting I", "credits": 3 },
+        { "id": "INTERNATIONAL_BUSINESS_MINOR_ECON201", "code": "ECON 201", "title": "Principles of Microeconomics", "credits": 3, "choiceNote": "Choose ECON 201 or ECON 202" },
+        { "id": "INTERNATIONAL_BUSINESS_MINOR_ECON202", "code": "ECON 202", "title": "Principles of Macroeconomics", "credits": 3, "choiceNote": "Choose ECON 201 or ECON 202" },
+        { "id": "INTERNATIONAL_BUSINESS_MINOR_INFS247", "code": "INFS 247", "title": "Business Information Systems", "credits": 3 },
+        { "id": "INTERNATIONAL_BUSINESS_MINOR_MARK201", "code": "MARK 201", "title": "Principles of Marketing", "credits": 3 },
+        { "id": "INTERNATIONAL_BUSINESS_MINOR_MGMT201", "code": "MGMT 201", "title": "Managing People and Organizations", "credits": 3 }
+      ]
+    },
+    "internationalElectives": {
+      "creditsRequired": 6,
+      "label": "International Electives (select two)",
+      "note": "Select two of the following. Students may take no more than one non-Quinlan course (ANTH 100, ANTH 102, PLSC 350, PLSC 362, PLSC 363) toward this minor.",
+      "courses": [
+        { "id": "INTERNATIONAL_BUSINESS_MINOR_ACCT306", "code": "ACCT 306", "title": "Advanced Financial Accounting", "credits": 3 },
+        { "id": "INTERNATIONAL_BUSINESS_MINOR_ECON323", "code": "ECON 323", "title": "International Economics", "credits": 3 },
+        { "id": "INTERNATIONAL_BUSINESS_MINOR_ECON324", "code": "ECON 324", "title": "International Monetary Relations", "credits": 3 },
+        { "id": "INTERNATIONAL_BUSINESS_MINOR_ECON325", "code": "ECON 325", "title": "Economics of Growth & Development", "credits": 3 },
+        { "id": "INTERNATIONAL_BUSINESS_MINOR_FINC355", "code": "FINC 355", "title": "International Finance Management", "credits": 3 },
+        { "id": "INTERNATIONAL_BUSINESS_MINOR_HRER329", "code": "HRER 329", "title": "Global HR and Organizational Behavior", "credits": 3 },
+        { "id": "INTERNATIONAL_BUSINESS_MINOR_INFS336", "code": "INFS 336", "title": "Global Perspectives on Digital Business", "credits": 3 },
+        { "id": "INTERNATIONAL_BUSINESS_MINOR_MARK363", "code": "MARK 363", "title": "International Marketing", "credits": 3 },
+        { "id": "INTERNATIONAL_BUSINESS_MINOR_SCMG338", "code": "SCMG 338", "title": "Global Transportation", "credits": 3 },
+        { "id": "INTERNATIONAL_BUSINESS_MINOR_SPRT345", "code": "SPRT 345", "title": "Globalization of Sport Industry", "credits": 3 },
+        { "id": "INTERNATIONAL_BUSINESS_MINOR_ANTH100", "code": "ANTH 100", "title": "Globalization and Local Cultures", "credits": 3 },
+        { "id": "INTERNATIONAL_BUSINESS_MINOR_ANTH102", "code": "ANTH 102", "title": "Culture, Society, and Diversity", "credits": 3 },
+        { "id": "INTERNATIONAL_BUSINESS_MINOR_PLSC350", "code": "PLSC 350", "title": "Global Political Economy", "credits": 3 },
+        { "id": "INTERNATIONAL_BUSINESS_MINOR_PLSC362", "code": "PLSC 362", "title": "Politics Developing Societies", "credits": 3 },
+        { "id": "INTERNATIONAL_BUSINESS_MINOR_PLSC363", "code": "PLSC 363", "title": "International Politics", "credits": 3 }
+      ]
+    }
+  },
+  "coreRequirements": [],
+  "checklist": [],
+  "roadmap": [
+    { "year": 1, "semester": "Fall", "credits": 3, "items": [ { "label": "200-level Business Principles course", "credits": 3, "isElective": true } ] },
+    { "year": 1, "semester": "Spring", "credits": 3, "items": [ { "ref": "INTERNATIONAL_BUSINESS_MINOR_IBUS201" } ] },
+    { "year": 2, "semester": "Fall", "credits": 3, "items": [ { "label": "200-level Business Principles course", "credits": 3, "isElective": true } ] },
+    { "year": 3, "semester": "Fall", "credits": 3, "items": [ { "ref": "INTERNATIONAL_BUSINESS_MINOR_IBUS315" } ] },
+    { "year": 3, "semester": "Spring", "credits": 3, "items": [ { "label": "Group A Elective", "credits": 3, "isElective": true } ] },
+    { "year": 4, "semester": "Fall", "credits": 3, "items": [ { "label": "Group B Elective", "credits": 3, "isElective": true } ] }
+  ]
+}

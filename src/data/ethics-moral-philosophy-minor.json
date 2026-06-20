@@ -1,0 +1,100 @@
+{
+  "id": "ethics-moral-philosophy-minor",
+  "department": "Philosophy",
+  "name": "Ethics and Moral Philosophy",
+  "degree": "Minor",
+  "school": "Loyola University Chicago",
+  "kind": "minor",
+  "totalCredits": 18,
+  "minorCredits": 18,
+  "hasCompletionEstimate": false,
+  "catalogUrl": "https://catalog.luc.edu/undergraduate/arts-sciences/philosophy/ethics-moral-philosophy-minor/",
+  "courses": [],
+  "electiveOptions": {
+    "lowerLevelPhil": {
+      "creditsRequired": 6,
+      "label": "Two lower-level philosophy ethics courses",
+      "note": "Select two lower-level philosophy courses in ethics (6 hours).",
+      "courses": [
+        { "id": "ETHICS_MORAL_PHILOSOPHY_MINOR_PHIL181", "code": "PHIL 181", "title": "Ethics", "credits": 3 },
+        { "id": "ETHICS_MORAL_PHILOSOPHY_MINOR_PHIL182", "code": "PHIL 182", "title": "Social and Political Philosophy", "credits": 3 },
+        { "id": "ETHICS_MORAL_PHILOSOPHY_MINOR_PHIL284", "code": "PHIL 284", "title": "Health Care Ethics", "credits": 3 },
+        { "id": "ETHICS_MORAL_PHILOSOPHY_MINOR_PHIL285", "code": "PHIL 285", "title": "Contemporary Ethical Issues", "credits": 3 },
+        { "id": "ETHICS_MORAL_PHILOSOPHY_MINOR_PHIL286", "code": "PHIL 286", "title": "Ethics and Education", "credits": 3 },
+        { "id": "ETHICS_MORAL_PHILOSOPHY_MINOR_PHIL288", "code": "PHIL 288", "title": "Culture and Civilization", "credits": 3 },
+        { "id": "ETHICS_MORAL_PHILOSOPHY_MINOR_PHIL289", "code": "PHIL 289", "title": "Philosophy and Gender", "credits": 3 }
+      ]
+    },
+    "upperLevelPhil": {
+      "creditsRequired": 6,
+      "label": "Two 300-level philosophy ethics courses",
+      "note": "Select two 300-level philosophy courses in ethics (6 hours).",
+      "courses": [
+        { "id": "ETHICS_MORAL_PHILOSOPHY_MINOR_PHIL321", "code": "PHIL 321", "title": "Ethics and Society", "credits": 3 },
+        { "id": "ETHICS_MORAL_PHILOSOPHY_MINOR_PHIL323", "code": "PHIL 323", "title": "Philosophy of Law", "credits": 3 },
+        { "id": "ETHICS_MORAL_PHILOSOPHY_MINOR_PHIL324", "code": "PHIL 324", "title": "Topics in Ethics", "credits": 3 },
+        { "id": "ETHICS_MORAL_PHILOSOPHY_MINOR_PHIL369", "code": "PHIL 369", "title": "Philosophy of Medicine", "credits": 3 },
+        { "id": "ETHICS_MORAL_PHILOSOPHY_MINOR_PHIL385", "code": "PHIL 385", "title": "Environmental Ethics", "credits": 3 },
+        { "id": "ETHICS_MORAL_PHILOSOPHY_MINOR_PHIL388", "code": "PHIL 388", "title": "History of Ethics", "credits": 3 },
+        { "id": "ETHICS_MORAL_PHILOSOPHY_MINOR_PHIL389", "code": "PHIL 389", "title": "Contemporary Issues", "credits": 3 },
+        { "id": "ETHICS_MORAL_PHILOSOPHY_MINOR_PHIL398", "code": "PHIL 398", "title": "Capstone Seminar in Contemporary Philosophy", "credits": 3 },
+        { "id": "ETHICS_MORAL_PHILOSOPHY_MINOR_PHIL399", "code": "PHIL 399", "title": "Capstone Seminar on a Topic in Philosophy", "credits": 3 }
+      ]
+    },
+    "theologyEthics": {
+      "creditsRequired": 6,
+      "label": "Two theology ethics courses",
+      "note": "Select two courses from the following (6 hours). Up to two of the six courses may be taken outside the Philosophy Department.",
+      "courses": [
+        { "id": "ETHICS_MORAL_PHILOSOPHY_MINOR_THEO340", "code": "THEO 340", "title": "Foundations of Christian Morality", "credits": 3 },
+        { "id": "ETHICS_MORAL_PHILOSOPHY_MINOR_THEO342", "code": "THEO 342", "title": "Perspectives on Life and Death", "credits": 3 },
+        { "id": "ETHICS_MORAL_PHILOSOPHY_MINOR_THEO344", "code": "THEO 344", "title": "Theology and Ecology", "credits": 3 }
+      ]
+    }
+  },
+  "coreRequirements": [],
+  "checklist": [],
+  "roadmap": [
+    {
+      "year": 1,
+      "semester": "Semester I",
+      "credits": 3,
+      "items": [
+        { "label": "Ethics Course (100- or 200-level)", "credits": 3, "isElective": true }
+      ]
+    },
+    {
+      "year": 1,
+      "semester": "Semester II",
+      "credits": 3,
+      "items": [
+        { "label": "Ethics Course (100- or 200-level)", "credits": 3, "isElective": true }
+      ]
+    },
+    {
+      "year": 2,
+      "semester": "Semester I",
+      "credits": 3,
+      "items": [
+        { "label": "Ethics Course (100-, 200-, or 300-level)", "credits": 3, "isElective": true }
+      ]
+    },
+    {
+      "year": 2,
+      "semester": "Semester II",
+      "credits": 3,
+      "items": [
+        { "label": "Ethics Course (100-, 200-, or 300-level)", "credits": 3, "isElective": true }
+      ]
+    },
+    {
+      "year": 3,
+      "semester": "Semester II",
+      "credits": 6,
+      "items": [
+        { "label": "Ethics Course (300-level)", "credits": 3, "isElective": true },
+        { "label": "Ethics Course (300-level)", "credits": 3, "isElective": true }
+      ]
+    }
+  ]
+}

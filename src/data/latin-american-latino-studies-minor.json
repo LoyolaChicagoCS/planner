@@ -1,0 +1,70 @@
+{
+  "id": "latin-american-latino-studies-minor",
+  "department": "Latin American and Latino Studies",
+  "name": "Latin American and Latino Studies",
+  "degree": "Minor",
+  "school": "Loyola University Chicago",
+  "kind": "minor",
+  "totalCredits": 18,
+  "minorCredits": 18,
+  "hasCompletionEstimate": false,
+  "catalogUrl": "https://catalog.luc.edu/undergraduate/arts-sciences/latin-american-latino-studies/latin-american-latino-studies-minor/",
+  "courses": [
+    { "id": "LATIN_AMERICAN_LATINO_STUDIES_MINOR_HIST210", "code": "HIST 210", "title": "Latin American History: Themes & Issues", "credits": 3, "category": "major", "requirementGroup": "LATIN_AMERICAN_LATINO_STUDIES_MINOR-grp1", "choiceNote": "Select two foundational courses from HIST 210, ANTH 211, SPAN 352, PLSC 343" },
+    { "id": "LATIN_AMERICAN_LATINO_STUDIES_MINOR_ANTH211", "code": "ANTH 211", "title": "Peoples of Latin America", "credits": 3, "category": "major", "requirementGroup": "LATIN_AMERICAN_LATINO_STUDIES_MINOR-grp1", "choiceNote": "Select two foundational courses from HIST 210, ANTH 211, SPAN 352, PLSC 343" },
+    { "id": "LATIN_AMERICAN_LATINO_STUDIES_MINOR_SPAN352", "code": "SPAN 352", "title": "Masterpieces of Latin American Literature", "credits": 3, "category": "major", "requirementGroup": "LATIN_AMERICAN_LATINO_STUDIES_MINOR-grp1", "choiceNote": "Select two foundational courses from HIST 210, ANTH 211, SPAN 352, PLSC 343" },
+    { "id": "LATIN_AMERICAN_LATINO_STUDIES_MINOR_PLSC343", "code": "PLSC 343", "title": "Latin American Politics", "credits": 3, "category": "major", "requirementGroup": "LATIN_AMERICAN_LATINO_STUDIES_MINOR-grp1", "choiceNote": "Select two foundational courses from HIST 210, ANTH 211, SPAN 352, PLSC 343" }
+  ],
+  "electiveOptions": {
+    "lasp_electives": {
+      "creditsRequired": 12,
+      "label": "LASP Minor Electives (12 credit hours)",
+      "note": "Twelve hours chosen from the LASP Minor Electives list. No more than two elective courses can be taken from the same department.",
+      "courses": [
+        { "id": "LATIN_AMERICAN_LATINO_STUDIES_MINOR_ANTH211E", "code": "ANTH 211", "title": "Peoples of Latin America", "credits": 3 },
+        { "id": "LATIN_AMERICAN_LATINO_STUDIES_MINOR_ANTH216", "code": "ANTH 216", "title": "Cultures of Migration", "credits": 3 },
+        { "id": "LATIN_AMERICAN_LATINO_STUDIES_MINOR_ANTH217", "code": "ANTH 217", "title": "Mexican Culture & Heritage", "credits": 3 },
+        { "id": "LATIN_AMERICAN_LATINO_STUDIES_MINOR_ANTH242", "code": "ANTH 242", "title": "Mesoamerican Archaeology and Survivance", "credits": 3 },
+        { "id": "LATIN_AMERICAN_LATINO_STUDIES_MINOR_ANTH321", "code": "ANTH 321", "title": "Human Rights in Latin America", "credits": 3 },
+        { "id": "LATIN_AMERICAN_LATINO_STUDIES_MINOR_ANTH332", "code": "ANTH 332", "title": "Language, Race, and Inequality", "credits": 3 },
+        { "id": "LATIN_AMERICAN_LATINO_STUDIES_MINOR_COMM272", "code": "COMM 272", "title": "Intercultural Communication", "credits": 3 },
+        { "id": "LATIN_AMERICAN_LATINO_STUDIES_MINOR_FNAR351", "code": "FNAR 351", "title": "Latin American Art I: Ancient to 19th Century", "credits": 3 },
+        { "id": "LATIN_AMERICAN_LATINO_STUDIES_MINOR_HIST210E", "code": "HIST 210", "title": "Latin American History: Themes & Issues", "credits": 3 },
+        { "id": "LATIN_AMERICAN_LATINO_STUDIES_MINOR_HIST352", "code": "HIST 352", "title": "Latin America in the 19th Century", "credits": 3 },
+        { "id": "LATIN_AMERICAN_LATINO_STUDIES_MINOR_HIST353", "code": "HIST 353", "title": "Latin America in Recent Times", "credits": 3 },
+        { "id": "LATIN_AMERICAN_LATINO_STUDIES_MINOR_HIST355", "code": "HIST 355", "title": "The Caribbean & Central America in Colonial/Modern Times", "credits": 3 },
+        { "id": "LATIN_AMERICAN_LATINO_STUDIES_MINOR_HIST356", "code": "HIST 356", "title": "Mexican History-Ancient to Modern Times", "credits": 3 },
+        { "id": "LATIN_AMERICAN_LATINO_STUDIES_MINOR_HIST357", "code": "HIST 357", "title": "The Mexican Revolution in Popular Imagination", "credits": 3 },
+        { "id": "LATIN_AMERICAN_LATINO_STUDIES_MINOR_HIST358", "code": "HIST 358", "title": "Women in Latin American History", "credits": 3 },
+        { "id": "LATIN_AMERICAN_LATINO_STUDIES_MINOR_HIST359", "code": "HIST 359", "title": "Teaching World History", "credits": 3 },
+        { "id": "LATIN_AMERICAN_LATINO_STUDIES_MINOR_HIST375", "code": "HIST 375", "title": "Digital History", "credits": 3 },
+        { "id": "LATIN_AMERICAN_LATINO_STUDIES_MINOR_HIST378", "code": "HIST 378", "title": "Latina/o History", "credits": 3 },
+        { "id": "LATIN_AMERICAN_LATINO_STUDIES_MINOR_HIST382", "code": "HIST 382", "title": "Teaching Race, Class, and Gender", "credits": 3 },
+        { "id": "LATIN_AMERICAN_LATINO_STUDIES_MINOR_HIST389N", "code": "HIST 389N", "title": "Anti-Immigrant Politics in U.S. History", "credits": 3 },
+        { "id": "LATIN_AMERICAN_LATINO_STUDIES_MINOR_LASP395", "code": "LASP 395", "title": "Capstone in Latin American Studies", "credits": 3 },
+        { "id": "LATIN_AMERICAN_LATINO_STUDIES_MINOR_PLSC343E", "code": "PLSC 343", "title": "Latin American Politics", "credits": 3 },
+        { "id": "LATIN_AMERICAN_LATINO_STUDIES_MINOR_SPAN352E", "code": "SPAN 352", "title": "Masterpieces of Latin American Literature", "credits": 3 },
+        { "id": "LATIN_AMERICAN_LATINO_STUDIES_MINOR_SPAN365", "code": "SPAN 365", "title": "Latin American Cinema", "credits": 3 },
+        { "id": "LATIN_AMERICAN_LATINO_STUDIES_MINOR_SPAN370", "code": "SPAN 370", "title": "Latin American Poetry", "credits": 3 },
+        { "id": "LATIN_AMERICAN_LATINO_STUDIES_MINOR_SPAN380", "code": "SPAN 380", "title": "Latin American Prose Fiction", "credits": 3 },
+        { "id": "LATIN_AMERICAN_LATINO_STUDIES_MINOR_SPAN381", "code": "SPAN 381", "title": "Contemporary Spanish-American Novel", "credits": 3 },
+        { "id": "LATIN_AMERICAN_LATINO_STUDIES_MINOR_SPAN382", "code": "SPAN 382", "title": "Latin American Theatre", "credits": 3 },
+        { "id": "LATIN_AMERICAN_LATINO_STUDIES_MINOR_SPAN385", "code": "SPAN 385", "title": "Caribbean Literature", "credits": 3 },
+        { "id": "LATIN_AMERICAN_LATINO_STUDIES_MINOR_SPAN389", "code": "SPAN 389", "title": "Latin American Short Story", "credits": 3 },
+        { "id": "LATIN_AMERICAN_LATINO_STUDIES_MINOR_SPAN390", "code": "SPAN 390", "title": "Latin American Culture and Civilization", "credits": 3 },
+        { "id": "LATIN_AMERICAN_LATINO_STUDIES_MINOR_SPAN397", "code": "SPAN 397", "title": "Topics in Hispanic Literature", "credits": 3 },
+        { "id": "LATIN_AMERICAN_LATINO_STUDIES_MINOR_THEO330", "code": "THEO 330", "title": "Liberation Theology", "credits": 3 }
+      ]
+    }
+  },
+  "coreRequirements": [],
+  "checklist": [],
+  "roadmap": [
+    { "year": 2, "semester": "Sophomore Fall", "credits": 3, "items": [ { "label": "Foundational Course", "credits": 3, "isElective": true } ] },
+    { "year": 2, "semester": "Sophomore Spring", "credits": 3, "items": [ { "label": "Foundational Course", "credits": 3, "isElective": true } ] },
+    { "year": 3, "semester": "Junior Fall", "credits": 3, "items": [ { "label": "Elective Course", "credits": 3, "isElective": true } ] },
+    { "year": 3, "semester": "Junior Spring", "credits": 3, "items": [ { "label": "Elective Course", "credits": 3, "isElective": true } ] },
+    { "year": 4, "semester": "Senior Fall", "credits": 3, "items": [ { "label": "Elective Course", "credits": 3, "isElective": true } ] },
+    { "year": 4, "semester": "Senior Spring", "credits": 3, "items": [ { "label": "Elective Course", "credits": 3, "isElective": true } ] }
+  ]
+}

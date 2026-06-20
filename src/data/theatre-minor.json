@@ -1,0 +1,52 @@
+{
+  "id": "theatre-minor",
+  "department": "Fine and Performing Arts",
+  "name": "Theatre",
+  "degree": "Minor",
+  "school": "Loyola University Chicago",
+  "kind": "minor",
+  "totalCredits": 18,
+  "minorCredits": 18,
+  "hasCompletionEstimate": false,
+  "catalogUrl": "https://catalog.luc.edu/undergraduate/arts-sciences/fine-performing-arts/theatre-minor/",
+  "courses": [
+    { "id": "THEATRE_MINOR_THTR100", "code": "THTR 100", "title": "Intro to Theatre Experience", "credits": 3, "category": "major" },
+
+    { "id": "THEATRE_MINOR_THTR252", "code": "THTR 252", "title": "Theatrical Design I", "credits": 3, "category": "major", "requirementGroup": "THEATRE_MINOR-grp1", "choiceNote": "Basic Skills: select two of THTR 252, THTR 261, THTR 204, THTR 227 (6 hrs)" },
+    { "id": "THEATRE_MINOR_THTR261", "code": "THTR 261", "title": "Beginning Acting", "credits": 3, "category": "major", "requirementGroup": "THEATRE_MINOR-grp1", "choiceNote": "Basic Skills: select two of THTR 252, THTR 261, THTR 204, THTR 227 (6 hrs)" },
+    { "id": "THEATRE_MINOR_THTR204", "code": "THTR 204", "title": "Playwriting", "credits": 3, "category": "major", "requirementGroup": "THEATRE_MINOR-grp1", "choiceNote": "Basic Skills: select two of THTR 252, THTR 261, THTR 204, THTR 227 (6 hrs)" },
+    { "id": "THEATRE_MINOR_THTR227", "code": "THTR 227", "title": "Stage Management", "credits": 3, "category": "major", "requirementGroup": "THEATRE_MINOR-grp1", "choiceNote": "Basic Skills: select two of THTR 252, THTR 261, THTR 204, THTR 227 (6 hrs)" },
+
+    { "id": "THEATRE_MINOR_THTR364", "code": "THTR 364", "title": "Theatre History and Literature I", "credits": 3, "category": "major", "requirementGroup": "THEATRE_MINOR-grp2", "choiceNote": "History and Literature: select one of THTR 364, THTR 365, THTR 366, THTR 367" },
+    { "id": "THEATRE_MINOR_THTR365", "code": "THTR 365", "title": "Theatre History and Literature II", "credits": 3, "category": "major", "requirementGroup": "THEATRE_MINOR-grp2", "choiceNote": "History and Literature: select one of THTR 364, THTR 365, THTR 366, THTR 367" },
+    { "id": "THEATRE_MINOR_THTR366", "code": "THTR 366", "title": "Theatre History and Literature III", "credits": 3, "category": "major", "requirementGroup": "THEATRE_MINOR-grp2", "choiceNote": "History and Literature: select one of THTR 364, THTR 365, THTR 366, THTR 367" },
+    { "id": "THEATRE_MINOR_THTR367", "code": "THTR 367", "title": "Theatre History and Literature IV", "credits": 3, "category": "major", "requirementGroup": "THEATRE_MINOR-grp2", "choiceNote": "History and Literature: select one of THTR 364, THTR 365, THTR 366, THTR 367" },
+
+    { "id": "THEATRE_MINOR_THTR321C", "code": "THTR 321C", "title": "Practicum: Costumes", "credits": 3, "category": "major", "requirementGroup": "THEATRE_MINOR-grp3", "choiceNote": "Practicum: select from THTR 321C, 321E, 321P, 321R, 321S, 321T (3 hrs)" },
+    { "id": "THEATRE_MINOR_THTR321E", "code": "THTR 321E", "title": "Practicum: Electrics", "credits": 3, "category": "major", "requirementGroup": "THEATRE_MINOR-grp3", "choiceNote": "Practicum: select from THTR 321C, 321E, 321P, 321R, 321S, 321T (3 hrs)" },
+    { "id": "THEATRE_MINOR_THTR321P", "code": "THTR 321P", "title": "Theatre Practicum: Production Staff", "credits": 3, "category": "major", "requirementGroup": "THEATRE_MINOR-grp3", "choiceNote": "Practicum: select from THTR 321C, 321E, 321P, 321R, 321S, 321T (3 hrs)" },
+    { "id": "THEATRE_MINOR_THTR321R", "code": "THTR 321R", "title": "Theatre Practicum: Running Crew", "credits": 3, "category": "major", "requirementGroup": "THEATRE_MINOR-grp3", "choiceNote": "Practicum: select from THTR 321C, 321E, 321P, 321R, 321S, 321T (3 hrs)" },
+    { "id": "THEATRE_MINOR_THTR321S", "code": "THTR 321S", "title": "Practicum: Scenic", "credits": 3, "category": "major", "requirementGroup": "THEATRE_MINOR-grp3", "choiceNote": "Practicum: select from THTR 321C, 321E, 321P, 321R, 321S, 321T (3 hrs)" },
+    { "id": "THEATRE_MINOR_THTR321T", "code": "THTR 321T", "title": "Theatre Practicum: Scene Painting", "credits": 3, "category": "major", "requirementGroup": "THEATRE_MINOR-grp3", "choiceNote": "Practicum: select from THTR 321C, 321E, 321P, 321R, 321S, 321T (3 hrs)" }
+  ],
+  "electiveOptions": {
+    "theatreElectives": {
+      "creditsRequired": 3,
+      "label": "Theatre Electives",
+      "note": "Theatre Electives (3 hours) selected from the catalog's Electives List of named THTR courses.",
+      "courses": [
+        { "id": "THEATRE_MINOR_POOL1", "code": "THTR 3XX", "title": "Theatre elective from the catalog Electives List", "credits": 3, "uniqueProgress": true }
+      ]
+    }
+  },
+  "coreRequirements": [],
+  "checklist": [],
+  "roadmap": [
+    { "year": 1, "semester": "First Semester", "credits": 3, "items": [ { "ref": "THEATRE_MINOR_THTR100" } ] },
+    { "year": 1, "semester": "Second Semester", "credits": 3, "items": [ { "ref": "THEATRE_MINOR_THTR261" } ] },
+    { "year": 2, "semester": "Third Semester", "credits": 1, "items": [ { "ref": "THEATRE_MINOR_THTR321R" } ] },
+    { "year": 2, "semester": "Fourth Semester", "credits": 5, "items": [ { "label": "Practicum: THTR 321C, 321E, or 321S", "credits": 2, "isElective": true }, { "label": "Theatre Elective", "credits": 3, "isElective": true } ] },
+    { "year": 3, "semester": "Fifth Semester", "credits": 3, "items": [ { "ref": "THEATRE_MINOR_THTR204" } ] },
+    { "year": 3, "semester": "Sixth Semester", "credits": 3, "items": [ { "ref": "THEATRE_MINOR_THTR365" } ] }
+  ]
+}

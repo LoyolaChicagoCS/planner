@@ -1,0 +1,34 @@
+{
+  "id": "literature-translation-minor",
+  "department": "Modern Languages and Literatures",
+  "name": "Literature in Translation",
+  "degree": "Minor",
+  "school": "Loyola University Chicago",
+  "kind": "minor",
+  "totalCredits": 18,
+  "minorCredits": 18,
+  "hasCompletionEstimate": false,
+  "catalogUrl": "https://catalog.luc.edu/undergraduate/arts-sciences/modern-languages-literatures/literature-translation-minor/",
+  "courses": [],
+  "electiveOptions": {
+    "litrCourses": {
+      "creditsRequired": 18,
+      "label": "Six Courses in LITR",
+      "note": "Six LITR courses (18 hours), three semester hours each, chosen in consultation with the department advisor. A maximum of four courses in any one literature will be accepted toward the minor. Examples include, but are not limited to, the courses listed.",
+      "courses": [
+        { "id": "LITERATURE_TRANSLATION_MINOR_LITR200", "code": "LITR 200", "title": "European Masterpieces", "credits": 3, "uniqueProgress": true },
+        { "id": "LITERATURE_TRANSLATION_MINOR_LITR202", "code": "LITR 202", "title": "European Novel", "credits": 3, "uniqueProgress": true },
+        { "id": "LITERATURE_TRANSLATION_MINOR_LITR204", "code": "LITR 204", "title": "European Film", "credits": 3, "uniqueProgress": true },
+        { "id": "LITERATURE_TRANSLATION_MINOR_LITR219", "code": "LITR 219", "title": "African Film", "credits": 3, "uniqueProgress": true },
+        { "id": "LITERATURE_TRANSLATION_MINOR_LITR221", "code": "LITR 221", "title": "Polish Authors", "credits": 3, "uniqueProgress": true },
+        { "id": "LITERATURE_TRANSLATION_MINOR_LITR238", "code": "LITR 238", "title": "Arabic Literature in Translation", "credits": 3, "uniqueProgress": true },
+        { "id": "LITERATURE_TRANSLATION_MINOR_LITR243", "code": "LITR 243", "title": "South Asian Literature", "credits": 3, "uniqueProgress": true },
+        { "id": "LITERATURE_TRANSLATION_MINOR_LITR245", "code": "LITR 245", "title": "Asian Masterpieces", "credits": 3, "uniqueProgress": true },
+        { "id": "LITERATURE_TRANSLATION_MINOR_LITR264", "code": "LITR 264", "title": "Italian Film Genre", "credits": 3, "uniqueProgress": true },
+        { "id": "LITERATURE_TRANSLATION_MINOR_LITR290", "code": "LITR 290", "title": "Classical Chinese Literature", "credits": 3, "uniqueProgress": true }
+      ]
+    }
+  },
+  "coreRequirements": [],
+  "checklist": []
+}

@@ -1,0 +1,122 @@
+{
+  "id": "race-ethnicity-minor",
+  "department": "Race and Ethnicity",
+  "name": "Race & Ethnicity",
+  "degree": "Minor",
+  "school": "Loyola University Chicago",
+  "kind": "minor",
+  "totalCredits": 18,
+  "minorCredits": 18,
+  "hasCompletionEstimate": false,
+  "catalogUrl": "https://catalog.luc.edu/undergraduate/arts-sciences/race-ethnicity/race-ethnicity-minor/",
+  "courses": [
+    { "id": "RACE_ETHNICITY_MINOR_SOCL122", "code": "SOCL 122", "title": "Race and Ethnic Relations", "credits": 3, "category": "major" },
+    { "id": "RACE_ETHNICITY_MINOR_SOCL380", "code": "SOCL 380", "title": "Internship", "credits": 3, "category": "major" }
+  ],
+  "electiveOptions": {
+    "theories": {
+      "creditsRequired": 3,
+      "label": "Theories of Race and Ethnicity",
+      "note": "Choose at least one of the following.",
+      "courses": [
+        { "id": "RACE_ETHNICITY_MINOR_ANTH105", "code": "ANTH 105", "title": "Theories of Race and Ethnicity option", "credits": 3 },
+        { "id": "RACE_ETHNICITY_MINOR_ANTH304", "code": "ANTH 304", "title": "Theories of Race and Ethnicity option", "credits": 3 },
+        { "id": "RACE_ETHNICITY_MINOR_CJC372", "code": "CJC 372", "title": "Theories of Race and Ethnicity option", "credits": 3 },
+        { "id": "RACE_ETHNICITY_MINOR_HIST374", "code": "HIST 374", "title": "Theories of Race and Ethnicity option", "credits": 3 },
+        { "id": "RACE_ETHNICITY_MINOR_HIST378", "code": "HIST 378", "title": "Theories of Race and Ethnicity option", "credits": 3 },
+        { "id": "RACE_ETHNICITY_MINOR_HIST380", "code": "HIST 380", "title": "Theories of Race and Ethnicity option", "credits": 3 },
+        { "id": "RACE_ETHNICITY_MINOR_PHIL389", "code": "PHIL 389", "title": "Theories of Race and Ethnicity option", "credits": 3 },
+        { "id": "RACE_ETHNICITY_MINOR_PLSC218", "code": "PLSC 218", "title": "Theories of Race and Ethnicity option", "credits": 3 },
+        { "id": "RACE_ETHNICITY_MINOR_PLSC300A", "code": "PLSC 300A", "title": "Theories of Race and Ethnicity option", "credits": 3 },
+        { "id": "RACE_ETHNICITY_MINOR_SOCL228", "code": "SOCL 228", "title": "Theories of Race and Ethnicity option", "credits": 3 }
+      ]
+    },
+    "inequality": {
+      "creditsRequired": 3,
+      "label": "Racial and Ethnic Inequality and Racism",
+      "note": "Choose at least one of the following.",
+      "courses": [
+        { "id": "RACE_ETHNICITY_MINOR_ANTH203", "code": "ANTH 203", "title": "Racial and Ethnic Inequality and Racism option", "credits": 3 },
+        { "id": "RACE_ETHNICITY_MINOR_ANTH332", "code": "ANTH 332", "title": "Racial and Ethnic Inequality and Racism option", "credits": 3 },
+        { "id": "RACE_ETHNICITY_MINOR_CJC345", "code": "CJC 345", "title": "Racial and Ethnic Inequality and Racism option", "credits": 3 },
+        { "id": "RACE_ETHNICITY_MINOR_HIST359F", "code": "HIST 359F", "title": "Racial and Ethnic Inequality and Racism option", "credits": 3 },
+        { "id": "RACE_ETHNICITY_MINOR_HIST360A", "code": "HIST 360A", "title": "Racial and Ethnic Inequality and Racism option", "credits": 3 },
+        { "id": "RACE_ETHNICITY_MINOR_PLSC316", "code": "PLSC 316", "title": "Racial and Ethnic Inequality and Racism option", "credits": 3 },
+        { "id": "RACE_ETHNICITY_MINOR_PLSC390", "code": "PLSC 390", "title": "Racial and Ethnic Inequality and Racism option", "credits": 3 },
+        { "id": "RACE_ETHNICITY_MINOR_PSYC239", "code": "PSYC 239", "title": "Racial and Ethnic Inequality and Racism option", "credits": 3 },
+        { "id": "RACE_ETHNICITY_MINOR_PSYC360", "code": "PSYC 360", "title": "Racial and Ethnic Inequality and Racism option", "credits": 3 },
+        { "id": "RACE_ETHNICITY_MINOR_SOCL225", "code": "SOCL 225", "title": "Racial and Ethnic Inequality and Racism option", "credits": 3 },
+        { "id": "RACE_ETHNICITY_MINOR_SOCL250", "code": "SOCL 250", "title": "Racial and Ethnic Inequality and Racism option", "credits": 3 },
+        { "id": "RACE_ETHNICITY_MINOR_SOCL252", "code": "SOCL 252", "title": "Racial and Ethnic Inequality and Racism option", "credits": 3 },
+        { "id": "RACE_ETHNICITY_MINOR_THEO203", "code": "THEO 203", "title": "Racial and Ethnic Inequality and Racism option", "credits": 3 }
+      ]
+    },
+    "perspectives": {
+      "creditsRequired": 3,
+      "label": "Historical, Cultural, and Contemporary Perspectives on Racial and Ethnic Issues",
+      "note": "Choose at least one of the following.",
+      "courses": [
+        { "id": "RACE_ETHNICITY_MINOR_ANTH208", "code": "ANTH 208", "title": "Historical, Cultural, and Contemporary Perspectives option", "credits": 3 },
+        { "id": "RACE_ETHNICITY_MINOR_ANTH211", "code": "ANTH 211", "title": "Historical, Cultural, and Contemporary Perspectives option", "credits": 3 },
+        { "id": "RACE_ETHNICITY_MINOR_ANTH213", "code": "ANTH 213", "title": "Historical, Cultural, and Contemporary Perspectives option", "credits": 3 },
+        { "id": "RACE_ETHNICITY_MINOR_ANTH216", "code": "ANTH 216", "title": "Historical, Cultural, and Contemporary Perspectives option", "credits": 3 },
+        { "id": "RACE_ETHNICITY_MINOR_ANTH217", "code": "ANTH 217", "title": "Historical, Cultural, and Contemporary Perspectives option", "credits": 3 },
+        { "id": "RACE_ETHNICITY_MINOR_ANTH242", "code": "ANTH 242", "title": "Historical, Cultural, and Contemporary Perspectives option", "credits": 3 },
+        { "id": "RACE_ETHNICITY_MINOR_CJC375", "code": "CJC 375", "title": "Historical, Cultural, and Contemporary Perspectives option", "credits": 3 },
+        { "id": "RACE_ETHNICITY_MINOR_ENGL282B", "code": "ENGL 282B", "title": "Historical, Cultural, and Contemporary Perspectives option", "credits": 3 },
+        { "id": "RACE_ETHNICITY_MINOR_ENGL284", "code": "ENGL 284", "title": "Historical, Cultural, and Contemporary Perspectives option", "credits": 3 },
+        { "id": "RACE_ETHNICITY_MINOR_ENGL313", "code": "ENGL 313", "title": "Historical, Cultural, and Contemporary Perspectives option", "credits": 3 },
+        { "id": "RACE_ETHNICITY_MINOR_HIST389B", "code": "HIST 389B", "title": "Historical, Cultural, and Contemporary Perspectives option", "credits": 3 },
+        { "id": "RACE_ETHNICITY_MINOR_PLSC334", "code": "PLSC 334", "title": "Historical, Cultural, and Contemporary Perspectives option", "credits": 3 },
+        { "id": "RACE_ETHNICITY_MINOR_ROST382", "code": "ROST 382", "title": "Historical, Cultural, and Contemporary Perspectives option", "credits": 3 },
+        { "id": "RACE_ETHNICITY_MINOR_SOCL234", "code": "SOCL 234", "title": "Historical, Cultural, and Contemporary Perspectives option", "credits": 3 },
+        { "id": "RACE_ETHNICITY_MINOR_SOCL245", "code": "SOCL 245", "title": "Historical, Cultural, and Contemporary Perspectives option", "credits": 3 },
+        { "id": "RACE_ETHNICITY_MINOR_SOCL280", "code": "SOCL 280", "title": "Historical, Cultural, and Contemporary Perspectives option", "credits": 3 }
+      ]
+    },
+    "additional": {
+      "creditsRequired": 3,
+      "label": "Additional Elective",
+      "note": "Choose one additional course from any of the three areas above (Theories; Inequality and Racism; or Historical, Cultural, and Contemporary Perspectives). No more than two of the six courses may come from the same discipline, with the exception of the capstone class.",
+      "courses": []
+    }
+  },
+  "coreRequirements": [],
+  "checklist": [],
+  "roadmap": [
+    {
+      "year": 1,
+      "semester": "Semester I",
+      "credits": 3,
+      "items": [
+        { "ref": "RACE_ETHNICITY_MINOR_SOCL122" }
+      ]
+    },
+    {
+      "year": 1,
+      "semester": "Semester II",
+      "credits": 6,
+      "items": [
+        { "label": "Theories of Race and Ethnicity Elective", "credits": 3, "isElective": true },
+        { "label": "Racial and Ethnic Inequality and Racism Elective", "credits": 3, "isElective": true }
+      ]
+    },
+    {
+      "year": 2,
+      "semester": "Semester III",
+      "credits": 6,
+      "items": [
+        { "label": "Historical, Cultural, and Contemporary Perspectives Elective", "credits": 3, "isElective": true },
+        { "label": "Additional Elective Course", "credits": 3, "isElective": true }
+      ]
+    },
+    {
+      "year": 2,
+      "semester": "Semester IV",
+      "credits": 3,
+      "items": [
+        { "ref": "RACE_ETHNICITY_MINOR_SOCL380" }
+      ]
+    }
+  ]
+}

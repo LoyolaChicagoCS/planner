@@ -1,0 +1,34 @@
+{
+  "id": "photography-video-art-minor",
+  "department": "Fine and Performing Arts",
+  "name": "Photography and Video Art",
+  "degree": "Minor",
+  "school": "Loyola University Chicago",
+  "kind": "minor",
+  "totalCredits": 18,
+  "minorCredits": 18,
+  "hasCompletionEstimate": false,
+  "catalogUrl": "https://catalog.luc.edu/undergraduate/arts-sciences/fine-performing-arts/photography-video-art-minor/",
+  "courses": [
+    { "id": "PHOTOGRAPHY_VIDEO_ART_MINOR_FNAR115", "code": "FNAR 115", "title": "Foundations of Photography", "credits": 3, "category": "major" },
+    { "id": "PHOTOGRAPHY_VIDEO_ART_MINOR_FNAR216", "code": "FNAR 216", "title": "Lighting Techniques for Photography and Video Art", "credits": 3, "category": "major" },
+    { "id": "PHOTOGRAPHY_VIDEO_ART_MINOR_FNAR219", "code": "FNAR 219", "title": "Photography: Digital Imaging", "credits": 3, "category": "major" },
+    { "id": "PHOTOGRAPHY_VIDEO_ART_MINOR_FNAR110", "code": "FNAR 110", "title": "Foundations of Visual Art", "credits": 3, "category": "major", "requirementGroup": "PHOTOGRAPHY_VIDEO_ART_MINOR-grp1", "choiceNote": "Choose FNAR 110 or FNAR 113" },
+    { "id": "PHOTOGRAPHY_VIDEO_ART_MINOR_FNAR113", "code": "FNAR 113", "title": "Drawing I", "credits": 3, "category": "major", "requirementGroup": "PHOTOGRAPHY_VIDEO_ART_MINOR-grp1", "choiceNote": "Choose FNAR 110 or FNAR 113" },
+    { "id": "PHOTOGRAPHY_VIDEO_ART_MINOR_FNAR202", "code": "FNAR 202", "title": "Global Art History: Modern Art", "credits": 3, "category": "major", "requirementGroup": "PHOTOGRAPHY_VIDEO_ART_MINOR-grp2", "choiceNote": "Choose FNAR 202 or FNAR 306 or FNAR 365" },
+    { "id": "PHOTOGRAPHY_VIDEO_ART_MINOR_FNAR306", "code": "FNAR 306", "title": "Contemporary Art 1945-Present", "credits": 3, "category": "major", "requirementGroup": "PHOTOGRAPHY_VIDEO_ART_MINOR-grp2", "choiceNote": "Choose FNAR 202 or FNAR 306 or FNAR 365" },
+    { "id": "PHOTOGRAPHY_VIDEO_ART_MINOR_FNAR365", "code": "FNAR 365", "title": "History of Photography", "credits": 3, "category": "major", "requirementGroup": "PHOTOGRAPHY_VIDEO_ART_MINOR-grp2", "choiceNote": "Choose FNAR 202 or FNAR 306 or FNAR 365" },
+    { "id": "PHOTOGRAPHY_VIDEO_ART_MINOR_FNAR315", "code": "FNAR 315", "title": "Photography: Films and Cameras", "credits": 3, "category": "major", "requirementGroup": "PHOTOGRAPHY_VIDEO_ART_MINOR-grp3", "choiceNote": "Choose FNAR 315 or FNAR 320" },
+    { "id": "PHOTOGRAPHY_VIDEO_ART_MINOR_FNAR320", "code": "FNAR 320", "title": "Video Art", "credits": 3, "category": "major", "requirementGroup": "PHOTOGRAPHY_VIDEO_ART_MINOR-grp3", "choiceNote": "Choose FNAR 315 or FNAR 320" }
+  ],
+  "coreRequirements": [],
+  "checklist": [],
+  "roadmap": [
+    { "year": 1, "semester": "Semester I", "credits": 3, "items": [ { "ref": "PHOTOGRAPHY_VIDEO_ART_MINOR_FNAR110" } ] },
+    { "year": 1, "semester": "Semester II", "credits": 3, "items": [ { "ref": "PHOTOGRAPHY_VIDEO_ART_MINOR_FNAR115" } ] },
+    { "year": 2, "semester": "Semester I", "credits": 3, "items": [ { "ref": "PHOTOGRAPHY_VIDEO_ART_MINOR_FNAR216" } ] },
+    { "year": 2, "semester": "Semester II", "credits": 3, "items": [ { "ref": "PHOTOGRAPHY_VIDEO_ART_MINOR_FNAR219" } ] },
+    { "year": 3, "semester": "Semester I", "credits": 3, "items": [ { "ref": "PHOTOGRAPHY_VIDEO_ART_MINOR_FNAR315" } ] },
+    { "year": 3, "semester": "Semester II", "credits": 3, "items": [ { "ref": "PHOTOGRAPHY_VIDEO_ART_MINOR_FNAR202" } ] }
+  ]
+}

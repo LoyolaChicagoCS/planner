@@ -1,0 +1,117 @@
+{
+  "id": "sociology-minor",
+  "department": "Sociology",
+  "name": "Sociology",
+  "degree": "Minor",
+  "school": "Loyola University Chicago",
+  "kind": "minor",
+  "totalCredits": 18,
+  "minorCredits": 18,
+  "hasCompletionEstimate": false,
+  "catalogUrl": "https://catalog.luc.edu/undergraduate/arts-sciences/sociology/sociology-minor/",
+  "courses": [
+    {
+      "id": "SOCIOLOGY_MINOR_SOCL101",
+      "code": "SOCL 101",
+      "title": "Society in a Global Age (or other 100-level class)",
+      "credits": 3,
+      "category": "major"
+    }
+  ],
+  "electiveOptions": {
+    "soclElectives": {
+      "creditsRequired": 15,
+      "label": "SOCL Electives",
+      "note": "Five SOCL Elective courses (3 hours each) beyond SOCL 101. May count only one semester of SOCL 380 Internship and one 100-level course.",
+      "courses": [
+        {
+          "id": "SOCIOLOGY_MINOR_POOL1",
+          "code": "SOCL 1XX",
+          "title": "SOCL Elective",
+          "credits": 3,
+          "uniqueProgress": true
+        },
+        {
+          "id": "SOCIOLOGY_MINOR_POOL2",
+          "code": "SOCL 1XX",
+          "title": "SOCL Elective",
+          "credits": 3,
+          "uniqueProgress": true
+        },
+        {
+          "id": "SOCIOLOGY_MINOR_POOL3",
+          "code": "SOCL 1XX",
+          "title": "SOCL Elective",
+          "credits": 3,
+          "uniqueProgress": true
+        },
+        {
+          "id": "SOCIOLOGY_MINOR_POOL4",
+          "code": "SOCL 1XX",
+          "title": "SOCL Elective",
+          "credits": 3,
+          "uniqueProgress": true
+        },
+        {
+          "id": "SOCIOLOGY_MINOR_POOL5",
+          "code": "SOCL 1XX",
+          "title": "SOCL Elective",
+          "credits": 3,
+          "uniqueProgress": true
+        }
+      ]
+    }
+  },
+  "coreRequirements": [],
+  "checklist": [],
+  "roadmap": [
+    {
+      "year": 1,
+      "semester": "Semester II",
+      "credits": 3,
+      "items": [
+        { "ref": "SOCIOLOGY_MINOR_SOCL101" }
+      ]
+    },
+    {
+      "year": 2,
+      "semester": "Semester I",
+      "credits": 3,
+      "items": [
+        { "label": "SOCL Elective 1", "credits": 3, "isElective": true }
+      ]
+    },
+    {
+      "year": 2,
+      "semester": "Semester II",
+      "credits": 3,
+      "items": [
+        { "label": "SOCL Elective 2", "credits": 3, "isElective": true }
+      ]
+    },
+    {
+      "year": 3,
+      "semester": "Semester I",
+      "credits": 3,
+      "items": [
+        { "label": "SOCL Elective 3", "credits": 3, "isElective": true }
+      ]
+    },
+    {
+      "year": 3,
+      "semester": "Semester II",
+      "credits": 3,
+      "items": [
+        { "label": "SOCL Elective 4", "credits": 3, "isElective": true }
+      ]
+    },
+    {
+      "year": 4,
+      "semester": "Semester I",
+      "credits": 3,
+      "items": [
+        { "label": "SOCL Elective 5", "credits": 3, "isElective": true }
+      ]
+    }
+  ]
+}

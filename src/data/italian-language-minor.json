@@ -1,0 +1,30 @@
+{
+  "id": "italian-language-minor",
+  "department": "Modern Languages and Literatures",
+  "name": "Italian Language",
+  "degree": "Minor",
+  "school": "Loyola University Chicago",
+  "kind": "minor",
+  "totalCredits": 18,
+  "minorCredits": 18,
+  "hasCompletionEstimate": false,
+  "catalogUrl": "https://catalog.luc.edu/undergraduate/arts-sciences/modern-languages-literatures/italian-language-minor/",
+  "courses": [
+    { "id": "ITALIAN_LANGUAGE_MINOR_ITAL101", "code": "ITAL 101", "title": "Italian I", "credits": 3, "category": "major" },
+    { "id": "ITALIAN_LANGUAGE_MINOR_ITAL102", "code": "ITAL 102", "title": "Italian II", "credits": 3, "category": "major" },
+    { "id": "ITALIAN_LANGUAGE_MINOR_ITAL103", "code": "ITAL 103", "title": "Italian III", "credits": 3, "category": "major" },
+    { "id": "ITALIAN_LANGUAGE_MINOR_ITAL104", "code": "ITAL 104", "title": "Italian IV", "credits": 3, "category": "major" },
+    { "id": "ITALIAN_LANGUAGE_MINOR_ITAL250", "code": "ITAL 250", "title": "Composition & Conversation I", "credits": 3, "category": "major" },
+    { "id": "ITALIAN_LANGUAGE_MINOR_ITAL251", "code": "ITAL 251", "title": "Composition & Conversation II", "credits": 3, "category": "major" }
+  ],
+  "coreRequirements": [],
+  "checklist": [],
+  "roadmap": [
+    { "year": 1, "semester": "Semester I", "credits": 3, "items": [ { "ref": "ITALIAN_LANGUAGE_MINOR_ITAL101" } ] },
+    { "year": 1, "semester": "Semester II", "credits": 3, "items": [ { "ref": "ITALIAN_LANGUAGE_MINOR_ITAL102" } ] },
+    { "year": 2, "semester": "Semester III", "credits": 3, "items": [ { "ref": "ITALIAN_LANGUAGE_MINOR_ITAL103" } ] },
+    { "year": 2, "semester": "Semester IV", "credits": 3, "items": [ { "ref": "ITALIAN_LANGUAGE_MINOR_ITAL104" } ] },
+    { "year": 3, "semester": "Semester V", "credits": 3, "items": [ { "ref": "ITALIAN_LANGUAGE_MINOR_ITAL250" } ] },
+    { "year": 3, "semester": "Semester VI", "credits": 3, "items": [ { "ref": "ITALIAN_LANGUAGE_MINOR_ITAL251" } ] }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "id": "spanish-language-literature-minor",
+  "department": "Modern Languages and Literatures",
+  "name": "Spanish Language and Literature",
+  "degree": "Minor",
+  "school": "Loyola University Chicago",
+  "kind": "minor",
+  "totalCredits": 18,
+  "minorCredits": 18,
+  "hasCompletionEstimate": false,
+  "catalogUrl": "https://catalog.luc.edu/undergraduate/arts-sciences/modern-languages-literatures/spanish-language-literature-minor/",
+  "courses": [
+    { "id": "SPANISH_LANGUAGE_LITERATURE_MINOR_SPAN270", "code": "SPAN 270", "title": "Introduction to Critical Analysis in Spanish", "credits": 3, "category": "major" },
+    { "id": "SPANISH_LANGUAGE_LITERATURE_MINOR_SPAN250", "code": "SPAN 250", "title": "Composition & Conversation I", "credits": 3, "category": "major", "requirementGroup": "SPANISH_LANGUAGE_LITERATURE_MINOR-grp1", "choiceNote": "Choose SPAN 250 or SPAN 252" },
+    { "id": "SPANISH_LANGUAGE_LITERATURE_MINOR_SPAN252", "code": "SPAN 252", "title": "Composition & Conversation: Native Speakers", "credits": 3, "category": "major", "requirementGroup": "SPANISH_LANGUAGE_LITERATURE_MINOR-grp1", "choiceNote": "Choose SPAN 250 or SPAN 252" },
+    { "id": "SPANISH_LANGUAGE_LITERATURE_MINOR_SPAN251", "code": "SPAN 251", "title": "Composition & Conversation II", "credits": 3, "category": "major", "requirementGroup": "SPANISH_LANGUAGE_LITERATURE_MINOR-grp2", "choiceNote": "Choose SPAN 251 or SPAN 253" },
+    { "id": "SPANISH_LANGUAGE_LITERATURE_MINOR_SPAN253", "code": "SPAN 253", "title": "Advanced Composition & Conversation: Native Speakers", "credits": 3, "category": "major", "requirementGroup": "SPANISH_LANGUAGE_LITERATURE_MINOR-grp2", "choiceNote": "Choose SPAN 251 or SPAN 253" },
+    { "id": "SPANISH_LANGUAGE_LITERATURE_MINOR_SPAN271", "code": "SPAN 271", "title": "Introduction to Iberian Literature and Culture", "credits": 3, "category": "major", "requirementGroup": "SPANISH_LANGUAGE_LITERATURE_MINOR-grp3", "choiceNote": "Choose SPAN 271 or SPAN 272" },
+    { "id": "SPANISH_LANGUAGE_LITERATURE_MINOR_SPAN272", "code": "SPAN 272", "title": "Introduction to Spanish American Literature and Culture", "credits": 3, "category": "major", "requirementGroup": "SPANISH_LANGUAGE_LITERATURE_MINOR-grp3", "choiceNote": "Choose SPAN 271 or SPAN 272" }
+  ],
+  "electiveOptions": {
+    "span300": {
+      "creditsRequired": 6,
+      "label": "Two SPAN 300-level courses",
+      "note": "Two SPAN 300-Level Courses (6 hours).",
+      "courses": [
+        { "id": "SPANISH_LANGUAGE_LITERATURE_MINOR_POOL1", "code": "SPAN 3XX", "title": "300-level SPAN elective", "credits": 3, "uniqueProgress": true },
+        { "id": "SPANISH_LANGUAGE_LITERATURE_MINOR_POOL2", "code": "SPAN 3XX", "title": "300-level SPAN elective", "credits": 3, "uniqueProgress": true }
+      ]
+    }
+  },
+  "coreRequirements": [],
+  "checklist": []
+}

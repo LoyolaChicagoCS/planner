@@ -1,0 +1,35 @@
+{
+  "id": "advocacy-social-change-minor",
+  "department": "Communication",
+  "name": "Advocacy and Social Change",
+  "degree": "Minor",
+  "school": "Loyola University Chicago",
+  "kind": "minor",
+  "totalCredits": 21,
+  "minorCredits": 21,
+  "hasCompletionEstimate": false,
+  "catalogUrl": "https://catalog.luc.edu/undergraduate/communication/public-communication-advocacy/advocacy-social-change-minor/",
+  "courses": [
+    { "id": "ADVOCACY_SOCIAL_CHANGE_MINOR_COMM175", "code": "COMM 175", "title": "Introduction to Communication", "credits": 3, "category": "major" },
+    { "id": "ADVOCACY_SOCIAL_CHANGE_MINOR_COMM220", "code": "COMM 220", "title": "Introduction to Rhetoric", "credits": 3, "category": "major" },
+    { "id": "ADVOCACY_SOCIAL_CHANGE_MINOR_COMM227", "code": "COMM 227", "title": "Social Justice and Public Communication", "credits": 3, "category": "major" },
+    { "id": "ADVOCACY_SOCIAL_CHANGE_MINOR_COMM230", "code": "COMM 230", "title": "Argumentation & Advocacy", "credits": 3, "category": "major" },
+    { "id": "ADVOCACY_SOCIAL_CHANGE_MINOR_COMM236", "code": "COMM 236", "title": "Persuasive Presentations", "credits": 3, "category": "major" },
+    { "id": "ADVOCACY_SOCIAL_CHANGE_MINOR_COMM268", "code": "COMM 268", "title": "Persuasion", "credits": 3, "category": "major" },
+    { "id": "ADVOCACY_SOCIAL_CHANGE_MINOR_COMM215", "code": "COMM 215", "title": "Ethics & Communication", "credits": 3, "category": "major", "requirementGroup": "ADVOCACY_SOCIAL_CHANGE_MINOR-grp1", "choiceNote": "Choose one of COMM 215, COMM 231, COMM 281, COMM 306, or COMM 307" },
+    { "id": "ADVOCACY_SOCIAL_CHANGE_MINOR_COMM231", "code": "COMM 231", "title": "Conflict Management and Communication", "credits": 3, "category": "major", "requirementGroup": "ADVOCACY_SOCIAL_CHANGE_MINOR-grp1", "choiceNote": "Choose one of COMM 215, COMM 231, COMM 281, COMM 306, or COMM 307" },
+    { "id": "ADVOCACY_SOCIAL_CHANGE_MINOR_COMM281", "code": "COMM 281", "title": "Communication, Language & Gender", "credits": 3, "category": "major", "requirementGroup": "ADVOCACY_SOCIAL_CHANGE_MINOR-grp1", "choiceNote": "Choose one of COMM 215, COMM 231, COMM 281, COMM 306, or COMM 307" },
+    { "id": "ADVOCACY_SOCIAL_CHANGE_MINOR_COMM306", "code": "COMM 306", "title": "Environmental Communication & Advocacy", "credits": 3, "category": "major", "requirementGroup": "ADVOCACY_SOCIAL_CHANGE_MINOR-grp1", "choiceNote": "Choose one of COMM 215, COMM 231, COMM 281, COMM 306, or COMM 307" },
+    { "id": "ADVOCACY_SOCIAL_CHANGE_MINOR_COMM307", "code": "COMM 307", "title": "Communication and Social Movements", "credits": 3, "category": "major", "requirementGroup": "ADVOCACY_SOCIAL_CHANGE_MINOR-grp1", "choiceNote": "Choose one of COMM 215, COMM 231, COMM 281, COMM 306, or COMM 307" }
+  ],
+  "coreRequirements": [],
+  "checklist": [],
+  "roadmap": [
+    { "year": 2, "semester": "Fall", "credits": 3, "items": [ { "ref": "ADVOCACY_SOCIAL_CHANGE_MINOR_COMM175" } ] },
+    { "year": 2, "semester": "Spring", "credits": 3, "items": [ { "ref": "ADVOCACY_SOCIAL_CHANGE_MINOR_COMM227" } ] },
+    { "year": 3, "semester": "Fall", "credits": 6, "items": [ { "ref": "ADVOCACY_SOCIAL_CHANGE_MINOR_COMM220" }, { "ref": "ADVOCACY_SOCIAL_CHANGE_MINOR_COMM230" } ] },
+    { "year": 3, "semester": "Spring", "credits": 3, "items": [ { "ref": "ADVOCACY_SOCIAL_CHANGE_MINOR_COMM236" } ] },
+    { "year": 4, "semester": "Fall", "credits": 3, "items": [ { "ref": "ADVOCACY_SOCIAL_CHANGE_MINOR_COMM268" } ] },
+    { "year": 4, "semester": "Spring", "credits": 3, "items": [ { "label": "Minor Elective (choose one)", "credits": 3, "isElective": true } ] }
+  ]
+}

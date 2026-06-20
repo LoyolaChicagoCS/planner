@@ -1,0 +1,30 @@
+{
+  "id": "classical-civilization-minor",
+  "department": "Classical Studies",
+  "name": "Classical Civilization",
+  "degree": "Minor",
+  "school": "Loyola University Chicago",
+  "kind": "minor",
+  "totalCredits": 18,
+  "minorCredits": 18,
+  "hasCompletionEstimate": false,
+  "catalogUrl": "https://catalog.luc.edu/undergraduate/arts-sciences/classical-studies/classical-civilization-minor/",
+  "courses": [],
+  "electiveOptions": {
+    "clstPool": {
+      "creditsRequired": 18,
+      "label": "Six CLST courses",
+      "note": "Six (6) courses in CLST for 18 hours. Up to four (4) courses in GREK or LATN may be substituted (up to 12 credit hours of ancient Greek or Latin coursework at any level may be substituted for coursework presented in English).",
+      "courses": [
+        { "id": "CLASSICAL_CIVILIZATION_MINOR_POOL1", "code": "CLST 2XX-4XX", "title": "CLST course", "credits": 3, "uniqueProgress": true },
+        { "id": "CLASSICAL_CIVILIZATION_MINOR_POOL2", "code": "CLST 2XX-4XX", "title": "CLST course", "credits": 3, "uniqueProgress": true },
+        { "id": "CLASSICAL_CIVILIZATION_MINOR_POOL3", "code": "CLST 2XX-4XX", "title": "CLST course", "credits": 3, "uniqueProgress": true },
+        { "id": "CLASSICAL_CIVILIZATION_MINOR_POOL4", "code": "CLST 2XX-4XX", "title": "CLST course", "credits": 3, "uniqueProgress": true },
+        { "id": "CLASSICAL_CIVILIZATION_MINOR_POOL5", "code": "CLST 2XX-4XX", "title": "CLST course", "credits": 3, "uniqueProgress": true },
+        { "id": "CLASSICAL_CIVILIZATION_MINOR_POOL6", "code": "CLST 2XX-4XX", "title": "CLST course", "credits": 3, "uniqueProgress": true }
+      ]
+    }
+  },
+  "coreRequirements": [],
+  "checklist": []
+}

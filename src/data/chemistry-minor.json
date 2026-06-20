@@ -1,0 +1,60 @@
+{
+  "id": "chemistry-minor",
+  "department": "Chemistry and Biochemistry",
+  "name": "Chemistry",
+  "degree": "Minor",
+  "school": "Loyola University Chicago",
+  "kind": "minor",
+  "totalCredits": 24,
+  "minorCredits": 24,
+  "hasCompletionEstimate": false,
+  "catalogUrl": "https://catalog.luc.edu/undergraduate/arts-sciences/chemistry-biochemistry/chemistry-minor/",
+  "courses": [
+    { "id": "CHEMISTRY_MINOR_CHEM160", "code": "CHEM 160", "title": "Chemical Structure and Properties", "credits": 3, "category": "major" },
+    { "id": "CHEMISTRY_MINOR_CHEM161", "code": "CHEM 161", "title": "Chemical Structure and Properties Laboratory", "credits": 1, "category": "major" },
+    { "id": "CHEMISTRY_MINOR_CHEM180", "code": "CHEM 180", "title": "Chemical Reactivity I", "credits": 3, "category": "major" },
+    { "id": "CHEMISTRY_MINOR_CHEM181", "code": "CHEM 181", "title": "Chemical Reactivity I Lab", "credits": 1, "category": "major" },
+    { "id": "CHEMISTRY_MINOR_CHEM240", "code": "CHEM 240", "title": "Chemical Reactivity II", "credits": 3, "category": "major" },
+    { "id": "CHEMISTRY_MINOR_CHEM241", "code": "CHEM 241", "title": "Chemical Reactivity II Laboratory", "credits": 1, "category": "major" },
+    { "id": "CHEMISTRY_MINOR_CHEM260", "code": "CHEM 260", "title": "Quantitative Methods in Chemistry", "credits": 3, "category": "major" },
+    { "id": "CHEMISTRY_MINOR_CHEM272", "code": "CHEM 272", "title": "Analytical Chemistry Laboratory", "credits": 2, "category": "major" },
+    { "id": "CHEMISTRY_MINOR_CHEM280", "code": "CHEM 280", "title": "Environmental & Chemical Analysis", "credits": 3, "category": "major" }
+  ],
+  "electiveOptions": {
+    "chem300": {
+      "creditsRequired": 4,
+      "label": "CHEM 300-level electives",
+      "note": "Select four additional credit hours at the 300 level. Only 1 credit hour of CHEM 300 (Undergraduate Research) and only 1 credit hour of CHEM 380 (Chemistry Seminar) count toward the minor.",
+      "courses": [
+        { "id": "CHEMISTRY_MINOR_POOL1", "code": "CHEM 3XX", "title": "300-level CHEM elective", "credits": 4, "uniqueProgress": true }
+      ]
+    }
+  },
+  "coreRequirements": [],
+  "checklist": [],
+  "roadmap": [
+    { "year": 1, "semester": "Fall", "credits": 4, "items": [
+      { "ref": "CHEMISTRY_MINOR_CHEM160" },
+      { "ref": "CHEMISTRY_MINOR_CHEM161" }
+    ] },
+    { "year": 1, "semester": "Spring", "credits": 4, "items": [
+      { "ref": "CHEMISTRY_MINOR_CHEM180" },
+      { "ref": "CHEMISTRY_MINOR_CHEM181" }
+    ] },
+    { "year": 2, "semester": "Fall", "credits": 4, "items": [
+      { "ref": "CHEMISTRY_MINOR_CHEM240" },
+      { "ref": "CHEMISTRY_MINOR_CHEM241" }
+    ] },
+    { "year": 2, "semester": "Spring", "credits": 5, "items": [
+      { "ref": "CHEMISTRY_MINOR_CHEM260" },
+      { "ref": "CHEMISTRY_MINOR_CHEM272" }
+    ] },
+    { "year": 3, "semester": "Fall", "credits": 4, "items": [
+      { "ref": "CHEMISTRY_MINOR_CHEM280" },
+      { "label": "CHEM 300-level elective", "credits": 1, "isElective": true }
+    ] },
+    { "year": 3, "semester": "Spring", "credits": 3, "items": [
+      { "label": "CHEM 300-level elective", "credits": 3, "isElective": true }
+    ] }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "id": "philosophy-minor",
+  "department": "Philosophy",
+  "name": "Philosophy",
+  "degree": "Minor",
+  "school": "Loyola University Chicago",
+  "kind": "minor",
+  "totalCredits": 18,
+  "minorCredits": 18,
+  "hasCompletionEstimate": false,
+  "catalogUrl": "https://catalog.luc.edu/undergraduate/arts-sciences/philosophy/philosophy-minor/",
+  "courses": [
+    { "id": "PHILOSOPHY_MINOR_PHIL181", "code": "PHIL 181", "title": "Ethics", "credits": 3, "category": "major", "requirementGroup": "PHILOSOPHY_MINOR-grp1", "choiceNote": "Select one lower-level philosophy course from the ethics group (PHIL 181, 182, 283, 284, 285, 286, 287, 288, or 289)" },
+    { "id": "PHILOSOPHY_MINOR_PHIL182", "code": "PHIL 182", "title": "Social and Political Philosophy", "credits": 3, "category": "major", "requirementGroup": "PHILOSOPHY_MINOR-grp1", "choiceNote": "Select one lower-level philosophy course from the ethics group (PHIL 181, 182, 283, 284, 285, 286, 287, 288, or 289)" },
+    { "id": "PHILOSOPHY_MINOR_PHIL283", "code": "PHIL 283", "title": "Business Ethics", "credits": 3, "category": "major", "requirementGroup": "PHILOSOPHY_MINOR-grp1", "choiceNote": "Select one lower-level philosophy course from the ethics group (PHIL 181, 182, 283, 284, 285, 286, 287, 288, or 289)" },
+    { "id": "PHILOSOPHY_MINOR_PHIL284", "code": "PHIL 284", "title": "Health Care Ethics", "credits": 3, "category": "major", "requirementGroup": "PHILOSOPHY_MINOR-grp1", "choiceNote": "Select one lower-level philosophy course from the ethics group (PHIL 181, 182, 283, 284, 285, 286, 287, 288, or 289)" },
+    { "id": "PHILOSOPHY_MINOR_PHIL285", "code": "PHIL 285", "title": "Contemporary Ethical Issues", "credits": 3, "category": "major", "requirementGroup": "PHILOSOPHY_MINOR-grp1", "choiceNote": "Select one lower-level philosophy course from the ethics group (PHIL 181, 182, 283, 284, 285, 286, 287, 288, or 289)" },
+    { "id": "PHILOSOPHY_MINOR_PHIL286", "code": "PHIL 286", "title": "Ethics and Education", "credits": 3, "category": "major", "requirementGroup": "PHILOSOPHY_MINOR-grp1", "choiceNote": "Select one lower-level philosophy course from the ethics group (PHIL 181, 182, 283, 284, 285, 286, 287, 288, or 289)" },
+    { "id": "PHILOSOPHY_MINOR_PHIL287", "code": "PHIL 287", "title": "Environmental Ethics", "credits": 3, "category": "major", "requirementGroup": "PHILOSOPHY_MINOR-grp1", "choiceNote": "Select one lower-level philosophy course from the ethics group (PHIL 181, 182, 283, 284, 285, 286, 287, 288, or 289)" },
+    { "id": "PHILOSOPHY_MINOR_PHIL288", "code": "PHIL 288", "title": "Culture and Civilization", "credits": 3, "category": "major", "requirementGroup": "PHILOSOPHY_MINOR-grp1", "choiceNote": "Select one lower-level philosophy course from the ethics group (PHIL 181, 182, 283, 284, 285, 286, 287, 288, or 289)" },
+    { "id": "PHILOSOPHY_MINOR_PHIL289", "code": "PHIL 289", "title": "Philosophy and Gender", "credits": 3, "category": "major", "requirementGroup": "PHILOSOPHY_MINOR-grp1", "choiceNote": "Select one lower-level philosophy course from the ethics group (PHIL 181, 182, 283, 284, 285, 286, 287, 288, or 289)" },
+    { "id": "PHILOSOPHY_MINOR_PHIL130", "code": "PHIL 130", "title": "Philosophy & Persons", "credits": 3, "category": "major", "requirementGroup": "PHILOSOPHY_MINOR-grp2", "choiceNote": "Select one lower-level philosophy course from the epistemology group (PHIL 130, 271, 272, 273, 274, 275, 276, 277, or 279)" },
+    { "id": "PHILOSOPHY_MINOR_PHIL271", "code": "PHIL 271", "title": "Philosophy of Religion", "credits": 3, "category": "major", "requirementGroup": "PHILOSOPHY_MINOR-grp2", "choiceNote": "Select one lower-level philosophy course from the epistemology group (PHIL 130, 271, 272, 273, 274, 275, 276, 277, or 279)" },
+    { "id": "PHILOSOPHY_MINOR_PHIL272", "code": "PHIL 272", "title": "Metaphysics", "credits": 3, "category": "major", "requirementGroup": "PHILOSOPHY_MINOR-grp2", "choiceNote": "Select one lower-level philosophy course from the epistemology group (PHIL 130, 271, 272, 273, 274, 275, 276, 277, or 279)" },
+    { "id": "PHILOSOPHY_MINOR_PHIL273", "code": "PHIL 273", "title": "Philosophy of Science", "credits": 3, "category": "major", "requirementGroup": "PHILOSOPHY_MINOR-grp2", "choiceNote": "Select one lower-level philosophy course from the epistemology group (PHIL 130, 271, 272, 273, 274, 275, 276, 277, or 279)" },
+    { "id": "PHILOSOPHY_MINOR_PHIL274", "code": "PHIL 274", "title": "Logic", "credits": 3, "category": "major", "requirementGroup": "PHILOSOPHY_MINOR-grp2", "choiceNote": "Select one lower-level philosophy course from the epistemology group (PHIL 130, 271, 272, 273, 274, 275, 276, 277, or 279)" },
+    { "id": "PHILOSOPHY_MINOR_PHIL275", "code": "PHIL 275", "title": "Theory of Knowledge", "credits": 3, "category": "major", "requirementGroup": "PHILOSOPHY_MINOR-grp2", "choiceNote": "Select one lower-level philosophy course from the epistemology group (PHIL 130, 271, 272, 273, 274, 275, 276, 277, or 279)" },
+    { "id": "PHILOSOPHY_MINOR_PHIL276", "code": "PHIL 276", "title": "Philosophy of Mind", "credits": 3, "category": "major", "requirementGroup": "PHILOSOPHY_MINOR-grp2", "choiceNote": "Select one lower-level philosophy course from the epistemology group (PHIL 130, 271, 272, 273, 274, 275, 276, 277, or 279)" },
+    { "id": "PHILOSOPHY_MINOR_PHIL277", "code": "PHIL 277", "title": "Aesthetics", "credits": 3, "category": "major", "requirementGroup": "PHILOSOPHY_MINOR-grp2", "choiceNote": "Select one lower-level philosophy course from the epistemology group (PHIL 130, 271, 272, 273, 274, 275, 276, 277, or 279)" },
+    { "id": "PHILOSOPHY_MINOR_PHIL279", "code": "PHIL 279", "title": "Judgment and Decision-Making", "credits": 3, "category": "major", "requirementGroup": "PHILOSOPHY_MINOR-grp2", "choiceNote": "Select one lower-level philosophy course from the epistemology group (PHIL 130, 271, 272, 273, 274, 275, 276, 277, or 279)" }
+  ],
+  "electiveOptions": {
+    "philElectivesAnyLevel": {
+      "creditsRequired": 6,
+      "label": "PHIL electives (any level)",
+      "note": "Two PHIL Elective Courses at any level (100-, 200-, or 300-level)",
+      "courses": [
+        { "id": "PHILOSOPHY_MINOR_POOL1", "code": "PHIL 1XX", "title": "PHIL elective (any level)", "credits": 3, "uniqueProgress": true },
+        { "id": "PHILOSOPHY_MINOR_POOL2", "code": "PHIL 1XX", "title": "PHIL elective (any level)", "credits": 3, "uniqueProgress": true }
+      ]
+    },
+    "phil300LevelElectives": {
+      "creditsRequired": 6,
+      "label": "PHIL 300-level electives",
+      "note": "Two PHIL 300-level Elective Courses",
+      "courses": [
+        { "id": "PHILOSOPHY_MINOR_POOL3", "code": "PHIL 3XX", "title": "300-level PHIL elective", "credits": 3, "uniqueProgress": true },
+        { "id": "PHILOSOPHY_MINOR_POOL4", "code": "PHIL 3XX", "title": "300-level PHIL elective", "credits": 3, "uniqueProgress": true }
+      ]
+    }
+  },
+  "coreRequirements": [],
+  "checklist": []
+}

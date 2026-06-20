@@ -1,0 +1,71 @@
+{
+  "id": "digital-media-minor",
+  "department": "Communication",
+  "name": "Digital Media",
+  "degree": "Minor",
+  "school": "Loyola University Chicago",
+  "kind": "minor",
+  "totalCredits": 21,
+  "minorCredits": 21,
+  "hasCompletionEstimate": false,
+  "catalogUrl": "https://catalog.luc.edu/undergraduate/communication/film-digital-media/digital-media-minor/",
+  "courses": [
+    { "id": "DIGITAL_MEDIA_MINOR_COMM200", "code": "COMM 200", "title": "Digital Communication and Society", "credits": 3, "category": "major" },
+    { "id": "DIGITAL_MEDIA_MINOR_COMM275", "code": "COMM 275", "title": "Web Design and Usability", "credits": 3, "category": "major" },
+    { "id": "DIGITAL_MEDIA_MINOR_COMM360", "code": "COMM 360", "title": "Digital Media Ethics", "credits": 3, "category": "major" },
+    { "id": "DIGITAL_MEDIA_MINOR_COMM175", "code": "COMM 175", "title": "Introduction to Communication", "credits": 3, "category": "major", "requirementGroup": "DIGITAL_MEDIA_MINOR-grp1", "choiceNote": "Choose COMM 175 or COMM 201" },
+    { "id": "DIGITAL_MEDIA_MINOR_COMM201", "code": "COMM 201", "title": "Media Theory and Criticism", "credits": 3, "category": "major", "requirementGroup": "DIGITAL_MEDIA_MINOR-grp1", "choiceNote": "Choose COMM 175 or COMM 201" }
+  ],
+  "electiveOptions": {
+    "digitalMediaElectives": {
+      "creditsRequired": 9,
+      "label": "Digital Media Minor Electives",
+      "note": "Select three courses (9 credit hours) from the following list. A maximum of one course can be from non-COMM options.",
+      "courses": [
+        { "id": "DIGITAL_MEDIA_MINOR_COMM213", "code": "COMM 213", "title": "Digital Foundations", "credits": 3 },
+        { "id": "DIGITAL_MEDIA_MINOR_COMM227", "code": "COMM 227", "title": "Social Justice and Public Communication", "credits": 3 },
+        { "id": "DIGITAL_MEDIA_MINOR_COMM258", "code": "COMM 258", "title": "Game Studies", "credits": 3 },
+        { "id": "DIGITAL_MEDIA_MINOR_COMM280", "code": "COMM 280", "title": "Media Technology & Society", "credits": 3 },
+        { "id": "DIGITAL_MEDIA_MINOR_COMM299", "code": "COMM 299", "title": "Themes in Film and Digital Media", "credits": 3 },
+        { "id": "DIGITAL_MEDIA_MINOR_COMM322", "code": "COMM 322", "title": "Guerilla Media", "credits": 3 },
+        { "id": "DIGITAL_MEDIA_MINOR_COMM323", "code": "COMM 323", "title": "Remixing Culture", "credits": 3 },
+        { "id": "DIGITAL_MEDIA_MINOR_COMM357", "code": "COMM 357", "title": "Programming Film & Media: Festivals, TV & Digital", "credits": 3 },
+        { "id": "DIGITAL_MEDIA_MINOR_COMM361", "code": "COMM 361", "title": "New Media Criticism", "credits": 3 },
+        { "id": "DIGITAL_MEDIA_MINOR_COMM371", "code": "COMM 371", "title": "Special Topics Communication Studies", "credits": 3 },
+        { "id": "DIGITAL_MEDIA_MINOR_COMM373", "code": "COMM 373", "title": "Digital Storytelling Abroad", "credits": 3 },
+        { "id": "DIGITAL_MEDIA_MINOR_COMM374", "code": "COMM 374", "title": "Special Topics: Film & Digital Media", "credits": 3 },
+        { "id": "DIGITAL_MEDIA_MINOR_COMP111", "code": "COMP 111", "title": "History of Computing (WI)", "credits": 3 },
+        { "id": "DIGITAL_MEDIA_MINOR_COMP125", "code": "COMP 125", "title": "Visual Information Processing", "credits": 3 },
+        { "id": "DIGITAL_MEDIA_MINOR_COMP150", "code": "COMP 150", "title": "Introduction to Computing", "credits": 3 },
+        { "id": "DIGITAL_MEDIA_MINOR_COMP170", "code": "COMP 170", "title": "Introduction to Object-Oriented Programming", "credits": 3 },
+        { "id": "DIGITAL_MEDIA_MINOR_COMP250", "code": "COMP 250", "title": "Research Writing: Open Source Tools and Techniques (WI)", "credits": 3 },
+        { "id": "DIGITAL_MEDIA_MINOR_COMP317", "code": "COMP 317", "title": "Social, Legal, and Ethical Issues in Computing", "credits": 3 },
+        { "id": "DIGITAL_MEDIA_MINOR_COMP388", "code": "COMP 388", "title": "Topics in Computer Science", "credits": 3 },
+        { "id": "DIGITAL_MEDIA_MINOR_SOCL226", "code": "SOCL 226", "title": "Science, Technology, & Society", "credits": 3 }
+      ]
+    }
+  },
+  "coreRequirements": [],
+  "checklist": [],
+  "roadmap": [
+    { "year": 2, "semester": "Sophomore - Fall", "credits": 6, "items": [
+      { "ref": "DIGITAL_MEDIA_MINOR_COMM201" },
+      { "ref": "DIGITAL_MEDIA_MINOR_COMM200" }
+    ] },
+    { "year": 2, "semester": "Sophomore - Spring", "credits": 3, "items": [
+      { "ref": "DIGITAL_MEDIA_MINOR_COMM275" }
+    ] },
+    { "year": 3, "semester": "Junior - Fall", "credits": 3, "items": [
+      { "ref": "DIGITAL_MEDIA_MINOR_COMM360" }
+    ] },
+    { "year": 3, "semester": "Junior - Spring", "credits": 3, "items": [
+      { "label": "Minor Elective #1", "credits": 3, "isElective": true }
+    ] },
+    { "year": 4, "semester": "Senior - Fall", "credits": 3, "items": [
+      { "label": "Minor Elective #2", "credits": 3, "isElective": true }
+    ] },
+    { "year": 4, "semester": "Senior - Spring", "credits": 3, "items": [
+      { "label": "Minor Elective #3", "credits": 3, "isElective": true }
+    ] }
+  ]
+}

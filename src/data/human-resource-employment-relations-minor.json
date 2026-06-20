@@ -1,0 +1,54 @@
+{
+  "id": "human-resource-employment-relations-minor",
+  "department": "Business Administration",
+  "name": "Human Resource and Employment Relations",
+  "degree": "Minor",
+  "school": "Loyola University Chicago",
+  "kind": "minor",
+  "totalCredits": 18,
+  "minorCredits": 18,
+  "hasCompletionEstimate": false,
+  "catalogUrl": "https://catalog.luc.edu/undergraduate/business/human-resource-employment-relations-minor/",
+  "courses": [
+    { "id": "HUMAN_RESOURCE_EMPLOYMENT_RELATIONS_MINOR_HRER201", "code": "HRER 201", "title": "Principles of HR Management", "credits": 3, "category": "major" }
+  ],
+  "electiveOptions": {
+    "foundation": {
+      "creditsRequired": 6,
+      "label": "Foundation Courses (Select two)",
+      "note": "Select two of the following. For Quinlan students these are Quinlan Business Core courses not included in the 9 credits toward the minor.",
+      "courses": [
+        { "id": "HUMAN_RESOURCE_EMPLOYMENT_RELATIONS_MINOR_ISSCM241", "code": "ISSCM 241", "title": "Business Statistics", "credits": 3, "choiceNote": "Choose ISSCM 241 or PSYC 304" },
+        { "id": "HUMAN_RESOURCE_EMPLOYMENT_RELATIONS_MINOR_PSYC304", "code": "PSYC 304", "title": "Statistics", "credits": 3, "choiceNote": "Choose ISSCM 241 or PSYC 304" },
+        { "id": "HUMAN_RESOURCE_EMPLOYMENT_RELATIONS_MINOR_ECON201", "code": "ECON 201", "title": "Principles of Microeconomics", "credits": 3, "choiceNote": "Choose ECON 201 or ECON 202" },
+        { "id": "HUMAN_RESOURCE_EMPLOYMENT_RELATIONS_MINOR_ECON202", "code": "ECON 202", "title": "Principles of Macroeconomics", "credits": 3, "choiceNote": "Choose ECON 201 or ECON 202" },
+        { "id": "HUMAN_RESOURCE_EMPLOYMENT_RELATIONS_MINOR_MGMT201", "code": "MGMT 201", "title": "Managing People and Organizations", "credits": 3, "choiceNote": "Choose MGMT 201 or PSYC 362" },
+        { "id": "HUMAN_RESOURCE_EMPLOYMENT_RELATIONS_MINOR_PSYC362", "code": "PSYC 362", "title": "Industrial/Organizational Psychology", "credits": 3, "choiceNote": "Choose MGMT 201 or PSYC 362" },
+        { "id": "HUMAN_RESOURCE_EMPLOYMENT_RELATIONS_MINOR_INFS247", "code": "INFS 247", "title": "Business Information Systems", "credits": 3 }
+      ]
+    },
+    "hrerElectives": {
+      "creditsRequired": 9,
+      "label": "HRER Electives (Select three)",
+      "note": "Select three of the following.",
+      "courses": [
+        { "id": "HUMAN_RESOURCE_EMPLOYMENT_RELATIONS_MINOR_HRER311", "code": "HRER 311", "title": "Employment Relations", "credits": 3 },
+        { "id": "HUMAN_RESOURCE_EMPLOYMENT_RELATIONS_MINOR_HRER313", "code": "HRER 313", "title": "Compensation Management", "credits": 3 },
+        { "id": "HUMAN_RESOURCE_EMPLOYMENT_RELATIONS_MINOR_HRER317", "code": "HRER 317", "title": "Human Resource Staffing", "credits": 3 },
+        { "id": "HUMAN_RESOURCE_EMPLOYMENT_RELATIONS_MINOR_HRER322", "code": "HRER 322", "title": "Human Resource Development", "credits": 3 },
+        { "id": "HUMAN_RESOURCE_EMPLOYMENT_RELATIONS_MINOR_HRER329", "code": "HRER 329", "title": "Global HR and Organizational Behavior", "credits": 3 },
+        { "id": "HUMAN_RESOURCE_EMPLOYMENT_RELATIONS_MINOR_HRER364", "code": "HRER 364", "title": "Negotiation and Conflict Management", "credits": 3 }
+      ]
+    }
+  },
+  "coreRequirements": [],
+  "checklist": [],
+  "roadmap": [
+    { "year": 1, "semester": "Spring", "credits": 3, "items": [ { "label": "Foundation course (Select two group)", "credits": 3, "isElective": true } ] },
+    { "year": 2, "semester": "Fall", "credits": 3, "items": [ { "ref": "HUMAN_RESOURCE_EMPLOYMENT_RELATIONS_MINOR_HRER201" } ] },
+    { "year": 2, "semester": "Spring", "credits": 3, "items": [ { "label": "Foundation course (Select two group)", "credits": 3, "isElective": true } ] },
+    { "year": 3, "semester": "Fall", "credits": 3, "items": [ { "label": "HRER Elective", "credits": 3, "isElective": true } ] },
+    { "year": 3, "semester": "Spring", "credits": 3, "items": [ { "label": "HRER Elective", "credits": 3, "isElective": true } ] },
+    { "year": 4, "semester": "Spring", "credits": 3, "items": [ { "label": "HRER Elective", "credits": 3, "isElective": true } ] }
+  ]
+}

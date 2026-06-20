@@ -1,0 +1,112 @@
+{
+  "id": "neuroscience-minor",
+  "department": "Neuroscience",
+  "name": "Neuroscience",
+  "degree": "Minor",
+  "school": "Loyola University Chicago",
+  "kind": "minor",
+  "totalCredits": 16,
+  "minorCredits": 16,
+  "hasCompletionEstimate": false,
+  "catalogUrl": "https://catalog.luc.edu/undergraduate/arts-sciences/neuroscience/neuroscience-minor/",
+  "courses": [
+    { "id": "NEUROSCIENCE_MINOR_NEUR101", "code": "NEUR 101", "title": "Introduction to Neuroscience", "credits": 3, "category": "major" },
+    { "id": "NEUROSCIENCE_MINOR_NEUR300", "code": "NEUR 300", "title": "Seminar in Neuroscience", "credits": 1, "category": "major" },
+    { "id": "NEUROSCIENCE_MINOR_BIOL362", "code": "BIOL 362", "title": "Neurobiology", "credits": 3, "category": "major" },
+    { "id": "NEUROSCIENCE_MINOR_PSYC382", "code": "PSYC 382", "title": "Behavorial and Cognitive Neuroscience", "credits": 3, "category": "major" }
+  ],
+  "electiveOptions": {
+    "lab": {
+      "creditsRequired": 6,
+      "label": "Required Laboratory Experience (select two)",
+      "note": "Select two of the following (3-8 hours): BIOL 361L, BIOL 366L, BIOL 373/NEUR 301/PSYC 388, BIOL 390, BIOL 395L, PSYC 311/BIOL 313, PSYC 312, PSYC 313, PSYC 314, PSYC 316, PSYC 384/COMP 389. Independent research substitutes: BIOL 396, PSYC 370, PSYC 397.",
+      "courses": [
+        { "id": "NEUROSCIENCE_MINOR_BIOL361L", "code": "BIOL 361L", "title": "Lab course", "credits": 2, "uniqueProgress": true },
+        { "id": "NEUROSCIENCE_MINOR_BIOL366L", "code": "BIOL 366L", "title": "Lab course", "credits": 2, "uniqueProgress": true },
+        { "id": "NEUROSCIENCE_MINOR_BIOL373", "code": "BIOL 373", "title": "Lab course (BIOL 373/NEUR 301/PSYC 388)", "credits": 2, "uniqueProgress": true },
+        { "id": "NEUROSCIENCE_MINOR_BIOL390", "code": "BIOL 390", "title": "Lab course", "credits": 2, "uniqueProgress": true },
+        { "id": "NEUROSCIENCE_MINOR_BIOL395L", "code": "BIOL 395L", "title": "Lab course", "credits": 2, "uniqueProgress": true },
+        { "id": "NEUROSCIENCE_MINOR_PSYC311", "code": "PSYC 311", "title": "Lab course (PSYC 311/BIOL 313)", "credits": 2, "uniqueProgress": true },
+        { "id": "NEUROSCIENCE_MINOR_PSYC312", "code": "PSYC 312", "title": "Lab course", "credits": 2, "uniqueProgress": true },
+        { "id": "NEUROSCIENCE_MINOR_PSYC313", "code": "PSYC 313", "title": "Lab course", "credits": 2, "uniqueProgress": true },
+        { "id": "NEUROSCIENCE_MINOR_PSYC314", "code": "PSYC 314", "title": "Lab course", "credits": 2, "uniqueProgress": true },
+        { "id": "NEUROSCIENCE_MINOR_PSYC316", "code": "PSYC 316", "title": "Lab course", "credits": 2, "uniqueProgress": true },
+        { "id": "NEUROSCIENCE_MINOR_PSYC384", "code": "PSYC 384", "title": "Lab course (PSYC 384/COMP 389)", "credits": 2, "uniqueProgress": true }
+      ]
+    },
+    "elective": {
+      "creditsRequired": 3,
+      "label": "Electives (select one lecture or an additional lab course)",
+      "note": "Select one of the following lectures or an additional lab course (3 hours): BIOL 320, BIOL 351, BIOL 352, BIOL 357, BIOL 358, BIOL 361, BIOL 395, PSYC 240/BIOL 240, PSYC 251, PSYC 332, PSYC 350, PSYC 352, PSYC 378, PSYC 383/COMP 386.",
+      "courses": [
+        { "id": "NEUROSCIENCE_MINOR_BIOL320", "code": "BIOL 320", "title": "Elective lecture", "credits": 3, "uniqueProgress": true },
+        { "id": "NEUROSCIENCE_MINOR_BIOL351", "code": "BIOL 351", "title": "Elective lecture", "credits": 3, "uniqueProgress": true },
+        { "id": "NEUROSCIENCE_MINOR_BIOL352", "code": "BIOL 352", "title": "Elective lecture", "credits": 3, "uniqueProgress": true },
+        { "id": "NEUROSCIENCE_MINOR_BIOL357", "code": "BIOL 357", "title": "Elective lecture", "credits": 3, "uniqueProgress": true },
+        { "id": "NEUROSCIENCE_MINOR_BIOL358", "code": "BIOL 358", "title": "Elective lecture", "credits": 3, "uniqueProgress": true },
+        { "id": "NEUROSCIENCE_MINOR_BIOL361", "code": "BIOL 361", "title": "Elective lecture", "credits": 3, "uniqueProgress": true },
+        { "id": "NEUROSCIENCE_MINOR_BIOL395", "code": "BIOL 395", "title": "Elective lecture", "credits": 3, "uniqueProgress": true },
+        { "id": "NEUROSCIENCE_MINOR_PSYC240", "code": "PSYC 240", "title": "Elective lecture (PSYC 240/BIOL 240)", "credits": 3, "uniqueProgress": true },
+        { "id": "NEUROSCIENCE_MINOR_PSYC251", "code": "PSYC 251", "title": "Elective lecture", "credits": 3, "uniqueProgress": true },
+        { "id": "NEUROSCIENCE_MINOR_PSYC332", "code": "PSYC 332", "title": "Elective lecture", "credits": 3, "uniqueProgress": true },
+        { "id": "NEUROSCIENCE_MINOR_PSYC350", "code": "PSYC 350", "title": "Elective lecture", "credits": 3, "uniqueProgress": true },
+        { "id": "NEUROSCIENCE_MINOR_PSYC352", "code": "PSYC 352", "title": "Elective lecture", "credits": 3, "uniqueProgress": true },
+        { "id": "NEUROSCIENCE_MINOR_PSYC378", "code": "PSYC 378", "title": "Elective lecture", "credits": 3, "uniqueProgress": true },
+        { "id": "NEUROSCIENCE_MINOR_PSYC383", "code": "PSYC 383", "title": "Elective lecture (PSYC 383/COMP 386)", "credits": 3, "uniqueProgress": true }
+      ]
+    }
+  },
+  "coreRequirements": [],
+  "checklist": [],
+  "roadmap": [
+    {
+      "year": 1,
+      "semester": "Spring",
+      "credits": 3,
+      "items": [
+        { "ref": "NEUROSCIENCE_MINOR_NEUR101" }
+      ]
+    },
+    {
+      "year": 2,
+      "semester": "Spring",
+      "credits": 1,
+      "items": [
+        { "ref": "NEUROSCIENCE_MINOR_NEUR300" }
+      ]
+    },
+    {
+      "year": 3,
+      "semester": "Fall",
+      "credits": 3,
+      "items": [
+        { "ref": "NEUROSCIENCE_MINOR_PSYC382" }
+      ]
+    },
+    {
+      "year": 3,
+      "semester": "Spring",
+      "credits": 3,
+      "items": [
+        { "ref": "NEUROSCIENCE_MINOR_BIOL362" }
+      ]
+    },
+    {
+      "year": 4,
+      "semester": "Fall",
+      "credits": 4,
+      "items": [
+        { "label": "Specialty Lab", "credits": 1, "isElective": true },
+        { "label": "Specialty Lecture", "credits": 3, "isElective": true }
+      ]
+    },
+    {
+      "year": 4,
+      "semester": "Spring",
+      "credits": 2,
+      "items": [
+        { "label": "Specialty Lab", "credits": 2, "isElective": true }
+      ]
+    }
+  ]
+}

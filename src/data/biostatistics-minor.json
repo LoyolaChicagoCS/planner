@@ -1,0 +1,132 @@
+{
+  "id": "biostatistics-minor",
+  "department": "Mathematics and Statistics",
+  "name": "Biostatistics",
+  "degree": "Minor",
+  "school": "Loyola University Chicago",
+  "kind": "minor",
+  "totalCredits": 23,
+  "minorCredits": 23,
+  "hasCompletionEstimate": false,
+  "catalogUrl": "https://catalog.luc.edu/undergraduate/arts-sciences/mathematics-statistics/biostatistics-minor/",
+  "courses": [
+    {
+      "id": "BIOSTATISTICS_MINOR_MATH161",
+      "code": "MATH 161",
+      "title": "Calculus I",
+      "credits": 4,
+      "category": "major",
+      "requirementGroup": "BIOSTATISTICS_MINOR-grp1",
+      "choiceNote": "Select one calculus sequence: MATH 161 & MATH 162, or MATH 131 & MATH 132"
+    },
+    {
+      "id": "BIOSTATISTICS_MINOR_MATH162",
+      "code": "MATH 162",
+      "title": "Calculus II",
+      "credits": 4,
+      "category": "major",
+      "requirementGroup": "BIOSTATISTICS_MINOR-grp1",
+      "choiceNote": "Select one calculus sequence: MATH 161 & MATH 162, or MATH 131 & MATH 132"
+    },
+    {
+      "id": "BIOSTATISTICS_MINOR_MATH131",
+      "code": "MATH 131",
+      "title": "Applied Calculus I",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "BIOSTATISTICS_MINOR-grp1",
+      "choiceNote": "Select one calculus sequence: MATH 161 & MATH 162, or MATH 131 & MATH 132"
+    },
+    {
+      "id": "BIOSTATISTICS_MINOR_MATH132",
+      "code": "MATH 132",
+      "title": "Applied Calculus II",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "BIOSTATISTICS_MINOR-grp1",
+      "choiceNote": "Select one calculus sequence: MATH 161 & MATH 162, or MATH 131 & MATH 132"
+    },
+    {
+      "id": "BIOSTATISTICS_MINOR_BIOL101",
+      "code": "BIOL 101",
+      "title": "General Biology I",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "BIOSTATISTICS_MINOR_BIOL111",
+      "code": "BIOL 111",
+      "title": "General Biology I Lab",
+      "credits": 1,
+      "category": "major"
+    },
+    {
+      "id": "BIOSTATISTICS_MINOR_BIOL102",
+      "code": "BIOL 102",
+      "title": "General Biology II",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "BIOSTATISTICS_MINOR_BIOL112",
+      "code": "BIOL 112",
+      "title": "General Biology II Lab",
+      "credits": 1,
+      "category": "major"
+    },
+    {
+      "id": "BIOSTATISTICS_MINOR_STAT335",
+      "code": "STAT 335",
+      "title": "Introduction to Biostatistics",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "BIOSTATISTICS_MINOR-grp2",
+      "choiceNote": "Choose STAT 335 or STAT 203. STAT 335 recommended unless you are in a major requiring STAT 203."
+    },
+    {
+      "id": "BIOSTATISTICS_MINOR_STAT203",
+      "code": "STAT 203",
+      "title": "Introduction to Probability & Statistics",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "BIOSTATISTICS_MINOR-grp2",
+      "choiceNote": "Choose STAT 335 or STAT 203. STAT 335 recommended unless you are in a major requiring STAT 203."
+    },
+    {
+      "id": "BIOSTATISTICS_MINOR_STAT336",
+      "code": "STAT 336",
+      "title": "Advanced Biostatistics",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "BIOSTATISTICS_MINOR_STAT303",
+      "code": "STAT 303",
+      "title": "SAS Programming and Applied Statistics",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "BIOSTATISTICS_MINOR-grp3",
+      "choiceNote": "Choose STAT 303, STAT 308, or STAT 337"
+    },
+    {
+      "id": "BIOSTATISTICS_MINOR_STAT308",
+      "code": "STAT 308",
+      "title": "Applied Regression Analysis",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "BIOSTATISTICS_MINOR-grp3",
+      "choiceNote": "Choose STAT 303, STAT 308, or STAT 337"
+    },
+    {
+      "id": "BIOSTATISTICS_MINOR_STAT337",
+      "code": "STAT 337",
+      "title": "Quantitative Methods in Bioinformatics",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "BIOSTATISTICS_MINOR-grp3",
+      "choiceNote": "Choose STAT 303, STAT 308, or STAT 337"
+    }
+  ],
+  "coreRequirements": [],
+  "checklist": []
+}

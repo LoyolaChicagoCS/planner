@@ -1,0 +1,31 @@
+{
+  "id": "italian-language-literature-minor",
+  "department": "Modern Languages and Literatures",
+  "name": "Italian Language and Literature",
+  "degree": "Minor",
+  "school": "Loyola University Chicago",
+  "kind": "minor",
+  "totalCredits": 18,
+  "minorCredits": 18,
+  "hasCompletionEstimate": false,
+  "catalogUrl": "https://catalog.luc.edu/undergraduate/arts-sciences/modern-languages-literatures/italian-language-literature-minor/",
+  "courses": [
+    { "id": "ITALIAN_LANGUAGE_LITERATURE_MINOR_ITAL250", "code": "ITAL 250", "title": "Composition & Conversation I", "credits": 3, "category": "major" },
+    { "id": "ITALIAN_LANGUAGE_LITERATURE_MINOR_ITAL251", "code": "ITAL 251", "title": "Composition & Conversation II", "credits": 3, "category": "major" },
+    { "id": "ITALIAN_LANGUAGE_LITERATURE_MINOR_ITAL270", "code": "ITAL 270", "title": "Main Currents of Italian Literature I", "credits": 3, "category": "major" },
+    { "id": "ITALIAN_LANGUAGE_LITERATURE_MINOR_ITAL271", "code": "ITAL 271", "title": "Main Currents of Italian Literature II", "credits": 3, "category": "major" }
+  ],
+  "electiveOptions": {
+    "ital300": {
+      "creditsRequired": 6,
+      "label": "Two ITAL 300-Level Courses",
+      "note": "Two ITAL 300-level courses (6 hours).",
+      "courses": [
+        { "id": "ITALIAN_LANGUAGE_LITERATURE_MINOR_POOL1", "code": "ITAL 3XX", "title": "300-level ITAL elective", "credits": 3, "uniqueProgress": true },
+        { "id": "ITALIAN_LANGUAGE_LITERATURE_MINOR_POOL2", "code": "ITAL 3XX", "title": "300-level ITAL elective", "credits": 3, "uniqueProgress": true }
+      ]
+    }
+  },
+  "coreRequirements": [],
+  "checklist": []
+}

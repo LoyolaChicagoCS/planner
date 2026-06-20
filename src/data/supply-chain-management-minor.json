@@ -1,0 +1,84 @@
+{
+  "id": "supply-chain-management-minor",
+  "department": "Business Administration",
+  "name": "Supply Chain Management",
+  "degree": "Minor",
+  "school": "Loyola University Chicago",
+  "kind": "minor",
+  "totalCredits": 18,
+  "minorCredits": 18,
+  "hasCompletionEstimate": false,
+  "catalogUrl": "https://catalog.luc.edu/undergraduate/business/supply-chain-management-minor/",
+  "courses": [
+    { "id": "SUPPLY_CHAIN_MANAGEMENT_MINOR_SCMG232", "code": "SCMG 232", "title": "Introduction to Supply Chain Management", "credits": 3, "category": "major" },
+    { "id": "SUPPLY_CHAIN_MANAGEMENT_MINOR_SCMG338", "code": "SCMG 338", "title": "Global Transportation", "credits": 3, "category": "major" },
+    { "id": "SUPPLY_CHAIN_MANAGEMENT_MINOR_SCMG340", "code": "SCMG 340", "title": "Global Procurement", "credits": 3, "category": "major" }
+  ],
+  "electiveOptions": {
+    "businessPrinciples": {
+      "creditsRequired": 6,
+      "label": "Business Principles courses",
+      "note": "Select two of the following (6 hrs): ACCT 201; ECON 201 or ECON 202; INFS 247; MARK 201; MGMT 201.",
+      "courses": [
+        { "id": "SUPPLY_CHAIN_MANAGEMENT_MINOR_ACCT201", "code": "ACCT 201", "title": "Introductory Accounting I", "credits": 3 },
+        { "id": "SUPPLY_CHAIN_MANAGEMENT_MINOR_ECON201", "code": "ECON 201", "title": "Principles of Microeconomics", "credits": 3 },
+        { "id": "SUPPLY_CHAIN_MANAGEMENT_MINOR_ECON202", "code": "ECON 202", "title": "Principles of Macroeconomics", "credits": 3 },
+        { "id": "SUPPLY_CHAIN_MANAGEMENT_MINOR_INFS247", "code": "INFS 247", "title": "Business Information Systems", "credits": 3 },
+        { "id": "SUPPLY_CHAIN_MANAGEMENT_MINOR_MARK201", "code": "MARK 201", "title": "Principles of Marketing", "credits": 3 },
+        { "id": "SUPPLY_CHAIN_MANAGEMENT_MINOR_MGMT201", "code": "MGMT 201", "title": "Managing People and Organizations", "credits": 3 }
+      ]
+    },
+    "scmgElective": {
+      "creditsRequired": 3,
+      "label": "Supply Chain Management Elective",
+      "note": "Electives - Select one of the following (3 hrs): SCMG 337, SCMG 341, SCMG 342, SCMG 346, SCMG 383, SCMG 395, SCMG 399.",
+      "courses": [
+        { "id": "SUPPLY_CHAIN_MANAGEMENT_MINOR_SCMG337", "code": "SCMG 337", "title": "Inventory and Warehouse Management", "credits": 3 },
+        { "id": "SUPPLY_CHAIN_MANAGEMENT_MINOR_SCMG341", "code": "SCMG 341", "title": "Supply Chain Analytics", "credits": 3 },
+        { "id": "SUPPLY_CHAIN_MANAGEMENT_MINOR_SCMG342", "code": "SCMG 342", "title": "Supply Chain Optimization", "credits": 3 },
+        { "id": "SUPPLY_CHAIN_MANAGEMENT_MINOR_SCMG346", "code": "SCMG 346", "title": "Analytics for Social Good", "credits": 3 },
+        { "id": "SUPPLY_CHAIN_MANAGEMENT_MINOR_SCMG383", "code": "SCMG 383", "title": "Service and Operations Management", "credits": 3 },
+        { "id": "SUPPLY_CHAIN_MANAGEMENT_MINOR_SCMG395", "code": "SCMG 395", "title": "Independent Study in Operations Management", "credits": 3 },
+        { "id": "SUPPLY_CHAIN_MANAGEMENT_MINOR_SCMG399", "code": "SCMG 399", "title": "Special Topics in Operations Management", "credits": 3 }
+      ]
+    }
+  },
+  "coreRequirements": [],
+  "checklist": [],
+  "roadmap": [
+    {
+      "year": 1,
+      "semester": "Spring",
+      "credits": 3,
+      "items": [
+        { "ref": "SUPPLY_CHAIN_MANAGEMENT_MINOR_SCMG232" }
+      ]
+    },
+    {
+      "year": 2,
+      "semester": "Fall",
+      "credits": 6,
+      "items": [
+        { "ref": "SUPPLY_CHAIN_MANAGEMENT_MINOR_SCMG338" },
+        { "label": "200-level Business Principles course", "credits": 3, "isElective": true }
+      ]
+    },
+    {
+      "year": 2,
+      "semester": "Spring",
+      "credits": 6,
+      "items": [
+        { "ref": "SUPPLY_CHAIN_MANAGEMENT_MINOR_SCMG340" },
+        { "label": "200-level Business Principles course", "credits": 3, "isElective": true }
+      ]
+    },
+    {
+      "year": 3,
+      "semester": "Fall",
+      "credits": 3,
+      "items": [
+        { "label": "SCMG Elective", "credits": 3, "isElective": true }
+      ]
+    }
+  ]
+}

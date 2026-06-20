@@ -1,0 +1,38 @@
+{
+  "id": "asian-studies-minor",
+  "department": "Asian Studies",
+  "name": "Asian Studies",
+  "degree": "Minor",
+  "school": "Loyola University Chicago",
+  "kind": "minor",
+  "totalCredits": 18,
+  "minorCredits": 18,
+  "hasCompletionEstimate": false,
+  "catalogUrl": "https://catalog.luc.edu/undergraduate/arts-sciences/asian-studies/asian-studies-minor/",
+  "courses": [],
+  "electiveOptions": {
+    "electives": {
+      "creditsRequired": 18,
+      "label": "Required Elective Courses",
+      "note": "18 hours of required elective courses drawn from the cross-listed Asian Studies pool (subjects include ANTH, CHIN, COMM, ENGL, FNAR, HIST, HNDI, HONR, JAPN, LITR, PHIL, PLSC, SOCL, THEO, UNIV, URDU). Two (2) courses must be taken at the 300-level. Courses in Asian languages are not required but may count toward the required coursework.",
+      "courses": [
+        { "id": "ASIAN_STUDIES_MINOR_POOL1", "code": "ASIA 3XX", "title": "300-level Asian Studies elective", "credits": 3, "uniqueProgress": true },
+        { "id": "ASIAN_STUDIES_MINOR_POOL2", "code": "ASIA 3XX", "title": "300-level Asian Studies elective", "credits": 3, "uniqueProgress": true },
+        { "id": "ASIAN_STUDIES_MINOR_POOL3", "code": "ASIA XXX", "title": "Asian Studies elective", "credits": 3, "uniqueProgress": true },
+        { "id": "ASIAN_STUDIES_MINOR_POOL4", "code": "ASIA XXX", "title": "Asian Studies elective", "credits": 3, "uniqueProgress": true },
+        { "id": "ASIAN_STUDIES_MINOR_POOL5", "code": "ASIA XXX", "title": "Asian Studies elective", "credits": 3, "uniqueProgress": true },
+        { "id": "ASIAN_STUDIES_MINOR_POOL6", "code": "ASIA XXX", "title": "Asian Studies elective", "credits": 3, "uniqueProgress": true }
+      ]
+    }
+  },
+  "coreRequirements": [],
+  "checklist": [],
+  "roadmap": [
+    { "year": 2, "semester": "Fall", "credits": 3, "items": [ { "label": "Elective Course", "credits": 3, "isElective": true } ] },
+    { "year": 2, "semester": "Spring", "credits": 3, "items": [ { "label": "Elective Course", "credits": 3, "isElective": true } ] },
+    { "year": 3, "semester": "Fall", "credits": 3, "items": [ { "label": "Elective Course", "credits": 3, "isElective": true } ] },
+    { "year": 3, "semester": "Spring", "credits": 3, "items": [ { "label": "Elective Course", "credits": 3, "isElective": true } ] },
+    { "year": 4, "semester": "Fall", "credits": 3, "items": [ { "label": "Elective Course", "credits": 3, "isElective": true } ] },
+    { "year": 4, "semester": "Spring", "credits": 3, "items": [ { "label": "Elective Course", "credits": 3, "isElective": true } ] }
+  ]
+}

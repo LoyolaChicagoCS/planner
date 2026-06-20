@@ -1,0 +1,29 @@
+{
+  "id": "accounting-information-systems-minor",
+  "department": "Business Administration",
+  "name": "Accounting Information Systems",
+  "degree": "Minor",
+  "school": "Loyola University Chicago",
+  "kind": "minor",
+  "totalCredits": 15,
+  "minorCredits": 15,
+  "hasCompletionEstimate": false,
+  "catalogUrl": "https://catalog.luc.edu/undergraduate/business/accounting-information-systems-minor/",
+  "courses": [
+    { "id": "ACCOUNTING_INFORMATION_SYSTEMS_MINOR_ACCT303", "code": "ACCT 303", "title": "Intermediate Accounting I", "credits": 3, "category": "major" },
+    { "id": "ACCOUNTING_INFORMATION_SYSTEMS_MINOR_ACCT308", "code": "ACCT 308", "title": "Accounting Information Systems and Sustainability Reporting", "credits": 3, "category": "major" },
+    { "id": "ACCOUNTING_INFORMATION_SYSTEMS_MINOR_ACCT317", "code": "ACCT 317", "title": "Managerial Accounting", "credits": 3, "category": "major" },
+    { "id": "ACCOUNTING_INFORMATION_SYSTEMS_MINOR_INFS346", "code": "INFS 346", "title": "Database & Data Warehousing Systems", "credits": 3, "category": "major" },
+    { "id": "ACCOUNTING_INFORMATION_SYSTEMS_MINOR_INFS347", "code": "INFS 347", "title": "Systems Analysis & Design", "credits": 3, "category": "major", "requirementGroup": "ACCOUNTING_INFORMATION_SYSTEMS_MINOR-grp1", "choiceNote": "Choose INFS 347 or ISSCM 393" },
+    { "id": "ACCOUNTING_INFORMATION_SYSTEMS_MINOR_ISSCM393", "code": "ISSCM 393", "title": "Requirements Analysis and Communication", "credits": 3, "category": "major", "requirementGroup": "ACCOUNTING_INFORMATION_SYSTEMS_MINOR-grp1", "choiceNote": "Choose INFS 347 or ISSCM 393" }
+  ],
+  "coreRequirements": [],
+  "checklist": [],
+  "roadmap": [
+    { "year": 2, "semester": "Fall", "credits": 3, "items": [ { "ref": "ACCOUNTING_INFORMATION_SYSTEMS_MINOR_ACCT303" } ] },
+    { "year": 2, "semester": "Spring", "credits": 3, "items": [ { "ref": "ACCOUNTING_INFORMATION_SYSTEMS_MINOR_INFS346" } ] },
+    { "year": 3, "semester": "Fall", "credits": 3, "items": [ { "ref": "ACCOUNTING_INFORMATION_SYSTEMS_MINOR_ACCT308" } ] },
+    { "year": 3, "semester": "Spring", "credits": 3, "items": [ { "ref": "ACCOUNTING_INFORMATION_SYSTEMS_MINOR_INFS347" } ] },
+    { "year": 4, "semester": "Fall", "credits": 3, "items": [ { "ref": "ACCOUNTING_INFORMATION_SYSTEMS_MINOR_ACCT317" } ] }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "mathematics-minor",
+  "department": "Mathematics and Statistics",
+  "name": "Mathematics",
+  "degree": "Minor",
+  "school": "Loyola University Chicago",
+  "kind": "minor",
+  "totalCredits": 21,
+  "minorCredits": 21,
+  "hasCompletionEstimate": false,
+  "catalogUrl": "https://catalog.luc.edu/undergraduate/arts-sciences/mathematics-statistics/mathematics-minor/",
+  "courses": [
+    { "id": "MATHEMATICS_MINOR_MATH161", "code": "MATH 161", "title": "Calculus I", "credits": 4, "category": "major" },
+    { "id": "MATHEMATICS_MINOR_MATH162", "code": "MATH 162", "title": "Calculus II", "credits": 4, "category": "major" },
+    { "id": "MATHEMATICS_MINOR_MATH263", "code": "MATH 263", "title": "Multivariable Calculus", "credits": 4, "category": "major" },
+    { "id": "MATHEMATICS_MINOR_MATH212", "code": "MATH 212", "title": "Linear Algebra", "credits": 3, "category": "major", "requirementGroup": "MATHEMATICS_MINOR-grp1", "choiceNote": "Select one option (6 hrs): (1) MATH 212 & MATH 264; (2) MATH 201 & MATH 264; (3) MATH 201 & MATH 266" },
+    { "id": "MATHEMATICS_MINOR_MATH264", "code": "MATH 264", "title": "Ordinary Differential Equations", "credits": 3, "category": "major", "requirementGroup": "MATHEMATICS_MINOR-grp1", "choiceNote": "Select one option (6 hrs): (1) MATH 212 & MATH 264; (2) MATH 201 & MATH 264; (3) MATH 201 & MATH 266" },
+    { "id": "MATHEMATICS_MINOR_MATH201", "code": "MATH 201", "title": "Introduction to Discrete Mathematics & Number Theory", "credits": 3, "category": "major", "requirementGroup": "MATHEMATICS_MINOR-grp1", "choiceNote": "Select one option (6 hrs): (1) MATH 212 & MATH 264; (2) MATH 201 & MATH 264; (3) MATH 201 & MATH 266" },
+    { "id": "MATHEMATICS_MINOR_MATH266", "code": "MATH 266", "title": "Differential Equations and Linear Algebra", "credits": 3, "category": "major", "requirementGroup": "MATHEMATICS_MINOR-grp1", "choiceNote": "Select one option (6 hrs): (1) MATH 212 & MATH 264; (2) MATH 201 & MATH 264; (3) MATH 201 & MATH 266" }
+  ],
+  "electiveOptions": {
+    "math300": {
+      "creditsRequired": 3,
+      "label": "300-level Mathematics elective",
+      "note": "Any 300-level Mathematics course (3 hrs).",
+      "courses": [
+        { "id": "MATHEMATICS_MINOR_POOL1", "code": "MATH 3XX", "title": "300-level Mathematics elective", "credits": 3, "uniqueProgress": true }
+      ]
+    }
+  },
+  "coreRequirements": [],
+  "checklist": []
+}

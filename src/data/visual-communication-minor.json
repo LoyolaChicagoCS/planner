@@ -1,0 +1,74 @@
+{
+  "id": "visual-communication-minor",
+  "department": "Fine and Performing Arts",
+  "name": "Visual Communication",
+  "degree": "Minor",
+  "school": "Loyola University Chicago",
+  "kind": "minor",
+  "totalCredits": 18,
+  "minorCredits": 18,
+  "hasCompletionEstimate": false,
+  "catalogUrl": "https://catalog.luc.edu/undergraduate/arts-sciences/fine-performing-arts/visual-communication-minor/",
+  "courses": [
+    { "id": "VISUAL_COMMUNICATION_MINOR_FNAR132", "code": "FNAR 132", "title": "Visual Communication I", "credits": 3, "category": "major" },
+    { "id": "VISUAL_COMMUNICATION_MINOR_FNAR232", "code": "FNAR 232", "title": "Visual Communication II", "credits": 3, "category": "major" },
+    { "id": "VISUAL_COMMUNICATION_MINOR_FNAR233", "code": "FNAR 233", "title": "Digital Media Design", "credits": 3, "category": "major" },
+    { "id": "VISUAL_COMMUNICATION_MINOR_FNAR334", "code": "FNAR 334", "title": "Motion Design", "credits": 3, "category": "major" },
+    { "id": "VISUAL_COMMUNICATION_MINOR_FNAR112", "code": "FNAR 112", "title": "Two-Dimensional Design", "credits": 3, "category": "major", "requirementGroup": "VISUAL_COMMUNICATION_MINOR-grp1", "choiceNote": "Choose FNAR 112 or FNAR 113" },
+    { "id": "VISUAL_COMMUNICATION_MINOR_FNAR113", "code": "FNAR 113", "title": "Drawing I", "credits": 3, "category": "major", "requirementGroup": "VISUAL_COMMUNICATION_MINOR-grp1", "choiceNote": "Choose FNAR 112 or FNAR 113" },
+    { "id": "VISUAL_COMMUNICATION_MINOR_FNAR202", "code": "FNAR 202", "title": "Global Art History: Modern Art", "credits": 3, "category": "major", "requirementGroup": "VISUAL_COMMUNICATION_MINOR-grp2", "choiceNote": "Choose FNAR 202 or FNAR 364" },
+    { "id": "VISUAL_COMMUNICATION_MINOR_FNAR364", "code": "FNAR 364", "title": "History of Graphic Design", "credits": 3, "category": "major", "requirementGroup": "VISUAL_COMMUNICATION_MINOR-grp2", "choiceNote": "Choose FNAR 202 or FNAR 364" }
+  ],
+  "coreRequirements": [],
+  "checklist": [],
+  "roadmap": [
+    {
+      "year": 1,
+      "semester": "Semester I",
+      "credits": 3,
+      "items": [
+        { "ref": "VISUAL_COMMUNICATION_MINOR_FNAR112" }
+      ]
+    },
+    {
+      "year": 1,
+      "semester": "Semester II",
+      "credits": 3,
+      "items": [
+        { "ref": "VISUAL_COMMUNICATION_MINOR_FNAR202" }
+      ]
+    },
+    {
+      "year": 2,
+      "semester": "Semester I",
+      "credits": 3,
+      "items": [
+        { "ref": "VISUAL_COMMUNICATION_MINOR_FNAR132" }
+      ]
+    },
+    {
+      "year": 2,
+      "semester": "Semester II",
+      "credits": 3,
+      "items": [
+        { "ref": "VISUAL_COMMUNICATION_MINOR_FNAR232" }
+      ]
+    },
+    {
+      "year": 3,
+      "semester": "Semester I",
+      "credits": 3,
+      "items": [
+        { "ref": "VISUAL_COMMUNICATION_MINOR_FNAR233" }
+      ]
+    },
+    {
+      "year": 3,
+      "semester": "Semester II",
+      "credits": 3,
+      "items": [
+        { "ref": "VISUAL_COMMUNICATION_MINOR_FNAR334" }
+      ]
+    }
+  ]
+}

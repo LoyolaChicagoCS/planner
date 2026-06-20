@@ -1,0 +1,83 @@
+{
+  "id": "law-politics-minor",
+  "department": "Political Science",
+  "name": "Law and Politics",
+  "degree": "Minor",
+  "school": "Loyola University Chicago",
+  "kind": "minor",
+  "totalCredits": 18,
+  "minorCredits": 18,
+  "hasCompletionEstimate": false,
+  "catalogUrl": "https://catalog.luc.edu/undergraduate/arts-sciences/political-science/law-politics-minor/",
+  "courses": [
+    { "id": "LAW_POLITICS_MINOR_PLSC385", "code": "PLSC 385", "title": "Introduction to Law", "credits": 3, "category": "major" },
+    { "id": "LAW_POLITICS_MINOR_PLSC100", "code": "PLSC 100", "title": "Political Theory", "credits": 3, "category": "major", "requirementGroup": "LAW_POLITICS_MINOR-grp1", "choiceNote": "Choose one of PLSC 100, PLSC 101, PLSC 102, or PLSC 103" },
+    { "id": "LAW_POLITICS_MINOR_PLSC101", "code": "PLSC 101", "title": "American Politics", "credits": 3, "category": "major", "requirementGroup": "LAW_POLITICS_MINOR-grp1", "choiceNote": "Choose one of PLSC 100, PLSC 101, PLSC 102, or PLSC 103" },
+    { "id": "LAW_POLITICS_MINOR_PLSC102", "code": "PLSC 102", "title": "International Relations in an Age of Globalization", "credits": 3, "category": "major", "requirementGroup": "LAW_POLITICS_MINOR-grp1", "choiceNote": "Choose one of PLSC 100, PLSC 101, PLSC 102, or PLSC 103" },
+    { "id": "LAW_POLITICS_MINOR_PLSC103", "code": "PLSC 103", "title": "Comparative Politics", "credits": 3, "category": "major", "requirementGroup": "LAW_POLITICS_MINOR-grp1", "choiceNote": "Choose one of PLSC 100, PLSC 101, PLSC 102, or PLSC 103" }
+  ],
+  "electiveOptions": {
+    "americanLegalSystem": {
+      "creditsRequired": 3,
+      "label": "American Legal System Focus Area",
+      "note": "Select one upper-division course in the American Legal System focus area.",
+      "courses": [
+        { "id": "LAW_POLITICS_MINOR_PLSC300A", "code": "PLSC 300A", "title": "Contemporary Political Issues: American Politics", "credits": 3 },
+        { "id": "LAW_POLITICS_MINOR_PLSC319", "code": "PLSC 319", "title": "Women, Law & Public Policy", "credits": 3 },
+        { "id": "LAW_POLITICS_MINOR_PLSC320", "code": "PLSC 320", "title": "Constitutional Law-Due Process", "credits": 3 },
+        { "id": "LAW_POLITICS_MINOR_PLSC321", "code": "PLSC 321", "title": "Constitutional Law-Powers of Government", "credits": 3 },
+        { "id": "LAW_POLITICS_MINOR_PLSC322", "code": "PLSC 322", "title": "Constitutional Law-Rights and Liberties", "credits": 3 },
+        { "id": "LAW_POLITICS_MINOR_PLSC357", "code": "PLSC 357", "title": "Hollywood and Law", "credits": 3 },
+        { "id": "LAW_POLITICS_MINOR_PLSC372", "code": "PLSC 372", "title": "Crime, Race & Violence", "credits": 3 },
+        { "id": "LAW_POLITICS_MINOR_PLSC379", "code": "PLSC 379", "title": "The Legislative Process", "credits": 3 },
+        { "id": "LAW_POLITICS_MINOR_PLSC384", "code": "PLSC 384", "title": "The Judicial Process", "credits": 3 },
+        { "id": "LAW_POLITICS_MINOR_PLSC389", "code": "PLSC 389", "title": "State Politics", "credits": 3 }
+      ]
+    },
+    "internationalLaw": {
+      "creditsRequired": 3,
+      "label": "International Law Focus Area",
+      "note": "Select one upper-division course in the International Law focus area.",
+      "courses": [
+        { "id": "LAW_POLITICS_MINOR_PLSC213", "code": "PLSC 213", "title": "International Human Rights", "credits": 3 },
+        { "id": "LAW_POLITICS_MINOR_PLSC301", "code": "PLSC 301", "title": "Political Justice", "credits": 3 },
+        { "id": "LAW_POLITICS_MINOR_PLSC316", "code": "PLSC 316", "title": "Politics of Genocide", "credits": 3 },
+        { "id": "LAW_POLITICS_MINOR_PLSC330", "code": "PLSC 330", "title": "Global Justice", "credits": 3 },
+        { "id": "LAW_POLITICS_MINOR_PLSC353", "code": "PLSC 353", "title": "International Law", "credits": 3 },
+        { "id": "LAW_POLITICS_MINOR_PLSC356", "code": "PLSC 356", "title": "Intervent in World Politics", "credits": 3 },
+        { "id": "LAW_POLITICS_MINOR_PLSC364", "code": "PLSC 364", "title": "UN & International Organization", "credits": 3 },
+        { "id": "LAW_POLITICS_MINOR_PLSC367", "code": "PLSC 367", "title": "Model United Nations", "credits": 3 },
+        { "id": "LAW_POLITICS_MINOR_PLSC371", "code": "PLSC 371", "title": "Roman Law", "credits": 3 },
+        { "id": "LAW_POLITICS_MINOR_PLSC388", "code": "PLSC 388", "title": "The Morality and Legality of War", "credits": 3 }
+      ]
+    },
+    "engagedLearning": {
+      "creditsRequired": 3,
+      "label": "Law-related Engaged Learning Focus Area",
+      "note": "Select one upper-division course in the Law-related Engaged Learning focus area.",
+      "courses": [
+        { "id": "LAW_POLITICS_MINOR_PLSC202", "code": "PLSC 202", "title": "Mock Trial", "credits": 3 },
+        { "id": "LAW_POLITICS_MINOR_PLSC203", "code": "PLSC 203", "title": "Moot Court", "credits": 3 },
+        { "id": "LAW_POLITICS_MINOR_PLSC369", "code": "PLSC 369", "title": "Politics of Energy", "credits": 3 }
+      ]
+    },
+    "additionalElective": {
+      "creditsRequired": 3,
+      "label": "Additional Focus Area Elective",
+      "note": "Select one more upper-division course from one of the three (3) focus areas.",
+      "courses": [
+        { "id": "LAW_POLITICS_MINOR_POOL1", "code": "PLSC 3XX", "title": "Upper-division course from any of the three focus areas", "credits": 3, "uniqueProgress": true }
+      ]
+    }
+  },
+  "coreRequirements": [],
+  "checklist": [],
+  "roadmap": [
+    { "year": 2, "semester": "Semester I", "credits": 3, "items": [ { "ref": "LAW_POLITICS_MINOR_PLSC385" } ] },
+    { "year": 2, "semester": "Semester II", "credits": 3, "items": [ { "label": "Introductory PLSC course (PLSC 100/101/102/103)", "credits": 3, "isElective": true } ] },
+    { "year": 3, "semester": "Semester I", "credits": 3, "items": [ { "label": "American Legal System Course", "credits": 3, "isElective": true } ] },
+    { "year": 3, "semester": "Semester II", "credits": 3, "items": [ { "label": "International Law Course", "credits": 3, "isElective": true } ] },
+    { "year": 4, "semester": "Semester I", "credits": 3, "items": [ { "label": "Law-Related Engaged Learning Course", "credits": 3, "isElective": true } ] },
+    { "year": 4, "semester": "Semester II", "credits": 3, "items": [ { "label": "Elective Course (upper-division from any focus area)", "credits": 3, "isElective": true } ] }
+  ]
+}

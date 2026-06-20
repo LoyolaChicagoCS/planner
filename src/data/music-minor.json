@@ -1,0 +1,83 @@
+{
+  "id": "music-minor",
+  "department": "Fine and Performing Arts",
+  "name": "Music",
+  "degree": "Minor",
+  "school": "Loyola University Chicago",
+  "kind": "minor",
+  "totalCredits": 21,
+  "minorCredits": 21,
+  "hasCompletionEstimate": false,
+  "catalogUrl": "https://catalog.luc.edu/undergraduate/arts-sciences/fine-performing-arts/music-minor/",
+  "courses": [
+    { "id": "MUSIC_MINOR_MUSC144", "code": "MUSC 144", "title": "Music Theory I", "credits": 3, "category": "major" },
+    { "id": "MUSIC_MINOR_MUSC145", "code": "MUSC 145", "title": "Musicianship Lab I", "credits": 1, "category": "major" },
+    { "id": "MUSIC_MINOR_MUSC244", "code": "MUSC 244", "title": "Music Theory II", "credits": 3, "category": "major" },
+    { "id": "MUSIC_MINOR_MUSC245", "code": "MUSC 245", "title": "Musicianship Lab II", "credits": 1, "category": "major" }
+  ],
+  "electiveOptions": {
+    "history": {
+      "creditsRequired": 3,
+      "label": "Music History",
+      "note": "Select one of the following (3 credits): MUSC 252, MUSC 256, MUSC 353, MUSC 354.",
+      "courses": [
+        { "id": "MUSIC_MINOR_MUSC252", "code": "MUSC 252", "title": "Music History I", "credits": 3 },
+        { "id": "MUSIC_MINOR_MUSC256", "code": "MUSC 256", "title": "Jazz Music History", "credits": 3 },
+        { "id": "MUSIC_MINOR_MUSC353", "code": "MUSC 353", "title": "Music History II", "credits": 3 },
+        { "id": "MUSIC_MINOR_MUSC354", "code": "MUSC 354", "title": "Music History III", "credits": 3 }
+      ]
+    },
+    "appliedMusic": {
+      "creditsRequired": 3,
+      "label": "Applied Music Lessons",
+      "note": "Select three (3) credits of Applied Music Lessons (1-credit MUSC 280-series and MUSC 380-series lessons).",
+      "courses": [
+        { "id": "MUSIC_MINOR_POOL_APPLIED", "code": "MUSC 2XX/3XX", "title": "Applied Music Lessons", "credits": 1, "uniqueProgress": true }
+      ]
+    },
+    "ensembles": {
+      "creditsRequired": 4,
+      "label": "Ensembles",
+      "note": "Select four credits from the following: MUSC 105, 107, 108, 109, 110, 111, 207, 289, 290.",
+      "courses": [
+        { "id": "MUSIC_MINOR_MUSC105", "code": "MUSC 105", "title": "Symphony Orchestra", "credits": 1 },
+        { "id": "MUSIC_MINOR_MUSC107", "code": "MUSC 107", "title": "Chorus", "credits": 1 },
+        { "id": "MUSIC_MINOR_MUSC108", "code": "MUSC 108", "title": "Liturgical Choir: Cantorum", "credits": 1 },
+        { "id": "MUSIC_MINOR_MUSC109", "code": "MUSC 109", "title": "Jazz Ensemble", "credits": 1 },
+        { "id": "MUSIC_MINOR_MUSC110", "code": "MUSC 110", "title": "Wind Ensemble", "credits": 1 },
+        { "id": "MUSIC_MINOR_MUSC111", "code": "MUSC 111", "title": "Percussion Ensemble", "credits": 1 },
+        { "id": "MUSIC_MINOR_MUSC207", "code": "MUSC 207", "title": "Chamber Choir", "credits": 1 },
+        { "id": "MUSIC_MINOR_MUSC289", "code": "MUSC 289", "title": "Chamber Music", "credits": 1 },
+        { "id": "MUSIC_MINOR_MUSC290", "code": "MUSC 290", "title": "Jazz Combo", "credits": 1 }
+      ]
+    },
+    "electives": {
+      "creditsRequired": 3,
+      "label": "Electives",
+      "note": "Select one of the following (3 credits).",
+      "courses": [
+        { "id": "MUSIC_MINOR_MUSC122", "code": "MUSC 122", "title": "Introduction to Digital Music", "credits": 3 },
+        { "id": "MUSIC_MINOR_MUSC185", "code": "MUSC 185", "title": "Jazz Improvisation", "credits": 3 },
+        { "id": "MUSIC_MINOR_MUSC201", "code": "MUSC 201", "title": "Music Technology I", "credits": 3 },
+        { "id": "MUSIC_MINOR_MUSC246", "code": "MUSC 246", "title": "Composition I", "credits": 3 },
+        { "id": "MUSIC_MINOR_MUSC247", "code": "MUSC 247", "title": "Composition II", "credits": 3 },
+        { "id": "MUSIC_MINOR_MUSC248", "code": "MUSC 248", "title": "Jazz Composition and Arranging", "credits": 3 },
+        { "id": "MUSIC_MINOR_MUSC252E", "code": "MUSC 252", "title": "Music History I", "credits": 3 },
+        { "id": "MUSIC_MINOR_MUSC255", "code": "MUSC 255", "title": "Music in Catholic Worship", "credits": 3 },
+        { "id": "MUSIC_MINOR_MUSC256E", "code": "MUSC 256", "title": "Jazz Music History", "credits": 3 },
+        { "id": "MUSIC_MINOR_MUSC260", "code": "MUSC 260", "title": "Conducting", "credits": 3 },
+        { "id": "MUSIC_MINOR_MUSC333", "code": "MUSC 333", "title": "Music and Ritual in Catholic Liturgical Life", "credits": 3 },
+        { "id": "MUSIC_MINOR_MUSC353E", "code": "MUSC 353", "title": "Music History II", "credits": 3 },
+        { "id": "MUSIC_MINOR_MUSC354E", "code": "MUSC 354", "title": "Music History III", "credits": 3 },
+        { "id": "MUSIC_MINOR_MUSC363", "code": "MUSC 363", "title": "Foundations of Vocal Technique and Pedagogy", "credits": 3 },
+        { "id": "MUSIC_MINOR_MUSC364", "code": "MUSC 364", "title": "Vocal Repertoire", "credits": 3 },
+        { "id": "MUSIC_MINOR_MUSC365", "code": "MUSC 365", "title": "Vocal Performance Workshop", "credits": 3 },
+        { "id": "MUSIC_MINOR_MUSC374", "code": "MUSC 374", "title": "Musical Theatre Repertoire", "credits": 3 },
+        { "id": "MUSIC_MINOR_MUSC385", "code": "MUSC 385", "title": "Jazz Improvisation", "credits": 3 },
+        { "id": "MUSIC_MINOR_MUSC389", "code": "MUSC 389", "title": "Topics in Music", "credits": 3 }
+      ]
+    }
+  },
+  "coreRequirements": [],
+  "checklist": []
+}

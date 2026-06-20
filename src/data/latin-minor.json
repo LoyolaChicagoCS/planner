@@ -1,0 +1,53 @@
+{
+  "id": "latin-minor",
+  "department": "Classical Studies",
+  "name": "Latin",
+  "degree": "Minor",
+  "school": "Loyola University Chicago",
+  "kind": "minor",
+  "totalCredits": 18,
+  "minorCredits": 18,
+  "hasCompletionEstimate": false,
+  "catalogUrl": "https://catalog.luc.edu/undergraduate/arts-sciences/classical-studies/latin-minor/",
+  "courses": [
+    {
+      "id": "LATIN_MINOR_CLST384",
+      "code": "CLST 384",
+      "title": "The Humanism of Antiquity II",
+      "credits": 3,
+      "category": "major"
+    }
+  ],
+  "electiveOptions": {
+    "latn200_300": {
+      "creditsRequired": 12,
+      "label": "Four LATN courses at the 200/300 level",
+      "note": "Four (4) Courses in LATN at the 200/300 level. Courses must be beyond the elementary sequence in Latin (above LATN 101 and LATN 102).",
+      "courses": [
+        {
+          "id": "LATIN_MINOR_POOL_LATN1",
+          "code": "LATN 2XX/3XX",
+          "title": "200/300-level LATN course",
+          "credits": 3,
+          "uniqueProgress": true
+        }
+      ]
+    },
+    "studentChoice": {
+      "creditsRequired": 3,
+      "label": "Student-choice course in CLST, GREK, or LATN",
+      "note": "A course of student choice in CLST, GREK, or LATN.",
+      "courses": [
+        {
+          "id": "LATIN_MINOR_POOL_CHOICE1",
+          "code": "CLST/GREK/LATN",
+          "title": "Student-choice course in CLST, GREK, or LATN",
+          "credits": 3,
+          "uniqueProgress": true
+        }
+      ]
+    }
+  },
+  "coreRequirements": [],
+  "checklist": []
+}

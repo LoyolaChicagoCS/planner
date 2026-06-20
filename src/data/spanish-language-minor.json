@@ -1,0 +1,38 @@
+{
+  "id": "spanish-language-minor",
+  "department": "Modern Languages and Literatures",
+  "name": "Spanish Language",
+  "degree": "Minor",
+  "school": "Loyola University Chicago",
+  "kind": "minor",
+  "totalCredits": 18,
+  "minorCredits": 18,
+  "hasCompletionEstimate": false,
+  "catalogUrl": "https://catalog.luc.edu/undergraduate/arts-sciences/modern-languages-literatures/spanish-language-minor/",
+  "courses": [],
+  "electiveOptions": {
+    "spanCourses": {
+      "creditsRequired": 18,
+      "label": "Six (6) SPAN Courses",
+      "note": "Six (6) SPAN courses totaling 18 hours. Courses will be selected by the student in consultation with the departmental advisor.",
+      "courses": [
+        { "id": "SPANISH_LANGUAGE_MINOR_POOL1", "code": "SPAN 1XX", "title": "SPAN course", "credits": 3, "uniqueProgress": true },
+        { "id": "SPANISH_LANGUAGE_MINOR_POOL2", "code": "SPAN 1XX", "title": "SPAN course", "credits": 3, "uniqueProgress": true },
+        { "id": "SPANISH_LANGUAGE_MINOR_POOL3", "code": "SPAN 1XX", "title": "SPAN course", "credits": 3, "uniqueProgress": true },
+        { "id": "SPANISH_LANGUAGE_MINOR_POOL4", "code": "SPAN 1XX", "title": "SPAN course", "credits": 3, "uniqueProgress": true },
+        { "id": "SPANISH_LANGUAGE_MINOR_POOL5", "code": "SPAN 1XX", "title": "SPAN course", "credits": 3, "uniqueProgress": true },
+        { "id": "SPANISH_LANGUAGE_MINOR_POOL6", "code": "SPAN 1XX", "title": "SPAN course", "credits": 3, "uniqueProgress": true }
+      ]
+    }
+  },
+  "coreRequirements": [],
+  "checklist": [],
+  "roadmap": [
+    { "year": 1, "semester": "Semester I", "credits": 3, "items": [ { "label": "One (1) SPAN course", "credits": 3, "isElective": true } ] },
+    { "year": 1, "semester": "Semester II", "credits": 3, "items": [ { "label": "One (1) SPAN course", "credits": 3, "isElective": true } ] },
+    { "year": 2, "semester": "Semester I", "credits": 3, "items": [ { "label": "One (1) SPAN course", "credits": 3, "isElective": true } ] },
+    { "year": 2, "semester": "Semester II", "credits": 3, "items": [ { "label": "One (1) SPAN course", "credits": 3, "isElective": true } ] },
+    { "year": 3, "semester": "Semester I", "credits": 3, "items": [ { "label": "One (1) SPAN course", "credits": 3, "isElective": true } ] },
+    { "year": 3, "semester": "Semester II", "credits": 3, "items": [ { "label": "One (1) SPAN course", "credits": 3, "isElective": true } ] }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "id": "management-minor",
+  "department": "Business Administration",
+  "name": "Management",
+  "degree": "Minor",
+  "school": "Loyola University Chicago",
+  "kind": "minor",
+  "totalCredits": 18,
+  "minorCredits": 18,
+  "hasCompletionEstimate": false,
+  "catalogUrl": "https://catalog.luc.edu/undergraduate/business/management-minor/",
+  "courses": [
+    { "id": "MANAGEMENT_MINOR_MGMT201", "code": "MGMT 201", "title": "Managing People and Organizations", "credits": 3, "category": "major" },
+    { "id": "MANAGEMENT_MINOR_ACCT201", "code": "ACCT 201", "title": "Introductory Accounting I", "credits": 3, "category": "major", "requirementGroup": "MANAGEMENT_MINOR-grp1", "choiceNote": "Select two of: ACCT 201, ECON 201 or ECON 202, INFS 247, MARK 201" },
+    { "id": "MANAGEMENT_MINOR_ECON201", "code": "ECON 201", "title": "Principles of Microeconomics", "credits": 3, "category": "major", "requirementGroup": "MANAGEMENT_MINOR-grp1", "choiceNote": "Select two of: ACCT 201, ECON 201 or ECON 202, INFS 247, MARK 201" },
+    { "id": "MANAGEMENT_MINOR_ECON202", "code": "ECON 202", "title": "Principles of Macroeconomics", "credits": 3, "category": "major", "requirementGroup": "MANAGEMENT_MINOR-grp1", "choiceNote": "Select two of: ACCT 201, ECON 201 or ECON 202, INFS 247, MARK 201" },
+    { "id": "MANAGEMENT_MINOR_INFS247", "code": "INFS 247", "title": "Business Information Systems", "credits": 3, "category": "major", "requirementGroup": "MANAGEMENT_MINOR-grp1", "choiceNote": "Select two of: ACCT 201, ECON 201 or ECON 202, INFS 247, MARK 201" },
+    { "id": "MANAGEMENT_MINOR_MARK201", "code": "MARK 201", "title": "Principles of Marketing", "credits": 3, "category": "major", "requirementGroup": "MANAGEMENT_MINOR-grp1", "choiceNote": "Select two of: ACCT 201, ECON 201 or ECON 202, INFS 247, MARK 201" }
+  ],
+  "electiveOptions": {
+    "managementElectives": {
+      "creditsRequired": 9,
+      "label": "Management Electives",
+      "note": "Select three of the following (9 hours). MGMT 304 and ETHC 341 may not be applied toward this minor.",
+      "courses": [
+        { "id": "MANAGEMENT_MINOR_IBUS315", "code": "IBUS 315", "title": "International Management", "credits": 3 },
+        { "id": "MANAGEMENT_MINOR_MGMT318", "code": "MGMT 318", "title": "Organizational Development and Change", "credits": 3 },
+        { "id": "MANAGEMENT_MINOR_MGMT320", "code": "MGMT 320", "title": "Leading and Managing Teams", "credits": 3 },
+        { "id": "MANAGEMENT_MINOR_MGMT331", "code": "MGMT 331", "title": "Managing Nonprofit Organizations", "credits": 3 },
+        { "id": "MANAGEMENT_MINOR_MGMT335", "code": "MGMT 335", "title": "Micro-Enterprise Consulting", "credits": 3 },
+        { "id": "MANAGEMENT_MINOR_MGMT345", "code": "MGMT 345", "title": "Ethics, Economics & Entrepreneurship", "credits": 3 },
+        { "id": "MANAGEMENT_MINOR_MGMT360", "code": "MGMT 360", "title": "Values-Based Leadership", "credits": 3 },
+        { "id": "MANAGEMENT_MINOR_MGMT377", "code": "MGMT 377", "title": "Family Business Management", "credits": 3 },
+        { "id": "MANAGEMENT_MINOR_MGMT395", "code": "MGMT 395", "title": "Independent Study in Management", "credits": 3 },
+        { "id": "MANAGEMENT_MINOR_MGMT399", "code": "MGMT 399", "title": "Special Topics in Management", "credits": 3 },
+        { "id": "MANAGEMENT_MINOR_HRER201", "code": "HRER 201", "title": "Principles of HR Management", "credits": 3 },
+        { "id": "MANAGEMENT_MINOR_ENVS363", "code": "ENVS 363", "title": "Sustainable Business Management", "credits": 3 }
+      ]
+    }
+  },
+  "coreRequirements": [],
+  "checklist": [],
+  "roadmap": [
+    { "year": 1, "semester": "Spring", "credits": 3, "items": [ { "label": "200-level Business Principles course", "credits": 3, "isElective": true } ] },
+    { "year": 2, "semester": "Fall", "credits": 3, "items": [ { "ref": "MANAGEMENT_MINOR_MGMT201" } ] },
+    { "year": 2, "semester": "Spring", "credits": 3, "items": [ { "label": "200-level Business Principles course", "credits": 3, "isElective": true } ] },
+    { "year": 3, "semester": "Fall", "credits": 3, "items": [ { "label": "MGMT Elective", "credits": 3, "isElective": true } ] },
+    { "year": 3, "semester": "Spring", "credits": 3, "items": [ { "label": "MGMT Elective", "credits": 3, "isElective": true } ] },
+    { "year": 4, "semester": "Fall", "credits": 3, "items": [ { "label": "MGMT Elective", "credits": 3, "isElective": true } ] }
+  ]
+}

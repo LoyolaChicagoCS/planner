@@ -1,0 +1,31 @@
+{
+  "id": "ancient-greek-minor",
+  "department": "Classical Studies",
+  "name": "Ancient Greek",
+  "degree": "Minor",
+  "school": "Loyola University Chicago",
+  "kind": "minor",
+  "totalCredits": 18,
+  "minorCredits": 18,
+  "hasCompletionEstimate": false,
+  "catalogUrl": "https://catalog.luc.edu/undergraduate/arts-sciences/classical-studies/ancient-greek-minor/",
+  "courses": [
+    { "id": "ANCIENT_GREEK_MINOR_CLST383", "code": "CLST 383", "title": "The Humanism of Antiquity I", "credits": 3, "category": "major" }
+  ],
+  "electiveOptions": {
+    "greekCourses": {
+      "creditsRequired": 15,
+      "label": "Greek courses and course of choice",
+      "note": "Four (4) Courses in GREK at the 200/300 level, with one course of student choice in CLST, GREK, or LATN (15 credit hours). Courses must be beyond the elementary sequence in Greek (GREK 101 Ancient Greek I and GREK 102 Ancient Greek II).",
+      "courses": [
+        { "id": "ANCIENT_GREEK_MINOR_POOL1", "code": "GREK 2XX/3XX", "title": "GREK course at the 200/300 level", "credits": 3, "uniqueProgress": true },
+        { "id": "ANCIENT_GREEK_MINOR_POOL2", "code": "GREK 2XX/3XX", "title": "GREK course at the 200/300 level", "credits": 3, "uniqueProgress": true },
+        { "id": "ANCIENT_GREEK_MINOR_POOL3", "code": "GREK 2XX/3XX", "title": "GREK course at the 200/300 level", "credits": 3, "uniqueProgress": true },
+        { "id": "ANCIENT_GREEK_MINOR_POOL4", "code": "GREK 2XX/3XX", "title": "GREK course at the 200/300 level", "credits": 3, "uniqueProgress": true },
+        { "id": "ANCIENT_GREEK_MINOR_POOL5", "code": "CLST/GREK/LATN", "title": "Course of student choice in CLST, GREK, or LATN", "credits": 3, "uniqueProgress": true }
+      ]
+    }
+  },
+  "coreRequirements": [],
+  "checklist": []
+}

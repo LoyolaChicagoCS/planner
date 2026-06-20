@@ -1,0 +1,57 @@
+{
+  "id": "multimedia-journalism-minor",
+  "department": "Communication",
+  "name": "Multimedia Journalism",
+  "degree": "Minor",
+  "school": "Loyola University Chicago",
+  "kind": "minor",
+  "totalCredits": 18,
+  "minorCredits": 18,
+  "hasCompletionEstimate": false,
+  "catalogUrl": "https://catalog.luc.edu/undergraduate/communication/multimedia-journalism/multimedia-journalism-minor/",
+  "courses": [
+    { "id": "MULTIMEDIA_JOURNALISM_MINOR_COMM175", "code": "COMM 175", "title": "Introduction to Communication", "credits": 3, "category": "major" },
+    { "id": "MULTIMEDIA_JOURNALISM_MINOR_COMM205", "code": "COMM 205", "title": "Reporting Basics I: Writing and Interviewing", "credits": 3, "category": "major" },
+    { "id": "MULTIMEDIA_JOURNALISM_MINOR_COMM208", "code": "COMM 208", "title": "Reporting Basics II: Technology for Journalists", "credits": 3, "category": "major" }
+  ],
+  "electiveOptions": {
+    "electives": {
+      "creditsRequired": 9,
+      "label": "Multimedia Journalism Electives",
+      "note": "Select three of the following (9 hours).",
+      "courses": [
+        { "id": "MULTIMEDIA_JOURNALISM_MINOR_COMM135", "code": "COMM 135", "title": "Intro to Video Production", "credits": 3 },
+        { "id": "MULTIMEDIA_JOURNALISM_MINOR_COMM207", "code": "COMM 207", "title": "Photojournalism", "credits": 3 },
+        { "id": "MULTIMEDIA_JOURNALISM_MINOR_COMM256", "code": "COMM 256", "title": "Broadcast Newswriting", "credits": 3 },
+        { "id": "MULTIMEDIA_JOURNALISM_MINOR_COMM259", "code": "COMM 259", "title": "News Editing", "credits": 3 },
+        { "id": "MULTIMEDIA_JOURNALISM_MINOR_COMM260", "code": "COMM 260", "title": "Environmental Journalism", "credits": 3 },
+        { "id": "MULTIMEDIA_JOURNALISM_MINOR_COMM261", "code": "COMM 261", "title": "Social Media and Society", "credits": 3 },
+        { "id": "MULTIMEDIA_JOURNALISM_MINOR_COMM262", "code": "COMM 262", "title": "Feature & Opinion Writing", "credits": 3 },
+        { "id": "MULTIMEDIA_JOURNALISM_MINOR_COMM263", "code": "COMM 263", "title": "Editorial Design I: Newspaper & Online", "credits": 3 },
+        { "id": "MULTIMEDIA_JOURNALISM_MINOR_COMM265", "code": "COMM 265", "title": "Sports Broadcasting", "credits": 3 },
+        { "id": "MULTIMEDIA_JOURNALISM_MINOR_COMM275", "code": "COMM 275", "title": "Web Design and Usability", "credits": 3 },
+        { "id": "MULTIMEDIA_JOURNALISM_MINOR_COMM298", "code": "COMM 298", "title": "Themes in Multimedia Journalism", "credits": 3 },
+        { "id": "MULTIMEDIA_JOURNALISM_MINOR_COMM311", "code": "COMM 311", "title": "Health Communication", "credits": 3 },
+        { "id": "MULTIMEDIA_JOURNALISM_MINOR_COMM315", "code": "COMM 315", "title": "Advanced Reporting Topics", "credits": 3 },
+        { "id": "MULTIMEDIA_JOURNALISM_MINOR_COMM328", "code": "COMM 328", "title": "Editorial Design II: Magazine & Interactive", "credits": 3 },
+        { "id": "MULTIMEDIA_JOURNALISM_MINOR_COMM332", "code": "COMM 332", "title": "Investigative Reporting", "credits": 3 },
+        { "id": "MULTIMEDIA_JOURNALISM_MINOR_COMM339", "code": "COMM 339", "title": "Video Documentary", "credits": 3 },
+        { "id": "MULTIMEDIA_JOURNALISM_MINOR_COMM358", "code": "COMM 358", "title": "Newscasting and Producing", "credits": 3 },
+        { "id": "MULTIMEDIA_JOURNALISM_MINOR_COMM362", "code": "COMM 362", "title": "Multimedia Journalism Research Methods", "credits": 3 },
+        { "id": "MULTIMEDIA_JOURNALISM_MINOR_COMM372", "code": "COMM 372", "title": "Special Topics: Multimedia Journalism", "credits": 3 },
+        { "id": "MULTIMEDIA_JOURNALISM_MINOR_COMM373", "code": "COMM 373", "title": "Digital Storytelling Abroad", "credits": 3 },
+        { "id": "MULTIMEDIA_JOURNALISM_MINOR_COMM382", "code": "COMM 382", "title": "Multimedia Journalism Practicum", "credits": 3 }
+      ]
+    }
+  },
+  "coreRequirements": [],
+  "checklist": [],
+  "roadmap": [
+    { "year": 2, "semester": "Fall", "credits": 3, "items": [ { "ref": "MULTIMEDIA_JOURNALISM_MINOR_COMM175" } ] },
+    { "year": 2, "semester": "Spring", "credits": 3, "items": [ { "ref": "MULTIMEDIA_JOURNALISM_MINOR_COMM205" } ] },
+    { "year": 3, "semester": "Fall", "credits": 3, "items": [ { "ref": "MULTIMEDIA_JOURNALISM_MINOR_COMM208" } ] },
+    { "year": 3, "semester": "Spring", "credits": 3, "items": [ { "label": "Minor Elective #1", "credits": 3, "isElective": true } ] },
+    { "year": 4, "semester": "Fall", "credits": 3, "items": [ { "label": "Minor Elective #2", "credits": 3, "isElective": true } ] },
+    { "year": 4, "semester": "Spring", "credits": 3, "items": [ { "label": "Minor Elective #3", "credits": 3, "isElective": true } ] }
+  ]
+}

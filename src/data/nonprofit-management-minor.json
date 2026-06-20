@@ -1,0 +1,48 @@
+{
+  "id": "nonprofit-management-minor",
+  "department": "Business Administration",
+  "name": "Nonprofit Management",
+  "degree": "Minor",
+  "school": "Loyola University Chicago",
+  "kind": "minor",
+  "totalCredits": 18,
+  "minorCredits": 18,
+  "hasCompletionEstimate": false,
+  "catalogUrl": "https://catalog.luc.edu/undergraduate/business/nonprofit-management-minor/",
+  "courses": [
+    { "id": "NONPROFIT_MANAGEMENT_MINOR_ECON201", "code": "ECON 201", "title": "Principles of Microeconomics", "credits": 3, "category": "major" },
+    { "id": "NONPROFIT_MANAGEMENT_MINOR_ENTR201", "code": "ENTR 201", "title": "Essentials of Entrepreneurship", "credits": 3, "category": "major" },
+    { "id": "NONPROFIT_MANAGEMENT_MINOR_MGMT201", "code": "MGMT 201", "title": "Managing People and Organizations", "credits": 3, "category": "major" },
+    { "id": "NONPROFIT_MANAGEMENT_MINOR_MGMT331", "code": "MGMT 331", "title": "Managing Nonprofit Organizations", "credits": 3, "category": "major" },
+    { "id": "NONPROFIT_MANAGEMENT_MINOR_EXPL390", "code": "EXPL 390", "title": "Internship Seminar: Organizational Change and Community Leadership", "credits": 3, "category": "major" }
+  ],
+  "electiveOptions": {
+    "elective": {
+      "creditsRequired": 3,
+      "label": "Elective (select one)",
+      "note": "Select one of the following: ACCT 201, MARK 201, ECON 202, INFS 247, ISSCM 241, ENTR 311, ENVS 284, ENVS 363, ENVS 364, SOWK 307. (Quinlan Business Core courses may not be applied as an elective toward the minor for Quinlan students.)",
+      "courses": [
+        { "id": "NONPROFIT_MANAGEMENT_MINOR_ACCT201", "code": "ACCT 201", "title": "Introductory Accounting I", "credits": 3 },
+        { "id": "NONPROFIT_MANAGEMENT_MINOR_MARK201", "code": "MARK 201", "title": "Principles of Marketing", "credits": 3 },
+        { "id": "NONPROFIT_MANAGEMENT_MINOR_ECON202", "code": "ECON 202", "title": "Principles of Macroeconomics", "credits": 3 },
+        { "id": "NONPROFIT_MANAGEMENT_MINOR_INFS247", "code": "INFS 247", "title": "Business Information Systems", "credits": 3 },
+        { "id": "NONPROFIT_MANAGEMENT_MINOR_ISSCM241", "code": "ISSCM 241", "title": "Business Statistics", "credits": 3 },
+        { "id": "NONPROFIT_MANAGEMENT_MINOR_ENTR311", "code": "ENTR 311", "title": "Social Entrepreneurship", "credits": 3 },
+        { "id": "NONPROFIT_MANAGEMENT_MINOR_ENVS284", "code": "ENVS 284", "title": "Environmental Justice", "credits": 3 },
+        { "id": "NONPROFIT_MANAGEMENT_MINOR_ENVS363", "code": "ENVS 363", "title": "Sustainable Business Management", "credits": 3 },
+        { "id": "NONPROFIT_MANAGEMENT_MINOR_ENVS364", "code": "ENVS 364", "title": "ENVS 364", "credits": 3 },
+        { "id": "NONPROFIT_MANAGEMENT_MINOR_SOWK307", "code": "SOWK 307", "title": "Social Work Policy and Community Intervention", "credits": 3 }
+      ]
+    }
+  },
+  "coreRequirements": [],
+  "checklist": [],
+  "roadmap": [
+    { "year": 1, "semester": "Fall", "credits": 3, "items": [ { "ref": "NONPROFIT_MANAGEMENT_MINOR_ECON201" } ] },
+    { "year": 1, "semester": "Spring", "credits": 3, "items": [ { "ref": "NONPROFIT_MANAGEMENT_MINOR_ENTR201" } ] },
+    { "year": 2, "semester": "Fall", "credits": 3, "items": [ { "ref": "NONPROFIT_MANAGEMENT_MINOR_MGMT201" } ] },
+    { "year": 3, "semester": "Fall", "credits": 3, "items": [ { "ref": "NONPROFIT_MANAGEMENT_MINOR_MGMT331" } ] },
+    { "year": 3, "semester": "Spring", "credits": 3, "items": [ { "ref": "NONPROFIT_MANAGEMENT_MINOR_EXPL390" } ] },
+    { "year": 4, "semester": "Fall", "credits": 3, "items": [ { "label": "Elective", "credits": 3, "isElective": true } ] }
+  ]
+}

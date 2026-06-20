@@ -1,0 +1,45 @@
+{
+  "id": "anthropology-minor",
+  "department": "Anthropology",
+  "name": "Anthropology",
+  "degree": "Minor",
+  "school": "Loyola University Chicago",
+  "kind": "minor",
+  "totalCredits": 18,
+  "minorCredits": 18,
+  "hasCompletionEstimate": false,
+  "catalogUrl": "https://catalog.luc.edu/undergraduate/arts-sciences/anthropology/anthropology-minor/",
+  "courses": [],
+  "electiveOptions": {
+    "anthLower": {
+      "creditsRequired": 9,
+      "label": "Any 100, 200, or 300 Level ANTH Course (3 courses)",
+      "note": "Three courses (9 credits): any 100, 200, or 300 level ANTH course.",
+      "courses": [
+        {
+          "id": "ANTHROPOLOGY_MINOR_POOL1",
+          "code": "ANTH 1XX/2XX/3XX",
+          "title": "Any 100, 200, or 300 level ANTH course",
+          "credits": 9,
+          "uniqueProgress": true
+        }
+      ]
+    },
+    "anthUpper": {
+      "creditsRequired": 9,
+      "label": "Any 200 or 300 Level ANTH Course (3 courses)",
+      "note": "Three courses (9 credits): any 200 or 300 level ANTH course.",
+      "courses": [
+        {
+          "id": "ANTHROPOLOGY_MINOR_POOL2",
+          "code": "ANTH 2XX/3XX",
+          "title": "Any 200 or 300 level ANTH course",
+          "credits": 9,
+          "uniqueProgress": true
+        }
+      ]
+    }
+  },
+  "coreRequirements": [],
+  "checklist": []
+}

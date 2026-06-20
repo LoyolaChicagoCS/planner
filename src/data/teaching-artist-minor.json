@@ -1,0 +1,84 @@
+{
+  "id": "teaching-artist-minor",
+  "department": "Fine and Performing Arts",
+  "name": "Teaching Artist",
+  "degree": "Minor",
+  "school": "Loyola University Chicago",
+  "kind": "minor",
+  "totalCredits": 18,
+  "minorCredits": 18,
+  "hasCompletionEstimate": false,
+  "catalogUrl": "https://catalog.luc.edu/undergraduate/arts-sciences/fine-performing-arts/teaching-artist-minor/",
+  "courses": [
+    { "id": "TEACHING_ARTIST_MINOR_ARTS200", "code": "ARTS 200", "title": "Introduction to Teaching Artistry", "credits": 3, "category": "major" },
+    { "id": "TEACHING_ARTIST_MINOR_ARTS201", "code": "ARTS 201", "title": "Grant Writing for the Arts", "credits": 2, "category": "major" },
+    { "id": "TEACHING_ARTIST_MINOR_ARTS397", "code": "ARTS 397", "title": "Fieldwork in Arts Education", "credits": 3, "category": "major" },
+    { "id": "TEACHING_ARTIST_MINOR_TLSC110", "code": "TLSC 110", "title": "The Profession and Our Program (TLLSC)", "credits": 1, "category": "major" },
+    { "id": "TEACHING_ARTIST_MINOR_TLSC120", "code": "TLSC 120", "title": "Bringing Language, Learning & Development Theory into Practice", "credits": 2, "category": "major" },
+    { "id": "TEACHING_ARTIST_MINOR_TLSC130", "code": "TLSC 130", "title": "Sequence One: 130 Community Immersion", "credits": 1, "category": "major" },
+    { "id": "TEACHING_ARTIST_MINOR_TLSC140", "code": "TLSC 140", "title": "Teaching, Learning and Leading for Social Justice", "credits": 1, "category": "major" },
+    { "id": "TEACHING_ARTIST_MINOR_TLSC150", "code": "TLSC 150", "title": "Constructive Learning Environments For Diverse Students", "credits": 1, "category": "major" },
+    { "id": "TEACHING_ARTIST_MINOR_TLSC160", "code": "TLSC 160", "title": "Analyzing Culturally-Responsive Classroom Instruction", "credits": 1, "category": "major" },
+    { "id": "TEACHING_ARTIST_MINOR_DANC360", "code": "DANC 360", "title": "Dance Pedagogy", "credits": 3, "category": "major", "requirementGroup": "TEACHING_ARTIST_MINOR-grp1", "choiceNote": "Select one Arts Pedagogy course: DANC 360, FNAR 303, MUSC 260, MUSC 363, or THTR 348" },
+    { "id": "TEACHING_ARTIST_MINOR_FNAR303", "code": "FNAR 303", "title": "Visual Arts Pedagogy", "credits": 3, "category": "major", "requirementGroup": "TEACHING_ARTIST_MINOR-grp1", "choiceNote": "Select one Arts Pedagogy course: DANC 360, FNAR 303, MUSC 260, MUSC 363, or THTR 348" },
+    { "id": "TEACHING_ARTIST_MINOR_MUSC260", "code": "MUSC 260", "title": "Conducting", "credits": 3, "category": "major", "requirementGroup": "TEACHING_ARTIST_MINOR-grp1", "choiceNote": "Select one Arts Pedagogy course: DANC 360, FNAR 303, MUSC 260, MUSC 363, or THTR 348" },
+    { "id": "TEACHING_ARTIST_MINOR_MUSC363", "code": "MUSC 363", "title": "Foundations of Vocal Technique and Pedagogy", "credits": 3, "category": "major", "requirementGroup": "TEACHING_ARTIST_MINOR-grp1", "choiceNote": "Select one Arts Pedagogy course: DANC 360, FNAR 303, MUSC 260, MUSC 363, or THTR 348" },
+    { "id": "TEACHING_ARTIST_MINOR_THTR348", "code": "THTR 348", "title": "Theatre Pedagogy", "credits": 3, "category": "major", "requirementGroup": "TEACHING_ARTIST_MINOR-grp1", "choiceNote": "Select one Arts Pedagogy course: DANC 360, FNAR 303, MUSC 260, MUSC 363, or THTR 348" }
+  ],
+  "coreRequirements": [],
+  "checklist": [],
+  "roadmap": [
+    {
+      "year": 1,
+      "semester": "Semester I",
+      "credits": 3,
+      "items": [
+        { "ref": "TEACHING_ARTIST_MINOR_ARTS200" }
+      ]
+    },
+    {
+      "year": 1,
+      "semester": "Semester II",
+      "credits": 4,
+      "items": [
+        { "ref": "TEACHING_ARTIST_MINOR_TLSC110" },
+        { "ref": "TEACHING_ARTIST_MINOR_TLSC120" },
+        { "ref": "TEACHING_ARTIST_MINOR_TLSC130" }
+      ]
+    },
+    {
+      "year": 2,
+      "semester": "Semester II",
+      "credits": 3,
+      "items": [
+        { "ref": "TEACHING_ARTIST_MINOR_TLSC140" },
+        { "ref": "TEACHING_ARTIST_MINOR_TLSC150" },
+        { "ref": "TEACHING_ARTIST_MINOR_TLSC160" }
+      ]
+    },
+    {
+      "year": 3,
+      "semester": "Semester I",
+      "credits": 3,
+      "items": [
+        { "label": "Discipline-Specific Arts Pedagogy course (DANC 360, FNAR 303, MUSC 260, MUSC 363, or THTR 348)", "credits": 3, "isElective": true }
+      ]
+    },
+    {
+      "year": 4,
+      "semester": "Semester I",
+      "credits": 2,
+      "items": [
+        { "ref": "TEACHING_ARTIST_MINOR_ARTS201" }
+      ]
+    },
+    {
+      "year": 4,
+      "semester": "Semester II",
+      "credits": 3,
+      "items": [
+        { "ref": "TEACHING_ARTIST_MINOR_ARTS397" }
+      ]
+    }
+  ]
+}

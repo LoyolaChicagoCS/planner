@@ -1,0 +1,25 @@
+{
+  "id": "actuarial-science-minor",
+  "department": "Mathematics and Statistics",
+  "name": "Actuarial Science",
+  "degree": "Minor",
+  "school": "Loyola University Chicago",
+  "kind": "minor",
+  "totalCredits": 25,
+  "minorCredits": 25,
+  "hasCompletionEstimate": false,
+  "catalogUrl": "https://catalog.luc.edu/undergraduate/arts-sciences/mathematics-statistics/actuarial-science-minor/",
+  "courses": [
+    { "id": "ACTUARIAL_SCIENCE_MINOR_MATH161", "code": "MATH 161", "title": "Calculus I", "credits": 4, "category": "major" },
+    { "id": "ACTUARIAL_SCIENCE_MINOR_MATH162", "code": "MATH 162", "title": "Calculus II", "credits": 4, "category": "major" },
+    { "id": "ACTUARIAL_SCIENCE_MINOR_MATH263", "code": "MATH 263", "title": "Multivariable Calculus", "credits": 4, "category": "major" },
+    { "id": "ACTUARIAL_SCIENCE_MINOR_MATH212", "code": "MATH 212", "title": "Linear Algebra", "credits": 3, "category": "major" },
+    { "id": "ACTUARIAL_SCIENCE_MINOR_STAT304", "code": "STAT 304", "title": "Introduction to Probability", "credits": 3, "category": "major" },
+    { "id": "ACTUARIAL_SCIENCE_MINOR_STAT305", "code": "STAT 305", "title": "Introduction to Mathematical Statistics", "credits": 3, "category": "major" },
+    { "id": "ACTUARIAL_SCIENCE_MINOR_STAT396", "code": "STAT 396", "title": "Actuarial Seminar I", "credits": 1, "category": "major" },
+    { "id": "ACTUARIAL_SCIENCE_MINOR_STAT203", "code": "STAT 203", "title": "Introduction to Probability & Statistics", "credits": 3, "category": "major", "requirementGroup": "ACTUARIAL_SCIENCE_MINOR-grp1", "choiceNote": "Choose STAT 203 or STAT 335" },
+    { "id": "ACTUARIAL_SCIENCE_MINOR_STAT335", "code": "STAT 335", "title": "Introduction to Biostatistics", "credits": 3, "category": "major", "requirementGroup": "ACTUARIAL_SCIENCE_MINOR-grp1", "choiceNote": "Choose STAT 203 or STAT 335" }
+  ],
+  "coreRequirements": [],
+  "checklist": []
+}

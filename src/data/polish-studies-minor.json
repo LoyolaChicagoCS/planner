@@ -1,0 +1,72 @@
+{
+  "id": "polish-studies-minor",
+  "department": "Polish Studies",
+  "name": "Polish Studies",
+  "degree": "Minor",
+  "school": "Loyola University Chicago",
+  "kind": "minor",
+  "totalCredits": 18,
+  "minorCredits": 18,
+  "hasCompletionEstimate": false,
+  "catalogUrl": "https://catalog.luc.edu/undergraduate/arts-sciences/polish-studies/polish-studies-minor/",
+  "courses": [
+    { "id": "POLISH_STUDIES_MINOR_POST395", "code": "POST 395", "title": "Polish Studies Capstone", "credits": 3, "category": "major" }
+  ],
+  "electiveOptions": {
+    "language": {
+      "creditsRequired": 6,
+      "label": "Polish Language Requirement (choose two)",
+      "note": "Choose two of the following Polish language courses (6 hours).",
+      "courses": [
+        { "id": "POLISH_STUDIES_MINOR_POLS101", "code": "POLS 101", "title": "Polish I", "credits": 3 },
+        { "id": "POLISH_STUDIES_MINOR_POLS102", "code": "POLS 102", "title": "Polish II", "credits": 3 },
+        { "id": "POLISH_STUDIES_MINOR_POLS103", "code": "POLS 103", "title": "Polish III", "credits": 3 },
+        { "id": "POLISH_STUDIES_MINOR_POLS104", "code": "POLS 104", "title": "Polish IV", "credits": 3 },
+        { "id": "POLISH_STUDIES_MINOR_POLS201", "code": "POLS 201", "title": "Polish Medical Terminology", "credits": 3 },
+        { "id": "POLISH_STUDIES_MINOR_POLS202", "code": "POLS 202", "title": "Polish for Healthcare", "credits": 3 },
+        { "id": "POLISH_STUDIES_MINOR_POLS250", "code": "POLS 250", "title": "Composition & Conversation I", "credits": 3 },
+        { "id": "POLISH_STUDIES_MINOR_POLS251", "code": "POLS 251", "title": "Composition & Conversation II", "credits": 3 },
+        { "id": "POLISH_STUDIES_MINOR_POLS270", "code": "POLS 270", "title": "Contemporary Polish Culture in the Original Language", "credits": 3 }
+      ]
+    },
+    "electives": {
+      "creditsRequired": 9,
+      "label": "Electives (choose three)",
+      "note": "Choose three of the following (9 hours).",
+      "courses": [
+        { "id": "POLISH_STUDIES_MINOR_HIST316", "code": "HIST 316", "title": "History of Poland", "credits": 3 },
+        { "id": "POLISH_STUDIES_MINOR_HIST317", "code": "HIST 317", "title": "Age of Absolutism & the Enlightenment", "credits": 3 },
+        { "id": "POLISH_STUDIES_MINOR_HIST329N", "code": "HIST 329N", "title": "Modern European Nationalism: Myth and Reality", "credits": 3 },
+        { "id": "POLISH_STUDIES_MINOR_HIST334B", "code": "HIST 334B", "title": "The Holocaust: History and Memory", "credits": 3 },
+        { "id": "POLISH_STUDIES_MINOR_HIST335", "code": "HIST 335", "title": "The Second World War", "credits": 3 },
+        { "id": "POLISH_STUDIES_MINOR_HIST336", "code": "HIST 336", "title": "Contemporary Europe 1945 to Present", "credits": 3 },
+        { "id": "POLISH_STUDIES_MINOR_HIST337", "code": "HIST 337", "title": "Rise & Fall of Soviet Union", "credits": 3 },
+        { "id": "POLISH_STUDIES_MINOR_HIST338A", "code": "HIST 338A", "title": "History of European Communism", "credits": 3 },
+        { "id": "POLISH_STUDIES_MINOR_HIST338B", "code": "HIST 338B", "title": "Eastern Europe in the 20th Century", "credits": 3 },
+        { "id": "POLISH_STUDIES_MINOR_UCLR100M", "code": "UCLR 100M", "title": "Interpreting Literature - Modern Langs&Literatures", "credits": 3 },
+        { "id": "POLISH_STUDIES_MINOR_LITR200", "code": "LITR 200", "title": "European Masterpieces", "credits": 3 },
+        { "id": "POLISH_STUDIES_MINOR_LITR202", "code": "LITR 202", "title": "European Novel", "credits": 3 },
+        { "id": "POLISH_STUDIES_MINOR_LITR203", "code": "LITR 203", "title": "European Drama", "credits": 3 },
+        { "id": "POLISH_STUDIES_MINOR_LITR204", "code": "LITR 204", "title": "European Film", "credits": 3 },
+        { "id": "POLISH_STUDIES_MINOR_LITR221", "code": "LITR 221", "title": "Polish Authors", "credits": 3 },
+        { "id": "POLISH_STUDIES_MINOR_LITR280", "code": "LITR 280", "title": "World Masterpieces in Translation", "credits": 3 },
+        { "id": "POLISH_STUDIES_MINOR_LITR284", "code": "LITR 284", "title": "International Film", "credits": 3 },
+        { "id": "POLISH_STUDIES_MINOR_POST199", "code": "POST 199", "title": "Topics in Polish Studies: Introductory", "credits": 3 },
+        { "id": "POLISH_STUDIES_MINOR_POST299", "code": "POST 299", "title": "Topics in Polish Studies: Intermediate Topics", "credits": 3 },
+        { "id": "POLISH_STUDIES_MINOR_POST399", "code": "POST 399", "title": "Topics in Polish Studies: Advanced", "credits": 3 },
+        { "id": "POLISH_STUDIES_MINOR_PLSC347", "code": "PLSC 347", "title": "The European Union", "credits": 3 },
+        { "id": "POLISH_STUDIES_MINOR_PLSC348", "code": "PLSC 348", "title": "Soviet & Post-Soviet Politics", "credits": 3 }
+      ]
+    }
+  },
+  "coreRequirements": [],
+  "checklist": [],
+  "roadmap": [
+    { "year": 2, "semester": "Fall", "credits": 3, "items": [ { "label": "Language Course", "credits": 3, "isElective": true } ] },
+    { "year": 2, "semester": "Spring", "credits": 3, "items": [ { "label": "Language Course", "credits": 3, "isElective": true } ] },
+    { "year": 3, "semester": "Fall", "credits": 3, "items": [ { "label": "Elective", "credits": 3, "isElective": true } ] },
+    { "year": 3, "semester": "Spring", "credits": 3, "items": [ { "label": "Elective", "credits": 3, "isElective": true } ] },
+    { "year": 4, "semester": "Fall", "credits": 3, "items": [ { "label": "Elective", "credits": 3, "isElective": true } ] },
+    { "year": 4, "semester": "Spring", "credits": 3, "items": [ { "ref": "POLISH_STUDIES_MINOR_POST395" } ] }
+  ]
+}

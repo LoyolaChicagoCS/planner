@@ -1,0 +1,66 @@
+{
+  "id": "shakespeare-studies-minor",
+  "department": "Fine and Performing Arts",
+  "name": "Shakespeare Studies",
+  "degree": "Minor",
+  "school": "Loyola University Chicago",
+  "kind": "minor",
+  "totalCredits": 18,
+  "minorCredits": 18,
+  "hasCompletionEstimate": false,
+  "catalogUrl": "https://catalog.luc.edu/undergraduate/arts-sciences/fine-performing-arts/shakespeare-studies-minor/",
+  "courses": [
+    { "id": "SHAKESPEARE_STUDIES_MINOR_ENGL326", "code": "ENGL 326", "title": "Shakespeare: Selected Major Plays", "credits": 3, "category": "major" },
+    { "id": "SHAKESPEARE_STUDIES_MINOR_THTR365", "code": "THTR 365", "title": "Theatre History and Literature II", "credits": 3, "category": "major" },
+    { "id": "SHAKESPEARE_STUDIES_MINOR_THTR393", "code": "THTR 393", "title": "Shakespeare Seminar", "credits": 3, "category": "major", "requirementGroup": "SHAKESPEARE_STUDIES_MINOR-grp1", "choiceNote": "Choose THTR 393 or THTR 335" },
+    { "id": "SHAKESPEARE_STUDIES_MINOR_THTR335", "code": "THTR 335", "title": "London Theatre Experience", "credits": 3, "category": "major", "requirementGroup": "SHAKESPEARE_STUDIES_MINOR-grp1", "choiceNote": "Choose THTR 393 or THTR 335" }
+  ],
+  "electiveOptions": {
+    "disciplineElectives": {
+      "creditsRequired": 9,
+      "label": "Electives (three classes in three separate disciplines)",
+      "note": "Select three classes in three separate disciplines (9 hours) from the following list.",
+      "courses": [
+        { "id": "SHAKESPEARE_STUDIES_MINOR_CLST271", "code": "CLST 271", "credits": 3 },
+        { "id": "SHAKESPEARE_STUDIES_MINOR_CLST271G", "code": "CLST 271G", "credits": 3 },
+        { "id": "SHAKESPEARE_STUDIES_MINOR_CLST273", "code": "CLST 273", "credits": 3 },
+        { "id": "SHAKESPEARE_STUDIES_MINOR_CLST273G", "code": "CLST 273G", "credits": 3 },
+        { "id": "SHAKESPEARE_STUDIES_MINOR_CLST275", "code": "CLST 275", "credits": 3 },
+        { "id": "SHAKESPEARE_STUDIES_MINOR_CLST276", "code": "CLST 276", "credits": 3 },
+        { "id": "SHAKESPEARE_STUDIES_MINOR_CLST280", "code": "CLST 280", "credits": 3 },
+        { "id": "SHAKESPEARE_STUDIES_MINOR_CLST283", "code": "CLST 283", "credits": 3 },
+        { "id": "SHAKESPEARE_STUDIES_MINOR_LATN283", "code": "LATN 283", "credits": 3 },
+        { "id": "SHAKESPEARE_STUDIES_MINOR_LATN351", "code": "LATN 351", "credits": 3 },
+        { "id": "SHAKESPEARE_STUDIES_MINOR_LATN364", "code": "LATN 364", "credits": 3 },
+        { "id": "SHAKESPEARE_STUDIES_MINOR_GREK351", "code": "GREK 351", "credits": 3 },
+        { "id": "SHAKESPEARE_STUDIES_MINOR_GREK353", "code": "GREK 353", "credits": 3 },
+        { "id": "SHAKESPEARE_STUDIES_MINOR_GREK354", "code": "GREK 354", "credits": 3 },
+        { "id": "SHAKESPEARE_STUDIES_MINOR_GREK355", "code": "GREK 355", "credits": 3 },
+        { "id": "SHAKESPEARE_STUDIES_MINOR_ENGL325", "code": "ENGL 325", "credits": 3 },
+        { "id": "SHAKESPEARE_STUDIES_MINOR_ENGL327", "code": "ENGL 327", "credits": 3 },
+        { "id": "SHAKESPEARE_STUDIES_MINOR_ENGL328", "code": "ENGL 328", "credits": 3 },
+        { "id": "SHAKESPEARE_STUDIES_MINOR_ENGL368", "code": "ENGL 368", "credits": 3, "choiceNote": "When appropriate" },
+        { "id": "SHAKESPEARE_STUDIES_MINOR_PHIL319", "code": "PHIL 319", "credits": 3, "choiceNote": "If topic is appropriate" },
+        { "id": "SHAKESPEARE_STUDIES_MINOR_HIST314", "code": "HIST 314", "credits": 3 },
+        { "id": "SHAKESPEARE_STUDIES_MINOR_HIST315", "code": "HIST 315", "credits": 3 },
+        { "id": "SHAKESPEARE_STUDIES_MINOR_HIST316", "code": "HIST 316", "credits": 3 },
+        { "id": "SHAKESPEARE_STUDIES_MINOR_HIST318C", "code": "HIST 318C", "credits": 3 },
+        { "id": "SHAKESPEARE_STUDIES_MINOR_HIST330", "code": "HIST 330", "credits": 3 },
+        { "id": "SHAKESPEARE_STUDIES_MINOR_THTR267", "code": "THTR 267", "credits": 3 },
+        { "id": "SHAKESPEARE_STUDIES_MINOR_THTR323", "code": "THTR 323", "credits": 3, "choiceNote": "When appropriate" },
+        { "id": "SHAKESPEARE_STUDIES_MINOR_THTR335_ELEC", "code": "THTR 335", "credits": 3 },
+        { "id": "SHAKESPEARE_STUDIES_MINOR_THTR364", "code": "THTR 364", "credits": 3 }
+      ]
+    }
+  },
+  "coreRequirements": [],
+  "checklist": [],
+  "roadmap": [
+    { "year": 2, "semester": "First Semester", "credits": 3, "items": [ { "ref": "SHAKESPEARE_STUDIES_MINOR_ENGL326" } ] },
+    { "year": 2, "semester": "Second Semester", "credits": 3, "items": [ { "ref": "SHAKESPEARE_STUDIES_MINOR_THTR365" } ] },
+    { "year": 3, "semester": "Third Semester", "credits": 3, "items": [ { "label": "Elective 1", "credits": 3, "isElective": true } ] },
+    { "year": 3, "semester": "Fourth Semester", "credits": 3, "items": [ { "label": "Elective 2", "credits": 3, "isElective": true } ] },
+    { "year": 4, "semester": "Fifth Semester", "credits": 3, "items": [ { "label": "Elective 3", "credits": 3, "isElective": true } ] },
+    { "year": 4, "semester": "Sixth Semester", "credits": 3, "items": [ { "ref": "SHAKESPEARE_STUDIES_MINOR_THTR393" } ] }
+  ]
+}

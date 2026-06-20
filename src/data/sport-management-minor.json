@@ -1,0 +1,58 @@
+{
+  "id": "sport-management-minor",
+  "department": "Business Administration",
+  "name": "Sport Management",
+  "degree": "Minor",
+  "school": "Loyola University Chicago",
+  "kind": "minor",
+  "totalCredits": 18,
+  "minorCredits": 18,
+  "hasCompletionEstimate": false,
+  "catalogUrl": "https://catalog.luc.edu/undergraduate/business/sport-management-minor/",
+  "courses": [
+    { "id": "SPORT_MANAGEMENT_MINOR_SPRT130", "code": "SPRT 130", "title": "The Business of Sports", "credits": 3, "category": "major" }
+  ],
+  "electiveOptions": {
+    "businessPrinciples": {
+      "creditsRequired": 6,
+      "label": "Business Principles (select two)",
+      "note": "Select two of the following: ACCT 201; ECON 201 or ECON 202; INFS 247; MARK 201; MGMT 201.",
+      "courses": [
+        { "id": "SPORT_MANAGEMENT_MINOR_ACCT201", "code": "ACCT 201", "title": "Introductory Accounting I", "credits": 3 },
+        { "id": "SPORT_MANAGEMENT_MINOR_ECON201", "code": "ECON 201", "title": "Principles of Microeconomics", "credits": 3, "requirementGroup": "SPORT_MANAGEMENT_MINOR-econ", "choiceNote": "Choose ECON 201 or ECON 202" },
+        { "id": "SPORT_MANAGEMENT_MINOR_ECON202", "code": "ECON 202", "title": "Principles of Macroeconomics", "credits": 3, "requirementGroup": "SPORT_MANAGEMENT_MINOR-econ", "choiceNote": "Choose ECON 201 or ECON 202" },
+        { "id": "SPORT_MANAGEMENT_MINOR_INFS247", "code": "INFS 247", "title": "Business Information Systems", "credits": 3 },
+        { "id": "SPORT_MANAGEMENT_MINOR_MARK201", "code": "MARK 201", "title": "Principles of Marketing", "credits": 3 },
+        { "id": "SPORT_MANAGEMENT_MINOR_MGMT201", "code": "MGMT 201", "title": "Managing People and Organizations", "credits": 3 }
+      ]
+    },
+    "sprtElectives": {
+      "creditsRequired": 9,
+      "label": "Sport Management Electives (select three)",
+      "note": "Select three of the following SPRT courses.",
+      "courses": [
+        { "id": "SPORT_MANAGEMENT_MINOR_SPRT320", "code": "SPRT 320", "title": "Social Aspects of Sport Management", "credits": 3 },
+        { "id": "SPORT_MANAGEMENT_MINOR_SPRT330", "code": "SPRT 330", "title": "Economics of Sport", "credits": 3 },
+        { "id": "SPORT_MANAGEMENT_MINOR_SPRT335", "code": "SPRT 335", "title": "Fundamentals of Sport Finance", "credits": 3 },
+        { "id": "SPORT_MANAGEMENT_MINOR_SPRT339", "code": "SPRT 339", "title": "Sports Facility Management and Operations", "credits": 3 },
+        { "id": "SPORT_MANAGEMENT_MINOR_SPRT345", "code": "SPRT 345", "title": "Globalization of Sport Industry", "credits": 3 },
+        { "id": "SPORT_MANAGEMENT_MINOR_SPRT365", "code": "SPRT 365", "title": "Fundamentals Sport Marketing", "credits": 3 },
+        { "id": "SPORT_MANAGEMENT_MINOR_SPRT375", "code": "SPRT 375", "title": "Sport Media", "credits": 3 },
+        { "id": "SPORT_MANAGEMENT_MINOR_SPRT380", "code": "SPRT 380", "title": "Legal Aspects in Sport Management", "credits": 3 },
+        { "id": "SPORT_MANAGEMENT_MINOR_SPRT385", "code": "SPRT 385", "title": "Sport Analytics", "credits": 3 },
+        { "id": "SPORT_MANAGEMENT_MINOR_SPRT395", "code": "SPRT 395", "title": "Independent Study", "credits": 3 },
+        { "id": "SPORT_MANAGEMENT_MINOR_SPRT399", "code": "SPRT 399", "title": "Special Topics in Sport Management", "credits": 3 }
+      ]
+    }
+  },
+  "coreRequirements": [],
+  "checklist": [],
+  "roadmap": [
+    { "year": 1, "semester": "Spring", "credits": 3, "items": [ { "ref": "SPORT_MANAGEMENT_MINOR_SPRT130" } ] },
+    { "year": 2, "semester": "Fall", "credits": 3, "items": [ { "label": "200-level Business Principles course", "credits": 3, "isElective": true } ] },
+    { "year": 2, "semester": "Spring", "credits": 3, "items": [ { "label": "200-level Business Principles course", "credits": 3, "isElective": true } ] },
+    { "year": 3, "semester": "Fall", "credits": 3, "items": [ { "label": "SPRT Elective", "credits": 3, "isElective": true } ] },
+    { "year": 3, "semester": "Spring", "credits": 3, "items": [ { "label": "SPRT Elective", "credits": 3, "isElective": true } ] },
+    { "year": 4, "semester": "Fall", "credits": 3, "items": [ { "label": "SPRT Elective", "credits": 3, "isElective": true } ] }
+  ]
+}

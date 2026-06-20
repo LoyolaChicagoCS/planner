@@ -1,0 +1,58 @@
+{
+  "id": "pastoral-leadership-minor",
+  "department": "Theology",
+  "name": "Pastoral Leadership",
+  "degree": "Minor",
+  "school": "Loyola University Chicago",
+  "kind": "minor",
+  "totalCredits": 18,
+  "minorCredits": 18,
+  "hasCompletionEstimate": false,
+  "catalogUrl": "https://catalog.luc.edu/undergraduate/arts-sciences/theology/pastoral-leadership-minor/",
+  "courses": [
+    { "id": "PASTORAL_LEADERSHIP_MINOR_IPS570", "code": "IPS 570", "title": "Introduction to Theology and Ministry", "credits": 3, "category": "major" },
+    { "id": "PASTORAL_LEADERSHIP_MINOR_THEO348", "code": "THEO 348", "title": "Supervised Ministry", "credits": 3, "category": "major", "requirementGroup": "PASTORAL_LEADERSHIP_MINOR-grp1", "choiceNote": "Choose THEO 348 (Supervised Ministry) or IPS 580 (Contextual Education I)" },
+    { "id": "PASTORAL_LEADERSHIP_MINOR_IPS580", "code": "IPS 580", "title": "Contextual Education I", "credits": 3, "category": "major", "requirementGroup": "PASTORAL_LEADERSHIP_MINOR-grp1", "choiceNote": "Choose THEO 348 (Supervised Ministry) or IPS 580 (Contextual Education I)" },
+
+    { "id": "PASTORAL_LEADERSHIP_MINOR_THEO100", "code": "THEO 100", "title": "Christian Theology", "credits": 3, "category": "major", "requirementGroup": "PASTORAL_LEADERSHIP_MINOR-grp2", "choiceNote": "Choose one Doctrine & History of Christianity course" },
+    { "id": "PASTORAL_LEADERSHIP_MINOR_THEO265", "code": "THEO 265", "title": "Sacraments and the Christian Imagination", "credits": 3, "category": "major", "requirementGroup": "PASTORAL_LEADERSHIP_MINOR-grp2", "choiceNote": "Choose one Doctrine & History of Christianity course" },
+    { "id": "PASTORAL_LEADERSHIP_MINOR_THEO266", "code": "THEO 266", "title": "Church & Global Cultures", "credits": 3, "category": "major", "requirementGroup": "PASTORAL_LEADERSHIP_MINOR-grp2", "choiceNote": "Choose one Doctrine & History of Christianity course" },
+    { "id": "PASTORAL_LEADERSHIP_MINOR_THEO267", "code": "THEO 267", "title": "Jesus Christ", "credits": 3, "category": "major", "requirementGroup": "PASTORAL_LEADERSHIP_MINOR-grp2", "choiceNote": "Choose one Doctrine & History of Christianity course" },
+    { "id": "PASTORAL_LEADERSHIP_MINOR_THEO279", "code": "THEO 279", "title": "Roman Catholicism", "credits": 3, "category": "major", "requirementGroup": "PASTORAL_LEADERSHIP_MINOR-grp2", "choiceNote": "Choose one Doctrine & History of Christianity course" },
+    { "id": "PASTORAL_LEADERSHIP_MINOR_THEO281", "code": "THEO 281", "title": "Christianity Through Time", "credits": 3, "category": "major", "requirementGroup": "PASTORAL_LEADERSHIP_MINOR-grp2", "choiceNote": "Choose one Doctrine & History of Christianity course" },
+
+    { "id": "PASTORAL_LEADERSHIP_MINOR_THEO185", "code": "THEO 185", "title": "Christian Ethics", "credits": 3, "category": "major", "requirementGroup": "PASTORAL_LEADERSHIP_MINOR-grp3", "choiceNote": "Choose one Christian Ethics course" },
+    { "id": "PASTORAL_LEADERSHIP_MINOR_THEO186", "code": "THEO 186", "title": "Global Religious Ethics", "credits": 3, "category": "major", "requirementGroup": "PASTORAL_LEADERSHIP_MINOR-grp3", "choiceNote": "Choose one Christian Ethics course" },
+    { "id": "PASTORAL_LEADERSHIP_MINOR_THEO203", "code": "THEO 203", "title": "Social Justice and Injustice", "credits": 3, "category": "major", "requirementGroup": "PASTORAL_LEADERSHIP_MINOR-grp3", "choiceNote": "Choose one Christian Ethics course" },
+    { "id": "PASTORAL_LEADERSHIP_MINOR_THEO204", "code": "THEO 204", "title": "Religious Ethics and the Ecological Crisis", "credits": 3, "category": "major", "requirementGroup": "PASTORAL_LEADERSHIP_MINOR-grp3", "choiceNote": "Choose one Christian Ethics course" },
+
+    { "id": "PASTORAL_LEADERSHIP_MINOR_THEO231", "code": "THEO 231", "title": "Hebrew Bible/Old Testament", "credits": 3, "category": "major", "requirementGroup": "PASTORAL_LEADERSHIP_MINOR-grp4", "choiceNote": "Choose one Biblical Literature course" },
+    { "id": "PASTORAL_LEADERSHIP_MINOR_THEO232", "code": "THEO 232", "title": "New Testament", "credits": 3, "category": "major", "requirementGroup": "PASTORAL_LEADERSHIP_MINOR-grp4", "choiceNote": "Choose one Biblical Literature course" },
+    { "id": "PASTORAL_LEADERSHIP_MINOR_THEO302", "code": "THEO 302", "title": "Wisdom Literature and Psalms", "credits": 3, "category": "major", "requirementGroup": "PASTORAL_LEADERSHIP_MINOR-grp4", "choiceNote": "Choose one Biblical Literature course" },
+    { "id": "PASTORAL_LEADERSHIP_MINOR_THEO303", "code": "THEO 303", "title": "Pentateuch", "credits": 3, "category": "major", "requirementGroup": "PASTORAL_LEADERSHIP_MINOR-grp4", "choiceNote": "Choose one Biblical Literature course" },
+    { "id": "PASTORAL_LEADERSHIP_MINOR_THEO308", "code": "THEO 308", "title": "Biblical Hebrew I", "credits": 3, "category": "major", "requirementGroup": "PASTORAL_LEADERSHIP_MINOR-grp4", "choiceNote": "Choose one Biblical Literature course" },
+    { "id": "PASTORAL_LEADERSHIP_MINOR_THEO309", "code": "THEO 309", "title": "Biblical Hebrew II", "credits": 3, "category": "major", "requirementGroup": "PASTORAL_LEADERSHIP_MINOR-grp4", "choiceNote": "Choose one Biblical Literature course" },
+    { "id": "PASTORAL_LEADERSHIP_MINOR_THEO311", "code": "THEO 311", "title": "The Meaning of Jesus Christ", "credits": 3, "category": "major", "requirementGroup": "PASTORAL_LEADERSHIP_MINOR-grp4", "choiceNote": "Choose one Biblical Literature course" },
+    { "id": "PASTORAL_LEADERSHIP_MINOR_THEO313", "code": "THEO 313", "title": "Gospels of Matthew, Mark & Luke", "credits": 3, "category": "major", "requirementGroup": "PASTORAL_LEADERSHIP_MINOR-grp4", "choiceNote": "Choose one Biblical Literature course" }
+  ],
+  "electiveOptions": {
+    "theo300Elective": {
+      "creditsRequired": 3,
+      "label": "THEO 300-level elective",
+      "note": "THEO 300-level elective (3 hrs). This course should be tied to student's interests and courses taken at 100-level.",
+      "courses": [
+        { "id": "PASTORAL_LEADERSHIP_MINOR_POOL1", "code": "THEO 3XX", "title": "300-level THEO elective", "credits": 3, "uniqueProgress": true }
+      ]
+    }
+  },
+  "coreRequirements": [],
+  "checklist": [],
+  "roadmap": [
+    { "year": 1, "semester": "Semester I", "credits": 3, "items": [ { "label": "Doctrine Course (e.g. THEO 100)", "credits": 3, "isElective": true } ] },
+    { "year": 1, "semester": "Semester II", "credits": 3, "items": [ { "label": "Christian Ethics Course (e.g. THEO 185)", "credits": 3, "isElective": true } ] },
+    { "year": 2, "semester": "Semester I", "credits": 3, "items": [ { "label": "Biblical Literature Course (e.g. THEO 231)", "credits": 3, "isElective": true } ] },
+    { "year": 3, "semester": "Semester I", "credits": 3, "items": [ { "ref": "PASTORAL_LEADERSHIP_MINOR_IPS570" } ] },
+    { "year": 3, "semester": "Semester II", "credits": 3, "items": [ { "label": "THEO 300-Level or higher Course", "credits": 3, "isElective": true } ] },
+    { "year": 4, "semester": "Semester I", "credits": 3, "items": [ { "label": "Supervised Ministry (THEO 348 or IPS 580 / Contextual Education I)", "credits": 3, "isElective": true } ] }
+  ]
+}

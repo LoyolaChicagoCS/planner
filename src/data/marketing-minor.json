@@ -1,0 +1,63 @@
+{
+  "id": "marketing-minor",
+  "department": "Business Administration",
+  "name": "Marketing",
+  "degree": "Minor",
+  "school": "Loyola University Chicago",
+  "kind": "minor",
+  "totalCredits": 18,
+  "minorCredits": 18,
+  "hasCompletionEstimate": false,
+  "catalogUrl": "https://catalog.luc.edu/undergraduate/business/marketing-minor/",
+  "courses": [
+    { "id": "MARKETING_MINOR_MARK201", "code": "MARK 201", "title": "Principles of Marketing", "credits": 3, "category": "major" }
+  ],
+  "electiveOptions": {
+    "businessPrinciples": {
+      "creditsRequired": 6,
+      "label": "Business Principles (select two)",
+      "note": "Select two of the following: ACCT 201, ECON 201 or ECON 202, INFS 247, MGMT 201",
+      "courses": [
+        { "id": "MARKETING_MINOR_ACCT201", "code": "ACCT 201", "title": "Introductory Accounting I", "credits": 3 },
+        { "id": "MARKETING_MINOR_ECON201", "code": "ECON 201", "title": "Principles of Microeconomics", "credits": 3, "requirementGroup": "MARKETING_MINOR-econ", "choiceNote": "Choose ECON 201 or ECON 202" },
+        { "id": "MARKETING_MINOR_ECON202", "code": "ECON 202", "title": "Principles of Macroeconomics", "credits": 3, "requirementGroup": "MARKETING_MINOR-econ", "choiceNote": "Choose ECON 201 or ECON 202" },
+        { "id": "MARKETING_MINOR_INFS247", "code": "INFS 247", "title": "Business Information Systems", "credits": 3 },
+        { "id": "MARKETING_MINOR_MGMT201", "code": "MGMT 201", "title": "Managing People and Organizations", "credits": 3 }
+      ]
+    },
+    "marketingElectives": {
+      "creditsRequired": 9,
+      "label": "Marketing Electives (select three)",
+      "note": "Select three of the following",
+      "courses": [
+        { "id": "MARKETING_MINOR_MARK310", "code": "MARK 310", "title": "Consumer Behavior", "credits": 3 },
+        { "id": "MARKETING_MINOR_MARK311", "code": "MARK 311", "title": "Marketing Research", "credits": 3 },
+        { "id": "MARKETING_MINOR_MARK312", "code": "MARK 312", "title": "Gender and Marketing", "credits": 3 },
+        { "id": "MARKETING_MINOR_MARK320", "code": "MARK 320", "title": "Marketing for Environmental Sustainability", "credits": 3 },
+        { "id": "MARKETING_MINOR_MARK321", "code": "MARK 321", "title": "Ignatian Design Thinking", "credits": 3 },
+        { "id": "MARKETING_MINOR_MARK323", "code": "MARK 323", "title": "Personal Selling", "credits": 3 },
+        { "id": "MARKETING_MINOR_MARK334", "code": "MARK 334", "title": "Services Marketing", "credits": 3 },
+        { "id": "MARKETING_MINOR_MARK360", "code": "MARK 360", "title": "Retailing Management", "credits": 3 },
+        { "id": "MARKETING_MINOR_MARK363", "code": "MARK 363", "title": "International Marketing", "credits": 3 },
+        { "id": "MARKETING_MINOR_MARK367", "code": "MARK 367", "title": "Multicultural Marketing", "credits": 3 },
+        { "id": "MARKETING_MINOR_MARK370", "code": "MARK 370", "title": "Political Marketing", "credits": 3 },
+        { "id": "MARKETING_MINOR_MARK373", "code": "MARK 373", "title": "Integrated Marketing Communications", "credits": 3 },
+        { "id": "MARKETING_MINOR_MARK380", "code": "MARK 380", "title": "Digital Marketing", "credits": 3 },
+        { "id": "MARKETING_MINOR_MARK390", "code": "MARK 390", "title": "Marketing Strategies", "credits": 3 },
+        { "id": "MARKETING_MINOR_MARK395", "code": "MARK 395", "title": "Independent Study", "credits": 3 },
+        { "id": "MARKETING_MINOR_MARK399", "code": "MARK 399", "title": "Special Topics in Marketing", "credits": 3 },
+        { "id": "MARKETING_MINOR_SPRT365", "code": "SPRT 365", "title": "Fundamentals Sport Marketing", "credits": 3 }
+      ]
+    }
+  },
+  "coreRequirements": [],
+  "checklist": [],
+  "roadmap": [
+    { "year": 1, "semester": "Spring", "credits": 3, "items": [ { "label": "200-level Business Principles course", "credits": 3, "isElective": true } ] },
+    { "year": 2, "semester": "Fall", "credits": 3, "items": [ { "ref": "MARKETING_MINOR_MARK201" } ] },
+    { "year": 2, "semester": "Spring", "credits": 3, "items": [ { "label": "200-level Business Principles course", "credits": 3, "isElective": true } ] },
+    { "year": 3, "semester": "Fall", "credits": 3, "items": [ { "label": "MARK Elective", "credits": 3, "isElective": true } ] },
+    { "year": 3, "semester": "Spring", "credits": 3, "items": [ { "label": "MARK Elective", "credits": 3, "isElective": true } ] },
+    { "year": 4, "semester": "Fall", "credits": 3, "items": [ { "label": "MARK Elective", "credits": 3, "isElective": true } ] }
+  ]
+}

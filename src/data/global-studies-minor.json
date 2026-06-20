@@ -1,0 +1,44 @@
+{
+  "id": "global-studies-minor",
+  "department": "Global Studies",
+  "name": "Global Studies",
+  "degree": "Minor",
+  "school": "Loyola University Chicago",
+  "kind": "minor",
+  "totalCredits": 18,
+  "minorCredits": 18,
+  "hasCompletionEstimate": false,
+  "catalogUrl": "https://catalog.luc.edu/undergraduate/arts-sciences/global-studies/global-studies-minor/",
+  "courses": [
+    { "id": "GLOBAL_STUDIES_MINOR_GLST101", "code": "GLST 101", "title": "Introduction to Global Studies", "credits": 3, "category": "major" },
+    { "id": "GLOBAL_STUDIES_MINOR_GLST301", "code": "GLST 301", "title": "Directed Readings in Global Studies", "credits": 3, "category": "major", "requirementGroup": "GLOBAL_STUDIES_MINOR-grp1", "choiceNote": "Select at least two GLST 300-level courses (6 credits)" },
+    { "id": "GLOBAL_STUDIES_MINOR_GLST302", "code": "GLST 302", "title": "States and Firms", "credits": 3, "category": "major", "requirementGroup": "GLOBAL_STUDIES_MINOR-grp1", "choiceNote": "Select at least two GLST 300-level courses (6 credits)" },
+    { "id": "GLOBAL_STUDIES_MINOR_GLST303", "code": "GLST 303", "title": "Technological Change and Society", "credits": 3, "category": "major", "requirementGroup": "GLOBAL_STUDIES_MINOR-grp1", "choiceNote": "Select at least two GLST 300-level courses (6 credits)" },
+    { "id": "GLOBAL_STUDIES_MINOR_GLST304", "code": "GLST 304", "title": "Global Civil Society and Social Movements", "credits": 3, "category": "major", "requirementGroup": "GLOBAL_STUDIES_MINOR-grp1", "choiceNote": "Select at least two GLST 300-level courses (6 credits)" },
+    { "id": "GLOBAL_STUDIES_MINOR_GLST305", "code": "GLST 305", "title": "Globalization and Environmental Sustainability", "credits": 3, "category": "major", "requirementGroup": "GLOBAL_STUDIES_MINOR-grp1", "choiceNote": "Select at least two GLST 300-level courses (6 credits)" },
+    { "id": "GLOBAL_STUDIES_MINOR_GLST306", "code": "GLST 306", "title": "International Development", "credits": 3, "category": "major", "requirementGroup": "GLOBAL_STUDIES_MINOR-grp1", "choiceNote": "Select at least two GLST 300-level courses (6 credits)" },
+    { "id": "GLOBAL_STUDIES_MINOR_GLST309", "code": "GLST 309", "title": "The Global Economy", "credits": 3, "category": "major", "requirementGroup": "GLOBAL_STUDIES_MINOR-grp1", "choiceNote": "Select at least two GLST 300-level courses (6 credits)" },
+    { "id": "GLOBAL_STUDIES_MINOR_GLST370", "code": "GLST 370", "title": "Internship in Global Studies", "credits": 3, "category": "major", "requirementGroup": "GLOBAL_STUDIES_MINOR-grp1", "choiceNote": "Select at least two GLST 300-level courses (6 credits)" },
+    { "id": "GLOBAL_STUDIES_MINOR_GLST398", "code": "GLST 398", "title": "Topics in Global Studies", "credits": 3, "category": "major", "requirementGroup": "GLOBAL_STUDIES_MINOR-grp1", "choiceNote": "Select at least two GLST 300-level courses (6 credits)" }
+  ],
+  "electiveOptions": {
+    "globalElectives": {
+      "creditsRequired": 9,
+      "label": "Global Studies Electives",
+      "note": "Three electives (9 credits) chosen from the tagged Global Studies course pools organized by region (Africa, Asia, Europe, Latin America, Middle East) and the General Global Studies list, including at least one general (non-area-specific) course. Electives must be taken from at least two units in total (two departments or programs).",
+      "courses": [
+        { "id": "GLOBAL_STUDIES_MINOR_POOL1", "code": "GLST 3XX", "title": "Global Studies tagged elective", "credits": 3, "uniqueProgress": true }
+      ]
+    }
+  },
+  "coreRequirements": [],
+  "checklist": [],
+  "roadmap": [
+    { "year": 1, "semester": "Semester I", "credits": 3, "items": [ { "ref": "GLOBAL_STUDIES_MINOR_GLST101" } ] },
+    { "year": 1, "semester": "Semester II", "credits": 3, "items": [ { "label": "GLST 300-Level Course", "credits": 3, "isElective": true } ] },
+    { "year": 2, "semester": "Semester I", "credits": 3, "items": [ { "label": "GLST 300-Level Elective", "credits": 3, "isElective": true } ] },
+    { "year": 2, "semester": "Semester II", "credits": 3, "items": [ { "label": "Elective Course", "credits": 3, "isElective": true } ] },
+    { "year": 3, "semester": "Semester I", "credits": 3, "items": [ { "label": "Elective Course", "credits": 3, "isElective": true } ] },
+    { "year": 3, "semester": "Semester II", "credits": 3, "items": [ { "label": "Elective Course", "credits": 3, "isElective": true } ] }
+  ]
+}

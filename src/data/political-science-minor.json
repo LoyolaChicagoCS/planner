@@ -1,0 +1,33 @@
+{
+  "id": "political-science-minor",
+  "department": "Political Science",
+  "name": "Political Science",
+  "degree": "Minor",
+  "school": "Loyola University Chicago",
+  "kind": "minor",
+  "totalCredits": 18,
+  "minorCredits": 18,
+  "hasCompletionEstimate": false,
+  "catalogUrl": "https://catalog.luc.edu/undergraduate/arts-sciences/political-science/political-science-minor/",
+  "courses": [
+    { "id": "POLITICAL_SCIENCE_MINOR_PLSC100", "code": "PLSC 100", "title": "Political Theory", "credits": 3, "category": "major", "requirementGroup": "POLITICAL_SCIENCE_MINOR-grp1", "choiceNote": "Select two of PLSC 100, PLSC 101, PLSC 102, PLSC 103" },
+    { "id": "POLITICAL_SCIENCE_MINOR_PLSC101", "code": "PLSC 101", "title": "American Politics", "credits": 3, "category": "major", "requirementGroup": "POLITICAL_SCIENCE_MINOR-grp1", "choiceNote": "Select two of PLSC 100, PLSC 101, PLSC 102, PLSC 103" },
+    { "id": "POLITICAL_SCIENCE_MINOR_PLSC102", "code": "PLSC 102", "title": "International Relations in an Age of Globalization", "credits": 3, "category": "major", "requirementGroup": "POLITICAL_SCIENCE_MINOR-grp1", "choiceNote": "Select two of PLSC 100, PLSC 101, PLSC 102, PLSC 103" },
+    { "id": "POLITICAL_SCIENCE_MINOR_PLSC103", "code": "PLSC 103", "title": "Comparative Politics", "credits": 3, "category": "major", "requirementGroup": "POLITICAL_SCIENCE_MINOR-grp1", "choiceNote": "Select two of PLSC 100, PLSC 101, PLSC 102, PLSC 103" }
+  ],
+  "electiveOptions": {
+    "additionalPlsc": {
+      "creditsRequired": 12,
+      "label": "Additional PLSC courses",
+      "note": "Select four additional PLSC courses, either introductory or upper-level classes, regardless of the subfield.",
+      "courses": [
+        { "id": "POLITICAL_SCIENCE_MINOR_POOL1", "code": "PLSC", "title": "Additional PLSC course", "credits": 3, "uniqueProgress": true },
+        { "id": "POLITICAL_SCIENCE_MINOR_POOL2", "code": "PLSC", "title": "Additional PLSC course", "credits": 3, "uniqueProgress": true },
+        { "id": "POLITICAL_SCIENCE_MINOR_POOL3", "code": "PLSC", "title": "Additional PLSC course", "credits": 3, "uniqueProgress": true },
+        { "id": "POLITICAL_SCIENCE_MINOR_POOL4", "code": "PLSC", "title": "Additional PLSC course", "credits": 3, "uniqueProgress": true }
+      ]
+    }
+  },
+  "coreRequirements": [],
+  "checklist": []
+}

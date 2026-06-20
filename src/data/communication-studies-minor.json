@@ -1,0 +1,59 @@
+{
+  "id": "communication-studies-minor",
+  "department": "Communication",
+  "name": "Communication Studies",
+  "degree": "Minor",
+  "school": "Loyola University Chicago",
+  "kind": "minor",
+  "totalCredits": 18,
+  "minorCredits": 18,
+  "hasCompletionEstimate": false,
+  "catalogUrl": "https://catalog.luc.edu/undergraduate/communication/communication-studies/communication-studies-minor/",
+  "courses": [
+    { "id": "COMMUNICATION_STUDIES_MINOR_COMM175", "code": "COMM 175", "title": "Introduction to Communication", "credits": 3, "category": "major" }
+  ],
+  "electiveOptions": {
+    "electives": {
+      "creditsRequired": 15,
+      "label": "Communication Studies Electives (5 courses)",
+      "note": "Select five from the following menus—two of these courses must be selected from at least two different menus.",
+      "courses": [
+        { "id": "COMMUNICATION_STUDIES_MINOR_COMM215", "code": "COMM 215", "title": "Ethics & Communication", "credits": 3, "menu": "Menu 1: Theory/Critical Analysis" },
+        { "id": "COMMUNICATION_STUDIES_MINOR_COMM220", "code": "COMM 220", "title": "Introduction to Rhetoric", "credits": 3, "menu": "Menu 1: Theory/Critical Analysis" },
+        { "id": "COMMUNICATION_STUDIES_MINOR_COMM227", "code": "COMM 227", "title": "Social Justice and Public Communication", "credits": 3, "menu": "Menu 1: Theory/Critical Analysis" },
+        { "id": "COMMUNICATION_STUDIES_MINOR_COMM268", "code": "COMM 268", "title": "Persuasion", "credits": 3, "menu": "Menu 1: Theory/Critical Analysis" },
+        { "id": "COMMUNICATION_STUDIES_MINOR_COMM271", "code": "COMM 271", "title": "Media Culture and Communication", "credits": 3, "menu": "Menu 1: Theory/Critical Analysis" },
+        { "id": "COMMUNICATION_STUDIES_MINOR_COMM272", "code": "COMM 272", "title": "Intercultural Communication", "credits": 3, "menu": "Menu 1: Theory/Critical Analysis" },
+        { "id": "COMMUNICATION_STUDIES_MINOR_COMM273", "code": "COMM 273", "title": "Interpersonal Communication", "credits": 3, "menu": "Menu 1: Theory/Critical Analysis" },
+        { "id": "COMMUNICATION_STUDIES_MINOR_COMM274", "code": "COMM 274", "title": "Introduction to Cinema", "credits": 3, "menu": "Menu 1: Theory/Critical Analysis" },
+        { "id": "COMMUNICATION_STUDIES_MINOR_COMM277", "code": "COMM 277", "title": "Organizational Communication", "credits": 3, "menu": "Menu 1: Theory/Critical Analysis" },
+        { "id": "COMMUNICATION_STUDIES_MINOR_COMM130", "code": "COMM 130", "title": "Intro to Audio Production", "credits": 3, "menu": "Menu 2: Applied" },
+        { "id": "COMMUNICATION_STUDIES_MINOR_COMM135", "code": "COMM 135", "title": "Intro to Video Production", "credits": 3, "menu": "Menu 2: Applied" },
+        { "id": "COMMUNICATION_STUDIES_MINOR_COMM230", "code": "COMM 230", "title": "Argumentation & Advocacy", "credits": 3, "menu": "Menu 2: Applied" },
+        { "id": "COMMUNICATION_STUDIES_MINOR_COMM231", "code": "COMM 231", "title": "Conflict Management and Communication", "credits": 3, "menu": "Menu 2: Applied" },
+        { "id": "COMMUNICATION_STUDIES_MINOR_COMM232", "code": "COMM 232", "title": "Cinematography I", "credits": 3, "menu": "Menu 2: Applied" },
+        { "id": "COMMUNICATION_STUDIES_MINOR_COMM234", "code": "COMM 234", "title": "Interviewing for Communication", "credits": 3, "menu": "Menu 2: Applied" },
+        { "id": "COMMUNICATION_STUDIES_MINOR_COMM236", "code": "COMM 236", "title": "Persuasive Presentations", "credits": 3, "menu": "Menu 2: Applied" },
+        { "id": "COMMUNICATION_STUDIES_MINOR_COMM237", "code": "COMM 237", "title": "Small Group Communication", "credits": 3, "menu": "Menu 2: Applied" },
+        { "id": "COMMUNICATION_STUDIES_MINOR_COMM275", "code": "COMM 275", "title": "Web Design and Usability", "credits": 3, "menu": "Menu 2: Applied" },
+        { "id": "COMMUNICATION_STUDIES_MINOR_COMM306", "code": "COMM 306", "title": "Environmental Communication & Advocacy", "credits": 3, "menu": "Menu 2: Applied" },
+        { "id": "COMMUNICATION_STUDIES_MINOR_COMM309", "code": "COMM 309", "title": "Designing Media for Social Change", "credits": 3, "menu": "Menu 2: Applied" },
+        { "id": "COMMUNICATION_STUDIES_MINOR_COMM361", "code": "COMM 361", "title": "New Media Criticism", "credits": 3, "menu": "Menu 2: Applied" },
+        { "id": "COMMUNICATION_STUDIES_MINOR_COMM365", "code": "COMM 365", "title": "Naturalistic Methods Communication Research", "credits": 3, "menu": "Menu 3: Research Methods" },
+        { "id": "COMMUNICATION_STUDIES_MINOR_COMM367", "code": "COMM 367", "title": "Rhetorical Criticism", "credits": 3, "menu": "Menu 3: Research Methods" },
+        { "id": "COMMUNICATION_STUDIES_MINOR_COMM368", "code": "COMM 368", "title": "Ethnographic Research Methods in Communication", "credits": 3, "menu": "Menu 3: Research Methods" },
+        { "id": "COMMUNICATION_STUDIES_MINOR_POOL_COMM", "code": "COMM 4: Menu", "title": "Any COMM course not previously taken to satisfy a requirement (Menu 4: General Communication Electives)", "credits": 3, "uniqueProgress": true, "menu": "Menu 4: General Communication Electives" }
+      ]
+    }
+  },
+  "coreRequirements": [],
+  "checklist": [],
+  "roadmap": [
+    { "year": 2, "semester": "Fall", "credits": 3, "items": [ { "ref": "COMMUNICATION_STUDIES_MINOR_COMM175" } ] },
+    { "year": 2, "semester": "Spring", "credits": 3, "items": [ { "label": "Minor Elective #1", "credits": 3, "isElective": true } ] },
+    { "year": 3, "semester": "Fall", "credits": 3, "items": [ { "label": "Minor Elective #2", "credits": 3, "isElective": true } ] },
+    { "year": 3, "semester": "Spring", "credits": 3, "items": [ { "label": "Minor Elective #3", "credits": 3, "isElective": true } ] },
+    { "year": 4, "semester": "Fall", "credits": 3, "items": [ { "label": "Minor Elective #4", "credits": 3, "isElective": true } ] },
+    { "year": 4, "semester": "Spring", "credits": 3, "items": [ { "label": "Minor Elective #5", "credits": 3, "isElective": true } ] }
+  ]
+}
