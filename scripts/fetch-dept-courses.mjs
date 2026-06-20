@@ -18,10 +18,13 @@ const OUT_DIR = 'src/data/dept-courses';
 const CATALOG_YEAR = '2026-2027';
 
 // When using dept-courses data to populate undergraduate elective pools,
-// filter courses to numbers ≤ this value. 500+ courses are graduate-level
-// and should not appear in additional-major elective arrays even though they
-// are collected here for catalog completeness and annual update convenience.
-export const UNDERGRAD_MAX_COURSE_NUM = 499;
+// filter courses to numbers ≤ this value. At Loyola, 400+ courses in CAS,
+// Communication, and Business departments are graduate-level and must not
+// appear in additional-major elective arrays. Note: specific required courses
+// (e.g. 490 capstones, NEUR 400) may still appear in program JSON `courses`
+// arrays because they are explicitly designated undergraduate requirements —
+// this cap applies only to elective pool population from the inventory.
+export const UNDERGRAD_MAX_COURSE_NUM = 399;
 
 /**
  * All departments needed to populate elective pools across CAS, Communication,

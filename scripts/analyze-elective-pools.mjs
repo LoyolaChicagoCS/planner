@@ -17,8 +17,11 @@ import { readdirSync, readFileSync } from 'node:fs';
 import path from 'node:path';
 
 // Undergraduate course number ceiling — mirrors the constant in fetch-dept-courses.mjs.
-// 500+ courses are graduate-level and must not appear in additional-major elective pools.
-const UNDERGRAD_MAX = 499;
+// At Loyola, 400+ courses in CAS/Communication/Business are graduate-level and must
+// not appear in elective pool arrays. Required 490 capstones and explicit 400-level
+// requirements in program JSON files are exempt — this cap applies only to elective
+// pool population from the dept-courses inventory.
+const UNDERGRAD_MAX = 399;
 
 const DATA_DIR  = 'src/data';
 const DEPT_DIR  = 'src/data/dept-courses';
