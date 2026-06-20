@@ -8,20 +8,114 @@
   "majorCredits": 51,
   "catalogUrl": "https://catalog.luc.edu/undergraduate/arts-sciences/mathematics-statistics/mathematics-bs/",
   "courses": [
-    { "id": "MATH161", "code": "MATH 161", "title": "Calculus I", "credits": 4, "category": "major" },
-    { "id": "MATH162", "code": "MATH 162", "title": "Calculus II", "credits": 4, "category": "major" },
-    { "id": "MATH201", "code": "MATH 201", "title": "Introduction to Discrete Mathematics & Number Theory", "credits": 3, "category": "major" },
-    { "id": "MATH212", "code": "MATH 212", "title": "Linear Algebra", "credits": 3, "category": "major" },
-    { "id": "MATH215", "code": "MATH 215", "title": "Object-Oriented Programming with Mathematics", "credits": 3, "category": "major", "note": "COMP 170 or PHYS 130 accepted as substitutes" },
-    { "id": "MATH263", "code": "MATH 263", "title": "Multivariable Calculus", "credits": 4, "category": "major" },
-    { "id": "MATH264", "code": "MATH 264", "title": "Ordinary Differential Equations", "credits": 3, "category": "major" },
-    { "id": "STAT203", "code": "STAT 203", "title": "Introduction to Probability & Statistics", "credits": 3, "category": "major", "note": "MATH 304/STAT 304 accepted as substitute" },
-    { "id": "MATH313", "code": "MATH 313", "title": "Abstract Algebra", "credits": 3, "category": "major" },
-    { "id": "MATH314", "code": "MATH 314", "title": "Advanced Topics in Abstract Algebra", "credits": 3, "category": "major", "requirementGroup": "math-algebra-seq", "choiceNote": "Choose MATH 314 or MATH 315" },
-    { "id": "MATH315", "code": "MATH 315", "title": "Advanced Topics in Linear Algebra", "credits": 3, "category": "major", "requirementGroup": "math-algebra-seq", "choiceNote": "Choose MATH 314 or MATH 315" },
-    { "id": "MATH351", "code": "MATH 351", "title": "Introduction to Real Analysis I", "credits": 3, "category": "major" },
-    { "id": "MATH352", "code": "MATH 352", "title": "Introduction to Real Analysis II", "credits": 3, "category": "major", "requirementGroup": "math-analysis-seq", "choiceNote": "Choose MATH 352 or MATH 353" },
-    { "id": "MATH353", "code": "MATH 353", "title": "Introduction to Complex Analysis", "credits": 3, "category": "major", "requirementGroup": "math-analysis-seq", "choiceNote": "Choose MATH 352 or MATH 353" }
+    {
+      "id": "MATH161",
+      "code": "MATH 161",
+      "title": "Calculus I",
+      "credits": 4,
+      "category": "major"
+    },
+    {
+      "id": "MATH162",
+      "code": "MATH 162",
+      "title": "Calculus II",
+      "credits": 4,
+      "category": "major"
+    },
+    {
+      "id": "MATH201",
+      "code": "MATH 201",
+      "title": "Introduction to Discrete Mathematics & Number Theory",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "MATH212",
+      "code": "MATH 212",
+      "title": "Linear Algebra",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "MATH215",
+      "code": "MATH 215",
+      "title": "Object-Oriented Programming with Mathematics",
+      "credits": 3,
+      "category": "major",
+      "note": "COMP 170 or PHYS 130 accepted as substitutes"
+    },
+    {
+      "id": "MATH263",
+      "code": "MATH 263",
+      "title": "Multivariable Calculus",
+      "credits": 4,
+      "category": "major"
+    },
+    {
+      "id": "MATH264",
+      "code": "MATH 264",
+      "title": "Ordinary Differential Equations",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "STAT203",
+      "code": "STAT 203",
+      "title": "Introduction to Probability & Statistics",
+      "credits": 3,
+      "category": "major",
+      "note": "MATH 304/STAT 304 accepted as substitute"
+    },
+    {
+      "id": "MATH313",
+      "code": "MATH 313",
+      "title": "Abstract Algebra",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "MATH314",
+      "code": "MATH 314",
+      "title": "Advanced Topics in Abstract Algebra",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "math-algebra-seq",
+      "choiceNote": "Choose MATH 314 or MATH 315"
+    },
+    {
+      "id": "MATH315",
+      "code": "MATH 315",
+      "title": "Advanced Topics in Linear Algebra",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "math-algebra-seq",
+      "choiceNote": "Choose MATH 314 or MATH 315"
+    },
+    {
+      "id": "MATH351",
+      "code": "MATH 351",
+      "title": "Introduction to Real Analysis I",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "MATH352",
+      "code": "MATH 352",
+      "title": "Introduction to Real Analysis II",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "math-analysis-seq",
+      "choiceNote": "Choose MATH 352 or MATH 353"
+    },
+    {
+      "id": "MATH353",
+      "code": "MATH 353",
+      "title": "Introduction to Complex Analysis",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "math-analysis-seq",
+      "choiceNote": "Choose MATH 352 or MATH 353"
+    }
   ],
   "electiveOptions": {
     "math-300-electives": {
@@ -34,5 +128,125 @@
       "label": "Science Electives",
       "note": "Two courses from the approved science list"
     }
-  }
+  },
+  "roadmap": [
+    {
+      "year": 1,
+      "semester": "Fall",
+      "credits": 7,
+      "items": [
+        {
+          "ref": "MATH161"
+        },
+        {
+          "isElective": true,
+          "label": "Science Requirement",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 1,
+      "semester": "Spring",
+      "credits": 10,
+      "items": [
+        {
+          "ref": "MATH162"
+        },
+        {
+          "ref": "MATH201"
+        },
+        {
+          "isElective": true,
+          "label": "Science Requirement",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 2,
+      "semester": "Fall",
+      "credits": 7,
+      "items": [
+        {
+          "ref": "MATH263"
+        },
+        {
+          "ref": "MATH215"
+        }
+      ]
+    },
+    {
+      "year": 2,
+      "semester": "Spring",
+      "credits": 6,
+      "items": [
+        {
+          "ref": "MATH212"
+        },
+        {
+          "ref": "MATH264"
+        }
+      ]
+    },
+    {
+      "year": 3,
+      "semester": "Fall",
+      "credits": 6,
+      "items": [
+        {
+          "ref": "MATH313"
+        },
+        {
+          "isElective": true,
+          "label": "STAT 203 or MATH 304",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 3,
+      "semester": "Spring",
+      "credits": 6,
+      "items": [
+        {
+          "isElective": true,
+          "label": "MATH 314 or MATH 315",
+          "credits": 3
+        },
+        {
+          "isElective": true,
+          "label": "300-level Major Elective",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 4,
+      "semester": "Fall",
+      "credits": 6,
+      "items": [
+        {
+          "ref": "MATH351"
+        },
+        {
+          "isElective": true,
+          "label": "300-level Major Elective",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 4,
+      "semester": "Spring",
+      "credits": 3,
+      "items": [
+        {
+          "isElective": true,
+          "label": "MATH 352 or MATH 353",
+          "credits": 3
+        }
+      ]
+    }
+  ]
 }

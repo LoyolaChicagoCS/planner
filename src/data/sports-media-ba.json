@@ -171,5 +171,112 @@
         }
       ]
     }
-  }
+  },
+  "roadmap": [
+    {
+      "year": 1,
+      "semester": "Fall",
+      "credits": 6,
+      "items": [
+        {
+          "ref": "COMM145"
+        },
+        {
+          "ref": "COMM175"
+        }
+      ]
+    },
+    {
+      "year": 1,
+      "semester": "Spring",
+      "credits": 6,
+      "items": [
+        {
+          "ref": "COMM200"
+        },
+        {
+          "ref": "SPRT130"
+        }
+      ]
+    },
+    {
+      "year": 2,
+      "semester": "Fall",
+      "credits": 6,
+      "items": [
+        {
+          "ref": "COMM205"
+        },
+        {
+          "ref": "COMM215"
+        }
+      ]
+    },
+    {
+      "year": 2,
+      "semester": "Spring",
+      "credits": 7,
+      "items": [
+        {
+          "ref": "COMM100"
+        },
+        {
+          "ref": "COMM256"
+        },
+        {
+          "ref": "COMM265"
+        }
+      ]
+    },
+    {
+      "year": 3,
+      "semester": "Fall",
+      "credits": 6,
+      "items": [
+        {
+          "ref": "COMM242"
+        },
+        {
+          "ref": "COMM282"
+        }
+      ]
+    },
+    {
+      "year": 3,
+      "semester": "Spring",
+      "credits": 6,
+      "items": [
+        {
+          "ref": "COMM243"
+        },
+        {
+          "isElective": true,
+          "label": "Sports Media Elective",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 4,
+      "semester": "Fall",
+      "credits": 3,
+      "items": [
+        {
+          "isElective": true,
+          "label": "Sports Media Elective",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 4,
+      "semester": "Spring",
+      "credits": 3,
+      "items": [
+        {
+          "ref": "COMM395"
+        }
+      ]
+    }
+  ]
 }

@@ -25,7 +25,7 @@
     {
       "id": "FNAR201",
       "code": "FNAR 201",
-      "title": "Global Art History: 600–1800 CE",
+      "title": "Global Art History: 600\u20131800 CE",
       "credits": 3,
       "category": "major"
     },
@@ -136,5 +136,111 @@
         }
       ]
     }
-  }
+  },
+  "roadmap": [
+    {
+      "year": 1,
+      "semester": "Fall",
+      "credits": 6,
+      "items": [
+        {
+          "ref": "FNAR110"
+        },
+        {
+          "ref": "FNAR113"
+        }
+      ]
+    },
+    {
+      "year": 1,
+      "semester": "Spring",
+      "credits": 6,
+      "items": [
+        {
+          "ref": "FNAR114"
+        },
+        {
+          "ref": "FNAR201"
+        }
+      ]
+    },
+    {
+      "year": 2,
+      "semester": "Fall",
+      "credits": 6,
+      "items": [
+        {
+          "ref": "FNAR213"
+        },
+        {
+          "ref": "FNAR202"
+        }
+      ]
+    },
+    {
+      "year": 2,
+      "semester": "Spring",
+      "credits": 6,
+      "items": [
+        {
+          "ref": "FNAR214"
+        },
+        {
+          "ref": "FNAR118"
+        }
+      ]
+    },
+    {
+      "year": 3,
+      "semester": "Fall",
+      "credits": 6,
+      "items": [
+        {
+          "isElective": true,
+          "label": "FNAR Studio Elective (115, 120, 124, 190, or 233)",
+          "credits": 3
+        },
+        {
+          "isElective": true,
+          "label": "FNAR Studio Elective",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 3,
+      "semester": "Spring",
+      "credits": 3,
+      "items": [
+        {
+          "ref": "FNAR218"
+        }
+      ]
+    },
+    {
+      "year": 4,
+      "semester": "Fall",
+      "credits": 6,
+      "items": [
+        {
+          "ref": "FNAR311"
+        },
+        {
+          "ref": "FNAR388"
+        }
+      ]
+    },
+    {
+      "year": 4,
+      "semester": "Spring",
+      "credits": 3,
+      "items": [
+        {
+          "isElective": true,
+          "label": "FNAR 398",
+          "credits": 3
+        }
+      ]
+    }
+  ]
 }

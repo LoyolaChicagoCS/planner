@@ -65,6 +65,9 @@ import theologyBaData from './theology-ba.json';
 import religiousStudiesBaData from './religious-studies-ba.json';
 import womensStudiesGenderStudiesBaData from './womens-studies-gender-studies-ba.json';
 import sociologyAnthropologyBaData from './sociology-anthropology-ba.json';
+import engineeringBiomedicalBsData from './engineering-biomedical-bs.json';
+import engineeringComputerBsData from './engineering-computer-bs.json';
+import engineeringEnvironmentalBsData from './engineering-environmental-bs.json';
 
 // School of Communication
 import advertisingPublicRelationsBaData from './advertising-public-relations-ba.json';
@@ -154,6 +157,9 @@ export const PROGRAMS: Program[] = [
   religiousStudiesBaData,
   womensStudiesGenderStudiesBaData,
   sociologyAnthropologyBaData,
+  engineeringBiomedicalBsData,
+  engineeringComputerBsData,
+  engineeringEnvironmentalBsData,
   // School of Communication
   advertisingPublicRelationsBaData,
   advertisingCreativeBaData,

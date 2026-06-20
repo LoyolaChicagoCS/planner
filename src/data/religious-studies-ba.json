@@ -48,5 +48,123 @@
       "label": "Additional Electives",
       "note": "Four additional THEO courses from any level"
     }
-  }
+  },
+  "roadmap": [
+    {
+      "year": 1,
+      "semester": "Fall",
+      "credits": 6,
+      "items": [
+        {
+          "isElective": true,
+          "label": "THEO 107 \u2014 Religious Comparisons Course",
+          "credits": 3
+        },
+        {
+          "isElective": true,
+          "label": "THEO 186 \u2014 Religious Comparisons Course",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 1,
+      "semester": "Spring",
+      "credits": 6,
+      "items": [
+        {
+          "isElective": true,
+          "label": "Christian Traditions 200+ Course",
+          "credits": 3
+        },
+        {
+          "isElective": true,
+          "label": "Non-Christian Traditions 200+ Course",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 2,
+      "semester": "Fall",
+      "credits": 6,
+      "items": [
+        {
+          "isElective": true,
+          "label": "Non-Christian Traditions 200+ Course",
+          "credits": 3
+        },
+        {
+          "isElective": true,
+          "label": "Non-Christian Traditions 200+ Course",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 2,
+      "semester": "Spring",
+      "credits": 6,
+      "items": [
+        {
+          "isElective": true,
+          "label": "THEO 200+ Elective",
+          "credits": 3
+        },
+        {
+          "isElective": true,
+          "label": "THEO 300+ Elective",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 3,
+      "semester": "Fall",
+      "credits": 3,
+      "items": [
+        {
+          "isElective": true,
+          "label": "THEO 300+ Elective",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 3,
+      "semester": "Spring",
+      "credits": 3,
+      "items": [
+        {
+          "isElective": true,
+          "label": "THEO 300+ Elective",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 4,
+      "semester": "Fall",
+      "credits": 3,
+      "items": [
+        {
+          "isElective": true,
+          "label": "THEO 300+ Elective",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 4,
+      "semester": "Spring",
+      "credits": 3,
+      "items": [
+        {
+          "isElective": true,
+          "label": "THEO 353 \u2014 Religious Traditions",
+          "credits": 3
+        }
+      ]
+    }
+  ]
 }

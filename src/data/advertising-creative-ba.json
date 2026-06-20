@@ -173,5 +173,128 @@
       "label": "Approved Elective",
       "note": "One additional approved course from the ADPR or creative media electives list"
     }
-  }
+  },
+  "roadmap": [
+    {
+      "year": 1,
+      "semester": "Fall",
+      "credits": 3,
+      "items": [
+        {
+          "ref": "COMM175"
+        }
+      ]
+    },
+    {
+      "year": 1,
+      "semester": "Spring",
+      "credits": 6,
+      "items": [
+        {
+          "ref": "COMM200"
+        },
+        {
+          "ref": "COMM211"
+        }
+      ]
+    },
+    {
+      "year": 2,
+      "semester": "Fall",
+      "credits": 9,
+      "items": [
+        {
+          "ref": "COMM210"
+        },
+        {
+          "ref": "COMM213"
+        },
+        {
+          "ref": "COMM250"
+        }
+      ]
+    },
+    {
+      "year": 2,
+      "semester": "Spring",
+      "credits": 9,
+      "items": [
+        {
+          "ref": "COMM214"
+        },
+        {
+          "ref": "COMM215"
+        },
+        {
+          "ref": "MARK201comm"
+        }
+      ]
+    },
+    {
+      "year": 3,
+      "semester": "Fall",
+      "credits": 6,
+      "items": [
+        {
+          "ref": "COMM290"
+        },
+        {
+          "ref": "COMM346"
+        }
+      ]
+    },
+    {
+      "year": 3,
+      "semester": "Spring",
+      "credits": 7,
+      "items": [
+        {
+          "ref": "COMM100"
+        },
+        {
+          "ref": "COMM266"
+        },
+        {
+          "isElective": true,
+          "label": "COMM 330 or COMM 329 \u2014 Advertising Design",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 4,
+      "semester": "Fall",
+      "credits": 9,
+      "items": [
+        {
+          "isElective": true,
+          "label": "New Media Course",
+          "credits": 3
+        },
+        {
+          "ref": "COMM344"
+        },
+        {
+          "isElective": true,
+          "label": "COMM 391",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 4,
+      "semester": "Spring",
+      "credits": 6,
+      "items": [
+        {
+          "ref": "COMM389"
+        },
+        {
+          "isElective": true,
+          "label": "Elective Course",
+          "credits": 3
+        }
+      ]
+    }
+  ]
 }

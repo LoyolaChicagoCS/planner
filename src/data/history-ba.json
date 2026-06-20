@@ -21,7 +21,7 @@
     "hist-tier1-intro": {
       "creditsRequired": 3,
       "label": "Tier 1 Intro: Foundational Historical Knowledge",
-      "note": "One course from HIST 101–104 or HONR 101–102",
+      "note": "One course from HIST 101\u2013104 or HONR 101\u2013102",
       "courses": [
         {
           "id": "HIST101",
@@ -35,7 +35,7 @@
     "hist-tier2-intro": {
       "creditsRequired": 3,
       "label": "Tier 2 Intro: Historical Knowledge",
-      "note": "One course from HIST 208–213 or approved honors alternative",
+      "note": "One course from HIST 208\u2013213 or approved honors alternative",
       "courses": [
         {
           "id": "HIST208",
@@ -168,7 +168,7 @@
     "hist-electives": {
       "creditsRequired": 15,
       "label": "History Electives",
-      "note": "Five additional history courses (HIST 101–399 or approved related courses); one may be HIST 398 Internship",
+      "note": "Five additional history courses (HIST 101\u2013399 or approved related courses); one may be HIST 398 Internship",
       "courses": [
         {
           "id": "HIST101",
@@ -186,5 +186,121 @@
         }
       ]
     }
-  }
+  },
+  "roadmap": [
+    {
+      "year": 1,
+      "semester": "Fall",
+      "credits": 3,
+      "items": [
+        {
+          "isElective": true,
+          "label": "Foundational Historical Knowledge Course",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 1,
+      "semester": "Spring",
+      "credits": 3,
+      "items": [
+        {
+          "isElective": true,
+          "label": "Tier 2 Historical Knowledge Course",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 2,
+      "semester": "Fall",
+      "credits": 3,
+      "items": [
+        {
+          "isElective": true,
+          "label": "Upper-Level US History Course",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 2,
+      "semester": "Spring",
+      "credits": 6,
+      "items": [
+        {
+          "ref": "HIST299"
+        },
+        {
+          "isElective": true,
+          "label": "History Elective",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 3,
+      "semester": "Fall",
+      "credits": 6,
+      "items": [
+        {
+          "isElective": true,
+          "label": "Upper-Level World History",
+          "credits": 3
+        },
+        {
+          "isElective": true,
+          "label": "History Elective",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 3,
+      "semester": "Spring",
+      "credits": 6,
+      "items": [
+        {
+          "isElective": true,
+          "label": "Upper-Level Pre-Modern History",
+          "credits": 3
+        },
+        {
+          "isElective": true,
+          "label": "History Elective",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 4,
+      "semester": "Fall",
+      "credits": 6,
+      "items": [
+        {
+          "isElective": true,
+          "label": "Upper-Level Modern Europe",
+          "credits": 3
+        },
+        {
+          "isElective": true,
+          "label": "History Elective",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 4,
+      "semester": "Spring",
+      "credits": 3,
+      "items": [
+        {
+          "isElective": true,
+          "label": "History Elective",
+          "credits": 3
+        }
+      ]
+    }
+  ]
 }

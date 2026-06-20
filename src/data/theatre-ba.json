@@ -103,5 +103,141 @@
       "label": "Theatre Electives",
       "note": "Four courses; at least one must be an Engaged Learning course"
     }
-  }
+  },
+  "roadmap": [
+    {
+      "year": 1,
+      "semester": "Fall",
+      "credits": 9,
+      "items": [
+        {
+          "ref": "THTR100"
+        },
+        {
+          "isElective": true,
+          "label": "THTR 321R \u2014 Running Crew Practicum",
+          "credits": 1
+        },
+        {
+          "isElective": true,
+          "label": "THTR 261 or THTR 252",
+          "credits": 3
+        },
+        {
+          "isElective": true,
+          "label": "THTR Practicum (321C/E/S)",
+          "credits": 2
+        }
+      ]
+    },
+    {
+      "year": 1,
+      "semester": "Spring",
+      "credits": 8,
+      "items": [
+        {
+          "isElective": true,
+          "label": "THTR 261 or THTR 252",
+          "credits": 3
+        },
+        {
+          "isElective": true,
+          "label": "THTR 267 or THTR 352",
+          "credits": 3
+        },
+        {
+          "isElective": true,
+          "label": "THTR Practicum (321C/E/S)",
+          "credits": 2
+        }
+      ]
+    },
+    {
+      "year": 2,
+      "semester": "Fall",
+      "credits": 7,
+      "items": [
+        {
+          "ref": "THTR364"
+        },
+        {
+          "isElective": true,
+          "label": "THTR Practicum",
+          "credits": 1
+        },
+        {
+          "isElective": true,
+          "label": "Theatre Elective",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 2,
+      "semester": "Spring",
+      "credits": 6,
+      "items": [
+        {
+          "ref": "THTR365"
+        },
+        {
+          "isElective": true,
+          "label": "Theatre Elective",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 3,
+      "semester": "Fall",
+      "credits": 3,
+      "items": [
+        {
+          "ref": "THTR366"
+        }
+      ]
+    },
+    {
+      "year": 3,
+      "semester": "Spring",
+      "credits": 6,
+      "items": [
+        {
+          "ref": "THTR367"
+        },
+        {
+          "isElective": true,
+          "label": "Theatre Elective",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 4,
+      "semester": "Fall",
+      "credits": 2,
+      "items": [
+        {
+          "isElective": true,
+          "label": "THTR Practicum (321C/E/S)",
+          "credits": 2
+        }
+      ]
+    },
+    {
+      "year": 4,
+      "semester": "Spring",
+      "credits": 6,
+      "items": [
+        {
+          "ref": "THTR375"
+        },
+        {
+          "isElective": true,
+          "label": "Theatre Elective",
+          "credits": 3
+        }
+      ]
+    }
+  ]
 }

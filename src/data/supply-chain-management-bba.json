@@ -281,5 +281,160 @@
       "label": "Global Awareness",
       "note": "One approved global awareness course"
     }
-  }
+  },
+  "roadmap": [
+    {
+      "year": 1,
+      "semester": "Fall",
+      "credits": 9,
+      "items": [
+        {
+          "ref": "ECON201biz"
+        },
+        {
+          "ref": "INFS247"
+        },
+        {
+          "ref": "MATH110biz"
+        },
+        {
+          "ref": "QUIN101"
+        }
+      ]
+    },
+    {
+      "year": 1,
+      "semester": "Spring",
+      "credits": 7,
+      "items": [
+        {
+          "ref": "ECON202biz"
+        },
+        {
+          "ref": "SCMG232"
+        },
+        {
+          "ref": "QUIN102"
+        }
+      ]
+    },
+    {
+      "year": 2,
+      "semester": "Fall",
+      "credits": 11,
+      "items": [
+        {
+          "ref": "ACCT201"
+        },
+        {
+          "isElective": true,
+          "label": "ISSCM 241 or STAT 103 \u2014 Business Statistics",
+          "credits": 3
+        },
+        {
+          "ref": "SCMG338"
+        },
+        {
+          "ref": "QUIN202"
+        }
+      ]
+    },
+    {
+      "year": 2,
+      "semester": "Spring",
+      "credits": 12,
+      "items": [
+        {
+          "ref": "ACCT202"
+        },
+        {
+          "ref": "MGMT201"
+        },
+        {
+          "ref": "SCMG340"
+        },
+        {
+          "isElective": true,
+          "label": "Business Writing Intensive",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 3,
+      "semester": "Fall",
+      "credits": 9,
+      "items": [
+        {
+          "ref": "MARK201biz"
+        },
+        {
+          "ref": "COMM103biz"
+        },
+        {
+          "isElective": true,
+          "label": "SCMG Elective",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 3,
+      "semester": "Spring",
+      "credits": 12,
+      "items": [
+        {
+          "ref": "ETHC341"
+        },
+        {
+          "ref": "FINC301"
+        },
+        {
+          "isElective": true,
+          "label": "INFS 343 or ECON 346 \u2014 Business Analytics",
+          "credits": 3
+        },
+        {
+          "isElective": true,
+          "label": "SCMG Elective",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 4,
+      "semester": "Fall",
+      "credits": 9,
+      "items": [
+        {
+          "ref": "LREB315"
+        },
+        {
+          "isElective": true,
+          "label": "Writing Intensive Course",
+          "credits": 3
+        },
+        {
+          "isElective": true,
+          "label": "SCMG Elective",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 4,
+      "semester": "Spring",
+      "credits": 6,
+      "items": [
+        {
+          "ref": "MGMT304"
+        },
+        {
+          "isElective": true,
+          "label": "SCMG Elective",
+          "credits": 3
+        }
+      ]
+    }
+  ]
 }

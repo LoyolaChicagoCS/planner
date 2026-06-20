@@ -159,5 +159,115 @@
       "label": "Studio Elective",
       "note": "Additional ceramics, metalwork/jewelry, or internship"
     }
-  }
+  },
+  "roadmap": [
+    {
+      "year": 1,
+      "semester": "Fall",
+      "credits": 6,
+      "items": [
+        {
+          "ref": "FNAR110"
+        },
+        {
+          "ref": "FNAR113"
+        }
+      ]
+    },
+    {
+      "year": 1,
+      "semester": "Spring",
+      "credits": 6,
+      "items": [
+        {
+          "ref": "FNAR124"
+        },
+        {
+          "isElective": true,
+          "label": "FNAR 120 or FNAR 121",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 2,
+      "semester": "Fall",
+      "credits": 6,
+      "items": [
+        {
+          "ref": "FNAR222"
+        },
+        {
+          "isElective": true,
+          "label": "FNAR 200 or FNAR 201",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 2,
+      "semester": "Spring",
+      "credits": 6,
+      "items": [
+        {
+          "ref": "FNAR202"
+        },
+        {
+          "isElective": true,
+          "label": "FNAR 132 or FNAR 190",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 3,
+      "semester": "Fall",
+      "credits": 3,
+      "items": [
+        {
+          "isElective": true,
+          "label": "Studio Elective",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 3,
+      "semester": "Spring",
+      "credits": 6,
+      "items": [
+        {
+          "ref": "FNAR115"
+        },
+        {
+          "isElective": true,
+          "label": "FNAR 114 or FNAR 118",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 4,
+      "semester": "Fall",
+      "credits": 6,
+      "items": [
+        {
+          "ref": "FNAR322"
+        },
+        {
+          "ref": "FNAR388"
+        }
+      ]
+    },
+    {
+      "year": 4,
+      "semester": "Spring",
+      "credits": 3,
+      "items": [
+        {
+          "ref": "FNAR398"
+        }
+      ]
+    }
+  ]
 }

@@ -129,5 +129,112 @@
         }
       ]
     }
-  }
+  },
+  "roadmap": [
+    {
+      "year": 1,
+      "semester": "Fall",
+      "credits": 6,
+      "items": [
+        {
+          "ref": "FNAR112"
+        },
+        {
+          "ref": "FNAR113"
+        }
+      ]
+    },
+    {
+      "year": 1,
+      "semester": "Spring",
+      "credits": 6,
+      "items": [
+        {
+          "ref": "FNAR132"
+        },
+        {
+          "ref": "FNAR233"
+        }
+      ]
+    },
+    {
+      "year": 2,
+      "semester": "Fall",
+      "credits": 9,
+      "items": [
+        {
+          "ref": "FNAR115"
+        },
+        {
+          "ref": "FNAR190"
+        },
+        {
+          "isElective": true,
+          "label": "FNAR 202 or FNAR 364",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 2,
+      "semester": "Spring",
+      "credits": 6,
+      "items": [
+        {
+          "ref": "FNAR232"
+        },
+        {
+          "ref": "FNAR334"
+        }
+      ]
+    },
+    {
+      "year": 3,
+      "semester": "Fall",
+      "credits": 6,
+      "items": [
+        {
+          "ref": "FNAR332"
+        },
+        {
+          "ref": "FNAR333"
+        }
+      ]
+    },
+    {
+      "year": 3,
+      "semester": "Spring",
+      "credits": 3,
+      "items": [
+        {
+          "ref": "FNAR383"
+        }
+      ]
+    },
+    {
+      "year": 4,
+      "semester": "Fall",
+      "credits": 3,
+      "items": [
+        {
+          "ref": "FNAR380"
+        }
+      ]
+    },
+    {
+      "year": 4,
+      "semester": "Spring",
+      "credits": 6,
+      "items": [
+        {
+          "ref": "FNAR382"
+        },
+        {
+          "isElective": true,
+          "label": "FNAR 398",
+          "credits": 3
+        }
+      ]
+    }
+  ]
 }

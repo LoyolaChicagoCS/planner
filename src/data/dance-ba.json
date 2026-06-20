@@ -111,5 +111,238 @@
         }
       ]
     }
-  }
+  },
+  "roadmap": [
+    {
+      "year": 1,
+      "semester": "Fall",
+      "credits": 6,
+      "items": [
+        {
+          "isElective": true,
+          "label": "DANC 341 \u2014 Ballet IV",
+          "credits": 1
+        },
+        {
+          "isElective": true,
+          "label": "DANC 224 \u2014 Majors Modern II",
+          "credits": 1
+        },
+        {
+          "isElective": true,
+          "label": "DANC 312/314 \u2014 Pointe",
+          "credits": 1
+        },
+        {
+          "isElective": true,
+          "label": "THTR 321C \u2014 Costumes Practicum",
+          "credits": 2
+        },
+        {
+          "isElective": true,
+          "label": "DANC 323 \u2014 Rehearsal & Performance",
+          "credits": 1
+        }
+      ]
+    },
+    {
+      "year": 1,
+      "semester": "Spring",
+      "credits": 6,
+      "items": [
+        {
+          "isElective": true,
+          "label": "DANC 341 \u2014 Ballet IV",
+          "credits": 1
+        },
+        {
+          "isElective": true,
+          "label": "DANC 312/314 \u2014 Pointe",
+          "credits": 1
+        },
+        {
+          "isElective": true,
+          "label": "DANC 224 \u2014 Majors Modern II",
+          "credits": 1
+        },
+        {
+          "ref": "DANC250"
+        }
+      ]
+    },
+    {
+      "year": 2,
+      "semester": "Fall",
+      "credits": 9,
+      "items": [
+        {
+          "isElective": true,
+          "label": "DANC 341 \u2014 Ballet IV",
+          "credits": 1
+        },
+        {
+          "isElective": true,
+          "label": "DANC 312/314 \u2014 Pointe",
+          "credits": 1
+        },
+        {
+          "isElective": true,
+          "label": "DANC 324 \u2014 Modern III",
+          "credits": 1
+        },
+        {
+          "ref": "DANC270"
+        },
+        {
+          "isElective": true,
+          "label": "DANC 275 \u2014 Global Influences",
+          "credits": 2
+        },
+        {
+          "isElective": true,
+          "label": "DANC 323 \u2014 Rehearsal & Performance",
+          "credits": 1
+        }
+      ]
+    },
+    {
+      "year": 2,
+      "semester": "Spring",
+      "credits": 4,
+      "items": [
+        {
+          "isElective": true,
+          "label": "DANC 341 \u2014 Ballet IV",
+          "credits": 1
+        },
+        {
+          "isElective": true,
+          "label": "DANC 312/314 \u2014 Pointe",
+          "credits": 1
+        },
+        {
+          "isElective": true,
+          "label": "DANC 324 \u2014 Modern III",
+          "credits": 1
+        },
+        {
+          "isElective": true,
+          "label": "DANC Elective",
+          "credits": 1
+        }
+      ]
+    },
+    {
+      "year": 3,
+      "semester": "Fall",
+      "credits": 4,
+      "items": [
+        {
+          "isElective": true,
+          "label": "DANC 343 \u2014 Ballet V",
+          "credits": 1
+        },
+        {
+          "isElective": true,
+          "label": "DANC 312/314 \u2014 Pointe",
+          "credits": 1
+        },
+        {
+          "isElective": true,
+          "label": "DANC 324 \u2014 Modern III",
+          "credits": 1
+        },
+        {
+          "isElective": true,
+          "label": "DANC 323 \u2014 Rehearsal & Performance",
+          "credits": 1
+        }
+      ]
+    },
+    {
+      "year": 3,
+      "semester": "Spring",
+      "credits": 8,
+      "items": [
+        {
+          "isElective": true,
+          "label": "DANC 343 \u2014 Ballet V",
+          "credits": 1
+        },
+        {
+          "isElective": true,
+          "label": "DANC 331 \u2014 Jazz Dance III",
+          "credits": 2
+        },
+        {
+          "isElective": true,
+          "label": "DANC 324 \u2014 Modern III",
+          "credits": 1
+        },
+        {
+          "ref": "DANC370"
+        },
+        {
+          "isElective": true,
+          "label": "DANC Elective",
+          "credits": 1
+        }
+      ]
+    },
+    {
+      "year": 4,
+      "semester": "Fall",
+      "credits": 8,
+      "items": [
+        {
+          "isElective": true,
+          "label": "DANC 343 \u2014 Ballet V",
+          "credits": 1
+        },
+        {
+          "isElective": true,
+          "label": "DANC 312/314 \u2014 Pointe",
+          "credits": 1
+        },
+        {
+          "isElective": true,
+          "label": "DANC 324 \u2014 Modern III",
+          "credits": 1
+        },
+        {
+          "ref": "DANC360"
+        },
+        {
+          "isElective": true,
+          "label": "DANC 323 \u2014 Rehearsal & Performance",
+          "credits": 1
+        },
+        {
+          "isElective": true,
+          "label": "DANC 394 \u2014 Internship",
+          "credits": 1
+        }
+      ]
+    },
+    {
+      "year": 4,
+      "semester": "Spring",
+      "credits": 3,
+      "items": [
+        {
+          "isElective": true,
+          "label": "DANC 343 \u2014 Ballet V",
+          "credits": 1
+        },
+        {
+          "isElective": true,
+          "label": "DANC 324 \u2014 Modern III",
+          "credits": 1
+        },
+        {
+          "ref": "DANC380"
+        }
+      ]
+    }
+  ]
 }

@@ -162,5 +162,130 @@
       "label": "Approved Elective",
       "note": "One course from the approved ADPR electives list"
     }
-  }
+  },
+  "roadmap": [
+    {
+      "year": 1,
+      "semester": "Fall",
+      "credits": 3,
+      "items": [
+        {
+          "ref": "COMM175"
+        }
+      ]
+    },
+    {
+      "year": 1,
+      "semester": "Spring",
+      "credits": 6,
+      "items": [
+        {
+          "ref": "COMM200"
+        },
+        {
+          "isElective": true,
+          "label": "COMM 210 or COMM 211 \u2014 Principles of PR or Advertising",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 2,
+      "semester": "Fall",
+      "credits": 9,
+      "items": [
+        {
+          "isElective": true,
+          "label": "COMM 211 or COMM 210 \u2014 Principles of Advertising or PR",
+          "credits": 3
+        },
+        {
+          "ref": "COMM213"
+        },
+        {
+          "ref": "COMM215"
+        }
+      ]
+    },
+    {
+      "year": 2,
+      "semester": "Spring",
+      "credits": 6,
+      "items": [
+        {
+          "ref": "COMM250"
+        },
+        {
+          "ref": "MARK201comm"
+        }
+      ]
+    },
+    {
+      "year": 3,
+      "semester": "Fall",
+      "credits": 9,
+      "items": [
+        {
+          "ref": "COMM346"
+        },
+        {
+          "isElective": true,
+          "label": "Concentration Course 1",
+          "credits": 3
+        },
+        {
+          "isElective": true,
+          "label": "Concentration Course 2",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 3,
+      "semester": "Spring",
+      "credits": 4,
+      "items": [
+        {
+          "ref": "COMM100"
+        },
+        {
+          "isElective": true,
+          "label": "Concentration Course 3",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 4,
+      "semester": "Fall",
+      "credits": 6,
+      "items": [
+        {
+          "isElective": true,
+          "label": "New Media Course",
+          "credits": 3
+        },
+        {
+          "ref": "COMM391"
+        }
+      ]
+    },
+    {
+      "year": 4,
+      "semester": "Spring",
+      "credits": 6,
+      "items": [
+        {
+          "isElective": true,
+          "label": "COMM 386 Capstone or COMM 391 Internship",
+          "credits": 3
+        },
+        {
+          "isElective": true,
+          "label": "Elective Course",
+          "credits": 3
+        }
+      ]
+    }
+  ]
 }

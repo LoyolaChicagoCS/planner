@@ -8,20 +8,210 @@
   "majorCredits": 46,
   "catalogUrl": "https://catalog.luc.edu/undergraduate/communication/multimedia-journalism/multimedia-journalism-ba/",
   "courses": [
-    { "id": "COMM100", "code": "COMM 100", "title": "SOC Career Prep Seminar", "credits": 1, "category": "major" },
-    { "id": "COMM175", "code": "COMM 175", "title": "Introduction to Communication", "credits": 3, "category": "major" },
-    { "id": "COMM200", "code": "COMM 200", "title": "Digital Communication and Society", "credits": 3, "category": "major" },
-    { "id": "COMM215", "code": "COMM 215", "title": "Ethics and Communication", "credits": 3, "category": "major" },
-    { "id": "COMM145", "code": "COMM 145", "title": "Video for Journalists", "credits": 3, "category": "major" },
-    { "id": "COMM205", "code": "COMM 205", "title": "Reporting Basics I: Writing and Interviewing", "credits": 3, "category": "major" },
-    { "id": "COMM208", "code": "COMM 208", "title": "Reporting Basics II: Technology for Journalists", "credits": 3, "category": "major" },
-    { "id": "COMM362", "code": "COMM 362", "title": "Multimedia Journalism Research Methods", "credits": 3, "category": "major" },
-    { "id": "COMM279", "code": "COMM 279", "title": "Critical Issues in Journalism", "credits": 3, "category": "major" },
-    { "id": "COMM282", "code": "COMM 282", "title": "Media Law", "credits": 3, "category": "major" },
-    { "id": "COMM392", "code": "COMM 392", "title": "Multimedia Journalism Internship", "credits": 3, "category": "major" }
+    {
+      "id": "COMM100",
+      "code": "COMM 100",
+      "title": "SOC Career Prep Seminar",
+      "credits": 1,
+      "category": "major"
+    },
+    {
+      "id": "COMM175",
+      "code": "COMM 175",
+      "title": "Introduction to Communication",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "COMM200",
+      "code": "COMM 200",
+      "title": "Digital Communication and Society",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "COMM215",
+      "code": "COMM 215",
+      "title": "Ethics and Communication",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "COMM145",
+      "code": "COMM 145",
+      "title": "Video for Journalists",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "COMM205",
+      "code": "COMM 205",
+      "title": "Reporting Basics I: Writing and Interviewing",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "COMM208",
+      "code": "COMM 208",
+      "title": "Reporting Basics II: Technology for Journalists",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "COMM362",
+      "code": "COMM 362",
+      "title": "Multimedia Journalism Research Methods",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "COMM279",
+      "code": "COMM 279",
+      "title": "Critical Issues in Journalism",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "COMM282",
+      "code": "COMM 282",
+      "title": "Media Law",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "COMM392",
+      "code": "COMM 392",
+      "title": "Multimedia Journalism Internship",
+      "credits": 3,
+      "category": "major"
+    }
   ],
   "electiveOptions": {
-    "mmj-intermediate": { "creditsRequired": 9, "label": "Intermediate Electives", "note": "Select 3 of 10 approved intermediate journalism courses (300-level)" },
-    "mmj-advanced": { "creditsRequired": 6, "label": "Advanced Electives", "note": "Select 2 of 8 approved advanced journalism courses (400-level)" }
-  }
+    "mmj-intermediate": {
+      "creditsRequired": 9,
+      "label": "Intermediate Electives",
+      "note": "Select 3 of 10 approved intermediate journalism courses (300-level)"
+    },
+    "mmj-advanced": {
+      "creditsRequired": 6,
+      "label": "Advanced Electives",
+      "note": "Select 2 of 8 approved advanced journalism courses (400-level)"
+    }
+  },
+  "roadmap": [
+    {
+      "year": 1,
+      "semester": "Fall",
+      "credits": 6,
+      "items": [
+        {
+          "ref": "COMM145"
+        },
+        {
+          "ref": "COMM175"
+        }
+      ]
+    },
+    {
+      "year": 1,
+      "semester": "Spring",
+      "credits": 6,
+      "items": [
+        {
+          "ref": "COMM200"
+        },
+        {
+          "ref": "COMM205"
+        }
+      ]
+    },
+    {
+      "year": 2,
+      "semester": "Fall",
+      "credits": 3,
+      "items": [
+        {
+          "ref": "COMM208"
+        }
+      ]
+    },
+    {
+      "year": 2,
+      "semester": "Spring",
+      "credits": 6,
+      "items": [
+        {
+          "ref": "COMM279"
+        },
+        {
+          "isElective": true,
+          "label": "Major Intermediate Course",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 3,
+      "semester": "Fall",
+      "credits": 7,
+      "items": [
+        {
+          "ref": "COMM100"
+        },
+        {
+          "ref": "COMM215"
+        },
+        {
+          "isElective": true,
+          "label": "Major Intermediate Course",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 3,
+      "semester": "Spring",
+      "credits": 9,
+      "items": [
+        {
+          "ref": "COMM282"
+        },
+        {
+          "ref": "COMM362"
+        },
+        {
+          "isElective": true,
+          "label": "Major Advanced Course",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 4,
+      "semester": "Fall",
+      "credits": 6,
+      "items": [
+        {
+          "ref": "COMM392"
+        },
+        {
+          "isElective": true,
+          "label": "Major Advanced Course",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 4,
+      "semester": "Spring",
+      "credits": 3,
+      "items": [
+        {
+          "isElective": true,
+          "label": "Major Advanced Course",
+          "credits": 3
+        }
+      ]
+    }
+  ]
 }

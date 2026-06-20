@@ -48,7 +48,7 @@
     "socl-electives": {
       "creditsRequired": 18,
       "label": "Sociology Electives",
-      "note": "Six electives; five must be SOCL 210–380, one may be from another social science with permission",
+      "note": "Six electives; five must be SOCL 210\u2013380, one may be from another social science with permission",
       "courses": [
         {
           "id": "SOCL210",
@@ -59,5 +59,110 @@
         }
       ]
     }
-  }
+  },
+  "roadmap": [
+    {
+      "year": 1,
+      "semester": "Fall",
+      "credits": 3,
+      "items": [
+        {
+          "isElective": true,
+          "label": "SOCL 100-Level Course",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 1,
+      "semester": "Spring",
+      "credits": 3,
+      "items": [
+        {
+          "isElective": true,
+          "label": "Sociology Elective",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 2,
+      "semester": "Fall",
+      "credits": 7,
+      "items": [
+        {
+          "ref": "SOCL205"
+        },
+        {
+          "ref": "SOCL301"
+        }
+      ]
+    },
+    {
+      "year": 2,
+      "semester": "Spring",
+      "credits": 6,
+      "items": [
+        {
+          "ref": "SOCL206"
+        },
+        {
+          "isElective": true,
+          "label": "Sociology Elective",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 3,
+      "semester": "Fall",
+      "credits": 3,
+      "items": [
+        {
+          "isElective": true,
+          "label": "Sociology Elective",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 3,
+      "semester": "Spring",
+      "credits": 3,
+      "items": [
+        {
+          "isElective": true,
+          "label": "Sociology Elective",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 4,
+      "semester": "Fall",
+      "credits": 6,
+      "items": [
+        {
+          "isElective": true,
+          "label": "Sociology Elective",
+          "credits": 3
+        },
+        {
+          "ref": "SOCL365"
+        }
+      ]
+    },
+    {
+      "year": 4,
+      "semester": "Spring",
+      "credits": 3,
+      "items": [
+        {
+          "isElective": true,
+          "label": "Sociology Elective",
+          "credits": 3
+        }
+      ]
+    }
+  ]
 }

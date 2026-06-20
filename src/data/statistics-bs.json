@@ -83,5 +83,128 @@
       "label": "Programming Requirement",
       "note": "COMP 150 or equivalent programming course"
     }
-  }
+  },
+  "roadmap": [
+    {
+      "year": 1,
+      "semester": "Fall",
+      "credits": 4,
+      "items": [
+        {
+          "ref": "MATH161"
+        }
+      ]
+    },
+    {
+      "year": 1,
+      "semester": "Spring",
+      "credits": 7,
+      "items": [
+        {
+          "ref": "MATH162"
+        },
+        {
+          "ref": "STAT203"
+        }
+      ]
+    },
+    {
+      "year": 2,
+      "semester": "Fall",
+      "credits": 10,
+      "items": [
+        {
+          "ref": "MATH263"
+        },
+        {
+          "isElective": true,
+          "label": "STAT 303 \u2014 SAS Programming",
+          "credits": 3
+        },
+        {
+          "isElective": true,
+          "label": "Science Requirement",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 2,
+      "semester": "Spring",
+      "credits": 9,
+      "items": [
+        {
+          "ref": "MATH212"
+        },
+        {
+          "isElective": true,
+          "label": "STAT 308 \u2014 Applied Regression",
+          "credits": 3
+        },
+        {
+          "isElective": true,
+          "label": "Science Requirement",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 3,
+      "semester": "Fall",
+      "credits": 3,
+      "items": [
+        {
+          "isElective": true,
+          "label": "STAT 304 \u2014 Intro to Probability",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 3,
+      "semester": "Spring",
+      "credits": 6,
+      "items": [
+        {
+          "isElective": true,
+          "label": "STAT 305 \u2014 Math Statistics",
+          "credits": 3
+        },
+        {
+          "isElective": true,
+          "label": "300-level Major Elective",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 4,
+      "semester": "Fall",
+      "credits": 6,
+      "items": [
+        {
+          "isElective": true,
+          "label": "STAT 307 \u2014 Statistical Design",
+          "credits": 3
+        },
+        {
+          "isElective": true,
+          "label": "300-level Major Elective",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 4,
+      "semester": "Spring",
+      "credits": 3,
+      "items": [
+        {
+          "isElective": true,
+          "label": "300-level Major Elective",
+          "credits": 3
+        }
+      ]
+    }
+  ]
 }

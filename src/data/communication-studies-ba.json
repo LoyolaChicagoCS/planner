@@ -120,5 +120,122 @@
       "label": "Major Elective",
       "note": "One additional approved Communication course"
     }
-  }
+  },
+  "roadmap": [
+    {
+      "year": 1,
+      "semester": "Fall",
+      "credits": 3,
+      "items": [
+        {
+          "ref": "COMM175"
+        }
+      ]
+    },
+    {
+      "year": 1,
+      "semester": "Spring",
+      "credits": 6,
+      "items": [
+        {
+          "ref": "COMM200"
+        },
+        {
+          "ref": "COMM272"
+        }
+      ]
+    },
+    {
+      "year": 2,
+      "semester": "Fall",
+      "credits": 6,
+      "items": [
+        {
+          "isElective": true,
+          "label": "COMM 215 or COMM 360 \u2014 Ethics",
+          "credits": 3
+        },
+        {
+          "ref": "COMM273"
+        }
+      ]
+    },
+    {
+      "year": 2,
+      "semester": "Spring",
+      "credits": 6,
+      "items": [
+        {
+          "ref": "COMM240"
+        },
+        {
+          "ref": "COMM271"
+        }
+      ]
+    },
+    {
+      "year": 3,
+      "semester": "Fall",
+      "credits": 7,
+      "items": [
+        {
+          "ref": "COMM100"
+        },
+        {
+          "isElective": true,
+          "label": "Concentration Course 1",
+          "credits": 3
+        },
+        {
+          "isElective": true,
+          "label": "Concentration Course 2",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 3,
+      "semester": "Spring",
+      "credits": 6,
+      "items": [
+        {
+          "isElective": true,
+          "label": "COMM 361/365/367/368 \u2014 Intensive Methods",
+          "credits": 3
+        },
+        {
+          "isElective": true,
+          "label": "Concentration Course 3",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 4,
+      "semester": "Fall",
+      "credits": 6,
+      "items": [
+        {
+          "isElective": true,
+          "label": "Major Elective",
+          "credits": 3
+        },
+        {
+          "isElective": true,
+          "label": "Application Course",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 4,
+      "semester": "Spring",
+      "credits": 3,
+      "items": [
+        {
+          "ref": "COMM390"
+        }
+      ]
+    }
+  ]
 }

@@ -34,7 +34,7 @@
     "phil-ethics": {
       "creditsRequired": 3,
       "label": "Ethics Elective",
-      "note": "One course from PHIL 181, 182, 283–289, 321–322, 324–325, 329, 355, 369, 375, 385, or 388",
+      "note": "One course from PHIL 181, 182, 283\u2013289, 321\u2013322, 324\u2013325, 329, 355, 369, 375, 385, or 388",
       "courses": [
         {
           "id": "PHIL181",
@@ -111,7 +111,7 @@
     "phil-metaphysics": {
       "creditsRequired": 3,
       "label": "Metaphysics / Epistemology Elective",
-      "note": "One course from PHIL 130, 271–277, 279, 311, 325, 330, 380–384, 386–387, 391, or 393",
+      "note": "One course from PHIL 130, 271\u2013277, 279, 311, 325, 330, 380\u2013384, 386\u2013387, 391, or 393",
       "courses": [
         {
           "id": "PHIL130",
@@ -232,5 +232,123 @@
       "label": "Philosophy Electives",
       "note": "Seven additional philosophy courses (at least four at the 300-level)"
     }
-  }
+  },
+  "roadmap": [
+    {
+      "year": 1,
+      "semester": "Fall",
+      "credits": 6,
+      "items": [
+        {
+          "isElective": true,
+          "label": "Ethics Course",
+          "credits": 3
+        },
+        {
+          "isElective": true,
+          "label": "Metaphysics/Epistemology Course",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 1,
+      "semester": "Spring",
+      "credits": 3,
+      "items": [
+        {
+          "isElective": true,
+          "label": "Metaphysics/Epistemology Course",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 2,
+      "semester": "Fall",
+      "credits": 6,
+      "items": [
+        {
+          "isElective": true,
+          "label": "Logic or Symbolic Logic",
+          "credits": 3
+        },
+        {
+          "isElective": true,
+          "label": "History of Ancient or Classical Modern Philosophy",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 2,
+      "semester": "Spring",
+      "credits": 3,
+      "items": [
+        {
+          "isElective": true,
+          "label": "Alternate History/Modern Philosophy",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 3,
+      "semester": "Fall",
+      "credits": 6,
+      "items": [
+        {
+          "isElective": true,
+          "label": "300-Level Elective",
+          "credits": 3
+        },
+        {
+          "isElective": true,
+          "label": "100\u2013300 Level Elective",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 3,
+      "semester": "Spring",
+      "credits": 3,
+      "items": [
+        {
+          "isElective": true,
+          "label": "300-Level Elective",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 4,
+      "semester": "Fall",
+      "credits": 6,
+      "items": [
+        {
+          "isElective": true,
+          "label": "300-Level Elective",
+          "credits": 3
+        },
+        {
+          "isElective": true,
+          "label": "300-Level Elective",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 4,
+      "semester": "Spring",
+      "credits": 3,
+      "items": [
+        {
+          "isElective": true,
+          "label": "Capstone Seminar",
+          "credits": 3
+        }
+      ]
+    }
+  ]
 }

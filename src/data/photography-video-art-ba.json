@@ -83,7 +83,7 @@
     "phot-art-history": {
       "creditsRequired": 3,
       "label": "Art History Elective",
-      "note": "FNAR 202 (Modern Art) or FNAR 306 (Contemporary Art 1945–Present)",
+      "note": "FNAR 202 (Modern Art) or FNAR 306 (Contemporary Art 1945\u2013Present)",
       "courses": [
         {
           "id": "FNAR202",
@@ -164,5 +164,113 @@
         }
       ]
     }
-  }
+  },
+  "roadmap": [
+    {
+      "year": 1,
+      "semester": "Fall",
+      "credits": 3,
+      "items": [
+        {
+          "ref": "FNAR110"
+        }
+      ]
+    },
+    {
+      "year": 1,
+      "semester": "Spring",
+      "credits": 6,
+      "items": [
+        {
+          "ref": "FNAR113"
+        },
+        {
+          "ref": "FNAR115"
+        }
+      ]
+    },
+    {
+      "year": 2,
+      "semester": "Fall",
+      "credits": 6,
+      "items": [
+        {
+          "ref": "FNAR216"
+        },
+        {
+          "isElective": true,
+          "label": "FNAR 114 or FNAR 118",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 2,
+      "semester": "Spring",
+      "credits": 6,
+      "items": [
+        {
+          "ref": "FNAR219"
+        },
+        {
+          "ref": "FNAR365"
+        }
+      ]
+    },
+    {
+      "year": 3,
+      "semester": "Fall",
+      "credits": 6,
+      "items": [
+        {
+          "ref": "FNAR315"
+        },
+        {
+          "isElective": true,
+          "label": "FNAR 132 or FNAR 233",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 3,
+      "semester": "Spring",
+      "credits": 6,
+      "items": [
+        {
+          "isElective": true,
+          "label": "FNAR 124 or FNAR 120",
+          "credits": 3
+        },
+        {
+          "isElective": true,
+          "label": "FNAR 202 or FNAR 306",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 4,
+      "semester": "Fall",
+      "credits": 6,
+      "items": [
+        {
+          "ref": "FNAR320"
+        },
+        {
+          "ref": "FNAR388"
+        }
+      ]
+    },
+    {
+      "year": 4,
+      "semester": "Spring",
+      "credits": 3,
+      "items": [
+        {
+          "ref": "FNAR398"
+        }
+      ]
+    }
+  ]
 }

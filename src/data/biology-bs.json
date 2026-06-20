@@ -8,32 +8,202 @@
   "majorCredits": 48,
   "catalogUrl": "https://catalog.luc.edu/undergraduate/arts-sciences/biology/biology-bs/",
   "courses": [
-    { "id": "BIOL101", "code": "BIOL 101", "title": "General Biology I", "credits": 3, "category": "major" },
-    { "id": "BIOL111", "code": "BIOL 111", "title": "General Biology I Lab", "credits": 1, "category": "major" },
-    { "id": "BIOL102", "code": "BIOL 102", "title": "General Biology II", "credits": 3, "category": "major" },
-    { "id": "BIOL112", "code": "BIOL 112", "title": "General Biology II Lab", "credits": 1, "category": "major" },
-    { "id": "BIOL251", "code": "BIOL 251", "title": "Cell Biology", "credits": 3, "category": "major" },
-    { "id": "BIOL265", "code": "BIOL 265", "title": "Ecology", "credits": 3, "category": "major" },
-    { "id": "BIOL282", "code": "BIOL 282", "title": "Genetics", "credits": 3, "category": "major" },
-    { "id": "BIOL252", "code": "BIOL 252", "title": "Cell Biology Laboratory", "credits": 1, "category": "major", "requirementGroup": "biol-upper-lab", "choiceNote": "Choose one lab: BIOL 252, 266, or 283" },
-    { "id": "BIOL266", "code": "BIOL 266", "title": "Ecology Laboratory", "credits": 1, "category": "major", "requirementGroup": "biol-upper-lab", "choiceNote": "Choose one lab: BIOL 252, 266, or 283" },
-    { "id": "BIOL283", "code": "BIOL 283", "title": "Genetics Laboratory", "credits": 1, "category": "major", "requirementGroup": "biol-upper-lab", "choiceNote": "Choose one lab: BIOL 252, 266, or 283" },
-    { "id": "CHEM160", "code": "CHEM 160", "title": "General Chemistry I", "credits": 3, "category": "major" },
-    { "id": "CHEM161", "code": "CHEM 161", "title": "General Chemistry I Lab", "credits": 1, "category": "major" },
-    { "id": "CHEM180", "code": "CHEM 180", "title": "Organic Chemistry I", "credits": 3, "category": "major" },
-    { "id": "CHEM181", "code": "CHEM 181", "title": "Organic Chemistry I Lab", "credits": 1, "category": "major" },
-    { "id": "CHEM240", "code": "CHEM 240", "title": "Organic Chemistry II", "credits": 3, "category": "major" },
-    { "id": "CHEM241", "code": "CHEM 241", "title": "Organic Chemistry II Lab", "credits": 1, "category": "major" },
-    { "id": "CHEM260", "code": "CHEM 260", "title": "Quantitative Chemistry", "credits": 3, "category": "major" },
-    { "id": "CHEM261", "code": "CHEM 261", "title": "Quantitative Chemistry Lab", "credits": 1, "category": "major" },
-    { "id": "PHYS111", "code": "PHYS 111", "title": "College Physics I", "credits": 3, "category": "major" },
-    { "id": "PHYS111L", "code": "PHYS 111L", "title": "College Physics I Lab", "credits": 1, "category": "major" },
-    { "id": "PHYS112", "code": "PHYS 112", "title": "College Physics II", "credits": 3, "category": "major" },
-    { "id": "PHYS112L", "code": "PHYS 112L", "title": "College Physics II Lab", "credits": 1, "category": "major" },
-    { "id": "MATH131", "code": "MATH 131", "title": "Applied Calculus I", "credits": 3, "category": "major", "requirementGroup": "biol-calc1", "choiceNote": "MATH 131 or MATH 161" },
-    { "id": "MATH161", "code": "MATH 161", "title": "Calculus I", "credits": 4, "category": "major", "requirementGroup": "biol-calc1", "choiceNote": "MATH 131 or MATH 161" },
-    { "id": "MATH132", "code": "MATH 132", "title": "Applied Calculus II", "credits": 3, "category": "major", "requirementGroup": "biol-calc2", "choiceNote": "MATH 132 or MATH 162" },
-    { "id": "MATH162", "code": "MATH 162", "title": "Calculus II", "credits": 4, "category": "major", "requirementGroup": "biol-calc2", "choiceNote": "MATH 132 or MATH 162" }
+    {
+      "id": "BIOL101",
+      "code": "BIOL 101",
+      "title": "General Biology I",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "BIOL111",
+      "code": "BIOL 111",
+      "title": "General Biology I Lab",
+      "credits": 1,
+      "category": "major"
+    },
+    {
+      "id": "BIOL102",
+      "code": "BIOL 102",
+      "title": "General Biology II",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "BIOL112",
+      "code": "BIOL 112",
+      "title": "General Biology II Lab",
+      "credits": 1,
+      "category": "major"
+    },
+    {
+      "id": "BIOL251",
+      "code": "BIOL 251",
+      "title": "Cell Biology",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "BIOL265",
+      "code": "BIOL 265",
+      "title": "Ecology",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "BIOL282",
+      "code": "BIOL 282",
+      "title": "Genetics",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "BIOL252",
+      "code": "BIOL 252",
+      "title": "Cell Biology Laboratory",
+      "credits": 1,
+      "category": "major",
+      "requirementGroup": "biol-upper-lab",
+      "choiceNote": "Choose one lab: BIOL 252, 266, or 283"
+    },
+    {
+      "id": "BIOL266",
+      "code": "BIOL 266",
+      "title": "Ecology Laboratory",
+      "credits": 1,
+      "category": "major",
+      "requirementGroup": "biol-upper-lab",
+      "choiceNote": "Choose one lab: BIOL 252, 266, or 283"
+    },
+    {
+      "id": "BIOL283",
+      "code": "BIOL 283",
+      "title": "Genetics Laboratory",
+      "credits": 1,
+      "category": "major",
+      "requirementGroup": "biol-upper-lab",
+      "choiceNote": "Choose one lab: BIOL 252, 266, or 283"
+    },
+    {
+      "id": "CHEM160",
+      "code": "CHEM 160",
+      "title": "General Chemistry I",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "CHEM161",
+      "code": "CHEM 161",
+      "title": "General Chemistry I Lab",
+      "credits": 1,
+      "category": "major"
+    },
+    {
+      "id": "CHEM180",
+      "code": "CHEM 180",
+      "title": "Organic Chemistry I",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "CHEM181",
+      "code": "CHEM 181",
+      "title": "Organic Chemistry I Lab",
+      "credits": 1,
+      "category": "major"
+    },
+    {
+      "id": "CHEM240",
+      "code": "CHEM 240",
+      "title": "Organic Chemistry II",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "CHEM241",
+      "code": "CHEM 241",
+      "title": "Organic Chemistry II Lab",
+      "credits": 1,
+      "category": "major"
+    },
+    {
+      "id": "CHEM260",
+      "code": "CHEM 260",
+      "title": "Quantitative Chemistry",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "CHEM261",
+      "code": "CHEM 261",
+      "title": "Quantitative Chemistry Lab",
+      "credits": 1,
+      "category": "major"
+    },
+    {
+      "id": "PHYS111",
+      "code": "PHYS 111",
+      "title": "College Physics I",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "PHYS111L",
+      "code": "PHYS 111L",
+      "title": "College Physics I Lab",
+      "credits": 1,
+      "category": "major"
+    },
+    {
+      "id": "PHYS112",
+      "code": "PHYS 112",
+      "title": "College Physics II",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "PHYS112L",
+      "code": "PHYS 112L",
+      "title": "College Physics II Lab",
+      "credits": 1,
+      "category": "major"
+    },
+    {
+      "id": "MATH131",
+      "code": "MATH 131",
+      "title": "Applied Calculus I",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "biol-calc1",
+      "choiceNote": "MATH 131 or MATH 161"
+    },
+    {
+      "id": "MATH161",
+      "code": "MATH 161",
+      "title": "Calculus I",
+      "credits": 4,
+      "category": "major",
+      "requirementGroup": "biol-calc1",
+      "choiceNote": "MATH 131 or MATH 161"
+    },
+    {
+      "id": "MATH132",
+      "code": "MATH 132",
+      "title": "Applied Calculus II",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "biol-calc2",
+      "choiceNote": "MATH 132 or MATH 162"
+    },
+    {
+      "id": "MATH162",
+      "code": "MATH 162",
+      "title": "Calculus II",
+      "credits": 4,
+      "category": "major",
+      "requirementGroup": "biol-calc2",
+      "choiceNote": "MATH 132 or MATH 162"
+    }
   ],
   "electiveOptions": {
     "biol-electives": {
@@ -41,5 +211,162 @@
       "label": "Biology Electives",
       "note": "At least 9 credits at the 300-level; at least 2 courses must include a lab component"
     }
-  }
+  },
+  "roadmap": [
+    {
+      "year": 1,
+      "semester": "Fall",
+      "credits": 11,
+      "items": [
+        {
+          "ref": "BIOL101"
+        },
+        {
+          "ref": "BIOL111"
+        },
+        {
+          "ref": "CHEM160"
+        },
+        {
+          "ref": "CHEM161"
+        },
+        {
+          "ref": "MATH131"
+        }
+      ]
+    },
+    {
+      "year": 1,
+      "semester": "Spring",
+      "credits": 11,
+      "items": [
+        {
+          "ref": "BIOL102"
+        },
+        {
+          "ref": "BIOL112"
+        },
+        {
+          "ref": "CHEM180"
+        },
+        {
+          "ref": "CHEM181"
+        },
+        {
+          "ref": "MATH132"
+        }
+      ]
+    },
+    {
+      "year": 2,
+      "semester": "Fall",
+      "credits": 8,
+      "items": [
+        {
+          "ref": "CHEM240"
+        },
+        {
+          "ref": "CHEM241"
+        },
+        {
+          "isElective": true,
+          "label": "BIOL Elective (251, 265, or 282)",
+          "credits": 3
+        },
+        {
+          "isElective": true,
+          "label": "BIOL Lab Elective (252, 266, or 283)",
+          "credits": 1
+        }
+      ]
+    },
+    {
+      "year": 2,
+      "semester": "Spring",
+      "credits": 7,
+      "items": [
+        {
+          "ref": "CHEM260"
+        },
+        {
+          "ref": "CHEM261"
+        },
+        {
+          "isElective": true,
+          "label": "BIOL Elective (251, 265, or 282)",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 3,
+      "semester": "Fall",
+      "credits": 7,
+      "items": [
+        {
+          "isElective": true,
+          "label": "BIOL Elective (251, 265, or 282)",
+          "credits": 3
+        },
+        {
+          "ref": "PHYS111"
+        },
+        {
+          "ref": "PHYS111L"
+        }
+      ]
+    },
+    {
+      "year": 3,
+      "semester": "Spring",
+      "credits": 8,
+      "items": [
+        {
+          "isElective": true,
+          "label": "Biology Elective",
+          "credits": 4
+        },
+        {
+          "ref": "PHYS112"
+        },
+        {
+          "ref": "PHYS112L"
+        }
+      ]
+    },
+    {
+      "year": 4,
+      "semester": "Fall",
+      "credits": 7,
+      "items": [
+        {
+          "isElective": true,
+          "label": "Biology Elective",
+          "credits": 4
+        },
+        {
+          "isElective": true,
+          "label": "Biology Elective",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 4,
+      "semester": "Spring",
+      "credits": 8,
+      "items": [
+        {
+          "isElective": true,
+          "label": "Biology Elective",
+          "credits": 4
+        },
+        {
+          "isElective": true,
+          "label": "Biology Elective",
+          "credits": 4
+        }
+      ]
+    }
+  ]
 }

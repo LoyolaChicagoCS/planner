@@ -1,5 +1,6 @@
 {
   "id": "global-studies-ba",
+  "kind": "interdisciplinary",
   "department": "Global Studies",
   "name": "Global Studies",
   "degree": "BA",
@@ -58,5 +59,110 @@
       "label": "Global Studies Elective",
       "note": "One additional approved elective"
     }
-  }
+  },
+  "roadmap": [
+    {
+      "year": 1,
+      "semester": "Fall",
+      "credits": 3,
+      "items": [
+        {
+          "ref": "GLST100"
+        }
+      ]
+    },
+    {
+      "year": 1,
+      "semester": "Spring",
+      "credits": 3,
+      "items": [
+        {
+          "isElective": true,
+          "label": "ANTH 100 \u2014 Globalization and Local Cultures",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 2,
+      "semester": "Fall",
+      "credits": 3,
+      "items": [
+        {
+          "isElective": true,
+          "label": "PLSC 102 \u2014 International Relations",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 2,
+      "semester": "Spring",
+      "credits": 6,
+      "items": [
+        {
+          "ref": "GLST301"
+        },
+        {
+          "isElective": true,
+          "label": "Global Studies Elective",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 3,
+      "semester": "Fall",
+      "credits": 6,
+      "items": [
+        {
+          "isElective": true,
+          "label": "Global Studies Elective",
+          "credits": 3
+        },
+        {
+          "isElective": true,
+          "label": "Global Studies Elective",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 3,
+      "semester": "Spring",
+      "credits": 3,
+      "items": [
+        {
+          "isElective": true,
+          "label": "Global Studies Elective",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 4,
+      "semester": "Fall",
+      "credits": 6,
+      "items": [
+        {
+          "ref": "GLST201"
+        },
+        {
+          "isElective": true,
+          "label": "Global Studies Elective",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 4,
+      "semester": "Spring",
+      "credits": 3,
+      "items": [
+        {
+          "ref": "GLST398"
+        }
+      ]
+    }
+  ]
 }

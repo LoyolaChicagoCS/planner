@@ -155,5 +155,122 @@
         }
       ]
     }
-  }
+  },
+  "roadmap": [
+    {
+      "year": 1,
+      "semester": "Fall",
+      "credits": 6,
+      "items": [
+        {
+          "ref": "COMM201"
+        },
+        {
+          "ref": "COMM274"
+        }
+      ]
+    },
+    {
+      "year": 1,
+      "semester": "Spring",
+      "credits": 3,
+      "items": [
+        {
+          "ref": "COMM135"
+        }
+      ]
+    },
+    {
+      "year": 2,
+      "semester": "Fall",
+      "credits": 6,
+      "items": [
+        {
+          "ref": "COMM130"
+        },
+        {
+          "isElective": true,
+          "label": "Media Studies Elective",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 2,
+      "semester": "Spring",
+      "credits": 6,
+      "items": [
+        {
+          "ref": "COMM200"
+        },
+        {
+          "ref": "COMM202"
+        }
+      ]
+    },
+    {
+      "year": 3,
+      "semester": "Fall",
+      "credits": 7,
+      "items": [
+        {
+          "ref": "COMM100"
+        },
+        {
+          "isElective": true,
+          "label": "COMM 203 or COMM 324 \u2014 Cinema History or Film Genre",
+          "credits": 3
+        },
+        {
+          "isElective": true,
+          "label": "Production Elective",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 3,
+      "semester": "Spring",
+      "credits": 6,
+      "items": [
+        {
+          "isElective": true,
+          "label": "Production Elective",
+          "credits": 3
+        },
+        {
+          "isElective": true,
+          "label": "Advanced Production Elective",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 4,
+      "semester": "Fall",
+      "credits": 6,
+      "items": [
+        {
+          "ref": "COMM350"
+        },
+        {
+          "isElective": true,
+          "label": "COMM 394 \u2014 Film & Digital Media Internship",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 4,
+      "semester": "Spring",
+      "credits": 3,
+      "items": [
+        {
+          "isElective": true,
+          "label": "Major Capstone Course",
+          "credits": 3
+        }
+      ]
+    }
+  ]
 }

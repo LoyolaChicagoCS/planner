@@ -249,5 +249,158 @@
       "label": "Global Awareness",
       "note": "One approved global awareness course"
     }
-  }
+  },
+  "roadmap": [
+    {
+      "year": 1,
+      "semester": "Fall",
+      "credits": 9,
+      "items": [
+        {
+          "ref": "ECON201biz"
+        },
+        {
+          "ref": "INFS247"
+        },
+        {
+          "ref": "MATH110biz"
+        },
+        {
+          "ref": "QUIN101"
+        }
+      ]
+    },
+    {
+      "year": 1,
+      "semester": "Spring",
+      "credits": 10,
+      "items": [
+        {
+          "ref": "ACCT201"
+        },
+        {
+          "ref": "ECON202biz"
+        },
+        {
+          "ref": "ENTR201"
+        },
+        {
+          "ref": "QUIN102"
+        }
+      ]
+    },
+    {
+      "year": 2,
+      "semester": "Fall",
+      "credits": 8,
+      "items": [
+        {
+          "ref": "ACCT202"
+        },
+        {
+          "isElective": true,
+          "label": "ISSCM 241 or STAT 103 \u2014 Business Statistics",
+          "credits": 3
+        },
+        {
+          "ref": "QUIN202"
+        }
+      ]
+    },
+    {
+      "year": 2,
+      "semester": "Spring",
+      "credits": 9,
+      "items": [
+        {
+          "ref": "MGMT201"
+        },
+        {
+          "ref": "SCMG232"
+        },
+        {
+          "isElective": true,
+          "label": "Business Writing Intensive",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 3,
+      "semester": "Fall",
+      "credits": 9,
+      "items": [
+        {
+          "ref": "MARK201biz"
+        },
+        {
+          "ref": "COMM103biz"
+        },
+        {
+          "isElective": true,
+          "label": "ENTR Elective",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 3,
+      "semester": "Spring",
+      "credits": 12,
+      "items": [
+        {
+          "ref": "FINC301"
+        },
+        {
+          "isElective": true,
+          "label": "INFS 343 or ECON 346 \u2014 Business Analytics",
+          "credits": 3
+        },
+        {
+          "ref": "ETHC341"
+        },
+        {
+          "isElective": true,
+          "label": "ENTR Elective",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 4,
+      "semester": "Fall",
+      "credits": 9,
+      "items": [
+        {
+          "ref": "ENTR345"
+        },
+        {
+          "ref": "LREB315"
+        },
+        {
+          "isElective": true,
+          "label": "Writing Intensive Course",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 4,
+      "semester": "Spring",
+      "credits": 9,
+      "items": [
+        {
+          "ref": "ENTR390"
+        },
+        {
+          "ref": "MGMT304"
+        },
+        {
+          "isElective": true,
+          "label": "Global Awareness Course",
+          "credits": 3
+        }
+      ]
+    }
+  ]
 }

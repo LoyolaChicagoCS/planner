@@ -1,5 +1,6 @@
 {
   "id": "womens-studies-gender-studies-ba",
+  "kind": "interdisciplinary",
   "department": "Women's Studies and Gender Studies",
   "name": "Women's Studies and Gender Studies",
   "degree": "BA",
@@ -46,5 +47,117 @@
       "label": "Praxis / Community Engagement",
       "note": "Two courses with engaged learning or community practice component"
     }
-  }
+  },
+  "roadmap": [
+    {
+      "year": 1,
+      "semester": "Fall",
+      "credits": 3,
+      "items": [
+        {
+          "ref": "WSGS100"
+        }
+      ]
+    },
+    {
+      "year": 1,
+      "semester": "Spring",
+      "credits": 3,
+      "items": [
+        {
+          "isElective": true,
+          "label": "WSGS Elective",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 2,
+      "semester": "Fall",
+      "credits": 3,
+      "items": [
+        {
+          "ref": "WSGS300"
+        }
+      ]
+    },
+    {
+      "year": 2,
+      "semester": "Spring",
+      "credits": 6,
+      "items": [
+        {
+          "isElective": true,
+          "label": "WSGS Elective",
+          "credits": 3
+        },
+        {
+          "isElective": true,
+          "label": "WSGS Elective",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 3,
+      "semester": "Fall",
+      "credits": 6,
+      "items": [
+        {
+          "isElective": true,
+          "label": "WSGS 330 \u2014 History of Feminist Thought",
+          "credits": 3
+        },
+        {
+          "isElective": true,
+          "label": "Theory Course (PLSC 312, ENGL 307, or WSGS 380)",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 3,
+      "semester": "Spring",
+      "credits": 6,
+      "items": [
+        {
+          "isElective": true,
+          "label": "WSGS 398 \u2014 Internship",
+          "credits": 3
+        },
+        {
+          "isElective": true,
+          "label": "WSGS Elective",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 4,
+      "semester": "Fall",
+      "credits": 6,
+      "items": [
+        {
+          "isElective": true,
+          "label": "WSGS 391 \u2014 Methodologies",
+          "credits": 3
+        },
+        {
+          "isElective": true,
+          "label": "WSGS Elective",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 4,
+      "semester": "Spring",
+      "credits": 3,
+      "items": [
+        {
+          "ref": "WSGS399"
+        }
+      ]
+    }
+  ]
 }

@@ -48,6 +48,7 @@ const PROGRAM_ICONS: Record<string, string> = {
 
 type SchoolKey = 'cs' | 'cas' | 'business' | 'communication';
 type CsTabKey = 'majors' | 'interdisciplinary' | 'minors' | 'masters' | 'doctoral';
+type NonCsTabKey = 'majors' | 'interdisciplinary' | 'minors';
 
 const SCHOOL_TABS: { key: SchoolKey; label: string }[] = [
   { key: 'cs',            label: 'CS Department' },
@@ -62,6 +63,12 @@ const CS_TABS: { key: CsTabKey; label: string }[] = [
   { key: 'minors',            label: 'Minors' },
   { key: 'masters',           label: 'Masters' },
   { key: 'doctoral',          label: 'Doctoral' },
+];
+
+const NON_CS_TABS: { key: NonCsTabKey; label: string }[] = [
+  { key: 'majors',            label: 'Majors' },
+  { key: 'interdisciplinary', label: 'Interdisciplinary' },
+  { key: 'minors',            label: 'Minors' },
 ];
 
 const sortByName = (arr: Program[]) => [...arr].sort((a, b) => a.name.localeCompare(b.name));
@@ -84,34 +91,47 @@ interface HomeScreenProps {
 }
 
 export default function HomeScreen({ programs, onSelect }: HomeScreenProps) {
-  const [school, setSchool] = useState<SchoolKey>('cs');
-  const [csTab, setCsTab]   = useState<CsTabKey>('majors');
+  const [school, setSchool]       = useState<SchoolKey>('cs');
+  const [csTab, setCsTab]         = useState<CsTabKey>('majors');
+  const [nonCsTab, setNonCsTab]   = useState<NonCsTabKey>('majors');
 
   // CS department programs — Bioinformatics and Data Science are interdisciplinary only
   const csPrograms = {
     majors:            sortByName(programs.filter(p => ['cs', 'se', 'it', 'cybersecurity'].includes(p.id))),
-    interdisciplinary: sortByName(programs.filter(p => p.kind === 'interdisciplinary')),
-    minors:            sortByName(programs.filter(p => p.kind === 'minor')),
+    interdisciplinary: sortByName(programs.filter(p => p.kind === 'interdisciplinary' && p.department === 'Computer Science')),
+    minors:            sortByName(programs.filter(p => p.kind === 'minor' && p.department === 'Computer Science')),
     masters:           sortByName(programs.filter(p => p.kind === 'masters')),
     doctoral:          sortByName(programs.filter(p => p.kind === 'phd')),
   };
 
   // CAS BA/BS programs (not CS dept, not Communication, not Business)
-  const casPrograms = programs.filter(p =>
+  const allCasPrograms = programs.filter(p =>
     (p.degree === 'BA' || p.degree === 'BS') &&
     p.department !== 'Computer Science' &&
     p.department !== 'Communication' &&
     p.department !== 'Business Administration',
   );
-  const casByDept = groupByDepartment(casPrograms);
+  const casGroups = {
+    majors:            groupByDepartment(allCasPrograms.filter(p => p.kind !== 'interdisciplinary' && p.kind !== 'minor')),
+    interdisciplinary: groupByDepartment(allCasPrograms.filter(p => p.kind === 'interdisciplinary')),
+    minors:            groupByDepartment(allCasPrograms.filter(p => p.kind === 'minor')),
+  };
 
   // Quinlan School of Business (BBA programs)
-  const businessPrograms = programs.filter(p => p.department === 'Business Administration');
-  const businessByDept = groupByDepartment(businessPrograms);
+  const allBusinessPrograms = programs.filter(p => p.department === 'Business Administration');
+  const businessGroups = {
+    majors:            groupByDepartment(allBusinessPrograms.filter(p => p.kind !== 'interdisciplinary' && p.kind !== 'minor')),
+    interdisciplinary: groupByDepartment(allBusinessPrograms.filter(p => p.kind === 'interdisciplinary')),
+    minors:            groupByDepartment(allBusinessPrograms.filter(p => p.kind === 'minor')),
+  };
 
   // School of Communication
-  const commPrograms = programs.filter(p => p.department === 'Communication');
-  const commByDept = groupByDepartment(commPrograms);
+  const allCommPrograms = programs.filter(p => p.department === 'Communication');
+  const commGroups = {
+    majors:            groupByDepartment(allCommPrograms.filter(p => p.kind !== 'interdisciplinary' && p.kind !== 'minor')),
+    interdisciplinary: groupByDepartment(allCommPrograms.filter(p => p.kind === 'interdisciplinary')),
+    minors:            groupByDepartment(allCommPrograms.filter(p => p.kind === 'minor')),
+  };
 
   return (
     <div className="flex flex-col h-full bg-gray-50">
@@ -180,25 +200,74 @@ export default function HomeScreen({ programs, onSelect }: HomeScreenProps) {
       )}
 
       {(school === 'cas' || school === 'business' || school === 'communication') && (
-        <div className="flex-1 overflow-y-auto px-4 pt-5 pb-8">
-          {(school === 'cas' ? casByDept : school === 'business' ? businessByDept : commByDept)
-            .map(([dept, progs]) => (
-              <div key={dept} className="mb-6">
-                <h2 className="text-xs font-bold uppercase tracking-wider text-gray-400 mb-2 px-1">
-                  {dept}
-                </h2>
-                <div className="space-y-2">
-                  {progs.map(program => (
-                    <ProgramCard key={program.id} program={program} onSelect={onSelect} />
-                  ))}
-                </div>
-              </div>
+        <>
+          <div className="flex bg-white border-b border-gray-200 flex-shrink-0">
+            {NON_CS_TABS.map(tab => (
+              <button
+                key={tab.key}
+                onClick={() => setNonCsTab(tab.key)}
+                className={`flex-1 py-2.5 text-xs font-semibold transition-colors ${
+                  nonCsTab === tab.key
+                    ? 'text-maroon-600 border-b-2 border-maroon-600'
+                    : 'text-gray-400 border-b-2 border-transparent'
+                }`}
+              >
+                {tab.label}
+              </button>
             ))}
-        </div>
+          </div>
+          <div key={`${school}-${nonCsTab}`} className="flex-1 overflow-y-auto px-4 pt-5 pb-8">
+            <NonCsContent
+              groups={
+                school === 'cas'
+                  ? casGroups[nonCsTab]
+                  : school === 'business'
+                  ? businessGroups[nonCsTab]
+                  : commGroups[nonCsTab]
+              }
+              tab={nonCsTab}
+              onSelect={onSelect}
+            />
+          </div>
+        </>
       )}
 
       <Footer />
     </div>
+  );
+}
+
+function NonCsContent({
+  groups,
+  tab,
+  onSelect,
+}: {
+  groups: [string, Program[]][];
+  tab: NonCsTabKey;
+  onSelect: (p: Program) => void;
+}) {
+  if (groups.length === 0) {
+    const label = tab === 'minors' ? 'minors' : tab === 'interdisciplinary' ? 'interdisciplinary programs' : 'programs';
+    return (
+      <div className="flex flex-col items-center justify-center py-16 text-center">
+        <div className="text-4xl mb-3">📋</div>
+        <p className="text-sm text-gray-400">No {label} listed yet.</p>
+      </div>
+    );
+  }
+  return (
+    <>
+      {groups.map(([dept, progs]) => (
+        <div key={dept} className="mb-6">
+          <h2 className="text-xs font-bold uppercase tracking-wider text-gray-400 mb-2 px-1">{dept}</h2>
+          <div className="space-y-2">
+            {progs.map(program => (
+              <ProgramCard key={program.id} program={program} onSelect={onSelect} />
+            ))}
+          </div>
+        </div>
+      ))}
+    </>
   );
 }
 
