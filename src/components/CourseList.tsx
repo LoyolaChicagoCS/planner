@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import SearchBox from './SearchBox';
 import { hasConcreteCoreSelection } from '../utils/coreCatalog';
-import { createProgressHelpers } from '../utils/progress';
 import { matchesSearch, normalizeSearch } from '../utils/search';
 import type { CompletedSet, CoreRequirement, Course, ElectiveGroup as ElectiveGroupModel, Program, ProgressItem } from '../types';
 import type { RequirementStatus } from '../utils/progress';
@@ -33,7 +32,7 @@ interface CourseListProps {
  *   completed — Set of completed course/item IDs
  *   toggle    — function(id) to mark/unmark a course
  */
-export default function CourseList({ program, completed, toggle, isCompleted, getRequirementStatus, toggleItem, onOpenCoreRequirement }: CourseListProps) {
+export default function CourseList({ program, completed, isCompleted, getRequirementStatus, toggleItem, onOpenCoreRequirement }: CourseListProps) {
   const [query, setQuery] = useState('');
   const search = normalizeSearch(query);
   const isMinor = program.kind === 'minor';

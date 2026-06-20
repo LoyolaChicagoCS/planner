@@ -7,7 +7,6 @@ import {
   calcProgramRequirementDoneCredits,
   calcRequiredCredits,
   calcSatisfiedRequirementCredits,
-  createProgressHelpers,
   enrichOpenElectiveGroups,
 } from '../utils/progress';
 import { progressBackgroundColor, progressBarStyle, progressColor } from '../utils/progressColor';
@@ -46,7 +45,6 @@ const typedOptionalData = optionalData as OptionalData;
 
 interface AuditProps {
   program: Program;
-  allPrograms: Program[];
   completed: CompletedSet;
   toggle: Toggle;
   isCompleted: IsCompleted;
@@ -70,7 +68,7 @@ interface AuditProps {
  *   completed — Set of completed IDs
  *   toggle    — function(id) to mark/unmark
  */
-export default function Audit({ program, allPrograms: _allPrograms, completed, toggle, isCompleted, isRequirementSatisfied, getRequirementStatus, toggleItem }: AuditProps) {
+export default function Audit({ program, completed, toggle, isCompleted, isRequirementSatisfied, getRequirementStatus, toggleItem }: AuditProps) {
   const [query, setQuery] = useState('');
   const search = normalizeSearch(query);
   const enriched = enrichOpenElectiveGroups(program);
@@ -313,89 +311,6 @@ function AuditRow({ item, done, satisfiedByAlternate = false, toggleItem }: {
   );
 }
 
-/** Audit section for an additional program selected by the student */
-function AdditionalProgramAudit({ program, completed, toggle, search, onRemove }: {
-  program: Program;
-  completed: CompletedSet;
-  toggle: Toggle;
-  search: string;
-  onRemove: (id: string) => void;
-}) {
-  const enriched = enrichOpenElectiveGroups(program);
-  const { isCompleted, isRequirementSatisfied, getRequirementStatus, toggleItem } =
-    createProgressHelpers(enriched, completed, toggle);
-  const done = calcProgramRequirementDoneCredits(enriched, isRequirementSatisfied);
-  const goal = calcProgramRequirementCreditGoal(enriched);
-  const remaining = Math.max(0, goal - done);
-  const pct = goal > 0 ? Math.min(100, Math.round((done / goal) * 100)) : 0;
-  const creditLabel = program.kind === 'minor' ? 'Minor Credits' : 'Major Credits';
-  const remainingLabel = program.kind === 'minor' ? 'minor credits remaining' : 'major credits remaining';
-
-  return (
-    <div className="rounded-xl overflow-hidden border-2 border-maroon-100 shadow-sm">
-      <div className="bg-maroon-50 px-4 py-3 border-b border-maroon-100 flex items-start justify-between gap-2">
-        <div>
-          <div className="text-maroon-800 text-sm font-bold">{program.name}</div>
-          <div className="text-maroon-500 text-xs mt-0.5">{program.degree} · Additional {program.kind === 'minor' ? 'Minor' : 'Major'}</div>
-        </div>
-        <button
-          onClick={() => onRemove(program.id)}
-          className="flex-shrink-0 text-xs font-semibold px-2.5 py-1 rounded-full bg-white border border-maroon-200 text-maroon-500 active:bg-maroon-100 transition-colors mt-0.5"
-          aria-label={`Remove ${program.name}`}
-        >
-          Remove
-        </button>
-      </div>
-
-      <div className="px-4 pt-4 pb-2 bg-white">
-        <CreditSummary
-          title={creditLabel}
-          done={done}
-          required={goal}
-          remaining={remaining}
-          remainingLabel={remainingLabel}
-          pct={pct}
-        />
-      </div>
-
-      <div className="px-4 pb-4 bg-white">
-        <AuditCategory
-          title={enriched.kind === 'minor' ? 'Minor Requirements' : 'Major Required Courses'}
-          items={(enriched.courses ?? []).map(c => ({
-            ...c,
-            label: c.code ? `${c.code} — ${c.title}` : c.title,
-          }))}
-          search={search}
-          creditsRequired={calcRequiredCredits(enriched.courses ?? [])}
-          isCompleted={isCompleted}
-          isRequirementSatisfied={isRequirementSatisfied}
-          getRequirementStatus={getRequirementStatus}
-          toggleItem={toggleItem}
-        />
-        {Object.entries(enriched.electiveOptions ?? {})
-          .filter(([, group]) => (group.courses ?? []).length > 0 || group.creditsRequired > 0)
-          .map(([, group]) => (
-            <div key={group.label} className="mt-3">
-              <AuditCategory
-                title={group.label}
-                note={group.note}
-                items={(group.courses ?? []).map(c => ({
-                  ...c,
-                  label: c.code ? `${c.code} — ${c.title}` : c.title,
-                }))}
-                search={search}
-                creditsRequired={group.creditsRequired}
-                isCompleted={isCompleted}
-                isRequirementSatisfied={isRequirementSatisfied}
-                getRequirementStatus={getRequirementStatus}
-                toggleItem={toggleItem}
-              />
-            </div>
-          ))}
-      </div>
-    </div>
-  );
-}
 
 /**
  * Optional CS courses — writing intensive and core eligible.

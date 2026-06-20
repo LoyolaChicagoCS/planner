@@ -30,14 +30,13 @@ interface CoreFocusTarget {
 
 interface ProgramScreenProps {
   program: Program;
-  allPrograms: Program[];
   completed: CompletedSet;
   toggle: (id: string) => void;
   clear: (idsToClear: Iterable<string>) => void;
   onBack: () => void;
 }
 
-export default function ProgramScreen({ program, allPrograms, completed, toggle, clear, onBack }: ProgramScreenProps) {
+export default function ProgramScreen({ program, completed, toggle, clear, onBack }: ProgramScreenProps) {
   const [activeIndex, setActiveIndex] = useState(0);
   const [copied, setCopied]           = useState(false);
   const [coreFocusTarget, setCoreFocusTarget] = useState<CoreFocusTarget | null>(null);
@@ -276,7 +275,6 @@ export default function ProgramScreen({ program, allPrograms, completed, toggle,
           <SwiperSlide style={{ overflowY: 'auto' }}>
             <Audit
               program={program}
-              allPrograms={allPrograms}
               completed={completed}
               toggle={toggle}
               isCompleted={isCompleted}

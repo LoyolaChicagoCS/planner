@@ -34,7 +34,6 @@ export default function App() {
       {activeProgram ? (
         <ProgramScreen
           program={activeProgram}
-          allPrograms={PROGRAMS}
           completed={completed}
           toggle={toggle}
           clear={clear}
