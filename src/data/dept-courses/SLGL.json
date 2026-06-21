@@ -1,0 +1,21 @@
+{
+  "catalog": "2026-2027",
+  "code": "SLGL",
+  "name": "Sociolegal Studies",
+  "sourceUrl": "https://catalog.luc.edu/course-descriptions/slgl/",
+  "fetchedAt": "2026-06-21",
+  "courses": [
+    {
+      "id": "SLGL200",
+      "code": "SLGL 200",
+      "title": "Introduction to Sociolegal Studies",
+      "credits": 3
+    },
+    {
+      "id": "SLGL399",
+      "code": "SLGL 399",
+      "title": "Independent Study",
+      "credits": 3
+    }
+  ]
+}

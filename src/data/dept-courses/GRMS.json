@@ -1,0 +1,15 @@
+{
+  "catalog": "2026-2027",
+  "code": "GRMS",
+  "name": "German Studies",
+  "sourceUrl": "https://catalog.luc.edu/course-descriptions/grms/",
+  "fetchedAt": "2026-06-21",
+  "courses": [
+    {
+      "id": "GRMS300",
+      "code": "GRMS 300",
+      "title": "German Studies Minor Capstone",
+      "credits": 1
+    }
+  ]
+}

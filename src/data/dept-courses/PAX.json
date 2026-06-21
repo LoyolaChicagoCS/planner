@@ -1,0 +1,21 @@
+{
+  "catalog": "2026-2027",
+  "code": "PAX",
+  "name": "Peace Studies",
+  "sourceUrl": "https://catalog.luc.edu/course-descriptions/pax/",
+  "fetchedAt": "2026-06-21",
+  "courses": [
+    {
+      "id": "PAX201",
+      "code": "PAX 201",
+      "title": "Peace Studies Overview",
+      "credits": 3
+    },
+    {
+      "id": "PAX390",
+      "code": "PAX 390",
+      "title": "Directed Readings in Peace Studies",
+      "credits": 3
+    }
+  ]
+}

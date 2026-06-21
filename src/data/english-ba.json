@@ -8,11 +8,49 @@
   "majorCredits": 36,
   "catalogUrl": "https://catalog.luc.edu/undergraduate/arts-sciences/english/english-ba/",
   "courses": [
-    { "id": "ENGL390", "code": "ENGL 390", "title": "Advanced Seminar (Capstone)", "credits": 3, "category": "major" },
-    { "id": "ENGL354", "code": "ENGL 354", "title": "Contemporary Critical Theory", "credits": 3, "category": "major", "requirementGroup": "engl-literary-theory", "choiceNote": "Choose ENGL 354 or 355" },
-    { "id": "ENGL355", "code": "ENGL 355", "title": "Studies in Literary Criticism", "credits": 3, "category": "major", "requirementGroup": "engl-literary-theory", "choiceNote": "Choose ENGL 354 or 355" },
-    { "id": "ENGL326", "code": "ENGL 326", "title": "Shakespeare: Selected Major Plays", "credits": 3, "category": "major", "requirementGroup": "engl-shakespeare", "choiceNote": "Choose ENGL 326 or 327" },
-    { "id": "ENGL327", "code": "ENGL 327", "title": "Studies in Shakespeare", "credits": 3, "category": "major", "requirementGroup": "engl-shakespeare", "choiceNote": "Choose ENGL 326 or 327" }
+    {
+      "id": "ENGL390",
+      "code": "ENGL 390",
+      "title": "Advanced Seminar",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "ENGL354",
+      "code": "ENGL 354",
+      "title": "Contemporary Critical Theory",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "engl-literary-theory",
+      "choiceNote": "Choose ENGL 354 or 355"
+    },
+    {
+      "id": "ENGL355",
+      "code": "ENGL 355",
+      "title": "Studies in Literary Criticism",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "engl-literary-theory",
+      "choiceNote": "Choose ENGL 354 or 355"
+    },
+    {
+      "id": "ENGL326",
+      "code": "ENGL 326",
+      "title": "Shakespeare: Selected Major Plays",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "engl-shakespeare",
+      "choiceNote": "Choose ENGL 326 or 327"
+    },
+    {
+      "id": "ENGL327",
+      "code": "ENGL 327",
+      "title": "Studies in Shakespeare",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "engl-shakespeare",
+      "choiceNote": "Choose ENGL 326 or 327"
+    }
   ],
   "electiveOptions": {
     "engl-pre-1700": {

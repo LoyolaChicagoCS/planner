@@ -10,8 +10,20 @@
   "hasCompletionEstimate": false,
   "catalogUrl": "https://catalog.luc.edu/undergraduate/arts-sciences/medieval-studies/medieval-studies-minor/",
   "courses": [
-    { "id": "MEDIEVAL_STUDIES_MINOR_MSTU300", "code": "MSTU 300", "title": "Medieval Studies Internship", "credits": 1.5, "category": "major" },
-    { "id": "MEDIEVAL_STUDIES_MINOR_MSTU301", "code": "MSTU 301", "title": "Integrative Experience II", "credits": 1.5, "category": "major" }
+    {
+      "id": "MEDIEVAL_STUDIES_MINOR_MSTU300",
+      "code": "MSTU 300",
+      "title": "Integrative Experience I",
+      "credits": 1.5,
+      "category": "major"
+    },
+    {
+      "id": "MEDIEVAL_STUDIES_MINOR_MSTU301",
+      "code": "MSTU 301",
+      "title": "Integrative Experience II",
+      "credits": 1.5,
+      "category": "major"
+    }
   ],
   "electiveOptions": {
     "choiceAreas": {
@@ -19,38 +31,198 @@
       "label": "Required Choice Areas",
       "note": "Choose 9 credit hours on medieval topics from History, Theology, Philosophy, or English. No more than three courses from a single academic discipline may count toward the minor. At least two courses must be taken at the 300-level.",
       "courses": [
-        { "id": "MEDIEVAL_STUDIES_MINOR_ENGL320", "code": "ENGL 320", "title": "English Literature: Medieval Period", "credits": 3 },
-        { "id": "MEDIEVAL_STUDIES_MINOR_ENGL321", "code": "ENGL 321", "title": "Intro to Old English", "credits": 3 },
-        { "id": "MEDIEVAL_STUDIES_MINOR_ENGL322", "code": "ENGL 322", "title": "Chaucer", "credits": 3 },
-        { "id": "MEDIEVAL_STUDIES_MINOR_ENGL323", "code": "ENGL 323", "title": "Studies in Medieval Literature", "credits": 3 },
-        { "id": "MEDIEVAL_STUDIES_MINOR_HIST253A", "code": "HIST 253A", "title": "Barbarians and the Fall of the Roman Empire", "credits": 3 },
-        { "id": "MEDIEVAL_STUDIES_MINOR_HIST254A", "code": "HIST 254A", "title": "The Vikings", "credits": 3 },
-        { "id": "MEDIEVAL_STUDIES_MINOR_HIST257A", "code": "HIST 257A", "title": "Witchcraft and Science in Pre-Modern Europe", "credits": 3 },
-        { "id": "MEDIEVAL_STUDIES_MINOR_HIST303", "code": "HIST 303", "title": "Pre-Industrial City in Europe", "credits": 3 },
-        { "id": "MEDIEVAL_STUDIES_MINOR_HIST309", "code": "HIST 309", "title": "Shipwreck Archaeology", "credits": 3 },
-        { "id": "MEDIEVAL_STUDIES_MINOR_HIST310", "code": "HIST 310", "title": "The Middle Ages", "credits": 3 },
-        { "id": "MEDIEVAL_STUDIES_MINOR_HIST310A", "code": "HIST 310A", "title": "Medieval World 1100-1500", "credits": 3 },
-        { "id": "MEDIEVAL_STUDIES_MINOR_HIST310C", "code": "HIST 310C", "title": "Medieval Women", "credits": 3 },
-        { "id": "MEDIEVAL_STUDIES_MINOR_HIST310D", "code": "HIST 310D", "title": "Medieval Popular Religion", "credits": 3 },
-        { "id": "MEDIEVAL_STUDIES_MINOR_HIST310F", "code": "HIST 310F", "title": "Medieval Inquisitions and Heresy", "credits": 3 },
-        { "id": "MEDIEVAL_STUDIES_MINOR_HIST310G", "code": "HIST 310G", "title": "Supernatural in the Middle Ages", "credits": 3 },
-        { "id": "MEDIEVAL_STUDIES_MINOR_HIST310L", "code": "HIST 310L", "title": "Love and Violence in Medieval Culture and Society", "credits": 3 },
-        { "id": "MEDIEVAL_STUDIES_MINOR_HIST311B", "code": "HIST 311B", "title": "The Crusades: Christianity and Islam", "credits": 3 },
-        { "id": "MEDIEVAL_STUDIES_MINOR_HIST312", "code": "HIST 312", "title": "England to 1485", "credits": 3 },
-        { "id": "MEDIEVAL_STUDIES_MINOR_HIST314", "code": "HIST 314", "title": "Renaissance", "credits": 3 },
-        { "id": "MEDIEVAL_STUDIES_MINOR_HIST340B", "code": "HIST 340B", "title": "Introduction to Islamic History", "credits": 3 },
-        { "id": "MEDIEVAL_STUDIES_MINOR_PHIL305", "code": "PHIL 305", "title": "Medieval Philosophy", "credits": 3 },
-        { "id": "MEDIEVAL_STUDIES_MINOR_PHIL320", "code": "PHIL 320", "title": "The Philosophy of St Augustine", "credits": 3 },
-        { "id": "MEDIEVAL_STUDIES_MINOR_PHIL340", "code": "PHIL 340", "title": "Philosophy of St Thomas Aquinas", "credits": 3 },
-        { "id": "MEDIEVAL_STUDIES_MINOR_PHIL396", "code": "PHIL 396", "title": "Seminar in Medieval Philosophy", "credits": 3 },
-        { "id": "MEDIEVAL_STUDIES_MINOR_THEO281", "code": "THEO 281", "title": "Christianity Through Time", "credits": 3 },
-        { "id": "MEDIEVAL_STUDIES_MINOR_THEO317", "code": "THEO 317", "title": "Christian Thought: Ancient-Medieval", "credits": 3 },
-        { "id": "MEDIEVAL_STUDIES_MINOR_FNAR338", "code": "FNAR 338", "title": "Medieval Art", "credits": 3 },
-        { "id": "MEDIEVAL_STUDIES_MINOR_FREN314", "code": "FREN 314", "title": "Survey of Medieval Literature", "credits": 3 },
-        { "id": "MEDIEVAL_STUDIES_MINOR_ITAL312", "code": "ITAL 312", "title": "Dante-The Divine Comedy", "credits": 3 },
-        { "id": "MEDIEVAL_STUDIES_MINOR_ITAL314", "code": "ITAL 314", "title": "Survey 13th & 14th Century Literature", "credits": 3 },
-        { "id": "MEDIEVAL_STUDIES_MINOR_LATN387", "code": "LATN 387", "title": "Medieval Latin", "credits": 3 },
-        { "id": "MEDIEVAL_STUDIES_MINOR_SPAN314", "code": "SPAN 314", "title": "Survey of Medieval Literature", "credits": 3 }
+        {
+          "id": "MEDIEVAL_STUDIES_MINOR_ENGL320",
+          "code": "ENGL 320",
+          "title": "English Literature: Medieval Period",
+          "credits": 3
+        },
+        {
+          "id": "MEDIEVAL_STUDIES_MINOR_ENGL321",
+          "code": "ENGL 321",
+          "title": "Intro to Old English",
+          "credits": 3
+        },
+        {
+          "id": "MEDIEVAL_STUDIES_MINOR_ENGL322",
+          "code": "ENGL 322",
+          "title": "Chaucer",
+          "credits": 3
+        },
+        {
+          "id": "MEDIEVAL_STUDIES_MINOR_ENGL323",
+          "code": "ENGL 323",
+          "title": "Studies in Medieval Literature",
+          "credits": 3
+        },
+        {
+          "id": "MEDIEVAL_STUDIES_MINOR_HIST253A",
+          "code": "HIST 253A",
+          "title": "Barbarians and the Fall of the Roman Empire",
+          "credits": 3
+        },
+        {
+          "id": "MEDIEVAL_STUDIES_MINOR_HIST254A",
+          "code": "HIST 254A",
+          "title": "The Vikings",
+          "credits": 3
+        },
+        {
+          "id": "MEDIEVAL_STUDIES_MINOR_HIST257A",
+          "code": "HIST 257A",
+          "title": "Witchcraft and Science in Pre-Modern Europe",
+          "credits": 3
+        },
+        {
+          "id": "MEDIEVAL_STUDIES_MINOR_HIST303",
+          "code": "HIST 303",
+          "title": "Pre-Industrial City in Europe",
+          "credits": 3
+        },
+        {
+          "id": "MEDIEVAL_STUDIES_MINOR_HIST309",
+          "code": "HIST 309",
+          "title": "Shipwreck Archaeology",
+          "credits": 3
+        },
+        {
+          "id": "MEDIEVAL_STUDIES_MINOR_HIST310",
+          "code": "HIST 310",
+          "title": "The Middle Ages",
+          "credits": 3
+        },
+        {
+          "id": "MEDIEVAL_STUDIES_MINOR_HIST310A",
+          "code": "HIST 310A",
+          "title": "Medieval World 1100-1500",
+          "credits": 3
+        },
+        {
+          "id": "MEDIEVAL_STUDIES_MINOR_HIST310C",
+          "code": "HIST 310C",
+          "title": "Medieval Women",
+          "credits": 3
+        },
+        {
+          "id": "MEDIEVAL_STUDIES_MINOR_HIST310D",
+          "code": "HIST 310D",
+          "title": "Medieval Popular Religion",
+          "credits": 3
+        },
+        {
+          "id": "MEDIEVAL_STUDIES_MINOR_HIST310F",
+          "code": "HIST 310F",
+          "title": "Medieval Inquisitions and Heresy",
+          "credits": 3
+        },
+        {
+          "id": "MEDIEVAL_STUDIES_MINOR_HIST310G",
+          "code": "HIST 310G",
+          "title": "Supernatural in the Middle Ages",
+          "credits": 3
+        },
+        {
+          "id": "MEDIEVAL_STUDIES_MINOR_HIST310L",
+          "code": "HIST 310L",
+          "title": "Love and Violence in Medieval Culture and Society",
+          "credits": 3
+        },
+        {
+          "id": "MEDIEVAL_STUDIES_MINOR_HIST311B",
+          "code": "HIST 311B",
+          "title": "The Crusades: Christianity and Islam",
+          "credits": 3
+        },
+        {
+          "id": "MEDIEVAL_STUDIES_MINOR_HIST312",
+          "code": "HIST 312",
+          "title": "England to 1485",
+          "credits": 3
+        },
+        {
+          "id": "MEDIEVAL_STUDIES_MINOR_HIST314",
+          "code": "HIST 314",
+          "title": "Renaissance",
+          "credits": 3
+        },
+        {
+          "id": "MEDIEVAL_STUDIES_MINOR_HIST340B",
+          "code": "HIST 340B",
+          "title": "Introduction to Islamic History",
+          "credits": 3
+        },
+        {
+          "id": "MEDIEVAL_STUDIES_MINOR_PHIL305",
+          "code": "PHIL 305",
+          "title": "Medieval Philosophy",
+          "credits": 3
+        },
+        {
+          "id": "MEDIEVAL_STUDIES_MINOR_PHIL320",
+          "code": "PHIL 320",
+          "title": "The Philosophy of St Augustine",
+          "credits": 3
+        },
+        {
+          "id": "MEDIEVAL_STUDIES_MINOR_PHIL340",
+          "code": "PHIL 340",
+          "title": "Philosophy of St Thomas Aquinas",
+          "credits": 3
+        },
+        {
+          "id": "MEDIEVAL_STUDIES_MINOR_PHIL396",
+          "code": "PHIL 396",
+          "title": "Seminar in Medieval Philosophy",
+          "credits": 3
+        },
+        {
+          "id": "MEDIEVAL_STUDIES_MINOR_THEO281",
+          "code": "THEO 281",
+          "title": "Christianity Through Time",
+          "credits": 3
+        },
+        {
+          "id": "MEDIEVAL_STUDIES_MINOR_THEO317",
+          "code": "THEO 317",
+          "title": "Christian Thought: Ancient-Medieval",
+          "credits": 3
+        },
+        {
+          "id": "MEDIEVAL_STUDIES_MINOR_FNAR338",
+          "code": "FNAR 338",
+          "title": "Medieval Art",
+          "credits": 3
+        },
+        {
+          "id": "MEDIEVAL_STUDIES_MINOR_FREN314",
+          "code": "FREN 314",
+          "title": "Survey of Medieval Literature",
+          "credits": 3
+        },
+        {
+          "id": "MEDIEVAL_STUDIES_MINOR_ITAL312",
+          "code": "ITAL 312",
+          "title": "Dante-The Divine Comedy",
+          "credits": 3
+        },
+        {
+          "id": "MEDIEVAL_STUDIES_MINOR_ITAL314",
+          "code": "ITAL 314",
+          "title": "Survey 13th & 14th Century Literature",
+          "credits": 3
+        },
+        {
+          "id": "MEDIEVAL_STUDIES_MINOR_LATN387",
+          "code": "LATN 387",
+          "title": "Medieval Latin",
+          "credits": 3
+        },
+        {
+          "id": "MEDIEVAL_STUDIES_MINOR_SPAN314",
+          "code": "SPAN 314",
+          "title": "Survey of Medieval Literature",
+          "credits": 3
+        }
       ]
     },
     "electives": {
@@ -58,7 +230,13 @@
       "label": "Required Electives",
       "note": "Choose 6 additional credit hours from the same approved Medieval Studies course list (English, History, Philosophy, Theology, and other medieval-topic options). No more than three courses from a single academic discipline may count toward the minor.",
       "courses": [
-        { "id": "MEDIEVAL_STUDIES_MINOR_POOL1", "code": "MSTU 3XX", "title": "Approved Medieval Studies elective", "credits": 3, "uniqueProgress": true }
+        {
+          "id": "MEDIEVAL_STUDIES_MINOR_POOL1",
+          "code": "MSTU 3XX",
+          "title": "Approved Medieval Studies elective",
+          "credits": 3,
+          "uniqueProgress": true
+        }
       ]
     }
   },

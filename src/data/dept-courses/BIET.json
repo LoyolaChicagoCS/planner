@@ -1,0 +1,25 @@
+{
+  "catalog": "2026-2027",
+  "code": "BIET",
+  "name": "Bioethics",
+  "sourceUrl": "https://catalog.luc.edu/course-descriptions/biet/",
+  "fetchedAt": "2026-06-21",
+  "courses": [
+    {
+      "id": "BIET395",
+      "code": "BIET 395",
+      "title": "Special Topics",
+      "credits": 3,
+      "isTopics": true,
+      "topicsCount": 5
+    },
+    {
+      "id": "BIET396",
+      "code": "BIET 396",
+      "title": "Bioethics Minor Capstone",
+      "credits": 3,
+      "isTopics": true,
+      "topicsCount": 4
+    }
+  ]
+}

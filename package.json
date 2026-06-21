@@ -9,6 +9,7 @@
     "lint": "eslint .",
     "test": "vitest run",
     "typecheck": "tsc --noEmit",
+    "check:programs": "node scripts/build-programs.mjs --check",
     "preview": "vite preview"
   },
   "dependencies": {

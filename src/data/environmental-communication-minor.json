@@ -16,10 +16,30 @@
       "label": "Environmental Courses",
       "note": "Select two of the following (6 hours).",
       "courses": [
-        { "id": "ENVIRONMENTAL_COMMUNICATION_MINOR_ENVS218", "code": "ENVS 218", "title": "Biodiversity & Biogeography", "credits": 3 },
-        { "id": "ENVIRONMENTAL_COMMUNICATION_MINOR_ENVS224", "code": "ENVS 224", "title": "Climate & Climate Change", "credits": 3 },
-        { "id": "ENVIRONMENTAL_COMMUNICATION_MINOR_ENVS273", "code": "ENVS 273", "title": "Energy and the Environment", "credits": 3 },
-        { "id": "ENVIRONMENTAL_COMMUNICATION_MINOR_ENVS283", "code": "ENVS 283", "title": "Environmental Sustainability 2", "credits": 3 }
+        {
+          "id": "ENVIRONMENTAL_COMMUNICATION_MINOR_ENVS218",
+          "code": "ENVS 218",
+          "title": "Biodiversity & Biogeography",
+          "credits": 3
+        },
+        {
+          "id": "ENVIRONMENTAL_COMMUNICATION_MINOR_ENVS224",
+          "code": "ENVS 224",
+          "title": "Climate & Climate Change",
+          "credits": 3
+        },
+        {
+          "id": "ENVIRONMENTAL_COMMUNICATION_MINOR_ENVS273",
+          "code": "ENVS 273",
+          "title": "Energy and the Environment",
+          "credits": 3
+        },
+        {
+          "id": "ENVIRONMENTAL_COMMUNICATION_MINOR_ENVS283",
+          "code": "ENVS 283",
+          "title": "Environmental Sustainability",
+          "credits": 3
+        }
       ]
     },
     "commCore": {
@@ -27,18 +47,90 @@
       "label": "Communication Courses",
       "note": "Select two of the following (6 hours). Some entries are 'A or B' choices: COMM 135 or COMM 145; COMM 309 or COMM 322; COMM 282 or COMM 362.",
       "courses": [
-        { "id": "ENVIRONMENTAL_COMMUNICATION_MINOR_COMM130", "code": "COMM 130", "title": "Intro to Audio Production", "credits": 3 },
-        { "id": "ENVIRONMENTAL_COMMUNICATION_MINOR_COMM135", "code": "COMM 135", "title": "Intro to Video Production", "credits": 3, "requirementGroup": "ENVIRONMENTAL_COMMUNICATION_MINOR-commgrp1", "choiceNote": "Choose COMM 135 or COMM 145" },
-        { "id": "ENVIRONMENTAL_COMMUNICATION_MINOR_COMM145", "code": "COMM 145", "title": "Video for Journalists", "credits": 3, "requirementGroup": "ENVIRONMENTAL_COMMUNICATION_MINOR-commgrp1", "choiceNote": "Choose COMM 135 or COMM 145" },
-        { "id": "ENVIRONMENTAL_COMMUNICATION_MINOR_COMM210", "code": "COMM 210", "title": "Principles of Public Relations", "credits": 3 },
-        { "id": "ENVIRONMENTAL_COMMUNICATION_MINOR_COMM213", "code": "COMM 213", "title": "Digital Foundations", "credits": 3 },
-        { "id": "ENVIRONMENTAL_COMMUNICATION_MINOR_COMM236", "code": "COMM 236", "title": "Persuasive Presentations", "credits": 3 },
-        { "id": "ENVIRONMENTAL_COMMUNICATION_MINOR_COMM260", "code": "COMM 260", "title": "Environmental Journalism", "credits": 3 },
-        { "id": "ENVIRONMENTAL_COMMUNICATION_MINOR_COMM275", "code": "COMM 275", "title": "Web Design and Usability", "credits": 3 },
-        { "id": "ENVIRONMENTAL_COMMUNICATION_MINOR_COMM309", "code": "COMM 309", "title": "Designing Media for Social Change", "credits": 3, "requirementGroup": "ENVIRONMENTAL_COMMUNICATION_MINOR-commgrp2", "choiceNote": "Choose COMM 309 or COMM 322" },
-        { "id": "ENVIRONMENTAL_COMMUNICATION_MINOR_COMM322", "code": "COMM 322", "title": "Guerilla Media", "credits": 3, "requirementGroup": "ENVIRONMENTAL_COMMUNICATION_MINOR-commgrp2", "choiceNote": "Choose COMM 309 or COMM 322" },
-        { "id": "ENVIRONMENTAL_COMMUNICATION_MINOR_COMM282", "code": "COMM 282", "title": "Media Law", "credits": 3, "requirementGroup": "ENVIRONMENTAL_COMMUNICATION_MINOR-commgrp3", "choiceNote": "Choose COMM 282 or COMM 362" },
-        { "id": "ENVIRONMENTAL_COMMUNICATION_MINOR_COMM362", "code": "COMM 362", "title": "Multimedia Journalism Research Methods", "credits": 3, "requirementGroup": "ENVIRONMENTAL_COMMUNICATION_MINOR-commgrp3", "choiceNote": "Choose COMM 282 or COMM 362" }
+        {
+          "id": "ENVIRONMENTAL_COMMUNICATION_MINOR_COMM130",
+          "code": "COMM 130",
+          "title": "Intro to Audio Production",
+          "credits": 3
+        },
+        {
+          "id": "ENVIRONMENTAL_COMMUNICATION_MINOR_COMM135",
+          "code": "COMM 135",
+          "title": "Intro to Video Production",
+          "credits": 3,
+          "requirementGroup": "ENVIRONMENTAL_COMMUNICATION_MINOR-commgrp1",
+          "choiceNote": "Choose COMM 135 or COMM 145"
+        },
+        {
+          "id": "ENVIRONMENTAL_COMMUNICATION_MINOR_COMM145",
+          "code": "COMM 145",
+          "title": "Video for Journalists",
+          "credits": 3,
+          "requirementGroup": "ENVIRONMENTAL_COMMUNICATION_MINOR-commgrp1",
+          "choiceNote": "Choose COMM 135 or COMM 145"
+        },
+        {
+          "id": "ENVIRONMENTAL_COMMUNICATION_MINOR_COMM210",
+          "code": "COMM 210",
+          "title": "Principles of Public Relations",
+          "credits": 3
+        },
+        {
+          "id": "ENVIRONMENTAL_COMMUNICATION_MINOR_COMM213",
+          "code": "COMM 213",
+          "title": "Digital Foundations",
+          "credits": 3
+        },
+        {
+          "id": "ENVIRONMENTAL_COMMUNICATION_MINOR_COMM236",
+          "code": "COMM 236",
+          "title": "Persuasive Presentations",
+          "credits": 3
+        },
+        {
+          "id": "ENVIRONMENTAL_COMMUNICATION_MINOR_COMM260",
+          "code": "COMM 260",
+          "title": "Environmental Journalism",
+          "credits": 3
+        },
+        {
+          "id": "ENVIRONMENTAL_COMMUNICATION_MINOR_COMM275",
+          "code": "COMM 275",
+          "title": "Web Design and Usability",
+          "credits": 3
+        },
+        {
+          "id": "ENVIRONMENTAL_COMMUNICATION_MINOR_COMM309",
+          "code": "COMM 309",
+          "title": "Designing Media for Social Change",
+          "credits": 3,
+          "requirementGroup": "ENVIRONMENTAL_COMMUNICATION_MINOR-commgrp2",
+          "choiceNote": "Choose COMM 309 or COMM 322"
+        },
+        {
+          "id": "ENVIRONMENTAL_COMMUNICATION_MINOR_COMM322",
+          "code": "COMM 322",
+          "title": "Guerilla Media",
+          "credits": 3,
+          "requirementGroup": "ENVIRONMENTAL_COMMUNICATION_MINOR-commgrp2",
+          "choiceNote": "Choose COMM 309 or COMM 322"
+        },
+        {
+          "id": "ENVIRONMENTAL_COMMUNICATION_MINOR_COMM282",
+          "code": "COMM 282",
+          "title": "Media Law",
+          "credits": 3,
+          "requirementGroup": "ENVIRONMENTAL_COMMUNICATION_MINOR-commgrp3",
+          "choiceNote": "Choose COMM 282 or COMM 362"
+        },
+        {
+          "id": "ENVIRONMENTAL_COMMUNICATION_MINOR_COMM362",
+          "code": "COMM 362",
+          "title": "Multimedia Journalism Research Methods",
+          "credits": 3,
+          "requirementGroup": "ENVIRONMENTAL_COMMUNICATION_MINOR-commgrp3",
+          "choiceNote": "Choose COMM 282 or COMM 362"
+        }
       ]
     },
     "listA": {
@@ -46,10 +138,30 @@
       "label": "Elective Options List A",
       "note": "Select one from List A (3 hours).",
       "courses": [
-        { "id": "ENVIRONMENTAL_COMMUNICATION_MINOR_COMM227", "code": "COMM 227", "title": "Social Justice and Public Communication", "credits": 3 },
-        { "id": "ENVIRONMENTAL_COMMUNICATION_MINOR_COMM306", "code": "COMM 306", "title": "Environmental Communication & Advocacy", "credits": 3 },
-        { "id": "ENVIRONMENTAL_COMMUNICATION_MINOR_COMM307", "code": "COMM 307", "title": "Communication and Social Movements", "credits": 3 },
-        { "id": "ENVIRONMENTAL_COMMUNICATION_MINOR_COMM379", "code": "COMM 379", "title": "Digital Sustainability", "credits": 3 }
+        {
+          "id": "ENVIRONMENTAL_COMMUNICATION_MINOR_COMM227",
+          "code": "COMM 227",
+          "title": "Social Justice and Public Communication",
+          "credits": 3
+        },
+        {
+          "id": "ENVIRONMENTAL_COMMUNICATION_MINOR_COMM306",
+          "code": "COMM 306",
+          "title": "Environmental Communication & Advocacy",
+          "credits": 3
+        },
+        {
+          "id": "ENVIRONMENTAL_COMMUNICATION_MINOR_COMM307",
+          "code": "COMM 307",
+          "title": "Communication and Social Movements",
+          "credits": 3
+        },
+        {
+          "id": "ENVIRONMENTAL_COMMUNICATION_MINOR_COMM379",
+          "code": "COMM 379",
+          "title": "Digital Sustainability",
+          "credits": 3
+        }
       ]
     },
     "listB": {
@@ -57,35 +169,191 @@
       "label": "Elective Options List B",
       "note": "Select one from List B (3 hours).",
       "courses": [
-        { "id": "ENVIRONMENTAL_COMMUNICATION_MINOR_ENVS204", "code": "ENVS 204", "title": "Gender, Health & Environment", "credits": 3 },
-        { "id": "ENVIRONMENTAL_COMMUNICATION_MINOR_ENVS207", "code": "ENVS 207", "title": "Plants and Civilization", "credits": 3 },
-        { "id": "ENVIRONMENTAL_COMMUNICATION_MINOR_ENVS218_B", "code": "ENVS 218", "title": "Biodiversity & Biogeography", "credits": 3 },
-        { "id": "ENVIRONMENTAL_COMMUNICATION_MINOR_ENVS226", "code": "ENVS 226", "title": "Science & Conservation of Freshwater Ecosystems", "credits": 3 },
-        { "id": "ENVIRONMENTAL_COMMUNICATION_MINOR_ENVS273_B", "code": "ENVS 273", "title": "Energy and the Environment", "credits": 3 },
-        { "id": "ENVIRONMENTAL_COMMUNICATION_MINOR_ENVS279", "code": "ENVS 279", "title": "Climate and History", "credits": 3 },
-        { "id": "ENVIRONMENTAL_COMMUNICATION_MINOR_ENVS283_B", "code": "ENVS 283", "title": "Environmental Sustainability 2", "credits": 3 },
-        { "id": "ENVIRONMENTAL_COMMUNICATION_MINOR_ENVS284", "code": "ENVS 284", "title": "Environmental Justice", "credits": 3 },
-        { "id": "ENVIRONMENTAL_COMMUNICATION_MINOR_ENVS297", "code": "ENVS 297", "title": "North American Environmental History", "credits": 3 },
-        { "id": "ENVIRONMENTAL_COMMUNICATION_MINOR_ENVS310", "code": "ENVS 310", "title": "Introduction to Environmental Law & Policy", "credits": 3 },
-        { "id": "ENVIRONMENTAL_COMMUNICATION_MINOR_ENVS311", "code": "ENVS 311", "title": "Natural Resources and Land Use Law & Policy", "credits": 3 },
-        { "id": "ENVIRONMENTAL_COMMUNICATION_MINOR_ENVS312", "code": "ENVS 312", "title": "Water Law & Policy", "credits": 3 },
-        { "id": "ENVIRONMENTAL_COMMUNICATION_MINOR_ENVS313", "code": "ENVS 313", "title": "Energy Law & Policy", "credits": 3 },
-        { "id": "ENVIRONMENTAL_COMMUNICATION_MINOR_ENVS338", "code": "ENVS 338", "title": "Climate Change and Human Health", "credits": 3 },
-        { "id": "ENVIRONMENTAL_COMMUNICATION_MINOR_ENVS350A", "code": "ENVS 350A", "title": "Solutions to Environmental Problems: Water", "credits": 3 },
-        { "id": "ENVIRONMENTAL_COMMUNICATION_MINOR_ENVS350B", "code": "ENVS 350B", "title": "Solutions to Environmental Problems: Biogas", "credits": 3 },
-        { "id": "ENVIRONMENTAL_COMMUNICATION_MINOR_ENVS350C", "code": "ENVS 350C", "title": "Solutions to Environmental Problems: Climate Action", "credits": 3 },
-        { "id": "ENVIRONMENTAL_COMMUNICATION_MINOR_ENVS350F", "code": "ENVS 350F", "title": "Solutions to Environmental Problems: Food Systems", "credits": 3 }
+        {
+          "id": "ENVIRONMENTAL_COMMUNICATION_MINOR_ENVS204",
+          "code": "ENVS 204",
+          "title": "Gender, Health & Environment",
+          "credits": 3
+        },
+        {
+          "id": "ENVIRONMENTAL_COMMUNICATION_MINOR_ENVS207",
+          "code": "ENVS 207",
+          "title": "Plants and Civilization",
+          "credits": 3
+        },
+        {
+          "id": "ENVIRONMENTAL_COMMUNICATION_MINOR_ENVS218_B",
+          "code": "ENVS 218",
+          "title": "Biodiversity & Biogeography",
+          "credits": 3
+        },
+        {
+          "id": "ENVIRONMENTAL_COMMUNICATION_MINOR_ENVS226",
+          "code": "ENVS 226",
+          "title": "Science & Conservation of Freshwater Ecosystems",
+          "credits": 3
+        },
+        {
+          "id": "ENVIRONMENTAL_COMMUNICATION_MINOR_ENVS273_B",
+          "code": "ENVS 273",
+          "title": "Energy and the Environment",
+          "credits": 3
+        },
+        {
+          "id": "ENVIRONMENTAL_COMMUNICATION_MINOR_ENVS279",
+          "code": "ENVS 279",
+          "title": "Climate and History",
+          "credits": 3
+        },
+        {
+          "id": "ENVIRONMENTAL_COMMUNICATION_MINOR_ENVS283_B",
+          "code": "ENVS 283",
+          "title": "Environmental Sustainability",
+          "credits": 3
+        },
+        {
+          "id": "ENVIRONMENTAL_COMMUNICATION_MINOR_ENVS284",
+          "code": "ENVS 284",
+          "title": "Environmental Justice",
+          "credits": 3
+        },
+        {
+          "id": "ENVIRONMENTAL_COMMUNICATION_MINOR_ENVS297",
+          "code": "ENVS 297",
+          "title": "North American Environmental History",
+          "credits": 3
+        },
+        {
+          "id": "ENVIRONMENTAL_COMMUNICATION_MINOR_ENVS310",
+          "code": "ENVS 310",
+          "title": "Introduction to Environmental Law & Policy",
+          "credits": 3
+        },
+        {
+          "id": "ENVIRONMENTAL_COMMUNICATION_MINOR_ENVS311",
+          "code": "ENVS 311",
+          "title": "Natural Resources and Land Use Law & Policy",
+          "credits": 3
+        },
+        {
+          "id": "ENVIRONMENTAL_COMMUNICATION_MINOR_ENVS312",
+          "code": "ENVS 312",
+          "title": "Water Law & Policy",
+          "credits": 3
+        },
+        {
+          "id": "ENVIRONMENTAL_COMMUNICATION_MINOR_ENVS313",
+          "code": "ENVS 313",
+          "title": "Energy Law & Policy",
+          "credits": 3
+        },
+        {
+          "id": "ENVIRONMENTAL_COMMUNICATION_MINOR_ENVS338",
+          "code": "ENVS 338",
+          "title": "Climate Change and Human Health",
+          "credits": 3
+        },
+        {
+          "id": "ENVIRONMENTAL_COMMUNICATION_MINOR_ENVS350A",
+          "code": "ENVS 350A",
+          "title": "Solutions to Environmental Problems: Water",
+          "credits": 3
+        },
+        {
+          "id": "ENVIRONMENTAL_COMMUNICATION_MINOR_ENVS350B",
+          "code": "ENVS 350B",
+          "title": "Solutions to Environmental Problems: Biogas",
+          "credits": 3
+        },
+        {
+          "id": "ENVIRONMENTAL_COMMUNICATION_MINOR_ENVS350C",
+          "code": "ENVS 350C",
+          "title": "Solutions to Environmental Problems: Climate Action",
+          "credits": 3
+        },
+        {
+          "id": "ENVIRONMENTAL_COMMUNICATION_MINOR_ENVS350F",
+          "code": "ENVS 350F",
+          "title": "Solutions to Environmental Problems: Food Systems",
+          "credits": 3
+        }
       ]
     }
   },
   "coreRequirements": [],
   "checklist": [],
   "roadmap": [
-    { "year": 2, "semester": "Fall", "credits": 3, "items": [ { "label": "ENVS Required Course #1", "credits": 3, "isElective": true } ] },
-    { "year": 2, "semester": "Spring", "credits": 3, "items": [ { "label": "ENVS Required Course #2", "credits": 3, "isElective": true } ] },
-    { "year": 3, "semester": "Fall", "credits": 3, "items": [ { "label": "COMM Required Course #1", "credits": 3, "isElective": true } ] },
-    { "year": 3, "semester": "Spring", "credits": 3, "items": [ { "label": "COMM Required Course #2", "credits": 3, "isElective": true } ] },
-    { "year": 4, "semester": "Fall", "credits": 3, "items": [ { "label": "ENVS Option #1", "credits": 3, "isElective": true } ] },
-    { "year": 4, "semester": "Spring", "credits": 3, "items": [ { "label": "COMM Option #1", "credits": 3, "isElective": true } ] }
+    {
+      "year": 2,
+      "semester": "Fall",
+      "credits": 3,
+      "items": [
+        {
+          "label": "ENVS Required Course #1",
+          "credits": 3,
+          "isElective": true
+        }
+      ]
+    },
+    {
+      "year": 2,
+      "semester": "Spring",
+      "credits": 3,
+      "items": [
+        {
+          "label": "ENVS Required Course #2",
+          "credits": 3,
+          "isElective": true
+        }
+      ]
+    },
+    {
+      "year": 3,
+      "semester": "Fall",
+      "credits": 3,
+      "items": [
+        {
+          "label": "COMM Required Course #1",
+          "credits": 3,
+          "isElective": true
+        }
+      ]
+    },
+    {
+      "year": 3,
+      "semester": "Spring",
+      "credits": 3,
+      "items": [
+        {
+          "label": "COMM Required Course #2",
+          "credits": 3,
+          "isElective": true
+        }
+      ]
+    },
+    {
+      "year": 4,
+      "semester": "Fall",
+      "credits": 3,
+      "items": [
+        {
+          "label": "ENVS Option #1",
+          "credits": 3,
+          "isElective": true
+        }
+      ]
+    },
+    {
+      "year": 4,
+      "semester": "Spring",
+      "credits": 3,
+      "items": [
+        {
+          "label": "COMM Option #1",
+          "credits": 3,
+          "isElective": true
+        }
+      ]
+    }
   ]
 }

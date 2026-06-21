@@ -16,16 +16,76 @@
       "label": "Chinese Language Courses",
       "note": "Of the 18 credit hours, 12 credit hours must be in Chinese language courses.",
       "courses": [
-        { "id": "CHINESE_LANGUAGE_CULTURE_MINOR_CHIN101", "code": "CHIN 101", "title": "Chinese I", "credits": 3, "uniqueProgress": true },
-        { "id": "CHINESE_LANGUAGE_CULTURE_MINOR_CHIN102", "code": "CHIN 102", "title": "Chinese II", "credits": 3, "uniqueProgress": true },
-        { "id": "CHINESE_LANGUAGE_CULTURE_MINOR_CHIN103", "code": "CHIN 103", "title": "Chinese III", "credits": 3, "uniqueProgress": true },
-        { "id": "CHINESE_LANGUAGE_CULTURE_MINOR_CHIN104", "code": "CHIN 104", "title": "Chinese IV", "credits": 3, "uniqueProgress": true },
-        { "id": "CHINESE_LANGUAGE_CULTURE_MINOR_CHIN190", "code": "CHIN 190", "title": "Business Chinese I", "credits": 3, "uniqueProgress": true },
-        { "id": "CHINESE_LANGUAGE_CULTURE_MINOR_CHIN191", "code": "CHIN 191", "title": "Business Chinese II", "credits": 3, "uniqueProgress": true },
-        { "id": "CHINESE_LANGUAGE_CULTURE_MINOR_CHIN250", "code": "CHIN 250", "title": "Composition and Conversation", "credits": 3, "uniqueProgress": true },
-        { "id": "CHINESE_LANGUAGE_CULTURE_MINOR_CHIN251", "code": "CHIN 251", "title": "Advanced Composition & Conversation", "credits": 3, "uniqueProgress": true },
-        { "id": "CHINESE_LANGUAGE_CULTURE_MINOR_CHIN252", "code": "CHIN 252", "title": "Advanced Composition and Conversation II", "credits": 3, "uniqueProgress": true },
-        { "id": "CHINESE_LANGUAGE_CULTURE_MINOR_CHIN253", "code": "CHIN 253", "title": "Advanced Composition and Conversation III", "credits": 3, "uniqueProgress": true }
+        {
+          "id": "CHINESE_LANGUAGE_CULTURE_MINOR_CHIN101",
+          "code": "CHIN 101",
+          "title": "Chinese I",
+          "credits": 3,
+          "uniqueProgress": true
+        },
+        {
+          "id": "CHINESE_LANGUAGE_CULTURE_MINOR_CHIN102",
+          "code": "CHIN 102",
+          "title": "Chinese II",
+          "credits": 3,
+          "uniqueProgress": true
+        },
+        {
+          "id": "CHINESE_LANGUAGE_CULTURE_MINOR_CHIN103",
+          "code": "CHIN 103",
+          "title": "Chinese III",
+          "credits": 3,
+          "uniqueProgress": true
+        },
+        {
+          "id": "CHINESE_LANGUAGE_CULTURE_MINOR_CHIN104",
+          "code": "CHIN 104",
+          "title": "Chinese IV",
+          "credits": 3,
+          "uniqueProgress": true
+        },
+        {
+          "id": "CHINESE_LANGUAGE_CULTURE_MINOR_CHIN190",
+          "code": "CHIN 190",
+          "title": "Business Chinese I",
+          "credits": 3,
+          "uniqueProgress": true
+        },
+        {
+          "id": "CHINESE_LANGUAGE_CULTURE_MINOR_CHIN191",
+          "code": "CHIN 191",
+          "title": "Business Chinese II",
+          "credits": 3,
+          "uniqueProgress": true
+        },
+        {
+          "id": "CHINESE_LANGUAGE_CULTURE_MINOR_CHIN250",
+          "code": "CHIN 250",
+          "title": "Composition and Conversation",
+          "credits": 3,
+          "uniqueProgress": true
+        },
+        {
+          "id": "CHINESE_LANGUAGE_CULTURE_MINOR_CHIN251",
+          "code": "CHIN 251",
+          "title": "Advanced Composition & Conversation",
+          "credits": 3,
+          "uniqueProgress": true
+        },
+        {
+          "id": "CHINESE_LANGUAGE_CULTURE_MINOR_CHIN252",
+          "code": "CHIN 252",
+          "title": "Advanced Composition and Conversation II",
+          "credits": 3,
+          "uniqueProgress": true
+        },
+        {
+          "id": "CHINESE_LANGUAGE_CULTURE_MINOR_CHIN253",
+          "code": "CHIN 253",
+          "title": "Advanced Composition and Conversation III",
+          "credits": 3,
+          "uniqueProgress": true
+        }
       ]
     },
     "literatureCulture": {
@@ -33,16 +93,76 @@
       "label": "Chinese Literature and/or China-focused Culture Courses",
       "note": "The remaining 6 credit hours may be fulfilled through coursework in Chinese literature and/or China-focused culture courses.",
       "courses": [
-        { "id": "CHINESE_LANGUAGE_CULTURE_MINOR_LITR245", "code": "LITR 245", "title": "Asian Masterpieces", "credits": 3, "uniqueProgress": true },
-        { "id": "CHINESE_LANGUAGE_CULTURE_MINOR_HIST345A", "code": "HIST 345A", "title": "Traditional China from Antiquity to 1550", "credits": 3, "uniqueProgress": true },
-        { "id": "CHINESE_LANGUAGE_CULTURE_MINOR_HIST346A", "code": "HIST 346A", "title": "Early Modern China: 1550-1800", "credits": 3, "uniqueProgress": true },
-        { "id": "CHINESE_LANGUAGE_CULTURE_MINOR_HIST346B", "code": "HIST 346B", "title": "Reform & Revolution in China, 1800-1949", "credits": 3, "uniqueProgress": true },
-        { "id": "CHINESE_LANGUAGE_CULTURE_MINOR_HIST346C", "code": "HIST 346C", "title": "History of Christianity in China", "credits": 3, "uniqueProgress": true },
-        { "id": "CHINESE_LANGUAGE_CULTURE_MINOR_HIST347A", "code": "HIST 347A", "title": "China Since 1949: The People's Republic", "credits": 3, "uniqueProgress": true },
-        { "id": "CHINESE_LANGUAGE_CULTURE_MINOR_HIST347C", "code": "HIST 347C", "title": "Cultural Revolution-China", "credits": 3, "uniqueProgress": true },
-        { "id": "CHINESE_LANGUAGE_CULTURE_MINOR_HIST347D", "code": "HIST 347D", "title": "Modern Chinese History through Film", "credits": 3, "uniqueProgress": true },
-        { "id": "CHINESE_LANGUAGE_CULTURE_MINOR_PHIL288", "code": "PHIL 288", "title": "Culture and Civilization (when the focus is on China)", "credits": 3, "uniqueProgress": true },
-        { "id": "CHINESE_LANGUAGE_CULTURE_MINOR_UCLR100M", "code": "UCLR 100M", "title": "Interpreting Literature - Modern Langs & Literatures", "credits": 3, "uniqueProgress": true }
+        {
+          "id": "CHINESE_LANGUAGE_CULTURE_MINOR_LITR245",
+          "code": "LITR 245",
+          "title": "Asian Masterpieces",
+          "credits": 3,
+          "uniqueProgress": true
+        },
+        {
+          "id": "CHINESE_LANGUAGE_CULTURE_MINOR_HIST345A",
+          "code": "HIST 345A",
+          "title": "Traditional China from Antiquity to 1550",
+          "credits": 3,
+          "uniqueProgress": true
+        },
+        {
+          "id": "CHINESE_LANGUAGE_CULTURE_MINOR_HIST346A",
+          "code": "HIST 346A",
+          "title": "Early Modern China: 1550-1800",
+          "credits": 3,
+          "uniqueProgress": true
+        },
+        {
+          "id": "CHINESE_LANGUAGE_CULTURE_MINOR_HIST346B",
+          "code": "HIST 346B",
+          "title": "Reform & Revolution in China, 1800-1949",
+          "credits": 3,
+          "uniqueProgress": true
+        },
+        {
+          "id": "CHINESE_LANGUAGE_CULTURE_MINOR_HIST346C",
+          "code": "HIST 346C",
+          "title": "History of Christianity in China",
+          "credits": 3,
+          "uniqueProgress": true
+        },
+        {
+          "id": "CHINESE_LANGUAGE_CULTURE_MINOR_HIST347A",
+          "code": "HIST 347A",
+          "title": "China Since 1949: The People's Republic",
+          "credits": 3,
+          "uniqueProgress": true
+        },
+        {
+          "id": "CHINESE_LANGUAGE_CULTURE_MINOR_HIST347C",
+          "code": "HIST 347C",
+          "title": "Cultural Revolution-China",
+          "credits": 3,
+          "uniqueProgress": true
+        },
+        {
+          "id": "CHINESE_LANGUAGE_CULTURE_MINOR_HIST347D",
+          "code": "HIST 347D",
+          "title": "Modern Chinese History through Film",
+          "credits": 3,
+          "uniqueProgress": true
+        },
+        {
+          "id": "CHINESE_LANGUAGE_CULTURE_MINOR_PHIL288",
+          "code": "PHIL 288",
+          "title": "Culture and Civilization",
+          "credits": 3,
+          "uniqueProgress": true
+        },
+        {
+          "id": "CHINESE_LANGUAGE_CULTURE_MINOR_UCLR100M",
+          "code": "UCLR 100M",
+          "title": "Interpreting Literature - Modern Langs&Literatures",
+          "credits": 3,
+          "uniqueProgress": true
+        }
       ]
     }
   },

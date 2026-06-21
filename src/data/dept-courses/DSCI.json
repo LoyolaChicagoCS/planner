@@ -1,0 +1,51 @@
+{
+  "catalog": "2026-2027",
+  "code": "DSCI",
+  "name": "Data Science",
+  "sourceUrl": "https://catalog.luc.edu/course-descriptions/dsci/",
+  "fetchedAt": "2026-06-21",
+  "courses": [
+    {
+      "id": "DSCI101",
+      "code": "DSCI 101",
+      "title": "Fundamentals of Modern Data Science with R",
+      "credits": 3
+    },
+    {
+      "id": "DSCI399",
+      "code": "DSCI 399",
+      "title": "Data Science Internship",
+      "credits": 1
+    },
+    {
+      "id": "DSCI401",
+      "code": "DSCI 401",
+      "title": "Introduction to Data Science",
+      "credits": 4
+    },
+    {
+      "id": "DSCI470",
+      "code": "DSCI 470",
+      "title": "Data Science Consulting",
+      "credits": 2
+    },
+    {
+      "id": "DSCI494",
+      "code": "DSCI 494",
+      "title": "Data Science Research Design",
+      "credits": 2
+    },
+    {
+      "id": "DSCI499",
+      "code": "DSCI 499",
+      "title": "Data Science Research",
+      "credits": 1
+    },
+    {
+      "id": "DSCI595",
+      "code": "DSCI 595",
+      "title": "Thesis Supervision",
+      "credits": 1
+    }
+  ]
+}

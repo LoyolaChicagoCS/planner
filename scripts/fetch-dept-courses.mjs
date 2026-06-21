@@ -9,7 +9,7 @@
  *   node scripts/fetch-dept-courses.mjs PHIL MATH  # fetch specific departments
  */
 
-import { writeFile, mkdir } from 'node:fs/promises';
+import { writeFile, mkdir, readFile } from 'node:fs/promises';
 import { existsSync } from 'node:fs';
 import path from 'node:path';
 
@@ -78,11 +78,66 @@ const DEPARTMENTS = [
   { code: 'ACCT',  name: 'Accounting' },
   { code: 'ENTR',  name: 'Entrepreneurship' },
   { code: 'FINC',  name: 'Finance' },
+  { code: 'HRER',  name: 'Human Resources and Employment Relations' },
+  { code: 'IBUS',  name: 'International Business' },
   { code: 'INFS',  name: 'Information Systems' },
   { code: 'ISSCM', name: 'Information Systems / Supply Chain Management' },
   { code: 'MGMT',  name: 'Management' },
+  { code: 'QUIN',  name: 'Quinlan School of Business' },
   { code: 'SCMG',  name: 'Supply Chain Management' },
+  // Computer Science department
+  { code: 'COMP',  name: 'Computer Science' },
+  { code: 'DSCI',  name: 'Data Science' },
+  { code: 'BIOI',  name: 'Bioinformatics' },
+  // Engineering
+  { code: 'ENGR',  name: 'Engineering Science' },
+  // Modern languages
+  { code: 'ARAB',  name: 'Arabic' },
+  { code: 'CHIN',  name: 'Chinese' },
+  { code: 'GERM',  name: 'German' },
+  { code: 'GREK',  name: 'Greek (Ancient)' },
+  { code: 'HNDI',  name: 'Hindi' },
+  { code: 'JAPN',  name: 'Japanese' },
+  { code: 'LATN',  name: 'Latin' },
+  { code: 'POLS',  name: 'Polish' },
+  { code: 'URDU',  name: 'Urdu' },
+  { code: 'LITR',  name: 'Literature in Translation' },
+  // Interdisciplinary / area studies
+  { code: 'BIET',  name: 'Bioethics' },
+  { code: 'CATH',  name: 'Catholic Studies' },
+  { code: 'ETHC',  name: 'Ethics' },
+  { code: 'EURO',  name: 'European Studies' },
+  { code: 'LASP',  name: 'Latin American Studies' },
+  { code: 'MSTU',  name: 'Medieval Studies' },
+  { code: 'PSCJ',  name: 'Psychology of Crime and Justice' },
+  { code: 'ROST',  name: 'Rome Studies' },
+  { code: 'SLGL',  name: 'Sociolegal Studies' },
+  { code: 'URB',   name: 'Urban Studies' },
+  { code: 'ARTS',  name: 'Teaching Artist' },
+  // Environmental Sustainability
+  { code: 'ENVS',  name: 'Environmental Studies' },
+  // Other schools (Education, Social Work, Health) — may lack a course-descriptions page
+  { code: 'ELPS',  name: 'Education Leadership and Policy Studies' },
+  { code: 'TLSC',  name: 'Teaching, Learning, and Leading with Schools and Communities' },
+  { code: 'SOWK',  name: 'Social Work' },
+  { code: 'HSM',   name: 'Healthcare Administration' },
+  // University / Core
+  { code: 'UCLR',  name: 'University Core' },
+  { code: 'UNIV',  name: 'University' },
+  { code: 'HONR',  name: 'Honors' },
+  { code: 'EXPL',  name: 'Engaged Learning' },
+  { code: 'PAX',   name: 'Peace Studies' },
+  { code: 'GRMS',  name: 'German Studies' },
+  { code: 'LREB',  name: 'Leadership' },
+  { code: 'IPS',   name: 'Institute of Pastoral Studies' },
+  { code: 'POST',  name: 'Pastoral Studies' },
 ];
+
+// Subjects used in program data that have NO standalone /course-descriptions/ page.
+// Their course titles live only in program JSON and cannot be validated against the
+// master list (the course-integrity test exempts these prefixes). Updated from the
+// scraper's reported errors after a run.
+export const PREFIXES_WITHOUT_CATALOG_PAGE = ['FORS', 'FRSC', 'HSRV'];
 
 // ---------------------------------------------------------------------------
 // HTML parsing helpers (regex-based, no external dependencies)
@@ -287,6 +342,7 @@ if (!existsSync(OUT_DIR)) {
 
 let totalCourses = 0;
 const results = [];
+const rawIndex = {}; // code → { title, credits } across all fetched departments
 
 for (const dept of targets) {
   const slug = dept.slug ?? dept.code.toLowerCase();
@@ -298,11 +354,13 @@ for (const dept of targets) {
   if (results.length > 0) await new Promise(r => setTimeout(r, 300));
 
   let courses = [];
+  let rawCourses = [];
   let error = null;
 
   try {
     const html = await fetchWithRetry(url);
-    courses = consolidateCourses(parseCourseBlocks(html));
+    rawCourses = parseCourseBlocks(html);
+    courses = consolidateCourses(rawCourses);
 
     if (courses.length === 0) {
       // Retry with alternate slug patterns that Loyola sometimes uses
@@ -314,8 +372,10 @@ for (const dept of targets) {
         if (alt === slug) continue;
         try {
           const altHtml = await fetchWithRetry(`${BASE_URL}/${alt}/`);
-          const altCourses = consolidateCourses(parseCourseBlocks(altHtml));
+          const altRaw = parseCourseBlocks(altHtml);
+          const altCourses = consolidateCourses(altRaw);
           if (altCourses.length > 0) {
+            rawCourses = altRaw;
             courses = altCourses;
             break;
           }
@@ -329,6 +389,12 @@ for (const dept of targets) {
   } catch (err) {
     error = err.message;
     console.log(`ERROR: ${error}`);
+  }
+
+  // Accumulate every raw (unconsolidated) course into the flat index, keyed by code.
+  // The index is the authoritative number→name lookup used by normalize + validation.
+  for (const c of rawCourses) {
+    rawIndex[c.code] = { title: c.title, credits: c.credits };
   }
 
   const output = {
@@ -356,3 +422,35 @@ for (const r of results) {
 }
 console.log(`\nTotal: ${totalCourses} courses across ${results.length} departments`);
 console.log(`Output: ${OUT_DIR}/`);
+
+// ---------------------------------------------------------------------------
+// Flat course index — the authoritative number→name lookup
+// ---------------------------------------------------------------------------
+// On a full run (no codes passed) rebuild the index from scratch. On a partial
+// run (specific codes) merge the freshly-fetched entries into the existing index
+// so we don't drop departments we didn't fetch this time.
+const INDEX_PATH = 'src/data/course-index.json';
+let indexCourses = {};
+if (requestedCodes.length > 0 && existsSync(INDEX_PATH)) {
+  try {
+    indexCourses = JSON.parse(await readFile(INDEX_PATH, 'utf8')).courses ?? {};
+  } catch {
+    indexCourses = {};
+  }
+}
+Object.assign(indexCourses, rawIndex);
+// Sort keys for a stable, diff-friendly file
+const sortedCourses = {};
+for (const code of Object.keys(indexCourses).sort((a, b) => a.localeCompare(b, undefined, { numeric: true }))) {
+  sortedCourses[code] = indexCourses[code];
+}
+const indexOut = {
+  catalog: CATALOG_YEAR,
+  fetchedAt: new Date().toISOString().slice(0, 10),
+  note: 'Authoritative course number→name map scraped from catalog.luc.edu/course-descriptions. '
+    + 'One name per course number. Generated by scripts/fetch-dept-courses.mjs — do not hand-edit.',
+  count: Object.keys(sortedCourses).length,
+  courses: sortedCourses,
+};
+await writeFile(INDEX_PATH, `${JSON.stringify(indexOut, null, 2)}\n`);
+console.log(`Index:  ${INDEX_PATH} (${indexOut.count} courses)`);

@@ -65,7 +65,7 @@
     {
       "id": "MSDS_DSCI470",
       "code": "DSCI 470",
-      "title": "Data Science Consulting (Capstone)",
+      "title": "Data Science Consulting",
       "credits": 2,
       "category": "major",
       "note": "Non-thesis track only"
@@ -110,7 +110,7 @@
           "code": "COMP 488",
           "title": "Computer Science Topics",
           "credits": 3,
-          "note": "Primary COMP elective \u2014 topic must be relevant to data science"
+          "note": "Primary COMP elective — topic must be relevant to data science"
         },
         {
           "id": "MSDS_EL_STAT411",
@@ -145,7 +145,7 @@
           "code": "STAT 488",
           "title": "Topics in Statistics",
           "credits": 3,
-          "note": "Primary STAT elective \u2014 topic must be relevant to data science"
+          "note": "Primary STAT elective — topic must be relevant to data science"
         },
         {
           "id": "MSDS_EL_COMP436",
@@ -227,7 +227,7 @@
         {
           "id": "MSDS_EL_COMP490a",
           "code": "COMP 490",
-          "title": "Independent Project (3 cr)",
+          "title": "Independent Project",
           "credits": 3,
           "uniqueProgress": true,
           "note": "Secondary COMP elective"
@@ -235,7 +235,7 @@
         {
           "id": "MSDS_EL_COMP490b",
           "code": "COMP 490",
-          "title": "Independent Project (6 cr)",
+          "title": "Independent Project",
           "credits": 6,
           "uniqueProgress": true,
           "note": "Secondary COMP elective"
@@ -243,7 +243,7 @@
         {
           "id": "MSDS_EL_COMP499a",
           "code": "COMP 499",
-          "title": "Internship (3 cr)",
+          "title": "Internship",
           "credits": 3,
           "uniqueProgress": true,
           "note": "Secondary COMP elective"
@@ -251,7 +251,7 @@
         {
           "id": "MSDS_EL_COMP499b",
           "code": "COMP 499",
-          "title": "Internship (6 cr)",
+          "title": "Internship",
           "credits": 6,
           "uniqueProgress": true,
           "note": "Secondary COMP elective"
@@ -294,7 +294,7 @@
         {
           "id": "MSDS_EL_STAT498a",
           "code": "STAT 498",
-          "title": "Independent Study Statistics (3 cr)",
+          "title": "Independent Study Statistics",
           "credits": 3,
           "uniqueProgress": true,
           "note": "Secondary STAT elective"
@@ -302,7 +302,7 @@
         {
           "id": "MSDS_EL_STAT498b",
           "code": "STAT 498",
-          "title": "Independent Study Statistics (6 cr)",
+          "title": "Independent Study Statistics",
           "credits": 6,
           "uniqueProgress": true,
           "note": "Secondary STAT elective"

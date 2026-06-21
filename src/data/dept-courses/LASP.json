@@ -1,0 +1,33 @@
+{
+  "catalog": "2026-2027",
+  "code": "LASP",
+  "name": "Latin American Studies",
+  "sourceUrl": "https://catalog.luc.edu/course-descriptions/lasp/",
+  "fetchedAt": "2026-06-21",
+  "courses": [
+    {
+      "id": "LASP196",
+      "code": "LASP 196",
+      "title": "Topics in Latin American Studies: Introductory",
+      "credits": 3
+    },
+    {
+      "id": "LASP297",
+      "code": "LASP 297",
+      "title": "Special Topics",
+      "credits": 3
+    },
+    {
+      "id": "LASP395",
+      "code": "LASP 395",
+      "title": "Capstone in Latin American Studies",
+      "credits": 3
+    },
+    {
+      "id": "LASP396",
+      "code": "LASP 396",
+      "title": "Topics in Latin American Studies-Advanced",
+      "credits": 3
+    }
+  ]
+}

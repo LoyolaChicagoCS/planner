@@ -10,8 +10,20 @@
   "hasCompletionEstimate": false,
   "catalogUrl": "https://catalog.luc.edu/undergraduate/arts-sciences/urban-studies/urban-studies-minor/",
   "courses": [
-    { "id": "URBAN_STUDIES_MINOR_SOCL335", "code": "SOCL 335", "title": "Urban Semester Seminar (cross-listed as PLSC 335)", "credits": 3, "category": "major" },
-    { "id": "URBAN_STUDIES_MINOR_URB397", "code": "URB 397", "title": "Urban Studies Research (cross-listed as PLSC 397)", "credits": 3, "category": "major" }
+    {
+      "id": "URBAN_STUDIES_MINOR_SOCL335",
+      "code": "SOCL 335",
+      "title": "Urban Semester Seminar",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "URBAN_STUDIES_MINOR_URB397",
+      "code": "URB 397",
+      "title": "Urban Studies Research",
+      "credits": 3,
+      "category": "major"
+    }
   ],
   "electiveOptions": {
     "urbanTheory": {
@@ -19,11 +31,36 @@
       "label": "Urban Theory",
       "note": "Select one of the following",
       "courses": [
-        { "id": "URBAN_STUDIES_MINOR_ECON320", "code": "ECON 320", "title": "Urban Economics", "credits": 3 },
-        { "id": "URBAN_STUDIES_MINOR_HIST386", "code": "HIST 386", "title": "Creation the American Metropolis", "credits": 3 },
-        { "id": "URBAN_STUDIES_MINOR_PLSC334", "code": "PLSC 334", "title": "Urban Policies and Problems", "credits": 3 },
-        { "id": "URBAN_STUDIES_MINOR_PLSC390", "code": "PLSC 390", "title": "Urban Politics", "credits": 3 },
-        { "id": "URBAN_STUDIES_MINOR_SOCL234", "code": "SOCL 234", "title": "City, Suburbs & Beyond", "credits": 3 }
+        {
+          "id": "URBAN_STUDIES_MINOR_ECON320",
+          "code": "ECON 320",
+          "title": "Urban Economics",
+          "credits": 3
+        },
+        {
+          "id": "URBAN_STUDIES_MINOR_HIST386",
+          "code": "HIST 386",
+          "title": "Creation the American Metropolis",
+          "credits": 3
+        },
+        {
+          "id": "URBAN_STUDIES_MINOR_PLSC334",
+          "code": "PLSC 334",
+          "title": "Urban Policies and Problems",
+          "credits": 3
+        },
+        {
+          "id": "URBAN_STUDIES_MINOR_PLSC390",
+          "code": "PLSC 390",
+          "title": "Urban Politics",
+          "credits": 3
+        },
+        {
+          "id": "URBAN_STUDIES_MINOR_SOCL234",
+          "code": "SOCL 234",
+          "title": "City, Suburbs & Beyond",
+          "credits": 3
+        }
       ]
     },
     "researchMethods": {
@@ -31,14 +68,54 @@
       "label": "Research Methods",
       "note": "Select one of the following",
       "courses": [
-        { "id": "URBAN_STUDIES_MINOR_ANTH317", "code": "ANTH 317", "title": "Explore Chicago: Research in Culture and History", "credits": 3 },
-        { "id": "URBAN_STUDIES_MINOR_CJC205", "code": "CJC 205", "title": "Research Methods", "credits": 3 },
-        { "id": "URBAN_STUDIES_MINOR_COMM365", "code": "COMM 365", "title": "Naturalistic Methods Communication Research", "credits": 3 },
-        { "id": "URBAN_STUDIES_MINOR_COMM366", "code": "COMM 366", "title": "Observing/Measuring Cmun Behavior", "credits": 3 },
-        { "id": "URBAN_STUDIES_MINOR_COMM367", "code": "COMM 367", "title": "Rhetorical Criticism", "credits": 3 },
-        { "id": "URBAN_STUDIES_MINOR_PSYC306", "code": "PSYC 306", "title": "Research Methods in Psychology", "credits": 3 },
-        { "id": "URBAN_STUDIES_MINOR_SOCL206", "code": "SOCL 206", "title": "Principles of Social Research", "credits": 3 },
-        { "id": "URBAN_STUDIES_MINOR_SOWK390", "code": "SOWK 390", "title": "Research and Evaluation in Social Work Practice", "credits": 3 }
+        {
+          "id": "URBAN_STUDIES_MINOR_ANTH317",
+          "code": "ANTH 317",
+          "title": "Explore Chicago: Research in Culture and History",
+          "credits": 3
+        },
+        {
+          "id": "URBAN_STUDIES_MINOR_CJC205",
+          "code": "CJC 205",
+          "title": "Research Methods",
+          "credits": 3
+        },
+        {
+          "id": "URBAN_STUDIES_MINOR_COMM365",
+          "code": "COMM 365",
+          "title": "Naturalistic Methods Communication Research",
+          "credits": 3
+        },
+        {
+          "id": "URBAN_STUDIES_MINOR_COMM366",
+          "code": "COMM 366",
+          "title": "Observing/Measuring Cmun Behavior",
+          "credits": 3
+        },
+        {
+          "id": "URBAN_STUDIES_MINOR_COMM367",
+          "code": "COMM 367",
+          "title": "Rhetorical Criticism",
+          "credits": 3
+        },
+        {
+          "id": "URBAN_STUDIES_MINOR_PSYC306",
+          "code": "PSYC 306",
+          "title": "Research Methods in Psychology",
+          "credits": 3
+        },
+        {
+          "id": "URBAN_STUDIES_MINOR_SOCL206",
+          "code": "SOCL 206",
+          "title": "Principles of Social Research",
+          "credits": 3
+        },
+        {
+          "id": "URBAN_STUDIES_MINOR_SOWK390",
+          "code": "SOWK 390",
+          "title": "Research and Evaluation in Social Work Practice",
+          "credits": 3
+        }
       ]
     },
     "requiredElectives": {
@@ -46,30 +123,150 @@
       "label": "Required Electives",
       "note": "Select two of the following. Other elective courses may be added on a semester-by-semester basis.",
       "courses": [
-        { "id": "URBAN_STUDIES_MINOR_ANTH309", "code": "ANTH 309", "title": "ANTH 309", "credits": 3 },
-        { "id": "URBAN_STUDIES_MINOR_CJC371", "code": "CJC 371", "title": "CJC 371", "credits": 3 },
-        { "id": "URBAN_STUDIES_MINOR_CJC352", "code": "CJC 352", "title": "CJC 352", "credits": 3 },
-        { "id": "URBAN_STUDIES_MINOR_CJC372", "code": "CJC 372", "title": "CJC 372", "credits": 3 },
-        { "id": "URBAN_STUDIES_MINOR_COMM296", "code": "COMM 296", "title": "COMM 296", "credits": 3 },
-        { "id": "URBAN_STUDIES_MINOR_COMM371", "code": "COMM 371", "title": "Interviewing for Broadcast / Politics and the Press / Photojournalism", "credits": 3 },
-        { "id": "URBAN_STUDIES_MINOR_ECON320E", "code": "ECON 320", "title": "Urban Economics", "credits": 3 },
-        { "id": "URBAN_STUDIES_MINOR_ELPS240", "code": "ELPS 240", "title": "ELPS 240", "credits": 3 },
-        { "id": "URBAN_STUDIES_MINOR_ENVS380", "code": "ENVS 380", "title": "ENVS 380", "credits": 3 },
-        { "id": "URBAN_STUDIES_MINOR_FNAR203", "code": "FNAR 203", "title": "FNAR 203", "credits": 3 },
-        { "id": "URBAN_STUDIES_MINOR_HIST300", "code": "HIST 300", "title": "HIST 300", "credits": 3 },
-        { "id": "URBAN_STUDIES_MINOR_HIST318C", "code": "HIST 318C", "title": "HIST 318C", "credits": 3 },
-        { "id": "URBAN_STUDIES_MINOR_HIST385", "code": "HIST 385", "title": "HIST 385", "credits": 3 },
-        { "id": "URBAN_STUDIES_MINOR_HIST386E", "code": "HIST 386", "title": "Creation the American Metropolis", "credits": 3 },
-        { "id": "URBAN_STUDIES_MINOR_PLSC300", "code": "PLSC 300", "title": "PLSC 300", "credits": 3 },
-        { "id": "URBAN_STUDIES_MINOR_PLSC372", "code": "PLSC 372", "title": "PLSC 372", "credits": 3 },
-        { "id": "URBAN_STUDIES_MINOR_PLSC390E", "code": "PLSC 390", "title": "Urban Politics", "credits": 3 },
-        { "id": "URBAN_STUDIES_MINOR_PSYC374", "code": "PSYC 374", "title": "PSYC 374", "credits": 3 },
-        { "id": "URBAN_STUDIES_MINOR_SOCL125", "code": "SOCL 125", "title": "SOCL 125", "credits": 3 },
-        { "id": "URBAN_STUDIES_MINOR_SOCL234E", "code": "SOCL 234", "title": "City, Suburbs & Beyond", "credits": 3 },
-        { "id": "URBAN_STUDIES_MINOR_SOCL235", "code": "SOCL 235", "title": "SOCL 235", "credits": 3 },
-        { "id": "URBAN_STUDIES_MINOR_SOWK361", "code": "SOWK 361", "title": "Black Men in America", "credits": 3 },
-        { "id": "URBAN_STUDIES_MINOR_SOWK370", "code": "SOWK 370", "title": "SOWK 370", "credits": 3 },
-        { "id": "URBAN_STUDIES_MINOR_THEO192", "code": "THEO 192", "title": "Urban Issues", "credits": 3 }
+        {
+          "id": "URBAN_STUDIES_MINOR_ANTH309",
+          "code": "ANTH 309",
+          "title": "Urban Anthropology",
+          "credits": 3
+        },
+        {
+          "id": "URBAN_STUDIES_MINOR_CJC371",
+          "code": "CJC 371",
+          "title": "Victimology",
+          "credits": 3
+        },
+        {
+          "id": "URBAN_STUDIES_MINOR_CJC352",
+          "code": "CJC 352",
+          "title": "Gangs",
+          "credits": 3
+        },
+        {
+          "id": "URBAN_STUDIES_MINOR_CJC372",
+          "code": "CJC 372",
+          "title": "Race, Ethnicity, and Criminal Justice",
+          "credits": 3
+        },
+        {
+          "id": "URBAN_STUDIES_MINOR_COMM296",
+          "code": "COMM 296",
+          "title": "Themes in Advertising/Public Relations",
+          "credits": 3
+        },
+        {
+          "id": "URBAN_STUDIES_MINOR_COMM371",
+          "code": "COMM 371",
+          "title": "Special Topics Communication Studies",
+          "credits": 3
+        },
+        {
+          "id": "URBAN_STUDIES_MINOR_ECON320E",
+          "code": "ECON 320",
+          "title": "Urban Economics",
+          "credits": 3
+        },
+        {
+          "id": "URBAN_STUDIES_MINOR_ELPS240",
+          "code": "ELPS 240",
+          "title": "Urban Education: Policy and Practice",
+          "credits": 3
+        },
+        {
+          "id": "URBAN_STUDIES_MINOR_ENVS380",
+          "code": "ENVS 380",
+          "title": "Introduction to Geographic Information Systems",
+          "credits": 3
+        },
+        {
+          "id": "URBAN_STUDIES_MINOR_FNAR203",
+          "code": "FNAR 203",
+          "title": "Chicago: Face of a City",
+          "credits": 3
+        },
+        {
+          "id": "URBAN_STUDIES_MINOR_HIST300",
+          "code": "HIST 300",
+          "title": "Topics in History",
+          "credits": 3
+        },
+        {
+          "id": "URBAN_STUDIES_MINOR_HIST318C",
+          "code": "HIST 318C",
+          "title": "London 1550 - 1715",
+          "credits": 3
+        },
+        {
+          "id": "URBAN_STUDIES_MINOR_HIST385",
+          "code": "HIST 385",
+          "title": "Chicago in America",
+          "credits": 3
+        },
+        {
+          "id": "URBAN_STUDIES_MINOR_HIST386E",
+          "code": "HIST 386",
+          "title": "Creation the American Metropolis",
+          "credits": 3
+        },
+        {
+          "id": "URBAN_STUDIES_MINOR_PLSC300",
+          "code": "PLSC 300",
+          "title": "Contemporary Political Issues",
+          "credits": 3
+        },
+        {
+          "id": "URBAN_STUDIES_MINOR_PLSC372",
+          "code": "PLSC 372",
+          "title": "Crime, Race & Violence",
+          "credits": 3
+        },
+        {
+          "id": "URBAN_STUDIES_MINOR_PLSC390E",
+          "code": "PLSC 390",
+          "title": "Urban Politics",
+          "credits": 3
+        },
+        {
+          "id": "URBAN_STUDIES_MINOR_PSYC374",
+          "code": "PSYC 374",
+          "title": "Community Psychology",
+          "credits": 3
+        },
+        {
+          "id": "URBAN_STUDIES_MINOR_SOCL125",
+          "code": "SOCL 125",
+          "title": "Chicago: Urban Metropolis",
+          "credits": 3
+        },
+        {
+          "id": "URBAN_STUDIES_MINOR_SOCL234E",
+          "code": "SOCL 234",
+          "title": "City, Suburbs & Beyond",
+          "credits": 3
+        },
+        {
+          "id": "URBAN_STUDIES_MINOR_SOCL235",
+          "code": "SOCL 235",
+          "title": "Communities in a Global Age",
+          "credits": 3
+        },
+        {
+          "id": "URBAN_STUDIES_MINOR_SOWK361",
+          "code": "SOWK 361",
+          "title": "Special Topics",
+          "credits": 3
+        },
+        {
+          "id": "URBAN_STUDIES_MINOR_SOWK370",
+          "code": "SOWK 370",
+          "title": "Power, Oppression, Privilege, and Social Justice",
+          "credits": 3
+        },
+        {
+          "id": "URBAN_STUDIES_MINOR_THEO192",
+          "code": "THEO 192",
+          "title": "Urban Issues",
+          "credits": 3
+        }
       ]
     }
   },

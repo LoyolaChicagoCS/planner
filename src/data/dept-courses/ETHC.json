@@ -1,0 +1,59 @@
+{
+  "catalog": "2026-2027",
+  "code": "ETHC",
+  "name": "Ethics",
+  "sourceUrl": "https://catalog.luc.edu/course-descriptions/ethc/",
+  "fetchedAt": "2026-06-21",
+  "courses": [
+    {
+      "id": "ETHC321",
+      "code": "ETHC 321",
+      "title": "International Business Ethics",
+      "credits": 3
+    },
+    {
+      "id": "ETHC341",
+      "code": "ETHC 341",
+      "title": "Ethics in Business",
+      "credits": 3
+    },
+    {
+      "id": "ETHC341H",
+      "code": "ETHC 341H",
+      "title": "Ethics in Business - Honors",
+      "credits": 3
+    },
+    {
+      "id": "ETHC399",
+      "code": "ETHC 399",
+      "title": "Special Topics in Business Ethics",
+      "credits": 3
+    },
+    {
+      "id": "ETHC441",
+      "code": "ETHC 441",
+      "title": "Business Ethics",
+      "credits": 3,
+      "isTopics": true,
+      "topicsCount": 4
+    },
+    {
+      "id": "ETHC443",
+      "code": "ETHC 443",
+      "title": "Global Environmental Ethics",
+      "credits": 3
+    },
+    {
+      "id": "ETHC446",
+      "code": "ETHC 446",
+      "title": "International Business Ethics",
+      "credits": 3
+    },
+    {
+      "id": "ETHC499",
+      "code": "ETHC 499",
+      "title": "Special Topics in Business Ethics",
+      "credits": 3
+    }
+  ]
+}

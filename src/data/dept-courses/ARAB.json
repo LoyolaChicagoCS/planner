@@ -1,0 +1,45 @@
+{
+  "catalog": "2026-2027",
+  "code": "ARAB",
+  "name": "Arabic",
+  "sourceUrl": "https://catalog.luc.edu/course-descriptions/arab/",
+  "fetchedAt": "2026-06-21",
+  "courses": [
+    {
+      "id": "ARAB101",
+      "code": "ARAB 101",
+      "title": "Arabic I",
+      "credits": 3
+    },
+    {
+      "id": "ARAB102",
+      "code": "ARAB 102",
+      "title": "Arabic II",
+      "credits": 3
+    },
+    {
+      "id": "ARAB103",
+      "code": "ARAB 103",
+      "title": "Arabic III",
+      "credits": 3
+    },
+    {
+      "id": "ARAB104",
+      "code": "ARAB 104",
+      "title": "Arabic IV",
+      "credits": 3
+    },
+    {
+      "id": "ARAB250",
+      "code": "ARAB 250",
+      "title": "Advanced Composition and Conversation",
+      "credits": 3
+    },
+    {
+      "id": "ARAB251",
+      "code": "ARAB 251",
+      "title": "Advanced Composition and Conversation II",
+      "credits": 3
+    }
+  ]
+}

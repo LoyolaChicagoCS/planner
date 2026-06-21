@@ -1,0 +1,21 @@
+{
+  "catalog": "2026-2027",
+  "code": "MSTU",
+  "name": "Medieval Studies",
+  "sourceUrl": "https://catalog.luc.edu/course-descriptions/mstu/",
+  "fetchedAt": "2026-06-21",
+  "courses": [
+    {
+      "id": "MSTU300",
+      "code": "MSTU 300",
+      "title": "Integrative Experience I",
+      "credits": 5
+    },
+    {
+      "id": "MSTU301",
+      "code": "MSTU 301",
+      "title": "Integrative Experience II",
+      "credits": 5
+    }
+  ]
+}

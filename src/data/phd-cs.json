@@ -1,52 +1,51 @@
 {
   "id": "phd-cs",
-  "department": "Computer Science",
   "name": "Computer Science",
   "degree": "PhD",
   "school": "Loyola University Chicago",
+  "department": "Computer Science",
   "kind": "phd",
   "totalCredits": 60,
   "phdCredits": 39,
-  "hasCompletionEstimate": false,
   "catalogUrl": "https://catalog.luc.edu/graduate-professional/graduate-school/arts-sciences/computer-science/computer-science-phd/",
   "courses": [
     {
-      "id": "PHD_COMP413",
+      "id": "COMP413",
       "code": "COMP 413",
       "title": "Intermediate Object-Oriented Development",
       "credits": 3,
       "category": "major"
     },
     {
-      "id": "PHD_COMP417",
+      "id": "COMP417",
       "code": "COMP 417",
       "title": "Social and Ethical Issues in Computing",
       "credits": 3,
       "category": "major"
     },
     {
-      "id": "PHD_COMP460",
+      "id": "COMP460",
       "code": "COMP 460",
       "title": "Algorithms & Complexity",
       "credits": 3,
       "category": "major"
     },
     {
-      "id": "PHD_COMP501",
+      "id": "COMP501",
       "code": "COMP 501",
       "title": "Equitable and Inclusive Computer Science Pedagogy",
       "credits": 3,
       "category": "major"
     },
     {
-      "id": "PHD_COMP502",
+      "id": "COMP502",
       "code": "COMP 502",
       "title": "Structure of Research Management and Funding",
       "credits": 3,
       "category": "major"
     },
     {
-      "id": "PHD_COMP503",
+      "id": "COMP503",
       "code": "COMP 503",
       "title": "Technology Entrepreneurship",
       "credits": 3,
@@ -56,23 +55,23 @@
   "electiveOptions": {
     "qualifying-theory": {
       "creditsRequired": 3,
-      "label": "Theory Qualifying",
-      "note": "Choose 1 course from the Theory pillar. Students must cover at least 3 of the 4 qualifying pillars; a grade of A is required in 3 qualifying courses for doctoral candidacy.",
+      "label": "Theory Qualifying Course",
+      "note": "Choose one Theory qualifying course.",
       "courses": [
         {
-          "id": "PHD_QT_COMP409",
+          "id": "COMP409",
           "code": "COMP 409",
           "title": "Advanced Numerical Analysis",
           "credits": 3
         },
         {
-          "id": "PHD_QT_COMP431",
+          "id": "COMP431",
           "code": "COMP 431",
           "title": "Cryptography",
           "credits": 3
         },
         {
-          "id": "PHD_QT_COMP471",
+          "id": "COMP471",
           "code": "COMP 471",
           "title": "Theory of Programming Languages",
           "credits": 3
@@ -81,29 +80,29 @@
     },
     "qualifying-systems": {
       "creditsRequired": 3,
-      "label": "Systems Qualifying",
-      "note": "Choose 1 course from the Systems pillar. Students must cover at least 3 of the 4 qualifying pillars; a grade of A is required in 3 qualifying courses for doctoral candidacy.",
+      "label": "Systems Qualifying Course",
+      "note": "Choose one Systems qualifying course.",
       "courses": [
         {
-          "id": "PHD_QS_COMP410",
+          "id": "COMP410",
           "code": "COMP 410",
           "title": "Operating Systems",
           "credits": 3
         },
         {
-          "id": "PHD_QS_COMP439",
+          "id": "COMP439",
           "code": "COMP 439",
           "title": "Distributed Systems",
           "credits": 3
         },
         {
-          "id": "PHD_QS_COMP462",
+          "id": "COMP462",
           "code": "COMP 462",
           "title": "Advanced Computer Architecture",
           "credits": 3
         },
         {
-          "id": "PHD_QS_COMP464",
+          "id": "COMP464",
           "code": "COMP 464",
           "title": "High-Performance Computing",
           "credits": 3
@@ -112,23 +111,23 @@
     },
     "qualifying-software": {
       "creditsRequired": 3,
-      "label": "Software Qualifying",
-      "note": "Choose 1 course from the Software pillar. Students must cover at least 3 of the 4 qualifying pillars; a grade of A is required in 3 qualifying courses for doctoral candidacy.",
+      "label": "Software Qualifying Course",
+      "note": "Choose one Software qualifying course.",
       "courses": [
         {
-          "id": "PHD_QW_COMP453",
+          "id": "COMP453",
           "code": "COMP 453",
           "title": "Database Programming",
           "credits": 3
         },
         {
-          "id": "PHD_QW_COMP473",
+          "id": "COMP473",
           "code": "COMP 473",
           "title": "Advanced Object Oriented Programming",
           "credits": 3
         },
         {
-          "id": "PHD_QW_COMP474",
+          "id": "COMP474",
           "code": "COMP 474",
           "title": "Software Engineering",
           "credits": 3
@@ -137,29 +136,29 @@
     },
     "qualifying-ai": {
       "creditsRequired": 3,
-      "label": "AI Qualifying",
-      "note": "Choose 1 course from the Artificial Intelligence pillar. Students must cover at least 3 of the 4 qualifying pillars; a grade of A is required in 3 qualifying courses for doctoral candidacy.",
+      "label": "Artificial Intelligence Qualifying Course",
+      "note": "Choose one Artificial Intelligence qualifying course.",
       "courses": [
         {
-          "id": "PHD_QA_COMP429",
+          "id": "COMP429",
           "code": "COMP 429",
           "title": "Natural Language Processing",
           "credits": 3
         },
         {
-          "id": "PHD_QA_COMP458",
+          "id": "COMP458",
           "code": "COMP 458",
           "title": "Big Data Analytics",
           "credits": 3
         },
         {
-          "id": "PHD_QA_COMP479",
+          "id": "COMP479",
           "code": "COMP 479",
           "title": "Machine Learning",
           "credits": 3
         },
         {
-          "id": "PHD_QA_COMP487",
+          "id": "COMP487",
           "code": "COMP 487",
           "title": "Deep Learning",
           "credits": 3
@@ -168,222 +167,13 @@
     },
     "general-electives": {
       "creditsRequired": 9,
-      "label": "400-Level Electives",
-      "note": "Three COMP 400-level electives. Any 400-level COMP course qualifies, including courses from the qualifying pillars above.",
-      "courses": [
-        {
-          "id": "PHD_EL_COMP405",
-          "code": "COMP 405",
-          "title": "Database Administration",
-          "credits": 3
-        },
-        {
-          "id": "PHD_EL_COMP406",
-          "code": "COMP 406",
-          "title": "Data Mining",
-          "credits": 3
-        },
-        {
-          "id": "PHD_EL_COMP409",
-          "code": "COMP 409",
-          "title": "Advanced Numerical Analysis",
-          "credits": 3
-        },
-        {
-          "id": "PHD_EL_COMP410",
-          "code": "COMP 410",
-          "title": "Operating Systems",
-          "credits": 3
-        },
-        {
-          "id": "PHD_EL_COMP412",
-          "code": "COMP 412",
-          "title": "Open Source Computing",
-          "credits": 3
-        },
-        {
-          "id": "PHD_EL_COMP418",
-          "code": "COMP 418",
-          "title": "Combinatorial Mathematics",
-          "credits": 3
-        },
-        {
-          "id": "PHD_EL_COMP422",
-          "code": "COMP 422",
-          "title": "Software Development for Wireless and Mobile Devices",
-          "credits": 3
-        },
-        {
-          "id": "PHD_EL_COMP424",
-          "code": "COMP 424",
-          "title": "Client-Side Web Design",
-          "credits": 3
-        },
-        {
-          "id": "PHD_EL_COMP429",
-          "code": "COMP 429",
-          "title": "Natural Language Processing",
-          "credits": 3
-        },
-        {
-          "id": "PHD_EL_COMP431",
-          "code": "COMP 431",
-          "title": "Cryptography",
-          "credits": 3
-        },
-        {
-          "id": "PHD_EL_COMP436",
-          "code": "COMP 436",
-          "title": "Markup Languages",
-          "credits": 3
-        },
-        {
-          "id": "PHD_EL_COMP439",
-          "code": "COMP 439",
-          "title": "Distributed Systems",
-          "credits": 3
-        },
-        {
-          "id": "PHD_EL_COMP441",
-          "code": "COMP 441",
-          "title": "Human-Computer Interaction",
-          "credits": 3
-        },
-        {
-          "id": "PHD_EL_COMP453",
-          "code": "COMP 453",
-          "title": "Database Programming",
-          "credits": 3
-        },
-        {
-          "id": "PHD_EL_COMP458",
-          "code": "COMP 458",
-          "title": "Big Data Analytics",
-          "credits": 3
-        },
-        {
-          "id": "PHD_EL_COMP460",
-          "code": "COMP 460",
-          "title": "Algorithms & Complexity",
-          "credits": 3
-        },
-        {
-          "id": "PHD_EL_COMP462",
-          "code": "COMP 462",
-          "title": "Advanced Computer Architecture",
-          "credits": 3
-        },
-        {
-          "id": "PHD_EL_COMP464",
-          "code": "COMP 464",
-          "title": "High-Performance Computing",
-          "credits": 3
-        },
-        {
-          "id": "PHD_EL_COMP471",
-          "code": "COMP 471",
-          "title": "Theory of Programming Languages",
-          "credits": 3
-        },
-        {
-          "id": "PHD_EL_COMP473",
-          "code": "COMP 473",
-          "title": "Advanced Object Oriented Programming",
-          "credits": 3
-        },
-        {
-          "id": "PHD_EL_COMP474",
-          "code": "COMP 474",
-          "title": "Software Engineering",
-          "credits": 3
-        },
-        {
-          "id": "PHD_EL_COMP477",
-          "code": "COMP 477",
-          "title": "IT Project Management",
-          "credits": 3
-        },
-        {
-          "id": "PHD_EL_COMP479",
-          "code": "COMP 479",
-          "title": "Machine Learning",
-          "credits": 3
-        },
-        {
-          "id": "PHD_EL_COMP484",
-          "code": "COMP 484",
-          "title": "Artificial Intelligence",
-          "credits": 3
-        },
-        {
-          "id": "PHD_EL_COMP487",
-          "code": "COMP 487",
-          "title": "Deep Learning",
-          "credits": 3
-        },
-        {
-          "id": "PHD_EL_COMP488",
-          "code": "COMP 488",
-          "title": "Computer Science Topics",
-          "credits": 3
-        }
-      ]
+      "label": "COMP 400-Level Electives",
+      "note": "Three COMP 400-level electives."
     },
     "dissertation": {
       "creditsRequired": 21,
       "label": "Dissertation Research",
-      "note": "21 credits of doctoral dissertation research. Enroll in COMP 599 each semester after advancing to candidacy.",
-      "courses": [
-        {
-          "id": "PHD_COMP599_3a",
-          "code": "COMP 599",
-          "title": "Doctoral Dissertation Research (3 cr)",
-          "credits": 3,
-          "uniqueProgress": true
-        },
-        {
-          "id": "PHD_COMP599_3b",
-          "code": "COMP 599",
-          "title": "Doctoral Dissertation Research (3 cr)",
-          "credits": 3,
-          "uniqueProgress": true
-        },
-        {
-          "id": "PHD_COMP599_3c",
-          "code": "COMP 599",
-          "title": "Doctoral Dissertation Research (3 cr)",
-          "credits": 3,
-          "uniqueProgress": true
-        },
-        {
-          "id": "PHD_COMP599_3d",
-          "code": "COMP 599",
-          "title": "Doctoral Dissertation Research (3 cr)",
-          "credits": 3,
-          "uniqueProgress": true
-        },
-        {
-          "id": "PHD_COMP599_3e",
-          "code": "COMP 599",
-          "title": "Doctoral Dissertation Research (3 cr)",
-          "credits": 3,
-          "uniqueProgress": true
-        },
-        {
-          "id": "PHD_COMP599_3f",
-          "code": "COMP 599",
-          "title": "Doctoral Dissertation Research (3 cr)",
-          "credits": 3,
-          "uniqueProgress": true
-        },
-        {
-          "id": "PHD_COMP599_3g",
-          "code": "COMP 599",
-          "title": "Doctoral Dissertation Research (3 cr)",
-          "credits": 3,
-          "uniqueProgress": true
-        }
-      ]
+      "note": "COMP 599 Dissertation Research (21 credit hours)."
     }
   },
   "coreRequirements": [],
@@ -394,13 +184,13 @@
       "credits": 9,
       "items": [
         {
-          "ref": "PHD_COMP413"
+          "ref": "COMP413"
         },
         {
-          "ref": "PHD_COMP460"
+          "ref": "COMP460"
         },
         {
-          "label": "Qualifying Course \u2014 Pillar 1",
+          "label": "Qualifying Course — Pillar 1",
           "credits": 3,
           "isElective": true,
           "electiveType": "qualifying-theory"
@@ -413,16 +203,16 @@
       "credits": 9,
       "items": [
         {
-          "ref": "PHD_COMP417"
+          "ref": "COMP417"
         },
         {
-          "label": "Qualifying Course \u2014 Pillar 2",
+          "label": "Qualifying Course — Pillar 2",
           "credits": 3,
           "isElective": true,
           "electiveType": "qualifying-systems"
         },
         {
-          "label": "Qualifying Course \u2014 Pillar 3",
+          "label": "Qualifying Course — Pillar 3",
           "credits": 3,
           "isElective": true,
           "electiveType": "qualifying-software"
@@ -435,10 +225,10 @@
       "credits": 9,
       "items": [
         {
-          "ref": "PHD_COMP501"
+          "ref": "COMP501"
         },
         {
-          "label": "Qualifying Course \u2014 Pillar 4 (optional)",
+          "label": "Qualifying Course — Pillar 4 (optional)",
           "credits": 3,
           "isElective": true,
           "electiveType": "qualifying-ai"
@@ -457,10 +247,10 @@
       "credits": 9,
       "items": [
         {
-          "ref": "PHD_COMP502"
+          "ref": "COMP502"
         },
         {
-          "ref": "PHD_COMP503"
+          "ref": "COMP503"
         },
         {
           "label": "400-Level Elective 2",

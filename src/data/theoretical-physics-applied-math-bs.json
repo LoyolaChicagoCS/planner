@@ -10,76 +10,6 @@
   "catalogUrl": "https://catalog.luc.edu/undergraduate/arts-sciences/physics/theoretical-physics-applied-mathematics-bs/",
   "courses": [
     {
-      "id": "PHYS125",
-      "code": "PHYS 125",
-      "title": "General Physics I",
-      "credits": 3,
-      "category": "major"
-    },
-    {
-      "id": "PHYS125L",
-      "code": "PHYS 125L",
-      "title": "General Physics I Laboratory",
-      "credits": 1,
-      "category": "major"
-    },
-    {
-      "id": "PHYS126",
-      "code": "PHYS 126",
-      "title": "General Physics II",
-      "credits": 3,
-      "category": "major"
-    },
-    {
-      "id": "PHYS126L",
-      "code": "PHYS 126L",
-      "title": "General Physics II Laboratory",
-      "credits": 1,
-      "category": "major"
-    },
-    {
-      "id": "PHYS213",
-      "code": "PHYS 213",
-      "title": "Modern Physics",
-      "credits": 3,
-      "category": "major"
-    },
-    {
-      "id": "PHYS301",
-      "code": "PHYS 301",
-      "title": "Classical Mechanics",
-      "credits": 3,
-      "category": "major"
-    },
-    {
-      "id": "PHYS303",
-      "code": "PHYS 303",
-      "title": "Electricity and Magnetism",
-      "credits": 3,
-      "category": "major"
-    },
-    {
-      "id": "PHYS304",
-      "code": "PHYS 304",
-      "title": "Quantum Mechanics I",
-      "credits": 3,
-      "category": "major"
-    },
-    {
-      "id": "PHYS305",
-      "code": "PHYS 305",
-      "title": "Thermodynamics and Statistical Mechanics",
-      "credits": 3,
-      "category": "major"
-    },
-    {
-      "id": "PHYS310L",
-      "code": "PHYS 310L",
-      "title": "Advanced Laboratory I",
-      "credits": 2,
-      "category": "major"
-    },
-    {
       "id": "MATH161",
       "code": "MATH 161",
       "title": "Calculus I",
@@ -94,16 +24,9 @@
       "category": "major"
     },
     {
-      "id": "MATH263",
-      "code": "MATH 263",
-      "title": "Multivariable Calculus",
-      "credits": 3,
-      "category": "major"
-    },
-    {
-      "id": "MATH264",
-      "code": "MATH 264",
-      "title": "Ordinary Differential Equations",
+      "id": "MATH201",
+      "code": "MATH 201",
+      "title": "Introduction to Discrete Mathematics & Number Theory",
       "credits": 3,
       "category": "major"
     },
@@ -115,23 +38,373 @@
       "category": "major"
     },
     {
-      "id": "MATH360",
-      "code": "MATH 360",
-      "title": "Introduction to Numerical Methods",
+      "id": "MATH263",
+      "code": "MATH 263",
+      "title": "Multivariable Calculus",
+      "credits": 4,
+      "category": "major"
+    },
+    {
+      "id": "MATH264",
+      "code": "MATH 264",
+      "title": "Ordinary Differential Equations",
       "credits": 3,
       "category": "major"
+    },
+    {
+      "id": "MATH313",
+      "code": "MATH 313",
+      "title": "Abstract Algebra",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "MATH351",
+      "code": "MATH 351",
+      "title": "Introduction to Real Analysis I",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "MATH353",
+      "code": "MATH 353",
+      "title": "Introduction to Complex Analysis",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "PHYS121",
+      "code": "PHYS 121",
+      "title": "College Physics I with Calculus Lecture/Discussion",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "PHYS111L",
+      "code": "PHYS 111L",
+      "title": "College Physics Laboratory I",
+      "credits": 1,
+      "category": "major"
+    },
+    {
+      "id": "PHYS122",
+      "code": "PHYS 122",
+      "title": "College Physics II with Calculus Lecture/Discussion",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "PHYS112L",
+      "code": "PHYS 112L",
+      "title": "College Physics Lab II",
+      "credits": 1,
+      "category": "major"
+    },
+    {
+      "id": "PHYS126F",
+      "code": "PHYS 126F",
+      "title": "Freshman Projects",
+      "credits": 1,
+      "category": "major"
+    },
+    {
+      "id": "PHYS235",
+      "code": "PHYS 235",
+      "title": "Modern Physics",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "PHYS235L",
+      "code": "PHYS 235L",
+      "title": "Modern Physics Laboratory",
+      "credits": 1,
+      "category": "major"
+    },
+    {
+      "id": "PHYS301",
+      "code": "PHYS 301",
+      "title": "Mathematical Methods in Physics",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "PHYS314",
+      "code": "PHYS 314",
+      "title": "Theoretical Mechanics I",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "PHYS351",
+      "code": "PHYS 351",
+      "title": "Electricity and Magnetism I",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "PHYS328",
+      "code": "PHYS 328",
+      "title": "Thermal Physical & Statistical Mechanics",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "PHYS338",
+      "code": "PHYS 338",
+      "title": "Advanced Physics Laboratory",
+      "credits": 2,
+      "category": "major"
+    },
+    {
+      "id": "PHYS361",
+      "code": "PHYS 361",
+      "title": "Quantum Mechanics I",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "PHYS130",
+      "code": "PHYS 130",
+      "title": "Introduction to Computational Physics",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "computing-requirement",
+      "choiceNote": "Computing requirement: choose PHYS 130 or MATH 215 (COMP 215)."
+    },
+    {
+      "id": "MATH215",
+      "code": "MATH 215",
+      "title": "Object-Oriented Programming with Mathematics",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "computing-requirement",
+      "choiceNote": "Computing requirement: choose PHYS 130 or MATH 215 (COMP 215)."
     }
   ],
-  "electiveOptions": {
-    "tpam-phys-upper": {
-      "creditsRequired": 6,
-      "label": "Advanced Physics Electives",
-      "note": "Two upper-division PHYS courses (300+)"
+  "electiveOptions": {},
+  "coreRequirements": [],
+  "checklist": [],
+  "roadmap": [
+    {
+      "year": 1,
+      "semester": "Semester I",
+      "credits": 14,
+      "items": [
+        {
+          "ref": "PHYS121"
+        },
+        {
+          "ref": "PHYS111L"
+        },
+        {
+          "ref": "MATH161"
+        },
+        {
+          "label": "UCWR 110",
+          "credits": 3,
+          "isElective": false
+        },
+        {
+          "label": "Core",
+          "credits": 3,
+          "isElective": true
+        }
+      ]
     },
-    "tpam-math-upper": {
-      "creditsRequired": 6,
-      "label": "Advanced Mathematics Electives",
-      "note": "Two upper-division MATH courses (300+)"
+    {
+      "year": 1,
+      "semester": "Semester II",
+      "credits": 15,
+      "items": [
+        {
+          "ref": "PHYS122"
+        },
+        {
+          "ref": "PHYS112L"
+        },
+        {
+          "ref": "PHYS126F"
+        },
+        {
+          "ref": "MATH162"
+        },
+        {
+          "ref": "MATH215"
+        },
+        {
+          "label": "Core",
+          "credits": 3,
+          "isElective": true
+        }
+      ]
+    },
+    {
+      "year": 2,
+      "semester": "Semester I",
+      "credits": 14,
+      "items": [
+        {
+          "ref": "PHYS235"
+        },
+        {
+          "ref": "PHYS235L"
+        },
+        {
+          "ref": "MATH263"
+        },
+        {
+          "ref": "MATH264"
+        },
+        {
+          "label": "Core",
+          "credits": 3,
+          "isElective": true
+        }
+      ]
+    },
+    {
+      "year": 2,
+      "semester": "Semester II",
+      "credits": 15,
+      "items": [
+        {
+          "ref": "MATH201"
+        },
+        {
+          "ref": "MATH212"
+        },
+        {
+          "ref": "PHYS314"
+        },
+        {
+          "ref": "PHYS301"
+        },
+        {
+          "label": "Core",
+          "credits": 3,
+          "isElective": true
+        }
+      ]
+    },
+    {
+      "year": 3,
+      "semester": "Semester I",
+      "credits": 15,
+      "items": [
+        {
+          "ref": "PHYS351"
+        },
+        {
+          "ref": "MATH313"
+        },
+        {
+          "ref": "MATH351"
+        },
+        {
+          "label": "Core",
+          "credits": 3,
+          "isElective": true
+        },
+        {
+          "label": "General Elective",
+          "credits": 3,
+          "isElective": true
+        }
+      ]
+    },
+    {
+      "year": 3,
+      "semester": "Semester II",
+      "credits": 15,
+      "items": [
+        {
+          "ref": "PHYS361"
+        },
+        {
+          "label": "Core",
+          "credits": 3,
+          "isElective": true
+        },
+        {
+          "label": "Core",
+          "credits": 3,
+          "isElective": true
+        },
+        {
+          "label": "Core",
+          "credits": 3,
+          "isElective": true
+        },
+        {
+          "label": "General Elective",
+          "credits": 3,
+          "isElective": true
+        }
+      ]
+    },
+    {
+      "year": 4,
+      "semester": "Semester I",
+      "credits": 15,
+      "items": [
+        {
+          "ref": "MATH353"
+        },
+        {
+          "ref": "PHYS328"
+        },
+        {
+          "label": "Core",
+          "credits": 3,
+          "isElective": true
+        },
+        {
+          "label": "Core",
+          "credits": 3,
+          "isElective": true
+        },
+        {
+          "label": "Core",
+          "credits": 3,
+          "isElective": true
+        }
+      ]
+    },
+    {
+      "year": 4,
+      "semester": "Semester II",
+      "credits": 17,
+      "items": [
+        {
+          "ref": "PHYS338"
+        },
+        {
+          "label": "Core",
+          "credits": 3,
+          "isElective": true
+        },
+        {
+          "label": "Core",
+          "credits": 3,
+          "isElective": true
+        },
+        {
+          "label": "General Elective",
+          "credits": 3,
+          "isElective": true
+        },
+        {
+          "label": "General Elective",
+          "credits": 3,
+          "isElective": true
+        },
+        {
+          "label": "General Elective",
+          "credits": 3,
+          "isElective": true
+        }
+      ]
     }
-  }
+  ]
 }

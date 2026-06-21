@@ -10,94 +10,115 @@
   "catalogUrl": "https://catalog.luc.edu/undergraduate/arts-sciences/neuroscience/molecular-cellular-neuroscience-bs/",
   "courses": [
     {
-      "id": "NEUR101",
-      "code": "NEUR 101",
-      "title": "Introduction to Neuroscience",
-      "credits": 3,
-      "category": "major"
-    },
-    {
       "id": "BIOL101",
       "code": "BIOL 101",
-      "title": "Biology I",
+      "title": "General Biology I",
       "credits": 3,
       "category": "major"
     },
     {
-      "id": "BIOL101L",
-      "code": "BIOL 101L",
-      "title": "Biology I Laboratory",
+      "id": "BIOL111",
+      "code": "BIOL 111",
+      "title": "General Biology I Lab",
       "credits": 1,
       "category": "major"
     },
     {
       "id": "BIOL102",
       "code": "BIOL 102",
-      "title": "Biology II",
+      "title": "General Biology II",
       "credits": 3,
       "category": "major"
     },
     {
-      "id": "BIOL102L",
-      "code": "BIOL 102L",
-      "title": "Biology II Laboratory",
+      "id": "BIOL112",
+      "code": "BIOL 112",
+      "title": "General Biology II Lab",
       "credits": 1,
       "category": "major"
     },
     {
-      "id": "BIOL280",
-      "code": "BIOL 280",
+      "id": "BIOL251",
+      "code": "BIOL 251",
+      "title": "Cell Biology",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "BIOL282",
+      "code": "BIOL 282",
       "title": "Genetics",
       "credits": 3,
       "category": "major"
     },
     {
-      "id": "BIOL280L",
-      "code": "BIOL 280L",
-      "title": "Genetics Laboratory",
-      "credits": 1,
-      "category": "major"
-    },
-    {
-      "id": "CHEM101",
-      "code": "CHEM 101",
-      "title": "General Chemistry I",
+      "id": "PSYC101",
+      "code": "PSYC 101",
+      "title": "General Psychology",
       "credits": 3,
       "category": "major"
     },
     {
-      "id": "CHEM101L",
-      "code": "CHEM 101L",
-      "title": "General Chemistry I Laboratory",
-      "credits": 1,
-      "category": "major"
-    },
-    {
-      "id": "CHEM102",
-      "code": "CHEM 102",
-      "title": "General Chemistry II",
+      "id": "NEUROSCIENCE_MINOR_NEUR101",
+      "code": "NEUR 101",
+      "title": "Introduction to Neuroscience",
       "credits": 3,
       "category": "major"
     },
     {
-      "id": "CHEM102L",
-      "code": "CHEM 102L",
-      "title": "General Chemistry II Laboratory",
-      "credits": 1,
-      "category": "major"
-    },
-    {
-      "id": "CHEM221",
-      "code": "CHEM 221",
-      "title": "Organic Chemistry I",
+      "id": "NEUROSCIENCE_MINOR_BIOL362",
+      "code": "BIOL 362",
+      "title": "Neurobiology",
       "credits": 3,
       "category": "major"
     },
     {
-      "id": "CHEM221L",
-      "code": "CHEM 221L",
-      "title": "Organic Chemistry I Laboratory",
+      "id": "PSYC382",
+      "code": "PSYC 382",
+      "title": "Behavorial and Cognitive Neuroscience",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "CHEM160",
+      "code": "CHEM 160",
+      "title": "Chemical Structure and Properties",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "CHEM161",
+      "code": "CHEM 161",
+      "title": "Chemical Structure and Properties Laboratory",
       "credits": 1,
+      "category": "major"
+    },
+    {
+      "id": "CHEM180",
+      "code": "CHEM 180",
+      "title": "Chemical Reactivity I",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "CHEM181",
+      "code": "CHEM 181",
+      "title": "Chemical Reactivity I Lab",
+      "credits": 1,
+      "category": "major"
+    },
+    {
+      "id": "CHEM240",
+      "code": "CHEM 240",
+      "title": "Chemical Reactivity II",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "CHEM260",
+      "code": "CHEM 260",
+      "title": "Quantitative Methods in Chemistry",
+      "credits": 3,
       "category": "major"
     },
     {
@@ -108,25 +129,409 @@
       "category": "major"
     },
     {
-      "id": "PHYS125",
-      "code": "PHYS 125",
-      "title": "General Physics I",
+      "id": "PHYS111",
+      "code": "PHYS 111",
+      "title": "College Physics I Lec / Dis",
       "credits": 3,
       "category": "major"
     },
     {
-      "id": "PHYS125L",
-      "code": "PHYS 125L",
-      "title": "General Physics I Laboratory",
+      "id": "PHYS111L",
+      "code": "PHYS 111L",
+      "title": "College Physics Laboratory I",
       "credits": 1,
       "category": "major"
+    },
+    {
+      "id": "PHYS112",
+      "code": "PHYS 112",
+      "title": "College Physics II Lec/Disc",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "PHYS112L",
+      "code": "PHYS 112L",
+      "title": "College Physics Lab II",
+      "credits": 1,
+      "category": "major"
+    },
+    {
+      "id": "STAT335",
+      "code": "STAT 335",
+      "title": "Introduction to Biostatistics",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "statistics",
+      "choiceNote": "Choose one statistics course: STAT 335 or PSYC 304"
+    },
+    {
+      "id": "PSYC304",
+      "code": "PSYC 304",
+      "title": "Statistics",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "statistics",
+      "choiceNote": "Choose one statistics course: STAT 335 or PSYC 304"
+    },
+    {
+      "id": "BIOL252",
+      "code": "BIOL 252",
+      "title": "Cell Biology Laboratory",
+      "credits": 1,
+      "category": "major",
+      "requirementGroup": "cell-bio-lab",
+      "choiceNote": "Choose one lab: BIOL 252 (Cell Biology Lab) or BIOL 283 (Genetics Lab)"
+    },
+    {
+      "id": "BIOL283",
+      "code": "BIOL 283",
+      "title": "Genetics Laboratory",
+      "credits": 1,
+      "category": "major",
+      "requirementGroup": "cell-bio-lab",
+      "choiceNote": "Choose one lab: BIOL 252 (Cell Biology Lab) or BIOL 283 (Genetics Lab)"
+    },
+    {
+      "id": "BIOL376",
+      "code": "BIOL 376",
+      "title": "Seminar in Molecular/Cellular Neuroscience",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "capstone",
+      "choiceNote": "Capstone: choose BIOL 376 or BIOL 358"
+    },
+    {
+      "id": "NEUROSCIENCE_MINOR_BIOL358",
+      "code": "BIOL 358",
+      "title": "Developmental Neurobiology",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "capstone",
+      "choiceNote": "Capstone: choose BIOL 376 or BIOL 358"
     }
   ],
   "electiveOptions": {
-    "neur-mcn-electives": {
+    "mcn-lecture-electives": {
       "creditsRequired": 9,
-      "label": "MCN Electives",
-      "note": "Three courses from approved molecular/cellular biology or advanced neuroscience list"
+      "label": "Specialty Lecture Electives (select three)",
+      "note": "Select three lecture electives (7-9 cr) from: BIOL 307, BIOL 351, BIOL 352, BIOL 357, BIOL 358, BIOL 361, BIOL 381, BIOL 382, BIOL 395, CHEM 361/BIOL 366 or CHEM 370, NEUR 300, PSYC 240/BIOL 240, PSYC 378, PSYC 383/COMP 386.",
+      "courses": [
+        {
+          "id": "NEUROSCIENCE_MINOR_BIOL351",
+          "code": "BIOL 351",
+          "title": "Sleep/Circadian Rhythms",
+          "credits": 3
+        },
+        {
+          "id": "NEUROSCIENCE_MINOR_BIOL352",
+          "code": "BIOL 352",
+          "title": "Elective lecture",
+          "credits": 3
+        },
+        {
+          "id": "NEUROSCIENCE_MINOR_BIOL357",
+          "code": "BIOL 357",
+          "title": "Neural Disease, Degeneration, and Regeneration",
+          "credits": 3
+        },
+        {
+          "id": "NEUROSCIENCE_MINOR_BIOL361",
+          "code": "BIOL 361",
+          "title": "Cellular and Gross Neuroanatomy",
+          "credits": 3
+        },
+        {
+          "id": "BIOI_ELEC_BIOL382",
+          "code": "BIOL 382",
+          "title": "Molecular Genetics",
+          "credits": 3
+        },
+        {
+          "id": "NEUROSCIENCE_MINOR_BIOL395",
+          "code": "BIOL 395",
+          "title": "Special Topics in Biology",
+          "credits": 3
+        },
+        {
+          "id": "BIOI_CHEM361",
+          "code": "CHEM 361",
+          "title": "Principles of Biochemistry",
+          "credits": 3
+        },
+        {
+          "id": "CHEM370",
+          "code": "CHEM 370",
+          "title": "Biochemistry I",
+          "credits": 3
+        },
+        {
+          "id": "NEUROSCIENCE_MINOR_NEUR300",
+          "code": "NEUR 300",
+          "title": "Seminar in Neuroscience",
+          "credits": 1
+        },
+        {
+          "id": "PSYC240",
+          "code": "PSYC 240",
+          "title": "Psychology-Biology of Perception",
+          "credits": 3
+        },
+        {
+          "id": "NEUROSCIENCE_MINOR_PSYC378",
+          "code": "PSYC 378",
+          "title": "Drugs and Behavior",
+          "credits": 3
+        },
+        {
+          "id": "NEUROSCIENCE_MINOR_PSYC383",
+          "code": "PSYC 383",
+          "title": "Methods in Computational Neuroscience",
+          "credits": 3
+        },
+        {
+          "id": "MCN_LEC_BIOL307",
+          "code": "BIOL 307",
+          "title": "Biology of Stem Cells",
+          "credits": 3
+        },
+        {
+          "id": "MCN_LEC_BIOL381",
+          "code": "BIOL 381",
+          "title": "Epigenetics",
+          "credits": 3
+        }
+      ]
+    },
+    "mcn-lab-electives": {
+      "creditsRequired": 4,
+      "label": "Specialty Lab Electives (select two)",
+      "note": "Select two lab electives (2-8 cr) from: BIOL 252 or BIOL 283, BIOL 315, BIOL 361L, BIOL 366L or CHEM 372, BIOL 367, BIOL 390, BIOL 395L, NEUR 301/BIOL 373/PSYC 388, PSYC 311/BIOL 313 or PSYC 316, PSYC 384/COMP 389. Research (BIOL 396 or BIOL 398) with molecular/cellular focus may count.",
+      "courses": [
+        {
+          "id": "NEUROSCIENCE_MINOR_BIOL361L",
+          "code": "BIOL 361L",
+          "title": "Cellular and Gross Neuroanatomy Lab",
+          "credits": 2
+        },
+        {
+          "id": "NEUROSCIENCE_MINOR_BIOL366L",
+          "code": "BIOL 366L",
+          "title": "Cell Physiology and Biochemistry Lab",
+          "credits": 2
+        },
+        {
+          "id": "CHEM372",
+          "code": "CHEM 372",
+          "title": "Biochemistry Laboratory I",
+          "credits": 2
+        },
+        {
+          "id": "BIOI_ELEC_BIOL390",
+          "code": "BIOL 390",
+          "title": "Molecular Biology Laboratory",
+          "credits": 3
+        },
+        {
+          "id": "NEUROSCIENCE_MINOR_BIOL395L",
+          "code": "BIOL 395L",
+          "title": "Special Topics Laboratory",
+          "credits": 2
+        },
+        {
+          "id": "NEUROSCIENCE_MINOR_BIOL373",
+          "code": "BIOL 373",
+          "title": "Laboratory in Neurophysiology and Behavior",
+          "credits": 2
+        },
+        {
+          "id": "PSYC311",
+          "code": "PSYC 311",
+          "title": "Lab in Psychobiology",
+          "credits": 3
+        },
+        {
+          "id": "NEUROSCIENCE_MINOR_PSYC316",
+          "code": "PSYC 316",
+          "title": "Lab in Experimental Psychology: Sense & Perception",
+          "credits": 2
+        },
+        {
+          "id": "NEUROSCIENCE_MINOR_PSYC384",
+          "code": "PSYC 384",
+          "title": "Computational Modeling of the Brain",
+          "credits": 2
+        },
+        {
+          "id": "MCN_LAB_BIOL315",
+          "code": "BIOL 315",
+          "title": "Introductory Immunology Lec/Lab",
+          "credits": 2
+        },
+        {
+          "id": "MCN_LAB_BIOL367",
+          "code": "BIOL 367",
+          "title": "Biology lab elective",
+          "credits": 2
+        }
+      ]
     }
-  }
+  },
+  "coreRequirements": [],
+  "checklist": [],
+  "roadmap": [
+    {
+      "year": 1,
+      "semester": "Semester I",
+      "credits": 14,
+      "items": [
+        {
+          "ref": "BIOL101"
+        },
+        {
+          "ref": "BIOL111"
+        },
+        {
+          "ref": "CHEM160"
+        },
+        {
+          "ref": "CHEM161"
+        },
+        {
+          "ref": "PSYC101"
+        },
+        {
+          "ref": "MATH131"
+        }
+      ]
+    },
+    {
+      "year": 1,
+      "semester": "Semester II",
+      "credits": 11,
+      "items": [
+        {
+          "ref": "BIOL102"
+        },
+        {
+          "ref": "BIOL112"
+        },
+        {
+          "ref": "CHEM180"
+        },
+        {
+          "ref": "CHEM181"
+        },
+        {
+          "ref": "NEUROSCIENCE_MINOR_NEUR101"
+        }
+      ]
+    },
+    {
+      "year": 2,
+      "semester": "Semester I",
+      "credits": 10,
+      "items": [
+        {
+          "ref": "PHYS111"
+        },
+        {
+          "ref": "PHYS111L"
+        },
+        {
+          "ref": "BIOL251"
+        },
+        {
+          "ref": "CHEM240"
+        }
+      ]
+    },
+    {
+      "year": 2,
+      "semester": "Semester II",
+      "credits": 11,
+      "items": [
+        {
+          "ref": "PHYS112"
+        },
+        {
+          "ref": "PHYS112L"
+        },
+        {
+          "ref": "BIOL282"
+        },
+        {
+          "ref": "CHEM260"
+        },
+        {
+          "ref": "BIOL252"
+        }
+      ]
+    },
+    {
+      "year": 3,
+      "semester": "Semester I",
+      "credits": 7,
+      "items": [
+        {
+          "ref": "NEUROSCIENCE_MINOR_BIOL362"
+        },
+        {
+          "ref": "STAT335"
+        },
+        {
+          "label": "Specialty Lecture",
+          "credits": 3,
+          "isElective": true
+        }
+      ]
+    },
+    {
+      "year": 3,
+      "semester": "Semester II",
+      "credits": 6,
+      "items": [
+        {
+          "ref": "PSYC382"
+        },
+        {
+          "label": "Specialty Lecture",
+          "credits": 3,
+          "isElective": true
+        }
+      ]
+    },
+    {
+      "year": 4,
+      "semester": "Semester I",
+      "credits": 6,
+      "items": [
+        {
+          "label": "Specialty Lecture",
+          "credits": 3,
+          "isElective": true
+        },
+        {
+          "label": "Specialty Lab",
+          "credits": 3,
+          "isElective": true
+        }
+      ]
+    },
+    {
+      "year": 4,
+      "semester": "Semester II",
+      "credits": 6,
+      "items": [
+        {
+          "ref": "BIOL376"
+        },
+        {
+          "label": "Specialty Lab",
+          "credits": 3,
+          "isElective": true
+        }
+      ]
+    }
+  ]
 }

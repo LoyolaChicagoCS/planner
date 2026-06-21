@@ -15,7 +15,7 @@
       "title": "Object-Oriented Programming",
       "credits": 3,
       "category": "major",
-      "note": "Foundation course \u2014 waivable if you completed COMP 170 or equivalent"
+      "note": "Foundation course — waivable if you completed COMP 170 or equivalent"
     },
     {
       "id": "COMP271",
@@ -23,7 +23,7 @@
       "title": "Data Structures I",
       "credits": 3,
       "category": "major",
-      "note": "Foundation course \u2014 waivable if you completed COMP 271 or equivalent"
+      "note": "Foundation course — waivable if you completed COMP 271 or equivalent"
     },
     {
       "id": "COMP141",
@@ -31,7 +31,7 @@
       "title": "Computing Tools and Techniques",
       "credits": 1,
       "category": "major",
-      "note": "Foundation course \u2014 waivable if you completed COMP 141 or equivalent"
+      "note": "Foundation course — waivable if you completed COMP 141 or equivalent"
     },
     {
       "id": "MSCY_COMP401",
@@ -145,7 +145,7 @@
         {
           "id": "MSCY_EL_COMP490a",
           "code": "COMP 490",
-          "title": "Independent Project (3 cr)",
+          "title": "Independent Project",
           "credits": 3,
           "uniqueProgress": true,
           "note": "Must involve cybersecurity competitions and/or research"
@@ -153,7 +153,7 @@
         {
           "id": "MSCY_EL_COMP490b",
           "code": "COMP 490",
-          "title": "Independent Project (6 cr)",
+          "title": "Independent Project",
           "credits": 6,
           "uniqueProgress": true,
           "note": "Must involve cybersecurity competitions and/or research"
@@ -161,7 +161,7 @@
         {
           "id": "MSCY_EL_COMP499a",
           "code": "COMP 499",
-          "title": "Internship (3 cr)",
+          "title": "Internship",
           "credits": 3,
           "uniqueProgress": true,
           "note": "Up to 6 credits allowed"
@@ -169,7 +169,7 @@
         {
           "id": "MSCY_EL_COMP499b",
           "code": "COMP 499",
-          "title": "Internship (6 cr)",
+          "title": "Internship",
           "credits": 6,
           "uniqueProgress": true,
           "note": "Up to 6 credits allowed"

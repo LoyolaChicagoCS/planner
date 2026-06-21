@@ -53,7 +53,7 @@
       "title": "Data Structures I",
       "credits": 3,
       "category": "major",
-      "alternateNote": "or COMP 264 \u2014 one required, second counts as elective"
+      "alternateNote": "or COMP 264 — one required, second counts as elective"
     },
     {
       "id": "COMP301",
@@ -95,13 +95,13 @@
         {
           "id": "ITELEC_COMP305",
           "code": "COMP 305",
-          "title": "Rich Internet Application Development",
+          "title": "Database Administration",
           "credits": 3
         },
         {
           "id": "ITELEC_COMP306",
           "code": "COMP 306",
-          "title": "Database Administration",
+          "title": "Data Mining",
           "credits": 3
         },
         {
@@ -137,7 +137,7 @@
         {
           "id": "ITPRAC_COMP390",
           "code": "COMP 390",
-          "title": "Broadening Participation in STEM",
+          "title": "Broadening Participation in STEM (Computing, Math & Science)",
           "credits": 3
         },
         {
@@ -510,20 +510,20 @@
   "checklist": [
     {
       "id": "ap_cs_a",
-      "label": "AP Computer Science A (score \u2265 4)",
-      "grants": "COMP 170 \u2014 3 credits",
+      "label": "AP Computer Science A (score ≥ 4)",
+      "grants": "COMP 170 — 3 credits",
       "courseRef": "COMP170",
       "category": "ap"
     },
     {
       "id": "ap_cs_p",
-      "label": "AP Computer Science Principles (score \u2265 4)",
-      "grants": "COMP 150 \u2014 elective credit",
+      "label": "AP Computer Science Principles (score ≥ 4)",
+      "grants": "COMP 150 — elective credit",
       "category": "ap"
     },
     {
       "id": "ap_stats",
-      "label": "AP Statistics (score \u2265 4)",
+      "label": "AP Statistics (score ≥ 4)",
       "grants": "STAT 103 equivalent",
       "courseRef": "STAT103",
       "category": "ap"

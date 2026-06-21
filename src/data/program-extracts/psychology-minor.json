@@ -1,0 +1,31 @@
+{
+  "id": "psychology-minor",
+  "catalogUrl": "https://catalog.luc.edu/undergraduate/arts-sciences/psychology/psychology-minor/",
+  "fetchedAt": "2026-06-21",
+  "contentHash": "sha256:14b7ba95c551b3afc99b3c763f70f3af",
+  "courseLists": [
+    {
+      "sections": [
+        {
+          "label": "Required Courses",
+          "rows": [
+            {
+              "type": "course",
+              "code": "PSYC 101",
+              "title": "General Psychology",
+              "credits": 3,
+              "or": false
+            },
+            {
+              "type": "comment",
+              "text": "Five 200+ level Psychology courses",
+              "credits": 15
+            }
+          ]
+        }
+      ],
+      "total": 18
+    }
+  ],
+  "roadmap": []
+}

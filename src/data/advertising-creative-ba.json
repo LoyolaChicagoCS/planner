@@ -32,7 +32,7 @@
     {
       "id": "COMM215",
       "code": "COMM 215",
-      "title": "Ethics and Communication",
+      "title": "Ethics & Communication",
       "credits": 3,
       "category": "major"
     },
@@ -81,14 +81,14 @@
     {
       "id": "COMM214",
       "code": "COMM 214",
-      "title": "Creative Concepts 1",
+      "title": "Creative Concepts",
       "credits": 3,
       "category": "major"
     },
     {
       "id": "COMM266",
       "code": "COMM 266",
-      "title": "Advertising Copywriting 1",
+      "title": "Advertising Copywriting",
       "credits": 3,
       "category": "major"
     },
@@ -102,7 +102,7 @@
     {
       "id": "COMM329",
       "code": "COMM 329",
-      "title": "Design for Advertising I",
+      "title": "Advertising and Public Relations Design",
       "credits": 3,
       "category": "major",
       "requirementGroup": "advc-design",
@@ -111,7 +111,7 @@
     {
       "id": "COMM330",
       "code": "COMM 330",
-      "title": "Design for Advertising II",
+      "title": "Intermediate Advertising Design",
       "credits": 3,
       "category": "major",
       "requirementGroup": "advc-design",
@@ -134,7 +134,7 @@
     {
       "id": "COMM391advc",
       "code": "COMM 391",
-      "title": "Advertising/Public Relations Internship 2",
+      "title": "Advertising/Public Relations Internship",
       "credits": 3,
       "category": "major"
     }
@@ -256,7 +256,7 @@
         },
         {
           "isElective": true,
-          "label": "COMM 330 or COMM 329 \u2014 Advertising Design",
+          "label": "COMM 330 or COMM 329 — Advertising Design",
           "credits": 3
         }
       ]

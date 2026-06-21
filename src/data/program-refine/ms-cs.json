@@ -1,0 +1,86 @@
+{
+  "id": "ms-cs",
+  "basedOnExtractHash": "sha256:fef752e558ae3ce4aa88e42636020971",
+  "structure": {
+    "requiredCourseCodes": [
+      "COMP 400A",
+      "COMP 400B",
+      "COMP 400C",
+      "COMP 400D",
+      "COMP 400E",
+      "COMP 417",
+      "COMP 460"
+    ],
+    "electiveGroups": [
+      {
+        "key": "no-concentration",
+        "label": "No Concentration — Track Courses",
+        "creditsRequired": 12,
+        "members": [
+          "COMP 413",
+          "COMP 410",
+          "COMP 433",
+          "COMP 436",
+          "COMP 439",
+          "COMP 442",
+          "COMP 443",
+          "COMP 453",
+          "COMP 464",
+          "COMP 471",
+          "COMP 473",
+          "COMP 474"
+        ],
+        "note": "COMP 413 is required; choose 3 more from the list below"
+      },
+      {
+        "key": "ai-concentration",
+        "label": "Artificial Intelligence Concentration",
+        "creditsRequired": 12,
+        "members": [
+          "COMP 479",
+          "COMP 429",
+          "COMP 487",
+          "COMP 406",
+          "COMP 458",
+          "COMP 488"
+        ],
+        "note": "COMP 479 required; choose 1 from the NLP/Deep Learning pair and 2 more from the list below"
+      },
+      {
+        "key": "cybersecurity-concentration",
+        "label": "Cybersecurity Concentration",
+        "creditsRequired": 12,
+        "members": [
+          "COMP 401",
+          "COMP 447",
+          "COMP 448",
+          "COMP 452"
+        ],
+        "note": "All four courses required. COMP 460 is not required for this concentration."
+      },
+      {
+        "key": "systems-concentration",
+        "label": "Computer Systems Concentration",
+        "creditsRequired": 12,
+        "members": [
+          "COMP 410",
+          "COMP 405",
+          "COMP 413",
+          "COMP 439",
+          "COMP 443",
+          "COMP 451",
+          "COMP 462",
+          "COMP 464",
+          "COMP 472"
+        ],
+        "note": "COMP 410 required; choose 3 more from the list below"
+      },
+      {
+        "key": "general-electives",
+        "label": "General Electives",
+        "creditsRequired": 12,
+        "note": "Twelve credits of COMP 400-level general elective courses."
+      }
+    ]
+  }
+}

@@ -46,7 +46,7 @@
     {
       "id": "COMM202",
       "code": "COMM 202",
-      "title": "Story for Film and Television 1",
+      "title": "Story for Film and Television",
       "credits": 3,
       "category": "major"
     },
@@ -60,7 +60,7 @@
     {
       "id": "COMM350",
       "code": "COMM 350",
-      "title": "Producing for Film and Digital Media",
+      "title": "Producing for Film & Digital Media",
       "credits": 3,
       "category": "major"
     }
@@ -218,7 +218,7 @@
         },
         {
           "isElective": true,
-          "label": "COMM 203 or COMM 324 \u2014 Cinema History or Film Genre",
+          "label": "COMM 203 or COMM 324 — Cinema History or Film Genre",
           "credits": 3
         },
         {
@@ -255,7 +255,7 @@
         },
         {
           "isElective": true,
-          "label": "COMM 394 \u2014 Film & Digital Media Internship",
+          "label": "COMM 394 — Film & Digital Media Internship",
           "credits": 3
         }
       ]

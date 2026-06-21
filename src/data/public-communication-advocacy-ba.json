@@ -32,7 +32,7 @@
     {
       "id": "COMM215pca",
       "code": "COMM 215",
-      "title": "Ethics and Communication",
+      "title": "Ethics & Communication",
       "credits": 3,
       "category": "major",
       "requirementGroup": "pca-ethics",
@@ -64,14 +64,14 @@
     {
       "id": "COMM101",
       "code": "COMM 101",
-      "title": "Public Speaking and Critical Thinking",
+      "title": "Public Speaking & Critical Thinking",
       "credits": 3,
       "category": "major"
     },
     {
       "id": "COMM230",
       "code": "COMM 230",
-      "title": "Argumentation and Advocacy",
+      "title": "Argumentation & Advocacy",
       "credits": 3,
       "category": "major"
     },
@@ -92,7 +92,7 @@
     {
       "id": "COMM306",
       "code": "COMM 306",
-      "title": "Environmental Communication and Advocacy",
+      "title": "Environmental Communication & Advocacy",
       "credits": 3,
       "category": "major"
     },
@@ -228,7 +228,7 @@
       "items": [
         {
           "isElective": true,
-          "label": "COMM 215 or COMM 360 \u2014 Ethics",
+          "label": "COMM 215 or COMM 360 — Ethics",
           "credits": 3
         },
         {
@@ -246,7 +246,7 @@
         },
         {
           "isElective": true,
-          "label": "COMM 130/135/275 \u2014 Production or Web Design",
+          "label": "COMM 130/135/275 — Production or Web Design",
           "credits": 3
         }
       ]
@@ -277,7 +277,7 @@
         },
         {
           "isElective": true,
-          "label": "COMM 201/220/226/272 \u2014 Media or Rhetoric or Intercultural",
+          "label": "COMM 201/220/226/272 — Media or Rhetoric or Intercultural",
           "credits": 3
         }
       ]
@@ -292,7 +292,7 @@
         },
         {
           "isElective": true,
-          "label": "COMM 367/368/240 \u2014 Research Methods",
+          "label": "COMM 367/368/240 — Research Methods",
           "credits": 3
         }
       ]

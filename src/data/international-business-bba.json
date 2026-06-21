@@ -32,7 +32,7 @@
     {
       "id": "COMM103biz",
       "code": "COMM 103",
-      "title": "Business and Professional Speaking",
+      "title": "Business & Professional Speaking",
       "credits": 3,
       "category": "major"
     },
@@ -203,7 +203,7 @@
     "biz-global": {
       "creditsRequired": 3,
       "label": "Global Awareness",
-      "note": "One approved global awareness course \u2014 study abroad semester required"
+      "note": "One approved global awareness course — study abroad semester required"
     }
   },
   "roadmap": [
@@ -255,7 +255,7 @@
         },
         {
           "isElective": true,
-          "label": "ISSCM 241 or STAT 103 \u2014 Business Statistics",
+          "label": "ISSCM 241 or STAT 103 — Business Statistics",
           "credits": 3
         },
         {
@@ -312,7 +312,7 @@
       "items": [
         {
           "isElective": true,
-          "label": "INFS 343 or ECON 346 \u2014 Business Analytics",
+          "label": "INFS 343 or ECON 346 — Business Analytics",
           "credits": 3
         },
         {

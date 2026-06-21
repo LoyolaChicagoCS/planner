@@ -15,7 +15,7 @@
       "title": "Object-Oriented Programming",
       "credits": 3,
       "category": "major",
-      "note": "Foundation course \u2014 waivable if you completed COMP 170 or equivalent"
+      "note": "Foundation course — waivable if you completed COMP 170 or equivalent"
     },
     {
       "id": "COMP271",
@@ -23,7 +23,7 @@
       "title": "Data Structures I",
       "credits": 3,
       "category": "major",
-      "note": "Foundation course \u2014 waivable if you completed COMP 271 or equivalent"
+      "note": "Foundation course — waivable if you completed COMP 271 or equivalent"
     },
     {
       "id": "MSIT_COMP417",
@@ -181,7 +181,7 @@
     "general-electives": {
       "creditsRequired": 18,
       "label": "General Electives",
-      "note": "Any COMP 400-level course except foundations (400A\u2013E). Up to 6 credits of COMP 490 and/or COMP 499 combined may apply.",
+      "note": "Any COMP 400-level course except foundations (400A–E). Up to 6 credits of COMP 490 and/or COMP 499 combined may apply.",
       "courses": [
         {
           "id": "MSIT_GE_COMP401",
@@ -444,7 +444,7 @@
         {
           "id": "MSIT_GE_COMP469",
           "code": "COMP 469",
-          "title": "Product Invention and 3D Printing",
+          "title": "Product Invention and 3D printing",
           "credits": 3
         },
         {
@@ -534,7 +534,7 @@
         {
           "id": "MSIT_GE_COMP490a",
           "code": "COMP 490",
-          "title": "Independent Project (3 cr)",
+          "title": "Independent Project",
           "credits": 3,
           "uniqueProgress": true,
           "note": "Up to 6 credits of COMP 490 + COMP 499 combined may count toward electives"
@@ -542,7 +542,7 @@
         {
           "id": "MSIT_GE_COMP490b",
           "code": "COMP 490",
-          "title": "Independent Project (6 cr)",
+          "title": "Independent Project",
           "credits": 6,
           "uniqueProgress": true,
           "note": "Up to 6 credits of COMP 490 + COMP 499 combined may count toward electives"
@@ -550,7 +550,7 @@
         {
           "id": "MSIT_GE_COMP499a",
           "code": "COMP 499",
-          "title": "Internship (3 cr)",
+          "title": "Internship",
           "credits": 3,
           "uniqueProgress": true,
           "note": "Up to 6 credits of COMP 490 + COMP 499 combined may count toward electives"
@@ -558,7 +558,7 @@
         {
           "id": "MSIT_GE_COMP499b",
           "code": "COMP 499",
-          "title": "Internship (6 cr)",
+          "title": "Internship",
           "credits": 6,
           "uniqueProgress": true,
           "note": "Up to 6 credits of COMP 490 + COMP 499 combined may count toward electives"

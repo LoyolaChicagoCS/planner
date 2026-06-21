@@ -11,7 +11,7 @@
     {
       "id": "THEO100rs",
       "code": "THEO 100",
-      "title": "Theological Foundations",
+      "title": "Christian Theology",
       "credits": 3,
       "category": "major"
     },
@@ -57,12 +57,12 @@
       "items": [
         {
           "isElective": true,
-          "label": "THEO 107 \u2014 Religious Comparisons Course",
+          "label": "THEO 107 — Religious Comparisons Course",
           "credits": 3
         },
         {
           "isElective": true,
-          "label": "THEO 186 \u2014 Religious Comparisons Course",
+          "label": "THEO 186 — Religious Comparisons Course",
           "credits": 3
         }
       ]
@@ -161,7 +161,7 @@
       "items": [
         {
           "isElective": true,
-          "label": "THEO 353 \u2014 Religious Traditions",
+          "label": "THEO 353 — Religious Traditions",
           "credits": 3
         }
       ]

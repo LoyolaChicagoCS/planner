@@ -1,0 +1,195 @@
+{
+  "catalog": "2026-2027",
+  "code": "ENGR",
+  "name": "Engineering Science",
+  "sourceUrl": "https://catalog.luc.edu/course-descriptions/engr/",
+  "fetchedAt": "2026-06-21",
+  "courses": [
+    {
+      "id": "ENGR101",
+      "code": "ENGR 101",
+      "title": "Introduction to Engineering Design",
+      "credits": 4
+    },
+    {
+      "id": "ENGR102",
+      "code": "ENGR 102",
+      "title": "Engineering Freshman Seminar",
+      "credits": 1
+    },
+    {
+      "id": "ENGR201",
+      "code": "ENGR 201",
+      "title": "Experiential Engineering",
+      "credits": 3
+    },
+    {
+      "id": "ENGR311",
+      "code": "ENGR 311",
+      "title": "Engineering Systems I",
+      "credits": 3
+    },
+    {
+      "id": "ENGR312",
+      "code": "ENGR 312",
+      "title": "Engineering Systems II",
+      "credits": 3
+    },
+    {
+      "id": "ENGR313",
+      "code": "ENGR 313",
+      "title": "Engineering Systems III",
+      "credits": 3
+    },
+    {
+      "id": "ENGR321",
+      "code": "ENGR 321",
+      "title": "Electronic Circuits & Devices",
+      "credits": 2
+    },
+    {
+      "id": "ENGR322",
+      "code": "ENGR 322",
+      "title": "Chemical & Thermal Processes",
+      "credits": 3
+    },
+    {
+      "id": "ENGR323",
+      "code": "ENGR 323",
+      "title": "Digital Electronic & Computer Engineering",
+      "credits": 3
+    },
+    {
+      "id": "ENGR324",
+      "code": "ENGR 324",
+      "title": "Mechanics",
+      "credits": 3
+    },
+    {
+      "id": "ENGR324L",
+      "code": "ENGR 324L",
+      "title": "Core Engineering Lab",
+      "credits": 1
+    },
+    {
+      "id": "ENGR325",
+      "code": "ENGR 325",
+      "title": "Materials Engineering",
+      "credits": 3
+    },
+    {
+      "id": "ENGR341",
+      "code": "ENGR 341",
+      "title": "Medical Device Systems",
+      "credits": 3
+    },
+    {
+      "id": "ENGR341L",
+      "code": "ENGR 341L",
+      "title": "Medical Device Systems Laboratory",
+      "credits": 1
+    },
+    {
+      "id": "ENGR342",
+      "code": "ENGR 342",
+      "title": "Medical Device Software Development I",
+      "credits": 3
+    },
+    {
+      "id": "ENGR343",
+      "code": "ENGR 343",
+      "title": "Medical Device Software Development II",
+      "credits": 3
+    },
+    {
+      "id": "ENGR351",
+      "code": "ENGR 351",
+      "title": "Electronic Circuit Analysis and Design",
+      "credits": 3
+    },
+    {
+      "id": "ENGR351L",
+      "code": "ENGR 351L",
+      "title": "Circuit Design Laboratory",
+      "credits": 1
+    },
+    {
+      "id": "ENGR352",
+      "code": "ENGR 352",
+      "title": "Methods and Algorithms for Computer Engineers",
+      "credits": 3
+    },
+    {
+      "id": "ENGR353",
+      "code": "ENGR 353",
+      "title": "Programmable Systems",
+      "credits": 3
+    },
+    {
+      "id": "ENGR361",
+      "code": "ENGR 361",
+      "title": "Fundamentals of Environmental Engineering",
+      "credits": 3
+    },
+    {
+      "id": "ENGR361L",
+      "code": "ENGR 361L",
+      "title": "Fundamentals of Environmental Engineering Lab",
+      "credits": 1
+    },
+    {
+      "id": "ENGR362",
+      "code": "ENGR 362",
+      "title": "Water & Wastewater Engineering",
+      "credits": 3
+    },
+    {
+      "id": "ENGR363",
+      "code": "ENGR 363",
+      "title": "Contemporary Environmental Engineering Challenges",
+      "credits": 3
+    },
+    {
+      "id": "ENGR381",
+      "code": "ENGR 381",
+      "title": "Biomedical Engineering Capstone Design I",
+      "credits": 4
+    },
+    {
+      "id": "ENGR382",
+      "code": "ENGR 382",
+      "title": "Computer Engineering Capstone Design I",
+      "credits": 4
+    },
+    {
+      "id": "ENGR383",
+      "code": "ENGR 383",
+      "title": "Environmental Engineering Capstone Design I",
+      "credits": 4
+    },
+    {
+      "id": "ENGR391",
+      "code": "ENGR 391",
+      "title": "Biomedical Engineering Capstone Design II",
+      "credits": 4
+    },
+    {
+      "id": "ENGR392",
+      "code": "ENGR 392",
+      "title": "Computer Engineering Capstone Design II",
+      "credits": 4
+    },
+    {
+      "id": "ENGR393",
+      "code": "ENGR 393",
+      "title": "Environmental Engineering Capstone Design II",
+      "credits": 4
+    },
+    {
+      "id": "ENGR398",
+      "code": "ENGR 398",
+      "title": "Independent Study",
+      "credits": 1
+    }
+  ]
+}

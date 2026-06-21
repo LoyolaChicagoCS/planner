@@ -32,7 +32,7 @@
     {
       "id": "COMM103biz",
       "code": "COMM 103",
-      "title": "Business and Professional Speaking",
+      "title": "Business & Professional Speaking",
       "credits": 3,
       "category": "major"
     },
@@ -287,7 +287,7 @@
         },
         {
           "isElective": true,
-          "label": "ISSCM 241 or STAT 103 \u2014 Business Statistics",
+          "label": "ISSCM 241 or STAT 103 — Business Statistics",
           "credits": 3
         },
         {
@@ -349,7 +349,7 @@
         },
         {
           "isElective": true,
-          "label": "INFS 343 or STAT 103 \u2014 Business Analytics",
+          "label": "INFS 343 or STAT 103 — Business Analytics",
           "credits": 3
         },
         {

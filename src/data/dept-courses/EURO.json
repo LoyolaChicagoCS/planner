@@ -1,0 +1,21 @@
+{
+  "catalog": "2026-2027",
+  "code": "EURO",
+  "name": "European Studies",
+  "sourceUrl": "https://catalog.luc.edu/course-descriptions/euro/",
+  "fetchedAt": "2026-06-21",
+  "courses": [
+    {
+      "id": "EURO101",
+      "code": "EURO 101",
+      "title": "Introduction to European Studies",
+      "credits": 3
+    },
+    {
+      "id": "EURO301",
+      "code": "EURO 301",
+      "title": "European Studies Capstone",
+      "credits": 3
+    }
+  ]
+}

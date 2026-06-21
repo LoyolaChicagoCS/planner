@@ -10,11 +10,41 @@
   "hasCompletionEstimate": false,
   "catalogUrl": "https://catalog.luc.edu/undergraduate/business/sustainability-management-minor/",
   "courses": [
-    { "id": "SUSTAINABILITY_MANAGEMENT_MINOR_ECON201", "code": "ECON 201", "title": "Principles of Microeconomics", "credits": 3, "category": "major" },
-    { "id": "SUSTAINABILITY_MANAGEMENT_MINOR_ENVS283", "code": "ENVS 283", "title": "Environmental Sustainability", "credits": 3, "category": "major" },
-    { "id": "SUSTAINABILITY_MANAGEMENT_MINOR_MGMT201", "code": "MGMT 201", "title": "Managing People and Organizations", "credits": 3, "category": "major" },
-    { "id": "SUSTAINABILITY_MANAGEMENT_MINOR_ENVS335", "code": "ENVS 335", "title": "Ecological Economics", "credits": 3, "category": "major" },
-    { "id": "SUSTAINABILITY_MANAGEMENT_MINOR_ENVS363", "code": "ENVS 363", "title": "Sustainable Business Management", "credits": 3, "category": "major" }
+    {
+      "id": "SUSTAINABILITY_MANAGEMENT_MINOR_ECON201",
+      "code": "ECON 201",
+      "title": "Principles of Microeconomics",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "SUSTAINABILITY_MANAGEMENT_MINOR_ENVS283",
+      "code": "ENVS 283",
+      "title": "Environmental Sustainability",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "SUSTAINABILITY_MANAGEMENT_MINOR_MGMT201",
+      "code": "MGMT 201",
+      "title": "Managing People and Organizations",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "SUSTAINABILITY_MANAGEMENT_MINOR_ENVS335",
+      "code": "ENVS 335",
+      "title": "Ecological Economics",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "SUSTAINABILITY_MANAGEMENT_MINOR_ENVS363",
+      "code": "ENVS 363",
+      "title": "Sustainable Business Management",
+      "credits": 3,
+      "category": "major"
+    }
   ],
   "electiveOptions": {
     "advancedElectives": {
@@ -22,27 +52,139 @@
       "label": "Advanced Electives (select two)",
       "note": "Select two of the following: ECON 328, ENVS 332, ENVS 333, ENVS 336, ENVS 364, MARK 320, SCMG 346. No more than one of the following may be applied: MGMT 399 or ENVS 398 (sustainable business topic, with pre-approval).",
       "courses": [
-        { "id": "SUSTAINABILITY_MANAGEMENT_MINOR_ECON328", "code": "ECON 328", "title": "Environmental Economics", "credits": 3 },
-        { "id": "SUSTAINABILITY_MANAGEMENT_MINOR_ENVS332", "code": "ENVS 332", "title": "ENVS 332", "credits": 3 },
-        { "id": "SUSTAINABILITY_MANAGEMENT_MINOR_ENVS333", "code": "ENVS 333", "title": "Introduction to the Circular Economy", "credits": 3 },
-        { "id": "SUSTAINABILITY_MANAGEMENT_MINOR_ENVS336", "code": "ENVS 336", "title": "Design for Circular & Sustainable Business", "credits": 3 },
-        { "id": "SUSTAINABILITY_MANAGEMENT_MINOR_ENVS364", "code": "ENVS 364", "title": "ENVS 364", "credits": 3 },
-        { "id": "SUSTAINABILITY_MANAGEMENT_MINOR_MARK320", "code": "MARK 320", "title": "Marketing for Environmental Sustainability", "credits": 3 },
-        { "id": "SUSTAINABILITY_MANAGEMENT_MINOR_SCMG346", "code": "SCMG 346", "title": "Analytics for Social Good", "credits": 3 },
-        { "id": "SUSTAINABILITY_MANAGEMENT_MINOR_MGMT399", "code": "MGMT 399", "title": "Special Topics in Management (sustainable business topic, with pre-approval)", "credits": 3 },
-        { "id": "SUSTAINABILITY_MANAGEMENT_MINOR_ENVS398", "code": "ENVS 398", "title": "Special Topics (sustainable business topic, with pre-approval)", "credits": 3 }
+        {
+          "id": "SUSTAINABILITY_MANAGEMENT_MINOR_ECON328",
+          "code": "ECON 328",
+          "title": "Environmental Economics",
+          "credits": 3
+        },
+        {
+          "id": "SUSTAINABILITY_MANAGEMENT_MINOR_ENVS332",
+          "code": "ENVS 332",
+          "title": "ENVS 332",
+          "credits": 3
+        },
+        {
+          "id": "SUSTAINABILITY_MANAGEMENT_MINOR_ENVS333",
+          "code": "ENVS 333",
+          "title": "Introduction to the Circular Economy",
+          "credits": 3
+        },
+        {
+          "id": "SUSTAINABILITY_MANAGEMENT_MINOR_ENVS336",
+          "code": "ENVS 336",
+          "title": "Design for Circular & Sustainable Business",
+          "credits": 3
+        },
+        {
+          "id": "SUSTAINABILITY_MANAGEMENT_MINOR_ENVS364",
+          "code": "ENVS 364",
+          "title": "ENVS 364",
+          "credits": 3
+        },
+        {
+          "id": "SUSTAINABILITY_MANAGEMENT_MINOR_MARK320",
+          "code": "MARK 320",
+          "title": "Marketing for Environmental Sustainability",
+          "credits": 3
+        },
+        {
+          "id": "SUSTAINABILITY_MANAGEMENT_MINOR_SCMG346",
+          "code": "SCMG 346",
+          "title": "Analytics for Social Good",
+          "credits": 3
+        },
+        {
+          "id": "SUSTAINABILITY_MANAGEMENT_MINOR_MGMT399",
+          "code": "MGMT 399",
+          "title": "Special Topics in Management",
+          "credits": 3
+        },
+        {
+          "id": "SUSTAINABILITY_MANAGEMENT_MINOR_ENVS398",
+          "code": "ENVS 398",
+          "title": "Special Topics",
+          "credits": 3
+        }
       ]
     }
   },
   "coreRequirements": [],
   "checklist": [],
   "roadmap": [
-    { "year": 1, "semester": "Fall", "credits": 3, "items": [ { "ref": "SUSTAINABILITY_MANAGEMENT_MINOR_ECON201" } ] },
-    { "year": 2, "semester": "Fall", "credits": 3, "items": [ { "ref": "SUSTAINABILITY_MANAGEMENT_MINOR_MGMT201" } ] },
-    { "year": 2, "semester": "Spring", "credits": 3, "items": [ { "ref": "SUSTAINABILITY_MANAGEMENT_MINOR_ENVS283" } ] },
-    { "year": 3, "semester": "Fall", "credits": 3, "items": [ { "ref": "SUSTAINABILITY_MANAGEMENT_MINOR_ENVS335" } ] },
-    { "year": 3, "semester": "Spring", "credits": 3, "items": [ { "ref": "SUSTAINABILITY_MANAGEMENT_MINOR_ENVS363" } ] },
-    { "year": 4, "semester": "Fall", "credits": 3, "items": [ { "label": "Advanced Elective", "credits": 3, "isElective": true } ] },
-    { "year": 4, "semester": "Spring", "credits": 3, "items": [ { "label": "Advanced Elective", "credits": 3, "isElective": true } ] }
+    {
+      "year": 1,
+      "semester": "Fall",
+      "credits": 3,
+      "items": [
+        {
+          "ref": "SUSTAINABILITY_MANAGEMENT_MINOR_ECON201"
+        }
+      ]
+    },
+    {
+      "year": 2,
+      "semester": "Fall",
+      "credits": 3,
+      "items": [
+        {
+          "ref": "SUSTAINABILITY_MANAGEMENT_MINOR_MGMT201"
+        }
+      ]
+    },
+    {
+      "year": 2,
+      "semester": "Spring",
+      "credits": 3,
+      "items": [
+        {
+          "ref": "SUSTAINABILITY_MANAGEMENT_MINOR_ENVS283"
+        }
+      ]
+    },
+    {
+      "year": 3,
+      "semester": "Fall",
+      "credits": 3,
+      "items": [
+        {
+          "ref": "SUSTAINABILITY_MANAGEMENT_MINOR_ENVS335"
+        }
+      ]
+    },
+    {
+      "year": 3,
+      "semester": "Spring",
+      "credits": 3,
+      "items": [
+        {
+          "ref": "SUSTAINABILITY_MANAGEMENT_MINOR_ENVS363"
+        }
+      ]
+    },
+    {
+      "year": 4,
+      "semester": "Fall",
+      "credits": 3,
+      "items": [
+        {
+          "label": "Advanced Elective",
+          "credits": 3,
+          "isElective": true
+        }
+      ]
+    },
+    {
+      "year": 4,
+      "semester": "Spring",
+      "credits": 3,
+      "items": [
+        {
+          "label": "Advanced Elective",
+          "credits": 3,
+          "isElective": true
+        }
+      ]
+    }
   ]
 }

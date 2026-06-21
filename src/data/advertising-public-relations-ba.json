@@ -32,7 +32,7 @@
     {
       "id": "COMM215",
       "code": "COMM 215",
-      "title": "Ethics and Communication",
+      "title": "Ethics & Communication",
       "credits": 3,
       "category": "major"
     },
@@ -184,7 +184,7 @@
         },
         {
           "isElective": true,
-          "label": "COMM 210 or COMM 211 \u2014 Principles of PR or Advertising",
+          "label": "COMM 210 or COMM 211 — Principles of PR or Advertising",
           "credits": 3
         }
       ]
@@ -196,7 +196,7 @@
       "items": [
         {
           "isElective": true,
-          "label": "COMM 211 or COMM 210 \u2014 Principles of Advertising or PR",
+          "label": "COMM 211 or COMM 210 — Principles of Advertising or PR",
           "credits": 3
         },
         {

@@ -1,0 +1,45 @@
+{
+  "catalog": "2026-2027",
+  "code": "JAPN",
+  "name": "Japanese",
+  "sourceUrl": "https://catalog.luc.edu/course-descriptions/japn/",
+  "fetchedAt": "2026-06-21",
+  "courses": [
+    {
+      "id": "JAPN101",
+      "code": "JAPN 101",
+      "title": "Japanese I",
+      "credits": 3
+    },
+    {
+      "id": "JAPN102",
+      "code": "JAPN 102",
+      "title": "Japanese II",
+      "credits": 3
+    },
+    {
+      "id": "JAPN103",
+      "code": "JAPN 103",
+      "title": "Japanese III",
+      "credits": 3
+    },
+    {
+      "id": "JAPN104",
+      "code": "JAPN 104",
+      "title": "Japanese IV",
+      "credits": 3
+    },
+    {
+      "id": "JAPN250",
+      "code": "JAPN 250",
+      "title": "Composition & Conversation I",
+      "credits": 3
+    },
+    {
+      "id": "JAPN251",
+      "code": "JAPN 251",
+      "title": "Composition & Conversation II",
+      "credits": 3
+    }
+  ]
+}

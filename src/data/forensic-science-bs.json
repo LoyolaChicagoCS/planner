@@ -6,132 +6,230 @@
   "degree": "BS",
   "school": "Loyola University Chicago",
   "totalCredits": 133,
-  "majorCredits": 84,
+  "majorCredits": 88,
   "catalogUrl": "https://catalog.luc.edu/undergraduate/arts-sciences/forensic-science/forensic-science-bs/",
   "courses": [
     {
-      "id": "CHEM101",
-      "code": "CHEM 101",
-      "title": "General Chemistry I",
-      "credits": 3,
-      "category": "major"
-    },
-    {
-      "id": "CHEM101L",
-      "code": "CHEM 101L",
-      "title": "General Chemistry I Laboratory",
-      "credits": 1,
-      "category": "major"
-    },
-    {
-      "id": "CHEM102",
-      "code": "CHEM 102",
-      "title": "General Chemistry II",
-      "credits": 3,
-      "category": "major"
-    },
-    {
-      "id": "CHEM102L",
-      "code": "CHEM 102L",
-      "title": "General Chemistry II Laboratory",
-      "credits": 1,
-      "category": "major"
-    },
-    {
-      "id": "CHEM221",
-      "code": "CHEM 221",
-      "title": "Organic Chemistry I",
-      "credits": 3,
-      "category": "major"
-    },
-    {
-      "id": "CHEM221L",
-      "code": "CHEM 221L",
-      "title": "Organic Chemistry I Laboratory",
-      "credits": 1,
-      "category": "major"
-    },
-    {
-      "id": "CHEM222",
-      "code": "CHEM 222",
-      "title": "Organic Chemistry II",
-      "credits": 3,
-      "category": "major"
-    },
-    {
-      "id": "CHEM222L",
-      "code": "CHEM 222L",
-      "title": "Organic Chemistry II Laboratory",
-      "credits": 1,
-      "category": "major"
-    },
-    {
-      "id": "CHEM305",
-      "code": "CHEM 305",
-      "title": "Analytical Chemistry",
-      "credits": 3,
-      "category": "major"
-    },
-    {
-      "id": "CHEM305L",
-      "code": "CHEM 305L",
-      "title": "Analytical Chemistry Laboratory",
-      "credits": 1,
-      "category": "major"
-    },
-    {
       "id": "BIOL101",
       "code": "BIOL 101",
-      "title": "Biology I",
+      "title": "General Biology I",
       "credits": 3,
       "category": "major"
     },
     {
-      "id": "BIOL101L",
-      "code": "BIOL 101L",
-      "title": "Biology I Laboratory",
+      "id": "BIOL111",
+      "code": "BIOL 111",
+      "title": "General Biology I Lab",
       "credits": 1,
       "category": "major"
     },
     {
       "id": "BIOL102",
       "code": "BIOL 102",
-      "title": "Biology II",
+      "title": "General Biology II",
       "credits": 3,
       "category": "major"
     },
     {
-      "id": "BIOL102L",
-      "code": "BIOL 102L",
-      "title": "Biology II Laboratory",
+      "id": "BIOL112",
+      "code": "BIOL 112",
+      "title": "General Biology II Lab",
       "credits": 1,
       "category": "major"
     },
     {
-      "id": "PHYS125",
-      "code": "PHYS 125",
-      "title": "General Physics I",
+      "id": "BIOL282",
+      "code": "BIOL 282",
+      "title": "Genetics",
       "credits": 3,
       "category": "major"
     },
     {
-      "id": "PHYS125L",
-      "code": "PHYS 125L",
-      "title": "General Physics I Laboratory",
+      "id": "BIOL283",
+      "code": "BIOL 283",
+      "title": "Genetics Laboratory",
       "credits": 1,
       "category": "major"
     },
     {
-      "id": "PHYS126",
-      "code": "PHYS 126",
-      "title": "General Physics II",
+      "id": "NEUROSCIENCE_MINOR_BIOL366L",
+      "code": "BIOL 366L",
+      "title": "Cell Physiology and Biochemistry Lab",
+      "credits": 2,
+      "category": "major"
+    },
+    {
+      "id": "CHEM160",
+      "code": "CHEM 160",
+      "title": "Chemical Structure and Properties",
       "credits": 3,
       "category": "major"
     },
     {
-      "id": "PHYS126L",
-      "code": "PHYS 126L",
-      "title": "General Physics II Laboratory",
+      "id": "CHEM161",
+      "code": "CHEM 161",
+      "title": "Chemical Structure and Properties Laboratory",
+      "credits": 1,
+      "category": "major"
+    },
+    {
+      "id": "CHEM180",
+      "code": "CHEM 180",
+      "title": "Chemical Reactivity I",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "CHEM181",
+      "code": "CHEM 181",
+      "title": "Chemical Reactivity I Lab",
+      "credits": 1,
+      "category": "major"
+    },
+    {
+      "id": "CHEM240",
+      "code": "CHEM 240",
+      "title": "Chemical Reactivity II",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "CHEM241",
+      "code": "CHEM 241",
+      "title": "Chemical Reactivity II Laboratory",
+      "credits": 1,
+      "category": "major"
+    },
+    {
+      "id": "CHEM260",
+      "code": "CHEM 260",
+      "title": "Quantitative Methods in Chemistry",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "CHEM272",
+      "code": "CHEM 272",
+      "title": "Analytical Chemistry Laboratory",
+      "credits": 2,
+      "category": "major"
+    },
+    {
+      "id": "CHEM280",
+      "code": "CHEM 280",
+      "title": "Environmental & Chemical Analysis",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "BIOI_CHEM361",
+      "code": "CHEM 361",
+      "title": "Principles of Biochemistry",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "PHYS111",
+      "code": "PHYS 111",
+      "title": "College Physics I Lec / Dis",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "PHYS111L",
+      "code": "PHYS 111L",
+      "title": "College Physics Laboratory I",
+      "credits": 1,
+      "category": "major"
+    },
+    {
+      "id": "PHYS112",
+      "code": "PHYS 112",
+      "title": "College Physics II Lec/Disc",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "PHYS112L",
+      "code": "PHYS 112L",
+      "title": "College Physics Lab II",
+      "credits": 1,
+      "category": "major"
+    },
+    {
+      "id": "CJC101",
+      "code": "CJC 101",
+      "title": "Criminal Justice in a Global Context",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "FRSC340",
+      "code": "FRSC 340",
+      "title": "Introduction to Forensic Science",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "FRSC341",
+      "code": "FRSC 341",
+      "title": "Forensic Ethics and Professional Practice",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "FRSC342",
+      "code": "FRSC 342",
+      "title": "Expert Witness Testimony and Court Room Demeanor",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "FRSC343",
+      "code": "FRSC 343",
+      "title": "Physical Organic Chemistry for Forensic Science",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "FRSC350",
+      "code": "FRSC 350",
+      "title": "Pattern Evidence I",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "FRSC350L",
+      "code": "FRSC 350L",
+      "title": "Pattern Evidence Lab I",
+      "credits": 1,
+      "category": "major"
+    },
+    {
+      "id": "FRSC360",
+      "code": "FRSC 360",
+      "title": "Forensic Drug Chemistry I",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "FRSC360L",
+      "code": "FRSC 360L",
+      "title": "Forensic Drug Chemistry Laboratory I",
+      "credits": 2,
+      "category": "major"
+    },
+    {
+      "id": "FRSC370",
+      "code": "FRSC 370",
+      "title": "Forensic Biology",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "FRSC370L",
+      "code": "FRSC 370L",
+      "title": "Forensic Biology Laboratory",
       "credits": 1,
       "category": "major"
     },
@@ -143,67 +241,298 @@
       "category": "major"
     },
     {
-      "id": "STAT103",
-      "code": "STAT 103",
-      "title": "Fundamentals of Statistics",
+      "id": "MATH132",
+      "code": "MATH 132",
+      "title": "Applied Calculus II",
       "credits": 3,
       "category": "major"
     },
     {
-      "id": "FORS310",
-      "code": "FORS 310",
-      "title": "Introduction to Forensic Science",
+      "id": "STAT335",
+      "code": "STAT 335",
+      "title": "Introduction to Biostatistics",
       "credits": 3,
       "category": "major"
     },
     {
-      "id": "FORS320",
-      "code": "FORS 320",
-      "title": "Forensic Chemistry",
+      "id": "FRSC361",
+      "code": "FRSC 361",
+      "title": "Forensic Toxicology I",
       "credits": 3,
-      "category": "major"
+      "category": "major",
+      "requirementGroup": "forensic-capstone",
+      "choiceNote": "Forensic Capstone: select one of FRSC 361 & 361L, FRSC 371, or ANTH 396A"
     },
     {
-      "id": "FORS320L",
-      "code": "FORS 320L",
-      "title": "Forensic Chemistry Laboratory",
-      "credits": 1,
-      "category": "major"
+      "id": "FRSC361L",
+      "code": "FRSC 361L",
+      "title": "Forensic Toxicology Laboratory I",
+      "credits": 2,
+      "category": "major",
+      "requirementGroup": "forensic-capstone",
+      "choiceNote": "Forensic Capstone: select one of FRSC 361 & 361L, FRSC 371, or ANTH 396A"
     },
     {
-      "id": "FORS325",
-      "code": "FORS 325",
-      "title": "Forensic Biology",
+      "id": "FRSC371",
+      "code": "FRSC 371",
+      "title": "Forensic Molecular Biology Lecture and Laboratory",
+      "credits": 4,
+      "category": "major",
+      "requirementGroup": "forensic-capstone",
+      "choiceNote": "Forensic Capstone: select one of FRSC 361 & 361L, FRSC 371, or ANTH 396A"
+    },
+    {
+      "id": "ANTH396A",
+      "code": "ANTH 396A",
+      "title": "Internship: Bioarchaeology & Forensic Anthropology",
       "credits": 3,
-      "category": "major"
-    },
-    {
-      "id": "FORS325L",
-      "code": "FORS 325L",
-      "title": "Forensic Biology Laboratory",
-      "credits": 1,
-      "category": "major"
-    },
-    {
-      "id": "FORS330",
-      "code": "FORS 330",
-      "title": "Criminalistics",
-      "credits": 3,
-      "category": "major"
-    },
-    {
-      "id": "FORS330L",
-      "code": "FORS 330L",
-      "title": "Criminalistics Laboratory",
-      "credits": 1,
-      "category": "major"
+      "category": "major",
+      "requirementGroup": "forensic-capstone",
+      "choiceNote": "Forensic Capstone: select one of FRSC 361 & 361L, FRSC 371, or ANTH 396A. ANTH 396A requires ANTH 326 (Human Osteology) as a prerequisite."
     }
   ],
   "electiveOptions": {
     "fors-electives": {
-      "creditsRequired": 6,
-      "label": "Forensic Science Electives",
-      "note": "Two elective courses approved for the Forensic Science program"
+      "creditsRequired": 0,
+      "label": "Forensic Science Electives (encouraged, not required)",
+      "note": "The catalog lists encouraged but not required electives: ANTH 324, ANTH 326, ANTH 359, BIOL 242, BIOL 243, BIOL 251, BIOL 341, FRSC 390, FRSC 392, FRSC 394, FRSC 395, CJC 201, CJC 202, CJC 203, CJC 322, CJC 323, CJC 371.",
+      "courses": []
     }
-  }
+  },
+  "coreRequirements": [],
+  "checklist": [],
+  "roadmap": [
+    {
+      "year": 1,
+      "semester": "Semester I",
+      "credits": 15,
+      "items": [
+        {
+          "ref": "BIOL101"
+        },
+        {
+          "ref": "BIOL111"
+        },
+        {
+          "ref": "CHEM160"
+        },
+        {
+          "ref": "CHEM161"
+        },
+        {
+          "ref": "MATH131"
+        },
+        {
+          "label": "UCWR 110 Writing Seminar",
+          "credits": 3
+        },
+        {
+          "label": "UNIV 101",
+          "credits": 1
+        }
+      ]
+    },
+    {
+      "year": 1,
+      "semester": "Semester II",
+      "credits": 17,
+      "items": [
+        {
+          "ref": "BIOL102"
+        },
+        {
+          "ref": "BIOL112"
+        },
+        {
+          "ref": "CHEM180"
+        },
+        {
+          "ref": "CHEM181"
+        },
+        {
+          "ref": "MATH132"
+        },
+        {
+          "ref": "CJC101"
+        },
+        {
+          "label": "Philosophical Knowledge Core",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 2,
+      "semester": "Semester III",
+      "credits": 17,
+      "items": [
+        {
+          "ref": "PHYS111"
+        },
+        {
+          "ref": "PHYS111L"
+        },
+        {
+          "ref": "CHEM240"
+        },
+        {
+          "ref": "CHEM241"
+        },
+        {
+          "ref": "FRSC340"
+        },
+        {
+          "label": "Historical Knowledge Core",
+          "credits": 3
+        },
+        {
+          "label": "Ethics Core",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 2,
+      "semester": "Semester IV",
+      "credits": 18,
+      "items": [
+        {
+          "ref": "PHYS112"
+        },
+        {
+          "ref": "PHYS112L"
+        },
+        {
+          "ref": "CHEM260"
+        },
+        {
+          "ref": "CHEM272"
+        },
+        {
+          "ref": "FRSC341"
+        },
+        {
+          "label": "Literary Knowledge Core",
+          "credits": 3
+        },
+        {
+          "label": "Theological Knowledge Core",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 3,
+      "semester": "Semester V",
+      "credits": 17,
+      "items": [
+        {
+          "ref": "BIOL282"
+        },
+        {
+          "ref": "BIOL283"
+        },
+        {
+          "ref": "CHEM280"
+        },
+        {
+          "ref": "FRSC343"
+        },
+        {
+          "ref": "FRSC350"
+        },
+        {
+          "ref": "FRSC350L"
+        },
+        {
+          "label": "Foreign Language 101",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 3,
+      "semester": "Semester VI",
+      "credits": 18,
+      "items": [
+        {
+          "ref": "BIOI_CHEM361"
+        },
+        {
+          "ref": "NEUROSCIENCE_MINOR_BIOL366L"
+        },
+        {
+          "ref": "STAT335"
+        },
+        {
+          "ref": "FRSC342"
+        },
+        {
+          "label": "Foreign Language 102",
+          "credits": 3
+        },
+        {
+          "label": "Societal & Cultural Knowledge Core",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 4,
+      "semester": "Semester VII",
+      "credits": 15,
+      "items": [
+        {
+          "ref": "FRSC360"
+        },
+        {
+          "ref": "FRSC360L"
+        },
+        {
+          "ref": "FRSC370"
+        },
+        {
+          "ref": "FRSC370L"
+        },
+        {
+          "label": "Artistic Knowledge Core",
+          "credits": 3
+        },
+        {
+          "label": "Literary Knowledge Tier 2 Core",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 4,
+      "semester": "Semester VIII",
+      "credits": 16,
+      "items": [
+        {
+          "ref": "FRSC361"
+        },
+        {
+          "ref": "FRSC361L"
+        },
+        {
+          "label": "Forensic elective (FRSC 390 or FRSC 394)",
+          "credits": 3,
+          "isElective": true
+        },
+        {
+          "label": "Historical Knowledge Tier 2 Core",
+          "credits": 3
+        },
+        {
+          "label": "Societal & Cultural Knowledge Tier 2 Core",
+          "credits": 3
+        },
+        {
+          "label": "Theological Knowledge Tier 2 Core",
+          "credits": 3
+        }
+      ]
+    }
+  ]
 }

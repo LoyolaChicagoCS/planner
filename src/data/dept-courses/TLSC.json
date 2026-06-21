@@ -1,0 +1,373 @@
+{
+  "catalog": "2026-2027",
+  "code": "TLSC",
+  "name": "Teaching, Learning, and Leading with Schools and Communities",
+  "sourceUrl": "https://catalog.luc.edu/course-descriptions/tlsc/",
+  "fetchedAt": "2026-06-21",
+  "courses": [
+    {
+      "id": "TLSC110",
+      "code": "TLSC 110",
+      "title": "The Profession and Our Program (TLLSC)",
+      "credits": 1
+    },
+    {
+      "id": "TLSC120",
+      "code": "TLSC 120",
+      "title": "Bringing Language, Learning & Development Theory into Practice",
+      "credits": 2
+    },
+    {
+      "id": "TLSC130",
+      "code": "TLSC 130",
+      "title": "Sequence One: 130 Community Immersion",
+      "credits": 1
+    },
+    {
+      "id": "TLSC140",
+      "code": "TLSC 140",
+      "title": "Teaching, Learning and Leading for Social Justice",
+      "credits": 1
+    },
+    {
+      "id": "TLSC150",
+      "code": "TLSC 150",
+      "title": "Constructive Learning Environments For Diverse Students",
+      "credits": 1
+    },
+    {
+      "id": "TLSC160",
+      "code": "TLSC 160",
+      "title": "Analyzing Culturally-Responsive Classroom Instruction",
+      "credits": 1
+    },
+    {
+      "id": "TLSC210",
+      "code": "TLSC 210",
+      "title": "Educational Policy For Diverse Students",
+      "credits": 2
+    },
+    {
+      "id": "TLSC221",
+      "code": "TLSC 221",
+      "title": "Individualized Instruction and Assessment for Diverse Learners",
+      "credits": 1
+    },
+    {
+      "id": "TLSC222",
+      "code": "TLSC 222",
+      "title": "Authentic Assessment and Instruction for Bilingual Learners",
+      "credits": 2
+    },
+    {
+      "id": "TLSC231",
+      "code": "TLSC 231",
+      "title": "Teaching Science/Writing in Elem and Middle Grades",
+      "credits": 3
+    },
+    {
+      "id": "TLSC232",
+      "code": "TLSC 232",
+      "title": "Integrated Teaching/Learning Social Studies & Writing in Elementary Grades",
+      "credits": 3
+    },
+    {
+      "id": "TLSC240",
+      "code": "TLSC 240",
+      "title": "Language, Culture, and Pedagogy in Bilingual Classrooms",
+      "credits": 3
+    },
+    {
+      "id": "TLSC250",
+      "code": "TLSC 250",
+      "title": "Developmentally Appropriate Practice with Infants/Toddlers & Their Families",
+      "credits": 3
+    },
+    {
+      "id": "TLSC251",
+      "code": "TLSC 251",
+      "title": "Family-Centered Assessment and Intervention in Early Intervention",
+      "credits": 3
+    },
+    {
+      "id": "TLSC252",
+      "code": "TLSC 252",
+      "title": "Foundations, Settings, and Studies of Effective Early Childhood Education",
+      "credits": 1
+    },
+    {
+      "id": "TLSC253",
+      "code": "TLSC 253",
+      "title": "Developmentally Approp Practice Assmt&Intervention Young Children Spcl Nds",
+      "credits": 2
+    },
+    {
+      "id": "TLSC260",
+      "code": "TLSC 260",
+      "title": "Typical and A-Typical Development",
+      "credits": 2
+    },
+    {
+      "id": "TLSC261",
+      "code": "TLSC 261",
+      "title": "Significant Disabilities and Life Planning",
+      "credits": 2
+    },
+    {
+      "id": "TLSC262",
+      "code": "TLSC 262",
+      "title": "Assistive and Adaptive Technology",
+      "credits": 2
+    },
+    {
+      "id": "TLSC263",
+      "code": "TLSC 263",
+      "title": "Transition Planning",
+      "credits": 2
+    },
+    {
+      "id": "TLSC300",
+      "code": "TLSC 300",
+      "title": "Professional Learning Communities",
+      "credits": 0,
+      "isTopics": true,
+      "topicsCount": 2
+    },
+    {
+      "id": "TLSC310",
+      "code": "TLSC 310",
+      "title": "Language and Literacy for Diverse Students",
+      "credits": 2
+    },
+    {
+      "id": "TLSC320",
+      "code": "TLSC 320",
+      "title": "Using Classroom Data in a Collaborative Env to Advance Student Achievement",
+      "credits": 2
+    },
+    {
+      "id": "TLSC325",
+      "code": "TLSC 325",
+      "title": "Teaching Internship in Informal Education Settings",
+      "credits": 3
+    },
+    {
+      "id": "TLSC326",
+      "code": "TLSC 326",
+      "title": "Informal Science Education Seminar",
+      "credits": 3
+    },
+    {
+      "id": "TLSC330",
+      "code": "TLSC 330",
+      "title": "Discipline-Specific Literacy for Diverse Students",
+      "credits": 2
+    },
+    {
+      "id": "TLSC340",
+      "code": "TLSC 340",
+      "title": "Teaching and Learning in an Area of Specialization",
+      "credits": 2
+    },
+    {
+      "id": "TLSC350",
+      "code": "TLSC 350",
+      "title": "Teaching and Learning with a Global Framework",
+      "credits": 4
+    },
+    {
+      "id": "TLSC360",
+      "code": "TLSC 360",
+      "title": "Developing Rigorous and Relevant Instruction & Assessment",
+      "credits": 2
+    },
+    {
+      "id": "TLSC370",
+      "code": "TLSC 370",
+      "title": "Design&Implement Rigorous&Rlvnt Instrctn&Assmt: Tching Perform Assmt Prep",
+      "credits": 2
+    },
+    {
+      "id": "TLSC380",
+      "code": "TLSC 380",
+      "title": "Tching, Lrning & Leading with Schools & Communities Internship: Stud Tching",
+      "credits": 6
+    },
+    {
+      "id": "TLSC401",
+      "code": "TLSC 401",
+      "title": "Language, Learning & Development Theories in Practice",
+      "credits": 2
+    },
+    {
+      "id": "TLSC403",
+      "code": "TLSC 403",
+      "title": "Teaching for Social Justice and Equity",
+      "credits": 3
+    },
+    {
+      "id": "TLSC404",
+      "code": "TLSC 404",
+      "title": "Constructive Learning Environments for Diverse Students",
+      "credits": 3
+    },
+    {
+      "id": "TLSC406",
+      "code": "TLSC 406",
+      "title": "Educational Policy for Diverse Students",
+      "credits": 3
+    },
+    {
+      "id": "TLSC407",
+      "code": "TLSC 407",
+      "title": "Individualized Assessment and Instruction for Diverse Students",
+      "credits": 3
+    },
+    {
+      "id": "TLSC410",
+      "code": "TLSC 410",
+      "title": "Language, Culture and Pedagogy in Bilingual Classrooms",
+      "credits": 3
+    },
+    {
+      "id": "TLSC420",
+      "code": "TLSC 420",
+      "title": "Teaching Mathematics in Elementary Grade Classrooms",
+      "credits": 2
+    },
+    {
+      "id": "TLSC421",
+      "code": "TLSC 421",
+      "title": "Teaching Science in Elementary Grade Classrooms",
+      "credits": 2
+    },
+    {
+      "id": "TLSC422",
+      "code": "TLSC 422",
+      "title": "Teaching Social Studies in Elementary Grade Classrooms",
+      "credits": 2
+    },
+    {
+      "id": "TLSC425",
+      "code": "TLSC 425",
+      "title": "Teaching Internship in Informal Education Settings",
+      "credits": 3
+    },
+    {
+      "id": "TLSC426",
+      "code": "TLSC 426",
+      "title": "Informal Science Education Seminar",
+      "credits": 3
+    },
+    {
+      "id": "TLSC430",
+      "code": "TLSC 430",
+      "title": "Typical and A-Typical Development",
+      "credits": 2
+    },
+    {
+      "id": "TLSC431",
+      "code": "TLSC 431",
+      "title": "Significant Disabilities and Life Planning",
+      "credits": 2
+    },
+    {
+      "id": "TLSC432",
+      "code": "TLSC 432",
+      "title": "Assistive and Adaptive Technology",
+      "credits": 2
+    },
+    {
+      "id": "TLSC433",
+      "code": "TLSC 433",
+      "title": "Transition Planning",
+      "credits": 2
+    },
+    {
+      "id": "TLSC440",
+      "code": "TLSC 440",
+      "title": "Language and Literacy",
+      "credits": 3
+    },
+    {
+      "id": "TLSC442",
+      "code": "TLSC 442",
+      "title": "Disciplinary Literacy",
+      "credits": 3
+    },
+    {
+      "id": "TLSC443",
+      "code": "TLSC 443",
+      "title": "Adolescent Literacy Instruction",
+      "credits": 3
+    },
+    {
+      "id": "TLSC450",
+      "code": "TLSC 450",
+      "title": "Teaching and Learning in an Area of Specialization",
+      "credits": 3
+    },
+    {
+      "id": "TLSC452",
+      "code": "TLSC 452",
+      "title": "Advanced Foundations of Early Childhood Education",
+      "credits": 1
+    },
+    {
+      "id": "TLSC453",
+      "code": "TLSC 453",
+      "title": "Early Childhood Development and Developmentally Appropriate Practices",
+      "credits": 2
+    },
+    {
+      "id": "TLSC455",
+      "code": "TLSC 455",
+      "title": "Secondary Content Mthds: Currclm, Instrctn & Assmt Secondary Content Areas",
+      "credits": 6
+    },
+    {
+      "id": "TLSC456",
+      "code": "TLSC 456",
+      "title": "Language & Literacy in the Secondary Content Area",
+      "credits": 3
+    },
+    {
+      "id": "TLSC460",
+      "code": "TLSC 460",
+      "title": "Developing Rigorous and Relevant Instruction and Assessment",
+      "credits": 2
+    },
+    {
+      "id": "TLSC461",
+      "code": "TLSC 461",
+      "title": "Designing and Implementing Rigorous and Relevant Instruction",
+      "credits": 3
+    },
+    {
+      "id": "TLSC462",
+      "code": "TLSC 462",
+      "title": "Advanced Inclusive Practices in Early Childhood Education",
+      "credits": 3
+    },
+    {
+      "id": "TLSC463",
+      "code": "TLSC 463",
+      "title": "Supporting and Serving Families in Early Childhood Education",
+      "credits": 2
+    },
+    {
+      "id": "TLSC470",
+      "code": "TLSC 470",
+      "title": "Student Teaching for Change",
+      "credits": 7,
+      "isTopics": true,
+      "topicsCount": 3
+    },
+    {
+      "id": "TLSC480",
+      "code": "TLSC 480",
+      "title": "Teaching for Change Field Seminar",
+      "credits": 1
+    }
+  ]
+}

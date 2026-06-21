@@ -1,0 +1,63 @@
+{
+  "catalog": "2026-2027",
+  "code": "POLS",
+  "name": "Polish",
+  "sourceUrl": "https://catalog.luc.edu/course-descriptions/pols/",
+  "fetchedAt": "2026-06-21",
+  "courses": [
+    {
+      "id": "POLS101",
+      "code": "POLS 101",
+      "title": "Polish I",
+      "credits": 3
+    },
+    {
+      "id": "POLS102",
+      "code": "POLS 102",
+      "title": "Polish II",
+      "credits": 3
+    },
+    {
+      "id": "POLS103",
+      "code": "POLS 103",
+      "title": "Polish III",
+      "credits": 3
+    },
+    {
+      "id": "POLS104",
+      "code": "POLS 104",
+      "title": "Polish IV",
+      "credits": 3
+    },
+    {
+      "id": "POLS201",
+      "code": "POLS 201",
+      "title": "Polish Medical Terminology",
+      "credits": 3
+    },
+    {
+      "id": "POLS202",
+      "code": "POLS 202",
+      "title": "Polish for Healthcare",
+      "credits": 3
+    },
+    {
+      "id": "POLS250",
+      "code": "POLS 250",
+      "title": "Composition & Conversation I",
+      "credits": 3
+    },
+    {
+      "id": "POLS251",
+      "code": "POLS 251",
+      "title": "Composition & Conversation II",
+      "credits": 3
+    },
+    {
+      "id": "POLS270",
+      "code": "POLS 270",
+      "title": "Contemporary Polish Culture in the Original Language",
+      "credits": 3
+    }
+  ]
+}

@@ -12,6 +12,9 @@ dist
 dist-ssr
 *.local
 
+# Claude Code machine-specific settings (keep shared .claude/workflows tracked)
+.claude/settings.local.json
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json

@@ -1,0 +1,51 @@
+{
+  "catalog": "2026-2027",
+  "code": "EXPL",
+  "name": "Engaged Learning",
+  "sourceUrl": "https://catalog.luc.edu/course-descriptions/expl/",
+  "fetchedAt": "2026-06-21",
+  "courses": [
+    {
+      "id": "EXPL200",
+      "code": "EXPL 200",
+      "title": "Faculty-Mentored Research",
+      "credits": 0
+    },
+    {
+      "id": "EXPL290",
+      "code": "EXPL 290",
+      "title": "Seminar in Community-Based Service and Leadership",
+      "credits": 3
+    },
+    {
+      "id": "EXPL291",
+      "code": "EXPL 291",
+      "title": "Introduction to Research",
+      "credits": 3
+    },
+    {
+      "id": "EXPL292",
+      "code": "EXPL 292",
+      "title": "International Service Learning",
+      "credits": 3
+    },
+    {
+      "id": "EXPL390",
+      "code": "EXPL 390",
+      "title": "Internship Seminar: Organizational Change and Community Leadership",
+      "credits": 3
+    },
+    {
+      "id": "EXPL391",
+      "code": "EXPL 391",
+      "title": "Seminar in Undergraduate Research Methods",
+      "credits": 3
+    },
+    {
+      "id": "EXPL393",
+      "code": "EXPL 393",
+      "title": "Seminar in Integrative Leadership",
+      "credits": 3
+    }
+  ]
+}

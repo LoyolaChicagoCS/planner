@@ -39,35 +39,35 @@
     {
       "id": "STAT203",
       "code": "STAT 203",
-      "title": "Statistics",
+      "title": "Introduction to Probability & Statistics",
       "credits": 3,
       "category": "major"
     },
     {
       "id": "STAT335",
       "code": "STAT 335",
-      "title": "Probability",
+      "title": "Introduction to Biostatistics",
       "credits": 3,
       "category": "major"
     },
     {
       "id": "STAT336",
       "code": "STAT 336",
-      "title": "Mathematical Statistics I",
+      "title": "Advanced Biostatistics",
       "credits": 3,
       "category": "major"
     },
     {
       "id": "STAT337",
       "code": "STAT 337",
-      "title": "Mathematical Statistics II",
+      "title": "Quantitative Methods in Bioinformatics",
       "credits": 3,
       "category": "major"
     },
     {
       "id": "STAT338",
       "code": "STAT 338",
-      "title": "Regression Analysis",
+      "title": "Predictive Analytics",
       "credits": 3,
       "category": "major"
     }
@@ -118,7 +118,7 @@
         },
         {
           "isElective": true,
-          "label": "STAT 303 \u2014 SAS Programming",
+          "label": "STAT 303 — SAS Programming",
           "credits": 3
         },
         {
@@ -138,7 +138,7 @@
         },
         {
           "isElective": true,
-          "label": "STAT 308 \u2014 Applied Regression",
+          "label": "STAT 308 — Applied Regression",
           "credits": 3
         },
         {
@@ -155,7 +155,7 @@
       "items": [
         {
           "isElective": true,
-          "label": "STAT 304 \u2014 Intro to Probability",
+          "label": "STAT 304 — Intro to Probability",
           "credits": 3
         }
       ]
@@ -167,7 +167,7 @@
       "items": [
         {
           "isElective": true,
-          "label": "STAT 305 \u2014 Math Statistics",
+          "label": "STAT 305 — Math Statistics",
           "credits": 3
         },
         {
@@ -184,7 +184,7 @@
       "items": [
         {
           "isElective": true,
-          "label": "STAT 307 \u2014 Statistical Design",
+          "label": "STAT 307 — Statistical Design",
           "credits": 3
         },
         {

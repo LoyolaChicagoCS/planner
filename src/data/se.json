@@ -175,7 +175,7 @@
         {
           "id": "SEPRAC_COMP390",
           "code": "COMP 390",
-          "title": "Broadening Participation in STEM",
+          "title": "Broadening Participation in STEM (Computing, Math & Science)",
           "credits": 3
         },
         {
@@ -545,34 +545,34 @@
   "checklist": [
     {
       "id": "ap_cs_a",
-      "label": "AP Computer Science A (score \u2265 4)",
-      "grants": "COMP 170 \u2014 3 credits",
+      "label": "AP Computer Science A (score ≥ 4)",
+      "grants": "COMP 170 — 3 credits",
       "courseRef": "COMP170",
       "category": "ap"
     },
     {
       "id": "ap_cs_p",
-      "label": "AP Computer Science Principles (score \u2265 4)",
-      "grants": "COMP 150 \u2014 elective credit",
+      "label": "AP Computer Science Principles (score ≥ 4)",
+      "grants": "COMP 150 — elective credit",
       "category": "ap"
     },
     {
       "id": "ap_calc_ab",
-      "label": "AP Calculus AB (score \u2265 4)",
-      "grants": "MATH 131 \u2014 3 credits",
+      "label": "AP Calculus AB (score ≥ 4)",
+      "grants": "MATH 131 — 3 credits",
       "courseRef": "MATH131",
       "category": "ap"
     },
     {
       "id": "ap_calc_bc",
-      "label": "AP Calculus BC (score \u2265 4)",
-      "grants": "MATH 131 \u2014 3 credits",
+      "label": "AP Calculus BC (score ≥ 4)",
+      "grants": "MATH 131 — 3 credits",
       "courseRef": "MATH131",
       "category": "ap"
     },
     {
       "id": "ap_stats",
-      "label": "AP Statistics (score \u2265 4)",
+      "label": "AP Statistics (score ≥ 4)",
       "grants": "STAT 203 equivalent",
       "courseRef": "STAT103",
       "category": "ap"

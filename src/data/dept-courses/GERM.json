@@ -1,0 +1,81 @@
+{
+  "catalog": "2026-2027",
+  "code": "GERM",
+  "name": "German",
+  "sourceUrl": "https://catalog.luc.edu/course-descriptions/germ/",
+  "fetchedAt": "2026-06-21",
+  "courses": [
+    {
+      "id": "GERM101",
+      "code": "GERM 101",
+      "title": "Elementary German I",
+      "credits": 3
+    },
+    {
+      "id": "GERM102",
+      "code": "GERM 102",
+      "title": "Elementary German II",
+      "credits": 3
+    },
+    {
+      "id": "GERM103",
+      "code": "GERM 103",
+      "title": "Intermediate German I",
+      "credits": 3
+    },
+    {
+      "id": "GERM104",
+      "code": "GERM 104",
+      "title": "Intermediate German II",
+      "credits": 3
+    },
+    {
+      "id": "GERM250",
+      "code": "GERM 250",
+      "title": "Composition & Conversation I",
+      "credits": 3
+    },
+    {
+      "id": "GERM251",
+      "code": "GERM 251",
+      "title": "Composition & Conversation II",
+      "credits": 3
+    },
+    {
+      "id": "GERM270",
+      "code": "GERM 270",
+      "title": "Modern German Literature and Culture I",
+      "credits": 3
+    },
+    {
+      "id": "GERM271",
+      "code": "GERM 271",
+      "title": "Modern German Literature and Culture II",
+      "credits": 3
+    },
+    {
+      "id": "GERM300",
+      "code": "GERM 300",
+      "title": "Tutorial for Credit",
+      "credits": 1
+    },
+    {
+      "id": "GERM320",
+      "code": "GERM 320",
+      "title": "German-American History: Focus on Chicago",
+      "credits": 3
+    },
+    {
+      "id": "GERM369",
+      "code": "GERM 369",
+      "title": "German Reading Knowledge",
+      "credits": 3
+    },
+    {
+      "id": "GERM370",
+      "code": "GERM 370",
+      "title": "German Cinema",
+      "credits": 3
+    }
+  ]
+}

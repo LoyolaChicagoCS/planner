@@ -11,7 +11,7 @@
     {
       "id": "THTR100",
       "code": "THTR 100",
-      "title": "Introduction to Theatre Experience",
+      "title": "Intro to Theatre Experience",
       "credits": 3,
       "category": "major"
     },
@@ -60,7 +60,7 @@
     {
       "id": "THTR375",
       "code": "THTR 375",
-      "title": "Play Direction: Theatre Capstone",
+      "title": "Play Direction: Theater Capstone",
       "credits": 3,
       "category": "major"
     },
@@ -115,7 +115,7 @@
         },
         {
           "isElective": true,
-          "label": "THTR 321R \u2014 Running Crew Practicum",
+          "label": "THTR 321R — Running Crew Practicum",
           "credits": 1
         },
         {

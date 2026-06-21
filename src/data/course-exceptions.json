@@ -1,0 +1,28 @@
+{
+  "note": "Exceptions for the course-integrity check. The catalog is the source of truth (src/data/course-index.json); these are the documented cases where a program course code is NOT in the index. See LIKELY_WRONG.md. Keep this list small and shrinking.",
+  "prefixesWithoutCatalogPage": ["FORS", "FRSC", "HSRV"],
+  "knownMissingCodes": [
+    "AFR 102",
+    "BIOL 320",
+    "BIOL 335",
+    "BIOL 352",
+    "BIOL 367",
+    "COMP 599",
+    "ENVS 332",
+    "ENVS 364",
+    "FREN 310",
+    "GLST 100",
+    "GLST 201",
+    "ITAL 302",
+    "ITAL 310",
+    "SPAN 301",
+    "SPAN 310",
+    "THEO 192",
+    "THEO 200",
+    "THEO 201",
+    "THEO 210",
+    "THEO 300",
+    "WSGS 100",
+    "WSGS 300"
+  ]
+}

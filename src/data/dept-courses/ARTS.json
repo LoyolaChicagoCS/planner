@@ -1,0 +1,27 @@
+{
+  "catalog": "2026-2027",
+  "code": "ARTS",
+  "name": "Teaching Artist",
+  "sourceUrl": "https://catalog.luc.edu/course-descriptions/arts/",
+  "fetchedAt": "2026-06-21",
+  "courses": [
+    {
+      "id": "ARTS200",
+      "code": "ARTS 200",
+      "title": "Introduction to Teaching Artistry",
+      "credits": 3
+    },
+    {
+      "id": "ARTS201",
+      "code": "ARTS 201",
+      "title": "Grant Writing for the Arts",
+      "credits": 2
+    },
+    {
+      "id": "ARTS397",
+      "code": "ARTS 397",
+      "title": "Fieldwork in Arts Education",
+      "credits": 3
+    }
+  ]
+}

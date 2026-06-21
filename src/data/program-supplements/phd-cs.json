@@ -1,0 +1,220 @@
+{
+  "id": "phd-cs",
+  "phdCredits": 39,
+  "checklist": [
+    {
+      "id": "phd-cs-milestone-qualifying-exam",
+      "label": "Qualifying Exam Passed",
+      "category": "milestone",
+      "credits": 0,
+      "note": "Complete qualifying coursework covering at least 3 of 4 pillars (Theory, Systems, Software, AI) with a grade of A in 3 courses."
+    },
+    {
+      "id": "phd-cs-milestone-candidacy",
+      "label": "Admitted to Doctoral Candidacy",
+      "category": "milestone",
+      "credits": 0,
+      "note": "Formal departmental and Graduate School step following successful completion of the qualifying exam."
+    },
+    {
+      "id": "phd-cs-milestone-prospectus",
+      "label": "Dissertation Prospectus Approved",
+      "category": "milestone",
+      "credits": 0,
+      "note": "Dissertation committee approves the research proposal and prospectus document."
+    },
+    {
+      "id": "phd-cs-milestone-defense",
+      "label": "Dissertation Defense Passed",
+      "category": "milestone",
+      "credits": 0,
+      "note": "Successful oral defense of the completed dissertation before the committee."
+    }
+  ],
+  "roadmap": [
+    {
+      "year": 1,
+      "semester": "Fall",
+      "credits": 9,
+      "items": [
+        {
+          "ref": "COMP413"
+        },
+        {
+          "ref": "COMP460"
+        },
+        {
+          "label": "Qualifying Course — Pillar 1",
+          "credits": 3,
+          "isElective": true,
+          "electiveType": "qualifying-theory"
+        }
+      ]
+    },
+    {
+      "year": 1,
+      "semester": "Spring",
+      "credits": 9,
+      "items": [
+        {
+          "ref": "COMP417"
+        },
+        {
+          "label": "Qualifying Course — Pillar 2",
+          "credits": 3,
+          "isElective": true,
+          "electiveType": "qualifying-systems"
+        },
+        {
+          "label": "Qualifying Course — Pillar 3",
+          "credits": 3,
+          "isElective": true,
+          "electiveType": "qualifying-software"
+        }
+      ]
+    },
+    {
+      "year": 2,
+      "semester": "Fall",
+      "credits": 9,
+      "items": [
+        {
+          "ref": "COMP501"
+        },
+        {
+          "label": "Qualifying Course — Pillar 4 (optional)",
+          "credits": 3,
+          "isElective": true,
+          "electiveType": "qualifying-ai"
+        },
+        {
+          "label": "400-Level Elective 1",
+          "credits": 3,
+          "isElective": true,
+          "electiveType": "general-electives"
+        }
+      ]
+    },
+    {
+      "year": 2,
+      "semester": "Spring",
+      "credits": 9,
+      "items": [
+        {
+          "ref": "COMP502"
+        },
+        {
+          "ref": "COMP503"
+        },
+        {
+          "label": "400-Level Elective 2",
+          "credits": 3,
+          "isElective": true,
+          "electiveType": "general-electives"
+        }
+      ]
+    },
+    {
+      "year": 3,
+      "semester": "Fall",
+      "credits": 6,
+      "items": [
+        {
+          "label": "400-Level Elective 3",
+          "credits": 3,
+          "isElective": true,
+          "electiveType": "general-electives"
+        },
+        {
+          "label": "Dissertation Research",
+          "credits": 3,
+          "isElective": true,
+          "electiveType": "dissertation"
+        }
+      ]
+    },
+    {
+      "year": 3,
+      "semester": "Spring",
+      "credits": 6,
+      "items": [
+        {
+          "label": "Dissertation Research",
+          "credits": 3,
+          "isElective": true,
+          "electiveType": "dissertation"
+        },
+        {
+          "label": "Dissertation Research",
+          "credits": 3,
+          "isElective": true,
+          "electiveType": "dissertation"
+        }
+      ]
+    },
+    {
+      "year": 4,
+      "semester": "Fall",
+      "credits": 6,
+      "items": [
+        {
+          "label": "Dissertation Research",
+          "credits": 3,
+          "isElective": true,
+          "electiveType": "dissertation"
+        },
+        {
+          "label": "Dissertation Research",
+          "credits": 3,
+          "isElective": true,
+          "electiveType": "dissertation"
+        }
+      ]
+    },
+    {
+      "year": 4,
+      "semester": "Spring",
+      "credits": 6,
+      "items": [
+        {
+          "label": "Dissertation Research",
+          "credits": 3,
+          "isElective": true,
+          "electiveType": "dissertation"
+        },
+        {
+          "label": "Dissertation Research",
+          "credits": 3,
+          "isElective": true,
+          "electiveType": "dissertation"
+        }
+      ]
+    },
+    {
+      "year": 5,
+      "semester": "Fall",
+      "credits": 3,
+      "items": [
+        {
+          "label": "Dissertation Research",
+          "credits": 3,
+          "isElective": true,
+          "electiveType": "dissertation"
+        }
+      ]
+    },
+    {
+      "year": 5,
+      "semester": "Spring",
+      "credits": 3,
+      "items": [
+        {
+          "label": "Dissertation Research",
+          "credits": 3,
+          "isElective": true,
+          "electiveType": "dissertation"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,476 @@
+{
+  "id": "ms-cs",
+  "catalogUrl": "https://catalog.luc.edu/graduate-professional/graduate-school/arts-sciences/computer-science/computer-science-ms/",
+  "fetchedAt": "2026-06-21",
+  "contentHash": "sha256:fef752e558ae3ce4aa88e42636020971",
+  "courseLists": [
+    {
+      "sections": [
+        {
+          "label": "Foundation Courses",
+          "rows": [
+            {
+              "type": "course",
+              "code": "COMP 400A",
+              "title": "Object-Oriented Programming",
+              "credits": 3,
+              "or": false
+            },
+            {
+              "type": "course",
+              "code": "COMP 400B",
+              "title": "Data Structures I",
+              "credits": 3,
+              "or": false
+            },
+            {
+              "type": "course",
+              "code": "COMP 400C",
+              "title": "Data Structures II",
+              "credits": 3,
+              "or": false
+            },
+            {
+              "type": "course",
+              "code": "COMP 400D",
+              "title": "Computing Tools and Techniques",
+              "credits": 1,
+              "or": false
+            },
+            {
+              "type": "course",
+              "code": "COMP 400E",
+              "title": "Discrete Structures",
+              "credits": 3,
+              "or": false
+            }
+          ]
+        },
+        {
+          "label": "Required Courses",
+          "rows": [
+            {
+              "type": "course",
+              "code": "COMP 417",
+              "title": "Social and Ethical Issues in Computing",
+              "credits": 3,
+              "or": false
+            },
+            {
+              "type": "course",
+              "code": "COMP 460",
+              "title": "Algorithms & Complexity",
+              "credits": 3,
+              "or": false
+            }
+          ]
+        },
+        {
+          "label": "Track/Major Requirements",
+          "rows": [
+            {
+              "type": "comment",
+              "text": "No Concentration (Default)",
+              "credits": null
+            },
+            {
+              "type": "comment",
+              "text": "Required Course",
+              "credits": null
+            },
+            {
+              "type": "course",
+              "code": "COMP 413",
+              "title": "Intermediate Object-Oriented Development",
+              "credits": 3,
+              "or": false
+            },
+            {
+              "type": "comment",
+              "text": "Select three of the following:",
+              "credits": null
+            },
+            {
+              "type": "course",
+              "code": "COMP 410",
+              "title": "Operating Systems",
+              "credits": 3,
+              "or": false
+            },
+            {
+              "type": "course",
+              "code": "COMP 433",
+              "title": "Web Services Programming",
+              "credits": 3,
+              "or": false
+            },
+            {
+              "type": "course",
+              "code": "COMP 436",
+              "title": "Markup Languages",
+              "credits": 3,
+              "or": false
+            },
+            {
+              "type": "course",
+              "code": "COMP 439",
+              "title": "Distributed Systems",
+              "credits": 3,
+              "or": false
+            },
+            {
+              "type": "course",
+              "code": "COMP 442",
+              "title": "Server-Side Software Development",
+              "credits": 3,
+              "or": false
+            },
+            {
+              "type": "course",
+              "code": "COMP 443",
+              "title": "Computer Networks",
+              "credits": 3,
+              "or": false
+            },
+            {
+              "type": "course",
+              "code": "COMP 453",
+              "title": "Database Programming",
+              "credits": 3,
+              "or": false
+            },
+            {
+              "type": "course",
+              "code": "COMP 464",
+              "title": "High-Performance Computing",
+              "credits": 3,
+              "or": false
+            },
+            {
+              "type": "course",
+              "code": "COMP 471",
+              "title": "Theory of Programming Languages",
+              "credits": 3,
+              "or": false
+            },
+            {
+              "type": "course",
+              "code": "COMP 473",
+              "title": "Advanced Object Oriented Programming",
+              "credits": 3,
+              "or": false
+            },
+            {
+              "type": "course",
+              "code": "COMP 474",
+              "title": "Software Engineering",
+              "credits": 3,
+              "or": false
+            },
+            {
+              "type": "comment",
+              "text": "Artificial Intelligence",
+              "credits": null
+            },
+            {
+              "type": "comment",
+              "text": "Required Course",
+              "credits": null
+            },
+            {
+              "type": "course",
+              "code": "COMP 479",
+              "title": "Machine Learning",
+              "credits": 3,
+              "or": false
+            },
+            {
+              "type": "comment",
+              "text": "Select one of the following:",
+              "credits": null
+            },
+            {
+              "type": "course",
+              "code": "COMP 429",
+              "title": "Natural Language Processing",
+              "credits": 3,
+              "or": false
+            },
+            {
+              "type": "course",
+              "code": "COMP 487",
+              "title": "Deep Learning",
+              "credits": 3,
+              "or": false
+            },
+            {
+              "type": "course",
+              "code": "COMP 488",
+              "title": "Computer Science Topics",
+              "credits": 1,
+              "or": false
+            },
+            {
+              "type": "comment",
+              "text": "Select two of the following:",
+              "credits": null
+            },
+            {
+              "type": "course",
+              "code": "COMP 406",
+              "title": "Data Mining",
+              "credits": 3,
+              "or": false
+            },
+            {
+              "type": "course",
+              "code": "COMP 429",
+              "title": "Natural Language Processing",
+              "credits": 3,
+              "or": false
+            },
+            {
+              "type": "course",
+              "code": "COMP 458",
+              "title": "Big Data Analytics",
+              "credits": 3,
+              "or": false
+            },
+            {
+              "type": "course",
+              "code": "COMP 487",
+              "title": "Deep Learning",
+              "credits": 3,
+              "or": false
+            },
+            {
+              "type": "course",
+              "code": "COMP 488",
+              "title": "Computer Science Topics",
+              "credits": 1,
+              "or": false
+            },
+            {
+              "type": "comment",
+              "text": "Cybersecurity",
+              "credits": null
+            },
+            {
+              "type": "comment",
+              "text": "Required Courses",
+              "credits": null
+            },
+            {
+              "type": "course",
+              "code": "COMP 401",
+              "title": "Computer Security",
+              "credits": 3,
+              "or": false
+            },
+            {
+              "type": "course",
+              "code": "COMP 447",
+              "title": "Intrusion Detection and Computer Forensics",
+              "credits": 3,
+              "or": false
+            },
+            {
+              "type": "course",
+              "code": "COMP 448",
+              "title": "Network Security",
+              "credits": 3,
+              "or": false
+            },
+            {
+              "type": "course",
+              "code": "COMP 452",
+              "title": "Introduction to Computer Vulnerabilities",
+              "credits": 3,
+              "or": false
+            },
+            {
+              "type": "comment",
+              "text": "Computer Systems",
+              "credits": null
+            },
+            {
+              "type": "comment",
+              "text": "Required Course",
+              "credits": null
+            },
+            {
+              "type": "course",
+              "code": "COMP 410",
+              "title": "Operating Systems",
+              "credits": 3,
+              "or": false
+            },
+            {
+              "type": "comment",
+              "text": "Select three of the following:",
+              "credits": null
+            },
+            {
+              "type": "course",
+              "code": "COMP 405",
+              "title": "Database Administration",
+              "credits": 3,
+              "or": false
+            },
+            {
+              "type": "course",
+              "code": "COMP 413",
+              "title": "Intermediate Object-Oriented Development",
+              "credits": 3,
+              "or": false
+            },
+            {
+              "type": "course",
+              "code": "COMP 439",
+              "title": "Distributed Systems",
+              "credits": 3,
+              "or": false
+            },
+            {
+              "type": "course",
+              "code": "COMP 443",
+              "title": "Computer Networks",
+              "credits": 3,
+              "or": false
+            },
+            {
+              "type": "course",
+              "code": "COMP 451",
+              "title": "Enterprise Networking",
+              "credits": 3,
+              "or": false
+            },
+            {
+              "type": "course",
+              "code": "COMP 462",
+              "title": "Advanced Computer Architecture",
+              "credits": 3,
+              "or": false
+            },
+            {
+              "type": "course",
+              "code": "COMP 464",
+              "title": "High-Performance Computing",
+              "credits": 3,
+              "or": false
+            },
+            {
+              "type": "course",
+              "code": "COMP 472",
+              "title": "Compiler Construction",
+              "credits": 3,
+              "or": false
+            },
+            {
+              "type": "comment",
+              "text": "General Elective Courses",
+              "credits": 12
+            }
+          ]
+        }
+      ],
+      "total": 30
+    }
+  ],
+  "roadmap": [
+    {
+      "year": 1,
+      "semester": "Fall",
+      "credits": 9,
+      "items": [
+        {
+          "ref": "COMP 400A",
+          "credits": 3
+        },
+        {
+          "ref": "COMP 400B",
+          "credits": 3
+        },
+        {
+          "ref": "COMP 400D",
+          "credits": 1
+        },
+        {
+          "ref": "COMP 413",
+          "credits": 3
+        },
+        {
+          "ref": "COMP 417",
+          "credits": 3
+        },
+        {
+          "label": "Elective 1",
+          "credits": 3,
+          "isElective": true
+        }
+      ]
+    },
+    {
+      "year": 1,
+      "semester": "Spring",
+      "credits": 9,
+      "items": [
+        {
+          "ref": "COMP 400C",
+          "credits": 3
+        },
+        {
+          "ref": "COMP 401",
+          "credits": 3
+        },
+        {
+          "ref": "COMP 460",
+          "credits": 3
+        },
+        {
+          "label": "Restricted Elective 1",
+          "credits": 3,
+          "isElective": true
+        },
+        {
+          "label": "Restricted Elective 2",
+          "credits": 3,
+          "isElective": true
+        }
+      ]
+    },
+    {
+      "year": 1,
+      "semester": "Summer",
+      "credits": 3,
+      "items": [
+        {
+          "ref": "COMP 499",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 2,
+      "semester": "Fall",
+      "credits": 9,
+      "items": [
+        {
+          "label": "Restricted Elective 3",
+          "credits": 3,
+          "isElective": true
+        },
+        {
+          "label": "Elective 2",
+          "credits": 3,
+          "isElective": true
+        },
+        {
+          "label": "Elective 3",
+          "credits": 3,
+          "isElective": true
+        }
+      ]
+    }
+  ]
+}

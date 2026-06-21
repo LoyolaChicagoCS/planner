@@ -1,0 +1,81 @@
+{
+  "catalog": "2026-2027",
+  "code": "HONR",
+  "name": "Honors",
+  "sourceUrl": "https://catalog.luc.edu/course-descriptions/honr/",
+  "fetchedAt": "2026-06-21",
+  "courses": [
+    {
+      "id": "HONR101",
+      "code": "HONR 101",
+      "title": "Western Traditions - Antiquity to the Middle Ages",
+      "credits": 3
+    },
+    {
+      "id": "HONR102",
+      "code": "HONR 102",
+      "title": "Western Traditions-Renaissance to Modernity",
+      "credits": 3
+    },
+    {
+      "id": "HONR203",
+      "code": "HONR 203",
+      "title": "The United States Experience",
+      "credits": 3
+    },
+    {
+      "id": "HONR204",
+      "code": "HONR 204",
+      "title": "Science and Society",
+      "credits": 3
+    },
+    {
+      "id": "HONR208",
+      "code": "HONR 208",
+      "title": "Encountering Latin America and the Caribbean",
+      "credits": 3
+    },
+    {
+      "id": "HONR209",
+      "code": "HONR 209",
+      "title": "Encountering Asia",
+      "credits": 3
+    },
+    {
+      "id": "HONR210",
+      "code": "HONR 210",
+      "title": "Encountering Africa",
+      "credits": 3
+    },
+    {
+      "id": "HONR212",
+      "code": "HONR 212",
+      "title": "Encountering the Middle East",
+      "credits": 3
+    },
+    {
+      "id": "HONR216",
+      "code": "HONR 216",
+      "title": "Encountering Contemporary Europe",
+      "credits": 3
+    },
+    {
+      "id": "HONR290",
+      "code": "HONR 290",
+      "title": "Literacy Center",
+      "credits": 3
+    },
+    {
+      "id": "HONR301",
+      "code": "HONR 301",
+      "title": "Honors Capstone: Moral Responsibility",
+      "credits": 3
+    },
+    {
+      "id": "HONR370",
+      "code": "HONR 370",
+      "title": "Fieldwork in Honors - Internship",
+      "credits": 1
+    }
+  ]
+}

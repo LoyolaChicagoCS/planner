@@ -40,28 +40,28 @@
     {
       "id": "MATH201",
       "code": "MATH 201",
-      "title": "Introduction to Discrete Mathematics",
+      "title": "Introduction to Discrete Mathematics & Number Theory",
       "credits": 3,
       "category": "major"
     },
     {
       "id": "MATH313",
       "code": "MATH 313",
-      "title": "Abstract Algebra I",
+      "title": "Abstract Algebra",
       "credits": 3,
       "category": "major"
     },
     {
       "id": "MATH315",
       "code": "MATH 315",
-      "title": "Real Analysis I",
+      "title": "Advanced Topics in Linear Algebra",
       "credits": 3,
       "category": "major"
     },
     {
       "id": "STAT203",
       "code": "STAT 203",
-      "title": "Statistics",
+      "title": "Introduction to Probability & Statistics",
       "credits": 3,
       "category": "major"
     },
@@ -75,21 +75,21 @@
     {
       "id": "COMP271",
       "code": "COMP 271",
-      "title": "Data Structures and Algorithms",
+      "title": "Data Structures I",
       "credits": 3,
       "category": "major"
     },
     {
       "id": "COMP363",
       "code": "COMP 363",
-      "title": "Design and Analysis of Algorithms",
+      "title": "Design and Analysis Computer Algorithms",
       "credits": 3,
       "category": "major"
     },
     {
       "id": "COMP313",
       "code": "COMP 313",
-      "title": "Intermediate Object-Oriented Programming",
+      "title": "Object-Oriented Design",
       "credits": 3,
       "category": "major"
     }

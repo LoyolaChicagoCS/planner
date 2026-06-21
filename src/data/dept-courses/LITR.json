@@ -1,0 +1,183 @@
+{
+  "catalog": "2026-2027",
+  "code": "LITR",
+  "name": "Literature in Translation",
+  "sourceUrl": "https://catalog.luc.edu/course-descriptions/litr/",
+  "fetchedAt": "2026-06-21",
+  "courses": [
+    {
+      "id": "LITR161",
+      "code": "LITR 161",
+      "title": "Introduction to Italian Culture",
+      "credits": 3
+    },
+    {
+      "id": "LITR200",
+      "code": "LITR 200",
+      "title": "European Masterpieces",
+      "credits": 3
+    },
+    {
+      "id": "LITR202",
+      "code": "LITR 202",
+      "title": "European Novel",
+      "credits": 3
+    },
+    {
+      "id": "LITR203",
+      "code": "LITR 203",
+      "title": "European Drama",
+      "credits": 3
+    },
+    {
+      "id": "LITR204",
+      "code": "LITR 204",
+      "title": "European Film",
+      "credits": 3
+    },
+    {
+      "id": "LITR211",
+      "code": "LITR 211",
+      "title": "Latina Authors",
+      "credits": 3
+    },
+    {
+      "id": "LITR219",
+      "code": "LITR 219",
+      "title": "African Film",
+      "credits": 3
+    },
+    {
+      "id": "LITR221",
+      "code": "LITR 221",
+      "title": "Polish Authors",
+      "credits": 3
+    },
+    {
+      "id": "LITR225",
+      "code": "LITR 225",
+      "title": "Russian Masterpieces",
+      "credits": 3
+    },
+    {
+      "id": "LITR230",
+      "code": "LITR 230",
+      "title": "German Masterpieces",
+      "credits": 3
+    },
+    {
+      "id": "LITR238",
+      "code": "LITR 238",
+      "title": "Arabic Literature in Translation",
+      "credits": 3
+    },
+    {
+      "id": "LITR243",
+      "code": "LITR 243",
+      "title": "South Asian Literature",
+      "credits": 3
+    },
+    {
+      "id": "LITR244",
+      "code": "LITR 244",
+      "title": "Indian Film",
+      "credits": 3
+    },
+    {
+      "id": "LITR245",
+      "code": "LITR 245",
+      "title": "Asian Masterpieces",
+      "credits": 3
+    },
+    {
+      "id": "LITR260",
+      "code": "LITR 260",
+      "title": "Italian Masterpieces",
+      "credits": 3
+    },
+    {
+      "id": "LITR262",
+      "code": "LITR 262",
+      "title": "Modern Italian Novel",
+      "credits": 3
+    },
+    {
+      "id": "LITR264",
+      "code": "LITR 264",
+      "title": "Italian Film Genre",
+      "credits": 3
+    },
+    {
+      "id": "LITR267",
+      "code": "LITR 267",
+      "title": "Italian Film History",
+      "credits": 3
+    },
+    {
+      "id": "LITR268",
+      "code": "LITR 268",
+      "title": "Italy: Cultural History",
+      "credits": 3
+    },
+    {
+      "id": "LITR268R",
+      "code": "LITR 268R",
+      "title": "Italian Culture: Food & Wine",
+      "credits": 3
+    },
+    {
+      "id": "LITR280",
+      "code": "LITR 280",
+      "title": "World Masterpieces in Translation",
+      "credits": 3
+    },
+    {
+      "id": "LITR283",
+      "code": "LITR 283",
+      "title": "Major Authors in Translation",
+      "credits": 3
+    },
+    {
+      "id": "LITR284",
+      "code": "LITR 284",
+      "title": "International Film",
+      "credits": 3
+    },
+    {
+      "id": "LITR287",
+      "code": "LITR 287",
+      "title": "Topics in Asian Literature",
+      "credits": 3
+    },
+    {
+      "id": "LITR290",
+      "code": "LITR 290",
+      "title": "Classical Chinese Literature",
+      "credits": 3
+    },
+    {
+      "id": "LITR291",
+      "code": "LITR 291",
+      "title": "Italian & Italian-American Women Writers",
+      "credits": 3
+    },
+    {
+      "id": "LITR292",
+      "code": "LITR 292",
+      "title": "Modern Chinese Fiction",
+      "credits": 3
+    },
+    {
+      "id": "LITR299",
+      "code": "LITR 299",
+      "title": "Comparative Literature",
+      "credits": 3
+    },
+    {
+      "id": "LITR392",
+      "code": "LITR 392",
+      "title": "Theories of Myth",
+      "credits": 3
+    }
+  ]
+}

@@ -1,0 +1,249 @@
+{
+  "catalog": "2026-2027",
+  "code": "CATH",
+  "name": "Catholic Studies",
+  "sourceUrl": "https://catalog.luc.edu/course-descriptions/cath/",
+  "fetchedAt": "2026-06-21",
+  "courses": [
+    {
+      "id": "CATH100",
+      "code": "CATH 100",
+      "title": "Introductory Topics in Catholic Studies",
+      "credits": 3
+    },
+    {
+      "id": "CATH101",
+      "code": "CATH 101",
+      "title": "Evolution Western Ideas & Institutions to the 17th Century",
+      "credits": 3
+    },
+    {
+      "id": "CATH101D",
+      "code": "CATH 101D",
+      "title": "Development of Western Thought Honors Discussion",
+      "credits": 3
+    },
+    {
+      "id": "CATH102",
+      "code": "CATH 102",
+      "title": "Western Traditions Honors-Antiquity to Middle Ages",
+      "credits": 3
+    },
+    {
+      "id": "CATH104",
+      "code": "CATH 104",
+      "title": "Jesus Christ",
+      "credits": 3
+    },
+    {
+      "id": "CATH105",
+      "code": "CATH 105",
+      "title": "The Church in the World",
+      "credits": 3
+    },
+    {
+      "id": "CATH106",
+      "code": "CATH 106",
+      "title": "Theology of The Sacraments",
+      "credits": 3
+    },
+    {
+      "id": "CATH112",
+      "code": "CATH 112",
+      "title": "New Testament",
+      "credits": 3
+    },
+    {
+      "id": "CATH179",
+      "code": "CATH 179",
+      "title": "Roman Catholicism",
+      "credits": 3
+    },
+    {
+      "id": "CATH181",
+      "code": "CATH 181",
+      "title": "Christianity Through Time",
+      "credits": 3
+    },
+    {
+      "id": "CATH193",
+      "code": "CATH 193",
+      "title": "Christian Marriage",
+      "credits": 3
+    },
+    {
+      "id": "CATH200",
+      "code": "CATH 200",
+      "title": "Intermediate Topics in Catholic Studies",
+      "credits": 3
+    },
+    {
+      "id": "CATH255",
+      "code": "CATH 255",
+      "title": "Music in Catholic Worship",
+      "credits": 3
+    },
+    {
+      "id": "CATH278",
+      "code": "CATH 278",
+      "title": "Medieval Culture",
+      "credits": 3
+    },
+    {
+      "id": "CATH296",
+      "code": "CATH 296",
+      "title": "All Things Ignatian: Living and Learning in the Jesuit Trad",
+      "credits": 3
+    },
+    {
+      "id": "CATH297",
+      "code": "CATH 297",
+      "title": "The Jesuits: Life and History",
+      "credits": 3
+    },
+    {
+      "id": "CATH300",
+      "code": "CATH 300",
+      "title": "Advanced Topics in Catholic Studies",
+      "credits": 3
+    },
+    {
+      "id": "CATH301",
+      "code": "CATH 301",
+      "title": "Catholics in America",
+      "credits": 3
+    },
+    {
+      "id": "CATH302",
+      "code": "CATH 302",
+      "title": "Religion & Pop Culture: Europe",
+      "credits": 3
+    },
+    {
+      "id": "CATH303",
+      "code": "CATH 303",
+      "title": "Topics in the Catholic Philosophical Tradition",
+      "credits": 3
+    },
+    {
+      "id": "CATH305",
+      "code": "CATH 305",
+      "title": "Medieval Philosophy",
+      "credits": 3
+    },
+    {
+      "id": "CATH307",
+      "code": "CATH 307",
+      "title": "13th & 14th Century Philosophy",
+      "credits": 3
+    },
+    {
+      "id": "CATH309",
+      "code": "CATH 309",
+      "title": "History of Primitive Christianity",
+      "credits": 3
+    },
+    {
+      "id": "CATH310",
+      "code": "CATH 310",
+      "title": "The Early Middle Ages 600-1150",
+      "credits": 3
+    },
+    {
+      "id": "CATH311",
+      "code": "CATH 311",
+      "title": "Medieval World 1100-1500",
+      "credits": 3
+    },
+    {
+      "id": "CATH312",
+      "code": "CATH 312",
+      "title": "Dante-The Divine Comedy",
+      "credits": 3
+    },
+    {
+      "id": "CATH315",
+      "code": "CATH 315",
+      "title": "Mary and The Church",
+      "credits": 3
+    },
+    {
+      "id": "CATH316",
+      "code": "CATH 316",
+      "title": "The Reformation",
+      "credits": 3
+    },
+    {
+      "id": "CATH317",
+      "code": "CATH 317",
+      "title": "Christian Thought: Ancient to Medieval",
+      "credits": 3
+    },
+    {
+      "id": "CATH318",
+      "code": "CATH 318",
+      "title": "Christian Thought: Reformation to Modern",
+      "credits": 3
+    },
+    {
+      "id": "CATH320",
+      "code": "CATH 320",
+      "title": "The Philosophy of St Augustine",
+      "credits": 3
+    },
+    {
+      "id": "CATH321",
+      "code": "CATH 321",
+      "title": "English Literature: Medieval Period",
+      "credits": 3
+    },
+    {
+      "id": "CATH322",
+      "code": "CATH 322",
+      "title": "Chaucer",
+      "credits": 3
+    },
+    {
+      "id": "CATH345",
+      "code": "CATH 345",
+      "title": "Roman Catholic Social Thought",
+      "credits": 3
+    },
+    {
+      "id": "CATH361",
+      "code": "CATH 361",
+      "title": "St Augustine Works",
+      "credits": 3
+    },
+    {
+      "id": "CATH379",
+      "code": "CATH 379",
+      "title": "Ecumenism in The 20th Century",
+      "credits": 3
+    },
+    {
+      "id": "CATH383",
+      "code": "CATH 383",
+      "title": "Theology Arts & Literature",
+      "credits": 1
+    },
+    {
+      "id": "CATH393",
+      "code": "CATH 393",
+      "title": "Seminar Theology",
+      "credits": 3
+    },
+    {
+      "id": "CATH395",
+      "code": "CATH 395",
+      "title": "Directed Readings in Catholic Studies",
+      "credits": 3
+    },
+    {
+      "id": "CATH396",
+      "code": "CATH 396",
+      "title": "Seminar in Medieval Phil",
+      "credits": 3
+    }
+  ]
+}

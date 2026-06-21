@@ -1,0 +1,279 @@
+{
+  "catalog": "2026-2027",
+  "code": "GREK",
+  "name": "Greek (Ancient)",
+  "sourceUrl": "https://catalog.luc.edu/course-descriptions/grek/",
+  "fetchedAt": "2026-06-21",
+  "courses": [
+    {
+      "id": "GREK101",
+      "code": "GREK 101",
+      "title": "Ancient Greek I",
+      "credits": 3
+    },
+    {
+      "id": "GREK102",
+      "code": "GREK 102",
+      "title": "Ancient Greek II",
+      "credits": 3
+    },
+    {
+      "id": "GREK236",
+      "code": "GREK 236",
+      "title": "Xenophon",
+      "credits": 3
+    },
+    {
+      "id": "GREK262",
+      "code": "GREK 262",
+      "title": "Introduction to Plato",
+      "credits": 3
+    },
+    {
+      "id": "GREK267",
+      "code": "GREK 267",
+      "title": "Intro to New Testament Greek",
+      "credits": 3
+    },
+    {
+      "id": "GREK271",
+      "code": "GREK 271",
+      "title": "Intermediate Greek",
+      "credits": 3
+    },
+    {
+      "id": "GREK275",
+      "code": "GREK 275",
+      "title": "Introduction to Greek Oratory",
+      "credits": 3
+    },
+    {
+      "id": "GREK281",
+      "code": "GREK 281",
+      "title": "Intro to Greek Historiography",
+      "credits": 3
+    },
+    {
+      "id": "GREK285",
+      "code": "GREK 285",
+      "title": "Introduction to Greek Poetry",
+      "credits": 3
+    },
+    {
+      "id": "GREK286",
+      "code": "GREK 286",
+      "title": "Introduction to Greek Drama",
+      "credits": 3
+    },
+    {
+      "id": "GREK287",
+      "code": "GREK 287",
+      "title": "Introduction to Christian Greek",
+      "credits": 3
+    },
+    {
+      "id": "GREK289",
+      "code": "GREK 289",
+      "title": "Readings in Ancient Greek Literature",
+      "credits": 3
+    },
+    {
+      "id": "GREK303",
+      "code": "GREK 303",
+      "title": "Greek Composition",
+      "credits": 3
+    },
+    {
+      "id": "GREK315",
+      "code": "GREK 315",
+      "title": "The Greek Fathers",
+      "credits": 3
+    },
+    {
+      "id": "GREK325",
+      "code": "GREK 325",
+      "title": "Demosthenes",
+      "credits": 3
+    },
+    {
+      "id": "GREK331",
+      "code": "GREK 331",
+      "title": "Herodotus",
+      "credits": 3
+    },
+    {
+      "id": "GREK335",
+      "code": "GREK 335",
+      "title": "Thucydides",
+      "credits": 3
+    },
+    {
+      "id": "GREK341",
+      "code": "GREK 341",
+      "title": "The Iliad",
+      "credits": 3
+    },
+    {
+      "id": "GREK342",
+      "code": "GREK 342",
+      "title": "The Odyssey",
+      "credits": 3
+    },
+    {
+      "id": "GREK343",
+      "code": "GREK 343",
+      "title": "Greek Lyric Poetry",
+      "credits": 3
+    },
+    {
+      "id": "GREK351",
+      "code": "GREK 351",
+      "title": "Aristophanes",
+      "credits": 3
+    },
+    {
+      "id": "GREK353",
+      "code": "GREK 353",
+      "title": "Aeschylus",
+      "credits": 3
+    },
+    {
+      "id": "GREK354",
+      "code": "GREK 354",
+      "title": "Sophocles",
+      "credits": 3
+    },
+    {
+      "id": "GREK355",
+      "code": "GREK 355",
+      "title": "Euripides",
+      "credits": 3
+    },
+    {
+      "id": "GREK360",
+      "code": "GREK 360",
+      "title": "Theocritus",
+      "credits": 3
+    },
+    {
+      "id": "GREK362",
+      "code": "GREK 362",
+      "title": "Plato Republic",
+      "credits": 3
+    },
+    {
+      "id": "GREK388",
+      "code": "GREK 388",
+      "title": "Readings in Greek Literature I",
+      "credits": 3
+    },
+    {
+      "id": "GREK389",
+      "code": "GREK 389",
+      "title": "Readings in Greek Literature II",
+      "credits": 3
+    },
+    {
+      "id": "GREK412",
+      "code": "GREK 412",
+      "title": "Readings in Hellenistic Authors",
+      "credits": 3
+    },
+    {
+      "id": "GREK415",
+      "code": "GREK 415",
+      "title": "The Greek Fathers",
+      "credits": 3
+    },
+    {
+      "id": "GREK425",
+      "code": "GREK 425",
+      "title": "The Attic Orators",
+      "credits": 3
+    },
+    {
+      "id": "GREK431",
+      "code": "GREK 431",
+      "title": "Herodotus",
+      "credits": 3
+    },
+    {
+      "id": "GREK435",
+      "code": "GREK 435",
+      "title": "Thucydides",
+      "credits": 3
+    },
+    {
+      "id": "GREK441",
+      "code": "GREK 441",
+      "title": "The Iliad",
+      "credits": 3
+    },
+    {
+      "id": "GREK442",
+      "code": "GREK 442",
+      "title": "The Odyssey",
+      "credits": 3
+    },
+    {
+      "id": "GREK443",
+      "code": "GREK 443",
+      "title": "Pindar",
+      "credits": 3
+    },
+    {
+      "id": "GREK451",
+      "code": "GREK 451",
+      "title": "Greek Comedy",
+      "credits": 3
+    },
+    {
+      "id": "GREK453",
+      "code": "GREK 453",
+      "title": "Aeschylus",
+      "credits": 3
+    },
+    {
+      "id": "GREK454",
+      "code": "GREK 454",
+      "title": "Sophocles",
+      "credits": 3
+    },
+    {
+      "id": "GREK455",
+      "code": "GREK 455",
+      "title": "Euripides",
+      "credits": 3
+    },
+    {
+      "id": "GREK462",
+      "code": "GREK 462",
+      "title": "Plato",
+      "credits": 3
+    },
+    {
+      "id": "GREK473",
+      "code": "GREK 473",
+      "title": "New Testament Language",
+      "credits": 3
+    },
+    {
+      "id": "GREK488",
+      "code": "GREK 488",
+      "title": "Readings in Greek Literature I",
+      "credits": 3
+    },
+    {
+      "id": "GREK489",
+      "code": "GREK 489",
+      "title": "Readings in Greek Lit II",
+      "credits": 3
+    },
+    {
+      "id": "GREK499",
+      "code": "GREK 499",
+      "title": "Directed Study",
+      "credits": 3
+    }
+  ]
+}

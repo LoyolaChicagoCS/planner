@@ -10,44 +10,330 @@
   "hasCompletionEstimate": false,
   "catalogUrl": "https://catalog.luc.edu/undergraduate/arts-sciences/fine-performing-arts/drawing-painting-printmaking-minor/",
   "courses": [
-    { "id": "DRAWING_PAINTING_PRINTMAKING_MINOR_FNAR114", "code": "FNAR 114", "title": "Painting I", "credits": 3, "category": "major" },
-    { "id": "DRAWING_PAINTING_PRINTMAKING_MINOR_FNAR311", "code": "FNAR 311", "title": "Advanced Studio", "credits": 3, "category": "major" },
-    { "id": "DRAWING_PAINTING_PRINTMAKING_MINOR_FNAR110", "code": "FNAR 110", "title": "Foundations of Visual Art", "credits": 3, "category": "major", "requirementGroup": "DRAWING_PAINTING_PRINTMAKING_MINOR-grp1", "choiceNote": "Choose FNAR 110 or FNAR 113" },
-    { "id": "DRAWING_PAINTING_PRINTMAKING_MINOR_FNAR113", "code": "FNAR 113", "title": "Drawing I", "credits": 3, "category": "major", "requirementGroup": "DRAWING_PAINTING_PRINTMAKING_MINOR-grp1", "choiceNote": "Choose FNAR 110 or FNAR 113" },
-    { "id": "DRAWING_PAINTING_PRINTMAKING_MINOR_FNAR118", "code": "FNAR 118", "title": "Printmaking I", "credits": 3, "category": "major", "requirementGroup": "DRAWING_PAINTING_PRINTMAKING_MINOR-grp2", "choiceNote": "Applied: select two of FNAR 118, FNAR 213, FNAR 214" },
-    { "id": "DRAWING_PAINTING_PRINTMAKING_MINOR_FNAR213", "code": "FNAR 213", "title": "Drawing II", "credits": 3, "category": "major", "requirementGroup": "DRAWING_PAINTING_PRINTMAKING_MINOR-grp2", "choiceNote": "Applied: select two of FNAR 118, FNAR 213, FNAR 214" },
-    { "id": "DRAWING_PAINTING_PRINTMAKING_MINOR_FNAR214", "code": "FNAR 214", "title": "Painting II", "credits": 3, "category": "major", "requirementGroup": "DRAWING_PAINTING_PRINTMAKING_MINOR-grp2", "choiceNote": "Applied: select two of FNAR 118, FNAR 213, FNAR 214" },
-    { "id": "DRAWING_PAINTING_PRINTMAKING_MINOR_FNAR200", "code": "FNAR 200", "title": "Global Art History: Prehistoric to 600 CE", "credits": 3, "category": "major", "requirementGroup": "DRAWING_PAINTING_PRINTMAKING_MINOR-grp3", "choiceNote": "History: select one" },
-    { "id": "DRAWING_PAINTING_PRINTMAKING_MINOR_FNAR201", "code": "FNAR 201", "title": "Global Art History: 600-1800 CE", "credits": 3, "category": "major", "requirementGroup": "DRAWING_PAINTING_PRINTMAKING_MINOR-grp3", "choiceNote": "History: select one" },
-    { "id": "DRAWING_PAINTING_PRINTMAKING_MINOR_FNAR202", "code": "FNAR 202", "title": "Global Art History: Modern Art", "credits": 3, "category": "major", "requirementGroup": "DRAWING_PAINTING_PRINTMAKING_MINOR-grp3", "choiceNote": "History: select one" },
-    { "id": "DRAWING_PAINTING_PRINTMAKING_MINOR_FNAR207", "code": "FNAR 207", "title": "Women, Art, and Society", "credits": 3, "category": "major", "requirementGroup": "DRAWING_PAINTING_PRINTMAKING_MINOR-grp3", "choiceNote": "History: select one" },
-    { "id": "DRAWING_PAINTING_PRINTMAKING_MINOR_FNAR304", "code": "FNAR 304", "title": "Paris in the Nineteenth Century", "credits": 3, "category": "major", "requirementGroup": "DRAWING_PAINTING_PRINTMAKING_MINOR-grp3", "choiceNote": "History: select one" },
-    { "id": "DRAWING_PAINTING_PRINTMAKING_MINOR_FNAR305", "code": "FNAR 305", "title": "American Art to 1945", "credits": 3, "category": "major", "requirementGroup": "DRAWING_PAINTING_PRINTMAKING_MINOR-grp3", "choiceNote": "History: select one" },
-    { "id": "DRAWING_PAINTING_PRINTMAKING_MINOR_FNAR306", "code": "FNAR 306", "title": "Contemporary Art 1945-Present", "credits": 3, "category": "major", "requirementGroup": "DRAWING_PAINTING_PRINTMAKING_MINOR-grp3", "choiceNote": "History: select one" },
-    { "id": "DRAWING_PAINTING_PRINTMAKING_MINOR_FNAR338", "code": "FNAR 338", "title": "Medieval Art", "credits": 3, "category": "major", "requirementGroup": "DRAWING_PAINTING_PRINTMAKING_MINOR-grp3", "choiceNote": "History: select one" },
-    { "id": "DRAWING_PAINTING_PRINTMAKING_MINOR_FNAR343", "code": "FNAR 343", "title": "Baroque Art", "credits": 3, "category": "major", "requirementGroup": "DRAWING_PAINTING_PRINTMAKING_MINOR-grp3", "choiceNote": "History: select one" },
-    { "id": "DRAWING_PAINTING_PRINTMAKING_MINOR_FNAR344", "code": "FNAR 344", "title": "Early Italian Renaissance Art", "credits": 3, "category": "major", "requirementGroup": "DRAWING_PAINTING_PRINTMAKING_MINOR-grp3", "choiceNote": "History: select one" },
-    { "id": "DRAWING_PAINTING_PRINTMAKING_MINOR_FNAR345", "code": "FNAR 345", "title": "Italian High Renaissance and Mannerist Art", "credits": 3, "category": "major", "requirementGroup": "DRAWING_PAINTING_PRINTMAKING_MINOR-grp3", "choiceNote": "History: select one" },
-    { "id": "DRAWING_PAINTING_PRINTMAKING_MINOR_FNAR349", "code": "FNAR 349", "title": "Art and the Catholic Tradition", "credits": 3, "category": "major", "requirementGroup": "DRAWING_PAINTING_PRINTMAKING_MINOR-grp3", "choiceNote": "History: select one" },
-    { "id": "DRAWING_PAINTING_PRINTMAKING_MINOR_FNAR351", "code": "FNAR 351", "title": "Latin American Art I: Ancient to 19th Century", "credits": 3, "category": "major", "requirementGroup": "DRAWING_PAINTING_PRINTMAKING_MINOR-grp3", "choiceNote": "History: select one" },
-    { "id": "DRAWING_PAINTING_PRINTMAKING_MINOR_FNAR352", "code": "FNAR 352", "title": "Islam and Visual Culture", "credits": 3, "category": "major", "requirementGroup": "DRAWING_PAINTING_PRINTMAKING_MINOR-grp3", "choiceNote": "History: select one" },
-    { "id": "DRAWING_PAINTING_PRINTMAKING_MINOR_FNAR353", "code": "FNAR 353", "title": "Latin American Art II: Modern to Contemporary", "credits": 3, "category": "major", "requirementGroup": "DRAWING_PAINTING_PRINTMAKING_MINOR-grp3", "choiceNote": "History: select one" },
-    { "id": "DRAWING_PAINTING_PRINTMAKING_MINOR_FNAR355", "code": "FNAR 355", "title": "Art of Africa", "credits": 3, "category": "major", "requirementGroup": "DRAWING_PAINTING_PRINTMAKING_MINOR-grp3", "choiceNote": "History: select one" },
-    { "id": "DRAWING_PAINTING_PRINTMAKING_MINOR_FNAR356", "code": "FNAR 356", "title": "India, Women and Visual Culture", "credits": 3, "category": "major", "requirementGroup": "DRAWING_PAINTING_PRINTMAKING_MINOR-grp3", "choiceNote": "History: select one" },
-    { "id": "DRAWING_PAINTING_PRINTMAKING_MINOR_FNAR357", "code": "FNAR 357", "title": "South Asian Visual Culture", "credits": 3, "category": "major", "requirementGroup": "DRAWING_PAINTING_PRINTMAKING_MINOR-grp3", "choiceNote": "History: select one" },
-    { "id": "DRAWING_PAINTING_PRINTMAKING_MINOR_FNAR358", "code": "FNAR 358", "title": "Chinese Art and Culture", "credits": 3, "category": "major", "requirementGroup": "DRAWING_PAINTING_PRINTMAKING_MINOR-grp3", "choiceNote": "History: select one" },
-    { "id": "DRAWING_PAINTING_PRINTMAKING_MINOR_FNAR359", "code": "FNAR 359", "title": "Japanese Art and Culture", "credits": 3, "category": "major", "requirementGroup": "DRAWING_PAINTING_PRINTMAKING_MINOR-grp3", "choiceNote": "History: select one" },
-    { "id": "DRAWING_PAINTING_PRINTMAKING_MINOR_FNAR360", "code": "FNAR 360", "title": "Picturing Women in Renaissance and Baroque Art", "credits": 3, "category": "major", "requirementGroup": "DRAWING_PAINTING_PRINTMAKING_MINOR-grp3", "choiceNote": "History: select one" },
-    { "id": "DRAWING_PAINTING_PRINTMAKING_MINOR_FNAR365", "code": "FNAR 365", "title": "History of Photography", "credits": 3, "category": "major", "requirementGroup": "DRAWING_PAINTING_PRINTMAKING_MINOR-grp3", "choiceNote": "History: select one" }
+    {
+      "id": "DRAWING_PAINTING_PRINTMAKING_MINOR_FNAR114",
+      "code": "FNAR 114",
+      "title": "Painting I",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "DRAWING_PAINTING_PRINTMAKING_MINOR_FNAR311",
+      "code": "FNAR 311",
+      "title": "Advanced Studio",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "DRAWING_PAINTING_PRINTMAKING_MINOR_FNAR110",
+      "code": "FNAR 110",
+      "title": "Foundations of Visual Art",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "DRAWING_PAINTING_PRINTMAKING_MINOR-grp1",
+      "choiceNote": "Choose FNAR 110 or FNAR 113"
+    },
+    {
+      "id": "DRAWING_PAINTING_PRINTMAKING_MINOR_FNAR113",
+      "code": "FNAR 113",
+      "title": "Drawing I",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "DRAWING_PAINTING_PRINTMAKING_MINOR-grp1",
+      "choiceNote": "Choose FNAR 110 or FNAR 113"
+    },
+    {
+      "id": "DRAWING_PAINTING_PRINTMAKING_MINOR_FNAR118",
+      "code": "FNAR 118",
+      "title": "Printmaking I",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "DRAWING_PAINTING_PRINTMAKING_MINOR-grp2",
+      "choiceNote": "Applied: select two of FNAR 118, FNAR 213, FNAR 214"
+    },
+    {
+      "id": "DRAWING_PAINTING_PRINTMAKING_MINOR_FNAR213",
+      "code": "FNAR 213",
+      "title": "Drawing II",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "DRAWING_PAINTING_PRINTMAKING_MINOR-grp2",
+      "choiceNote": "Applied: select two of FNAR 118, FNAR 213, FNAR 214"
+    },
+    {
+      "id": "DRAWING_PAINTING_PRINTMAKING_MINOR_FNAR214",
+      "code": "FNAR 214",
+      "title": "Painting II",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "DRAWING_PAINTING_PRINTMAKING_MINOR-grp2",
+      "choiceNote": "Applied: select two of FNAR 118, FNAR 213, FNAR 214"
+    },
+    {
+      "id": "DRAWING_PAINTING_PRINTMAKING_MINOR_FNAR200",
+      "code": "FNAR 200",
+      "title": "Global Art History: Prehistoric to 600 CE",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "DRAWING_PAINTING_PRINTMAKING_MINOR-grp3",
+      "choiceNote": "History: select one"
+    },
+    {
+      "id": "DRAWING_PAINTING_PRINTMAKING_MINOR_FNAR201",
+      "code": "FNAR 201",
+      "title": "Global Art History: 600-1800CE",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "DRAWING_PAINTING_PRINTMAKING_MINOR-grp3",
+      "choiceNote": "History: select one"
+    },
+    {
+      "id": "DRAWING_PAINTING_PRINTMAKING_MINOR_FNAR202",
+      "code": "FNAR 202",
+      "title": "Global Art History: Modern Art",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "DRAWING_PAINTING_PRINTMAKING_MINOR-grp3",
+      "choiceNote": "History: select one"
+    },
+    {
+      "id": "DRAWING_PAINTING_PRINTMAKING_MINOR_FNAR207",
+      "code": "FNAR 207",
+      "title": "Women, Art, and Society",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "DRAWING_PAINTING_PRINTMAKING_MINOR-grp3",
+      "choiceNote": "History: select one"
+    },
+    {
+      "id": "DRAWING_PAINTING_PRINTMAKING_MINOR_FNAR304",
+      "code": "FNAR 304",
+      "title": "Paris in the Nineteenth Century",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "DRAWING_PAINTING_PRINTMAKING_MINOR-grp3",
+      "choiceNote": "History: select one"
+    },
+    {
+      "id": "DRAWING_PAINTING_PRINTMAKING_MINOR_FNAR305",
+      "code": "FNAR 305",
+      "title": "American Art to 1945",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "DRAWING_PAINTING_PRINTMAKING_MINOR-grp3",
+      "choiceNote": "History: select one"
+    },
+    {
+      "id": "DRAWING_PAINTING_PRINTMAKING_MINOR_FNAR306",
+      "code": "FNAR 306",
+      "title": "Contemporary Art 1945-Present",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "DRAWING_PAINTING_PRINTMAKING_MINOR-grp3",
+      "choiceNote": "History: select one"
+    },
+    {
+      "id": "DRAWING_PAINTING_PRINTMAKING_MINOR_FNAR338",
+      "code": "FNAR 338",
+      "title": "Medieval Art",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "DRAWING_PAINTING_PRINTMAKING_MINOR-grp3",
+      "choiceNote": "History: select one"
+    },
+    {
+      "id": "DRAWING_PAINTING_PRINTMAKING_MINOR_FNAR343",
+      "code": "FNAR 343",
+      "title": "Baroque Art",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "DRAWING_PAINTING_PRINTMAKING_MINOR-grp3",
+      "choiceNote": "History: select one"
+    },
+    {
+      "id": "DRAWING_PAINTING_PRINTMAKING_MINOR_FNAR344",
+      "code": "FNAR 344",
+      "title": "Early Italian Renaissance Art",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "DRAWING_PAINTING_PRINTMAKING_MINOR-grp3",
+      "choiceNote": "History: select one"
+    },
+    {
+      "id": "DRAWING_PAINTING_PRINTMAKING_MINOR_FNAR345",
+      "code": "FNAR 345",
+      "title": "Italian High Renaissance and Mannerist Art",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "DRAWING_PAINTING_PRINTMAKING_MINOR-grp3",
+      "choiceNote": "History: select one"
+    },
+    {
+      "id": "DRAWING_PAINTING_PRINTMAKING_MINOR_FNAR349",
+      "code": "FNAR 349",
+      "title": "Art and the Catholic Tradition",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "DRAWING_PAINTING_PRINTMAKING_MINOR-grp3",
+      "choiceNote": "History: select one"
+    },
+    {
+      "id": "DRAWING_PAINTING_PRINTMAKING_MINOR_FNAR351",
+      "code": "FNAR 351",
+      "title": "Latin American Art I: Ancient to 19th Century",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "DRAWING_PAINTING_PRINTMAKING_MINOR-grp3",
+      "choiceNote": "History: select one"
+    },
+    {
+      "id": "DRAWING_PAINTING_PRINTMAKING_MINOR_FNAR352",
+      "code": "FNAR 352",
+      "title": "Islam and Visual Culture",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "DRAWING_PAINTING_PRINTMAKING_MINOR-grp3",
+      "choiceNote": "History: select one"
+    },
+    {
+      "id": "DRAWING_PAINTING_PRINTMAKING_MINOR_FNAR353",
+      "code": "FNAR 353",
+      "title": "Latin American Art II: Modern to Contemporary",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "DRAWING_PAINTING_PRINTMAKING_MINOR-grp3",
+      "choiceNote": "History: select one"
+    },
+    {
+      "id": "DRAWING_PAINTING_PRINTMAKING_MINOR_FNAR355",
+      "code": "FNAR 355",
+      "title": "Art of Africa",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "DRAWING_PAINTING_PRINTMAKING_MINOR-grp3",
+      "choiceNote": "History: select one"
+    },
+    {
+      "id": "DRAWING_PAINTING_PRINTMAKING_MINOR_FNAR356",
+      "code": "FNAR 356",
+      "title": "India, Women and Visual Culture",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "DRAWING_PAINTING_PRINTMAKING_MINOR-grp3",
+      "choiceNote": "History: select one"
+    },
+    {
+      "id": "DRAWING_PAINTING_PRINTMAKING_MINOR_FNAR357",
+      "code": "FNAR 357",
+      "title": "South Asian Visual Culture",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "DRAWING_PAINTING_PRINTMAKING_MINOR-grp3",
+      "choiceNote": "History: select one"
+    },
+    {
+      "id": "DRAWING_PAINTING_PRINTMAKING_MINOR_FNAR358",
+      "code": "FNAR 358",
+      "title": "Chinese Art and Culture",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "DRAWING_PAINTING_PRINTMAKING_MINOR-grp3",
+      "choiceNote": "History: select one"
+    },
+    {
+      "id": "DRAWING_PAINTING_PRINTMAKING_MINOR_FNAR359",
+      "code": "FNAR 359",
+      "title": "Japanese Art and Culture",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "DRAWING_PAINTING_PRINTMAKING_MINOR-grp3",
+      "choiceNote": "History: select one"
+    },
+    {
+      "id": "DRAWING_PAINTING_PRINTMAKING_MINOR_FNAR360",
+      "code": "FNAR 360",
+      "title": "Picturing Women in Renaissance and Baroque Art",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "DRAWING_PAINTING_PRINTMAKING_MINOR-grp3",
+      "choiceNote": "History: select one"
+    },
+    {
+      "id": "DRAWING_PAINTING_PRINTMAKING_MINOR_FNAR365",
+      "code": "FNAR 365",
+      "title": "History of Photography",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "DRAWING_PAINTING_PRINTMAKING_MINOR-grp3",
+      "choiceNote": "History: select one"
+    }
   ],
   "coreRequirements": [],
   "checklist": [],
   "roadmap": [
-    { "year": 1, "semester": "Semester I", "credits": 3, "items": [ { "ref": "DRAWING_PAINTING_PRINTMAKING_MINOR_FNAR113" } ] },
-    { "year": 1, "semester": "Semester II", "credits": 3, "items": [ { "ref": "DRAWING_PAINTING_PRINTMAKING_MINOR_FNAR114" } ] },
-    { "year": 2, "semester": "Semester I", "credits": 3, "items": [ { "ref": "DRAWING_PAINTING_PRINTMAKING_MINOR_FNAR213" } ] },
-    { "year": 2, "semester": "Semester II", "credits": 3, "items": [ { "label": "History: select one", "credits": 3, "isElective": true } ] },
-    { "year": 3, "semester": "Semester II", "credits": 3, "items": [ { "label": "Applied: select one of FNAR 118 or FNAR 214", "credits": 3, "isElective": true } ] },
-    { "year": 4, "semester": "Semester I", "credits": 3, "items": [ { "ref": "DRAWING_PAINTING_PRINTMAKING_MINOR_FNAR311" } ] }
+    {
+      "year": 1,
+      "semester": "Semester I",
+      "credits": 3,
+      "items": [
+        {
+          "ref": "DRAWING_PAINTING_PRINTMAKING_MINOR_FNAR113"
+        }
+      ]
+    },
+    {
+      "year": 1,
+      "semester": "Semester II",
+      "credits": 3,
+      "items": [
+        {
+          "ref": "DRAWING_PAINTING_PRINTMAKING_MINOR_FNAR114"
+        }
+      ]
+    },
+    {
+      "year": 2,
+      "semester": "Semester I",
+      "credits": 3,
+      "items": [
+        {
+          "ref": "DRAWING_PAINTING_PRINTMAKING_MINOR_FNAR213"
+        }
+      ]
+    },
+    {
+      "year": 2,
+      "semester": "Semester II",
+      "credits": 3,
+      "items": [
+        {
+          "label": "History: select one",
+          "credits": 3,
+          "isElective": true
+        }
+      ]
+    },
+    {
+      "year": 3,
+      "semester": "Semester II",
+      "credits": 3,
+      "items": [
+        {
+          "label": "Applied: select one of FNAR 118 or FNAR 214",
+          "credits": 3,
+          "isElective": true
+        }
+      ]
+    },
+    {
+      "year": 4,
+      "semester": "Semester I",
+      "credits": 3,
+      "items": [
+        {
+          "ref": "DRAWING_PAINTING_PRINTMAKING_MINOR_FNAR311"
+        }
+      ]
+    }
   ]
 }

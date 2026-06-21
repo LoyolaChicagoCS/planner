@@ -1,0 +1,111 @@
+{
+  "catalog": "2026-2027",
+  "code": "BIOI",
+  "name": "Bioinformatics",
+  "sourceUrl": "https://catalog.luc.edu/course-descriptions/bioi/",
+  "fetchedAt": "2026-06-21",
+  "courses": [
+    {
+      "id": "BIOI201",
+      "code": "BIOI 201",
+      "title": "Introduction to Bioinformatics",
+      "credits": 3
+    },
+    {
+      "id": "BIOI300",
+      "code": "BIOI 300",
+      "title": "Directed Readings",
+      "credits": 1
+    },
+    {
+      "id": "BIOI365",
+      "code": "BIOI 365",
+      "title": "Exploring Proteins",
+      "credits": 3
+    },
+    {
+      "id": "BIOI395",
+      "code": "BIOI 395",
+      "title": "Special Topics: Bioinformatics",
+      "credits": 1
+    },
+    {
+      "id": "BIOI397",
+      "code": "BIOI 397",
+      "title": "Bioinformatics Survey",
+      "credits": 1
+    },
+    {
+      "id": "BIOI398",
+      "code": "BIOI 398",
+      "title": "Bioinformatics Internship",
+      "credits": 1
+    },
+    {
+      "id": "BIOI399",
+      "code": "BIOI 399",
+      "title": "Bioinformatics Research",
+      "credits": 1
+    },
+    {
+      "id": "BIOI400",
+      "code": "BIOI 400",
+      "title": "Programming Biology",
+      "credits": 1
+    },
+    {
+      "id": "BIOI494",
+      "code": "BIOI 494",
+      "title": "Bioinformatics Research Design",
+      "credits": 1
+    },
+    {
+      "id": "BIOI495",
+      "code": "BIOI 495",
+      "title": "Special Topics in Bioinformatics",
+      "credits": 1
+    },
+    {
+      "id": "BIOI498",
+      "code": "BIOI 498",
+      "title": "Bioinformatics Internship",
+      "credits": 1
+    },
+    {
+      "id": "BIOI499",
+      "code": "BIOI 499",
+      "title": "Bioinformatics Research",
+      "credits": 1
+    },
+    {
+      "id": "BIOI500",
+      "code": "BIOI 500",
+      "title": "Advanced Bioinformatics",
+      "credits": 3
+    },
+    {
+      "id": "BIOI501",
+      "code": "BIOI 501",
+      "title": "Bioinformatics Seminar",
+      "credits": 1
+    },
+    {
+      "id": "BIOI565",
+      "code": "BIOI 565",
+      "title": "Exploring Proteins",
+      "credits": 3
+    },
+    {
+      "id": "BIOI595",
+      "code": "BIOI 595",
+      "title": "Thesis Supervision",
+      "credits": 1
+    },
+    {
+      "id": "BIOI605",
+      "code": "BIOI 605",
+      "title": "Master's Study",
+      "credits": 0
+    }
+  ]
+}

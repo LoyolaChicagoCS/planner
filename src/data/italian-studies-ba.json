@@ -11,7 +11,7 @@
     {
       "id": "ITAL301",
       "code": "ITAL 301",
-      "title": "Advanced Italian Language and Composition I",
+      "title": "Stylistics",
       "credits": 3,
       "category": "major"
     },
@@ -62,7 +62,7 @@
       "items": [
         {
           "isElective": true,
-          "label": "LITR 161 \u2014 Introduction to Italian Culture",
+          "label": "LITR 161 — Introduction to Italian Culture",
           "credits": 3
         }
       ]
@@ -143,7 +143,7 @@
       "items": [
         {
           "isElective": true,
-          "label": "ITAL 395 \u2014 Internship",
+          "label": "ITAL 395 — Internship",
           "credits": 3
         }
       ]

@@ -1,0 +1,33 @@
+{
+  "catalog": "2026-2027",
+  "code": "POST",
+  "name": "Pastoral Studies",
+  "sourceUrl": "https://catalog.luc.edu/course-descriptions/post/",
+  "fetchedAt": "2026-06-21",
+  "courses": [
+    {
+      "id": "POST199",
+      "code": "POST 199",
+      "title": "Topics in Polish Studies: Introductory",
+      "credits": 1
+    },
+    {
+      "id": "POST299",
+      "code": "POST 299",
+      "title": "Topics in Polish Studies: Intermediate Topics",
+      "credits": 1
+    },
+    {
+      "id": "POST395",
+      "code": "POST 395",
+      "title": "Polish Studies Capstone",
+      "credits": 3
+    },
+    {
+      "id": "POST399",
+      "code": "POST 399",
+      "title": "Topics in Polish Studies: Advanced",
+      "credits": 1
+    }
+  ]
+}

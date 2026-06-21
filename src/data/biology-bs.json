@@ -87,84 +87,84 @@
     {
       "id": "CHEM160",
       "code": "CHEM 160",
-      "title": "General Chemistry I",
+      "title": "Chemical Structure and Properties",
       "credits": 3,
       "category": "major"
     },
     {
       "id": "CHEM161",
       "code": "CHEM 161",
-      "title": "General Chemistry I Lab",
+      "title": "Chemical Structure and Properties Laboratory",
       "credits": 1,
       "category": "major"
     },
     {
       "id": "CHEM180",
       "code": "CHEM 180",
-      "title": "Organic Chemistry I",
+      "title": "Chemical Reactivity I",
       "credits": 3,
       "category": "major"
     },
     {
       "id": "CHEM181",
       "code": "CHEM 181",
-      "title": "Organic Chemistry I Lab",
+      "title": "Chemical Reactivity I Lab",
       "credits": 1,
       "category": "major"
     },
     {
       "id": "CHEM240",
       "code": "CHEM 240",
-      "title": "Organic Chemistry II",
+      "title": "Chemical Reactivity II",
       "credits": 3,
       "category": "major"
     },
     {
       "id": "CHEM241",
       "code": "CHEM 241",
-      "title": "Organic Chemistry II Lab",
+      "title": "Chemical Reactivity II Laboratory",
       "credits": 1,
       "category": "major"
     },
     {
       "id": "CHEM260",
       "code": "CHEM 260",
-      "title": "Quantitative Chemistry",
+      "title": "Quantitative Methods in Chemistry",
       "credits": 3,
       "category": "major"
     },
     {
       "id": "CHEM261",
       "code": "CHEM 261",
-      "title": "Quantitative Chemistry Lab",
+      "title": "Quantitative Methods in Chemistry Laboratory",
       "credits": 1,
       "category": "major"
     },
     {
       "id": "PHYS111",
       "code": "PHYS 111",
-      "title": "College Physics I",
+      "title": "College Physics I Lec / Dis",
       "credits": 3,
       "category": "major"
     },
     {
       "id": "PHYS111L",
       "code": "PHYS 111L",
-      "title": "College Physics I Lab",
+      "title": "College Physics Laboratory I",
       "credits": 1,
       "category": "major"
     },
     {
       "id": "PHYS112",
       "code": "PHYS 112",
-      "title": "College Physics II",
+      "title": "College Physics II Lec/Disc",
       "credits": 3,
       "category": "major"
     },
     {
       "id": "PHYS112L",
       "code": "PHYS 112L",
-      "title": "College Physics II Lab",
+      "title": "College Physics Lab II",
       "credits": 1,
       "category": "major"
     },

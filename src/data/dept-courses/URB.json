@@ -1,0 +1,15 @@
+{
+  "catalog": "2026-2027",
+  "code": "URB",
+  "name": "Urban Studies",
+  "sourceUrl": "https://catalog.luc.edu/course-descriptions/urb/",
+  "fetchedAt": "2026-06-21",
+  "courses": [
+    {
+      "id": "URB397",
+      "code": "URB 397",
+      "title": "Urban Studies Research",
+      "credits": 3
+    }
+  ]
+}

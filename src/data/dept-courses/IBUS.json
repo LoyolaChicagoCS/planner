@@ -1,0 +1,51 @@
+{
+  "catalog": "2026-2027",
+  "code": "IBUS",
+  "name": "International Business",
+  "sourceUrl": "https://catalog.luc.edu/course-descriptions/ibus/",
+  "fetchedAt": "2026-06-21",
+  "courses": [
+    {
+      "id": "IBUS201",
+      "code": "IBUS 201",
+      "title": "Introduction to International Business",
+      "credits": 3
+    },
+    {
+      "id": "IBUS201H",
+      "code": "IBUS 201H",
+      "title": "Business Management: A Global and Social Perspective",
+      "credits": 3
+    },
+    {
+      "id": "IBUS315",
+      "code": "IBUS 315",
+      "title": "International Management",
+      "credits": 3
+    },
+    {
+      "id": "IBUS370",
+      "code": "IBUS 370",
+      "title": "Inernational Business Internship - Engaged Learning",
+      "credits": 3
+    },
+    {
+      "id": "IBUS399",
+      "code": "IBUS 399",
+      "title": "Special Topics in International Business",
+      "credits": 3
+    },
+    {
+      "id": "IBUS455",
+      "code": "IBUS 455",
+      "title": "International Strategies for Multinational Enterprises",
+      "credits": 3
+    },
+    {
+      "id": "IBUS499",
+      "code": "IBUS 499",
+      "title": "Special Topics in International Business",
+      "credits": 3
+    }
+  ]
+}

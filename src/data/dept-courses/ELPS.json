@@ -1,0 +1,795 @@
+{
+  "catalog": "2026-2027",
+  "code": "ELPS",
+  "name": "Education Leadership and Policy Studies",
+  "sourceUrl": "https://catalog.luc.edu/course-descriptions/elps/",
+  "fetchedAt": "2026-06-21",
+  "courses": [
+    {
+      "id": "ELPS125",
+      "code": "ELPS 125",
+      "title": "Introduction to Leadership Studies",
+      "credits": 3
+    },
+    {
+      "id": "ELPS219",
+      "code": "ELPS 219",
+      "title": "History of American Education",
+      "credits": 3
+    },
+    {
+      "id": "ELPS222",
+      "code": "ELPS 222",
+      "title": "Foundations of Ethics and Social Justice in Leadership",
+      "credits": 3
+    },
+    {
+      "id": "ELPS223",
+      "code": "ELPS 223",
+      "title": "Contextual Influences in Applied Leadership: Internship",
+      "credits": 3
+    },
+    {
+      "id": "ELPS224",
+      "code": "ELPS 224",
+      "title": "Cross Cultural Leadership: Lessons from Rome",
+      "credits": 3
+    },
+    {
+      "id": "ELPS230",
+      "code": "ELPS 230",
+      "title": "Globalization, Education and Childhood",
+      "credits": 3
+    },
+    {
+      "id": "ELPS240",
+      "code": "ELPS 240",
+      "title": "Urban Education: Policy and Practice",
+      "credits": 3
+    },
+    {
+      "id": "ELPS265",
+      "code": "ELPS 265",
+      "title": "Cultural and Educational Policy Studies Internship",
+      "credits": 3
+    },
+    {
+      "id": "ELPS300",
+      "code": "ELPS 300",
+      "title": "History of Education",
+      "credits": 3
+    },
+    {
+      "id": "ELPS301",
+      "code": "ELPS 301",
+      "title": "History of Western Education",
+      "credits": 3
+    },
+    {
+      "id": "ELPS302",
+      "code": "ELPS 302",
+      "title": "Philosophy of Education",
+      "credits": 3
+    },
+    {
+      "id": "ELPS310",
+      "code": "ELPS 310",
+      "title": "Leadership: Group Dynamics and a Mission Centered Approach",
+      "credits": 1
+    },
+    {
+      "id": "ELPS311",
+      "code": "ELPS 311",
+      "title": "Student Leadership: Using Social Justice in Developmental Models",
+      "credits": 1
+    },
+    {
+      "id": "ELPS325",
+      "code": "ELPS 325",
+      "title": "Leadership Studies Capstone",
+      "credits": 3
+    },
+    {
+      "id": "ELPS350",
+      "code": "ELPS 350",
+      "title": "Finding Jesuit Jesus:Preparing Prof Life-Live Sprtual Exercise St. Ignatius",
+      "credits": 3
+    },
+    {
+      "id": "ELPS398",
+      "code": "ELPS 398",
+      "title": "Independent Study",
+      "credits": 1
+    },
+    {
+      "id": "ELPS400",
+      "code": "ELPS 400",
+      "title": "Inquiry Into Educational Policy",
+      "credits": 3
+    },
+    {
+      "id": "ELPS403",
+      "code": "ELPS 403",
+      "title": "Qualitative Research Methods in Education",
+      "credits": 3
+    },
+    {
+      "id": "ELPS404",
+      "code": "ELPS 404",
+      "title": "Entrepreneurial Approaches to Catholic Education",
+      "credits": 3
+    },
+    {
+      "id": "ELPS405",
+      "code": "ELPS 405",
+      "title": "Introduction to Educational Policy Analysis",
+      "credits": 3
+    },
+    {
+      "id": "ELPS406",
+      "code": "ELPS 406",
+      "title": "Foundations Using Data for Continuous Improvement",
+      "credits": 3
+    },
+    {
+      "id": "ELPS407",
+      "code": "ELPS 407",
+      "title": "Leading for Data-based Decision Making",
+      "credits": 3
+    },
+    {
+      "id": "ELPS408",
+      "code": "ELPS 408",
+      "title": "Leading for Diversity",
+      "credits": 3
+    },
+    {
+      "id": "ELPS409",
+      "code": "ELPS 409",
+      "title": "Fundamentals of Instructional Coaching",
+      "credits": 3
+    },
+    {
+      "id": "ELPS410",
+      "code": "ELPS 410",
+      "title": "Sociology of Education",
+      "credits": 3
+    },
+    {
+      "id": "ELPS413",
+      "code": "ELPS 413",
+      "title": "Critical Social Theories",
+      "credits": 3
+    },
+    {
+      "id": "ELPS418",
+      "code": "ELPS 418",
+      "title": "Writing Workshop in Rome, Italy",
+      "credits": 1
+    },
+    {
+      "id": "ELPS419",
+      "code": "ELPS 419",
+      "title": "Leadership in Higher Education",
+      "credits": 3
+    },
+    {
+      "id": "ELPS420",
+      "code": "ELPS 420",
+      "title": "Philosophy of Education",
+      "credits": 3
+    },
+    {
+      "id": "ELPS421",
+      "code": "ELPS 421",
+      "title": "Theories of Knowledge and Education",
+      "credits": 3
+    },
+    {
+      "id": "ELPS422",
+      "code": "ELPS 422",
+      "title": "Modern Theories of Education",
+      "credits": 3
+    },
+    {
+      "id": "ELPS423",
+      "code": "ELPS 423",
+      "title": "Value Theory and Education",
+      "credits": 3
+    },
+    {
+      "id": "ELPS424",
+      "code": "ELPS 424",
+      "title": "Jesus the Teacher: A Theology of Education",
+      "credits": 3
+    },
+    {
+      "id": "ELPS425",
+      "code": "ELPS 425",
+      "title": "Foundations in Student Affairs",
+      "credits": 3
+    },
+    {
+      "id": "ELPS426",
+      "code": "ELPS 426",
+      "title": "Student Affairs Administration Higher Education",
+      "credits": 3
+    },
+    {
+      "id": "ELPS427",
+      "code": "ELPS 427",
+      "title": "Foundations in Higher Education",
+      "credits": 3
+    },
+    {
+      "id": "ELPS428",
+      "code": "ELPS 428",
+      "title": "The Junior and Community College",
+      "credits": 3
+    },
+    {
+      "id": "ELPS429",
+      "code": "ELPS 429",
+      "title": "Selected Topics in Higher Education",
+      "credits": 3
+    },
+    {
+      "id": "ELPS430",
+      "code": "ELPS 430",
+      "title": "Curriculum and Pedagogy in Higher Education",
+      "credits": 3
+    },
+    {
+      "id": "ELPS431",
+      "code": "ELPS 431",
+      "title": "Evaluation in Higher Education",
+      "credits": 3
+    },
+    {
+      "id": "ELPS432",
+      "code": "ELPS 432",
+      "title": "Multiculturalism for Social Justice in Higher Education",
+      "credits": 3
+    },
+    {
+      "id": "ELPS433",
+      "code": "ELPS 433",
+      "title": "Student Development in Higher Education",
+      "credits": 3
+    },
+    {
+      "id": "ELPS434",
+      "code": "ELPS 434",
+      "title": "American College Student",
+      "credits": 3
+    },
+    {
+      "id": "ELPS435",
+      "code": "ELPS 435",
+      "title": "Enrollment Management in Higher Education",
+      "credits": 3
+    },
+    {
+      "id": "ELPS436",
+      "code": "ELPS 436",
+      "title": "Women in Higher Education",
+      "credits": 3
+    },
+    {
+      "id": "ELPS437",
+      "code": "ELPS 437",
+      "title": "Today's Community College Students",
+      "credits": 1
+    },
+    {
+      "id": "ELPS438",
+      "code": "ELPS 438",
+      "title": "Designing Effective Community College Courses",
+      "credits": 1
+    },
+    {
+      "id": "ELPS439",
+      "code": "ELPS 439",
+      "title": "Assessing Student Learning in Community Colleges",
+      "credits": 1
+    },
+    {
+      "id": "ELPS440",
+      "code": "ELPS 440",
+      "title": "Community College Students as Learners",
+      "credits": 1
+    },
+    {
+      "id": "ELPS441",
+      "code": "ELPS 441",
+      "title": "Community College Teaching",
+      "credits": 3
+    },
+    {
+      "id": "ELPS442",
+      "code": "ELPS 442",
+      "title": "Humanistic Foundations of Education",
+      "credits": 3
+    },
+    {
+      "id": "ELPS443",
+      "code": "ELPS 443",
+      "title": "Educational Classics",
+      "credits": 3
+    },
+    {
+      "id": "ELPS444",
+      "code": "ELPS 444",
+      "title": "American Schooling and Social Policy: A Historical Perspective",
+      "credits": 3
+    },
+    {
+      "id": "ELPS448",
+      "code": "ELPS 448",
+      "title": "International Higher Education",
+      "credits": 3
+    },
+    {
+      "id": "ELPS450",
+      "code": "ELPS 450",
+      "title": "Finding Jesuit Jesus:Preparing Prof Life-Live Sprtual Exercise St. Ignatius",
+      "credits": 3
+    },
+    {
+      "id": "ELPS453",
+      "code": "ELPS 453",
+      "title": "Legal Aspects of American Higher Education",
+      "credits": 3
+    },
+    {
+      "id": "ELPS454",
+      "code": "ELPS 454",
+      "title": "Budgeting and Finance in Higher Education",
+      "credits": 3
+    },
+    {
+      "id": "ELPS455",
+      "code": "ELPS 455",
+      "title": "Comparative Education",
+      "credits": 3
+    },
+    {
+      "id": "ELPS456",
+      "code": "ELPS 456",
+      "title": "Education & Democratization",
+      "credits": 3
+    },
+    {
+      "id": "ELPS457",
+      "code": "ELPS 457",
+      "title": "Comparative Theory",
+      "credits": 3
+    },
+    {
+      "id": "ELPS458",
+      "code": "ELPS 458",
+      "title": "International Education",
+      "credits": 3
+    },
+    {
+      "id": "ELPS459",
+      "code": "ELPS 459",
+      "title": "Organization & Governance in Higher Education",
+      "credits": 3
+    },
+    {
+      "id": "ELPS460",
+      "code": "ELPS 460",
+      "title": "School Administration",
+      "credits": 3
+    },
+    {
+      "id": "ELPS461",
+      "code": "ELPS 461",
+      "title": "Issues in School Law",
+      "credits": 3
+    },
+    {
+      "id": "ELPS462",
+      "code": "ELPS 462",
+      "title": "The Principalship",
+      "credits": 3
+    },
+    {
+      "id": "ELPS463",
+      "code": "ELPS 463",
+      "title": "School Leadership and the Law",
+      "credits": 3
+    },
+    {
+      "id": "ELPS464",
+      "code": "ELPS 464",
+      "title": "Workshop: Superintendency",
+      "credits": 3
+    },
+    {
+      "id": "ELPS465",
+      "code": "ELPS 465",
+      "title": "Workshop (Variable Topics)",
+      "credits": 3
+    },
+    {
+      "id": "ELPS466",
+      "code": "ELPS 466",
+      "title": "School Finance and Budgeting",
+      "credits": 3
+    },
+    {
+      "id": "ELPS467",
+      "code": "ELPS 467",
+      "title": "School Law & Government",
+      "credits": 3
+    },
+    {
+      "id": "ELPS468",
+      "code": "ELPS 468",
+      "title": "Problems in Finance and Business Management",
+      "credits": 3
+    },
+    {
+      "id": "ELPS469",
+      "code": "ELPS 469",
+      "title": "Human Resources in Educational Organizations",
+      "credits": 3
+    },
+    {
+      "id": "ELPS470",
+      "code": "ELPS 470",
+      "title": "School Supervision",
+      "credits": 3
+    },
+    {
+      "id": "ELPS471",
+      "code": "ELPS 471",
+      "title": "MTSS for Instructional Leaders",
+      "credits": 3
+    },
+    {
+      "id": "ELPS472",
+      "code": "ELPS 472",
+      "title": "Administration of Special Education and Pupil Services",
+      "credits": 3
+    },
+    {
+      "id": "ELPS473",
+      "code": "ELPS 473",
+      "title": "Problems in School Supervision",
+      "credits": 3
+    },
+    {
+      "id": "ELPS474",
+      "code": "ELPS 474",
+      "title": "Curriculum Development for Instructional Leaders",
+      "credits": 3
+    },
+    {
+      "id": "ELPS475",
+      "code": "ELPS 475",
+      "title": "Human Resource Administration for the School District Leader",
+      "credits": 3
+    },
+    {
+      "id": "ELPS476",
+      "code": "ELPS 476",
+      "title": "Technology in School Administration",
+      "credits": 3
+    },
+    {
+      "id": "ELPS480",
+      "code": "ELPS 480",
+      "title": "Residency Seminar for MEd Administration & Supervision",
+      "credits": 0
+    },
+    {
+      "id": "ELPS481",
+      "code": "ELPS 481",
+      "title": "Mission Driven Leadership for Principals",
+      "credits": 3
+    },
+    {
+      "id": "ELPS482",
+      "code": "ELPS 482",
+      "title": "School Supervision for Principals",
+      "credits": 3
+    },
+    {
+      "id": "ELPS483",
+      "code": "ELPS 483",
+      "title": "Human and Fiscal Resource for Principals",
+      "credits": 3
+    },
+    {
+      "id": "ELPS484",
+      "code": "ELPS 484",
+      "title": "School Law, Policy Formation, and Community Involvement",
+      "credits": 3
+    },
+    {
+      "id": "ELPS485",
+      "code": "ELPS 485",
+      "title": "Instructional Leadership: Equity and Justice",
+      "credits": 3
+    },
+    {
+      "id": "ELPS490",
+      "code": "ELPS 490",
+      "title": "Introduction to Educational Policy Studies",
+      "credits": 3
+    },
+    {
+      "id": "ELPS491",
+      "code": "ELPS 491",
+      "title": "Issues in Educational Policy",
+      "credits": 3
+    },
+    {
+      "id": "ELPS498",
+      "code": "ELPS 498",
+      "title": "Independent Study",
+      "credits": 1
+    },
+    {
+      "id": "ELPS499",
+      "code": "ELPS 499",
+      "title": "Directed Research",
+      "credits": 1
+    },
+    {
+      "id": "ELPS500",
+      "code": "ELPS 500",
+      "title": "Seminar in Current Educational Literature",
+      "credits": 3
+    },
+    {
+      "id": "ELPS501",
+      "code": "ELPS 501",
+      "title": "Leadership / Capacity Building Organizations",
+      "credits": 3
+    },
+    {
+      "id": "ELPS503",
+      "code": "ELPS 503",
+      "title": "Critical Perspectives on the Internationalization of Higher Ed",
+      "credits": 3
+    },
+    {
+      "id": "ELPS504",
+      "code": "ELPS 504",
+      "title": "Advanced Financial Strategies in Higher Education",
+      "credits": 3
+    },
+    {
+      "id": "ELPS505",
+      "code": "ELPS 505",
+      "title": "Seminar in Leadership Theory",
+      "credits": 3
+    },
+    {
+      "id": "ELPS506",
+      "code": "ELPS 506",
+      "title": "Strategic Executive Leadership in Higher Education",
+      "credits": 3
+    },
+    {
+      "id": "ELPS507",
+      "code": "ELPS 507",
+      "title": "Advanced Governance in Higher Education",
+      "credits": 3
+    },
+    {
+      "id": "ELPS508",
+      "code": "ELPS 508",
+      "title": "Equity and Justice in Higher Education",
+      "credits": 3
+    },
+    {
+      "id": "ELPS509",
+      "code": "ELPS 509",
+      "title": "Introduction to Analytics in Higher Education",
+      "credits": 3
+    },
+    {
+      "id": "ELPS512",
+      "code": "ELPS 512",
+      "title": "Sociology of Teaching",
+      "credits": 3
+    },
+    {
+      "id": "ELPS514",
+      "code": "ELPS 514",
+      "title": "The School as Organization",
+      "credits": 3
+    },
+    {
+      "id": "ELPS515",
+      "code": "ELPS 515",
+      "title": "Seminar in Education Policy",
+      "credits": 3
+    },
+    {
+      "id": "ELPS520",
+      "code": "ELPS 520",
+      "title": "Seminar in the Philosophy of Education",
+      "credits": 3
+    },
+    {
+      "id": "ELPS525",
+      "code": "ELPS 525",
+      "title": "Practicum Higher Education I",
+      "credits": 1
+    },
+    {
+      "id": "ELPS526",
+      "code": "ELPS 526",
+      "title": "Practicum Higher Education II",
+      "credits": 1
+    },
+    {
+      "id": "ELPS527",
+      "code": "ELPS 527",
+      "title": "Higher Education Capstone",
+      "credits": 3
+    },
+    {
+      "id": "ELPS528",
+      "code": "ELPS 528",
+      "title": "Internship Higher Education II",
+      "credits": 1
+    },
+    {
+      "id": "ELPS529",
+      "code": "ELPS 529",
+      "title": "Seminar in Higher Education",
+      "credits": 3
+    },
+    {
+      "id": "ELPS530",
+      "code": "ELPS 530",
+      "title": "Proseminar: Higher Education",
+      "credits": 3
+    },
+    {
+      "id": "ELPS550",
+      "code": "ELPS 550",
+      "title": "Seminar on Globalization and Education",
+      "credits": 3
+    },
+    {
+      "id": "ELPS560",
+      "code": "ELPS 560",
+      "title": "Seminar in School Administration",
+      "credits": 3
+    },
+    {
+      "id": "ELPS561",
+      "code": "ELPS 561",
+      "title": "Seminar in Current Issues in Administration",
+      "credits": 3
+    },
+    {
+      "id": "ELPS562",
+      "code": "ELPS 562",
+      "title": "Practicum School Administration",
+      "credits": 3
+    },
+    {
+      "id": "ELPS563",
+      "code": "ELPS 563",
+      "title": "Administrative Internship",
+      "credits": 3
+    },
+    {
+      "id": "ELPS564",
+      "code": "ELPS 564",
+      "title": "Education Policy Internship",
+      "credits": 3
+    },
+    {
+      "id": "ELPS565",
+      "code": "ELPS 565",
+      "title": "International Education Internship",
+      "credits": 3
+    },
+    {
+      "id": "ELPS566",
+      "code": "ELPS 566",
+      "title": "Principal Internship One",
+      "credits": 3
+    },
+    {
+      "id": "ELPS567",
+      "code": "ELPS 567",
+      "title": "Principal Internship Two",
+      "credits": 3
+    },
+    {
+      "id": "ELPS568",
+      "code": "ELPS 568",
+      "title": "Principal Internship Three",
+      "credits": 3
+    },
+    {
+      "id": "ELPS569",
+      "code": "ELPS 569",
+      "title": "Principal Internship Four",
+      "credits": 3
+    },
+    {
+      "id": "ELPS570",
+      "code": "ELPS 570",
+      "title": "Supervision Seminar",
+      "credits": 3
+    },
+    {
+      "id": "ELPS571",
+      "code": "ELPS 571",
+      "title": "Seminar in Current Issues in School Supervision",
+      "credits": 3
+    },
+    {
+      "id": "ELPS580",
+      "code": "ELPS 580",
+      "title": "Residency Seminar for Students in Educational Leadership",
+      "credits": 0
+    },
+    {
+      "id": "ELPS595",
+      "code": "ELPS 595",
+      "title": "Thesis Supervision",
+      "credits": 0
+    },
+    {
+      "id": "ELPS600",
+      "code": "ELPS 600",
+      "title": "Dissertation Supervision",
+      "credits": 0
+    },
+    {
+      "id": "ELPS601",
+      "code": "ELPS 601",
+      "title": "Capstone Supervision",
+      "credits": 0
+    },
+    {
+      "id": "ELPS605",
+      "code": "ELPS 605",
+      "title": "Master's Study",
+      "credits": 0
+    },
+    {
+      "id": "ELPS610",
+      "code": "ELPS 610",
+      "title": "Doctoral Study",
+      "credits": 0
+    },
+    {
+      "id": "ELPS620",
+      "code": "ELPS 620",
+      "title": "Dissertation Research",
+      "credits": 3
+    },
+    {
+      "id": "ELPS621",
+      "code": "ELPS 621",
+      "title": "EdD Capstone Research",
+      "credits": 3
+    },
+    {
+      "id": "ELPS661",
+      "code": "ELPS 661",
+      "title": "Internship in School Business Management I",
+      "credits": 3
+    },
+    {
+      "id": "ELPS662",
+      "code": "ELPS 662",
+      "title": "Internship in School Business Management II",
+      "credits": 3
+    }
+  ]
+}

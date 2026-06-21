@@ -1,0 +1,74 @@
+{
+  "id": "phd-cs",
+  "basedOnExtractHash": "sha256:a81e3983b3be45f0ff709c3ffdd5503a",
+  "structure": {
+    "requiredCourseCodes": [
+      "COMP 413",
+      "COMP 417",
+      "COMP 460",
+      "COMP 501",
+      "COMP 502",
+      "COMP 503"
+    ],
+    "electiveGroups": [
+      {
+        "key": "qualifying-theory",
+        "label": "Theory Qualifying Course",
+        "creditsRequired": 3,
+        "members": [
+          "COMP 409",
+          "COMP 431",
+          "COMP 471"
+        ],
+        "note": "Choose one Theory qualifying course."
+      },
+      {
+        "key": "qualifying-systems",
+        "label": "Systems Qualifying Course",
+        "creditsRequired": 3,
+        "members": [
+          "COMP 410",
+          "COMP 439",
+          "COMP 462",
+          "COMP 464"
+        ],
+        "note": "Choose one Systems qualifying course."
+      },
+      {
+        "key": "qualifying-software",
+        "label": "Software Qualifying Course",
+        "creditsRequired": 3,
+        "members": [
+          "COMP 453",
+          "COMP 473",
+          "COMP 474"
+        ],
+        "note": "Choose one Software qualifying course."
+      },
+      {
+        "key": "qualifying-ai",
+        "label": "Artificial Intelligence Qualifying Course",
+        "creditsRequired": 3,
+        "members": [
+          "COMP 429",
+          "COMP 458",
+          "COMP 479",
+          "COMP 487"
+        ],
+        "note": "Choose one Artificial Intelligence qualifying course."
+      },
+      {
+        "key": "general-electives",
+        "label": "COMP 400-Level Electives",
+        "creditsRequired": 9,
+        "note": "Three COMP 400-level electives."
+      },
+      {
+        "key": "dissertation",
+        "label": "Dissertation Research",
+        "creditsRequired": 21,
+        "note": "COMP 599 Dissertation Research (21 credit hours)."
+      }
+    ]
+  }
+}

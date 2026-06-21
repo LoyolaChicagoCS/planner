@@ -10,8 +10,20 @@
   "hasCompletionEstimate": false,
   "catalogUrl": "https://catalog.luc.edu/undergraduate/arts-sciences/urban-studies/urban-studies-sustainability-minor/",
   "courses": [
-    { "id": "URBAN_STUDIES_SUSTAINABILITY_MINOR_SOCL335", "code": "SOCL 335", "title": "Urban Semester Seminar (cross-listed as PLSC 335)", "credits": 3, "category": "major" },
-    { "id": "URBAN_STUDIES_SUSTAINABILITY_MINOR_URB397", "code": "URB 397", "title": "Urban Studies Research (cross-listed as PLSC 397)", "credits": 3, "category": "major" }
+    {
+      "id": "URBAN_STUDIES_SUSTAINABILITY_MINOR_SOCL335",
+      "code": "SOCL 335",
+      "title": "Urban Semester Seminar",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "URBAN_STUDIES_SUSTAINABILITY_MINOR_URB397",
+      "code": "URB 397",
+      "title": "Urban Studies Research",
+      "credits": 3,
+      "category": "major"
+    }
   ],
   "electiveOptions": {
     "urbanTheory": {
@@ -19,11 +31,36 @@
       "label": "Urban Theory",
       "note": "Select one of the following.",
       "courses": [
-        { "id": "URBAN_STUDIES_SUSTAINABILITY_MINOR_ECON320", "code": "ECON 320", "title": "Urban Economics", "credits": 3 },
-        { "id": "URBAN_STUDIES_SUSTAINABILITY_MINOR_HIST386", "code": "HIST 386", "title": "Creation the American Metropolis", "credits": 3 },
-        { "id": "URBAN_STUDIES_SUSTAINABILITY_MINOR_PLSC334", "code": "PLSC 334", "title": "Urban Policies and Problems", "credits": 3 },
-        { "id": "URBAN_STUDIES_SUSTAINABILITY_MINOR_PLSC390", "code": "PLSC 390", "title": "Urban Politics", "credits": 3 },
-        { "id": "URBAN_STUDIES_SUSTAINABILITY_MINOR_SOCL234", "code": "SOCL 234", "title": "City, Suburbs & Beyond", "credits": 3 }
+        {
+          "id": "URBAN_STUDIES_SUSTAINABILITY_MINOR_ECON320",
+          "code": "ECON 320",
+          "title": "Urban Economics",
+          "credits": 3
+        },
+        {
+          "id": "URBAN_STUDIES_SUSTAINABILITY_MINOR_HIST386",
+          "code": "HIST 386",
+          "title": "Creation the American Metropolis",
+          "credits": 3
+        },
+        {
+          "id": "URBAN_STUDIES_SUSTAINABILITY_MINOR_PLSC334",
+          "code": "PLSC 334",
+          "title": "Urban Policies and Problems",
+          "credits": 3
+        },
+        {
+          "id": "URBAN_STUDIES_SUSTAINABILITY_MINOR_PLSC390",
+          "code": "PLSC 390",
+          "title": "Urban Politics",
+          "credits": 3
+        },
+        {
+          "id": "URBAN_STUDIES_SUSTAINABILITY_MINOR_SOCL234",
+          "code": "SOCL 234",
+          "title": "City, Suburbs & Beyond",
+          "credits": 3
+        }
       ]
     },
     "researchMethods": {
@@ -31,14 +68,54 @@
       "label": "Research Methods",
       "note": "Select one of the following.",
       "courses": [
-        { "id": "URBAN_STUDIES_SUSTAINABILITY_MINOR_ANTH317", "code": "ANTH 317", "title": "Explore Chicago: Research in Culture and History", "credits": 3 },
-        { "id": "URBAN_STUDIES_SUSTAINABILITY_MINOR_CJC205", "code": "CJC 205", "title": "Research Methods", "credits": 3 },
-        { "id": "URBAN_STUDIES_SUSTAINABILITY_MINOR_COMM365", "code": "COMM 365", "title": "Naturalistic Methods Communication Research", "credits": 3 },
-        { "id": "URBAN_STUDIES_SUSTAINABILITY_MINOR_COMM366", "code": "COMM 366", "title": "Observing/Measuring Cmun Behavior", "credits": 3 },
-        { "id": "URBAN_STUDIES_SUSTAINABILITY_MINOR_COMM367", "code": "COMM 367", "title": "Rhetorical Criticism", "credits": 3 },
-        { "id": "URBAN_STUDIES_SUSTAINABILITY_MINOR_PSYC306", "code": "PSYC 306", "title": "Research Methods in Psychology", "credits": 3 },
-        { "id": "URBAN_STUDIES_SUSTAINABILITY_MINOR_SOCL206", "code": "SOCL 206", "title": "Principles of Social Research", "credits": 3 },
-        { "id": "URBAN_STUDIES_SUSTAINABILITY_MINOR_SOWK390", "code": "SOWK 390", "title": "Research and Evaluation in Social Work Practice", "credits": 3 }
+        {
+          "id": "URBAN_STUDIES_SUSTAINABILITY_MINOR_ANTH317",
+          "code": "ANTH 317",
+          "title": "Explore Chicago: Research in Culture and History",
+          "credits": 3
+        },
+        {
+          "id": "URBAN_STUDIES_SUSTAINABILITY_MINOR_CJC205",
+          "code": "CJC 205",
+          "title": "Research Methods",
+          "credits": 3
+        },
+        {
+          "id": "URBAN_STUDIES_SUSTAINABILITY_MINOR_COMM365",
+          "code": "COMM 365",
+          "title": "Naturalistic Methods Communication Research",
+          "credits": 3
+        },
+        {
+          "id": "URBAN_STUDIES_SUSTAINABILITY_MINOR_COMM366",
+          "code": "COMM 366",
+          "title": "Observing/Measuring Cmun Behavior",
+          "credits": 3
+        },
+        {
+          "id": "URBAN_STUDIES_SUSTAINABILITY_MINOR_COMM367",
+          "code": "COMM 367",
+          "title": "Rhetorical Criticism",
+          "credits": 3
+        },
+        {
+          "id": "URBAN_STUDIES_SUSTAINABILITY_MINOR_PSYC306",
+          "code": "PSYC 306",
+          "title": "Research Methods in Psychology",
+          "credits": 3
+        },
+        {
+          "id": "URBAN_STUDIES_SUSTAINABILITY_MINOR_SOCL206",
+          "code": "SOCL 206",
+          "title": "Principles of Social Research",
+          "credits": 3
+        },
+        {
+          "id": "URBAN_STUDIES_SUSTAINABILITY_MINOR_SOWK390",
+          "code": "SOWK 390",
+          "title": "Research and Evaluation in Social Work Practice",
+          "credits": 3
+        }
       ]
     },
     "groupASocialWorld": {
@@ -46,15 +123,60 @@
       "label": "Group A: Sustainability and the Social World",
       "note": "Select one of the following.",
       "courses": [
-        { "id": "URBAN_STUDIES_SUSTAINABILITY_MINOR_ANTH104", "code": "ANTH 104", "title": "The Human Ecological Footprint", "credits": 3 },
-        { "id": "URBAN_STUDIES_SUSTAINABILITY_MINOR_COMM306", "code": "COMM 306", "title": "Environmental Communication & Advocacy", "credits": 3 },
-        { "id": "URBAN_STUDIES_SUSTAINABILITY_MINOR_COMM371", "code": "COMM 371", "title": "Special Topics Communication Studies", "credits": 3 },
-        { "id": "URBAN_STUDIES_SUSTAINABILITY_MINOR_PLSC392", "code": "PLSC 392", "title": "Environmental Politics", "credits": 3 },
-        { "id": "URBAN_STUDIES_SUSTAINABILITY_MINOR_SOCL265", "code": "SOCL 265", "title": "Globalization & Society", "credits": 3 },
-        { "id": "URBAN_STUDIES_SUSTAINABILITY_MINOR_SOCL272", "code": "SOCL 272", "title": "Environmental Sociology", "credits": 3 },
-        { "id": "URBAN_STUDIES_SUSTAINABILITY_MINOR_SOCL276", "code": "SOCL 276", "title": "The Sociology and Politics of Food", "credits": 3 },
-        { "id": "URBAN_STUDIES_SUSTAINABILITY_MINOR_SOCL280", "code": "SOCL 280", "title": "Topics in Contemporary Sociology", "credits": 3 },
-        { "id": "URBAN_STUDIES_SUSTAINABILITY_MINOR_SOWK361", "code": "SOWK 361", "title": "Special Topics", "credits": 3 }
+        {
+          "id": "URBAN_STUDIES_SUSTAINABILITY_MINOR_ANTH104",
+          "code": "ANTH 104",
+          "title": "The Human Ecological Footprint",
+          "credits": 3
+        },
+        {
+          "id": "URBAN_STUDIES_SUSTAINABILITY_MINOR_COMM306",
+          "code": "COMM 306",
+          "title": "Environmental Communication & Advocacy",
+          "credits": 3
+        },
+        {
+          "id": "URBAN_STUDIES_SUSTAINABILITY_MINOR_COMM371",
+          "code": "COMM 371",
+          "title": "Special Topics Communication Studies",
+          "credits": 3
+        },
+        {
+          "id": "URBAN_STUDIES_SUSTAINABILITY_MINOR_PLSC392",
+          "code": "PLSC 392",
+          "title": "Environmental Politics",
+          "credits": 3
+        },
+        {
+          "id": "URBAN_STUDIES_SUSTAINABILITY_MINOR_SOCL265",
+          "code": "SOCL 265",
+          "title": "Globalization & Society",
+          "credits": 3
+        },
+        {
+          "id": "URBAN_STUDIES_SUSTAINABILITY_MINOR_SOCL272",
+          "code": "SOCL 272",
+          "title": "Environmental Sociology",
+          "credits": 3
+        },
+        {
+          "id": "URBAN_STUDIES_SUSTAINABILITY_MINOR_SOCL276",
+          "code": "SOCL 276",
+          "title": "The Sociology and Politics of Food",
+          "credits": 3
+        },
+        {
+          "id": "URBAN_STUDIES_SUSTAINABILITY_MINOR_SOCL280",
+          "code": "SOCL 280",
+          "title": "Topics in Contemporary Sociology",
+          "credits": 3
+        },
+        {
+          "id": "URBAN_STUDIES_SUSTAINABILITY_MINOR_SOWK361",
+          "code": "SOWK 361",
+          "title": "Special Topics",
+          "credits": 3
+        }
       ]
     },
     "groupBPhysicalWorld": {
@@ -62,12 +184,42 @@
       "label": "Group B: Sustainability and the Physical World",
       "note": "Select one of the following.",
       "courses": [
-        { "id": "URBAN_STUDIES_SUSTAINABILITY_MINOR_ENVS207", "code": "ENVS 207", "title": "Plants and Civilization", "credits": 3 },
-        { "id": "URBAN_STUDIES_SUSTAINABILITY_MINOR_ENVS218", "code": "ENVS 218", "title": "Biodiversity & Biogeography", "credits": 3 },
-        { "id": "URBAN_STUDIES_SUSTAINABILITY_MINOR_ENVS223", "code": "ENVS 223", "title": "Soil Ecology", "credits": 3 },
-        { "id": "URBAN_STUDIES_SUSTAINABILITY_MINOR_ENVS224", "code": "ENVS 224", "title": "Climate & Climate Change", "credits": 3 },
-        { "id": "URBAN_STUDIES_SUSTAINABILITY_MINOR_ENVS283", "code": "ENVS 283", "title": "Environmental Sustainability", "credits": 3 },
-        { "id": "URBAN_STUDIES_SUSTAINABILITY_MINOR_ENVS380", "code": "ENVS 380", "title": "Introduction to Geographic Information Systems", "credits": 3 }
+        {
+          "id": "URBAN_STUDIES_SUSTAINABILITY_MINOR_ENVS207",
+          "code": "ENVS 207",
+          "title": "Plants and Civilization",
+          "credits": 3
+        },
+        {
+          "id": "URBAN_STUDIES_SUSTAINABILITY_MINOR_ENVS218",
+          "code": "ENVS 218",
+          "title": "Biodiversity & Biogeography",
+          "credits": 3
+        },
+        {
+          "id": "URBAN_STUDIES_SUSTAINABILITY_MINOR_ENVS223",
+          "code": "ENVS 223",
+          "title": "Soil Ecology",
+          "credits": 3
+        },
+        {
+          "id": "URBAN_STUDIES_SUSTAINABILITY_MINOR_ENVS224",
+          "code": "ENVS 224",
+          "title": "Climate & Climate Change",
+          "credits": 3
+        },
+        {
+          "id": "URBAN_STUDIES_SUSTAINABILITY_MINOR_ENVS283",
+          "code": "ENVS 283",
+          "title": "Environmental Sustainability",
+          "credits": 3
+        },
+        {
+          "id": "URBAN_STUDIES_SUSTAINABILITY_MINOR_ENVS380",
+          "code": "ENVS 380",
+          "title": "Introduction to Geographic Information Systems",
+          "credits": 3
+        }
       ]
     }
   },
@@ -79,7 +231,11 @@
       "semester": "Sophomore Fall",
       "credits": 3,
       "items": [
-        { "label": "Urban Theory Course", "credits": 3, "isElective": true }
+        {
+          "label": "Urban Theory Course",
+          "credits": 3,
+          "isElective": true
+        }
       ]
     },
     {
@@ -87,7 +243,11 @@
       "semester": "Sophomore Spring",
       "credits": 3,
       "items": [
-        { "label": "Research Methods Course", "credits": 3, "isElective": true }
+        {
+          "label": "Research Methods Course",
+          "credits": 3,
+          "isElective": true
+        }
       ]
     },
     {
@@ -95,7 +255,11 @@
       "semester": "Junior Fall",
       "credits": 3,
       "items": [
-        { "label": "Group A Course", "credits": 3, "isElective": true }
+        {
+          "label": "Group A Course",
+          "credits": 3,
+          "isElective": true
+        }
       ]
     },
     {
@@ -103,7 +267,11 @@
       "semester": "Junior Spring",
       "credits": 3,
       "items": [
-        { "label": "Group B Course", "credits": 3, "isElective": true }
+        {
+          "label": "Group B Course",
+          "credits": 3,
+          "isElective": true
+        }
       ]
     },
     {
@@ -111,7 +279,9 @@
       "semester": "Senior Fall",
       "credits": 3,
       "items": [
-        { "ref": "URBAN_STUDIES_SUSTAINABILITY_MINOR_SOCL335" }
+        {
+          "ref": "URBAN_STUDIES_SUSTAINABILITY_MINOR_SOCL335"
+        }
       ]
     },
     {
@@ -119,7 +289,9 @@
       "semester": "Senior Spring",
       "credits": 3,
       "items": [
-        { "ref": "URBAN_STUDIES_SUSTAINABILITY_MINOR_URB397" }
+        {
+          "ref": "URBAN_STUDIES_SUSTAINABILITY_MINOR_URB397"
+        }
       ]
     }
   ]

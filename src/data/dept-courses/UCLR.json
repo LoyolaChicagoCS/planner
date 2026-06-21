@@ -1,0 +1,17 @@
+{
+  "catalog": "2026-2027",
+  "code": "UCLR",
+  "name": "University Core",
+  "sourceUrl": "https://catalog.luc.edu/course-descriptions/uclr/",
+  "fetchedAt": "2026-06-21",
+  "courses": [
+    {
+      "id": "UCLR100",
+      "code": "UCLR 100",
+      "title": "Interpreting Literature",
+      "credits": 3,
+      "isTopics": true,
+      "topicsCount": 4
+    }
+  ]
+}

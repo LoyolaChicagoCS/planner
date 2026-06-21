@@ -46,11 +46,13 @@ Graduate MS programs:
 Doctoral:
 - Computer Science (PhD)
 
-### College of Arts and Sciences (additional majors)
+### College of Arts and Sciences (additional majors and minors)
 
 All CAS undergraduate majors are supported as additional programs, spanning: African Studies, Anthropology (BA and BS), Biochemistry (BA and BS), Biology, Chemistry (BA and BS), Classical Civilization, Criminal Justice, Dance, Economics, English, Fine Arts (Art History, Music, Photography/Video Art, Sculpture/Ceramics, Studio Arts, Theatre, Visual Communication), Forensic Science, French, Global Studies, History, Human Services, Italian Studies, Latin, Mathematics (BS, Applied, Statistics, Math+CS), Neuroscience (Cognitive/Behavioral and Molecular/Cellular), Philosophy, Physics (BS, Biophysics, Theoretical Physics/Applied Math), Political Science, Psychology, Religious Studies, Sociology, Sociology-Anthropology, Spanish, Theology, and Women's Studies and Gender Studies.
 
-### School of Communication (additional majors)
+CAS **minors** are also supported (~60), covering the sciences, mathematics/statistics, humanities, social sciences, modern languages, fine and performing arts, and interdisciplinary area-studies programs. Minors appear under each discipline in the Arts & Sciences → Minors tab.
+
+### School of Communication (additional majors and minors)
 
 - Advertising and Public Relations (BA)
 - Advertising Creative (BA)
@@ -60,7 +62,9 @@ All CAS undergraduate majors are supported as additional programs, spanning: Afr
 - Public Communication and Advocacy (BA)
 - Sports Media (BA)
 
-### Quinlan School of Business (additional majors)
+School of Communication **minors** are supported as well: Advertising, Advocacy and Social Change, Communication Studies, Digital Media, Environmental Communication, Film and Digital Media, Multimedia Journalism, Professional Communication, and Public Relations.
+
+### Quinlan School of Business (additional majors and minors)
 
 - Accounting (BBA)
 - Accounting and Analytics (BBA)
@@ -74,6 +78,8 @@ All CAS undergraduate majors are supported as additional programs, spanning: Afr
 - Marketing (BBA)
 - Sport Management (BBA)
 - Supply Chain Management (BBA)
+
+Quinlan **minors** are supported as well: Accounting Information Systems, Business Administration, Economics, Entrepreneurship, Finance, Human Resource and Employment Relations, Information Systems, International Business, Management, Marketing, Nonprofit Management, Sport Management, Supply Chain Management, and Sustainability Management.
 
 ## Student-Facing Requirements
 
@@ -134,7 +140,7 @@ Each program currently includes:
 - `id`
 - `name`
 - `degree`
-- `department` — owning department; `"Computer Science"` for all CS-department programs, `"Business Administration"` for BBA programs, `"Communication"` for Communication programs, absent for CAS programs. Used to filter the ProgramPicker so only appropriate programs can be added as additional majors.
+- `department` — owning department; `"Computer Science"` for all CS-department programs, `"Business Administration"` for Quinlan programs, `"Communication"` for Communication programs, and the discipline name (e.g. `"Biology"`, `"Modern Languages and Literatures"`) for CAS programs. Drives both the ProgramPicker filter and the per-discipline grouping on the home screen, so CAS programs that share a discipline group together. The exact same string must be used by a major and its minor so they sit under one heading.
 - `school`
 - `totalCredits` for the catalog roadmap/sample plan total
 - `majorCredits` for BS major requirement totals where applicable
@@ -205,6 +211,17 @@ Then review and commit the generated changes together:
 
 If Loyola changes Core Area names, requirement structure, catalog URLs, or required credit counts, update the area metadata in `scripts/fetch-core-courses.mjs` before regenerating the cache.
 
+## Reproducible Data Pipeline
+
+All course and program data is reproducible from the catalog by committed scripts — nothing in `src/data/*.json` is meant to be hand-typed. The catalog (`catalog.luc.edu`) is the single source of truth, and a course number always maps to exactly one title. Full details are in [`docs/INGESTION.md`](docs/INGESTION.md); the pieces are:
+
+- **Master course list.** `node scripts/fetch-dept-courses.mjs` scrapes `catalog.luc.edu/course-descriptions/<dept>/` for every department and writes the per-department `src/data/dept-courses/<DEPT>.json` plus the flat all-departments map `src/data/course-index.json` (`code → {title, credits}`).
+- **Title normalization.** `node scripts/normalize-program-courses.mjs` rewrites every program's course titles to match `course-index.json`, so no two files disagree on a course name. `src/utils/courseIntegrity.test.ts` fails the build on any drift; documented exceptions live in `src/data/course-exceptions.json`.
+- **Program ingestion.** Academic programs are generated, not hand-edited, from four committed layers — a seed manifest (`scripts/program-manifest.mjs`), a deterministic catalog scrape (`scripts/fetch-program.mjs` → `src/data/program-extracts/`), an AI overlay for fuzzy requirement semantics (`src/data/program-refine/`), and a supplement for non-catalog data such as AP/transfer items and doctoral milestones (`src/data/program-supplements/`). `scripts/build-programs.mjs` merges them into `src/data/<id>.json`.
+- **Drift guard.** A manifest entry with `generated: true` is *adopted*: `npm run check:programs` regenerates it and fails if it doesn't byte-match the committed file, so adopted programs must be changed through the pipeline, not by hand. Migration runs in waves; entries without the flag are legacy files awaiting migration. `src/utils/programIntegrity.test.ts` additionally checks manifest↔registry sync, roadmap-ref resolution, and credit sanity.
+
+Data-quality findings surfaced by the pipeline are tracked in `LIKELY_WRONG.md` (suspect course numbers) and `CREDITS_DISCREPANCIES.md` (catalog-vs-data credit-hour mismatches).
+
 ## Main Views
 
 The landing page shows a fixed header ("Academic Checklist") with the Loyola Ramblers SVG mark and a build-time version pill. Below the header a tab bar organizes programs into five categories: Majors, Interdisciplinary, Minors, Masters, and Doctoral. Selecting a tab shows only the cards for that category; programs within a tab are alphabetized.
@@ -253,6 +270,7 @@ Validate before committing:
 ```bash
 npm run typecheck
 npm test
+npm run check:programs   # generated programs are byte-reproducible from the pipeline
 npm run lint
 npm run build
 ```
@@ -307,7 +325,7 @@ Deployment details:
 
 ## Near-Term Follow-Up Ideas
 
-- Keep checking current curriculum data against `catalog.luc.edu`.
+- Continue the program-ingestion rollout wave by wave (CAS majors → CAS minors → Communication → Business), flipping each program to `generated: true` once its regenerated output matches the catalog. The pilot (`cs`, `psychology-minor`, `ms-cs`, `phd-cs`) is adopted.
+- Work through `LIKELY_WRONG.md` (suspect course numbers) and `CREDITS_DISCREPANCIES.md`.
 - Add remaining structured alternates where the data still uses plain text notes.
-- Replace leftover starter-template files if they are unused.
 - Add 4+1 program data when ready.

@@ -1,19 +1,48 @@
 {
   "id": "cs",
-  "department": "Computer Science",
   "name": "Computer Science",
   "degree": "BS",
   "school": "Loyola University Chicago",
+  "department": "Computer Science",
   "totalCredits": 122,
   "majorCredits": 61,
+  "catalogUrl": "https://catalog.luc.edu/undergraduate/arts-sciences/computer-science/computer-science-bs/",
   "courses": [
     {
-      "id": "UNIV101",
-      "code": "UNIV 101",
-      "title": "First Year Seminar",
-      "credits": 1,
-      "category": "core",
-      "note": "Required for all first-year students"
+      "id": "MATH131",
+      "code": "MATH 131",
+      "title": "Applied Calculus I",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "computer-science-major-requirements-math-131",
+      "choiceNote": "Choose one of MATH 131, MATH 161"
+    },
+    {
+      "id": "MATH161",
+      "code": "MATH 161",
+      "title": "Calculus I",
+      "credits": 4,
+      "category": "major",
+      "requirementGroup": "computer-science-major-requirements-math-131",
+      "choiceNote": "Choose one of MATH 131, MATH 161"
+    },
+    {
+      "id": "MATH132",
+      "code": "MATH 132",
+      "title": "Applied Calculus II",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "computer-science-major-requirements-math-132",
+      "choiceNote": "Choose one of MATH 132, MATH 162"
+    },
+    {
+      "id": "MATH162",
+      "code": "MATH 162",
+      "title": "Calculus II",
+      "credits": 4,
+      "category": "major",
+      "requirementGroup": "computer-science-major-requirements-math-132",
+      "choiceNote": "Choose one of MATH 132, MATH 162"
     },
     {
       "id": "COMP141",
@@ -28,28 +57,24 @@
       "title": "Discrete Structures",
       "credits": 3,
       "category": "major",
-      "requirementGroup": "cs-discrete-structures",
-      "choiceNote": "Choose COMP 163 or MATH 201"
+      "requirementGroup": "computer-science-major-requirements-comp-163",
+      "choiceNote": "Choose one of COMP 163, MATH 201"
     },
     {
       "id": "MATH201",
       "code": "MATH 201",
-      "title": "Discrete Mathematics & Number Theory",
+      "title": "Introduction to Discrete Mathematics & Number Theory",
       "credits": 3,
       "category": "major",
-      "requirementGroup": "cs-discrete-structures",
-      "choiceNote": "Choose COMP 163 or MATH 201"
+      "requirementGroup": "computer-science-major-requirements-comp-163",
+      "choiceNote": "Choose one of COMP 163, MATH 201"
     },
     {
       "id": "COMP170",
       "code": "COMP 170",
       "title": "Introduction to Object-Oriented Programming",
       "credits": 3,
-      "category": "major",
-      "apCredit": {
-        "exam": "AP Computer Science A",
-        "minScore": 4
-      }
+      "category": "major"
     },
     {
       "id": "COMP264",
@@ -78,8 +103,8 @@
       "title": "Operating Systems",
       "credits": 3,
       "category": "major",
-      "requirementGroup": "cs-systems",
-      "choiceNote": "Choose COMP 310 or COMP 362"
+      "requirementGroup": "computer-science-major-requirements-comp-310",
+      "choiceNote": "Choose one of COMP 310, COMP 362"
     },
     {
       "id": "COMP362",
@@ -87,8 +112,8 @@
       "title": "Computer Architecture",
       "credits": 3,
       "category": "major",
-      "requirementGroup": "cs-systems",
-      "choiceNote": "Choose COMP 310 or COMP 362"
+      "requirementGroup": "computer-science-major-requirements-comp-310",
+      "choiceNote": "Choose one of COMP 310, COMP 362"
     },
     {
       "id": "COMP317",
@@ -100,7 +125,7 @@
     {
       "id": "COMP363",
       "code": "COMP 363",
-      "title": "Design and Analysis of Computer Algorithms",
+      "title": "Design and Analysis Computer Algorithms",
       "credits": 3,
       "category": "major"
     },
@@ -119,193 +144,195 @@
       "category": "major"
     },
     {
-      "id": "MATH131",
-      "code": "MATH 131",
-      "title": "Applied Calculus I",
+      "id": "COMP301",
+      "code": "COMP 301",
+      "title": "Introduction to Computer Security",
       "credits": 3,
-      "category": "major",
-      "requirementGroup": "cs-calculus-i",
-      "choiceNote": "Choose MATH 131 or MATH 161",
-      "apCredit": {
-        "exam": "AP Calculus AB or BC",
-        "minScore": 4
-      }
-    },
-    {
-      "id": "MATH161",
-      "code": "MATH 161",
-      "title": "Calculus I",
-      "credits": 3,
-      "category": "major",
-      "requirementGroup": "cs-calculus-i",
-      "choiceNote": "Choose MATH 131 or MATH 161"
-    },
-    {
-      "id": "MATH132",
-      "code": "MATH 132",
-      "title": "Applied Calculus II",
-      "credits": 3,
-      "category": "major",
-      "requirementGroup": "cs-calculus-ii",
-      "choiceNote": "Choose MATH 132 or MATH 162",
-      "apCredit": {
-        "exam": "AP Calculus BC",
-        "minScore": 4
-      }
-    },
-    {
-      "id": "MATH162",
-      "code": "MATH 162",
-      "title": "Calculus II",
-      "credits": 3,
-      "category": "major",
-      "requirementGroup": "cs-calculus-ii",
-      "choiceNote": "Choose MATH 132 or MATH 162"
+      "category": "major"
     },
     {
       "id": "COMP313",
       "code": "COMP 313",
       "title": "Object-Oriented Design",
       "credits": 3,
-      "category": "elective",
-      "note": "Appears in Year 2 roadmap; counts toward restricted electives"
+      "category": "major"
     },
     {
       "id": "COMP330",
       "code": "COMP 330",
       "title": "Software Engineering",
       "credits": 3,
-      "category": "elective",
-      "note": "Appears in Year 2 roadmap; counts toward restricted electives"
+      "category": "major"
+    },
+    {
+      "id": "COMP332",
+      "code": "COMP 332",
+      "title": "Requirements Engineering",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "COMP339",
+      "code": "COMP 339",
+      "title": "Distributed Systems",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "COMP341",
+      "code": "COMP 341",
+      "title": "Human-Computer Interaction",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "COMP343",
+      "code": "COMP 343",
+      "title": "Computer Networks",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "COMP353",
+      "code": "COMP 353",
+      "title": "Database Programming",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "COMP362-2",
+      "code": "COMP 362",
+      "title": "Computer Architecture",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "computer-science-major-requirements-comp-362",
+      "choiceNote": "Choose one of COMP 362, COMP 310"
+    },
+    {
+      "id": "COMP310-2",
+      "code": "COMP 310",
+      "title": "Operating Systems",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "computer-science-major-requirements-comp-362",
+      "choiceNote": "Choose one of COMP 362, COMP 310"
+    },
+    {
+      "id": "COMP364",
+      "code": "COMP 364",
+      "title": "High Performance Computing",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "COMP370",
+      "code": "COMP 370",
+      "title": "Software Quality",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "COMP379",
+      "code": "COMP 379",
+      "title": "Machine Learning",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "COMP312",
+      "code": "COMP 312",
+      "title": "Open Source Software Practicum",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "COMP344",
+      "code": "COMP 344",
+      "title": "Hands-on Approach to Security and Privacy",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "COMP390",
+      "code": "COMP 390",
+      "title": "Broadening Participation in STEM (Computing, Math & Science)",
+      "credits": 1,
+      "category": "major"
+    },
+    {
+      "id": "COMP391",
+      "code": "COMP 391",
+      "title": "Internship in Computer Science",
+      "credits": 1,
+      "category": "major"
+    },
+    {
+      "id": "COMP398",
+      "code": "COMP 398",
+      "title": "Independent Study",
+      "credits": 1,
+      "category": "major"
+    },
+    {
+      "id": "COMP125",
+      "code": "COMP 125",
+      "title": "Visual Information Processing",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "COMP150",
+      "code": "COMP 150",
+      "title": "Introduction to Computing",
+      "credits": 3,
+      "category": "major"
     }
   ],
   "electiveOptions": {
-    "restricted": {
+    "computer-science-comp-bs-restricted-electives": {
       "creditsRequired": 9,
-      "label": "Restricted Electives",
-      "note": "COMP 313 and COMP 330 from Year 2 count toward these 9 credits",
-      "courses": [
-        {
-          "id": "ELEC_COMP301",
-          "code": "COMP 301",
-          "title": "Introduction to Computer Security",
-          "credits": 3
-        },
-        {
-          "id": "ELEC_COMP313",
-          "code": "COMP 313",
-          "title": "Object-Oriented Design",
-          "credits": 3
-        },
-        {
-          "id": "ELEC_COMP330",
-          "code": "COMP 330",
-          "title": "Software Engineering",
-          "credits": 3
-        },
-        {
-          "id": "ELEC_COMP332",
-          "code": "COMP 332",
-          "title": "Requirements Engineering",
-          "credits": 3
-        },
-        {
-          "id": "ELEC_COMP339",
-          "code": "COMP 339",
-          "title": "Distributed Systems",
-          "credits": 3
-        },
-        {
-          "id": "ELEC_COMP341",
-          "code": "COMP 341",
-          "title": "Human-Computer Interaction",
-          "credits": 3
-        },
-        {
-          "id": "ELEC_COMP343",
-          "code": "COMP 343",
-          "title": "Computer Networks",
-          "credits": 3
-        },
-        {
-          "id": "ELEC_COMP353",
-          "code": "COMP 353",
-          "title": "Database Programming",
-          "credits": 3
-        },
-        {
-          "id": "ELEC_COMP362",
-          "code": "COMP 362",
-          "title": "Computer Architecture",
-          "credits": 3
-        },
-        {
-          "id": "ELEC_COMP364",
-          "code": "COMP 364",
-          "title": "High Performance Computing",
-          "credits": 3
-        },
-        {
-          "id": "ELEC_COMP370",
-          "code": "COMP 370",
-          "title": "Software Quality",
-          "credits": 3
-        },
-        {
-          "id": "ELEC_COMP379",
-          "code": "COMP 379",
-          "title": "Machine Learning",
-          "credits": 3
-        }
-      ]
+      "label": "COMP-BS Restricted Electives",
+      "note": "COMP-BS Restricted Electives"
     },
-    "practicum": {
+    "computer-science-select-nine-credit-hours-from-t": {
+      "creditsRequired": 0,
+      "label": "Select nine credit hours from the following:",
+      "note": "Select nine credit hours from the following:"
+    },
+    "computer-science-practicum-capstone": {
       "creditsRequired": 6,
-      "label": "Practicum / Capstone",
-      "courses": [
-        {
-          "id": "PRAC_COMP312",
-          "code": "COMP 312",
-          "title": "Open Source Software Practicum",
-          "credits": 3
-        },
-        {
-          "id": "PRAC_COMP344",
-          "code": "COMP 344",
-          "title": "Hands-on Approach to Security and Privacy",
-          "credits": 3
-        },
-        {
-          "id": "PRAC_COMP390",
-          "code": "COMP 390",
-          "title": "Broadening Participation in STEM",
-          "credits": 3
-        },
-        {
-          "id": "PRAC_COMP391",
-          "code": "COMP 391",
-          "title": "Internship in Computer Science",
-          "credits": 3
-        },
-        {
-          "id": "PRAC_COMP398",
-          "code": "COMP 398",
-          "title": "Independent Study",
-          "credits": 3
-        }
-      ]
+      "label": "Practicum Capstone",
+      "note": "Practicum Capstone"
     },
-    "free": {
+    "computer-science-select-six-credits-taken-from-o": {
+      "creditsRequired": 0,
+      "label": "Select six credits taken from one or more of the following:",
+      "note": "Select six credits taken from one or more of the following:"
+    },
+    "computer-science-computer-science-300-level-elec": {
+      "creditsRequired": 4,
+      "label": "Computer Science 300-Level Electives",
+      "note": "Computer Science 300-Level Electives"
+    },
+    "computer-science-comp-300-level-course-s": {
+      "creditsRequired": 0,
+      "label": "COMP 300-Level Course(s)",
+      "note": "COMP 300-Level Course(s)"
+    },
+    "computer-science-computer-science-free-electives": {
       "creditsRequired": 3,
-      "label": "Free Electives (300-level COMP)",
-      "courses": [
-        {
-          "id": "FREE_ELEC1",
-          "code": "COMP 3XX (1)",
-          "title": "300-level COMP elective",
-          "credits": 3
-        }
-      ]
+      "label": "Computer Science Free Electives",
+      "note": "Computer Science Free Electives"
+    },
+    "computer-science-select-one-of-the-following": {
+      "creditsRequired": 0,
+      "label": "Select one of the following:",
+      "note": "Select one of the following:"
+    },
+    "computer-science-comp-300-level-course": {
+      "creditsRequired": 0,
+      "label": "COMP 300-Level Course",
+      "note": "COMP 300-Level Course"
     }
   },
   "coreRequirements": [
@@ -434,10 +461,14 @@
           "ref": "MATH131"
         },
         {
-          "ref": "CORE_WRITING"
+          "label": "CORE: College Writing Seminar",
+          "credits": 3,
+          "isElective": true
         },
         {
-          "ref": "UNIV101"
+          "label": "First Year Seminar",
+          "credits": 1,
+          "isElective": true
         }
       ]
     },
@@ -453,13 +484,19 @@
           "ref": "MATH132"
         },
         {
-          "ref": "CORE_PHIL1"
+          "label": "CORE: Philosophical Knowledge Tier 1",
+          "credits": 3,
+          "isElective": true
         },
         {
-          "ref": "CORE_HIST1"
+          "label": "CORE: Historical Knowledge Tier 1",
+          "credits": 3,
+          "isElective": true
         },
         {
-          "ref": "CORE_ETHICS"
+          "label": "CORE: Ethics",
+          "credits": 3,
+          "isElective": true
         }
       ]
     },
@@ -481,7 +518,9 @@
           "ref": "STAT203"
         },
         {
-          "ref": "CAS_LANG1"
+          "label": "CAS Language Requirement 101 level",
+          "credits": 3,
+          "isElective": true
         }
       ]
     },
@@ -497,38 +536,52 @@
           "ref": "COMP330"
         },
         {
-          "ref": "CORE_SCI1"
+          "label": "CORE: Scientific Knowledge Tier 1",
+          "credits": 3,
+          "isElective": true
         },
         {
-          "ref": "CORE_SOC1"
+          "label": "CORE: Societal & Cultural Knowledge Tier 1",
+          "credits": 3,
+          "isElective": true
         },
         {
-          "ref": "CAS_LANG2"
+          "label": "CAS Language Requirement 102 level",
+          "credits": 3,
+          "isElective": true
         }
       ]
     },
     {
       "year": 3,
       "semester": "Fall",
-      "credits": 15,
+      "credits": 16,
       "items": [
         {
           "ref": "COMP310"
         },
         {
+          "ref": "COMP391"
+        },
+        {
           "label": "COMP Restricted Elective",
+          "credits": 1,
+          "isElective": true
+        },
+        {
+          "label": "CORE: Literary Knowledge & Experience Tier 1",
           "credits": 3,
-          "isElective": true,
-          "electiveType": "restricted"
+          "isElective": true
         },
         {
-          "ref": "CORE_LIT1"
+          "label": "CORE: Theological and Religious Studies Tier 1",
+          "credits": 3,
+          "isElective": true
         },
         {
-          "ref": "CORE_THEO1"
-        },
-        {
-          "ref": "CORE_PHIL2"
+          "label": "CORE: Philosophical Knowledge Tier 2",
+          "credits": 3,
+          "isElective": true
         }
       ]
     },
@@ -538,25 +591,29 @@
       "credits": 15,
       "items": [
         {
-          "label": "COMP Restricted Elective",
+          "label": "COMP-BS Restricted Elective",
           "credits": 3,
-          "isElective": true,
-          "electiveType": "restricted"
+          "isElective": true
         },
         {
-          "label": "COMP 363 / COMP 371 or Elective",
+          "label": "COMP-BS Restricted Elective",
           "credits": 3,
-          "isElective": true,
-          "electiveType": "restricted"
+          "isElective": true
         },
         {
-          "ref": "CORE_ART"
+          "label": "CORE: Artistic Knowledge & Experience",
+          "credits": 3,
+          "isElective": true
         },
         {
-          "ref": "CORE_SCI2"
+          "label": "CORE: Scientific Knowledge Tier 2",
+          "credits": 3,
+          "isElective": true
         },
         {
-          "ref": "CORE_HIST2"
+          "label": "CORE: Historical Knowledge Tier 2",
+          "credits": 3,
+          "isElective": true
         }
       ]
     },
@@ -568,23 +625,27 @@
         {
           "label": "COMP 300-Level Elective",
           "credits": 3,
-          "isElective": true,
-          "electiveType": "free"
+          "isElective": true
         },
         {
-          "label": "Practicum (Part 1)",
+          "label": "COMP Practicum",
           "credits": 3,
-          "isElective": true,
-          "electiveType": "practicum"
+          "isElective": true
         },
         {
-          "ref": "CORE_LIT2"
+          "label": "CORE: Literary Knowledge & Experience Tier 2",
+          "credits": 3,
+          "isElective": true
         },
         {
-          "ref": "CORE_SOC2"
+          "label": "CORE: Societal & Cultural Knowledge Tier 2",
+          "credits": 3,
+          "isElective": true
         },
         {
-          "ref": "CAS_ELEC1"
+          "label": "CAS Elective",
+          "credits": 3,
+          "isElective": true
         }
       ]
     },
@@ -594,25 +655,29 @@
       "credits": 15,
       "items": [
         {
-          "label": "Practicum (Part 2)",
+          "label": "COMP Practicum",
           "credits": 3,
-          "isElective": true,
-          "electiveType": "practicum"
+          "isElective": true
         },
         {
           "label": "COMP Free Elective",
           "credits": 3,
-          "isElective": true,
-          "electiveType": "free"
+          "isElective": true
         },
         {
-          "ref": "CORE_THEO2"
+          "label": "CORE: Theological and Religious Studies Tier 2",
+          "credits": 3,
+          "isElective": true
         },
         {
-          "ref": "CAS_ELEC2"
+          "label": "CAS Elective",
+          "credits": 3,
+          "isElective": true
         },
         {
-          "ref": "CAS_ELEC3"
+          "label": "CAS Elective",
+          "credits": 3,
+          "isElective": true
         }
       ]
     }
@@ -620,36 +685,36 @@
   "checklist": [
     {
       "id": "ap_cs_a",
-      "label": "AP Computer Science A (score \u2265 4)",
-      "grants": "COMP 170 \u2014 3 credits",
+      "label": "AP Computer Science A (score ≥ 4)",
+      "grants": "COMP 170 — 3 credits",
       "courseRef": "COMP170",
       "category": "ap"
     },
     {
       "id": "ap_cs_principles",
-      "label": "AP Computer Science Principles (score \u2265 4)",
-      "grants": "COMP 150 \u2014 3 credits (intro elective, not required)",
+      "label": "AP Computer Science Principles (score ≥ 4)",
+      "grants": "COMP 150 — 3 credits (intro elective, not required)",
       "category": "ap"
     },
     {
       "id": "ap_calc_ab",
-      "label": "AP Calculus AB (score \u2265 4)",
-      "grants": "MATH 131 \u2014 3 credits",
+      "label": "AP Calculus AB (score ≥ 4)",
+      "grants": "MATH 131 — 3 credits",
       "courseRef": "MATH131",
       "category": "ap"
     },
     {
       "id": "ap_calc_bc",
-      "label": "AP Calculus BC (score \u2265 4)",
-      "grants": "MATH 131 + MATH 132 \u2014 6 credits",
+      "label": "AP Calculus BC (score ≥ 4)",
+      "grants": "MATH 131 + MATH 132 — 6 credits",
       "courseRef": "MATH131",
       "alsoCourseRef": "MATH132",
       "category": "ap"
     },
     {
       "id": "ap_stats",
-      "label": "AP Statistics (score \u2265 4)",
-      "grants": "STAT 203 \u2014 3 credits",
+      "label": "AP Statistics (score ≥ 4)",
+      "grants": "STAT 203 — 3 credits",
       "courseRef": "STAT203",
       "category": "ap"
     },

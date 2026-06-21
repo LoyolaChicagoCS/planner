@@ -6,125 +6,132 @@
   "degree": "BS",
   "school": "Loyola University Chicago",
   "totalCredits": 122,
-  "majorCredits": 68,
+  "majorCredits": 69,
   "catalogUrl": "https://catalog.luc.edu/undergraduate/arts-sciences/physics/biophysics-bs/",
   "courses": [
     {
-      "id": "PHYS125",
-      "code": "PHYS 125",
-      "title": "General Physics I",
+      "id": "PHYS121",
+      "code": "PHYS 121",
+      "title": "College Physics I with Calculus Lecture/Discussion",
       "credits": 3,
       "category": "major"
     },
     {
-      "id": "PHYS125L",
-      "code": "PHYS 125L",
-      "title": "General Physics I Laboratory",
+      "id": "PHYS111L",
+      "code": "PHYS 111L",
+      "title": "College Physics Laboratory I",
       "credits": 1,
       "category": "major"
     },
     {
-      "id": "PHYS126",
-      "code": "PHYS 126",
-      "title": "General Physics II",
+      "id": "PHYS122",
+      "code": "PHYS 122",
+      "title": "College Physics II with Calculus Lecture/Discussion",
       "credits": 3,
       "category": "major"
     },
     {
-      "id": "PHYS126L",
-      "code": "PHYS 126L",
-      "title": "General Physics II Laboratory",
+      "id": "PHYS112L",
+      "code": "PHYS 112L",
+      "title": "College Physics Lab II",
       "credits": 1,
       "category": "major"
     },
     {
-      "id": "PHYS213",
-      "code": "PHYS 213",
+      "id": "PHYS126F",
+      "code": "PHYS 126F",
+      "title": "Freshman Projects",
+      "credits": 1,
+      "category": "major"
+    },
+    {
+      "id": "PHYS235",
+      "code": "PHYS 235",
       "title": "Modern Physics",
       "credits": 3,
       "category": "major"
     },
     {
+      "id": "PHYS235L",
+      "code": "PHYS 235L",
+      "title": "Modern Physics Laboratory",
+      "credits": 1,
+      "category": "major"
+    },
+    {
       "id": "PHYS301",
       "code": "PHYS 301",
-      "title": "Classical Mechanics",
+      "title": "Mathematical Methods in Physics",
       "credits": 3,
       "category": "major"
     },
     {
-      "id": "PHYS303",
-      "code": "PHYS 303",
-      "title": "Electricity and Magnetism",
+      "id": "PHYS314",
+      "code": "PHYS 314",
+      "title": "Theoretical Mechanics I",
       "credits": 3,
       "category": "major"
     },
     {
-      "id": "PHYS310L",
-      "code": "PHYS 310L",
-      "title": "Advanced Laboratory I",
-      "credits": 2,
-      "category": "major"
-    },
-    {
-      "id": "PHYS311L",
-      "code": "PHYS 311L",
-      "title": "Advanced Laboratory II",
-      "credits": 2,
-      "category": "major"
-    },
-    {
-      "id": "BIOL101",
-      "code": "BIOL 101",
-      "title": "Biology I",
+      "id": "PHYS351",
+      "code": "PHYS 351",
+      "title": "Electricity and Magnetism I",
       "credits": 3,
       "category": "major"
     },
     {
-      "id": "BIOL101L",
-      "code": "BIOL 101L",
-      "title": "Biology I Laboratory",
+      "id": "CHEM160",
+      "code": "CHEM 160",
+      "title": "Chemical Structure and Properties",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "CHEM161",
+      "code": "CHEM 161",
+      "title": "Chemical Structure and Properties Laboratory",
       "credits": 1,
       "category": "major"
     },
     {
-      "id": "BIOL102",
-      "code": "BIOL 102",
-      "title": "Biology II",
+      "id": "CHEM180",
+      "code": "CHEM 180",
+      "title": "Chemical Reactivity I",
       "credits": 3,
       "category": "major"
     },
     {
-      "id": "BIOL102L",
-      "code": "BIOL 102L",
-      "title": "Biology II Laboratory",
+      "id": "CHEM181",
+      "code": "CHEM 181",
+      "title": "Chemical Reactivity I Lab",
       "credits": 1,
       "category": "major"
     },
     {
-      "id": "CHEM101",
-      "code": "CHEM 101",
-      "title": "General Chemistry I",
+      "id": "CHEM240",
+      "code": "CHEM 240",
+      "title": "Chemical Reactivity II",
       "credits": 3,
       "category": "major"
     },
     {
-      "id": "CHEM101L",
-      "code": "CHEM 101L",
-      "title": "General Chemistry I Laboratory",
+      "id": "CHEM241",
+      "code": "CHEM 241",
+      "title": "Chemical Reactivity II Laboratory",
       "credits": 1,
       "category": "major"
     },
     {
-      "id": "CHEM102",
-      "code": "CHEM 102",
-      "title": "General Chemistry II",
+      "id": "CHEM260",
+      "code": "CHEM 260",
+      "title": "Quantitative Methods in Chemistry",
       "credits": 3,
       "category": "major"
     },
     {
-      "id": "CHEM102L",
-      "code": "CHEM 102L",
-      "title": "General Chemistry II Laboratory",
+      "id": "CHEM261",
+      "code": "CHEM 261",
+      "title": "Quantitative Methods in Chemistry Laboratory",
       "credits": 1,
       "category": "major"
     },
@@ -146,7 +153,7 @@
       "id": "MATH263",
       "code": "MATH 263",
       "title": "Multivariable Calculus",
-      "credits": 3,
+      "credits": 4,
       "category": "major"
     },
     {
@@ -155,18 +162,406 @@
       "title": "Ordinary Differential Equations",
       "credits": 3,
       "category": "major"
+    },
+    {
+      "id": "PHYS310",
+      "code": "PHYS 310",
+      "title": "Optics",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "physics-elective",
+      "choiceNote": "Physics Elective: select one (3 credits) from PHYS 310, PHYS 328, or PHYS 361"
+    },
+    {
+      "id": "PHYS328",
+      "code": "PHYS 328",
+      "title": "Thermal Physical & Statistical Mechanics",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "physics-elective",
+      "choiceNote": "Physics Elective: select one (3 credits) from PHYS 310, PHYS 328, or PHYS 361"
+    },
+    {
+      "id": "PHYS361",
+      "code": "PHYS 361",
+      "title": "Quantum Mechanics I",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "physics-elective",
+      "choiceNote": "Physics Elective: select one (3 credits) from PHYS 310, PHYS 328, or PHYS 361"
+    },
+    {
+      "id": "BIOL101",
+      "code": "BIOL 101",
+      "title": "General Biology I",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "biology-requirement",
+      "choiceNote": "Biology: select one (1-3 credits) from BIOL 101, BIOL 111, BIOL 251, or BIOL 282"
+    },
+    {
+      "id": "BIOL111",
+      "code": "BIOL 111",
+      "title": "General Biology I Lab",
+      "credits": 1,
+      "category": "major",
+      "requirementGroup": "biology-requirement",
+      "choiceNote": "Biology: select one (1-3 credits) from BIOL 101, BIOL 111, BIOL 251, or BIOL 282"
+    },
+    {
+      "id": "BIOL251",
+      "code": "BIOL 251",
+      "title": "Cell Biology",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "biology-requirement",
+      "choiceNote": "Biology: select one (1-3 credits) from BIOL 101, BIOL 111, BIOL 251, or BIOL 282"
+    },
+    {
+      "id": "BIOL282",
+      "code": "BIOL 282",
+      "title": "Genetics",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "biology-requirement",
+      "choiceNote": "Biology: select one (1-3 credits) from BIOL 101, BIOL 111, BIOL 251, or BIOL 282"
     }
   ],
   "electiveOptions": {
-    "bphy-phys-upper": {
-      "creditsRequired": 6,
-      "label": "Advanced Physics Electives",
-      "note": "Two upper-division PHYS courses (300+)"
-    },
-    "bphy-biol-upper": {
-      "creditsRequired": 3,
-      "label": "Advanced Biology Elective",
-      "note": "One upper-division BIOL or CHEM course"
+    "biophysics-elective": {
+      "creditsRequired": 10,
+      "label": "Biophysics Elective Options",
+      "note": "Students must complete 10 credit hours from the listed options. Degree credit for only one of BIOL 102, COMP 180, or PHYS 130. Only 1 credit hour of PHYS 391 counts toward the degree.",
+      "courses": [
+        {
+          "id": "BIOL102",
+          "code": "BIOL 102",
+          "title": "General Biology II",
+          "credits": 3
+        },
+        {
+          "id": "BIOL112",
+          "code": "BIOL 112",
+          "title": "General Biology II Lab",
+          "credits": 1
+        },
+        {
+          "id": "BIOL252",
+          "code": "BIOL 252",
+          "title": "Cell Biology Laboratory",
+          "credits": 1
+        },
+        {
+          "id": "BIOL283",
+          "code": "BIOL 283",
+          "title": "Genetics Laboratory",
+          "credits": 1
+        },
+        {
+          "id": "BIOL317",
+          "code": "BIOL 317",
+          "title": "Models of Human Disease",
+          "credits": 3
+        },
+        {
+          "id": "STAT335",
+          "code": "BIOL 335",
+          "title": "Probability",
+          "credits": 3
+        },
+        {
+          "id": "BIOL366",
+          "code": "BIOL 366",
+          "title": "Cell Physiology & Biochemistry",
+          "credits": 3
+        },
+        {
+          "id": "BIOL366L",
+          "code": "BIOL 366L",
+          "title": "Cell Physiology and Biochemistry Lab",
+          "credits": 1
+        },
+        {
+          "id": "BIOI_BIOL387",
+          "code": "BIOL 387",
+          "title": "Genomics",
+          "credits": 3
+        },
+        {
+          "id": "BIOI_BIOL388",
+          "code": "BIOL 388",
+          "title": "Bioinformatics",
+          "credits": 3
+        },
+        {
+          "id": "BIOI_ELEC_BIOL390",
+          "code": "BIOL 390",
+          "title": "Molecular Biology Laboratory",
+          "credits": 3
+        },
+        {
+          "id": "BIOI_ELEC_BIOL382",
+          "code": "BIOL 382",
+          "title": "Molecular Genetics",
+          "credits": 3
+        },
+        {
+          "id": "AIH_TECH_COMP180",
+          "code": "COMP 180",
+          "title": "Computing and Data Analysis for the Sciences",
+          "credits": 3
+        },
+        {
+          "id": "PHYS130",
+          "code": "PHYS 130",
+          "title": "Introduction to Computational Physics",
+          "credits": 3
+        },
+        {
+          "id": "PHYS310L",
+          "code": "PHYS 310L",
+          "title": "Optics Lab",
+          "credits": 1
+        },
+        {
+          "id": "PHYS338",
+          "code": "PHYS 338",
+          "title": "Advanced Physics Laboratory",
+          "credits": 2
+        },
+        {
+          "id": "PHYSICS_MINOR_PHYS371",
+          "code": "PHYS 371",
+          "title": "Biophysics",
+          "credits": 3
+        },
+        {
+          "id": "PHYSICS_MINOR_PHYS391",
+          "code": "PHYS 391",
+          "title": "Research",
+          "credits": 3
+        }
+      ]
     }
-  }
+  },
+  "coreRequirements": [],
+  "checklist": [],
+  "roadmap": [
+    {
+      "year": 1,
+      "semester": "Semester I",
+      "credits": 15,
+      "items": [
+        {
+          "ref": "PHYS121"
+        },
+        {
+          "ref": "PHYS111L"
+        },
+        {
+          "ref": "MATH161"
+        },
+        {
+          "ref": "CHEM160"
+        },
+        {
+          "ref": "CHEM161"
+        },
+        {
+          "label": "UCWR 110",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 1,
+      "semester": "Semester II",
+      "credits": 16,
+      "items": [
+        {
+          "ref": "PHYS122"
+        },
+        {
+          "ref": "PHYS112L"
+        },
+        {
+          "ref": "PHYS126F"
+        },
+        {
+          "ref": "MATH162"
+        },
+        {
+          "ref": "CHEM180"
+        },
+        {
+          "ref": "CHEM181"
+        },
+        {
+          "label": "Core",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 2,
+      "semester": "Semester I",
+      "credits": 15,
+      "items": [
+        {
+          "ref": "PHYS235"
+        },
+        {
+          "ref": "PHYS235L"
+        },
+        {
+          "ref": "MATH263"
+        },
+        {
+          "ref": "MATH264"
+        },
+        {
+          "ref": "CHEM240"
+        },
+        {
+          "ref": "CHEM241"
+        }
+      ]
+    },
+    {
+      "year": 2,
+      "semester": "Semester II",
+      "credits": 16,
+      "items": [
+        {
+          "ref": "PHYS301"
+        },
+        {
+          "ref": "CHEM260"
+        },
+        {
+          "ref": "CHEM261"
+        },
+        {
+          "ref": "BIOL101"
+        },
+        {
+          "ref": "BIOL102"
+        },
+        {
+          "label": "Core",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 3,
+      "semester": "Semester I",
+      "credits": 15,
+      "items": [
+        {
+          "ref": "PHYS351"
+        },
+        {
+          "ref": "BIOL251"
+        },
+        {
+          "ref": "BIOL282"
+        },
+        {
+          "label": "Core",
+          "credits": 3
+        },
+        {
+          "label": "Core",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 3,
+      "semester": "Semester II",
+      "credits": 16,
+      "items": [
+        {
+          "ref": "PHYS314"
+        },
+        {
+          "label": "BPHY 300-Level Elective",
+          "credits": 3,
+          "isElective": true
+        },
+        {
+          "ref": "PHYS310"
+        },
+        {
+          "ref": "PHYS310L"
+        },
+        {
+          "label": "Core",
+          "credits": 3
+        },
+        {
+          "label": "Core",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 4,
+      "semester": "Semester I",
+      "credits": 15,
+      "items": [
+        {
+          "label": "BPHY 300-Level Elective",
+          "credits": 3,
+          "isElective": true
+        },
+        {
+          "label": "Core",
+          "credits": 3
+        },
+        {
+          "label": "Core",
+          "credits": 3
+        },
+        {
+          "label": "Core",
+          "credits": 3
+        },
+        {
+          "label": "Core",
+          "credits": 3
+        }
+      ]
+    },
+    {
+      "year": 4,
+      "semester": "Semester II",
+      "credits": 14,
+      "items": [
+        {
+          "label": "BPHY 300-Level Elective",
+          "credits": 3,
+          "isElective": true
+        },
+        {
+          "label": "Core",
+          "credits": 3
+        },
+        {
+          "label": "Core",
+          "credits": 3
+        },
+        {
+          "label": "Core",
+          "credits": 3
+        },
+        {
+          "label": "General Elective",
+          "credits": 2,
+          "isElective": true
+        }
+      ]
+    }
+  ]
 }

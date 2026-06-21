@@ -32,7 +32,7 @@
     {
       "id": "COMM215",
       "code": "COMM 215",
-      "title": "Ethics and Communication",
+      "title": "Ethics & Communication",
       "credits": 3,
       "category": "major",
       "choiceNote": "COMM 215 or COMM 360",
@@ -152,7 +152,7 @@
       "items": [
         {
           "isElective": true,
-          "label": "COMM 215 or COMM 360 \u2014 Ethics",
+          "label": "COMM 215 or COMM 360 — Ethics",
           "credits": 3
         },
         {
@@ -200,7 +200,7 @@
       "items": [
         {
           "isElective": true,
-          "label": "COMM 361/365/367/368 \u2014 Intensive Methods",
+          "label": "COMM 361/365/367/368 — Intensive Methods",
           "credits": 3
         },
         {

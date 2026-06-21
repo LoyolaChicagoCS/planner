@@ -1,0 +1,959 @@
+{
+  "catalog": "2026-2027",
+  "code": "COMP",
+  "name": "Computer Science",
+  "sourceUrl": "https://catalog.luc.edu/course-descriptions/comp/",
+  "fetchedAt": "2026-06-21",
+  "courses": [
+    {
+      "id": "COMP102",
+      "code": "COMP 102",
+      "title": "Web Design and Multimedia Publishing",
+      "credits": 3
+    },
+    {
+      "id": "COMP104",
+      "code": "COMP 104",
+      "title": "Computer Animation",
+      "credits": 3
+    },
+    {
+      "id": "COMP111",
+      "code": "COMP 111",
+      "title": "History of Computing",
+      "credits": 3
+    },
+    {
+      "id": "COMP112",
+      "code": "COMP 112",
+      "title": "Loyola University Technology Ensemble",
+      "credits": 1
+    },
+    {
+      "id": "COMP122",
+      "code": "COMP 122",
+      "title": "Introduction to Digital Music",
+      "credits": 3
+    },
+    {
+      "id": "COMP125",
+      "code": "COMP 125",
+      "title": "Visual Information Processing",
+      "credits": 3
+    },
+    {
+      "id": "COMP141",
+      "code": "COMP 141",
+      "title": "Introduction to Computing Tools and Techniques",
+      "credits": 3
+    },
+    {
+      "id": "COMP144",
+      "code": "COMP 144",
+      "title": "Cybersecurity for All",
+      "credits": 3
+    },
+    {
+      "id": "COMP150",
+      "code": "COMP 150",
+      "title": "Introduction to Computing",
+      "credits": 3
+    },
+    {
+      "id": "COMP163",
+      "code": "COMP 163",
+      "title": "Discrete Structures",
+      "credits": 3
+    },
+    {
+      "id": "COMP170",
+      "code": "COMP 170",
+      "title": "Introduction to Object-Oriented Programming",
+      "credits": 3
+    },
+    {
+      "id": "COMP171",
+      "code": "COMP 171",
+      "title": "Scripting Languages",
+      "credits": 1
+    },
+    {
+      "id": "COMP180",
+      "code": "COMP 180",
+      "title": "Computing and Data Analysis for the Sciences",
+      "credits": 3
+    },
+    {
+      "id": "COMP215",
+      "code": "COMP 215",
+      "title": "Object Oriented Programming with Mathematics",
+      "credits": 3
+    },
+    {
+      "id": "COMP231",
+      "code": "COMP 231",
+      "title": "Data Structures & Algorithms for Informatics",
+      "credits": 3
+    },
+    {
+      "id": "COMP250",
+      "code": "COMP 250",
+      "title": "Research Writing: Open Source Tools and Techniques",
+      "credits": 3
+    },
+    {
+      "id": "COMP251",
+      "code": "COMP 251",
+      "title": "Introduction to Database Systems",
+      "credits": 3
+    },
+    {
+      "id": "COMP264",
+      "code": "COMP 264",
+      "title": "Introduction to Computer Systems",
+      "credits": 3
+    },
+    {
+      "id": "COMP271",
+      "code": "COMP 271",
+      "title": "Data Structures I",
+      "credits": 3
+    },
+    {
+      "id": "COMP272",
+      "code": "COMP 272",
+      "title": "Data Structures II",
+      "credits": 3
+    },
+    {
+      "id": "COMP301",
+      "code": "COMP 301",
+      "title": "Introduction to Computer Security",
+      "credits": 3
+    },
+    {
+      "id": "COMP305",
+      "code": "COMP 305",
+      "title": "Database Administration",
+      "credits": 3
+    },
+    {
+      "id": "COMP306",
+      "code": "COMP 306",
+      "title": "Data Mining",
+      "credits": 3
+    },
+    {
+      "id": "COMP309",
+      "code": "COMP 309",
+      "title": "Numerical Methods",
+      "credits": 3
+    },
+    {
+      "id": "COMP310",
+      "code": "COMP 310",
+      "title": "Operating Systems",
+      "credits": 3
+    },
+    {
+      "id": "COMP312",
+      "code": "COMP 312",
+      "title": "Open Source Software Practicum",
+      "credits": 3
+    },
+    {
+      "id": "COMP313",
+      "code": "COMP 313",
+      "title": "Object-Oriented Design",
+      "credits": 3
+    },
+    {
+      "id": "COMP314",
+      "code": "COMP 314",
+      "title": "Problem Solving Strategies I",
+      "credits": 1
+    },
+    {
+      "id": "COMP315",
+      "code": "COMP 315",
+      "title": "Problem Solving Strategies II",
+      "credits": 2
+    },
+    {
+      "id": "COMP317",
+      "code": "COMP 317",
+      "title": "Social, Legal, and Ethical Issues in Computing",
+      "credits": 3
+    },
+    {
+      "id": "COMP319",
+      "code": "COMP 319",
+      "title": "Introduction to UNIX",
+      "credits": 1
+    },
+    {
+      "id": "COMP321",
+      "code": "COMP 321",
+      "title": "Computational Aspects of Modeling and Simulation",
+      "credits": 3
+    },
+    {
+      "id": "COMP322",
+      "code": "COMP 322",
+      "title": "Software Development for Wireless and Mobile Devices",
+      "credits": 3
+    },
+    {
+      "id": "COMP323",
+      "code": "COMP 323",
+      "title": "Game Design and Development",
+      "credits": 3
+    },
+    {
+      "id": "COMP324",
+      "code": "COMP 324",
+      "title": "Client-Side Web Development",
+      "credits": 3
+    },
+    {
+      "id": "COMP325",
+      "code": "COMP 325",
+      "title": "Rapid Application Development Methodology",
+      "credits": 3
+    },
+    {
+      "id": "COMP326",
+      "code": "COMP 326",
+      "title": "Digital Music Programming",
+      "credits": 3
+    },
+    {
+      "id": "COMP328",
+      "code": "COMP 328",
+      "title": "Algebraic Coding Theory",
+      "credits": 3
+    },
+    {
+      "id": "COMP329",
+      "code": "COMP 329",
+      "title": "Natural Language Processing",
+      "credits": 3
+    },
+    {
+      "id": "COMP330",
+      "code": "COMP 330",
+      "title": "Software Engineering",
+      "credits": 3
+    },
+    {
+      "id": "COMP331",
+      "code": "COMP 331",
+      "title": "Mathematical Foundations of Cryptography",
+      "credits": 3
+    },
+    {
+      "id": "COMP332",
+      "code": "COMP 332",
+      "title": "Requirements Engineering",
+      "credits": 3
+    },
+    {
+      "id": "COMP333",
+      "code": "COMP 333",
+      "title": "Web Services Programming",
+      "credits": 3
+    },
+    {
+      "id": "COMP335",
+      "code": "COMP 335",
+      "title": "Formal Methods in Software Engineering",
+      "credits": 3
+    },
+    {
+      "id": "COMP336",
+      "code": "COMP 336",
+      "title": "Markup Languages",
+      "credits": 3
+    },
+    {
+      "id": "COMP337",
+      "code": "COMP 337",
+      "title": "Concurrent Programming",
+      "credits": 3
+    },
+    {
+      "id": "COMP338",
+      "code": "COMP 338",
+      "title": "Server-based Software Development",
+      "credits": 3
+    },
+    {
+      "id": "COMP339",
+      "code": "COMP 339",
+      "title": "Distributed Systems",
+      "credits": 3
+    },
+    {
+      "id": "COMP340",
+      "code": "COMP 340",
+      "title": "Computer Forensics",
+      "credits": 3
+    },
+    {
+      "id": "COMP341",
+      "code": "COMP 341",
+      "title": "Human-Computer Interaction",
+      "credits": 3
+    },
+    {
+      "id": "COMP342",
+      "code": "COMP 342",
+      "title": "Introduction to Web Application Development",
+      "credits": 3
+    },
+    {
+      "id": "COMP343",
+      "code": "COMP 343",
+      "title": "Computer Networks",
+      "credits": 3
+    },
+    {
+      "id": "COMP344",
+      "code": "COMP 344",
+      "title": "Hands-on Approach to Security and Privacy",
+      "credits": 3
+    },
+    {
+      "id": "COMP345",
+      "code": "COMP 345",
+      "title": "Internet of Things Device and Application Security",
+      "credits": 3
+    },
+    {
+      "id": "COMP346",
+      "code": "COMP 346",
+      "title": "Telecommunications",
+      "credits": 3
+    },
+    {
+      "id": "COMP347",
+      "code": "COMP 347",
+      "title": "Intrusion Detection and Security",
+      "credits": 3
+    },
+    {
+      "id": "COMP348",
+      "code": "COMP 348",
+      "title": "Network Security",
+      "credits": 3
+    },
+    {
+      "id": "COMP349",
+      "code": "COMP 349",
+      "title": "Wireless Networking and Security",
+      "credits": 3
+    },
+    {
+      "id": "COMP350",
+      "code": "COMP 350",
+      "title": "Applied Cryptography",
+      "credits": 3
+    },
+    {
+      "id": "COMP351",
+      "code": "COMP 351",
+      "title": "Network Management",
+      "credits": 3
+    },
+    {
+      "id": "COMP352",
+      "code": "COMP 352",
+      "title": "Computer Vulnerabilities",
+      "credits": 3
+    },
+    {
+      "id": "COMP353",
+      "code": "COMP 353",
+      "title": "Database Programming",
+      "credits": 3
+    },
+    {
+      "id": "COMP358",
+      "code": "COMP 358",
+      "title": "Big Data Analytics",
+      "credits": 3
+    },
+    {
+      "id": "COMP362",
+      "code": "COMP 362",
+      "title": "Computer Architecture",
+      "credits": 3
+    },
+    {
+      "id": "COMP363",
+      "code": "COMP 363",
+      "title": "Design and Analysis Computer Algorithms",
+      "credits": 3
+    },
+    {
+      "id": "COMP364",
+      "code": "COMP 364",
+      "title": "High Performance Computing",
+      "credits": 3
+    },
+    {
+      "id": "COMP366",
+      "code": "COMP 366",
+      "title": "Microcomputer Design & Interfacing",
+      "credits": 3
+    },
+    {
+      "id": "COMP367",
+      "code": "COMP 367",
+      "title": "Robotics Software Development",
+      "credits": 3
+    },
+    {
+      "id": "COMP369",
+      "code": "COMP 369",
+      "title": "Product Invention and 3D Printing",
+      "credits": 3
+    },
+    {
+      "id": "COMP370",
+      "code": "COMP 370",
+      "title": "Software Quality",
+      "credits": 3
+    },
+    {
+      "id": "COMP371",
+      "code": "COMP 371",
+      "title": "Programming Languages",
+      "credits": 3
+    },
+    {
+      "id": "COMP373",
+      "code": "COMP 373",
+      "title": "Advanced Object-Oriented Programming",
+      "credits": 3
+    },
+    {
+      "id": "COMP376",
+      "code": "COMP 376",
+      "title": "Formal Languages & Automata",
+      "credits": 3
+    },
+    {
+      "id": "COMP377",
+      "code": "COMP 377",
+      "title": "IT Project Management",
+      "credits": 3
+    },
+    {
+      "id": "COMP378",
+      "code": "COMP 378",
+      "title": "Artificial Intelligence",
+      "credits": 3
+    },
+    {
+      "id": "COMP379",
+      "code": "COMP 379",
+      "title": "Machine Learning",
+      "credits": 3
+    },
+    {
+      "id": "COMP380",
+      "code": "COMP 380",
+      "title": "Computer Graphics",
+      "credits": 3
+    },
+    {
+      "id": "COMP382",
+      "code": "COMP 382",
+      "title": "Compiler Construction",
+      "credits": 3
+    },
+    {
+      "id": "COMP383",
+      "code": "COMP 383",
+      "title": "Computational Biology",
+      "credits": 4
+    },
+    {
+      "id": "COMP386",
+      "code": "COMP 386",
+      "title": "Methods in Computational Neuroscience",
+      "credits": 3
+    },
+    {
+      "id": "COMP387",
+      "code": "COMP 387",
+      "title": "Deep Learning",
+      "credits": 3
+    },
+    {
+      "id": "COMP388",
+      "code": "COMP 388",
+      "title": "Topics in Computer Science",
+      "credits": 1
+    },
+    {
+      "id": "COMP389",
+      "code": "COMP 389",
+      "title": "Computational Modeling of the Brain",
+      "credits": 3
+    },
+    {
+      "id": "COMP390",
+      "code": "COMP 390",
+      "title": "Broadening Participation in STEM (Computing, Math & Science)",
+      "credits": 1
+    },
+    {
+      "id": "COMP391",
+      "code": "COMP 391",
+      "title": "Internship in Computer Science",
+      "credits": 1
+    },
+    {
+      "id": "COMP395",
+      "code": "COMP 395",
+      "title": "Professional Development & Career Growth in CompSci/IT",
+      "credits": 1
+    },
+    {
+      "id": "COMP397",
+      "code": "COMP 397",
+      "title": "Research Methods in Computer Science",
+      "credits": 1
+    },
+    {
+      "id": "COMP398",
+      "code": "COMP 398",
+      "title": "Independent Study",
+      "credits": 1
+    },
+    {
+      "id": "COMP399",
+      "code": "COMP 399",
+      "title": "Computer Science Seminar",
+      "credits": 1
+    },
+    {
+      "id": "COMP400",
+      "code": "COMP 400",
+      "title": "Object",
+      "credits": 3,
+      "isTopics": true,
+      "topicsCount": 5
+    },
+    {
+      "id": "COMP401",
+      "code": "COMP 401",
+      "title": "Computer Security",
+      "credits": 3
+    },
+    {
+      "id": "COMP403",
+      "code": "COMP 403",
+      "title": "Operations Management",
+      "credits": 3
+    },
+    {
+      "id": "COMP404",
+      "code": "COMP 404",
+      "title": "Organizational Development",
+      "credits": 3
+    },
+    {
+      "id": "COMP405",
+      "code": "COMP 405",
+      "title": "Database Administration",
+      "credits": 3
+    },
+    {
+      "id": "COMP406",
+      "code": "COMP 406",
+      "title": "Data Mining",
+      "credits": 3
+    },
+    {
+      "id": "COMP409",
+      "code": "COMP 409",
+      "title": "Advanced Numerical Analysis",
+      "credits": 3
+    },
+    {
+      "id": "COMP410",
+      "code": "COMP 410",
+      "title": "Operating Systems",
+      "credits": 3
+    },
+    {
+      "id": "COMP412",
+      "code": "COMP 412",
+      "title": "Open Source Computing",
+      "credits": 3
+    },
+    {
+      "id": "COMP413",
+      "code": "COMP 413",
+      "title": "Intermediate Object-Oriented Development",
+      "credits": 3
+    },
+    {
+      "id": "COMP417",
+      "code": "COMP 417",
+      "title": "Social and Ethical Issues in Computing",
+      "credits": 3
+    },
+    {
+      "id": "COMP418",
+      "code": "COMP 418",
+      "title": "Combinatorial Mathematics",
+      "credits": 3
+    },
+    {
+      "id": "COMP420",
+      "code": "COMP 420",
+      "title": "Software Systems Analysis",
+      "credits": 3
+    },
+    {
+      "id": "COMP421",
+      "code": "COMP 421",
+      "title": "Math Models & Simulation",
+      "credits": 3
+    },
+    {
+      "id": "COMP422",
+      "code": "COMP 422",
+      "title": "Software Development for Wireless and Mobile Devices",
+      "credits": 3
+    },
+    {
+      "id": "COMP424",
+      "code": "COMP 424",
+      "title": "Client-Side Web Design",
+      "credits": 3
+    },
+    {
+      "id": "COMP425",
+      "code": "COMP 425",
+      "title": "Rapid Applications Development",
+      "credits": 3
+    },
+    {
+      "id": "COMP428",
+      "code": "COMP 428",
+      "title": "Algebraic Coding Theory",
+      "credits": 3
+    },
+    {
+      "id": "COMP429",
+      "code": "COMP 429",
+      "title": "Natural Language Processing",
+      "credits": 3
+    },
+    {
+      "id": "COMP431",
+      "code": "COMP 431",
+      "title": "Cryptography",
+      "credits": 3
+    },
+    {
+      "id": "COMP433",
+      "code": "COMP 433",
+      "title": "Web Services Programming",
+      "credits": 3
+    },
+    {
+      "id": "COMP434",
+      "code": "COMP 434",
+      "title": "Enterprise Software Development",
+      "credits": 3
+    },
+    {
+      "id": "COMP435",
+      "code": "COMP 435",
+      "title": "Formal Methods in Software Engineering",
+      "credits": 3
+    },
+    {
+      "id": "COMP436",
+      "code": "COMP 436",
+      "title": "Markup Languages",
+      "credits": 3
+    },
+    {
+      "id": "COMP437",
+      "code": "COMP 437",
+      "title": "Intro Concurrent Programming",
+      "credits": 3
+    },
+    {
+      "id": "COMP439",
+      "code": "COMP 439",
+      "title": "Distributed Systems",
+      "credits": 3
+    },
+    {
+      "id": "COMP440",
+      "code": "COMP 440",
+      "title": "Computer Forensics Investigations",
+      "credits": 3
+    },
+    {
+      "id": "COMP441",
+      "code": "COMP 441",
+      "title": "Human-Computer Interaction",
+      "credits": 3
+    },
+    {
+      "id": "COMP442",
+      "code": "COMP 442",
+      "title": "Server-Side Software Development",
+      "credits": 3
+    },
+    {
+      "id": "COMP443",
+      "code": "COMP 443",
+      "title": "Computer Networks",
+      "credits": 3
+    },
+    {
+      "id": "COMP445",
+      "code": "COMP 445",
+      "title": "Internet of Things Device and Application Security",
+      "credits": 3
+    },
+    {
+      "id": "COMP446",
+      "code": "COMP 446",
+      "title": "Telecommunications",
+      "credits": 3
+    },
+    {
+      "id": "COMP447",
+      "code": "COMP 447",
+      "title": "Intrusion Detection and Computer Forensics",
+      "credits": 3
+    },
+    {
+      "id": "COMP448",
+      "code": "COMP 448",
+      "title": "Network Security",
+      "credits": 3
+    },
+    {
+      "id": "COMP449",
+      "code": "COMP 449",
+      "title": "Wireless Networking and Security",
+      "credits": 3
+    },
+    {
+      "id": "COMP450",
+      "code": "COMP 450",
+      "title": "Applied Cryptography",
+      "credits": 3
+    },
+    {
+      "id": "COMP451",
+      "code": "COMP 451",
+      "title": "Enterprise Networking",
+      "credits": 3
+    },
+    {
+      "id": "COMP452",
+      "code": "COMP 452",
+      "title": "Introduction to Computer Vulnerabilities",
+      "credits": 3
+    },
+    {
+      "id": "COMP453",
+      "code": "COMP 453",
+      "title": "Database Programming",
+      "credits": 3
+    },
+    {
+      "id": "COMP458",
+      "code": "COMP 458",
+      "title": "Big Data Analytics",
+      "credits": 3
+    },
+    {
+      "id": "COMP460",
+      "code": "COMP 460",
+      "title": "Algorithms & Complexity",
+      "credits": 3
+    },
+    {
+      "id": "COMP462",
+      "code": "COMP 462",
+      "title": "Advanced Computer Architecture",
+      "credits": 3
+    },
+    {
+      "id": "COMP464",
+      "code": "COMP 464",
+      "title": "High-Performance Computing",
+      "credits": 3
+    },
+    {
+      "id": "COMP468",
+      "code": "COMP 468",
+      "title": "Database System Design",
+      "credits": 3
+    },
+    {
+      "id": "COMP469",
+      "code": "COMP 469",
+      "title": "Product Invention and 3D printing",
+      "credits": 3
+    },
+    {
+      "id": "COMP470",
+      "code": "COMP 470",
+      "title": "Software Quality and Testing",
+      "credits": 3
+    },
+    {
+      "id": "COMP471",
+      "code": "COMP 471",
+      "title": "Theory of Programming Languages",
+      "credits": 3
+    },
+    {
+      "id": "COMP472",
+      "code": "COMP 472",
+      "title": "Compiler Construction",
+      "credits": 3
+    },
+    {
+      "id": "COMP473",
+      "code": "COMP 473",
+      "title": "Advanced Object Oriented Programming",
+      "credits": 3
+    },
+    {
+      "id": "COMP474",
+      "code": "COMP 474",
+      "title": "Software Engineering",
+      "credits": 3
+    },
+    {
+      "id": "COMP476",
+      "code": "COMP 476",
+      "title": "Automata & Formal Languages",
+      "credits": 3
+    },
+    {
+      "id": "COMP477",
+      "code": "COMP 477",
+      "title": "IT Project Management",
+      "credits": 3
+    },
+    {
+      "id": "COMP479",
+      "code": "COMP 479",
+      "title": "Machine Learning",
+      "credits": 3
+    },
+    {
+      "id": "COMP480",
+      "code": "COMP 480",
+      "title": "Computer Graphics",
+      "credits": 3
+    },
+    {
+      "id": "COMP483",
+      "code": "COMP 483",
+      "title": "Computational Biology",
+      "credits": 4
+    },
+    {
+      "id": "COMP484",
+      "code": "COMP 484",
+      "title": "Artificial Intelligence",
+      "credits": 3
+    },
+    {
+      "id": "COMP486",
+      "code": "COMP 486",
+      "title": "Computational Neuroscience",
+      "credits": 3
+    },
+    {
+      "id": "COMP487",
+      "code": "COMP 487",
+      "title": "Deep Learning",
+      "credits": 3
+    },
+    {
+      "id": "COMP488",
+      "code": "COMP 488",
+      "title": "Computer Science Topics",
+      "credits": 1
+    },
+    {
+      "id": "COMP490",
+      "code": "COMP 490",
+      "title": "Independent Project",
+      "credits": 1
+    },
+    {
+      "id": "COMP499",
+      "code": "COMP 499",
+      "title": "Internship",
+      "credits": 1
+    },
+    {
+      "id": "COMP501",
+      "code": "COMP 501",
+      "title": "Equitable and Inclusive Computer Science Pedagogy",
+      "credits": 3
+    },
+    {
+      "id": "COMP502",
+      "code": "COMP 502",
+      "title": "Structure of Research Management and Funding",
+      "credits": 3
+    },
+    {
+      "id": "COMP503",
+      "code": "COMP 503",
+      "title": "Technology Entrepreneurship",
+      "credits": 3
+    },
+    {
+      "id": "COMP590",
+      "code": "COMP 590",
+      "title": "PhD Independent Study",
+      "credits": 3
+    },
+    {
+      "id": "COMP595",
+      "code": "COMP 595",
+      "title": "Thesis Supervision",
+      "credits": 0
+    },
+    {
+      "id": "COMP600",
+      "code": "COMP 600",
+      "title": "Dissertation Supervision",
+      "credits": 0
+    },
+    {
+      "id": "COMP605",
+      "code": "COMP 605",
+      "title": "Master of Science Study",
+      "credits": 0
+    },
+    {
+      "id": "COMP610",
+      "code": "COMP 610",
+      "title": "Doctoral Study",
+      "credits": 0
+    }
+  ]
+}

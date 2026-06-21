@@ -1,0 +1,199 @@
+{
+  "id": "phd-cs",
+  "catalogUrl": "https://catalog.luc.edu/graduate-professional/graduate-school/arts-sciences/computer-science/computer-science-phd/",
+  "fetchedAt": "2026-06-21",
+  "contentHash": "sha256:a81e3983b3be45f0ff709c3ffdd5503a",
+  "courseLists": [
+    {
+      "sections": [
+        {
+          "label": null,
+          "rows": [
+            {
+              "type": "course",
+              "code": "COMP 413",
+              "title": "Intermediate Object-Oriented Development",
+              "credits": 3,
+              "or": false
+            },
+            {
+              "type": "course",
+              "code": "COMP 417",
+              "title": "Social and Ethical Issues in Computing",
+              "credits": 3,
+              "or": false
+            },
+            {
+              "type": "course",
+              "code": "COMP 460",
+              "title": "Algorithms & Complexity",
+              "credits": 3,
+              "or": false
+            },
+            {
+              "type": "comment",
+              "text": "Three COMP 400-Level Electives",
+              "credits": 9
+            }
+          ]
+        },
+        {
+          "label": "Four Doctoral Qualifying Courses",
+          "rows": [
+            {
+              "type": "comment",
+              "text": "Theory",
+              "credits": null
+            },
+            {
+              "type": "course",
+              "code": "COMP 409",
+              "title": "Advanced Numerical Analysis",
+              "credits": 3,
+              "or": false
+            },
+            {
+              "type": "course",
+              "code": "COMP 431",
+              "title": "Cryptography",
+              "credits": 3,
+              "or": false
+            },
+            {
+              "type": "course",
+              "code": "COMP 471",
+              "title": "Theory of Programming Languages",
+              "credits": 3,
+              "or": false
+            },
+            {
+              "type": "comment",
+              "text": "Systems",
+              "credits": null
+            },
+            {
+              "type": "course",
+              "code": "COMP 410",
+              "title": "Operating Systems",
+              "credits": 3,
+              "or": false
+            },
+            {
+              "type": "course",
+              "code": "COMP 439",
+              "title": "Distributed Systems",
+              "credits": 3,
+              "or": false
+            },
+            {
+              "type": "course",
+              "code": "COMP 462",
+              "title": "Advanced Computer Architecture",
+              "credits": 3,
+              "or": false
+            },
+            {
+              "type": "course",
+              "code": "COMP 464",
+              "title": "High-Performance Computing",
+              "credits": 3,
+              "or": false
+            },
+            {
+              "type": "comment",
+              "text": "Software",
+              "credits": null
+            },
+            {
+              "type": "course",
+              "code": "COMP 473",
+              "title": "Advanced Object Oriented Programming",
+              "credits": 3,
+              "or": false
+            },
+            {
+              "type": "course",
+              "code": "COMP 474",
+              "title": "Software Engineering",
+              "credits": 3,
+              "or": false
+            },
+            {
+              "type": "course",
+              "code": "COMP 453",
+              "title": "Database Programming",
+              "credits": 3,
+              "or": false
+            },
+            {
+              "type": "comment",
+              "text": "Artificial Intelligence",
+              "credits": null
+            },
+            {
+              "type": "course",
+              "code": "COMP 429",
+              "title": "Natural Language Processing",
+              "credits": 3,
+              "or": false
+            },
+            {
+              "type": "course",
+              "code": "COMP 458",
+              "title": "Big Data Analytics",
+              "credits": 3,
+              "or": false
+            },
+            {
+              "type": "course",
+              "code": "COMP 479",
+              "title": "Machine Learning",
+              "credits": 3,
+              "or": false
+            },
+            {
+              "type": "course",
+              "code": "COMP 487",
+              "title": "Deep Learning",
+              "credits": 3,
+              "or": false
+            }
+          ]
+        },
+        {
+          "label": "Required COMP 500-Level Courses",
+          "rows": [
+            {
+              "type": "course",
+              "code": "COMP 501",
+              "title": "Equitable and Inclusive Computer Science Pedagogy",
+              "credits": 3,
+              "or": false
+            },
+            {
+              "type": "course",
+              "code": "COMP 502",
+              "title": "Structure of Research Management and Funding",
+              "credits": 3,
+              "or": false
+            },
+            {
+              "type": "course",
+              "code": "COMP 503",
+              "title": "Technology Entrepreneurship",
+              "credits": 3,
+              "or": false
+            },
+            {
+              "type": "comment",
+              "text": "Dissertation Research",
+              "credits": 21
+            }
+          ]
+        }
+      ],
+      "total": 60
+    }
+  ],
+  "roadmap": []
+}

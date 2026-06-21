@@ -1,0 +1,327 @@
+{
+  "catalog": "2026-2027",
+  "code": "LATN",
+  "name": "Latin",
+  "sourceUrl": "https://catalog.luc.edu/course-descriptions/latn/",
+  "fetchedAt": "2026-06-21",
+  "courses": [
+    {
+      "id": "LATN101",
+      "code": "LATN 101",
+      "title": "Latin I",
+      "credits": 3
+    },
+    {
+      "id": "LATN102",
+      "code": "LATN 102",
+      "title": "Latin II",
+      "credits": 3
+    },
+    {
+      "id": "LATN271",
+      "code": "LATN 271",
+      "title": "Introduction to Reading Latin",
+      "credits": 3
+    },
+    {
+      "id": "LATN281",
+      "code": "LATN 281",
+      "title": "Intro to Roman Historians",
+      "credits": 3
+    },
+    {
+      "id": "LATN283",
+      "code": "LATN 283",
+      "title": "The Age of Caesar",
+      "credits": 3
+    },
+    {
+      "id": "LATN284",
+      "code": "LATN 284",
+      "title": "The Age of Augustus",
+      "credits": 3
+    },
+    {
+      "id": "LATN286",
+      "code": "LATN 286",
+      "title": "The Age of Nero",
+      "credits": 3
+    },
+    {
+      "id": "LATN287",
+      "code": "LATN 287",
+      "title": "Age of Flavians",
+      "credits": 3
+    },
+    {
+      "id": "LATN289",
+      "code": "LATN 289",
+      "title": "Readings in Latin Literature",
+      "credits": 3
+    },
+    {
+      "id": "LATN303",
+      "code": "LATN 303",
+      "title": "Latin Composition",
+      "credits": 3
+    },
+    {
+      "id": "LATN314",
+      "code": "LATN 314",
+      "title": "Cicero's Letters",
+      "credits": 3
+    },
+    {
+      "id": "LATN315",
+      "code": "LATN 315",
+      "title": "The Latin Fathers",
+      "credits": 3
+    },
+    {
+      "id": "LATN317",
+      "code": "LATN 317",
+      "title": "Pliny The Younger",
+      "credits": 3
+    },
+    {
+      "id": "LATN325",
+      "code": "LATN 325",
+      "title": "The Orations of Cicero",
+      "credits": 3
+    },
+    {
+      "id": "LATN328",
+      "code": "LATN 328",
+      "title": "Quintilian",
+      "credits": 3
+    },
+    {
+      "id": "LATN332",
+      "code": "LATN 332",
+      "title": "Historical Masterworks I",
+      "credits": 3
+    },
+    {
+      "id": "LATN335",
+      "code": "LATN 335",
+      "title": "Historical Masterworks II",
+      "credits": 3
+    },
+    {
+      "id": "LATN341",
+      "code": "LATN 341",
+      "title": "Vergil",
+      "credits": 3
+    },
+    {
+      "id": "LATN343",
+      "code": "LATN 343",
+      "title": "Latin Verse",
+      "credits": 3
+    },
+    {
+      "id": "LATN344",
+      "code": "LATN 344",
+      "title": "Roman Elegy",
+      "credits": 3
+    },
+    {
+      "id": "LATN345",
+      "code": "LATN 345",
+      "title": "Horace",
+      "credits": 3
+    },
+    {
+      "id": "LATN346",
+      "code": "LATN 346",
+      "title": "Juvenal",
+      "credits": 3
+    },
+    {
+      "id": "LATN347",
+      "code": "LATN 347",
+      "title": "Early Christian Poetry",
+      "credits": 3
+    },
+    {
+      "id": "LATN351",
+      "code": "LATN 351",
+      "title": "Roman Comedy",
+      "credits": 3
+    },
+    {
+      "id": "LATN360",
+      "code": "LATN 360",
+      "title": "Lucretius",
+      "credits": 3
+    },
+    {
+      "id": "LATN361",
+      "code": "LATN 361",
+      "title": "St Augustine's Works",
+      "credits": 3
+    },
+    {
+      "id": "LATN362",
+      "code": "LATN 362",
+      "title": "Cicero's Philosophical Works",
+      "credits": 3
+    },
+    {
+      "id": "LATN364",
+      "code": "LATN 364",
+      "title": "Seneca",
+      "credits": 3
+    },
+    {
+      "id": "LATN373",
+      "code": "LATN 373",
+      "title": "Workshop-Secondary School Latin",
+      "credits": 3
+    },
+    {
+      "id": "LATN387",
+      "code": "LATN 387",
+      "title": "Medieval Latin",
+      "credits": 3
+    },
+    {
+      "id": "LATN388",
+      "code": "LATN 388",
+      "title": "Readings in Latin Literature",
+      "credits": 3
+    },
+    {
+      "id": "LATN389",
+      "code": "LATN 389",
+      "title": "Readings in Latin Literature",
+      "credits": 3
+    },
+    {
+      "id": "LATN415",
+      "code": "LATN 415",
+      "title": "The Latin Fathers",
+      "credits": 3
+    },
+    {
+      "id": "LATN418",
+      "code": "LATN 418",
+      "title": "St Augustine",
+      "credits": 3
+    },
+    {
+      "id": "LATN431",
+      "code": "LATN 431",
+      "title": "Caesar",
+      "credits": 3
+    },
+    {
+      "id": "LATN432",
+      "code": "LATN 432",
+      "title": "Livy",
+      "credits": 3
+    },
+    {
+      "id": "LATN435",
+      "code": "LATN 435",
+      "title": "The Annals of Tacitus",
+      "credits": 3
+    },
+    {
+      "id": "LATN436",
+      "code": "LATN 436",
+      "title": "The Histories of Tacitus",
+      "credits": 3
+    },
+    {
+      "id": "LATN438",
+      "code": "LATN 438",
+      "title": "Suetonius",
+      "credits": 3
+    },
+    {
+      "id": "LATN441",
+      "code": "LATN 441",
+      "title": "The Aeneid of Virgil",
+      "credits": 3
+    },
+    {
+      "id": "LATN442",
+      "code": "LATN 442",
+      "title": "Earlier Works of Virgil",
+      "credits": 3
+    },
+    {
+      "id": "LATN443",
+      "code": "LATN 443",
+      "title": "Catullus",
+      "credits": 3
+    },
+    {
+      "id": "LATN444",
+      "code": "LATN 444",
+      "title": "Roman Elegy",
+      "credits": 3
+    },
+    {
+      "id": "LATN445",
+      "code": "LATN 445",
+      "title": "Ovid",
+      "credits": 3
+    },
+    {
+      "id": "LATN446",
+      "code": "LATN 446",
+      "title": "The Odes of Horace",
+      "credits": 3
+    },
+    {
+      "id": "LATN451",
+      "code": "LATN 451",
+      "title": "Roman Comedy",
+      "credits": 3
+    },
+    {
+      "id": "LATN455",
+      "code": "LATN 455",
+      "title": "Tragedies of Seneca",
+      "credits": 3
+    },
+    {
+      "id": "LATN461",
+      "code": "LATN 461",
+      "title": "Lucretius",
+      "credits": 3
+    },
+    {
+      "id": "LATN462",
+      "code": "LATN 462",
+      "title": "Philosophy of Cicero",
+      "credits": 3
+    },
+    {
+      "id": "LATN488",
+      "code": "LATN 488",
+      "title": "Readings in Latin Literature I",
+      "credits": 3
+    },
+    {
+      "id": "LATN489",
+      "code": "LATN 489",
+      "title": "Readings in Latin Literature II",
+      "credits": 3
+    },
+    {
+      "id": "LATN499",
+      "code": "LATN 499",
+      "title": "Directed Study",
+      "credits": 3
+    },
+    {
+      "id": "LATN546",
+      "code": "LATN 546",
+      "title": "Seminar in Roman Satire",
+      "credits": 3
+    }
+  ]
+}

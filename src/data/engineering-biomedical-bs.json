@@ -200,14 +200,14 @@
     {
       "id": "PHYS121engr",
       "code": "PHYS 121",
-      "title": "College Physics I with Calculus",
+      "title": "College Physics I with Calculus Lecture/Discussion",
       "credits": 3,
       "category": "major"
     },
     {
       "id": "PHYS122engr",
       "code": "PHYS 122",
-      "title": "College Physics II with Calculus",
+      "title": "College Physics II with Calculus Lecture/Discussion",
       "credits": 3,
       "category": "major"
     },
@@ -249,7 +249,7 @@
         },
         {
           "isElective": true,
-          "label": "UNIV 101 \u2014 First Year Seminar",
+          "label": "UNIV 101 — First Year Seminar",
           "credits": 1
         }
       ]
@@ -276,7 +276,7 @@
         },
         {
           "isElective": true,
-          "label": "UCWR 110 \u2014 Writing Responsibly",
+          "label": "UCWR 110 — Writing Responsibly",
           "credits": 3
         },
         {

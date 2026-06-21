@@ -46,7 +46,7 @@
     {
       "id": "MATH130",
       "code": "MATH 130",
-      "title": "Calculus I (Business)",
+      "title": "Business Calculus",
       "credits": 3,
       "category": "major",
       "requirementGroup": "econ-calculus",
@@ -102,7 +102,7 @@
         },
         {
           "isElective": true,
-          "label": "STAT 103 \u2014 Fundamentals of Statistics",
+          "label": "STAT 103 — Fundamentals of Statistics",
           "credits": 3
         }
       ]

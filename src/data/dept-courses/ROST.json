@@ -1,0 +1,33 @@
+{
+  "catalog": "2026-2027",
+  "code": "ROST",
+  "name": "Rome Studies",
+  "sourceUrl": "https://catalog.luc.edu/course-descriptions/rost/",
+  "fetchedAt": "2026-06-21",
+  "courses": [
+    {
+      "id": "ROST199",
+      "code": "ROST 199",
+      "title": "Topics in Rome Studies: Introductory",
+      "credits": 1
+    },
+    {
+      "id": "ROST299",
+      "code": "ROST 299",
+      "title": "Topics in Rome Studies: Intermediate",
+      "credits": 1
+    },
+    {
+      "id": "ROST370",
+      "code": "ROST 370",
+      "title": "International Internship - Rome Focus",
+      "credits": 3
+    },
+    {
+      "id": "ROST382",
+      "code": "ROST 382",
+      "title": "Human Rights: View from Rome",
+      "credits": 3
+    }
+  ]
+}

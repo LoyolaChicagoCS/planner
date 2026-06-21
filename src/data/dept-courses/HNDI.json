@@ -1,0 +1,39 @@
+{
+  "catalog": "2026-2027",
+  "code": "HNDI",
+  "name": "Hindi",
+  "sourceUrl": "https://catalog.luc.edu/course-descriptions/hndi/",
+  "fetchedAt": "2026-06-21",
+  "courses": [
+    {
+      "id": "HNDI100",
+      "code": "HNDI 100",
+      "title": "Urdu Script",
+      "credits": 1
+    },
+    {
+      "id": "HNDI101",
+      "code": "HNDI 101",
+      "title": "Hindi-Urdu I",
+      "credits": 3
+    },
+    {
+      "id": "HNDI102",
+      "code": "HNDI 102",
+      "title": "Hindi-Urdu II",
+      "credits": 3
+    },
+    {
+      "id": "HNDI103",
+      "code": "HNDI 103",
+      "title": "Hindi-Urdu III",
+      "credits": 3
+    },
+    {
+      "id": "HNDI104",
+      "code": "HNDI 104",
+      "title": "Hindi-Urdu IV",
+      "credits": 3
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "catalog": "2026-2027",
+  "code": "UNIV",
+  "name": "University",
+  "sourceUrl": "https://catalog.luc.edu/course-descriptions/univ/",
+  "fetchedAt": "2026-06-21",
+  "courses": [
+    {
+      "id": "UNIV101",
+      "code": "UNIV 101",
+      "title": "First Year Seminar",
+      "credits": 1
+    },
+    {
+      "id": "UNIV102",
+      "code": "UNIV 102",
+      "title": "Loyola Seminar",
+      "credits": 1
+    },
+    {
+      "id": "UNIV112",
+      "code": "UNIV 112",
+      "title": "Strategies for Learning",
+      "credits": 1
+    },
+    {
+      "id": "UNIV114",
+      "code": "UNIV 114",
+      "title": "Bridge to Loyola Workshop",
+      "credits": 1
+    },
+    {
+      "id": "UNIV201",
+      "code": "UNIV 201",
+      "title": "Transfer Seminar",
+      "credits": 1
+    },
+    {
+      "id": "UNIV224",
+      "code": "UNIV 224",
+      "title": "Career & Life Planning Seminar",
+      "credits": 3
+    },
+    {
+      "id": "UNIV301",
+      "code": "UNIV 301",
+      "title": "Ricci Seminar Rome",
+      "credits": 3
+    },
+    {
+      "id": "UNIV302",
+      "code": "UNIV 302",
+      "title": "Ricci Seminar Asia",
+      "credits": 3
+    },
+    {
+      "id": "UNIV340",
+      "code": "UNIV 340",
+      "title": "Ricci Scholars Seminar",
+      "credits": 1
+    },
+    {
+      "id": "UNIV370",
+      "code": "UNIV 370",
+      "title": "Responsible Conduct in Research and Scholarship",
+      "credits": 0
+    }
+  ]
+}

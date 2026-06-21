@@ -13,7 +13,7 @@
     {
       "id": "SOCIOLOGY_MINOR_SOCL101",
       "code": "SOCL 101",
-      "title": "Society in a Global Age (or other 100-level class)",
+      "title": "Society in a Global Age",
       "credits": 3,
       "category": "major"
     }
@@ -70,7 +70,9 @@
       "semester": "Semester II",
       "credits": 3,
       "items": [
-        { "ref": "SOCIOLOGY_MINOR_SOCL101" }
+        {
+          "ref": "SOCIOLOGY_MINOR_SOCL101"
+        }
       ]
     },
     {
@@ -78,7 +80,11 @@
       "semester": "Semester I",
       "credits": 3,
       "items": [
-        { "label": "SOCL Elective 1", "credits": 3, "isElective": true }
+        {
+          "label": "SOCL Elective 1",
+          "credits": 3,
+          "isElective": true
+        }
       ]
     },
     {
@@ -86,7 +92,11 @@
       "semester": "Semester II",
       "credits": 3,
       "items": [
-        { "label": "SOCL Elective 2", "credits": 3, "isElective": true }
+        {
+          "label": "SOCL Elective 2",
+          "credits": 3,
+          "isElective": true
+        }
       ]
     },
     {
@@ -94,7 +104,11 @@
       "semester": "Semester I",
       "credits": 3,
       "items": [
-        { "label": "SOCL Elective 3", "credits": 3, "isElective": true }
+        {
+          "label": "SOCL Elective 3",
+          "credits": 3,
+          "isElective": true
+        }
       ]
     },
     {
@@ -102,7 +116,11 @@
       "semester": "Semester II",
       "credits": 3,
       "items": [
-        { "label": "SOCL Elective 4", "credits": 3, "isElective": true }
+        {
+          "label": "SOCL Elective 4",
+          "credits": 3,
+          "isElective": true
+        }
       ]
     },
     {
@@ -110,7 +128,11 @@
       "semester": "Semester I",
       "credits": 3,
       "items": [
-        { "label": "SOCL Elective 5", "credits": 3, "isElective": true }
+        {
+          "label": "SOCL Elective 5",
+          "credits": 3,
+          "isElective": true
+        }
       ]
     }
   ]

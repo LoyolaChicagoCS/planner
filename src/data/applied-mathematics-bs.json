@@ -46,35 +46,35 @@
     {
       "id": "MATH201",
       "code": "MATH 201",
-      "title": "Introduction to Discrete Mathematics",
+      "title": "Introduction to Discrete Mathematics & Number Theory",
       "credits": 3,
       "category": "major"
     },
     {
       "id": "STAT203",
       "code": "STAT 203",
-      "title": "Statistics",
+      "title": "Introduction to Probability & Statistics",
       "credits": 3,
       "category": "major"
     },
     {
       "id": "MATH313",
       "code": "MATH 313",
-      "title": "Abstract Algebra I",
+      "title": "Abstract Algebra",
       "credits": 3,
       "category": "major"
     },
     {
       "id": "MATH315",
       "code": "MATH 315",
-      "title": "Real Analysis I",
+      "title": "Advanced Topics in Linear Algebra",
       "credits": 3,
       "category": "major"
     },
     {
       "id": "MATH360",
       "code": "MATH 360",
-      "title": "Introduction to Numerical Methods",
+      "title": "Introduction to Game Theory",
       "credits": 3,
       "category": "major"
     }
@@ -168,7 +168,7 @@
         },
         {
           "isElective": true,
-          "label": "COMP 231 \u2014 Data Structures",
+          "label": "COMP 231 — Data Structures",
           "credits": 3
         }
       ]

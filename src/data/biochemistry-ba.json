@@ -103,28 +103,28 @@
     {
       "id": "PHYS111",
       "code": "PHYS 111",
-      "title": "College Physics I",
+      "title": "College Physics I Lec / Dis",
       "credits": 3,
       "category": "major"
     },
     {
       "id": "PHYS111L",
       "code": "PHYS 111L",
-      "title": "College Physics I Lab",
+      "title": "College Physics Laboratory I",
       "credits": 1,
       "category": "major"
     },
     {
       "id": "PHYS112",
       "code": "PHYS 112",
-      "title": "College Physics II",
+      "title": "College Physics II Lec/Disc",
       "credits": 3,
       "category": "major"
     },
     {
       "id": "PHYS112L",
       "code": "PHYS 112L",
-      "title": "College Physics II Lab",
+      "title": "College Physics Lab II",
       "credits": 1,
       "category": "major"
     },

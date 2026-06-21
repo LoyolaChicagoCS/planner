@@ -10,8 +10,20 @@
   "hasCompletionEstimate": false,
   "catalogUrl": "https://catalog.luc.edu/undergraduate/arts-sciences/race-ethnicity/race-ethnicity-minor/",
   "courses": [
-    { "id": "RACE_ETHNICITY_MINOR_SOCL122", "code": "SOCL 122", "title": "Race and Ethnic Relations", "credits": 3, "category": "major" },
-    { "id": "RACE_ETHNICITY_MINOR_SOCL380", "code": "SOCL 380", "title": "Internship", "credits": 3, "category": "major" }
+    {
+      "id": "RACE_ETHNICITY_MINOR_SOCL122",
+      "code": "SOCL 122",
+      "title": "Race and Ethnic Relations",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "RACE_ETHNICITY_MINOR_SOCL380",
+      "code": "SOCL 380",
+      "title": "Internship",
+      "credits": 3,
+      "category": "major"
+    }
   ],
   "electiveOptions": {
     "theories": {
@@ -19,16 +31,66 @@
       "label": "Theories of Race and Ethnicity",
       "note": "Choose at least one of the following.",
       "courses": [
-        { "id": "RACE_ETHNICITY_MINOR_ANTH105", "code": "ANTH 105", "title": "Theories of Race and Ethnicity option", "credits": 3 },
-        { "id": "RACE_ETHNICITY_MINOR_ANTH304", "code": "ANTH 304", "title": "Theories of Race and Ethnicity option", "credits": 3 },
-        { "id": "RACE_ETHNICITY_MINOR_CJC372", "code": "CJC 372", "title": "Theories of Race and Ethnicity option", "credits": 3 },
-        { "id": "RACE_ETHNICITY_MINOR_HIST374", "code": "HIST 374", "title": "Theories of Race and Ethnicity option", "credits": 3 },
-        { "id": "RACE_ETHNICITY_MINOR_HIST378", "code": "HIST 378", "title": "Theories of Race and Ethnicity option", "credits": 3 },
-        { "id": "RACE_ETHNICITY_MINOR_HIST380", "code": "HIST 380", "title": "Theories of Race and Ethnicity option", "credits": 3 },
-        { "id": "RACE_ETHNICITY_MINOR_PHIL389", "code": "PHIL 389", "title": "Theories of Race and Ethnicity option", "credits": 3 },
-        { "id": "RACE_ETHNICITY_MINOR_PLSC218", "code": "PLSC 218", "title": "Theories of Race and Ethnicity option", "credits": 3 },
-        { "id": "RACE_ETHNICITY_MINOR_PLSC300A", "code": "PLSC 300A", "title": "Theories of Race and Ethnicity option", "credits": 3 },
-        { "id": "RACE_ETHNICITY_MINOR_SOCL228", "code": "SOCL 228", "title": "Theories of Race and Ethnicity option", "credits": 3 }
+        {
+          "id": "RACE_ETHNICITY_MINOR_ANTH105",
+          "code": "ANTH 105",
+          "title": "Human Biocultural Diversity",
+          "credits": 3
+        },
+        {
+          "id": "RACE_ETHNICITY_MINOR_ANTH304",
+          "code": "ANTH 304",
+          "title": "Anthropological Theory",
+          "credits": 3
+        },
+        {
+          "id": "RACE_ETHNICITY_MINOR_CJC372",
+          "code": "CJC 372",
+          "title": "Race, Ethnicity, and Criminal Justice",
+          "credits": 3
+        },
+        {
+          "id": "RACE_ETHNICITY_MINOR_HIST374",
+          "code": "HIST 374",
+          "title": "Black Politics",
+          "credits": 3
+        },
+        {
+          "id": "RACE_ETHNICITY_MINOR_HIST378",
+          "code": "HIST 378",
+          "title": "Latina/o History",
+          "credits": 3
+        },
+        {
+          "id": "RACE_ETHNICITY_MINOR_HIST380",
+          "code": "HIST 380",
+          "title": "Introduction to African-American History",
+          "credits": 3
+        },
+        {
+          "id": "RACE_ETHNICITY_MINOR_PHIL389",
+          "code": "PHIL 389",
+          "title": "Contemporary Issues",
+          "credits": 3
+        },
+        {
+          "id": "RACE_ETHNICITY_MINOR_PLSC218",
+          "code": "PLSC 218",
+          "title": "African-American Politics",
+          "credits": 3
+        },
+        {
+          "id": "RACE_ETHNICITY_MINOR_PLSC300A",
+          "code": "PLSC 300A",
+          "title": "Contemporary Political Issues: American Politics",
+          "credits": 3
+        },
+        {
+          "id": "RACE_ETHNICITY_MINOR_SOCL228",
+          "code": "SOCL 228",
+          "title": "Sociology of the African American Experience",
+          "credits": 3
+        }
       ]
     },
     "inequality": {
@@ -36,19 +98,84 @@
       "label": "Racial and Ethnic Inequality and Racism",
       "note": "Choose at least one of the following.",
       "courses": [
-        { "id": "RACE_ETHNICITY_MINOR_ANTH203", "code": "ANTH 203", "title": "Racial and Ethnic Inequality and Racism option", "credits": 3 },
-        { "id": "RACE_ETHNICITY_MINOR_ANTH332", "code": "ANTH 332", "title": "Racial and Ethnic Inequality and Racism option", "credits": 3 },
-        { "id": "RACE_ETHNICITY_MINOR_CJC345", "code": "CJC 345", "title": "Racial and Ethnic Inequality and Racism option", "credits": 3 },
-        { "id": "RACE_ETHNICITY_MINOR_HIST359F", "code": "HIST 359F", "title": "Racial and Ethnic Inequality and Racism option", "credits": 3 },
-        { "id": "RACE_ETHNICITY_MINOR_HIST360A", "code": "HIST 360A", "title": "Racial and Ethnic Inequality and Racism option", "credits": 3 },
-        { "id": "RACE_ETHNICITY_MINOR_PLSC316", "code": "PLSC 316", "title": "Racial and Ethnic Inequality and Racism option", "credits": 3 },
-        { "id": "RACE_ETHNICITY_MINOR_PLSC390", "code": "PLSC 390", "title": "Racial and Ethnic Inequality and Racism option", "credits": 3 },
-        { "id": "RACE_ETHNICITY_MINOR_PSYC239", "code": "PSYC 239", "title": "Racial and Ethnic Inequality and Racism option", "credits": 3 },
-        { "id": "RACE_ETHNICITY_MINOR_PSYC360", "code": "PSYC 360", "title": "Racial and Ethnic Inequality and Racism option", "credits": 3 },
-        { "id": "RACE_ETHNICITY_MINOR_SOCL225", "code": "SOCL 225", "title": "Racial and Ethnic Inequality and Racism option", "credits": 3 },
-        { "id": "RACE_ETHNICITY_MINOR_SOCL250", "code": "SOCL 250", "title": "Racial and Ethnic Inequality and Racism option", "credits": 3 },
-        { "id": "RACE_ETHNICITY_MINOR_SOCL252", "code": "SOCL 252", "title": "Racial and Ethnic Inequality and Racism option", "credits": 3 },
-        { "id": "RACE_ETHNICITY_MINOR_THEO203", "code": "THEO 203", "title": "Racial and Ethnic Inequality and Racism option", "credits": 3 }
+        {
+          "id": "RACE_ETHNICITY_MINOR_ANTH203",
+          "code": "ANTH 203",
+          "title": "Violence, Social Suffering, and Justice",
+          "credits": 3
+        },
+        {
+          "id": "RACE_ETHNICITY_MINOR_ANTH332",
+          "code": "ANTH 332",
+          "title": "Language, Race, and Inequality",
+          "credits": 3
+        },
+        {
+          "id": "RACE_ETHNICITY_MINOR_CJC345",
+          "code": "CJC 345",
+          "title": "Social Justice and Crime",
+          "credits": 3
+        },
+        {
+          "id": "RACE_ETHNICITY_MINOR_HIST359F",
+          "code": "HIST 359F",
+          "title": "Genocides in the Modern World",
+          "credits": 3
+        },
+        {
+          "id": "RACE_ETHNICITY_MINOR_HIST360A",
+          "code": "HIST 360A",
+          "title": "Slavery and Abolition: Then & Now",
+          "credits": 3
+        },
+        {
+          "id": "RACE_ETHNICITY_MINOR_PLSC316",
+          "code": "PLSC 316",
+          "title": "Politics of Genocide",
+          "credits": 3
+        },
+        {
+          "id": "RACE_ETHNICITY_MINOR_PLSC390",
+          "code": "PLSC 390",
+          "title": "Urban Politics",
+          "credits": 3
+        },
+        {
+          "id": "RACE_ETHNICITY_MINOR_PSYC239",
+          "code": "PSYC 239",
+          "title": "Understanding Bias and Inclusivity",
+          "credits": 3
+        },
+        {
+          "id": "RACE_ETHNICITY_MINOR_PSYC360",
+          "code": "PSYC 360",
+          "title": "Understanding Prejudice",
+          "credits": 3
+        },
+        {
+          "id": "RACE_ETHNICITY_MINOR_SOCL225",
+          "code": "SOCL 225",
+          "title": "Sociology of Health Care",
+          "credits": 3
+        },
+        {
+          "id": "RACE_ETHNICITY_MINOR_SOCL250",
+          "code": "SOCL 250",
+          "title": "Inequality in Society",
+          "credits": 3
+        },
+        {
+          "id": "RACE_ETHNICITY_MINOR_SOCL252",
+          "code": "SOCL 252",
+          "title": "Global Inequalities",
+          "credits": 3
+        },
+        {
+          "id": "RACE_ETHNICITY_MINOR_THEO203",
+          "code": "THEO 203",
+          "title": "Social Justice and Injustice",
+          "credits": 3
+        }
       ]
     },
     "perspectives": {
@@ -56,22 +183,102 @@
       "label": "Historical, Cultural, and Contemporary Perspectives on Racial and Ethnic Issues",
       "note": "Choose at least one of the following.",
       "courses": [
-        { "id": "RACE_ETHNICITY_MINOR_ANTH208", "code": "ANTH 208", "title": "Historical, Cultural, and Contemporary Perspectives option", "credits": 3 },
-        { "id": "RACE_ETHNICITY_MINOR_ANTH211", "code": "ANTH 211", "title": "Historical, Cultural, and Contemporary Perspectives option", "credits": 3 },
-        { "id": "RACE_ETHNICITY_MINOR_ANTH213", "code": "ANTH 213", "title": "Historical, Cultural, and Contemporary Perspectives option", "credits": 3 },
-        { "id": "RACE_ETHNICITY_MINOR_ANTH216", "code": "ANTH 216", "title": "Historical, Cultural, and Contemporary Perspectives option", "credits": 3 },
-        { "id": "RACE_ETHNICITY_MINOR_ANTH217", "code": "ANTH 217", "title": "Historical, Cultural, and Contemporary Perspectives option", "credits": 3 },
-        { "id": "RACE_ETHNICITY_MINOR_ANTH242", "code": "ANTH 242", "title": "Historical, Cultural, and Contemporary Perspectives option", "credits": 3 },
-        { "id": "RACE_ETHNICITY_MINOR_CJC375", "code": "CJC 375", "title": "Historical, Cultural, and Contemporary Perspectives option", "credits": 3 },
-        { "id": "RACE_ETHNICITY_MINOR_ENGL282B", "code": "ENGL 282B", "title": "Historical, Cultural, and Contemporary Perspectives option", "credits": 3 },
-        { "id": "RACE_ETHNICITY_MINOR_ENGL284", "code": "ENGL 284", "title": "Historical, Cultural, and Contemporary Perspectives option", "credits": 3 },
-        { "id": "RACE_ETHNICITY_MINOR_ENGL313", "code": "ENGL 313", "title": "Historical, Cultural, and Contemporary Perspectives option", "credits": 3 },
-        { "id": "RACE_ETHNICITY_MINOR_HIST389B", "code": "HIST 389B", "title": "Historical, Cultural, and Contemporary Perspectives option", "credits": 3 },
-        { "id": "RACE_ETHNICITY_MINOR_PLSC334", "code": "PLSC 334", "title": "Historical, Cultural, and Contemporary Perspectives option", "credits": 3 },
-        { "id": "RACE_ETHNICITY_MINOR_ROST382", "code": "ROST 382", "title": "Historical, Cultural, and Contemporary Perspectives option", "credits": 3 },
-        { "id": "RACE_ETHNICITY_MINOR_SOCL234", "code": "SOCL 234", "title": "Historical, Cultural, and Contemporary Perspectives option", "credits": 3 },
-        { "id": "RACE_ETHNICITY_MINOR_SOCL245", "code": "SOCL 245", "title": "Historical, Cultural, and Contemporary Perspectives option", "credits": 3 },
-        { "id": "RACE_ETHNICITY_MINOR_SOCL280", "code": "SOCL 280", "title": "Historical, Cultural, and Contemporary Perspectives option", "credits": 3 }
+        {
+          "id": "RACE_ETHNICITY_MINOR_ANTH208",
+          "code": "ANTH 208",
+          "title": "Language and Identity",
+          "credits": 3
+        },
+        {
+          "id": "RACE_ETHNICITY_MINOR_ANTH211",
+          "code": "ANTH 211",
+          "title": "Peoples of Latin America",
+          "credits": 3
+        },
+        {
+          "id": "RACE_ETHNICITY_MINOR_ANTH213",
+          "code": "ANTH 213",
+          "title": "Culture in Africa",
+          "credits": 3
+        },
+        {
+          "id": "RACE_ETHNICITY_MINOR_ANTH216",
+          "code": "ANTH 216",
+          "title": "Cultures of Migration",
+          "credits": 3
+        },
+        {
+          "id": "RACE_ETHNICITY_MINOR_ANTH217",
+          "code": "ANTH 217",
+          "title": "Mexican Culture & Heritage",
+          "credits": 3
+        },
+        {
+          "id": "RACE_ETHNICITY_MINOR_ANTH242",
+          "code": "ANTH 242",
+          "title": "Mesoamerican Archaeology and Survivance",
+          "credits": 3
+        },
+        {
+          "id": "RACE_ETHNICITY_MINOR_CJC375",
+          "code": "CJC 375",
+          "title": "Punishment and Society",
+          "credits": 3
+        },
+        {
+          "id": "RACE_ETHNICITY_MINOR_ENGL282B",
+          "code": "ENGL 282B",
+          "title": "African-American Literature 1700-1900",
+          "credits": 3
+        },
+        {
+          "id": "RACE_ETHNICITY_MINOR_ENGL284",
+          "code": "ENGL 284",
+          "title": "Asian American Literature",
+          "credits": 3
+        },
+        {
+          "id": "RACE_ETHNICITY_MINOR_ENGL313",
+          "code": "ENGL 313",
+          "title": "Border Literatures",
+          "credits": 3
+        },
+        {
+          "id": "RACE_ETHNICITY_MINOR_HIST389B",
+          "code": "HIST 389B",
+          "title": "Topic: Gender, Race, & Class in US History",
+          "credits": 3
+        },
+        {
+          "id": "RACE_ETHNICITY_MINOR_PLSC334",
+          "code": "PLSC 334",
+          "title": "Urban Policies and Problems",
+          "credits": 3
+        },
+        {
+          "id": "RACE_ETHNICITY_MINOR_ROST382",
+          "code": "ROST 382",
+          "title": "Human Rights: View from Rome",
+          "credits": 3
+        },
+        {
+          "id": "RACE_ETHNICITY_MINOR_SOCL234",
+          "code": "SOCL 234",
+          "title": "City, Suburbs & Beyond",
+          "credits": 3
+        },
+        {
+          "id": "RACE_ETHNICITY_MINOR_SOCL245",
+          "code": "SOCL 245",
+          "title": "Sociology of Education",
+          "credits": 3
+        },
+        {
+          "id": "RACE_ETHNICITY_MINOR_SOCL280",
+          "code": "SOCL 280",
+          "title": "Topics in Contemporary Sociology",
+          "credits": 3
+        }
       ]
     },
     "additional": {
@@ -89,7 +296,9 @@
       "semester": "Semester I",
       "credits": 3,
       "items": [
-        { "ref": "RACE_ETHNICITY_MINOR_SOCL122" }
+        {
+          "ref": "RACE_ETHNICITY_MINOR_SOCL122"
+        }
       ]
     },
     {
@@ -97,8 +306,16 @@
       "semester": "Semester II",
       "credits": 6,
       "items": [
-        { "label": "Theories of Race and Ethnicity Elective", "credits": 3, "isElective": true },
-        { "label": "Racial and Ethnic Inequality and Racism Elective", "credits": 3, "isElective": true }
+        {
+          "label": "Theories of Race and Ethnicity Elective",
+          "credits": 3,
+          "isElective": true
+        },
+        {
+          "label": "Racial and Ethnic Inequality and Racism Elective",
+          "credits": 3,
+          "isElective": true
+        }
       ]
     },
     {
@@ -106,8 +323,16 @@
       "semester": "Semester III",
       "credits": 6,
       "items": [
-        { "label": "Historical, Cultural, and Contemporary Perspectives Elective", "credits": 3, "isElective": true },
-        { "label": "Additional Elective Course", "credits": 3, "isElective": true }
+        {
+          "label": "Historical, Cultural, and Contemporary Perspectives Elective",
+          "credits": 3,
+          "isElective": true
+        },
+        {
+          "label": "Additional Elective Course",
+          "credits": 3,
+          "isElective": true
+        }
       ]
     },
     {
@@ -115,7 +340,9 @@
       "semester": "Semester IV",
       "credits": 3,
       "items": [
-        { "ref": "RACE_ETHNICITY_MINOR_SOCL380" }
+        {
+          "ref": "RACE_ETHNICITY_MINOR_SOCL380"
+        }
       ]
     }
   ]

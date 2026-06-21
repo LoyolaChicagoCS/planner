@@ -1,0 +1,75 @@
+{
+  "catalog": "2026-2027",
+  "code": "CHIN",
+  "name": "Chinese",
+  "sourceUrl": "https://catalog.luc.edu/course-descriptions/chin/",
+  "fetchedAt": "2026-06-21",
+  "courses": [
+    {
+      "id": "CHIN101",
+      "code": "CHIN 101",
+      "title": "Chinese I",
+      "credits": 3
+    },
+    {
+      "id": "CHIN102",
+      "code": "CHIN 102",
+      "title": "Chinese II",
+      "credits": 3
+    },
+    {
+      "id": "CHIN103",
+      "code": "CHIN 103",
+      "title": "Chinese III",
+      "credits": 3
+    },
+    {
+      "id": "CHIN104",
+      "code": "CHIN 104",
+      "title": "Chinese IV",
+      "credits": 3
+    },
+    {
+      "id": "CHIN190",
+      "code": "CHIN 190",
+      "title": "Business Chinese I",
+      "credits": 3
+    },
+    {
+      "id": "CHIN191",
+      "code": "CHIN 191",
+      "title": "Business Chinese II",
+      "credits": 3
+    },
+    {
+      "id": "CHIN250",
+      "code": "CHIN 250",
+      "title": "Composition and Conversation",
+      "credits": 3
+    },
+    {
+      "id": "CHIN251",
+      "code": "CHIN 251",
+      "title": "Advanced Composition & Conversation",
+      "credits": 3
+    },
+    {
+      "id": "CHIN252",
+      "code": "CHIN 252",
+      "title": "Advanced Composition and Conversation II",
+      "credits": 3
+    },
+    {
+      "id": "CHIN253",
+      "code": "CHIN 253",
+      "title": "Advanced Composition and Conversation III",
+      "credits": 3
+    },
+    {
+      "id": "CHIN395",
+      "code": "CHIN 395",
+      "title": "Tutorial",
+      "credits": 1
+    }
+  ]
+}

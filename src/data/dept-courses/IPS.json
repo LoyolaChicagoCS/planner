@@ -1,0 +1,573 @@
+{
+  "catalog": "2026-2027",
+  "code": "IPS",
+  "name": "Institute of Pastoral Studies",
+  "sourceUrl": "https://catalog.luc.edu/course-descriptions/ips/",
+  "fetchedAt": "2026-06-21",
+  "courses": [
+    {
+      "id": "IPS400",
+      "code": "IPS 400",
+      "title": "Introduction to Graduate and Professional Writing",
+      "credits": 0
+    },
+    {
+      "id": "IPS402",
+      "code": "IPS 402",
+      "title": "Church and Mission",
+      "credits": 3
+    },
+    {
+      "id": "IPS403",
+      "code": "IPS 403",
+      "title": "Spiritual Paths in World Religions",
+      "credits": 3
+    },
+    {
+      "id": "IPS404",
+      "code": "IPS 404",
+      "title": "Theologies of Suffering",
+      "credits": 3
+    },
+    {
+      "id": "IPS416",
+      "code": "IPS 416",
+      "title": "Introduction to New Testament",
+      "credits": 3
+    },
+    {
+      "id": "IPS417",
+      "code": "IPS 417",
+      "title": "Introduction to the Old Testament",
+      "credits": 3
+    },
+    {
+      "id": "IPS420",
+      "code": "IPS 420",
+      "title": "Ignatian Spiritual Direction Practicum I",
+      "credits": 3
+    },
+    {
+      "id": "IPS421",
+      "code": "IPS 421",
+      "title": "Ignatian Spiritual Direction Practicum II",
+      "credits": 2
+    },
+    {
+      "id": "IPS424",
+      "code": "IPS 424",
+      "title": "Catholic Social Ethics & Migration",
+      "credits": 3
+    },
+    {
+      "id": "IPS428",
+      "code": "IPS 428",
+      "title": "Introduction to Spirituality Praxis",
+      "credits": 3
+    },
+    {
+      "id": "IPS429",
+      "code": "IPS 429",
+      "title": "Essentials of Spiritual Direction",
+      "credits": 3
+    },
+    {
+      "id": "IPS430",
+      "code": "IPS 430",
+      "title": "Spiritual Direction Development and Practice",
+      "credits": 3
+    },
+    {
+      "id": "IPS433",
+      "code": "IPS 433",
+      "title": "Dorothy Day and Thomas Merton",
+      "credits": 3
+    },
+    {
+      "id": "IPS434",
+      "code": "IPS 434",
+      "title": "Art and Spirit: The Sacred and the Secular",
+      "credits": 3
+    },
+    {
+      "id": "IPS435",
+      "code": "IPS 435",
+      "title": "Spirituality and Same-Sex Orientation",
+      "credits": 3
+    },
+    {
+      "id": "IPS436",
+      "code": "IPS 436",
+      "title": "Prayer: Ongoing Path of Conversion",
+      "credits": 3
+    },
+    {
+      "id": "IPS440",
+      "code": "IPS 440",
+      "title": "The History of Israel",
+      "credits": 3
+    },
+    {
+      "id": "IPS441",
+      "code": "IPS 441",
+      "title": "The Pentateuch",
+      "credits": 3
+    },
+    {
+      "id": "IPS442",
+      "code": "IPS 442",
+      "title": "Prophetic Literature",
+      "credits": 3
+    },
+    {
+      "id": "IPS443",
+      "code": "IPS 443",
+      "title": "Wisdom Literature and Psalms",
+      "credits": 3
+    },
+    {
+      "id": "IPS445",
+      "code": "IPS 445",
+      "title": "The Synoptic Gospels",
+      "credits": 3
+    },
+    {
+      "id": "IPS446",
+      "code": "IPS 446",
+      "title": "Luke-Acts and the New Testament Church",
+      "credits": 3
+    },
+    {
+      "id": "IPS447",
+      "code": "IPS 447",
+      "title": "The Johannine Literature",
+      "credits": 3
+    },
+    {
+      "id": "IPS448",
+      "code": "IPS 448",
+      "title": "St. Paul's Contribution to Christianity",
+      "credits": 3
+    },
+    {
+      "id": "IPS449",
+      "code": "IPS 449",
+      "title": "The Person of Jesus in the New Testament",
+      "credits": 3
+    },
+    {
+      "id": "IPS454",
+      "code": "IPS 454",
+      "title": "Ministry with Young People & Spirituality Today",
+      "credits": 3
+    },
+    {
+      "id": "IPS456",
+      "code": "IPS 456",
+      "title": "Administration and Entrepreneurship in a Pastoral Context",
+      "credits": 3
+    },
+    {
+      "id": "IPS465",
+      "code": "IPS 465",
+      "title": "Psychology and Spirituality of Life Transitions",
+      "credits": 3
+    },
+    {
+      "id": "IPS467",
+      "code": "IPS 467",
+      "title": "Introduction to Canon Law",
+      "credits": 3
+    },
+    {
+      "id": "IPS472",
+      "code": "IPS 472",
+      "title": "Pastoral Counseling in an Intercultural Context",
+      "credits": 3
+    },
+    {
+      "id": "IPS473",
+      "code": "IPS 473",
+      "title": "Family Therapy and Personal Transformation",
+      "credits": 3
+    },
+    {
+      "id": "IPS474",
+      "code": "IPS 474",
+      "title": "Addictions & Modes of Therapy",
+      "credits": 3
+    },
+    {
+      "id": "IPS478",
+      "code": "IPS 478",
+      "title": "Couples Counseling",
+      "credits": 3
+    },
+    {
+      "id": "IPS480",
+      "code": "IPS 480",
+      "title": "Mindfulness and Pastoral Ministry",
+      "credits": 3
+    },
+    {
+      "id": "IPS483",
+      "code": "IPS 483",
+      "title": "The Pastoral Care & Counseling of Men",
+      "credits": 3
+    },
+    {
+      "id": "IPS485",
+      "code": "IPS 485",
+      "title": "Religious Education, Evangelization & Cultures",
+      "credits": 3
+    },
+    {
+      "id": "IPS486",
+      "code": "IPS 486",
+      "title": "Principles of Religious Education",
+      "credits": 3
+    },
+    {
+      "id": "IPS493",
+      "code": "IPS 493",
+      "title": "Health Care Integration Project Portfolio",
+      "credits": 0
+    },
+    {
+      "id": "IPS499",
+      "code": "IPS 499",
+      "title": "Guided Study",
+      "credits": 1
+    },
+    {
+      "id": "IPS501",
+      "code": "IPS 501",
+      "title": "Advanced Human Relation Skills",
+      "credits": 3
+    },
+    {
+      "id": "IPS502",
+      "code": "IPS 502",
+      "title": "Theology of the Developing Person",
+      "credits": 3
+    },
+    {
+      "id": "IPS503",
+      "code": "IPS 503",
+      "title": "Fundamentals of Pastoral Counseling",
+      "credits": 3
+    },
+    {
+      "id": "IPS505",
+      "code": "IPS 505",
+      "title": "Group Counseling Approaches",
+      "credits": 3
+    },
+    {
+      "id": "IPS507",
+      "code": "IPS 507",
+      "title": "Pastoral, Psychodynamic Assessment and Intervention",
+      "credits": 3
+    },
+    {
+      "id": "IPS509",
+      "code": "IPS 509",
+      "title": "Psychopathology",
+      "credits": 3
+    },
+    {
+      "id": "IPS511",
+      "code": "IPS 511",
+      "title": "Internship Supervision I",
+      "credits": 3
+    },
+    {
+      "id": "IPS512",
+      "code": "IPS 512",
+      "title": "Ethics, Pastoral Counseling, and Spirituality",
+      "credits": 3
+    },
+    {
+      "id": "IPS513",
+      "code": "IPS 513",
+      "title": "Internship Supervision II",
+      "credits": 3
+    },
+    {
+      "id": "IPS515",
+      "code": "IPS 515",
+      "title": "Research Methods",
+      "credits": 3
+    },
+    {
+      "id": "IPS517",
+      "code": "IPS 517",
+      "title": "Models of Pastoral Counseling",
+      "credits": 3
+    },
+    {
+      "id": "IPS518",
+      "code": "IPS 518",
+      "title": "Career Counseling for the Pastoral Counselor",
+      "credits": 3
+    },
+    {
+      "id": "IPS520",
+      "code": "IPS 520",
+      "title": "Testing, Measurement & Assessment",
+      "credits": 3
+    },
+    {
+      "id": "IPS530",
+      "code": "IPS 530",
+      "title": "Clinical Pastoral Care Registration",
+      "credits": 0
+    },
+    {
+      "id": "IPS531",
+      "code": "IPS 531",
+      "title": "Christian Doctrine",
+      "credits": 3
+    },
+    {
+      "id": "IPS532",
+      "code": "IPS 532",
+      "title": "Social Context of Ministry",
+      "credits": 3
+    },
+    {
+      "id": "IPS541",
+      "code": "IPS 541",
+      "title": "Liturgy and Christian Sacraments",
+      "credits": 3
+    },
+    {
+      "id": "IPS545",
+      "code": "IPS 545",
+      "title": "The Foundations of Christian Spirituality",
+      "credits": 3
+    },
+    {
+      "id": "IPS551",
+      "code": "IPS 551",
+      "title": "Social Ethics in the Catholic Tradition",
+      "credits": 3
+    },
+    {
+      "id": "IPS553",
+      "code": "IPS 553",
+      "title": "Moral Theology and Christian Ethics",
+      "credits": 3
+    },
+    {
+      "id": "IPS555",
+      "code": "IPS 555",
+      "title": "Human Person and Psychological Development",
+      "credits": 3
+    },
+    {
+      "id": "IPS560",
+      "code": "IPS 560",
+      "title": "Liturgical Leadership",
+      "credits": 3
+    },
+    {
+      "id": "IPS564",
+      "code": "IPS 564",
+      "title": "Foundations of Pastoral Care",
+      "credits": 3
+    },
+    {
+      "id": "IPS565",
+      "code": "IPS 565",
+      "title": "Pastoral Leadership",
+      "credits": 3
+    },
+    {
+      "id": "IPS570",
+      "code": "IPS 570",
+      "title": "Introduction to Theology and Ministry",
+      "credits": 3
+    },
+    {
+      "id": "IPS572",
+      "code": "IPS 572",
+      "title": "Ignatian Spirituality",
+      "credits": 3
+    },
+    {
+      "id": "IPS573",
+      "code": "IPS 573",
+      "title": "Spiritual Exercises of St Ignatius",
+      "credits": 3
+    },
+    {
+      "id": "IPS578",
+      "code": "IPS 578",
+      "title": "Contextual Education Preparation",
+      "credits": 0
+    },
+    {
+      "id": "IPS579",
+      "code": "IPS 579",
+      "title": "Contextual Education Introduction",
+      "credits": 5
+    },
+    {
+      "id": "IPS580",
+      "code": "IPS 580",
+      "title": "Contextual Education I",
+      "credits": 5
+    },
+    {
+      "id": "IPS581",
+      "code": "IPS 581",
+      "title": "Contextual Education II",
+      "credits": 3
+    },
+    {
+      "id": "IPS585",
+      "code": "IPS 585",
+      "title": "Intro to Spiritual Direction Certificate Praxis for Contextual Ed",
+      "credits": 5
+    },
+    {
+      "id": "IPS586",
+      "code": "IPS 586",
+      "title": "Spiritual Direction Certificate Praxis I for Contextual Ed",
+      "credits": 0
+    },
+    {
+      "id": "IPS587",
+      "code": "IPS 587",
+      "title": "Spiritual Direction Certificate Praxis II for Contextual Ed",
+      "credits": 0
+    },
+    {
+      "id": "IPS593",
+      "code": "IPS 593",
+      "title": "Integration Project",
+      "credits": 0
+    },
+    {
+      "id": "IPS596",
+      "code": "IPS 596",
+      "title": "Special Topics in Health Care Ethics",
+      "credits": 1
+    },
+    {
+      "id": "IPS599",
+      "code": "IPS 599",
+      "title": "Special Topics",
+      "credits": 1
+    },
+    {
+      "id": "IPS605",
+      "code": "IPS 605",
+      "title": "Master's Study",
+      "credits": 0
+    },
+    {
+      "id": "IPS610",
+      "code": "IPS 610",
+      "title": "Foundations of Social Justice",
+      "credits": 3
+    },
+    {
+      "id": "IPS615",
+      "code": "IPS 615",
+      "title": "Liberation Theology",
+      "credits": 3
+    },
+    {
+      "id": "IPS620",
+      "code": "IPS 620",
+      "title": "Diversity and Equity",
+      "credits": 3
+    },
+    {
+      "id": "IPS625",
+      "code": "IPS 625",
+      "title": "Social Ethics: Politics and Global Economics",
+      "credits": 3
+    },
+    {
+      "id": "IPS627",
+      "code": "IPS 627",
+      "title": "Social Entrepreneurship",
+      "credits": 3
+    },
+    {
+      "id": "IPS635",
+      "code": "IPS 635",
+      "title": "Community Organizing and Community Development",
+      "credits": 3
+    },
+    {
+      "id": "IPS651",
+      "code": "IPS 651",
+      "title": "Clinical Bioethics",
+      "credits": 3
+    },
+    {
+      "id": "IPS652",
+      "code": "IPS 652",
+      "title": "Organizational Ethics I",
+      "credits": 3
+    },
+    {
+      "id": "IPS653",
+      "code": "IPS 653",
+      "title": "Organizational Ethics II",
+      "credits": 3
+    },
+    {
+      "id": "IPS654",
+      "code": "IPS 654",
+      "title": "Catholic Bioethics and Clinical Practice",
+      "credits": 3
+    },
+    {
+      "id": "IPS655",
+      "code": "IPS 655",
+      "title": "Catholic Bioethics and Social Justice",
+      "credits": 3
+    },
+    {
+      "id": "IPS656",
+      "code": "IPS 656",
+      "title": "Advancing Health Equity Practice",
+      "credits": 3
+    },
+    {
+      "id": "IPS657",
+      "code": "IPS 657",
+      "title": "Advanced Concepts in Health Systems Management",
+      "credits": 3
+    },
+    {
+      "id": "IPS658",
+      "code": "IPS 658",
+      "title": "Fiscal Management for Health Care Organizations",
+      "credits": 3
+    },
+    {
+      "id": "IPS659",
+      "code": "IPS 659",
+      "title": "Management of Professionals in Healthcare Organizations",
+      "credits": 3
+    },
+    {
+      "id": "IPS660",
+      "code": "IPS 660",
+      "title": "Leadership in Social Justice Organizations",
+      "credits": 3
+    },
+    {
+      "id": "IPS672",
+      "code": "IPS 672",
+      "title": "Media for Ministry and Mission",
+      "credits": 3
+    }
+  ]
+}

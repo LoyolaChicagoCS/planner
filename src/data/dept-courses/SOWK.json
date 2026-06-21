@@ -1,0 +1,569 @@
+{
+  "catalog": "2026-2027",
+  "code": "SOWK",
+  "name": "Social Work",
+  "sourceUrl": "https://catalog.luc.edu/course-descriptions/sowk/",
+  "fetchedAt": "2026-06-21",
+  "courses": [
+    {
+      "id": "SOWK200",
+      "code": "SOWK 200",
+      "title": "Introduction to Social Work",
+      "credits": 3
+    },
+    {
+      "id": "SOWK301",
+      "code": "SOWK 301",
+      "title": "Practice Skills with Individuals and Families",
+      "credits": 3
+    },
+    {
+      "id": "SOWK302",
+      "code": "SOWK 302",
+      "title": "Integrated Micro/Mezzo/Macro Theory and Practice",
+      "credits": 3
+    },
+    {
+      "id": "SOWK303",
+      "code": "SOWK 303",
+      "title": "Group Work Practice in Social Work: Micro/Mezzo/Macro",
+      "credits": 3
+    },
+    {
+      "id": "SOWK305",
+      "code": "SOWK 305",
+      "title": "Life Span Development, Human Behavior, Trauma, & Theory",
+      "credits": 3
+    },
+    {
+      "id": "SOWK307",
+      "code": "SOWK 307",
+      "title": "Social Work Policy and Community Intervention",
+      "credits": 3
+    },
+    {
+      "id": "SOWK308",
+      "code": "SOWK 308",
+      "title": "Integrated Micro, Mezzo, and Macro Practice",
+      "credits": 3
+    },
+    {
+      "id": "SOWK330",
+      "code": "SOWK 330",
+      "title": "Internship I and Simulated Experience",
+      "credits": 4
+    },
+    {
+      "id": "SOWK340",
+      "code": "SOWK 340",
+      "title": "Internship II and Simulated Experience",
+      "credits": 4
+    },
+    {
+      "id": "SOWK350",
+      "code": "SOWK 350",
+      "title": "Preparation for Practice",
+      "credits": 3
+    },
+    {
+      "id": "SOWK360",
+      "code": "SOWK 360",
+      "title": "Independent Study",
+      "credits": 1
+    },
+    {
+      "id": "SOWK361",
+      "code": "SOWK 361",
+      "title": "Special Topics",
+      "credits": 3
+    },
+    {
+      "id": "SOWK370",
+      "code": "SOWK 370",
+      "title": "Power, Oppression, Privilege, and Social Justice",
+      "credits": 3
+    },
+    {
+      "id": "SOWK380",
+      "code": "SOWK 380",
+      "title": "Assessment of Client Concerns in Context",
+      "credits": 3
+    },
+    {
+      "id": "SOWK390",
+      "code": "SOWK 390",
+      "title": "Research and Evaluation in Social Work Practice",
+      "credits": 3
+    },
+    {
+      "id": "SOWK500",
+      "code": "SOWK 500",
+      "title": "Life Span Development, Human Behavior, Trauma, & Theory",
+      "credits": 3
+    },
+    {
+      "id": "SOWK501",
+      "code": "SOWK 501",
+      "title": "Assessment of Client Concerns in Context",
+      "credits": 3
+    },
+    {
+      "id": "SOWK502",
+      "code": "SOWK 502",
+      "title": "Power, Oppression, Privilege, and Social Justice",
+      "credits": 3
+    },
+    {
+      "id": "SOWK503",
+      "code": "SOWK 503",
+      "title": "Practice Skills with Individuals and Families",
+      "credits": 3
+    },
+    {
+      "id": "SOWK504",
+      "code": "SOWK 504",
+      "title": "Integrated Micro/Mezzo/Macro Theory and Practice",
+      "credits": 3
+    },
+    {
+      "id": "SOWK505",
+      "code": "SOWK 505",
+      "title": "Group Work Practice in Social Work: Micro/Mezzo/Macro",
+      "credits": 3
+    },
+    {
+      "id": "SOWK506",
+      "code": "SOWK 506",
+      "title": "Research and Evaluation in Social Work Practice",
+      "credits": 3
+    },
+    {
+      "id": "SOWK508",
+      "code": "SOWK 508",
+      "title": "Integrated Micro, Mezzo, and Macro Practice",
+      "credits": 3
+    },
+    {
+      "id": "SOWK509",
+      "code": "SOWK 509",
+      "title": "Social Work Policy and Community Intervention",
+      "credits": 3
+    },
+    {
+      "id": "SOWK600",
+      "code": "SOWK 600",
+      "title": "Dissertation Supervision",
+      "credits": 0
+    },
+    {
+      "id": "SOWK602",
+      "code": "SOWK 602",
+      "title": "Health and Behavioral Health Policy and Systems",
+      "credits": 3
+    },
+    {
+      "id": "SOWK603",
+      "code": "SOWK 603",
+      "title": "Seminar in Brief Treatment",
+      "credits": 3
+    },
+    {
+      "id": "SOWK604",
+      "code": "SOWK 604",
+      "title": "Advanced Clinical Social Work Practice with Groups",
+      "credits": 3
+    },
+    {
+      "id": "SOWK605",
+      "code": "SOWK 605",
+      "title": "Human Sexuality and Sexual Dysfunction",
+      "credits": 3
+    },
+    {
+      "id": "SOWK606",
+      "code": "SOWK 606",
+      "title": "Practicum in Research & Evaluation",
+      "credits": 3
+    },
+    {
+      "id": "SOWK609",
+      "code": "SOWK 609",
+      "title": "School Social Work Policy and Practice I",
+      "credits": 3,
+      "isTopics": true,
+      "topicsCount": 2
+    },
+    {
+      "id": "SOWK611",
+      "code": "SOWK 611",
+      "title": "Social Work Practice with Couples",
+      "credits": 3
+    },
+    {
+      "id": "SOWK612",
+      "code": "SOWK 612",
+      "title": "Family Assessment and Intervention",
+      "credits": 3
+    },
+    {
+      "id": "SOWK613",
+      "code": "SOWK 613",
+      "title": "Advanced Family Treatment",
+      "credits": 3
+    },
+    {
+      "id": "SOWK614",
+      "code": "SOWK 614",
+      "title": "Clinical Social Work Practice in Health Care",
+      "credits": 3
+    },
+    {
+      "id": "SOWK615",
+      "code": "SOWK 615",
+      "title": "Social Work Practice with Adolescents",
+      "credits": 3
+    },
+    {
+      "id": "SOWK616",
+      "code": "SOWK 616",
+      "title": "Psychotherapy with Adults",
+      "credits": 3
+    },
+    {
+      "id": "SOWK618",
+      "code": "SOWK 618",
+      "title": "The Role of Religion and Spirituality in Psychotherapy",
+      "credits": 3
+    },
+    {
+      "id": "SOWK619",
+      "code": "SOWK 619",
+      "title": "Issues in Treatment of Women",
+      "credits": 3
+    },
+    {
+      "id": "SOWK620",
+      "code": "SOWK 620",
+      "title": "Clinical Social Work Practice with Children",
+      "credits": 3
+    },
+    {
+      "id": "SOWK621",
+      "code": "SOWK 621",
+      "title": "Clinical Practice in Addiction",
+      "credits": 3
+    },
+    {
+      "id": "SOWK622",
+      "code": "SOWK 622",
+      "title": "Substance Abuse Treatment in Groups",
+      "credits": 3
+    },
+    {
+      "id": "SOWK626",
+      "code": "SOWK 626",
+      "title": "Social Work with Severely Mentally Ill",
+      "credits": 3
+    },
+    {
+      "id": "SOWK631",
+      "code": "SOWK 631",
+      "title": "Clinical Social Work Practice with Family Violence",
+      "credits": 3
+    },
+    {
+      "id": "SOWK632",
+      "code": "SOWK 632",
+      "title": "Clinical Social Work with Older Adults",
+      "credits": 3
+    },
+    {
+      "id": "SOWK634",
+      "code": "SOWK 634",
+      "title": "Special Topics",
+      "credits": 1
+    },
+    {
+      "id": "SOWK637",
+      "code": "SOWK 637",
+      "title": "Neurodevelopment and Trauma",
+      "credits": 3
+    },
+    {
+      "id": "SOWK645",
+      "code": "SOWK 645",
+      "title": "Crisis Intervention",
+      "credits": 3
+    },
+    {
+      "id": "SOWK650",
+      "code": "SOWK 650",
+      "title": "Leadership & Supervision in Service Organizations",
+      "credits": 3
+    },
+    {
+      "id": "SOWK652",
+      "code": "SOWK 652",
+      "title": "Organizations, Program Development, and Evaluation",
+      "credits": 3
+    },
+    {
+      "id": "SOWK653",
+      "code": "SOWK 653",
+      "title": "Community Organizing and Policy Practice",
+      "credits": 3
+    },
+    {
+      "id": "SOWK656",
+      "code": "SOWK 656",
+      "title": "Social Work Practice with LGBTQ Populations",
+      "credits": 3
+    },
+    {
+      "id": "SOWK662",
+      "code": "SOWK 662",
+      "title": "Professional Development",
+      "credits": 3
+    },
+    {
+      "id": "SOWK670",
+      "code": "SOWK 670",
+      "title": "Bridging Psychodynamic Theory and Cognitive Behavioral Practice",
+      "credits": 3
+    },
+    {
+      "id": "SOWK680",
+      "code": "SOWK 680",
+      "title": "Advanced Micro-Level Practice",
+      "credits": 3
+    },
+    {
+      "id": "SOWK681",
+      "code": "SOWK 681",
+      "title": "Advanced Mezzo & Macro Practice",
+      "credits": 3
+    },
+    {
+      "id": "SOWK682",
+      "code": "SOWK 682",
+      "title": "Advanced Mezzo and Macro Practice",
+      "credits": 3
+    },
+    {
+      "id": "SOWK689",
+      "code": "SOWK 689",
+      "title": "Arts-Based and Experiential Approaches to Social Work",
+      "credits": 3
+    },
+    {
+      "id": "SOWK690",
+      "code": "SOWK 690",
+      "title": "Independent Study",
+      "credits": 1
+    },
+    {
+      "id": "SOWK714",
+      "code": "SOWK 714",
+      "title": "Philanthropy, Public Policy, and Community Change",
+      "credits": 3
+    },
+    {
+      "id": "SOWK722",
+      "code": "SOWK 722",
+      "title": "Introduction to Alcohol and Other Drug Disorders",
+      "credits": 3
+    },
+    {
+      "id": "SOWK730",
+      "code": "SOWK 730",
+      "title": "Immigration Dynamics and U.S. Social Policy",
+      "credits": 3
+    },
+    {
+      "id": "SOWK731",
+      "code": "SOWK 731",
+      "title": "Social Work Practice with Refugees and Immigrants",
+      "credits": 3
+    },
+    {
+      "id": "SOWK732",
+      "code": "SOWK 732",
+      "title": "Migration, Social Justice, and Human Rights",
+      "credits": 3
+    },
+    {
+      "id": "SOWK733",
+      "code": "SOWK 733",
+      "title": "North American Migration Dynamics, Challenges & Opportunity",
+      "credits": 1
+    },
+    {
+      "id": "SOWK734",
+      "code": "SOWK 734",
+      "title": "Social Policy and Older Adults",
+      "credits": 3
+    },
+    {
+      "id": "SOWK735",
+      "code": "SOWK 735",
+      "title": "Loss, Grief, and Dying",
+      "credits": 3
+    },
+    {
+      "id": "SOWK754",
+      "code": "SOWK 754",
+      "title": "Global Social Work: Reflective Practice for Justice and Peace",
+      "credits": 3
+    },
+    {
+      "id": "SOWK763",
+      "code": "SOWK 763",
+      "title": "Women in a Global Context",
+      "credits": 3
+    },
+    {
+      "id": "SOWK780",
+      "code": "SOWK 780",
+      "title": "Integrative Seminar I Advanced School Mental Health Program",
+      "credits": 1
+    },
+    {
+      "id": "SOWK781",
+      "code": "SOWK 781",
+      "title": "Integrative Seminar II Advanced School Mental Health Program",
+      "credits": 2
+    },
+    {
+      "id": "SOWK782",
+      "code": "SOWK 782",
+      "title": "Integrative Seminar III Advanced School Mental Health Program",
+      "credits": 1
+    },
+    {
+      "id": "SOWK783",
+      "code": "SOWK 783",
+      "title": "Integrative Seminar IV Advanced School Mental Health Program",
+      "credits": 2
+    },
+    {
+      "id": "SOWK784",
+      "code": "SOWK 784",
+      "title": "Evidence Based Practice in Schools",
+      "credits": 3
+    },
+    {
+      "id": "SOWK785",
+      "code": "SOWK 785",
+      "title": "Solution-Focused Brief Therapy Techniques",
+      "credits": 3
+    },
+    {
+      "id": "SOWK786",
+      "code": "SOWK 786",
+      "title": "Special Topics in School Social Work",
+      "credits": 3
+    },
+    {
+      "id": "SOWK787",
+      "code": "SOWK 787",
+      "title": "Special Topics in School Social Work - Immersion Weekend",
+      "credits": 1
+    },
+    {
+      "id": "SOWK788",
+      "code": "SOWK 788",
+      "title": "SMHAPP Independent Study",
+      "credits": 2
+    },
+    {
+      "id": "SOWK800",
+      "code": "SOWK 800",
+      "title": "Statistics",
+      "credits": 3
+    },
+    {
+      "id": "SOWK801",
+      "code": "SOWK 801",
+      "title": "Historical & Contemporary Issues in Social Work Practice",
+      "credits": 3
+    },
+    {
+      "id": "SOWK802",
+      "code": "SOWK 802",
+      "title": "Grand Theories & Perspectives in Social Work Knowledge",
+      "credits": 3
+    },
+    {
+      "id": "SOWK803",
+      "code": "SOWK 803",
+      "title": "Advanced Statistics",
+      "credits": 3
+    },
+    {
+      "id": "SOWK804",
+      "code": "SOWK 804",
+      "title": "Qualitative Research",
+      "credits": 3
+    },
+    {
+      "id": "SOWK805",
+      "code": "SOWK 805",
+      "title": "Research Practicum I",
+      "credits": 3
+    },
+    {
+      "id": "SOWK806",
+      "code": "SOWK 806",
+      "title": "Research Practicum II",
+      "credits": 3
+    },
+    {
+      "id": "SOWK808",
+      "code": "SOWK 808",
+      "title": "Integration of Research, Practice, & Theory in Social Work Scholarship",
+      "credits": 3
+    },
+    {
+      "id": "SOWK817",
+      "code": "SOWK 817",
+      "title": "The Nature of Social Work Knowledge",
+      "credits": 3
+    },
+    {
+      "id": "SOWK818",
+      "code": "SOWK 818",
+      "title": "Social Work Research Methodology: Overview of the Fundamentals",
+      "credits": 3
+    },
+    {
+      "id": "SOWK820",
+      "code": "SOWK 820",
+      "title": "Social Theory & Social Change",
+      "credits": 3
+    },
+    {
+      "id": "SOWK822",
+      "code": "SOWK 822",
+      "title": "Organizational Analysis",
+      "credits": 3
+    },
+    {
+      "id": "SOWK827",
+      "code": "SOWK 827",
+      "title": "Doctoral Study",
+      "credits": 0
+    },
+    {
+      "id": "SOWK828",
+      "code": "SOWK 828",
+      "title": "Teaching Seminar and Practicum I",
+      "credits": 3
+    },
+    {
+      "id": "SOWK829",
+      "code": "SOWK 829",
+      "title": "Teaching Seminar & Practicum II",
+      "credits": 3
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "catalog": "2026-2027",
+  "code": "HSM",
+  "name": "Healthcare Administration",
+  "sourceUrl": "https://catalog.luc.edu/course-descriptions/hsm/",
+  "fetchedAt": "2026-06-21",
+  "courses": [
+    {
+      "id": "HSM110",
+      "code": "HSM 110",
+      "title": "Healthcare in America",
+      "credits": 3
+    },
+    {
+      "id": "HSM120",
+      "code": "HSM 120",
+      "title": "Essentials of Medical Terminology for Health Professionals",
+      "credits": 1
+    },
+    {
+      "id": "HSM200",
+      "code": "HSM 200",
+      "title": "Careers in Healthcare Administration",
+      "credits": 2
+    },
+    {
+      "id": "HSM210",
+      "code": "HSM 210",
+      "title": "Introduction to Global Healthcare Delivery",
+      "credits": 3
+    },
+    {
+      "id": "HSM220",
+      "code": "HSM 220",
+      "title": "Post-Acute & Long-Term Care Management",
+      "credits": 3
+    },
+    {
+      "id": "HSM230",
+      "code": "HSM 230",
+      "title": "Fundamentals of Health Equity",
+      "credits": 3
+    },
+    {
+      "id": "HSM240",
+      "code": "HSM 240",
+      "title": "Healthcare Workforce Management and Professionalism",
+      "credits": 3
+    },
+    {
+      "id": "HSM280",
+      "code": "HSM 280",
+      "title": "Healthcare Ethics in Practice",
+      "credits": 3
+    },
+    {
+      "id": "HSM310",
+      "code": "HSM 310",
+      "title": "Healthcare Project Management",
+      "credits": 3
+    },
+    {
+      "id": "HSM315",
+      "code": "HSM 315",
+      "title": "Healthcare Quality & Performance Improvement",
+      "credits": 3
+    },
+    {
+      "id": "HSM325",
+      "code": "HSM 325",
+      "title": "Healthcare Fiscal Management",
+      "credits": 3
+    },
+    {
+      "id": "HSM330",
+      "code": "HSM 330",
+      "title": "Healthcare Legal & Regulatory Environment",
+      "credits": 3
+    },
+    {
+      "id": "HSM338",
+      "code": "HSM 338",
+      "title": "Healthcare Strategy and Marketing",
+      "credits": 3
+    },
+    {
+      "id": "HSM340",
+      "code": "HSM 340",
+      "title": "Health Care Policy",
+      "credits": 3
+    },
+    {
+      "id": "HSM345",
+      "code": "HSM 345",
+      "title": "Healthcare Data Analytics",
+      "credits": 3
+    },
+    {
+      "id": "HSM350",
+      "code": "HSM 350",
+      "title": "Healthcare Administration Capstone",
+      "credits": 3
+    },
+    {
+      "id": "HSM355",
+      "code": "HSM 355",
+      "title": "Special Topics",
+      "credits": 1
+    },
+    {
+      "id": "HSM358",
+      "code": "HSM 358",
+      "title": "Research Literacy for Health Decision-Makers",
+      "credits": 3
+    },
+    {
+      "id": "HSM360",
+      "code": "HSM 360",
+      "title": "Healthcare Administration Experiential Learning Practicum",
+      "credits": 6
+    },
+    {
+      "id": "HSM365",
+      "code": "HSM 365",
+      "title": "Health Innovation and Entrepreneurship",
+      "credits": 3
+    },
+    {
+      "id": "HSM368",
+      "code": "HSM 368",
+      "title": "Management of Healthcare Organizations",
+      "credits": 3
+    },
+    {
+      "id": "HSM386",
+      "code": "HSM 386",
+      "title": "Health Information Systems Management",
+      "credits": 3
+    },
+    {
+      "id": "HSM390",
+      "code": "HSM 390",
+      "title": "Applied Decision-Making in Interprofessional Education",
+      "credits": 3
+    },
+    {
+      "id": "HSM391",
+      "code": "HSM 391",
+      "title": "Interprofessional Internship",
+      "credits": 3
+    },
+    {
+      "id": "HSM399",
+      "code": "HSM 399",
+      "title": "Independent Study in Healthcare Administration",
+      "credits": 1
+    }
+  ]
+}

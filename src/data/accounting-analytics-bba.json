@@ -32,7 +32,7 @@
     {
       "id": "COMM103biz",
       "code": "COMM 103",
-      "title": "Business and Professional Speaking",
+      "title": "Business & Professional Speaking",
       "credits": 3,
       "category": "major"
     },
@@ -184,7 +184,7 @@
     {
       "id": "ACCT311aa",
       "code": "ACCT 311",
-      "title": "Auditing and Internal Control Systems",
+      "title": "Auditing & Internal Control Systems",
       "credits": 3,
       "category": "major"
     },
@@ -205,7 +205,7 @@
     {
       "id": "INFS346aa",
       "code": "INFS 346",
-      "title": "Database and Data Warehousing Systems",
+      "title": "Database & Data Warehousing Systems",
       "credits": 3,
       "category": "major"
     }
@@ -308,7 +308,7 @@
         },
         {
           "isElective": true,
-          "label": "ISSCM 241 or STAT 103 \u2014 Business Statistics",
+          "label": "ISSCM 241 or STAT 103 — Business Statistics",
           "credits": 3
         },
         {
@@ -377,7 +377,7 @@
         },
         {
           "isElective": true,
-          "label": "INFS 343 or ECON 346 \u2014 Business Analytics",
+          "label": "INFS 343 or ECON 346 — Business Analytics",
           "credits": 3
         },
         {

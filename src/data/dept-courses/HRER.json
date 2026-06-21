@@ -1,0 +1,215 @@
+{
+  "catalog": "2026-2027",
+  "code": "HRER",
+  "name": "Human Resources and Employment Relations",
+  "sourceUrl": "https://catalog.luc.edu/course-descriptions/hrer/",
+  "fetchedAt": "2026-06-21",
+  "courses": [
+    {
+      "id": "HRER201",
+      "code": "HRER 201",
+      "title": "Principles of HR Management",
+      "credits": 3
+    },
+    {
+      "id": "HRER311",
+      "code": "HRER 311",
+      "title": "Employment Relations",
+      "credits": 3
+    },
+    {
+      "id": "HRER313",
+      "code": "HRER 313",
+      "title": "Compensation Management",
+      "credits": 3
+    },
+    {
+      "id": "HRER317",
+      "code": "HRER 317",
+      "title": "Human Resource Staffing",
+      "credits": 3
+    },
+    {
+      "id": "HRER322",
+      "code": "HRER 322",
+      "title": "Human Resource Development",
+      "credits": 3
+    },
+    {
+      "id": "HRER325",
+      "code": "HRER 325",
+      "title": "Global Employment Relations",
+      "credits": 3
+    },
+    {
+      "id": "HRER329",
+      "code": "HRER 329",
+      "title": "Global HR and Organizational Behavior",
+      "credits": 3
+    },
+    {
+      "id": "HRER364",
+      "code": "HRER 364",
+      "title": "Negotiation and Conflict Management",
+      "credits": 3
+    },
+    {
+      "id": "HRER395",
+      "code": "HRER 395",
+      "title": "Independent Study in Human Resources and Employment Relations",
+      "credits": 1
+    },
+    {
+      "id": "HRER399",
+      "code": "HRER 399",
+      "title": "Special Topics in Human Resources and Employment Relations",
+      "credits": 1
+    },
+    {
+      "id": "HRER413",
+      "code": "HRER 413",
+      "title": "Compensation",
+      "credits": 3
+    },
+    {
+      "id": "HRER415",
+      "code": "HRER 415",
+      "title": "Internship",
+      "credits": 1
+    },
+    {
+      "id": "HRER417",
+      "code": "HRER 417",
+      "title": "Managing and Motivating in the Workplace",
+      "credits": 3,
+      "isTopics": true,
+      "topicsCount": 3
+    },
+    {
+      "id": "HRER418",
+      "code": "HRER 418",
+      "title": "Human Resources Law",
+      "credits": 3
+    },
+    {
+      "id": "HRER422",
+      "code": "HRER 422",
+      "title": "Global Human Resource Management",
+      "credits": 3
+    },
+    {
+      "id": "HRER429",
+      "code": "HRER 429",
+      "title": "Human Resource Development",
+      "credits": 3
+    },
+    {
+      "id": "HRER430",
+      "code": "HRER 430",
+      "title": "Leading Change in Organizations",
+      "credits": 3
+    },
+    {
+      "id": "HRER433",
+      "code": "HRER 433",
+      "title": "Group Process and Facilitation",
+      "credits": 3
+    },
+    {
+      "id": "HRER442",
+      "code": "HRER 442",
+      "title": "Global Overseas Seminar",
+      "credits": 3
+    },
+    {
+      "id": "HRER452",
+      "code": "HRER 452",
+      "title": "Human Resources Information Systems",
+      "credits": 3
+    },
+    {
+      "id": "HRER453",
+      "code": "HRER 453",
+      "title": "Incentive Pay and Employee Benefit Programs",
+      "credits": 3
+    },
+    {
+      "id": "HRER462",
+      "code": "HRER 462",
+      "title": "Employment Relations",
+      "credits": 3
+    },
+    {
+      "id": "HRER463",
+      "code": "HRER 463",
+      "title": "Staffing",
+      "credits": 3
+    },
+    {
+      "id": "HRER464",
+      "code": "HRER 464",
+      "title": "Negotiation and Conflict Management",
+      "credits": 3
+    },
+    {
+      "id": "HRER490",
+      "code": "HRER 490",
+      "title": "Analytical Problem Solving",
+      "credits": 3
+    },
+    {
+      "id": "HRER498",
+      "code": "HRER 498",
+      "title": "Independent Study",
+      "credits": 3
+    },
+    {
+      "id": "HRER499",
+      "code": "HRER 499",
+      "title": "Special Topics in Human Resources and Employment Relations",
+      "credits": 3
+    },
+    {
+      "id": "HRER500",
+      "code": "HRER 500",
+      "title": "Special Topics in Human Resources and Employment Relations",
+      "credits": 3
+    },
+    {
+      "id": "HRER501",
+      "code": "HRER 501",
+      "title": "Performance Management",
+      "credits": 3
+    },
+    {
+      "id": "HRER501E",
+      "code": "HRER 501E",
+      "title": "Performance Management",
+      "credits": 5
+    },
+    {
+      "id": "HRER502",
+      "code": "HRER 502",
+      "title": "Global Employment Relations",
+      "credits": 3
+    },
+    {
+      "id": "HRER511E",
+      "code": "HRER 511E",
+      "title": "Conflict Management and Negotiation",
+      "credits": 5
+    },
+    {
+      "id": "HRER513E",
+      "code": "HRER 513E",
+      "title": "Strategic Human Resource Management",
+      "credits": 5
+    },
+    {
+      "id": "HRER600E",
+      "code": "HRER 600E",
+      "title": "Performance Management",
+      "credits": 5
+    }
+  ]
+}

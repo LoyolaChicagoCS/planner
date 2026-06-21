@@ -26,7 +26,7 @@
     {
       "id": "GLST301",
       "code": "GLST 301",
-      "title": "Research Methods in Global Studies",
+      "title": "Directed Readings in Global Studies",
       "credits": 3,
       "category": "major"
     },
@@ -78,7 +78,7 @@
       "items": [
         {
           "isElective": true,
-          "label": "ANTH 100 \u2014 Globalization and Local Cultures",
+          "label": "ANTH 100 — Globalization and Local Cultures",
           "credits": 3
         }
       ]
@@ -90,7 +90,7 @@
       "items": [
         {
           "isElective": true,
-          "label": "PLSC 102 \u2014 International Relations",
+          "label": "PLSC 102 — International Relations",
           "credits": 3
         }
       ]

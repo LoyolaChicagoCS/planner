@@ -1,0 +1,33 @@
+{
+  "catalog": "2026-2027",
+  "code": "LREB",
+  "name": "Leadership",
+  "sourceUrl": "https://catalog.luc.edu/course-descriptions/lreb/",
+  "fetchedAt": "2026-06-21",
+  "courses": [
+    {
+      "id": "LREB315",
+      "code": "LREB 315",
+      "title": "Law and the Regulatory Environment of Business I",
+      "credits": 3
+    },
+    {
+      "id": "LREB315H",
+      "code": "LREB 315H",
+      "title": "Law and the Regulatory Environment of Business I - Honors",
+      "credits": 3
+    },
+    {
+      "id": "LREB443E",
+      "code": "LREB 443E",
+      "title": "Executive Legal Liability",
+      "credits": 5
+    },
+    {
+      "id": "LREB445",
+      "code": "LREB 445",
+      "title": "Entrepreneurship Law",
+      "credits": 3
+    }
+  ]
+}

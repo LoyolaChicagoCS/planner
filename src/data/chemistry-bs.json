@@ -123,7 +123,7 @@
     {
       "id": "PHYS121",
       "code": "PHYS 121",
-      "title": "College Physics I with Calculus",
+      "title": "College Physics I with Calculus Lecture/Discussion",
       "credits": 3,
       "category": "major"
     },
@@ -137,7 +137,7 @@
     {
       "id": "PHYS122",
       "code": "PHYS 122",
-      "title": "College Physics II with Calculus",
+      "title": "College Physics II with Calculus Lecture/Discussion",
       "credits": 3,
       "category": "major"
     },

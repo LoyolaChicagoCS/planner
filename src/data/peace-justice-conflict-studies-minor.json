@@ -10,64 +10,499 @@
   "hasCompletionEstimate": false,
   "catalogUrl": "https://catalog.luc.edu/undergraduate/arts-sciences/peace-justice-conflict-studies/peace-justice-conflict-studies-minor/",
   "courses": [
-    { "id": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR_PAX201", "code": "PAX 201", "title": "Peace Studies Overview", "credits": 3, "category": "major" },
-
-    { "id": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR_CLST281", "code": "CLST 281", "title": "International Conflict and Peacemaking option", "credits": 3, "category": "major", "requirementGroup": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR-grp1", "choiceNote": "Choose one course from International Conflict and Peacemaking" },
-    { "id": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR_COMM231a", "code": "COMM 231", "title": "International Conflict and Peacemaking option", "credits": 3, "category": "major", "requirementGroup": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR-grp1", "choiceNote": "Choose one course from International Conflict and Peacemaking" },
-    { "id": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR_HIST334B", "code": "HIST 334B", "title": "International Conflict and Peacemaking option", "credits": 3, "category": "major", "requirementGroup": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR-grp1", "choiceNote": "Choose one course from International Conflict and Peacemaking" },
-    { "id": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR_HIST338A", "code": "HIST 338A", "title": "International Conflict and Peacemaking option", "credits": 3, "category": "major", "requirementGroup": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR-grp1", "choiceNote": "Choose one course from International Conflict and Peacemaking" },
-    { "id": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR_HIST341B", "code": "HIST 341B", "title": "International Conflict and Peacemaking option", "credits": 3, "category": "major", "requirementGroup": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR-grp1", "choiceNote": "Choose one course from International Conflict and Peacemaking" },
-    { "id": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR_PLSC102", "code": "PLSC 102", "title": "International Conflict and Peacemaking option", "credits": 3, "category": "major", "requirementGroup": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR-grp1", "choiceNote": "Choose one course from International Conflict and Peacemaking" },
-    { "id": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR_PLSC213", "code": "PLSC 213", "title": "International Conflict and Peacemaking option", "credits": 3, "category": "major", "requirementGroup": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR-grp1", "choiceNote": "Choose one course from International Conflict and Peacemaking" },
-    { "id": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR_PLSC326", "code": "PLSC 326", "title": "International Conflict and Peacemaking option", "credits": 3, "category": "major", "requirementGroup": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR-grp1", "choiceNote": "Choose one course from International Conflict and Peacemaking" },
-    { "id": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR_PLSC330", "code": "PLSC 330", "title": "International Conflict and Peacemaking option", "credits": 3, "category": "major", "requirementGroup": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR-grp1", "choiceNote": "Choose one course from International Conflict and Peacemaking" },
-    { "id": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR_PLSC353", "code": "PLSC 353", "title": "International Conflict and Peacemaking option", "credits": 3, "category": "major", "requirementGroup": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR-grp1", "choiceNote": "Choose one course from International Conflict and Peacemaking" },
-    { "id": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR_PLSC356", "code": "PLSC 356", "title": "International Conflict and Peacemaking option", "credits": 3, "category": "major", "requirementGroup": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR-grp1", "choiceNote": "Choose one course from International Conflict and Peacemaking" },
-    { "id": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR_PLSC364", "code": "PLSC 364", "title": "International Conflict and Peacemaking option", "credits": 3, "category": "major", "requirementGroup": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR-grp1", "choiceNote": "Choose one course from International Conflict and Peacemaking" },
-    { "id": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR_PLSC367", "code": "PLSC 367", "title": "International Conflict and Peacemaking option", "credits": 3, "category": "major", "requirementGroup": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR-grp1", "choiceNote": "Choose one course from International Conflict and Peacemaking" },
-    { "id": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR_PLSC368", "code": "PLSC 368", "title": "International Conflict and Peacemaking option", "credits": 3, "category": "major", "requirementGroup": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR-grp1", "choiceNote": "Choose one course from International Conflict and Peacemaking" },
-    { "id": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR_PLSC388", "code": "PLSC 388", "title": "International Conflict and Peacemaking option", "credits": 3, "category": "major", "requirementGroup": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR-grp1", "choiceNote": "Choose one course from International Conflict and Peacemaking" },
-
-    { "id": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR_ANTH100", "code": "ANTH 100", "title": "Societal Violence and Conflict Resolution option", "credits": 3, "category": "major", "requirementGroup": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR-grp2", "choiceNote": "Choose one course from Societal Violence and Conflict Resolution" },
-    { "id": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR_ANTH321", "code": "ANTH 321", "title": "Societal Violence and Conflict Resolution option", "credits": 3, "category": "major", "requirementGroup": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR-grp2", "choiceNote": "Choose one course from Societal Violence and Conflict Resolution" },
-    { "id": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR_COMM227", "code": "COMM 227", "title": "Societal Violence and Conflict Resolution option", "credits": 3, "category": "major", "requirementGroup": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR-grp2", "choiceNote": "Choose one course from Societal Violence and Conflict Resolution" },
-    { "id": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR_COMM272", "code": "COMM 272", "title": "Societal Violence and Conflict Resolution option (cross-listed ANTH 231)", "credits": 3, "category": "major", "requirementGroup": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR-grp2", "choiceNote": "Choose one course from Societal Violence and Conflict Resolution" },
-    { "id": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR_COMM231b", "code": "COMM 231", "title": "Societal Violence and Conflict Resolution option", "credits": 3, "category": "major", "requirementGroup": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR-grp2", "choiceNote": "Choose one course from Societal Violence and Conflict Resolution" },
-    { "id": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR_COMM307", "code": "COMM 307", "title": "Societal Violence and Conflict Resolution option", "credits": 3, "category": "major", "requirementGroup": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR-grp2", "choiceNote": "Choose one course from Societal Violence and Conflict Resolution" },
-    { "id": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR_COMM322", "code": "COMM 322", "title": "Societal Violence and Conflict Resolution option", "credits": 3, "category": "major", "requirementGroup": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR-grp2", "choiceNote": "Choose one course from Societal Violence and Conflict Resolution" },
-    { "id": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR_CJC345", "code": "CJC 345", "title": "Societal Violence and Conflict Resolution option", "credits": 3, "category": "major", "requirementGroup": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR-grp2", "choiceNote": "Choose one course from Societal Violence and Conflict Resolution" },
-    { "id": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR_CJC371", "code": "CJC 371", "title": "Societal Violence and Conflict Resolution option", "credits": 3, "category": "major", "requirementGroup": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR-grp2", "choiceNote": "Choose one course from Societal Violence and Conflict Resolution" },
-    { "id": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR_CJC372", "code": "CJC 372", "title": "Societal Violence and Conflict Resolution option", "credits": 3, "category": "major", "requirementGroup": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR-grp2", "choiceNote": "Choose one course from Societal Violence and Conflict Resolution" },
-    { "id": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR_CJC377", "code": "CJC 377", "title": "Societal Violence and Conflict Resolution option", "credits": 3, "category": "major", "requirementGroup": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR-grp2", "choiceNote": "Choose one course from Societal Violence and Conflict Resolution" },
-    { "id": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR_HIST381", "code": "HIST 381", "title": "Societal Violence and Conflict Resolution option", "credits": 3, "category": "major", "requirementGroup": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR-grp2", "choiceNote": "Choose one course from Societal Violence and Conflict Resolution" },
-    { "id": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR_PSYC225", "code": "PSYC 225", "title": "Societal Violence and Conflict Resolution option", "credits": 3, "category": "major", "requirementGroup": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR-grp2", "choiceNote": "Choose one course from Societal Violence and Conflict Resolution" },
-    { "id": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR_SOCL121", "code": "SOCL 121", "title": "Societal Violence and Conflict Resolution option", "credits": 3, "category": "major", "requirementGroup": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR-grp2", "choiceNote": "Choose one course from Societal Violence and Conflict Resolution" },
-    { "id": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR_SOCL122", "code": "SOCL 122", "title": "Societal Violence and Conflict Resolution option", "credits": 3, "category": "major", "requirementGroup": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR-grp2", "choiceNote": "Choose one course from Societal Violence and Conflict Resolution" },
-    { "id": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR_SOCL127", "code": "SOCL 127", "title": "Societal Violence and Conflict Resolution option", "credits": 3, "category": "major", "requirementGroup": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR-grp2", "choiceNote": "Choose one course from Societal Violence and Conflict Resolution" },
-    { "id": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR_SOCL222", "code": "SOCL 222", "title": "Societal Violence and Conflict Resolution option", "credits": 3, "category": "major", "requirementGroup": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR-grp2", "choiceNote": "Choose one course from Societal Violence and Conflict Resolution" },
-    { "id": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR_SOCL250", "code": "SOCL 250", "title": "Societal Violence and Conflict Resolution option", "credits": 3, "category": "major", "requirementGroup": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR-grp2", "choiceNote": "Choose one course from Societal Violence and Conflict Resolution" },
-    { "id": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR_SOCL252", "code": "SOCL 252", "title": "Societal Violence and Conflict Resolution option", "credits": 3, "category": "major", "requirementGroup": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR-grp2", "choiceNote": "Choose one course from Societal Violence and Conflict Resolution" },
-    { "id": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR_SOCL261", "code": "SOCL 261", "title": "Societal Violence and Conflict Resolution option", "credits": 3, "category": "major", "requirementGroup": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR-grp2", "choiceNote": "Choose one course from Societal Violence and Conflict Resolution" },
-    { "id": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR_SOCL265", "code": "SOCL 265", "title": "Societal Violence and Conflict Resolution option", "credits": 3, "category": "major", "requirementGroup": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR-grp2", "choiceNote": "Choose one course from Societal Violence and Conflict Resolution" },
-    { "id": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR_SOCL216", "code": "SOCL 216", "title": "Societal Violence and Conflict Resolution option", "credits": 3, "category": "major", "requirementGroup": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR-grp2", "choiceNote": "Choose one course from Societal Violence and Conflict Resolution" },
-    { "id": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR_THEO203", "code": "THEO 203", "title": "Societal Violence and Conflict Resolution option", "credits": 3, "category": "major", "requirementGroup": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR-grp2", "choiceNote": "Choose one course from Societal Violence and Conflict Resolution" },
-
-    { "id": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR_ANTH104", "code": "ANTH 104", "title": "Environmental Violence and Ecological Concerns option", "credits": 3, "category": "major", "requirementGroup": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR-grp3", "choiceNote": "Choose one course from Environmental Violence and Ecological Concerns" },
-    { "id": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR_COMM306", "code": "COMM 306", "title": "Environmental Violence and Ecological Concerns option", "credits": 3, "category": "major", "requirementGroup": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR-grp3", "choiceNote": "Choose one course from Environmental Violence and Ecological Concerns" },
-    { "id": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR_ENGL288", "code": "ENGL 288", "title": "Environmental Violence and Ecological Concerns option", "credits": 3, "category": "major", "requirementGroup": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR-grp3", "choiceNote": "Choose one course from Environmental Violence and Ecological Concerns" },
-    { "id": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR_ENVS218", "code": "ENVS 218", "title": "Environmental Violence and Ecological Concerns option", "credits": 3, "category": "major", "requirementGroup": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR-grp3", "choiceNote": "Choose one course from Environmental Violence and Ecological Concerns" },
-    { "id": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR_ENVS224", "code": "ENVS 224", "title": "Environmental Violence and Ecological Concerns option", "credits": 3, "category": "major", "requirementGroup": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR-grp3", "choiceNote": "Choose one course from Environmental Violence and Ecological Concerns" },
-    { "id": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR_ENVS273", "code": "ENVS 273", "title": "Environmental Violence and Ecological Concerns option", "credits": 3, "category": "major", "requirementGroup": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR-grp3", "choiceNote": "Choose one course from Environmental Violence and Ecological Concerns" },
-    { "id": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR_ENVS283", "code": "ENVS 283", "title": "Environmental Violence and Ecological Concerns option", "credits": 3, "category": "major", "requirementGroup": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR-grp3", "choiceNote": "Choose one course from Environmental Violence and Ecological Concerns" },
-    { "id": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR_ENVS284", "code": "ENVS 284", "title": "Environmental Violence and Ecological Concerns option", "credits": 3, "category": "major", "requirementGroup": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR-grp3", "choiceNote": "Choose one course from Environmental Violence and Ecological Concerns" },
-    { "id": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR_ENVS345", "code": "ENVS 345", "title": "Environmental Violence and Ecological Concerns option", "credits": 3, "category": "major", "requirementGroup": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR-grp3", "choiceNote": "Choose one course from Environmental Violence and Ecological Concerns" },
-    { "id": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR_ENVS350A", "code": "ENVS 350A", "title": "Environmental Violence and Ecological Concerns option", "credits": 3, "category": "major", "requirementGroup": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR-grp3", "choiceNote": "Choose one course from Environmental Violence and Ecological Concerns" },
-    { "id": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR_PHIL287", "code": "PHIL 287", "title": "Environmental Violence and Ecological Concerns option", "credits": 3, "category": "major", "requirementGroup": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR-grp3", "choiceNote": "Choose one course from Environmental Violence and Ecological Concerns" },
-    { "id": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR_PLSC354", "code": "PLSC 354", "title": "Environmental Violence and Ecological Concerns option", "credits": 3, "category": "major", "requirementGroup": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR-grp3", "choiceNote": "Choose one course from Environmental Violence and Ecological Concerns" },
-    { "id": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR_PLSC392", "code": "PLSC 392", "title": "Environmental Violence and Ecological Concerns option", "credits": 3, "category": "major", "requirementGroup": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR-grp3", "choiceNote": "Choose one course from Environmental Violence and Ecological Concerns" },
-    { "id": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR_SOCL272", "code": "SOCL 272", "title": "Environmental Violence and Ecological Concerns option", "credits": 3, "category": "major", "requirementGroup": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR-grp3", "choiceNote": "Choose one course from Environmental Violence and Ecological Concerns" },
-    { "id": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR_THEO186", "code": "THEO 186", "title": "Environmental Violence and Ecological Concerns option", "credits": 3, "category": "major", "requirementGroup": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR-grp3", "choiceNote": "Choose one course from Environmental Violence and Ecological Concerns" },
-    { "id": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR_THEO204", "code": "THEO 204", "title": "Environmental Violence and Ecological Concerns option", "credits": 3, "category": "major", "requirementGroup": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR-grp3", "choiceNote": "Choose one course from Environmental Violence and Ecological Concerns" }
+    {
+      "id": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR_PAX201",
+      "code": "PAX 201",
+      "title": "Peace Studies Overview",
+      "credits": 3,
+      "category": "major"
+    },
+    {
+      "id": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR_CLST281",
+      "code": "CLST 281",
+      "title": "War and War Experience, Ancient and Modern",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR-grp1",
+      "choiceNote": "Choose one course from International Conflict and Peacemaking"
+    },
+    {
+      "id": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR_COMM231a",
+      "code": "COMM 231",
+      "title": "Conflict Management and Communication",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR-grp1",
+      "choiceNote": "Choose one course from International Conflict and Peacemaking"
+    },
+    {
+      "id": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR_HIST334B",
+      "code": "HIST 334B",
+      "title": "The Holocaust: History and Memory",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR-grp1",
+      "choiceNote": "Choose one course from International Conflict and Peacemaking"
+    },
+    {
+      "id": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR_HIST338A",
+      "code": "HIST 338A",
+      "title": "History of European Communism",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR-grp1",
+      "choiceNote": "Choose one course from International Conflict and Peacemaking"
+    },
+    {
+      "id": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR_HIST341B",
+      "code": "HIST 341B",
+      "title": "Arab-Israeli Conflict",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR-grp1",
+      "choiceNote": "Choose one course from International Conflict and Peacemaking"
+    },
+    {
+      "id": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR_PLSC102",
+      "code": "PLSC 102",
+      "title": "International Relations in an Age of Globalization",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR-grp1",
+      "choiceNote": "Choose one course from International Conflict and Peacemaking"
+    },
+    {
+      "id": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR_PLSC213",
+      "code": "PLSC 213",
+      "title": "International Human Rights",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR-grp1",
+      "choiceNote": "Choose one course from International Conflict and Peacemaking"
+    },
+    {
+      "id": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR_PLSC326",
+      "code": "PLSC 326",
+      "title": "American National Security",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR-grp1",
+      "choiceNote": "Choose one course from International Conflict and Peacemaking"
+    },
+    {
+      "id": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR_PLSC330",
+      "code": "PLSC 330",
+      "title": "Global Justice",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR-grp1",
+      "choiceNote": "Choose one course from International Conflict and Peacemaking"
+    },
+    {
+      "id": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR_PLSC353",
+      "code": "PLSC 353",
+      "title": "International Law",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR-grp1",
+      "choiceNote": "Choose one course from International Conflict and Peacemaking"
+    },
+    {
+      "id": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR_PLSC356",
+      "code": "PLSC 356",
+      "title": "Intervent in World Politics",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR-grp1",
+      "choiceNote": "Choose one course from International Conflict and Peacemaking"
+    },
+    {
+      "id": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR_PLSC364",
+      "code": "PLSC 364",
+      "title": "UN & International Organization",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR-grp1",
+      "choiceNote": "Choose one course from International Conflict and Peacemaking"
+    },
+    {
+      "id": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR_PLSC367",
+      "code": "PLSC 367",
+      "title": "Model United Nations",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR-grp1",
+      "choiceNote": "Choose one course from International Conflict and Peacemaking"
+    },
+    {
+      "id": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR_PLSC368",
+      "code": "PLSC 368",
+      "title": "Politics of the Middle East",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR-grp1",
+      "choiceNote": "Choose one course from International Conflict and Peacemaking"
+    },
+    {
+      "id": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR_PLSC388",
+      "code": "PLSC 388",
+      "title": "The Morality and Legality of War",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR-grp1",
+      "choiceNote": "Choose one course from International Conflict and Peacemaking"
+    },
+    {
+      "id": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR_ANTH100",
+      "code": "ANTH 100",
+      "title": "Globalization and Local Cultures",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR-grp2",
+      "choiceNote": "Choose one course from Societal Violence and Conflict Resolution"
+    },
+    {
+      "id": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR_ANTH321",
+      "code": "ANTH 321",
+      "title": "Human Rights in Latin America",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR-grp2",
+      "choiceNote": "Choose one course from Societal Violence and Conflict Resolution"
+    },
+    {
+      "id": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR_COMM227",
+      "code": "COMM 227",
+      "title": "Social Justice and Public Communication",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR-grp2",
+      "choiceNote": "Choose one course from Societal Violence and Conflict Resolution"
+    },
+    {
+      "id": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR_COMM272",
+      "code": "COMM 272",
+      "title": "Intercultural Communication",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR-grp2",
+      "choiceNote": "Choose one course from Societal Violence and Conflict Resolution"
+    },
+    {
+      "id": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR_COMM231b",
+      "code": "COMM 231",
+      "title": "Conflict Management and Communication",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR-grp2",
+      "choiceNote": "Choose one course from Societal Violence and Conflict Resolution"
+    },
+    {
+      "id": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR_COMM307",
+      "code": "COMM 307",
+      "title": "Communication and Social Movements",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR-grp2",
+      "choiceNote": "Choose one course from Societal Violence and Conflict Resolution"
+    },
+    {
+      "id": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR_COMM322",
+      "code": "COMM 322",
+      "title": "Guerilla Media",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR-grp2",
+      "choiceNote": "Choose one course from Societal Violence and Conflict Resolution"
+    },
+    {
+      "id": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR_CJC345",
+      "code": "CJC 345",
+      "title": "Social Justice and Crime",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR-grp2",
+      "choiceNote": "Choose one course from Societal Violence and Conflict Resolution"
+    },
+    {
+      "id": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR_CJC371",
+      "code": "CJC 371",
+      "title": "Victimology",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR-grp2",
+      "choiceNote": "Choose one course from Societal Violence and Conflict Resolution"
+    },
+    {
+      "id": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR_CJC372",
+      "code": "CJC 372",
+      "title": "Race, Ethnicity, and Criminal Justice",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR-grp2",
+      "choiceNote": "Choose one course from Societal Violence and Conflict Resolution"
+    },
+    {
+      "id": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR_CJC377",
+      "code": "CJC 377",
+      "title": "Psychology and Law",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR-grp2",
+      "choiceNote": "Choose one course from Societal Violence and Conflict Resolution"
+    },
+    {
+      "id": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR_HIST381",
+      "code": "HIST 381",
+      "title": "Rebels & Reformers in U.S. History",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR-grp2",
+      "choiceNote": "Choose one course from Societal Violence and Conflict Resolution"
+    },
+    {
+      "id": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR_PSYC225",
+      "code": "PSYC 225",
+      "title": "Psychology of Peace",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR-grp2",
+      "choiceNote": "Choose one course from Societal Violence and Conflict Resolution"
+    },
+    {
+      "id": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR_SOCL121",
+      "code": "SOCL 121",
+      "title": "Social Problems",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR-grp2",
+      "choiceNote": "Choose one course from Societal Violence and Conflict Resolution"
+    },
+    {
+      "id": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR_SOCL122",
+      "code": "SOCL 122",
+      "title": "Race and Ethnic Relations",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR-grp2",
+      "choiceNote": "Choose one course from Societal Violence and Conflict Resolution"
+    },
+    {
+      "id": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR_SOCL127",
+      "code": "SOCL 127",
+      "title": "Social Analysis and Social Action",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR-grp2",
+      "choiceNote": "Choose one course from Societal Violence and Conflict Resolution"
+    },
+    {
+      "id": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR_SOCL222",
+      "code": "SOCL 222",
+      "title": "Poverty & Welfare in America",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR-grp2",
+      "choiceNote": "Choose one course from Societal Violence and Conflict Resolution"
+    },
+    {
+      "id": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR_SOCL250",
+      "code": "SOCL 250",
+      "title": "Inequality in Society",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR-grp2",
+      "choiceNote": "Choose one course from Societal Violence and Conflict Resolution"
+    },
+    {
+      "id": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR_SOCL252",
+      "code": "SOCL 252",
+      "title": "Global Inequalities",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR-grp2",
+      "choiceNote": "Choose one course from Societal Violence and Conflict Resolution"
+    },
+    {
+      "id": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR_SOCL261",
+      "code": "SOCL 261",
+      "title": "Social Movements & Social Change",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR-grp2",
+      "choiceNote": "Choose one course from Societal Violence and Conflict Resolution"
+    },
+    {
+      "id": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR_SOCL265",
+      "code": "SOCL 265",
+      "title": "Globalization & Society",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR-grp2",
+      "choiceNote": "Choose one course from Societal Violence and Conflict Resolution"
+    },
+    {
+      "id": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR_SOCL216",
+      "code": "SOCL 216",
+      "title": "The Sociology of Violence",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR-grp2",
+      "choiceNote": "Choose one course from Societal Violence and Conflict Resolution"
+    },
+    {
+      "id": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR_THEO203",
+      "code": "THEO 203",
+      "title": "Social Justice and Injustice",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR-grp2",
+      "choiceNote": "Choose one course from Societal Violence and Conflict Resolution"
+    },
+    {
+      "id": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR_ANTH104",
+      "code": "ANTH 104",
+      "title": "The Human Ecological Footprint",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR-grp3",
+      "choiceNote": "Choose one course from Environmental Violence and Ecological Concerns"
+    },
+    {
+      "id": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR_COMM306",
+      "code": "COMM 306",
+      "title": "Environmental Communication & Advocacy",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR-grp3",
+      "choiceNote": "Choose one course from Environmental Violence and Ecological Concerns"
+    },
+    {
+      "id": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR_ENGL288",
+      "code": "ENGL 288",
+      "title": "Nature in Literature",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR-grp3",
+      "choiceNote": "Choose one course from Environmental Violence and Ecological Concerns"
+    },
+    {
+      "id": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR_ENVS218",
+      "code": "ENVS 218",
+      "title": "Biodiversity & Biogeography",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR-grp3",
+      "choiceNote": "Choose one course from Environmental Violence and Ecological Concerns"
+    },
+    {
+      "id": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR_ENVS224",
+      "code": "ENVS 224",
+      "title": "Climate & Climate Change",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR-grp3",
+      "choiceNote": "Choose one course from Environmental Violence and Ecological Concerns"
+    },
+    {
+      "id": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR_ENVS273",
+      "code": "ENVS 273",
+      "title": "Energy and the Environment",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR-grp3",
+      "choiceNote": "Choose one course from Environmental Violence and Ecological Concerns"
+    },
+    {
+      "id": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR_ENVS283",
+      "code": "ENVS 283",
+      "title": "Environmental Sustainability",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR-grp3",
+      "choiceNote": "Choose one course from Environmental Violence and Ecological Concerns"
+    },
+    {
+      "id": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR_ENVS284",
+      "code": "ENVS 284",
+      "title": "Environmental Justice",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR-grp3",
+      "choiceNote": "Choose one course from Environmental Violence and Ecological Concerns"
+    },
+    {
+      "id": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR_ENVS345",
+      "code": "ENVS 345",
+      "title": "Conservation and Sustainability of Neotropical Ecosystems",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR-grp3",
+      "choiceNote": "Choose one course from Environmental Violence and Ecological Concerns"
+    },
+    {
+      "id": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR_ENVS350A",
+      "code": "ENVS 350A",
+      "title": "Solutions to Environmental Problems: Water",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR-grp3",
+      "choiceNote": "Choose one course from Environmental Violence and Ecological Concerns"
+    },
+    {
+      "id": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR_PHIL287",
+      "code": "PHIL 287",
+      "title": "Environmental Ethics",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR-grp3",
+      "choiceNote": "Choose one course from Environmental Violence and Ecological Concerns"
+    },
+    {
+      "id": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR_PLSC354",
+      "code": "PLSC 354",
+      "title": "Global Environmental Politics",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR-grp3",
+      "choiceNote": "Choose one course from Environmental Violence and Ecological Concerns"
+    },
+    {
+      "id": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR_PLSC392",
+      "code": "PLSC 392",
+      "title": "Environmental Politics",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR-grp3",
+      "choiceNote": "Choose one course from Environmental Violence and Ecological Concerns"
+    },
+    {
+      "id": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR_SOCL272",
+      "code": "SOCL 272",
+      "title": "Environmental Sociology",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR-grp3",
+      "choiceNote": "Choose one course from Environmental Violence and Ecological Concerns"
+    },
+    {
+      "id": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR_THEO186",
+      "code": "THEO 186",
+      "title": "Global Religious Ethics",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR-grp3",
+      "choiceNote": "Choose one course from Environmental Violence and Ecological Concerns"
+    },
+    {
+      "id": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR_THEO204",
+      "code": "THEO 204",
+      "title": "Religious Ethics and the Ecological Crisis",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR-grp3",
+      "choiceNote": "Choose one course from Environmental Violence and Ecological Concerns"
+    }
   ],
   "electiveOptions": {
     "generalElectives": {
@@ -75,7 +510,13 @@
       "label": "General Electives",
       "note": "6 credit hours fulfilled by taking any two of the cross-listed courses in the three program areas, or by taking PAX 390 Directed Readings in Peace Studies.",
       "courses": [
-        { "id": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR_POOL1", "code": "PAX/PJCS elective", "title": "Any two cross-listed program-area courses, or PAX 390 Directed Readings in Peace Studies", "credits": 3, "uniqueProgress": true }
+        {
+          "id": "PEACE_JUSTICE_CONFLICT_STUDIES_MINOR_POOL1",
+          "code": "PAX/PJCS elective",
+          "title": "Any two cross-listed program-area courses, or PAX 390 Directed Readings in Peace Studies",
+          "credits": 3,
+          "uniqueProgress": true
+        }
       ]
     }
   },

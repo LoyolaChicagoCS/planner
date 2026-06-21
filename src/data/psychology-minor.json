@@ -1,25 +1,28 @@
 {
   "id": "psychology-minor",
-  "department": "Psychology",
   "name": "Psychology",
   "degree": "Minor",
   "school": "Loyola University Chicago",
+  "department": "Psychology",
   "kind": "minor",
   "totalCredits": 18,
   "minorCredits": 18,
   "hasCompletionEstimate": false,
   "catalogUrl": "https://catalog.luc.edu/undergraduate/arts-sciences/psychology/psychology-minor/",
   "courses": [
-    { "id": "PSYCHOLOGY_MINOR_PSYC101", "code": "PSYC 101", "title": "General Psychology", "credits": 3, "category": "major" }
+    {
+      "id": "PSYC101",
+      "code": "PSYC 101",
+      "title": "General Psychology",
+      "credits": 3,
+      "category": "major"
+    }
   ],
   "electiveOptions": {
-    "psyc200": {
+    "psychology-five-200-level-psychology-courses": {
       "creditsRequired": 15,
       "label": "Five 200+ level Psychology courses",
-      "note": "Five 200+ level Psychology courses (15 hours). Excludes PSYC 201 Psychology Advising and Career Development. NEUR 101 Introduction to Neuroscience may be taken.",
-      "courses": [
-        { "id": "PSYCHOLOGY_MINOR_POOL1", "code": "PSYC 2XX", "title": "200+ level Psychology course", "credits": 3, "uniqueProgress": true }
-      ]
+      "note": "Five 200+ level Psychology courses"
     }
   },
   "coreRequirements": [],

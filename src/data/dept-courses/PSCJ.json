@@ -1,0 +1,15 @@
+{
+  "catalog": "2026-2027",
+  "code": "PSCJ",
+  "name": "Psychology of Crime and Justice",
+  "sourceUrl": "https://catalog.luc.edu/course-descriptions/pscj/",
+  "fetchedAt": "2026-06-21",
+  "courses": [
+    {
+      "id": "PSCJ399",
+      "code": "PSCJ 399",
+      "title": "Independent Study",
+      "credits": 3
+    }
+  ]
+}

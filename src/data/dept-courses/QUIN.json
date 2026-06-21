@@ -1,0 +1,81 @@
+{
+  "catalog": "2026-2027",
+  "code": "QUIN",
+  "name": "Quinlan School of Business",
+  "sourceUrl": "https://catalog.luc.edu/course-descriptions/quin/",
+  "fetchedAt": "2026-06-21",
+  "courses": [
+    {
+      "id": "QUIN101",
+      "code": "QUIN 101",
+      "title": "Business Learning and Careers",
+      "credits": 0
+    },
+    {
+      "id": "QUIN102",
+      "code": "QUIN 102",
+      "title": "Financial Literacy and Well-Being",
+      "credits": 1
+    },
+    {
+      "id": "QUIN202",
+      "code": "QUIN 202",
+      "title": "Career Preparation",
+      "credits": 2
+    },
+    {
+      "id": "QUIN202H",
+      "code": "QUIN 202H",
+      "title": "Career Preparation - Honors",
+      "credits": 2
+    },
+    {
+      "id": "QUIN300",
+      "code": "QUIN 300",
+      "title": "Business Internship - Elective Credit",
+      "credits": 1
+    },
+    {
+      "id": "QUIN351",
+      "code": "QUIN 351",
+      "title": "Business Internship-Engaged Learning",
+      "credits": 3
+    },
+    {
+      "id": "QUIN390",
+      "code": "QUIN 390",
+      "title": "Capstone in Business of Applied Artificial Intelligence",
+      "credits": 3
+    },
+    {
+      "id": "QUIN399",
+      "code": "QUIN 399",
+      "title": "Special Topics",
+      "credits": 3
+    },
+    {
+      "id": "QUIN401",
+      "code": "QUIN 401",
+      "title": "US Culture & Academic Success Skills for International Students",
+      "credits": 0
+    },
+    {
+      "id": "QUIN403",
+      "code": "QUIN 403",
+      "title": "Fundamentals of Business",
+      "credits": 3
+    },
+    {
+      "id": "QUIN499",
+      "code": "QUIN 499",
+      "title": "Special Topics",
+      "credits": 3
+    },
+    {
+      "id": "QUIN501",
+      "code": "QUIN 501",
+      "title": "Internship - Curriculum Practical Training",
+      "credits": 1
+    }
+  ]
+}

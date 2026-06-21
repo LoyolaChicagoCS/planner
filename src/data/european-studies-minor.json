@@ -10,9 +10,31 @@
   "hasCompletionEstimate": false,
   "catalogUrl": "https://catalog.luc.edu/undergraduate/arts-sciences/european-studies/european-studies-minor/",
   "courses": [
-    { "id": "EUROPEAN_STUDIES_MINOR_HIST102", "code": "HIST 102", "title": "Culture, Power and Identity: Western Ideas & Institutions from 17th Century", "credits": 3, "category": "major", "requirementGroup": "EUROPEAN_STUDIES_MINOR-grp1", "choiceNote": "Choose HIST 102 or EURO 101" },
-    { "id": "EUROPEAN_STUDIES_MINOR_EURO101", "code": "EURO 101", "title": "Introduction to European Studies", "credits": 3, "category": "major", "requirementGroup": "EUROPEAN_STUDIES_MINOR-grp1", "choiceNote": "Choose HIST 102 or EURO 101" },
-    { "id": "EUROPEAN_STUDIES_MINOR_PLSC347", "code": "PLSC 347", "title": "The European Union", "credits": 3, "category": "major" }
+    {
+      "id": "EUROPEAN_STUDIES_MINOR_HIST102",
+      "code": "HIST 102",
+      "title": "Culture, Power and Identity: Western Ideas & Institutions from 17th Century",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "EUROPEAN_STUDIES_MINOR-grp1",
+      "choiceNote": "Choose HIST 102 or EURO 101"
+    },
+    {
+      "id": "EUROPEAN_STUDIES_MINOR_EURO101",
+      "code": "EURO 101",
+      "title": "Introduction to European Studies",
+      "credits": 3,
+      "category": "major",
+      "requirementGroup": "EUROPEAN_STUDIES_MINOR-grp1",
+      "choiceNote": "Choose HIST 102 or EURO 101"
+    },
+    {
+      "id": "EUROPEAN_STUDIES_MINOR_PLSC347",
+      "code": "PLSC 347",
+      "title": "The European Union",
+      "credits": 3,
+      "category": "major"
+    }
   ],
   "electiveOptions": {
     "electives": {
@@ -20,186 +42,1086 @@
       "label": "European Studies Electives (four courses)",
       "note": "Select four elective courses from the lists below. At least two of these electives must be at the 300-level, and no more than two electives may be taken from any one department. Students must also complete at least the 104-level in a modern European language.",
       "courses": [
-        { "id": "EUROPEAN_STUDIES_MINOR_ANTH222", "code": "ANTH 222", "title": "Culture in Contemporary Europe", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_ANTH328", "code": "ANTH 328", "title": "Pompeii and Herculaneum", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_ANTH334", "code": "ANTH 334", "title": "Intro to Classical Archaeology", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_CLST206", "code": "CLST 206", "title": "Art of Ancient Greece", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_CLST207", "code": "CLST 207", "title": "Art of the Roman World", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_CLST241", "code": "CLST 241", "title": "Religions of Ancient Greece", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_CLST271", "code": "CLST 271", "title": "Classical Mythology", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_CLST271G", "code": "CLST 271G", "title": "Classical Mythology - Women/Gender Focus", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_CLST271R", "code": "CLST 271R", "title": "Classical Mythology - Rome Focus", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_CLST272", "code": "CLST 272", "title": "Heroes & the Classical Epics", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_CLST273", "code": "CLST 273", "title": "Classical Tragedy", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_CLST273G", "code": "CLST 273G", "title": "Classical Tragedy - Women/Gender Focus", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_CLST274", "code": "CLST 274", "title": "World of Archaic Greece", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_CLST275", "code": "CLST 275", "title": "World of Classical Greece", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_CLST276", "code": "CLST 276", "title": "World of Classical Rome", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_CLST277", "code": "CLST 277", "title": "World of Late Antiquity", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_CLST304", "code": "CLST 304", "title": "History of Ancient Philosophy", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_CLST308", "code": "CLST 308", "title": "History of Rome to Constantine", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_CLST309", "code": "CLST 309", "title": "Greece to Alexander the Great", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_CLST315", "code": "CLST 315", "title": "Alexander & Hellenistic World", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_CLST316", "code": "CLST 316", "title": "Western Patristic Thought", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_CLST318", "code": "CLST 318", "title": "Transformations of Rome in Late Antiquity", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_CLST328", "code": "CLST 328", "title": "Pompeii and Herculaneum", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_CLST334", "code": "CLST 334", "title": "Intro to Classical Archeology", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_CLST361", "code": "CLST 361", "title": "Roman Political Theory & Practice", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_CLST362", "code": "CLST 362", "title": "Roman Law", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_CLST363", "code": "CLST 363", "title": "Law & Legislature-Ancient Greece", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_CLST373", "code": "CLST 373", "title": "Daily Life in Ancient Greece", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_CLST374", "code": "CLST 374", "title": "Private Life of Ancient Romans", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_CLST378", "code": "CLST 378", "title": "Sport in Ancient Greece & Rome", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_CLST383", "code": "CLST 383", "title": "The Humanism of Antiquity I", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_CLST384", "code": "CLST 384", "title": "The Humanism of Antiquity II", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_CLST385", "code": "CLST 385", "title": "Historical Classic Greek Literature to 200 A.D", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_CLST386", "code": "CLST 386", "title": "History of Classical Roman Lit", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_CLST395", "code": "CLST 395", "title": "Topography of Rome", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_ENGL320", "code": "ENGL 320", "title": "English Literature: Medieval Period", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_ENGL321", "code": "ENGL 321", "title": "Intro to Old English", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_ENGL322", "code": "ENGL 322", "title": "Chaucer", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_ENGL323", "code": "ENGL 323", "title": "Studies in Medieval Literature", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_ENGL325", "code": "ENGL 325", "title": "British Literature-The Renaissance", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_ENGL326", "code": "ENGL 326", "title": "Shakespeare: Selected Major Plays", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_ENGL327", "code": "ENGL 327", "title": "Studies in Shakespeare", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_ENGL328", "code": "ENGL 328", "title": "Studies in The Renaissance", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_ENGL329", "code": "ENGL 329", "title": "Milton", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_ENGL335", "code": "ENGL 335", "title": "British Literature - The Romantic Period", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_ENGL338", "code": "ENGL 338", "title": "Studies in The Romantic Movmnt", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_ENGL340", "code": "ENGL 340", "title": "British Literature - The Victorian Period", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_ENGL343", "code": "ENGL 343", "title": "Studies in the Victorian Period", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_ENGL344", "code": "ENGL 344", "title": "Studies in Modernism", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_ENGL345", "code": "ENGL 345", "title": "British Literature Since 1900", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_ENGL348", "code": "ENGL 348", "title": "Studies in British Literature Since 1900", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_ENGL367", "code": "ENGL 367", "title": "Modern Drama", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_FNAR200", "code": "FNAR 200", "title": "Global Art History: Prehistoric to 600 CE", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_FNAR201", "code": "FNAR 201", "title": "Global Art History: 600-1800CE", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_FNAR202", "code": "FNAR 202", "title": "Global Art History: Modern Art", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_FNAR304", "code": "FNAR 304", "title": "Paris in the Nineteenth Century", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_FNAR342", "code": "FNAR 342", "title": "Art in Rome", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_FNAR343", "code": "FNAR 343", "title": "Baroque Art", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_FNAR344", "code": "FNAR 344", "title": "Early Italian Renaissance Art", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_FNAR345", "code": "FNAR 345", "title": "Italian High Renaissance and Mannerist Art", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_FNAR349", "code": "FNAR 349", "title": "Art and the Catholic Tradition", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_FNAR360", "code": "FNAR 360", "title": "Picturing Women in Renaissance and Baroque Art", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_FREN270", "code": "FREN 270", "title": "Main Currents of French Literature & Culture I", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_FREN271", "code": "FREN 271", "title": "Main Currents of French Literature & Culture II", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_FREN311", "code": "FREN 311", "title": "French Modernity", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_FREN316", "code": "FREN 316", "title": "Renaissance France", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_FREN317", "code": "FREN 317", "title": "Le Grand Siècle", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_FREN318", "code": "FREN 318", "title": "Enlightenment France", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_FREN319", "code": "FREN 319", "title": "Romantic Century", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_FREN340", "code": "FREN 340", "title": "Survey of Prose: Fictional & Non-Fictional", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_GERM270", "code": "GERM 270", "title": "Modern German Literature and Culture I", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_GERM271", "code": "GERM 271", "title": "Modern German Literature and Culture II", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_GERM370", "code": "GERM 370", "title": "German Cinema", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_GLST370", "code": "GLST 370", "title": "Internship in Global Studies", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_HIST253A", "code": "HIST 253A", "title": "Barbarians and the Fall of the Roman Empire", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_HIST254A", "code": "HIST 254A", "title": "The Vikings", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_HIST257A", "code": "HIST 257A", "title": "Witchcraft and Science in Pre-Modern Europe", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_HIST258A", "code": "HIST 258A", "title": "Blood, Heresy, and Treason: The Tudors and Stuarts", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_HIST265A", "code": "HIST 265A", "title": "The First World War", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_HIST267A", "code": "HIST 267A", "title": "Modern German Culture and Ideas I", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_HIST267B", "code": "HIST 267B", "title": "Modern German Culture and Ideas II", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_HIST300C", "code": "HIST 300C", "title": "Topics in European History (Post-1700)", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_HIST300E", "code": "HIST 300E", "title": "Topics in World History", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_HIST303", "code": "HIST 303", "title": "Pre-Industrial City in Europe", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_HIST307", "code": "HIST 307", "title": "Greece to Alexander the Great", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_HIST308A", "code": "HIST 308A", "title": "History of Rome to Constantine", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_HIST308B", "code": "HIST 308B", "title": "Pompeii and Herculaneum", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_HIST308D", "code": "HIST 308D", "title": "Transformations of Rome in Late Antiquity", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_HIST310G", "code": "HIST 310G", "title": "Supernatural in the Middle Ages", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_HIST311B", "code": "HIST 311B", "title": "The Crusades: Christianity and Islam", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_HIST314", "code": "HIST 314", "title": "Renaissance", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_HIST314A", "code": "HIST 314A", "title": "The Jesuits: Life and History", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_HIST315", "code": "HIST 315", "title": "The Reformation", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_HIST316", "code": "HIST 316", "title": "History of Poland", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_HIST317", "code": "HIST 317", "title": "Age of Absolutism & the Enlightenment", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_HIST318A", "code": "HIST 318A", "title": "Early Modern England 1485-1760", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_HIST318B", "code": "HIST 318B", "title": "English Social History 1450-1750", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_HIST318C", "code": "HIST 318C", "title": "London 1550 - 1715", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_HIST320", "code": "HIST 320", "title": "Era French Revolution & Napoleon", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_HIST321", "code": "HIST 321", "title": "19th Century European Culture and Ideas", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_HIST322", "code": "HIST 322", "title": "Modern France: From Empire to Postcolonial Nation", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_HIST324", "code": "HIST 324", "title": "Italy 19th & 20th Centuries", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_HIST325", "code": "HIST 325", "title": "Modern Britain: Empire, Industry, Democracy", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_HIST325A", "code": "HIST 325A", "title": "The British Empire: From Barbados to Brexit", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_HIST326", "code": "HIST 326", "title": "Ireland: Colony to Nation State", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_HIST327A", "code": "HIST 327A", "title": "The Balkans: History, Fiction, Film", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_HIST328", "code": "HIST 328", "title": "Russia Pre-1917: Empire Building", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_HIST328A", "code": "HIST 328A", "title": "Russian Empire and Literature", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_HIST329C", "code": "HIST 329C", "title": "Empire, Sex, Violence: European Colonial History", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_HIST329N", "code": "HIST 329N", "title": "Modern European Nationalism: Myth and Reality", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_HIST330", "code": "HIST 330", "title": "Europe in the Age of Catastrophe, 1900-1945", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_HIST330F", "code": "HIST 330F", "title": "Fascinating Fascism: 1919 to the Present", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_HIST334A", "code": "HIST 334A", "title": "The Nazi Revolution", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_HIST334B", "code": "HIST 334B", "title": "The Holocaust: History and Memory", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_HIST335", "code": "HIST 335", "title": "The Second World War", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_HIST336", "code": "HIST 336", "title": "Contemporary Europe 1945 to Present", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_HIST337", "code": "HIST 337", "title": "Rise & Fall of Soviet Union", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_HIST337A", "code": "HIST 337A", "title": "Women in Russia and Eurasia, 1860-Present", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_HIST338A", "code": "HIST 338A", "title": "History of European Communism", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_HIST338B", "code": "HIST 338B", "title": "Eastern Europe in the 20th Century", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_HIST339C", "code": "HIST 339C", "title": "Modern Europe and the Arts", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_HIST359D", "code": "HIST 359D", "title": "The Ottoman Empire: A Global Perspective", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_HIST359E", "code": "HIST 359E", "title": "Concentration Camps: A Global History", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_HONR216B", "code": "HONR 216B", "title": "Honors Seminar", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_ITAL270", "code": "ITAL 270", "title": "Main Currents of Italian Literature I", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_ITAL271", "code": "ITAL 271", "title": "Main Currents of Italian Literature II", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_ITAL312", "code": "ITAL 312", "title": "Dante-The Divine Comedy", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_ITAL317", "code": "ITAL 317", "title": "Survey Early 19th Century Literature", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_ITAL318", "code": "ITAL 318", "title": "Survey Late 19th Cent Lit", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_ITAL319", "code": "ITAL 319", "title": "Survey of 20th Century Prose", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_ITAL340", "code": "ITAL 340", "title": "Italian Short Story", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_ITAL390", "code": "ITAL 390", "title": "Culture & Civilization", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_LITR161", "code": "LITR 161", "title": "Introduction to Italian Culture", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_LITR200", "code": "LITR 200", "title": "European Masterpieces", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_LITR202", "code": "LITR 202", "title": "European Novel", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_LITR203", "code": "LITR 203", "title": "European Drama", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_LITR204", "code": "LITR 204", "title": "European Film", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_LITR221", "code": "LITR 221", "title": "Polish Authors", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_LITR230", "code": "LITR 230", "title": "German Masterpieces", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_LITR260", "code": "LITR 260", "title": "Italian Masterpieces", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_LITR262", "code": "LITR 262", "title": "Modern Italian Novel", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_LITR264", "code": "LITR 264", "title": "Italian Film Genre", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_LITR267", "code": "LITR 267", "title": "Italian Film History", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_LITR268", "code": "LITR 268", "title": "Italy: Cultural History", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_LITR268R", "code": "LITR 268R", "title": "Italian Culture: Food & Wine", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_LITR291", "code": "LITR 291", "title": "Italian & Italian-American Women Writers", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_MUSC252", "code": "MUSC 252", "title": "Music History I", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_MUSC353", "code": "MUSC 353", "title": "Music History II", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_PHIL304", "code": "PHIL 304", "title": "History of Ancient Philosophy", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_PHIL305", "code": "PHIL 305", "title": "Medieval Philosophy", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_PHIL306", "code": "PHIL 306", "title": "19th Century Philosophy", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_PHIL307", "code": "PHIL 307", "title": "13th & 14th Century Philosophy", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_PHIL309", "code": "PHIL 309", "title": "Classical Modern Philosophy", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_PHIL360", "code": "PHIL 360", "title": "Contemporary European Philosophy", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_PLSC232", "code": "PLSC 232", "title": "Politics of the United Kingdom", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_PLSC306", "code": "PLSC 306", "title": "Modern Political Thought", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_PLSC348", "code": "PLSC 348", "title": "Soviet & Post-Soviet Politics", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_PLSC349", "code": "PLSC 349", "title": "Eastern European Politics", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_PLSC360", "code": "PLSC 360", "title": "Western European Politics", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_PLSC365", "code": "PLSC 365", "title": "Italian Politics & Government", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_PLSC371", "code": "PLSC 371", "title": "Roman Law", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_SPAN270", "code": "SPAN 270", "title": "Introduction to Critical Analysis in Spanish", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_SPAN271", "code": "SPAN 271", "title": "Introduction to Iberian Literature and Culture", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_SPAN311", "code": "SPAN 311", "title": "Generation of 1898", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_SPAN314", "code": "SPAN 314", "title": "Survey of Medieval Literature", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_SPAN319", "code": "SPAN 319", "title": "Romanticism", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_SPAN326", "code": "SPAN 326", "title": "Theater of The Golden Age", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_SPAN331", "code": "SPAN 331", "title": "20th Century Poetry", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_SPAN340", "code": "SPAN 340", "title": "Survey Prose-Fictional & Nonfiction", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_SPAN341", "code": "SPAN 341", "title": "20th Century Spanish Literature", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_SPAN346", "code": "SPAN 346", "title": "Prose of The Golden Age", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_SPAN347", "code": "SPAN 347", "title": "Cervantes Don Quijote", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_SPAN349", "code": "SPAN 349", "title": "Realism and Naturalism", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_SPAN366", "code": "SPAN 366", "title": "Spanish Cinema", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_SPAN368", "code": "SPAN 368", "title": "Baroque and Neobaroque", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_THEO100", "code": "THEO 100", "title": "Christian Theology", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_THEO317", "code": "THEO 317", "title": "Christian Thought: Ancient-Medieval", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_THEO318", "code": "THEO 318", "title": "Christian Thought: Reformation to Modern", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_THTR365", "code": "THTR 365", "title": "Theatre History and Literature II", "credits": 3 },
-        { "id": "EUROPEAN_STUDIES_MINOR_THTR366", "code": "THTR 366", "title": "Theatre History and Literature III", "credits": 3 }
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_ANTH222",
+          "code": "ANTH 222",
+          "title": "Culture in Contemporary Europe",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_ANTH328",
+          "code": "ANTH 328",
+          "title": "Pompeii and Herculaneum",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_ANTH334",
+          "code": "ANTH 334",
+          "title": "Intro to Classical Archaeology",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_CLST206",
+          "code": "CLST 206",
+          "title": "Art of Ancient Greece",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_CLST207",
+          "code": "CLST 207",
+          "title": "Art of the Roman World",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_CLST241",
+          "code": "CLST 241",
+          "title": "Religions of Ancient Greece",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_CLST271",
+          "code": "CLST 271",
+          "title": "Classical Mythology",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_CLST271G",
+          "code": "CLST 271G",
+          "title": "Classical Mythology - Women/Gender Focus",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_CLST271R",
+          "code": "CLST 271R",
+          "title": "Classical Mythology - Rome Focus",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_CLST272",
+          "code": "CLST 272",
+          "title": "Heroes & the Classical Epics",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_CLST273",
+          "code": "CLST 273",
+          "title": "Classical Tragedy",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_CLST273G",
+          "code": "CLST 273G",
+          "title": "Classical Tragedy - Women/Gender Focus",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_CLST274",
+          "code": "CLST 274",
+          "title": "World of Archaic Greece",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_CLST275",
+          "code": "CLST 275",
+          "title": "World of Classical Greece",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_CLST276",
+          "code": "CLST 276",
+          "title": "World of Classical Rome",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_CLST277",
+          "code": "CLST 277",
+          "title": "World of Late Antiquity",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_CLST304",
+          "code": "CLST 304",
+          "title": "History of Ancient Philosophy",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_CLST308",
+          "code": "CLST 308",
+          "title": "History of Rome to Constantine",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_CLST309",
+          "code": "CLST 309",
+          "title": "Greece to Alexander the Great",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_CLST315",
+          "code": "CLST 315",
+          "title": "Alexander & Hellenistic World",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_CLST316",
+          "code": "CLST 316",
+          "title": "Western Patristic Thought",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_CLST318",
+          "code": "CLST 318",
+          "title": "Transformations of Rome in Late Antiquity",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_CLST328",
+          "code": "CLST 328",
+          "title": "Pompeii and Herculaneum",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_CLST334",
+          "code": "CLST 334",
+          "title": "Intro to Classical Archeology",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_CLST361",
+          "code": "CLST 361",
+          "title": "Roman Political Theory & Practice",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_CLST362",
+          "code": "CLST 362",
+          "title": "Roman Law",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_CLST363",
+          "code": "CLST 363",
+          "title": "Law & Legislature-Ancient Greece",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_CLST373",
+          "code": "CLST 373",
+          "title": "Daily Life in Ancient Greece",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_CLST374",
+          "code": "CLST 374",
+          "title": "Private Life of Ancient Romans",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_CLST378",
+          "code": "CLST 378",
+          "title": "Sport in Ancient Greece & Rome",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_CLST383",
+          "code": "CLST 383",
+          "title": "The Humanism of Antiquity I",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_CLST384",
+          "code": "CLST 384",
+          "title": "The Humanism of Antiquity II",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_CLST385",
+          "code": "CLST 385",
+          "title": "Historical Classic Greek Literature to 200 A.D",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_CLST386",
+          "code": "CLST 386",
+          "title": "History of Classical Roman Lit",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_CLST395",
+          "code": "CLST 395",
+          "title": "Topography of Rome",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_ENGL320",
+          "code": "ENGL 320",
+          "title": "English Literature: Medieval Period",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_ENGL321",
+          "code": "ENGL 321",
+          "title": "Intro to Old English",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_ENGL322",
+          "code": "ENGL 322",
+          "title": "Chaucer",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_ENGL323",
+          "code": "ENGL 323",
+          "title": "Studies in Medieval Literature",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_ENGL325",
+          "code": "ENGL 325",
+          "title": "British Literature-The Renaissance",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_ENGL326",
+          "code": "ENGL 326",
+          "title": "Shakespeare: Selected Major Plays",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_ENGL327",
+          "code": "ENGL 327",
+          "title": "Studies in Shakespeare",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_ENGL328",
+          "code": "ENGL 328",
+          "title": "Studies in The Renaissance",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_ENGL329",
+          "code": "ENGL 329",
+          "title": "Milton",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_ENGL335",
+          "code": "ENGL 335",
+          "title": "British Literature - The Romantic Period",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_ENGL338",
+          "code": "ENGL 338",
+          "title": "Studies in The Romantic Movmnt",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_ENGL340",
+          "code": "ENGL 340",
+          "title": "British Literature - The Victorian Period",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_ENGL343",
+          "code": "ENGL 343",
+          "title": "Studies in the Victorian Period",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_ENGL344",
+          "code": "ENGL 344",
+          "title": "Studies in Modernism",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_ENGL345",
+          "code": "ENGL 345",
+          "title": "British Literature Since 1900",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_ENGL348",
+          "code": "ENGL 348",
+          "title": "Studies in British Literature Since 1900",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_ENGL367",
+          "code": "ENGL 367",
+          "title": "Modern Drama",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_FNAR200",
+          "code": "FNAR 200",
+          "title": "Global Art History: Prehistoric to 600 CE",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_FNAR201",
+          "code": "FNAR 201",
+          "title": "Global Art History: 600-1800CE",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_FNAR202",
+          "code": "FNAR 202",
+          "title": "Global Art History: Modern Art",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_FNAR304",
+          "code": "FNAR 304",
+          "title": "Paris in the Nineteenth Century",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_FNAR342",
+          "code": "FNAR 342",
+          "title": "Art in Rome",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_FNAR343",
+          "code": "FNAR 343",
+          "title": "Baroque Art",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_FNAR344",
+          "code": "FNAR 344",
+          "title": "Early Italian Renaissance Art",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_FNAR345",
+          "code": "FNAR 345",
+          "title": "Italian High Renaissance and Mannerist Art",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_FNAR349",
+          "code": "FNAR 349",
+          "title": "Art and the Catholic Tradition",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_FNAR360",
+          "code": "FNAR 360",
+          "title": "Picturing Women in Renaissance and Baroque Art",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_FREN270",
+          "code": "FREN 270",
+          "title": "Main Currents of French Literature & Culture I",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_FREN271",
+          "code": "FREN 271",
+          "title": "Main Currents of French Literature & Culture II",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_FREN311",
+          "code": "FREN 311",
+          "title": "French Modernity",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_FREN316",
+          "code": "FREN 316",
+          "title": "Renaissance France",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_FREN317",
+          "code": "FREN 317",
+          "title": "Le Grand Siècle",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_FREN318",
+          "code": "FREN 318",
+          "title": "Enlightenment France",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_FREN319",
+          "code": "FREN 319",
+          "title": "Romantic Century",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_FREN340",
+          "code": "FREN 340",
+          "title": "Survey of Prose: Fictional & Non-Fictional",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_GERM270",
+          "code": "GERM 270",
+          "title": "Modern German Literature and Culture I",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_GERM271",
+          "code": "GERM 271",
+          "title": "Modern German Literature and Culture II",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_GERM370",
+          "code": "GERM 370",
+          "title": "German Cinema",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_GLST370",
+          "code": "GLST 370",
+          "title": "Internship in Global Studies",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_HIST253A",
+          "code": "HIST 253A",
+          "title": "Barbarians and the Fall of the Roman Empire",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_HIST254A",
+          "code": "HIST 254A",
+          "title": "The Vikings",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_HIST257A",
+          "code": "HIST 257A",
+          "title": "Witchcraft and Science in Pre-Modern Europe",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_HIST258A",
+          "code": "HIST 258A",
+          "title": "Blood, Heresy, and Treason: The Tudors and Stuarts",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_HIST265A",
+          "code": "HIST 265A",
+          "title": "The First World War",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_HIST267A",
+          "code": "HIST 267A",
+          "title": "Modern German Culture and Ideas I",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_HIST267B",
+          "code": "HIST 267B",
+          "title": "Modern German Culture and Ideas II",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_HIST300C",
+          "code": "HIST 300C",
+          "title": "Topics in European History (Post-1700)",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_HIST300E",
+          "code": "HIST 300E",
+          "title": "Topics in World History",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_HIST303",
+          "code": "HIST 303",
+          "title": "Pre-Industrial City in Europe",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_HIST307",
+          "code": "HIST 307",
+          "title": "Greece to Alexander the Great",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_HIST308A",
+          "code": "HIST 308A",
+          "title": "History of Rome to Constantine",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_HIST308B",
+          "code": "HIST 308B",
+          "title": "Pompeii and Herculaneum",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_HIST308D",
+          "code": "HIST 308D",
+          "title": "Transformations of Rome in Late Antiquity",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_HIST310G",
+          "code": "HIST 310G",
+          "title": "Supernatural in the Middle Ages",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_HIST311B",
+          "code": "HIST 311B",
+          "title": "The Crusades: Christianity and Islam",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_HIST314",
+          "code": "HIST 314",
+          "title": "Renaissance",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_HIST314A",
+          "code": "HIST 314A",
+          "title": "The Jesuits: Life and History",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_HIST315",
+          "code": "HIST 315",
+          "title": "The Reformation",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_HIST316",
+          "code": "HIST 316",
+          "title": "History of Poland",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_HIST317",
+          "code": "HIST 317",
+          "title": "Age of Absolutism & the Enlightenment",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_HIST318A",
+          "code": "HIST 318A",
+          "title": "Early Modern England 1485-1760",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_HIST318B",
+          "code": "HIST 318B",
+          "title": "English Social History 1450-1750",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_HIST318C",
+          "code": "HIST 318C",
+          "title": "London 1550 - 1715",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_HIST320",
+          "code": "HIST 320",
+          "title": "Era French Revolution & Napoleon",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_HIST321",
+          "code": "HIST 321",
+          "title": "19th Century European Culture and Ideas",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_HIST322",
+          "code": "HIST 322",
+          "title": "Modern France: From Empire to Postcolonial Nation",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_HIST324",
+          "code": "HIST 324",
+          "title": "Italy 19th & 20th Centuries",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_HIST325",
+          "code": "HIST 325",
+          "title": "Modern Britain: Empire, Industry, Democracy",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_HIST325A",
+          "code": "HIST 325A",
+          "title": "The British Empire: From Barbados to Brexit",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_HIST326",
+          "code": "HIST 326",
+          "title": "Ireland: Colony to Nation State",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_HIST327A",
+          "code": "HIST 327A",
+          "title": "The Balkans: History, Fiction, Film",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_HIST328",
+          "code": "HIST 328",
+          "title": "Russia Pre-1917: Empire Building",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_HIST328A",
+          "code": "HIST 328A",
+          "title": "Russian Empire and Literature",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_HIST329C",
+          "code": "HIST 329C",
+          "title": "Empire, Sex, Violence: European Colonial History",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_HIST329N",
+          "code": "HIST 329N",
+          "title": "Modern European Nationalism: Myth and Reality",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_HIST330",
+          "code": "HIST 330",
+          "title": "Europe in the Age of Catastrophe, 1900-1945",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_HIST330F",
+          "code": "HIST 330F",
+          "title": "Fascinating Fascism: 1919 to the Present",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_HIST334A",
+          "code": "HIST 334A",
+          "title": "The Nazi Revolution",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_HIST334B",
+          "code": "HIST 334B",
+          "title": "The Holocaust: History and Memory",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_HIST335",
+          "code": "HIST 335",
+          "title": "The Second World War",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_HIST336",
+          "code": "HIST 336",
+          "title": "Contemporary Europe 1945 to Present",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_HIST337",
+          "code": "HIST 337",
+          "title": "Rise & Fall of Soviet Union",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_HIST337A",
+          "code": "HIST 337A",
+          "title": "Women in Russia and Eurasia, 1860-Present",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_HIST338A",
+          "code": "HIST 338A",
+          "title": "History of European Communism",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_HIST338B",
+          "code": "HIST 338B",
+          "title": "Eastern Europe in the 20th Century",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_HIST339C",
+          "code": "HIST 339C",
+          "title": "Modern Europe and the Arts",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_HIST359D",
+          "code": "HIST 359D",
+          "title": "The Ottoman Empire: A Global Perspective",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_HIST359E",
+          "code": "HIST 359E",
+          "title": "Concentration Camps: A Global History",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_HONR216B",
+          "code": "HONR 216B",
+          "title": "Encountering Contemporary Europe",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_ITAL270",
+          "code": "ITAL 270",
+          "title": "Main Currents of Italian Literature I",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_ITAL271",
+          "code": "ITAL 271",
+          "title": "Main Currents of Italian Literature II",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_ITAL312",
+          "code": "ITAL 312",
+          "title": "Dante-The Divine Comedy",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_ITAL317",
+          "code": "ITAL 317",
+          "title": "Survey Early 19th Century Literature",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_ITAL318",
+          "code": "ITAL 318",
+          "title": "Survey Late 19th Cent Lit",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_ITAL319",
+          "code": "ITAL 319",
+          "title": "Survey of 20th Century Prose",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_ITAL340",
+          "code": "ITAL 340",
+          "title": "Italian Short Story",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_ITAL390",
+          "code": "ITAL 390",
+          "title": "Culture & Civilization",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_LITR161",
+          "code": "LITR 161",
+          "title": "Introduction to Italian Culture",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_LITR200",
+          "code": "LITR 200",
+          "title": "European Masterpieces",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_LITR202",
+          "code": "LITR 202",
+          "title": "European Novel",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_LITR203",
+          "code": "LITR 203",
+          "title": "European Drama",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_LITR204",
+          "code": "LITR 204",
+          "title": "European Film",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_LITR221",
+          "code": "LITR 221",
+          "title": "Polish Authors",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_LITR230",
+          "code": "LITR 230",
+          "title": "German Masterpieces",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_LITR260",
+          "code": "LITR 260",
+          "title": "Italian Masterpieces",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_LITR262",
+          "code": "LITR 262",
+          "title": "Modern Italian Novel",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_LITR264",
+          "code": "LITR 264",
+          "title": "Italian Film Genre",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_LITR267",
+          "code": "LITR 267",
+          "title": "Italian Film History",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_LITR268",
+          "code": "LITR 268",
+          "title": "Italy: Cultural History",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_LITR268R",
+          "code": "LITR 268R",
+          "title": "Italian Culture: Food & Wine",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_LITR291",
+          "code": "LITR 291",
+          "title": "Italian & Italian-American Women Writers",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_MUSC252",
+          "code": "MUSC 252",
+          "title": "Music History I",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_MUSC353",
+          "code": "MUSC 353",
+          "title": "Music History II",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_PHIL304",
+          "code": "PHIL 304",
+          "title": "History of Ancient Philosophy",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_PHIL305",
+          "code": "PHIL 305",
+          "title": "Medieval Philosophy",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_PHIL306",
+          "code": "PHIL 306",
+          "title": "19th Century Philosophy",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_PHIL307",
+          "code": "PHIL 307",
+          "title": "13th & 14th Century Philosophy",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_PHIL309",
+          "code": "PHIL 309",
+          "title": "Classical Modern Philosophy",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_PHIL360",
+          "code": "PHIL 360",
+          "title": "Contemporary European Philosophy",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_PLSC232",
+          "code": "PLSC 232",
+          "title": "Politics of the United Kingdom",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_PLSC306",
+          "code": "PLSC 306",
+          "title": "Modern Political Thought",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_PLSC348",
+          "code": "PLSC 348",
+          "title": "Soviet & Post-Soviet Politics",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_PLSC349",
+          "code": "PLSC 349",
+          "title": "Eastern European Politics",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_PLSC360",
+          "code": "PLSC 360",
+          "title": "Western European Politics",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_PLSC365",
+          "code": "PLSC 365",
+          "title": "Italian Politics & Government",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_PLSC371",
+          "code": "PLSC 371",
+          "title": "Roman Law",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_SPAN270",
+          "code": "SPAN 270",
+          "title": "Introduction to Critical Analysis in Spanish",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_SPAN271",
+          "code": "SPAN 271",
+          "title": "Introduction to Iberian Literature and Culture",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_SPAN311",
+          "code": "SPAN 311",
+          "title": "Generation of 1898",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_SPAN314",
+          "code": "SPAN 314",
+          "title": "Survey of Medieval Literature",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_SPAN319",
+          "code": "SPAN 319",
+          "title": "Romanticism",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_SPAN326",
+          "code": "SPAN 326",
+          "title": "Theater of The Golden Age",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_SPAN331",
+          "code": "SPAN 331",
+          "title": "20th Century Poetry",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_SPAN340",
+          "code": "SPAN 340",
+          "title": "Survey Prose-Fictional & Nonfiction",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_SPAN341",
+          "code": "SPAN 341",
+          "title": "20th Century Spanish Literature",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_SPAN346",
+          "code": "SPAN 346",
+          "title": "Prose of The Golden Age",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_SPAN347",
+          "code": "SPAN 347",
+          "title": "Cervantes Don Quijote",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_SPAN349",
+          "code": "SPAN 349",
+          "title": "Realism and Naturalism",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_SPAN366",
+          "code": "SPAN 366",
+          "title": "Spanish Cinema",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_SPAN368",
+          "code": "SPAN 368",
+          "title": "Baroque and Neobaroque",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_THEO100",
+          "code": "THEO 100",
+          "title": "Christian Theology",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_THEO317",
+          "code": "THEO 317",
+          "title": "Christian Thought: Ancient-Medieval",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_THEO318",
+          "code": "THEO 318",
+          "title": "Christian Thought: Reformation to Modern",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_THTR365",
+          "code": "THTR 365",
+          "title": "Theatre History and Literature II",
+          "credits": 3
+        },
+        {
+          "id": "EUROPEAN_STUDIES_MINOR_THTR366",
+          "code": "THTR 366",
+          "title": "Theatre History and Literature III",
+          "credits": 3
+        }
       ]
     }
   },
@@ -211,8 +1133,14 @@
       "semester": "Semester I",
       "credits": 6,
       "items": [
-        { "ref": "EUROPEAN_STUDIES_MINOR_HIST102" },
-        { "label": "European Studies Elective", "credits": 3, "isElective": true }
+        {
+          "ref": "EUROPEAN_STUDIES_MINOR_HIST102"
+        },
+        {
+          "label": "European Studies Elective",
+          "credits": 3,
+          "isElective": true
+        }
       ]
     },
     {
@@ -220,8 +1148,14 @@
       "semester": "Semester II",
       "credits": 6,
       "items": [
-        { "ref": "EUROPEAN_STUDIES_MINOR_PLSC347" },
-        { "label": "European Studies Elective", "credits": 3, "isElective": true }
+        {
+          "ref": "EUROPEAN_STUDIES_MINOR_PLSC347"
+        },
+        {
+          "label": "European Studies Elective",
+          "credits": 3,
+          "isElective": true
+        }
       ]
     },
     {
@@ -229,8 +1163,16 @@
       "semester": "Semester III",
       "credits": 6,
       "items": [
-        { "label": "European Studies Elective", "credits": 3, "isElective": true },
-        { "label": "European Studies Elective", "credits": 3, "isElective": true }
+        {
+          "label": "European Studies Elective",
+          "credits": 3,
+          "isElective": true
+        },
+        {
+          "label": "European Studies Elective",
+          "credits": 3,
+          "isElective": true
+        }
       ]
     }
   ]

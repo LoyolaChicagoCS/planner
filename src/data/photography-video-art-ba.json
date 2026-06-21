@@ -25,7 +25,7 @@
     {
       "id": "FNAR365",
       "code": "FNAR 365",
-      "title": "History of Photography I",
+      "title": "History of Photography",
       "credits": 3,
       "category": "major"
     },
@@ -83,7 +83,7 @@
     "phot-art-history": {
       "creditsRequired": 3,
       "label": "Art History Elective",
-      "note": "FNAR 202 (Modern Art) or FNAR 306 (Contemporary Art 1945\u2013Present)",
+      "note": "FNAR 202 (Modern Art) or FNAR 306 (Contemporary Art 1945–Present)",
       "courses": [
         {
           "id": "FNAR202",

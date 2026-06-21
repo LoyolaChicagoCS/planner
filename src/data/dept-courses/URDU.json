@@ -1,0 +1,21 @@
+{
+  "catalog": "2026-2027",
+  "code": "URDU",
+  "name": "Urdu",
+  "sourceUrl": "https://catalog.luc.edu/course-descriptions/urdu/",
+  "fetchedAt": "2026-06-21",
+  "courses": [
+    {
+      "id": "URDU101",
+      "code": "URDU 101",
+      "title": "Introductory Urdu I",
+      "credits": 3
+    },
+    {
+      "id": "URDU102",
+      "code": "URDU 102",
+      "title": "Introductory Urdu II",
+      "credits": 3
+    }
+  ]
+}
