@@ -1,7 +1,7 @@
 ---
 title: "fix: Core-requirement selections propagate to the Roadmap tab"
 type: fix
-status: active
+status: completed
 created: 2026-08-27
 execution_posture: test-first
 ---
