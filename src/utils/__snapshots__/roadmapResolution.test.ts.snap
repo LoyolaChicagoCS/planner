@@ -1,0 +1,76 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`roadmap Core-row resolution > matches the committed program-wide resolution snapshot 1`] = `
+{
+  "cs": [
+    {
+      "label": "CORE: College Writing Seminar",
+      "requirementId": "CORE_WRITING",
+    },
+    {
+      "label": "CORE: Philosophical Knowledge Tier 1",
+      "requirementId": "CORE_PHIL1",
+    },
+    {
+      "label": "CORE: Historical Knowledge Tier 1",
+      "requirementId": "CORE_HIST1",
+    },
+    {
+      "label": "CORE: Ethics",
+      "requirementId": "CORE_ETHICS",
+    },
+    {
+      "label": "CAS Language Requirement 101 level",
+      "requirementId": "CAS_LANG1",
+    },
+    {
+      "label": "CORE: Scientific Knowledge Tier 1",
+      "requirementId": "CORE_SCI1",
+    },
+    {
+      "label": "CORE: Societal & Cultural Knowledge Tier 1",
+      "requirementId": "CORE_SOC1",
+    },
+    {
+      "label": "CAS Language Requirement 102 level",
+      "requirementId": "CAS_LANG2",
+    },
+    {
+      "label": "CORE: Literary Knowledge & Experience Tier 1",
+      "requirementId": "CORE_LIT1",
+    },
+    {
+      "label": "CORE: Theological and Religious Studies Tier 1",
+      "requirementId": "CORE_THEO1",
+    },
+    {
+      "label": "CORE: Philosophical Knowledge Tier 2",
+      "requirementId": "CORE_PHIL2",
+    },
+    {
+      "label": "CORE: Artistic Knowledge & Experience",
+      "requirementId": "CORE_ART",
+    },
+    {
+      "label": "CORE: Scientific Knowledge Tier 2",
+      "requirementId": "CORE_SCI2",
+    },
+    {
+      "label": "CORE: Historical Knowledge Tier 2",
+      "requirementId": "CORE_HIST2",
+    },
+    {
+      "label": "CORE: Literary Knowledge & Experience Tier 2",
+      "requirementId": "CORE_LIT2",
+    },
+    {
+      "label": "CORE: Societal & Cultural Knowledge Tier 2",
+      "requirementId": "CORE_SOC2",
+    },
+    {
+      "label": "CORE: Theological and Religious Studies Tier 2",
+      "requirementId": "CORE_THEO2",
+    },
+  ],
+}
+`;
