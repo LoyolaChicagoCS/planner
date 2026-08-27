@@ -1,6 +1,7 @@
 import { describe, expect, it } from 'vitest';
 import { PROGRAMS } from '../data/programs';
-import type { Program } from '../types';
+import coreCourseData from '../data/coreCourses.json';
+import type { CoreCatalogData, Program } from '../types';
 import {
   coreRequirementElementId,
   coreRequirementGroup,
@@ -49,5 +50,46 @@ describe('coreCatalog', () => {
 
     expect(ids.length).toBeGreaterThan(100);
     expect(ids.every(id => id.startsWith('CORE_'))).toBe(true);
+  });
+});
+
+/**
+ * Positional-join guards for the Core catalog.
+ *
+ * Each area pairs `groups[i]` with `requirementIds[i]` by index, and
+ * `getCoreCatalogAreasForProgram` falls back to `requirementIds[0]` when an
+ * index is missing. That fallback can silently attach a whole group of courses
+ * to the wrong requirement if the two parallel arrays drift out of alignment.
+ * These guards make such drift fail loudly.
+ */
+describe('coreCatalog positional join', () => {
+  const areas = (coreCourseData as CoreCatalogData).areas;
+
+  it('keeps requirementIds and groups length-aligned (no [0] fallback)', () => {
+    const misaligned = areas
+      .filter(area => area.requirementIds.length !== area.groups.length)
+      .map(area => `${area.id}: ${area.requirementIds.length} ids vs ${area.groups.length} groups`);
+    expect(misaligned, misaligned.join('\n')).toEqual([]);
+  });
+
+  it('references only requirement IDs that exist in some program', () => {
+    const known = new Set(
+      PROGRAMS.flatMap(p => (p.coreRequirements ?? []).map(r => r.id)),
+    );
+    const unknown = areas.flatMap(area =>
+      area.requirementIds.filter(id => !known.has(id)).map(id => `${area.id}: ${id}`),
+    );
+    expect(unknown, unknown.join('\n')).toEqual([]);
+  });
+
+  it('matches the committed area -> group/requirement structure (pins order)', () => {
+    const structure = areas.map(area => ({
+      area: area.id,
+      groups: area.groups.map((group, index) => ({
+        groupLabel: group.label,
+        requirementId: area.requirementIds[index] ?? null,
+      })),
+    }));
+    expect(structure).toMatchSnapshot();
   });
 });
