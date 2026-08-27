@@ -7,7 +7,9 @@ import tsPlugin from '@typescript-eslint/eslint-plugin'
 import { defineConfig, globalIgnores } from 'eslint/config'
 
 export default defineConfig([
-  globalIgnores(['dist']),
+  // e2e specs and Playwright config are Node-context tooling, typechecked and
+  // run by Playwright itself — not part of the browser-only app TS project.
+  globalIgnores(['dist', 'e2e', 'playwright.config.ts']),
   {
     files: ['**/*.{js,jsx}'],
     extends: [
