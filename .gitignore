@@ -12,6 +12,18 @@ dist
 dist-ssr
 *.local
 
+# Playwright / test artifacts
+test-results
+playwright-report
+
+# pi agent scratch (investigations, findings)
+.pi
+
+# Compound-engineering / agent artifacts (not for upstream)
+docs/plans/
+docs/brainstorms/
+docs/solutions/
+
 # Claude Code machine-specific settings (keep shared .claude/workflows tracked)
 .claude/settings.local.json
 

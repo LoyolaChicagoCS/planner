@@ -1,11 +1,11 @@
 import { describe, expect, it } from 'vitest';
 import {
   decodeCompletedIds,
-  electivePlaceholderId,
   encodeCompletedIds,
   getValidProgressIds,
   validateProgressIds,
 } from './shareLink';
+import { electivePlaceholderId } from './roadmap';
 import type { Program } from '../types';
 
 const program: Program = {
@@ -82,6 +82,29 @@ describe('shareLink', () => {
       'MATH162',
       'elective-2-fall-1',
     ]));
+  });
+
+  it('registers a label-matched Core roadmap row as its requirement id, and never a static row', () => {
+    const withCoreRow: Program = {
+      ...program,
+      roadmap: [
+        {
+          year: 1,
+          semester: 'Spring',
+          credits: 6,
+          items: [
+            // Label-only Core row (no ref, no isElective) -> resolves to CORE_HIST1.
+            { label: 'CORE: Historical Knowledge Tier 1', credits: 3 },
+            // Inert non-elective label row -> stays static, must NOT be registered.
+            { label: 'Applied Music: Voice', credits: 3, isElective: false },
+          ],
+        },
+      ],
+    };
+    const ids = getValidProgressIds([withCoreRow], 'sample');
+
+    expect(ids.has('CORE_HIST1')).toBe(true);
+    expect([...ids].some(id => id.startsWith('unknown-'))).toBe(false);
   });
 
   it('generates URL-safe elective placeholder IDs from display labels', () => {

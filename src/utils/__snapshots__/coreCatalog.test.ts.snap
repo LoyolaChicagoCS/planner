@@ -1,0 +1,120 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`coreCatalog positional join > matches the committed area -> group/requirement structure (pins order) 1`] = `
+[
+  {
+    "area": "artistic",
+    "groups": [
+      {
+        "groupLabel": "Courses (3 credit hours required)",
+        "requirementId": "CORE_ART",
+      },
+    ],
+  },
+  {
+    "area": "writing",
+    "groups": [
+      {
+        "groupLabel": "Core College Writing Seminar (1 course required)",
+        "requirementId": "CORE_WRITING",
+      },
+    ],
+  },
+  {
+    "area": "ethics",
+    "groups": [
+      {
+        "groupLabel": "Courses (1 course required)",
+        "requirementId": "CORE_ETHICS",
+      },
+    ],
+  },
+  {
+    "area": "quantitative",
+    "groups": [
+      {
+        "groupLabel": "Courses (1 course required)",
+        "requirementId": "CORE_QUANT",
+      },
+    ],
+  },
+  {
+    "area": "historical",
+    "groups": [
+      {
+        "groupLabel": "Foundational/Tier I",
+        "requirementId": "CORE_HIST1",
+      },
+      {
+        "groupLabel": "Tier II",
+        "requirementId": "CORE_HIST2",
+      },
+    ],
+  },
+  {
+    "area": "literary",
+    "groups": [
+      {
+        "groupLabel": "Foundational/Tier I",
+        "requirementId": "CORE_LIT1",
+      },
+      {
+        "groupLabel": "Tier II",
+        "requirementId": "CORE_LIT2",
+      },
+    ],
+  },
+  {
+    "area": "philosophical",
+    "groups": [
+      {
+        "groupLabel": "Foundational/Tier I",
+        "requirementId": "CORE_PHIL1",
+      },
+      {
+        "groupLabel": "Tier II",
+        "requirementId": "CORE_PHIL2",
+      },
+    ],
+  },
+  {
+    "area": "scientific",
+    "groups": [
+      {
+        "groupLabel": "Foundational/Tier I",
+        "requirementId": "CORE_SCI1",
+      },
+      {
+        "groupLabel": "Tier II",
+        "requirementId": "CORE_SCI2",
+      },
+    ],
+  },
+  {
+    "area": "societal",
+    "groups": [
+      {
+        "groupLabel": "Foundational/Tier I",
+        "requirementId": "CORE_SOC1",
+      },
+      {
+        "groupLabel": "Tier II",
+        "requirementId": "CORE_SOC2",
+      },
+    ],
+  },
+  {
+    "area": "theological",
+    "groups": [
+      {
+        "groupLabel": "Foundational/Tier I",
+        "requirementId": "CORE_THEO1",
+      },
+      {
+        "groupLabel": "Tier II",
+        "requirementId": "CORE_THEO2",
+      },
+    ],
+  },
+]
+`;

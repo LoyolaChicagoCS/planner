@@ -1,20 +1,9 @@
 import optionalData from '../data/optional.json';
 import { getAllCoreCatalogCourseIds } from './coreCatalog';
+import { buildCoreRequirementLabelMap, resolveRoadmapItemId } from './roadmap';
 import type { Course, Program, ProgressItem } from '../types';
 
 const DELIMITER = '.';
-
-function slugProgressPart(value: string | number): string {
-  return String(value)
-    .trim()
-    .toLowerCase()
-    .replace(/[^a-z0-9_-]+/g, '-')
-    .replace(/^-+|-+$/g, '');
-}
-
-export function electivePlaceholderId(year: number, semester: string, index: number): string {
-  return `elective-${slugProgressPart(year)}-${slugProgressPart(semester)}-${index}`;
-}
 
 interface OptionalCourseGroup {
   courses?: Course[];
@@ -53,10 +42,11 @@ export function getValidProgressIds(programs: Program[], programId?: string, add
       addId(ids, item.alsoCourseRef);
     }
 
+    const coreLabelMap = buildCoreRequirementLabelMap(program);
     for (const semester of program.roadmap ?? []) {
       for (const [index, item] of (semester.items ?? []).entries()) {
-        if (item.ref) addId(ids, item.ref);
-        if (item.isElective) addId(ids, electivePlaceholderId(semester.year, semester.semester, index));
+        const resolution = resolveRoadmapItemId(item, semester, index, coreLabelMap);
+        if (resolution.registered) addId(ids, resolution.id);
       }
     }
   }

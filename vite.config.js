@@ -19,4 +19,9 @@ export default defineConfig({
   },
   // Custom domain serves the app from the root: https://advising.cs.luc.edu/
   base: '/',
+  // Vitest runs unit tests under src/. Playwright e2e specs live in e2e/ and
+  // are run separately via `npx playwright test`, so keep them out of vitest.
+  test: {
+    include: ['src/**/*.test.{ts,tsx}'],
+  },
 })
