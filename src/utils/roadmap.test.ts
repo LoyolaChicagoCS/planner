@@ -6,6 +6,7 @@ import {
   resolveRoadmapItemId,
   electivePlaceholderId,
 } from './roadmap';
+import { PROGRAMS } from '../data/programs';
 import type { CoreRequirement, Program, RoadmapItem, RoadmapSemester } from '../types';
 
 function req(id: string, label: string): CoreRequirement {
@@ -114,3 +115,51 @@ describe('resolveRoadmapItemId', () => {
     expect(electivePlaceholderId(2, 'Spring', 2)).toBe('elective-2-spring-2');
   });
 });
+
+/**
+ * DOCUMENTED TRADEOFF (code-review advisory #4 — for reviewer/George to decide).
+ *
+ * buildCoreRequirementLabelMap intentionally drops any normalized label shared
+ * by 2+ Core requirements (the ambiguity guard), so an ambiguous roadmap label
+ * can never mis-resolve to an arbitrary requirement. The cost: if a program
+ * ever needs a *genuine* Core requirement whose label collides with another
+ * (after normalization), that row will silently fall through to a placeholder
+ * instead of propagating — with no runtime signal.
+ *
+ * Today this is correct and desirable: cs.json deliberately carries three
+ * identical `CAS Elective` requirements (CAS_ELEC1/2/3) and three matching
+ * `CAS Elective` roadmap rows that SHOULD stay independent placeholders.
+ *
+ * We chose a CI-time guard (the roadmapResolution golden snapshot) over a
+ * runtime dev warning, because a warning would fire on this legitimate cs case
+ * every render. This test documents the behavior so the decision is reviewable.
+ */
+describe('ambiguous Core labels are dropped (documented tradeoff #4)', () => {
+  const cs = PROGRAMS.find(p => p.id === 'cs')!;
+
+  it('excludes a normalized label shared by multiple requirements from the match map', () => {
+    const map = buildCoreRequirementLabelMap(cs);
+    // CAS_ELEC1/2/3 all normalize to "cas elective" -> ambiguous -> not resolvable.
+    expect(map.has(normalizeCoreLabel('CAS Elective'))).toBe(false);
+    // A unique label still resolves.
+    expect(map.get(normalizeCoreLabel('Scientific Knowledge Tier 1'))).toBe('CORE_SCI1');
+  });
+
+  it('leaves the ambiguous cs "CAS Elective" roadmap rows as independent placeholders', () => {
+    const map = buildCoreRequirementLabelMap(cs);
+    const rows: RoadmapItemResolutionLike[] = [];
+    for (const semester of cs.roadmap ?? []) {
+      (semester.items ?? []).forEach((item, index) => {
+        if (item.label === 'CAS Elective') {
+          rows.push(resolveRoadmapItemId(item, semester, index, map));
+        }
+      });
+    }
+    expect(rows.length).toBe(3);
+    // Each stays an independent, elective placeholder — none collapses to a shared id.
+    expect(rows.every(r => r.isElective && r.id.startsWith('elective-'))).toBe(true);
+    expect(new Set(rows.map(r => r.id)).size).toBe(3);
+  });
+});
+
+type RoadmapItemResolutionLike = ReturnType<typeof resolveRoadmapItemId>;

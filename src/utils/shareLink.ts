@@ -1,10 +1,7 @@
 import optionalData from '../data/optional.json';
 import { getAllCoreCatalogCourseIds } from './coreCatalog';
-import { buildCoreRequirementLabelMap, electivePlaceholderId, resolveRoadmapItemId } from './roadmap';
+import { buildCoreRequirementLabelMap, resolveRoadmapItemId } from './roadmap';
 import type { Course, Program, ProgressItem } from '../types';
-
-// Re-exported for backward compatibility; the canonical home is ./roadmap.
-export { electivePlaceholderId };
 
 const DELIMITER = '.';
 

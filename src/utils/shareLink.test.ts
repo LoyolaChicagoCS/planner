@@ -1,11 +1,11 @@
 import { describe, expect, it } from 'vitest';
 import {
   decodeCompletedIds,
-  electivePlaceholderId,
   encodeCompletedIds,
   getValidProgressIds,
   validateProgressIds,
 } from './shareLink';
+import { electivePlaceholderId } from './roadmap';
 import type { Program } from '../types';
 
 const program: Program = {
