@@ -77,12 +77,25 @@ export interface RoadmapItemResolution {
    * or requirement identity) — drives the "choose from list" elective display.
    */
   isElective: boolean;
+  /**
+   * True when the id is a real, shareable progress id (a course/requirement ref
+   * or an explicit elective placeholder). False for inert `static` rows, which
+   * are excluded from share-link valid-id computation — preserving historical
+   * behavior for label-only rows that were never marked `isElective`.
+   */
+  registered: boolean;
 }
 
 /**
  * Resolve a single roadmap item to its progress id. `coreLabelMap` is the
  * program's map from `buildCoreRequirementLabelMap`; pass it in so callers can
  * build it once per program rather than per row.
+ *
+ * Resolution order — `ref` and a unique Core-label match are the only things
+ * that link a row to a real requirement/course. Only rows explicitly marked
+ * `isElective` become shareable elective placeholders; every other unmatched
+ * row stays an inert `static` row (as it rendered before this resolver
+ * existed), so the fix does not silently reclassify unrelated roadmap rows.
  */
 export function resolveRoadmapItemId(
   item: RoadmapItem,
@@ -91,15 +104,25 @@ export function resolveRoadmapItemId(
   coreLabelMap: Map<string, string>,
 ): RoadmapItemResolution {
   if (item.ref) {
-    return { id: item.ref, isElective: false };
+    return { id: item.ref, isElective: false, registered: true };
   }
 
   if (item.label) {
     const requirementId = coreLabelMap.get(normalizeCoreLabel(item.label));
     if (requirementId) {
-      return { id: requirementId, isElective: false };
+      return { id: requirementId, isElective: false, registered: true };
     }
   }
 
-  return { id: electivePlaceholderId(semester.year, semester.semester, index), isElective: true };
+  if (item.isElective) {
+    return {
+      id: electivePlaceholderId(semester.year, semester.semester, index),
+      isElective: true,
+      registered: true,
+    };
+  }
+
+  // Inert label-only (or empty) row with no requirement/course identity and no
+  // elective marker — keep its historical non-shareable placeholder id.
+  return { id: `unknown-${index}`, isElective: false, registered: false };
 }

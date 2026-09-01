@@ -63,14 +63,15 @@ describe('normalizeCoreLabel', () => {
 
 describe('resolveRoadmapItemId', () => {
   it('returns a course/core ref as-is (ref wins)', () => {
-    expect(resolve({ ref: 'COMP313' })).toEqual({ id: 'COMP313', isElective: false });
-    expect(resolve({ ref: 'CORE_SCI1' })).toEqual({ id: 'CORE_SCI1', isElective: false });
+    expect(resolve({ ref: 'COMP313' })).toEqual({ id: 'COMP313', isElective: false, registered: true });
+    expect(resolve({ ref: 'CORE_SCI1' })).toEqual({ id: 'CORE_SCI1', isElective: false, registered: true });
   });
 
   it('resolves a label-only Core row to its requirement id', () => {
     expect(resolve({ label: 'CORE: Scientific Knowledge Tier 1', isElective: true })).toEqual({
       id: 'CORE_SCI1',
       isElective: false,
+      registered: true,
     });
   });
 
@@ -90,10 +91,23 @@ describe('resolveRoadmapItemId', () => {
     expect(r.id).toBe(electivePlaceholderId(2, 'Spring', 4));
   });
 
-  it('falls through to a placeholder for a no-match label', () => {
+  it('falls through to a placeholder for a no-match elective', () => {
     const r = resolve({ label: 'COMP Free Elective', isElective: true }, 1);
     expect(r.isElective).toBe(true);
+    expect(r.registered).toBe(true);
     expect(r.id).toBe(electivePlaceholderId(2, 'Spring', 1));
+  });
+
+  it('keeps a non-elective, no-match, label-only row inert (static, not registered)', () => {
+    // Honors isElective: rows never marked elective are NOT reclassified into
+    // shareable dashed placeholders (prevents the cross-program broadening).
+    const r = resolve({ label: 'Applied Music: Voice (MUSC 280K)', isElective: false }, 3);
+    expect(r).toEqual({ id: 'unknown-3', isElective: false, registered: false });
+  });
+
+  it('treats a bare label-only row (no isElective flag) as inert static', () => {
+    const r = resolve({ label: 'Core' }, 2);
+    expect(r).toEqual({ id: 'unknown-2', isElective: false, registered: false });
   });
 
   it('produces a byte-identical placeholder id (parity with prior behavior)', () => {

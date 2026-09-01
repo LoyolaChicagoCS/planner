@@ -48,7 +48,8 @@ export function getValidProgressIds(programs: Program[], programId?: string, add
     const coreLabelMap = buildCoreRequirementLabelMap(program);
     for (const semester of program.roadmap ?? []) {
       for (const [index, item] of (semester.items ?? []).entries()) {
-        addId(ids, resolveRoadmapItemId(item, semester, index, coreLabelMap).id);
+        const resolution = resolveRoadmapItemId(item, semester, index, coreLabelMap);
+        if (resolution.registered) addId(ids, resolution.id);
       }
     }
   }

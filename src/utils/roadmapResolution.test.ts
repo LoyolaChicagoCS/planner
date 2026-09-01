@@ -1,7 +1,7 @@
 import { describe, it, expect } from 'vitest';
 
 import { PROGRAMS } from '../data/programs';
-import { buildCoreRequirementLabelMap, resolveRoadmapItemId } from './roadmap';
+import { buildCoreRequirementLabelMap, normalizeCoreLabel, resolveRoadmapItemId } from './roadmap';
 import type { Program } from '../types';
 
 /**
@@ -27,8 +27,10 @@ function labelMatchedRows(program: Program): Array<{ label: string; requirementI
   for (const semester of program.roadmap ?? []) {
     (semester.items ?? []).forEach((item, index) => {
       if (item.ref) return;
-      const { id, isElective } = resolveRoadmapItemId(item, semester, index, labelMap);
-      if (!isElective && item.label) rows.push({ label: item.label, requirementId: id });
+      const { id, isElective, registered } = resolveRoadmapItemId(item, semester, index, labelMap);
+      // Genuine requirement match: registered + not an elective placeholder.
+      // Excludes inert `static` rows (registered:false) and elective slots.
+      if (registered && !isElective && item.label) rows.push({ label: item.label, requirementId: id });
     });
   }
   return rows;
@@ -48,6 +50,29 @@ describe('roadmap Core-row resolution', () => {
 
     // Ambiguous "CAS Elective" (x3) must NOT resolve.
     expect(byLabel['CAS Elective']).toBeUndefined();
+  });
+
+  it('never turns a non-elective, non-matching row into a shareable placeholder', () => {
+    // Guards the fix's blast radius: a roadmap row with no `ref`, no
+    // `isElective` flag, and no unique Core-label match must stay inert
+    // (isElective:false, registered:false) rather than becoming a dashed,
+    // share-registered elective slot.
+    const offenders: string[] = [];
+    for (const program of PROGRAMS) {
+      const labelMap = buildCoreRequirementLabelMap(program);
+      for (const semester of program.roadmap ?? []) {
+        (semester.items ?? []).forEach((item, index) => {
+          if (item.ref || item.isElective) return;
+          const matched = item.label && labelMap.get(normalizeCoreLabel(item.label));
+          if (matched) return; // legitimately resolves to a requirement
+          const r = resolveRoadmapItemId(item, semester, index, labelMap);
+          if (r.isElective || r.registered) {
+            offenders.push(`${program.id} Y${semester.year} ${semester.semester}: "${item.label}"`);
+          }
+        });
+      }
+    }
+    expect(offenders, offenders.join('\n')).toEqual([]);
   });
 
   it('matches the committed program-wide resolution snapshot', () => {
